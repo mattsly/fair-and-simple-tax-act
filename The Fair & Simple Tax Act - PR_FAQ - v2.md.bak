@@ -14,7 +14,7 @@
 
 It’s 2025\. We can do better.
 
-Today, bipartisan leaders introduced the Fair & Simple Tax Act, a comprehensive reform built on a straightforward idea: the tax system should be simple enough for ordinary citizens to understand and transparent enough to support honest democratic debate.
+Today, bipartisan leaders introduced the Fair & Simple Tax Act, a comprehensive reform built on a straightforward idea: the tax system should be simple enough for ordinary citizens to understand — and transparent enough to support honest democratic debate.
 
 
 ### **Why simplicity matters**
@@ -25,13 +25,11 @@ When tax rules are opaque, public debate breaks down. Citizens can’t meaningfu
 
 By dramatically simplifying the tax code and making it understandable to anyone, the Fair & Simple Tax Act restores transparency. With fewer moving parts and fewer hidden rules, Americans can once again have productive conversations about shared priorities — what we want government to do, and what we are willing to pay for it.
 
-The current Internal Revenue Code spans 2,600 pages of statute and 10,000 pages of Treasury regulations. The Fair & Simple Tax Act reduces this to fewer than 200 pages — a 95% reduction in complexity.
-
 ### **What this bill does**
 
-No family earning under \$400,000 pays more. The reform is designed so that no household earning under \$400,000 faces a higher federal tax bill than under current law.
-
 Payroll taxes are simplified and made transparent. Employee‑side payroll taxes are removed. Social Security and Medicare are funded through a single, clearly labeled employer contribution. Workers see their full earnings directly, and benefits remain unchanged.
+
+No family earning under \$400,000 pays more. The reform is designed so that no household earning under \$400,000 faces a higher federal tax bill than under current law.
 
 Saving becomes understandable. More than a dozen overlapping savings programs are replaced with one simple, universal account — flexible enough for all life stages, from education to homeownership to retirement.
 
@@ -90,8 +88,8 @@ This section is a factual summary of what the Fair & Simple Tax Act adds, change
 
 ### **Capital Gains and Investment Income**
 
-* Introduces a \$1.5M lifetime capital gains exemption per person  
-* Applies progressive rates to gains above the exemption (15% from \$1.5M–\$3M, 20% from \$3M–\$10M, 27% from \$10M–\$50M, 32% above \$50M)  
+* Introduces a \$1.25M lifetime capital gains exemption per person  
+* Applies progressive rates to gains above the exemption (17% from \$1.25M–\$3M, 20% from \$3M–\$10M, 30% from \$10M–\$50M, 32% above \$50M)  
 * Retains ordinary‑income treatment for short‑term gains  
 * Eliminates stepped‑up basis at death  
 * Eliminates QSBS, NIIT, carried interest, and related carve‑outs  
@@ -105,7 +103,8 @@ This section is a factual summary of what the Fair & Simple Tax Act adds, change
 
 ### **Savings and Accounts**
 
-* Replaces more than 15 tax‑advantaged savings accounts with one universal account: * American Savings Account (ASA)  
+* Replaces more than 15 tax‑advantaged savings accounts with one universal account:  
+  * American Savings Account (ASA)  
 * \$1,000 government seed at birth, \$30,000 annual contribution cap, \$2.5M lifetime cap
 * Contributions withdraw anytime tax-free; gains tax-free after age 60
 * Provides a one‑time conversion option for existing retirement accounts
@@ -169,12 +168,12 @@ Social Security and Medicare remain fully funded. Benefits do not change.
 ### **3\. Capital Gains: Simple, Progressive, and Fair**
 
 * **\$1.5M lifetime exemption per person**  
-* Progressive rates above the exemption (15% from \$1.5M–\$3M, 20% from \$3M–\$10M, 27% from \$10M–\$50M, 32% above \$50M)
+* Progressive rates above the exemption  
 * Same rules for homes, stocks, and businesses  
 * Step-up in basis eliminated  
 * Short-term gains (held less than one year) are taxed as income
 
-(See Q7 for details.)
+(See Q6 for details.)
 
 ### **4\. Family Benefits: Automatic and Universal**
 
@@ -191,39 +190,7 @@ Social Security and Medicare remain fully funded. Benefits do not change.
 
 ---
 
-## **Q2: How much simpler is this really?**
-
-**95% simpler by page count.**
-
-The current tax code:
-
-* Internal Revenue Code: 2,600 pages
-* Treasury Regulations: 10,000 pages
-* Industry compilations (with annotations): 70,000+ pages
-
-The Fair & Simple Tax Act:
-
-* Core provisions: ~200 pages
-* With transition rules: ~300-500 pages maximum
-
-**What gets eliminated:**
-
-* Alternative Minimum Tax (AMT)
-* Phase-outs and income cliffs
-* Itemized deductions (mortgage interest, SALT, charitable)
-* 15+ retirement account types
-* Dozens of credits and carve-outs (QSBS, carried interest, NIIT, etc.)
-* Complex estate planning vehicles
-
-**What automation enables:**
-
-* Pre-filled returns for 95% of filers
-* Third-party reporting closes loopholes automatically
-* No forms, schedules, or professional preparation for most Americans
-
----
-
-## **Q3: Who benefits and who pays more?**
+## **Q2: Who benefits and who pays more?**
 
 ### **The short answer**
 
@@ -236,7 +203,8 @@ The Fair & Simple Tax Act:
 
 * Eliminating payroll taxes alone provides a major tax cut for most workers  
 * Families with children benefit from automatic credits  
-* Capital gains below \$1.5M are tax-free (replaces the primary residence exclusion with a universal lifetime exemption), progressive rates above that (15%/20%/27%/32%)  
+* Capital gains below \$1.25M are tax-free, progressive rates above that
+* Replaces the primary residence exclusion with a universal lifetime exemption)  
 * Very large incomes and very large fortunes contribute more
 
 **In plain terms:**  
@@ -244,7 +212,7 @@ A nurse, a teacher, a small business owner, and a dual-income professional house
 
 ---
 
-## **Q4: Is this plan fiscally responsible?**
+## **Q3: Is this plan fiscally responsible?**
 
 Yes. The Fair & Simple Tax Act is **revenue-neutral today and more durable over time**.
 
@@ -264,7 +232,7 @@ Rather than relying on optimistic growth assumptions, the Act prioritizes **stru
 
 ---
 
-## **Q5: What happens to payroll taxes?**
+## **Q4: What happens to payroll taxes?**
 
 Employees stop paying them. Employers continue funding the system under a renamed contribution. Self-employed workers see the largest proportional cut.
 
@@ -274,19 +242,21 @@ The result is:
 * Lower distortion between wage and non-wage income  
 * Full preservation of Social Security and Medicare benefits
 
-**Does this hide the tax or jeopardize benefits?**
+---
 
-No. Funding is unchanged; benefits are unchanged. The employer Safety Net Contribution (ESNC) fully funds Social Security and Medicare. General revenues backstop the transition. Benefit formulas do not change.
+## **Q4b: Does eliminating employee FICA hide the tax or jeopardize Social Security and Medicare?**
 
-Pay stubs still show the ESNC so workers see the contribution made on their behalf. The tax simply sits where the economic incidence already falls — nothing is hidden.
+*Funding is unchanged; benefits are unchanged.* The employer Safety Net Contribution (ESNC) fully funds Social Security and Medicare. General revenues backstop the transition. Benefit formulas do not change.
 
-One employer-side charge removes duplicative calculations for Schedule C, gig, and capital gains filers, improving compliance and predictability.
+*Nothing is hidden.* Pay stubs still show the ESNC so workers see the contribution made on their behalf. The tax simply sits where the economic incidence already falls.
 
-If visibility is desired, policymakers can retain a small employee line (e.g., 1–2%) while keeping the rest employer-side. The base design maximizes simplicity and preserves funding.
+*Simpler for non-W2 income.* One employer-side charge removes duplicative calculations for Schedule C, gig, and capital gains filers, improving compliance and predictability.
+
+*If visibility is desired,* policymakers can retain a small employee line (e.g., 1–2%) while keeping the rest employer-side. The base design maximizes simplicity and preserves funding.
 
 ---
 
-## **Q6: How do the new income tax brackets work?**
+## **Q5: How do the new income tax brackets work?**
 
 The system uses **five clear brackets**, indexed annually for inflation.
 
@@ -300,25 +270,23 @@ Everyone knows their marginal rate. Everyone pays something. And families under 
 
 ---
 
-## **Q7: How are capital gains, dividends, and investment income taxed?**
+## **Q6: How are capital gains, dividends, and investment income taxed?**
 
 ### **Capital Gains (Asset Appreciation)**
 
 | Cumulative Lifetime Gains |  Marginal Capital Gains Rate |
 | ----- | ----- |
-| \$0 – \$1.5M | **0%** |
-| \$1.5M – \$3M | **15%** |
+| \$0 – \$1.25M | **0%** |
+| \$1.25M – \$3M | **17%** |
 | \$3M – \$10M | **20%** |
-| \$10M – \$50M | **27%** |
+| \$10M – \$50M | **30%** |
 | \$50M+ | **32%** |
 
 Key rules:
 
 * Assets must be held **more than one year** to qualify  
 * Short-term gains are taxed as ordinary income  
-* The exemption is **\$1.5M per person** — married couples filing jointly can combine exemptions for a **\$3M combined exemption**
-* In divorce, each person retains whatever portion of their individual exemption remains unused
-* The exemption applies across all assets — once you've used \$1.5M in gains, you're done
+* The exemption applies once per lifetime, across all assets
 
 This structure protects ordinary wealth-building while ensuring very large gains contribute more.
 
@@ -341,25 +309,22 @@ This ensures the exemption rewards long-term growth, not recurring investment in
 * Foreign dividends are taxed under the same rules as domestic dividends  
 * Taxes paid abroad receive a dollar-for-dollar credit, capped at U.S. tax owed
 
-## **Q8: What is the American Savings Account (ASA)?**
+## **Q7: What is the American Savings Account (ASA)?**
 
-The ASA replaces more than 15 fragmented account types with one simple, universal account that behaves similarly to a ROTH IRA.
+The ASA replaces more than 15 fragmented account types with one simple, universal account.
 
 ### **How it works**
 
 * \$1,000 government seed at birth  
-* Up to \$30,000 in annual contributions (after-tax, indexed — meaning it rises annually with inflation to preserve purchasing power)
+* Up to \$30,000 in annual contributions (after-tax)  
+* \$2.5M lifetime cap (indexed)  
 * Tax-free growth
 
 ### **Withdrawals**
 
 * **Contributions:** Withdraw anytime, tax-free, penalty-free  
-* **Gains before age 60:** Taxed as capital gains, uses lifetime \$1.5M exemption  
-* **Gains after age 60:** Up to \$2.5M in total withdrawals (indexed) are tax-free; gains above \$2.5M are taxed as capital gains
-
-**Example:** You contribute \$2M over your lifetime. It grows to \$8M by age 65. You can withdraw \$2.5M tax-free after age 60. The remaining \$5.5M in gains are taxed as capital gains when withdrawn (using any remaining lifetime exemption, then at 15%/20%/27%/32% rates).
-
-If you've used your full \$1.5M lifetime capital gains exemption elsewhere before age 60, early withdrawal of gains is taxed at the applicable capital gains rate (15%/20%/27%/32% depending on your total lifetime gains).
+* **Gains before age 60:** Taxed as capital gains, uses lifetime \$1.25M exemption  
+* **Gains after age 60:** Tax-free
 
 ### **What it replaces**
 
@@ -371,48 +336,26 @@ Complex savings systems disproportionately benefit higher-income households with
 
 Even early withdrawals benefit from years of tax-free compounding. Leaving gains until age 60 provides maximum benefit.
 
-## **Q9: What happens to my existing 401(k), IRA, or other legacy accounts?**
+## **Q8: What happens to my existing 401(k), IRA, or other legacy accounts?**
 
-You can keep them or convert them — and conversion is designed to be financially attractive for most people.
+You can keep them or convert them.
 
-### **The Conversion Offer**
+* Existing accounts may be converted into the ASA at a one-time **10% tax rate**, payable over time  
+* Converted balances grow and withdraw tax-free  
+* Those who do not convert may keep existing accounts under current rules  
+* No new contributions are allowed to legacy account types after the transition period
 
-* Convert pre-tax retirement accounts (Traditional 401(k), Traditional IRA, SEP, SIMPLE) into the ASA at a **one-time 10% tax rate**
-* The 10% applies only to **pre-tax contributions and gains** — after-tax contributions (like Roth accounts) convert with no additional tax
-* Pay the tax in the year you convert
-* Convert all at once or gradually over multiple years — your choice
-* Once converted, balances grow and withdraw tax-free under ASA rules
+The goal is simplification without forcing disruption.
 
-### **Why this is attractive**
+## **Q9: What is the Child Tax Credit under this plan, and how is it different from today?**
 
-For most savers, this is a significantly better deal than waiting:
-
-* **Lower rate:** 10% is far below the 22-35% marginal rates most retirement savers face today
-* **Tax-free forever:** After conversion, all future growth and withdrawals are tax-free (up to \$2.5M after age 60)
-* **Simplicity:** One account, clear rules, no Required Minimum Distributions
-* **Flexibility:** Convert as much or as little as you want each year to manage your tax bill
-
-**Example:** You have \$500,000 in a Traditional 401(k). You could convert it all at once (pay \$50,000 in taxes that year), or convert \$100,000 per year over five years (\$10,000 in taxes each year). Either way, once converted, that money grows to \$1.5M by retirement — all tax-free. Under the old system, you'd pay 22-35% on every withdrawal.
-
-### **How it works**
-
-* Financial institutions like Fidelity, Schwab, and Vanguard would provide **simple conversion tools** — just like partial Roth conversions today
-* Select "convert all" or "convert \$X amount" 
-* Tax is calculated automatically and due that year
-* No ongoing tracking, no payment plans, no complexity
-* Those who don't convert can keep existing accounts under current rules, but no new contributions are allowed
-
-The goal is simplification without forcing disruption — and giving millions of Americans a clear financial benefit for participating.
-
-## **Q10: What is the Child Tax Credit under this plan, and how is it different from today?**
-
-The Act replaces three overlapping programs (Child Tax Credit, Earned Income Tax Credit, and Child and Dependent Care Credit) which vary by income, work hours, and household structure.
-
+The Act replaces three overlapping programs with one automatic benefit.
 
 * **\$2,500 per child per year**  
 * Automatic, universal, fully refundable  
 * No income limits, phase-outs, or filing requirements
 
+It replaces the current Child Tax Credit, Earned Income Tax Credit, and Child and Dependent Care Credit, which vary by income, work hours, and household structure.
 
 This design reduces errors, removes hidden penalties for earning more, and ensures families receive support reliably and on time.
 
@@ -484,7 +427,7 @@ far outweighs any change in SALT treatment.
 
 **No. The lifetime capital gains exemption protects most home sales — and treats homeowners more fairly over time.**
 
-Under the Fair & Simple Tax Act, each individual receives a **\$1.5 million lifetime capital gains exemption** that applies to *all* long-term gains — including gains from the sale of a primary residence.
+Under the Fair & Simple Tax Act, each individual receives a **\$1.25 million lifetime capital gains exemption** that applies to *all* long-term gains — including gains from the sale of a primary residence.
 
 For most homeowners, this means their home sale remains completely tax-free.
 
@@ -656,7 +599,7 @@ Export to Sheets
 | :---- | :---- | :---- |
 | Employer ESNC (7.65% → 8%, uncapped) | \+\$100B | Modest rate increase \+ removal of wage cap |
 | Higher brackets (\$300K-\$400K at 40%, \$400K+ at 45%) | \+\$170B | Down from higher previous top rate, offset by capital gains increases |
-| Capital gains reform (lifetime brackets) | \+\$100-130B | \$1.5M exemption \+ 15%/20%/27%/32% progressive rates, closing QSBS, carried interest, NIIT |
+| Capital gains reform (lower exemption, higher rates) | \+\$130-160B | \$1.25M exemption \+ 17%/\$30% rates vs. 15%/27% |
 | Step-up elimination at death | \+\$75-100B | \~\$300B in gains currently escape annually |
 | Buy-Borrow-Die (borrowing rule) | \+\$25-50B | Closes asset-backed lending loophole |
 | Corporate rate (21% → 25%) | \+\$80B | \~19% rate increase |
@@ -664,7 +607,7 @@ Export to Sheets
 | SALT deduction → capped credit | \+\$75-100B | Net of new universal credit |
 | Mortgage interest deduction elimination | \+\$30B |  |
 | Reduced tax gap (simpler \= compliance) | \+\$50-75B | \$600B+ gap, capture 10% through simplification |
-| **Total Annual Gains** | **\+\$785B \- \$1,040B** |  |
+| **Total Annual Gains** | **\+\$815B \- \$1,070B** |  |
 
 Export to Sheets  
 ---
@@ -684,9 +627,9 @@ The Great Conversion offers holders of pre-tax retirement accounts (Traditional 
 
 | Scenario | Annual Costs | Annual Gains | Trust Fund Payout | Net |
 | :---- | :---- | :---- | :---- | :---- |
-| Conservative | \-\$1,000B | \+\$785B | \+\$50B | **\-\$165B** |
-| Mid | \-\$1,000B | \+\$910B | \+\$50B | **\-\$40B** |
-| Optimistic | \-\$1,000B | \+\$1,040B | \+\$50B | **\+\$90B** |
+| Conservative | \-\$1,000B | \+\$815B | \+\$50B | **\-\$135B** |
+| Mid | \-\$1,000B | \+\$940B | \+\$50B | **\-\$10B** |
+| Optimistic | \-\$1,000B | \+\$1,070B | \+\$50B | **\+\$120B** |
 
 Export to Sheets
 
@@ -1793,7 +1736,7 @@ Our \$5M exemption remains among the most generous in the developed world.
 
 **Income Tax:** Our 45% top rate aligns with UK and Australian peers while maintaining progressive structure. With state taxes, top marginal rates remain under 55% depending on state.
 
-**Capital Gains:** Our \$1.5M lifetime exemption \+ progressive rates (15-32%) are competitive globally. Most Americans pay 0-15%. Only the ultra-wealthy approach rates charged in Nordic countries.
+**Capital Gains:** Our \$1.25M lifetime exemption \+ progressive rates (17-32%) are competitive globally. Most Americans pay 0-17%. Only the ultra-wealthy approach rates charged in Nordic countries.
 
 **Corporate:** Our 25% matches UK/France exactly. Above US current law, but middle of OECD pack.
 
