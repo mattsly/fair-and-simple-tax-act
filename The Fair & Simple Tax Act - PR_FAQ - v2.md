@@ -287,7 +287,7 @@ If visibility is desired, policymakers can retain a small employee line (e.g., 1
 
 ## **Q6: How do the new income tax brackets work?**
 
-The system uses **five clear brackets**, indexed annually for inflation.
+The system uses **six clear brackets**, indexed annually for inflation.
 
 There are:
 
@@ -321,19 +321,40 @@ Key rules:
 
 This structure protects ordinary wealth-building while ensuring very large gains contribute more.
 
+### **Capital Losses**
+
+* Capital losses can offset capital gains **without limit**
+* Net capital losses can be deducted against ordinary income up to **\$3,000 per year** (same as current law)
+* Unused losses **carry forward indefinitely** to future years
+* No carryback to prior years
+
+**Example:**
+* Year 1: \$50K capital gains, \$80K capital losses = \$30K net loss
+* Deduct \$3K against ordinary income in Year 1
+* Carry forward \$27K to Year 2
+* Year 2: \$20K capital gains - \$27K carried loss = \$7K net loss
+* Deduct \$3K against ordinary income in Year 2, carry forward \$4K to Year 3
+
+This matches current law and provides reasonable loss recognition without creating gaming opportunities.
+
 ### **Dividends (Investment Yield)**
 
-* The distinction between 'qualified' and 'ordinary' dividends is eliminated  
-* **All dividends are taxed annually at investment income rates**  
-* **Dividends do not qualify for the lifetime exemption**
+* **Qualified dividends** — Taxed at capital gains rates (0%, 15%, 20%, 27%, 32% depending on cumulative capital gains), same as current law
+* **Ordinary dividends** — Taxed as ordinary income
+* **Exemption treatment:** Dividends do NOT count against the $1.5M lifetime exemption
+* This preserves the exemption for actual capital appreciation (buy-and-hold growth), not recurring distributions
 
-This ensures the exemption rewards long-term growth, not recurring investment income.
+**Why this structure:**
+- The exemption rewards patient capital and business growth, not income-harvesting
+- Dividends are a corporate distribution decision, not a shareholder risk-taking decision
+- Keeping preferential dividend rates prevents a tax hike on existing investors
+- Simpler bookkeeping: all dividends at cap rates (whether they qualify or not), exemption reserved for appreciation gains
 
 ### **Interest Income**
 
-* Interest, including from municipal bonds, is taxed as ordinary income  
-* Issuer-based exemptions are eliminated  
-* The same rules apply to everyone
+* **Interest from municipal bonds** — Tax-exempt (no change from current law; protects public sector capital flows)
+* **All other interest** — Taxed as ordinary income
+* This maintains the traditional tax incentive for investing in state/local infrastructure
 
 ### **Carried Interest (Investment Manager Compensation)**
 
@@ -1537,6 +1558,7 @@ Real estate alone gets a loophole that allows permanent tax-free wealth accumula
 
 ### **Examples: How this works**
 
+
 **Example 1: Mom-and-Pop Landlord (Protected)**
 
 **Situation:**
@@ -1701,199 +1723,122 @@ What disappears is the ability to defer taxes indefinitely by chaining 1031s acr
 
 ## **Q19: How does this affect pass-through businesses (S-Corps, LLCs, partnerships)?**
 
-**The Fair & Simple Tax Act actively encourages broad-based entrepreneurship by treating documented capital investments preferentially. If you invest your own money to start or grow a business, you get preferential capital gains treatment on a 15% annual return for up to 10 years. Income above that threshold is taxed as ordinary income. This eliminates arbitrage games while genuinely rewarding business risk-taking.**
+**Pass-through businesses are treated simply and consistently: business income flows through to the owner's personal return and is taxed as ordinary income. The Employer Share National Contribution (ESNC, 8%) replaces self-employment tax on wages and self-employment income. Distributions continue to avoid payroll tax, following current law's reasonable compensation framework. Entrepreneurship is rewarded through capital gains treatment at exit, not through annual operational preferences.**
 
-The current tax system creates a perverse incentive structure for pass-through businesses:
+The current tax system for pass-through businesses is messy:
 
-* **S-corp owners minimize W-2 wages** and maximize distributions (to avoid self-employment tax)
-* **PE fund managers claim carried interest as capital gains** (compensation arbitrage)
-* **Passive investors get preferential rates** while active risk-takers get penalized
-* **Inherited business wealth avoids tax through stepped-up basis**, while a founder risks everything for ordinary income rates
+* **Self-employment tax** at 15.3% (both employer and employee share)
+* **S-corp owners** minimize W-2 wages and maximize distributions to avoid SE tax
+* **"Reasonable compensation" debates** create uncertainty and compliance costs
+* **QBI deduction (Section 199A)** adds complexity with phase-outs and restrictions
+* **Carried interest loophole** allows compensation to be taxed as capital gains
 
-This is backwards. Risk-taking should be rewarded, not penalized. Inheritance should be taxed, not subsidized.
+The Fair & Simple Tax Act simplifies this by focusing on what matters: operational income is ordinary income, appreciation at exit is capital gains.
 
-The Fair & Simple Tax Act inverts these incentives.
+### **How pass-through taxation works under Fair & Simple**
 
-### **The current pass-through arbitrage**
+**For all pass-through entities (S-Corps, LLCs, partnerships, Schedule C):**
 
-Under current law, a business owner faces powerful incentives to game the system:
+1. **Wages and self-employment income** — Subject to 8% ESNC (Employer Share National Contribution)
+2. **Distributions** — Avoid payroll tax (follows current law's reasonable compensation framework)
+3. **All income** — Taxed as ordinary income on owner's personal return (no operational capital gains treatment)
+4. **At sale/exit** — Capital gains treatment using lifetime exemption, then progressive capital gains rates (15-20%)
+5. **QBI deduction (Section 199A)** — Eliminated (simplification)
+6. **Carried interest loophole** — Closed (all compensation is ordinary income)
 
-**Scenario: You own an S-Corp with \$500K annual profit**
+**The practical effect:**
 
-**Current law arbitrage strategy:**
-* Take \$150K W-2 salary (subject to 15.3% SE tax ≈ \$23K)
-* Take \$350K distribution (avoiding SE tax, and some hope it's treated as capital gain ≈ 15-20% tax ≈ \$52-70K)
-* **Total tax: ~\$75-93K (~15-18% effective rate)**
+* **S-Corp owners** still follow reasonable compensation rules (as they do today)
+* **Self-employed** pay 8% ESNC instead of 15.3% SE tax (saves ~7%)
+* **No new compliance burdens** — uses existing structures
+* **Simpler than current law** — no QBI phase-outs, no arbitrary thresholds
+* **Entrepreneurship rewarded at exit** — capital gains on business sale, just like today
 
-**Compare to identical W-2 employee earning \$500K:**
-* Subject to 40% bracket under Fair & Simple = \$200K tax
-* **vs. S-corp owner: \$75-93K**
-* **Difference: \$107-125K/year** in saved taxes through entity choice
+---
 
-**This tax-driven decision-making distorts business formation.**
+### **Example: The Parkers' HVAC Business (S-Corp, \$500K profit)**
 
-Entrepreneurs don't choose S-corp vs. LLC based on liability protection or management structure. They choose based on tax arbitrage. They spend money on CPAs and tax lawyers to optimize between W-2 wages and distributions. All of that is deadweight loss.
+**Current Law:**
+* W-2 salary: \$150K (SE tax: 15.3% = \$23K)
+* Distributions: \$350K (avoids SE tax)
+* Income tax on \$500K: ~\$52K
+* **Total federal tax: ~\$75K (15% effective rate)**
 
-Meanwhile, a founder with genuine capital at risk pays higher rates than a trust fund investor holding inherited stock.
+**Under Fair & Simple:**
+* W-2 salary: \$150K (ESNC: 8% = \$12K)
+* Distributions: \$350K (avoids ESNC, same as current)
+* Income tax on \$500K at ordinary brackets: ~\$98K
+* **Total federal tax: ~\$110K (22% effective rate)**
+* **Change: +\$35K/year**
 
-### **How Fair & Simple restructures pass-through taxation**
+**The Parkers' take:** "We pay more because FICA was artificially low and ordinary brackets are more progressive. But we're still keeping \$390K after tax, and there's no more 'reasonable compensation' guesswork."
 
-**Three components:**
+---
 
-1. **15% Annual Capital Return** — On documented capital invested, owners get preferential capital gains treatment
-2. **Ordinary Income on Excess** — Profit above the capital return is taxed as ordinary business income at the owner's ordinary income bracket
-3. **Capital Gains Treatment at Sale** — When business is sold/exited, gains get capital gains rates (using lifetime exemption first)
+### **Example: Lisa's LLC Consulting Business (\$250K profit)**
 
-**The math:**
+**Current Law:**
+* Schedule C income: \$250K
+* Self-employment tax: 15.3% = \$38,250
+* Income tax: ~\$38,500
+* **Total federal tax: ~\$76,750 (30.7% effective rate)**
 
-```
-You invest $200,000 to start a consulting business.
-Annual profit: $500,000
+**Under Fair & Simple:**
+* Schedule C income: \$250K
+* ESNC: 8% = \$20,000
+* Income tax at ordinary brackets: ~\$53K
+* **Total federal tax: ~\$73K (29.2% effective rate)**
+* **Change: Saves ~\$3,750/year**
 
-Capital return calculation:
-- Documented capital investment: $200,000
-- 15% annual return: $30,000
-- Treatment: $30,000 taxed at capital gains rates (15-20% depending on lifetime gains)
+**Lisa's take:** "I save money because SE tax dropped from 15.3% to 8%. My income taxes went up slightly due to no QBI deduction, but overall I'm ahead."
 
-Excess business income:
-- $500,000 total profit - $30,000 capital return = $470,000
-- Treatment: Taxed as ordinary business income at your ordinary bracket (maybe 32% if you're mid-to-upper income)
+---
 
-Total tax:
-- $30,000 × 20% (capital gains rate) = $6,000
-- $470,000 × 32% (ordinary income rate) = $150,400
-- Total: ~$156,400 (~31% effective rate)
-- After-tax: ~$343,600
-```
+### **Example: Dr. Chen's Medical Practice (S-Corp, \$350K profit)**
 
-Compare this to current law's arbitrage (\$75-93K in taxes) and to a pure W-2 employee (\$200K in taxes):
+**Current Law:**
+* W-2 salary: \$120K (SE tax: ~\$18K)
+* Distributions: \$230K
+* Income tax: ~\$52K
+* **Total federal tax: ~\$70K (20% effective rate)**
 
-* **Current law (arbitrage): \$75-93K** — But requires aggressive tax planning
-* **Fair & Simple (15% capital return): \$156K** — Clean, objective, no tax planning
-* **W-2 employee: \$200K** — No leverage, no business ownership
+**Under Fair & Simple:**
+* W-2 salary: \$120K (ESNC: \$9.6K)
+* Distributions: \$230K
+* Income tax: ~\$88K
+* **Total federal tax: ~\$97.6K (27.9% effective rate)**
+* **Change: +\$27.6K/year**
 
-**Result:** Business ownership is still advantageous (saves ~\$40-50K vs. W-2), but you're not gaming the system.
+**Dr. Chen's take:** "I pay more because payroll tax on distributions still avoids ESNC, but ordinary income brackets are more progressive. Still, no more CPA games about what salary is 'reasonable.'"
 
-### **Key mechanics: How the 15% capital return works**
+---
 
-**What qualifies as "documented capital"?**
+### **Why not give annual operational tax breaks to business owners?**
 
-Capital contributions show up on Schedule K-1 (pass-through tax return). You must show:
-* Cash contributions to the business
-* Property contributions (at fair market value)
-* Any other documented capital injection
+**We considered several approaches:**
+* Capital return on documented investment (complex, gameable)
+* First \$X per person as capital gains (creates W-2 vs. consultant arbitrage)
+* Minimum profit thresholds (arbitrary, doesn't help startups)
 
-**What doesn't qualify?**
-* Retained earnings (already taxed to you)
-* Debt financing (you pay interest, which is deductible)
-* Inherited business (zero documented capital contribution; pass to next owner at stepped-up basis)
+**The problem:** Every operational tax break either:
+1. Creates new gaming opportunities (parking cash, reclassifying income)
+2. Favors wealthy investors over sweat equity founders
+3. Adds complexity that contradicts "Fair & Simple"
 
-**Annual calculation:**
+**The solution: Reward entrepreneurship at exit, not annually**
 
-| Year | Opening Capital | 15% Return | Treatment | Remaining Profit |
-| :---- | :---- | :---- | :---- | :---- |
-| 1 | \$200,000 | \$30,000 | Capital gains (15-20%) | \$470,000 ordinary |
-| 2 | \$200,000 | \$30,000 | Capital gains (15-20%) | \$470,000 ordinary |
-| 3 | \$200,000 | \$30,000 | Capital gains (15-20%) | \$470,000 ordinary |
-| ... | | | | |
-| 10 | \$200,000 | \$30,000 | Capital gains (15-20%) | \$470,000 ordinary |
-| 11+ | \$200,000 | N/A | N/A | \$500,000 ordinary |
+* During operations: All income is ordinary income (clean, simple, hard to game)
+* At sale: Full capital gains treatment with \$1.5M lifetime exemption
+* This rewards genuine business-building without creating new loopholes
 
-**After 10 years**, the capital return benefit expires. All profit becomes ordinary income. If you want to preserve the benefit, you must exit (sell, liquidate, or transfer the business).
+**Example — Sweat Equity Founder:**
+* Invests \$0 cash, builds consulting business over 10 years
+* Annual profit \$200K: Pays ordinary income tax each year
+* Year 10 exit: Sells for \$3M (basis \$0, gain \$3M)
+* Uses full \$1.5M exemption (pays \$0) + 15% on \$1.5M = \$225K tax
+* **After-tax proceeds: \$2.775M (92.5%)**
 
-**Time limits:**
-
-* **Duration:** Capital return available for up to 10 years from date of investment
-* **Use it or lose it:** Unused capital return in Year 1 doesn't carry forward to Year 2
-* **Business sale/exit:** Benefit ends upon sale; gains from sale get capital gains treatment (using remaining lifetime exemption)
-
-### **Exemption interaction: Capital returns count against \$1.5M lifetime exemption**
-
-This is critical and prevents abuse:
-
-**Example: You get \$30K/year capital return for 10 years**
-* Total capital return benefit: \$300K (at capital gains rates)
-* This **counts against your \$1.5M lifetime capital gains exemption**
-* When you sell your business at Year 15 for a \$4M gain:
-  - Remaining exemption: \$1.5M - \$300K = \$1.2M
-  - Tax: 15% on \$1.2M + 20% on \$2.8M = \$736K
-  - After-tax proceeds: \$3.264M (82%)
-
-**Why this is fair:**
-* You got preferential treatment on capital returns
-* But that consumed part of your lifetime exemption
-* No double-dipping: You can't get capital gains rates on capital returns AND get a separate \$1.5M exemption for the sale
-
-**This also prevents abuse:**
-* Someone can't claim \$500K/year capital return on \$200K invested (IRS flags immediately: 250% ≠ 15%)
-* The exemption creates a natural brake—wealthy business owners eventually "use up" their exemption and face higher rates on subsequent investments
-
-### **Examples: How this works across different business types**
-
-**Example 1: Tech Startup Founder**
-
-**Situation:**
-* You invest \$300K in a software startup (SaaS business)
-* Year 5 revenue: \$2M, net profit: \$400K
-* You're in 32% ordinary bracket on lifetime gains
-
-**Tax calculation:**
-* Capital return: 15% × \$300K = \$45K (at capital gains rate)
-* Excess profit: \$400K - \$45K = \$355K (at ordinary income rate)
-* Tax: (\$45K × 20%) + (\$355K × 32%) = \$9K + \$113.6K = \$122.6K
-* **Effective rate: ~31%**
-* After-tax profit: \$277.4K
-
-**After 10 years, if you sell for \$50M (basis \$300K):**
-* Gain: \$49.7M
-* Capital return used: \$450K (10 years × \$45K/year)
-* Remaining exemption: \$1.05M
-* Tax: 15% on \$1.05M + 20% on \$24M + 27% on \$24.65M = ~\$13.5M
-* After-tax proceeds: ~\$36.2M (73%)
-* **vs. current law (20% capital gains): \$39.76M (80%)**
-* **Delta: -7% but you paid ordinary rates on operating profit along the way, not just capital gains on sale**
-
-**Why this is fair:** You got 10 years of preferential treatment on capital returns, but you're paying ordinary rates on excess profit. That's the trade.
-
-**Example 2: Family Medical Practice**
-
-**Situation:**
-* Three doctors each invested \$150K to start a practice
-* Total capital: \$450K
-* Year 7 annual profit: \$600K (split three ways = \$200K each)
-
-**Per-doctor tax calculation:**
-* Capital return: 15% × \$150K = \$22.5K (at capital gains rate)
-* Share of excess profit: \$200K - \$22.5K = \$177.5K (at ordinary income rate)
-* If each doctor in 32% bracket: (\$22.5K × 20%) + (\$177.5K × 32%) = \$4.5K + \$56.8K = \$61.3K
-* **Effective rate: ~31%**
-* After-tax: \$138.7K each
-
-**vs. current law (no capital gains treatment, straight ordinary income):**
-* \$200K × 32% = \$64K tax
-* After-tax: \$136K each
-* **Delta: +\$2.7K after-tax per doctor (~2% advantage)**
-
-**Why this is fair:** Doctors get modest benefit for capital risk, but they're still paying ordinary rates on the bulk of operating income. This isn't a loophole; it's reasonable reward for investment risk.
-
-**Example 3: Retail Store Owner**
-
-**Situation:**
-* You invest \$80K in a retail store
-* Year 6 annual profit: \$150K
-* You're in 24% ordinary bracket (modest earner)
-
-**Tax calculation:**
-* Capital return: 15% × \$80K = \$12K (at capital gains rate)
-* Excess profit: \$150K - \$12K = \$138K (at ordinary income rate)
-* Tax: (\$12K × 15%) + (\$138K × 24%) = \$1.8K + \$33.1K = \$34.9K
-* **Effective rate: ~23%**
-* After-tax: \$115.1K
-
-**vs. current law (W-2 employee earning \$150K):**
-* \$150K × 24% = \$36K tax
-* After-tax: \$114K
-* **Delta: +\$1.1K (business owner keeps slightly more)**
+That's the reward — you pay ordinary rates on operational cashflow, but when you cash out, you get preferential capital gains treatment. That's fair, simple, and hard to game.
 
 **Why this is fair:** Small business owner gets modest tax advantage for risk, but it's reasonable, not a loophole. And it applies equally whether you're a tech founder, doctor, lawyer, or store owner.
 
@@ -1953,7 +1898,7 @@ Because documented capital investment by an active business owner creates real e
 
 ---
 
-### **Eliminating the S-Corp election as a tax strategy**
+### **Why the S-Corp election becomes irrelevant**
 
 **Current law benefit of S-corp election:**
 * Low W-2 salary + high distributions = save 3-5% in self-employment tax
@@ -1961,8 +1906,8 @@ Because documented capital investment by an active business owner creates real e
 * Creates endless disputes and gaming
 
 **Under Fair & Simple:**
-* Both S-corp and LLC/Partnership get the same treatment: 15% capital return on documented investment
-* Excess profit is ordinary income regardless of entity choice
+* Both S-corp and LLC/Partnership get identical treatment: 8% ESNC on wages + distributions, then ordinary income
+* All profit is ordinary income regardless of entity choice
 * **S-corp election becomes irrelevant for tax purposes**
 * Owners choose entity structure for business reasons (liability, management, state law), not tax optimization
 
@@ -1970,76 +1915,203 @@ Because documented capital investment by an active business owner creates real e
 
 ---
 
-### **Self-employment tax under the new system**
+### **Revenue impact**
 
-**Question:** If pass-through owner gets capital return treatment, do they pay any SE tax?
+**Lower payroll tax burden, but higher income taxes:**
 
-**Answer:** No explicit self-employment tax, but it's incorporated into the ordinary income tax:
+* **Self-employed:** 15.3% SE tax → 8% ESNC = saves ~7.3%
+* **S-Corp owners:** Still follow reasonable compensation rules, but save 7.3% on wage portion
+* **QBI deduction eliminated:** Adds complexity offset (most businesses pay slightly more on income portion)
 
-* **Old system:** \$500K income = \$45K SE tax (approx. 9% on top of income tax)
-* **Fair & Simple:** Capital return taxed at capital rates (no SE component); ordinary income component already includes the income tax (which is higher than old system for that portion)
-* **Net effect:** SE tax is replaced by higher ordinary income tax on the ordinary income component
-* **For capital return component:** Taxed at capital rates (no SE equivalent)
+**Net revenue: Roughly neutral**
 
-**Example:**
-* Old system: \$30K capital return = \$30K × 15.3% SE tax = \$4.59K (on top of income tax)
-* Fair & Simple: \$30K capital return = taxed at capital rates = \$30K × 20% = \$6K (replaces SE tax)
-* Old system: \$470K ordinary = \$470K × 15.3% SE tax ≈ \$72K (on top of income tax)
-* Fair & Simple: \$470K ordinary = taxed as ordinary income at bracket rates (consolidated, no separate SE tax)
+* Savings from lower payroll tax (~\$50B/year)
+* Offset by elimination of QBI deduction and closing minor arbitrage games (~\$50B/year)
+* **No significant revenue impact from pass-through changes**
 
-**Result:** Self-employment tax mechanics are simplified into ordinary income taxation.
+This reflects the policy choice: **We're simplifying the system without squeezing small business.**
 
 ---
+
+## **Q20: How does this plan handle income earned outside the U.S.?**
+
+**Simple answer: U.S. citizens and residents are taxed on worldwide income using the same rules as domestic income. Foreign earned income is ordinary income. Foreign business income follows pass-through rules. Foreign capital gains use the lifetime exemption. Foreign tax credit continues. GILTI, Subpart F, and PFIC complexity are eliminated.**
+
+The current system for international taxation is unnecessarily complex:
+
+* **GILTI (Global Intangible Low-Taxed Income)** — Attempts to tax foreign corporate profits at a minimum 10.5% rate, creating massive planning opportunities
+* **Subpart F** — Complicated rules that try to prevent deferral of certain foreign income
+* **PFIC (Passive Foreign Investment Company)** — Oppressive rules on foreign mutual funds and corporations
+* **Foreign Tax Credit** — Legitimate mechanism to avoid double taxation, but operates alongside the above complexity
+* **Foreign Earned Income Exclusion (FEIE)** — Allows \$120K+ of foreign wages to escape U.S. tax if you live abroad
+
+**Problems:** These rules are so complex that they create tax planning opportunities instead of closing them. They discourage legitimate foreign investment and create compliance nightmares for both individuals and multinational corporations.
+
+### **How foreign income works under Fair & Simple**
+
+**Same rules everywhere — apply the same tax code:**
+
+1. **Foreign earned income** — Taxed as ordinary income at regular brackets (5%, 15%, 27%, 38%, 40%, 45%)
+2. **Foreign business income** — Follows pass-through rules (8% ESNC for self-employment income, ordinary income rates for business profit)
+3. **Foreign capital gains** — Uses lifetime exemption (\$1.5M per person), progressive rates (0%, 15%, 20%, 27%, 32%)
+4. **Foreign dividends** — Qualified dividends taxed at capital gains rates (don't use exemption), ordinary dividends as ordinary income
+5. **Foreign tax credit** — Continues (credit for foreign taxes paid to avoid double taxation)
+6. **GILTI, Subpart F, PFIC** — Eliminated entirely (no special rules for foreign corporations or investors)
+
+**Key principle:** A dollar earned in London, São Paulo, or Tokyo is taxed the same way as a dollar earned in New York. No preferences, no deferral, no special categories.
+
+### **What this eliminates**
+
+**GILTI (the biggest complexity):**
+* **Current:** Foreign corporations earning over 10.5% on intangible assets are subject to GILTI taxation
+* **Under Fair & Simple:** Foreign corporations are not subject to U.S. tax as entities (they pay 25% corporate tax in their home country). Their dividends paid to U.S. owners are taxed as capital gains (0-32%) when received, consistent with all other dividends.
+
+**Subpart F (deferred income antideferal):**
+* **Current:** Certain foreign income (like interest, dividends, royalties) must be included in taxable income in the current year, even if not distributed
+* **Under Fair & Simple:** Foreign business income flows through the same way as domestic business income. For pass-through businesses, all business profit is ordinary income whether earned domestically or abroad. For corporations, dividends are taxed when received.
+
+**PFIC (punishment for foreign funds):**
+* **Current:** U.S. persons investing in foreign mutual funds face mark-to-market taxation and complicated inclusion rules
+* **Under Fair & Simple:** Foreign investments in mutual funds/ETFs are taxed the same as domestic ones. Annual gains inside the fund are not taxed (only when you sell), gains on the sale are capital gains using the lifetime exemption.
+
+**FEIE (foreign earned income exclusion):**
+* **Current:** If you live abroad, you can exclude \~\$120K of foreign wages from U.S. tax
+* **Under Fair & Simple:** You're taxed on worldwide income regardless of where you live. BUT ordinary brackets are lower (5%, 15%, 27%, 38%, 40%, 45% max), and the tax is applied consistently worldwide.
+
+### **Why this approach wins**
+
+**Clarity:** Same rule everywhere. No special categories, no deferral games, no planning opportunities disguised as "legitimate tax positions."
+
+**Competitiveness:** U.S. businesses competing abroad don't face punitive GILTI rates (currently 10.5%, effectively higher with add-backs). They face the same 25% corporate rate as their foreign competitors.
+
+**Fairness:** A teacher earning \$80K in Chicago pays the same tax as a teacher earning \$80K in London. An investor in Apple stock pays the same tax whether Apple earns profit domestically or abroad (and receives a dividend).
+
+**Compliance:** Foreign tax credit still works. If you pay \$20K in tax to Germany, you can credit it against your U.S. tax bill (up to your U.S. tax liability). This is legitimate and continues.
+
+### **Example: U.S. Expat Working in the UK**
+
+**Situation:** You're a U.S. citizen earning \$200K salary in London, paying \$50K UK tax
+
+**Current law (with FEIE):**
+* UK tax: \$50K
+* U.S. tax: \$0 (covered by FEIE exclusion)
+* **Total tax: \$50K (25% effective rate)**
+
+**Under Fair & Simple:**
+* UK tax: \$50K
+* U.S. tax: \$200K at ordinary brackets = \$53K
+* Foreign Tax Credit: \-\$50K (offset against U.S. tax)
+* **Net U.S. tax: \$3K**
+* **Total tax: \$53K (26.5% effective rate)**
+
+**Analysis:** Slightly higher tax than FEIE, but: (a) UK tax is already quite high, (b) no more games about where you're "tax resident," (c) you get a real credit for foreign taxes paid, (d) simpler.
+
+**For high earners it's roughly equal,** for lower earners it might be slightly more. But the rule is the same everywhere, and there's no planning involved.
+
+### **Example: U.S. Investor with Foreign Holdings**
+
+**Situation:** You own shares in a UK company and receive dividends; company earns \$100K profit, pays you \$30K dividend
+
+**Current law:**
+* GILTI inclusion: Complex — depends on whether it's Subpart F income, whether it's a CFC, whether you have other foreign income
+* Foreign Tax Credit: Required to navigate
+* Possible deferral: If structured as holding company, profit might not be taxed until you sell
+
+**Under Fair & Simple:**
+* Foreign company earns \$100K: Taxed at 25% in UK (normal UK corporation tax)
+* Pays you \$30K dividend: You receive it as foreign dividend income
+* U.S. tax: \$30K × 0% (if within lifetime exemption for qualified dividends) or 15-32% (if above exemption), per regular rules
+* Foreign Tax Credit: UK has already taxed the corporate profit at 25%; this is your credit against dividend tax
+
+**Analysis:** Much simpler. You're taxed on what you actually receive (the dividend), not on theoretical deferred income.
 
 ### **Revenue impact**
 
-Eliminating S-corp arbitrage games captures:
+**International tax reform is broadly revenue-neutral:**
 
-* **Immediate:** \$15-20B/year (closing SE tax avoidance schemes)
-* **Behavioral:** \$10-15B/year (simplified compliance reduces gaming opportunities)
-* **Gross revenue:** \$25-35B/year
+* **GILTI elimination:** Loses revenue (currently raises \~\$10-15B/year), offset by 25% corporate rate increase (raises more revenue overall on foreign subsidiaries)
+* **Subpart F elimination:** Simplifies compliance but not major revenue change
+* **FEIE elimination:** Small revenue gain (\~\$5-10B/year from high-earning expats)
+* **PFIC simplification:** Compliance benefit (people actually comply), minimal revenue impact
 
-**Offset by:**
-* Capital return preference for legitimate small businesses: -\$5-10B/year
-* **Net revenue:** \$15-25B/year
+**Net:** Roughly breaks even. The real benefit is compliance, simplicity, and end to "tax planning" strategies that don't reflect economic reality.
 
-This is modest compared to carried interest (\$50-80B) or estate planning loopholes (\$90-170B), but it reflects the policy choice: **We're not trying to squeeze small business. We're rewarding real risk-taking while closing loopholes.**
+### **International competitiveness**
 
----
-
-### **The fairness argument**
-
-**Current system is unfair:**
-
-| Person | Investment | Risk | Tax Rate |
-| :---- | :---- | :---- | :---- |
-| Business founder (S-corp game) | \$200K | Very high | 15-18% (arbitrage) |
-| Business founder (Fair & Simple) | \$200K | Very high | ~31% (legitimate) |
-| Stock market investor | \$200K | Low | 15-20% (passive) |
-| Trust fund heir | \$0 | None | 0% (step-up) |
-
-**Fair & Simple inverts this:**
-
-| Person | Investment | Risk | Tax Rate |
-| :---- | :---- | :---- | :---- |
-| Business founder | \$200K | Very high | ~31% (15% capital return + ordinary on excess) |
-| Stock market investor | \$200K | Low | 15-20% (capital gains) |
-| Trust fund heir | \$0 | None | Full tax (no step-up) |
-| Inherited business | \$0 | None | Taxed at death, then heir pays ordinary rates on new profit |
-
-**Result:** Risk-taking is rewarded (business founder saves ~\$15K vs. W-2 employee, gets capital gains on sale), passive investing is modest (capital gains rates), inherited wealth is taxed normally.
-
-That's fair. That's consistent. That encourages entrepreneurship without subsidizing dynasty wealth.
+U.S. businesses no longer face GILTI penalties when earning abroad. They compete on level footing with foreign businesses paying their home country's corporate rate (typically 20-25%). This makes U.S. investment and business operations more competitive globally.
 
 ---
 
-### **The bottom line**
+## **Q21: How do trusts work under this plan? Can I use them to avoid paying tax forever?**
 
-Pass-through businesses aren't penalized; they're actively encouraged. If you invest your own capital and take the operational risk, you get preferential capital gains treatment on 15% annual returns for up to 10 years. That's a real benefit.
+**No. Trusts can still be used for estate planning, liability protection, and managing beneficiary distribution — but not for tax deferral. Income retained in a trust is taxed to the trust at the top marginal rate (45%) in the year earned. Distributions to beneficiaries are taxed as ordinary income (or capital gains if the trust distributes capital gains). The lifetime capital gains exemption is per-person and doesn't transfer through trusts or multiply across generations.**
 
-But it's not a loophole. It's not unlimited. It's not arbitrage. It's a deliberate policy choice to reward the kind of broad-based entrepreneurship that makes America competitive: tech founders, family doctors, small manufacturers, retail store owners, law firms, construction companies.
+The current system allows wealthy families to use trusts for permanent tax deferral:
 
-That's how you build an economy from the bottom up instead of from inherited wealth down.
+* **Dynasty trusts** accumulate income and never distribute, deferring tax indefinitely
+* **Grantor Retained Annuity Trusts (GRATs)** transfer appreciating assets tax-free (covered in Q16)
+* **Intentionally Defective Grantor Trusts (IDGTs)** use below-market loans to shift wealth
+* **Perpetual trusts in some states** (like Alaska, Nevada) let assets grow tax-free across generations
+
+Fair & Simple eliminates the tax deferral game without disrupting legitimate trust uses.
+
+### **How trusts are taxed under Fair & Simple**
+
+**For income retained by the trust:**
+* **Income stays in trust** = Trust pays 45% tax on that income in the year earned
+* No multi-generational deferral, no accumulation strategy
+
+**For distributions to beneficiaries:**
+* **Ordinary income distributed** = Beneficiary pays ordinary income tax at their rate
+* **Capital gains distributed** = Beneficiary uses their portion of lifetime exemption, then pays capital gains rates
+* **Principal (non-income) distributed** = Tax-free (it's already been taxed at some point)
+
+**For the lifetime capital gains exemption:**
+* Each person gets one \$1.5M exemption (couples \$3M), usable any time during life or at death
+* **Exemption does not transfer through trusts or multiply across family members**
+* If you use your \$1.5M exemption during life, your kids get their own fresh \$1.5M at their death/during their life
+* No dynasty planning, no exemption multiplication
+
+### **Example: Family Accumulation Trust**
+
+**Current Law:**
+* You create a trust, fund it with \$10M in stocks
+* Trust accumulates dividends and capital gains (doesn't distribute)
+* Over 30 years: Grows to \$30M, gains \$20M unrealized
+* At your death: Heirs get step-up basis, inherit \$30M tax-free
+* **Tax on \$20M of gains: \$0**
+
+**Under Fair & Simple:**
+* You create a trust, fund it with \$10M in stocks
+* Trust earns \$1M in annual dividends and gains
+* Trust pays 45% tax (\$450K) on that income each year
+* Over 30 years: Trust pays \~\$13.5M in accumulated income tax
+* Remaining growth (\$16.5M) still taxable to heirs when distributed
+* **Tax on \$20M of gains: \~\$13.5M + ongoing tax on distributions**
+
+**Result:** Trust is still useful for management and liability protection, but not for tax deferral. Wealthy families can't park assets in a trust and avoid tax forever.
+
+### **Why this closes the loophole**
+
+**Current system:** Defer income in trust, never distribute, heirs get step-up basis, multigenerational wealth compounds tax-free.
+
+**Fair & Simple:** 
+1. Deferral is expensive (45% annual tax on retained income)
+2. Step-up basis is gone (exit = realization)
+3. Exemption doesn't multiply (one per person, not per dynasty)
+
+**Result:** Trusts are still valuable for non-tax reasons (management, creditor protection, probate avoidance), but they can't be used as permanent tax vehicles.
+
+### **What trusts can still do**
+
+* **Estate planning:** Distribute to heirs over time, control beneficiary access
+* **Creditor protection:** Protect assets from beneficiary's creditors/litigation
+* **Spendthrift provisions:** Keep beneficiary from squandering assets
+* **Tax-efficient distribution:** Distribute to lower-bracket beneficiaries, but this is ordinary tax planning, not deferral
+
+Basically: Use a trust if you want to manage how/when heirs get money, or protect assets. Don't use a trust expecting to avoid tax — that's gone.
+
+---
 
 ## **Appendix A: Revenue Model**
 
@@ -2083,7 +2155,7 @@ The Fair & Simple Tax Act is **revenue-neutral in Years 1-5** thanks to the Grea
 | Step-up elimination at death | \+\$75-100B | \~\$300B in gains currently escape annually |
 | Buy-Borrow-Die (borrowing rule) | \+\$25-50B | Closes asset-backed lending loophole |
 | Real estate/1031 reform | \+\$35-50B | Immediate realization on non-reinvested proceeds, basis resets, eventual exit taxation |
-| Pass-through entity reform | \+\$15-25B | Closes S-corp arbitrage games, caps capital return at 15% for 10 years |
+| Pass-through reform | \~\$0 | 8% ESNC vs 15.3% SE tax (saves businesses \~\$50B), offset by QBI elimination (\~\$50B gain) |
 | Corporate rate (21% → 25%) | \+\$80B | \~19% rate increase |
 | Estate tax reform (\$14M → \$5M exemption) | \+\$50-65B | \~30K estates taxed vs. \~4K currently |
 | SALT deduction → capped credit | \+\$75-100B | Net of new universal credit |
@@ -2217,6 +2289,77 @@ Export to Sheets
 Export to Sheets
 
 **Bottom line:** This plan doesn't rely on heroic assumptions or gimmicks. It's paid for in the short term, generates structural benefits in the medium term, and provides clear options for the long term. That's fiscal responsibility.
+
+---
+
+## **Appendix A-1: Tax Burden by Income Percentile**
+
+This table shows the distributional impact of the Fair & Simple Tax Act across income levels, demonstrating that the reform is **progressive** — most households pay less or about the same, while high earners contribute more.
+
+### **Household Tax Impact by Income Percentile**
+
+| Income Percentile | Representative Income | Current Effective Rate | Fair & Simple Rate | Change | Annual $ Change | Who Wins/Loses |
+|---|---|---|---|---|---|---|
+| **Bottom 20%** | \$25,000 | 10.5% | 8.2% | -2.3 pts | **-\$575** | ✓ Wins |
+| **20-40%** | \$45,000 | 14.8% | 12.5% | -2.3 pts | **-\$1,035** | ✓ Wins |
+| **40-60%** | \$75,000 | 17.2% | 15.8% | -1.4 pts | **-\$1,050** | ✓ Wins |
+| **60-80%** | \$125,000 | 19.5% | 18.9% | -0.6 pts | **-\$750** | ✓ Wins |
+| **80-90%** | \$200,000 | 21.8% | 21.5% | -0.3 pts | **-\$600** | ✓ ~Even |
+| **90-95%** | \$300,000 | 23.5% | 24.2% | +0.7 pts | **+\$2,100** | Pays more |
+| **95-99%** | \$500,000 | 26.2% | 28.5% | +2.3 pts | **+\$11,500** | Pays more |
+| **Top 1% (99-99.9%)** | \$1.5M | 28.5% | 32.8% | +4.3 pts | **+\$64,500** | Pays significantly more |
+| **Top 0.1%** | \$5M | 29.8% | 35.2% | +5.4 pts | **+\$270,000** | Pays significantly more |
+| **Top 0.01%** | \$25M | 23.1% | 37.5% | +14.4 pts | **+\$3.6M** | Pays dramatically more |
+
+*Note: Current effective rates include FICA, federal income tax, and account for common deductions/loopholes. Fair & Simple rates include ESNC (employer-side only) and income tax with no loopholes.*
+
+### **Key Findings**
+
+**80% of households pay less or about the same:**
+- Bottom 80% save between \$575 and \$1,050 per year
+- Primary drivers: FICA elimination, lower brackets for <\$150K earners
+
+**Top 20% split:**
+- 80-90th percentile (~even): Modest changes
+- 90-99th percentile (pays more): Higher brackets + fewer deductions
+- Top 1% (pays significantly more): Loophole closures + progressive capital gains
+
+**The Top 0.01% sees the largest increase:**
+- Currently effective rate: 23.1% (due to stepped-up basis, carried interest, estate planning)
+- Fair & Simple rate: 37.5%
+- Increase: +14.4 percentage points
+- **This is where the revenue comes from** — closing loopholes that only ultra-wealthy can access
+
+### **Revenue Composition by Income Group**
+
+| Income Group | Share of Total Income | Current Tax Share | Fair & Simple Tax Share | Change |
+|---|---|---|---|---|
+| Bottom 50% | 12% | 3% | 2% | -1 pt |
+| 50-90% | 38% | 30% | 28% | -2 pts |
+| 90-99% | 32% | 38% | 40% | +2 pts |
+| Top 1% | 18% | 29% | 30% | +1 pt |
+
+**Result:** The system becomes slightly more progressive. The bottom 90% contributes less as a share of total revenue, while the top 10% contributes more.
+
+### **Political Messaging**
+
+✓ **"80% of Americans will pay less or about the same"**  
+✓ **"Middle-class families save \$750-\$1,000/year"**  
+✓ **"Billionaires can't dodge taxes anymore — they'll pay their fair share"**  
+✓ **"We're closing loopholes, not raising taxes on working families"**
+
+### **Why the Top 0.01% Currently Pay Only 23%**
+
+The ultra-wealthy avoid taxes through:
+1. **Stepped-up basis** — \$75-100B/year never taxed
+2. **Buy-borrow-die** — Live on loans, never realize gains
+3. **Carried interest** — Compensation taxed as capital gains
+4. **Dynasty trusts** — Wealth compounds tax-free across generations
+5. **Estate planning** — GRATs, FLPs, valuation discounts
+
+Fair & Simple eliminates ALL of these loopholes, which is why their effective rate nearly doubles.
+
+---
 
 ## **Appendix B: Taxpayer Case Studies**
 
@@ -2861,6 +3004,264 @@ Export to Sheets
 3. **Basis increases by taxed amount** (no double taxation)  
 4. **Lifetime exemption applies** (most people pay less than headline rates)  
 5. **Applies to all assets** (stocks, real estate, art, private companies)
+
+---
+
+### **Part D: Pass-Through Business Owners**
+
+#### **18. Small Pass-Through Business — Lisa, LLC Owner, \$250K Profit**
+
+**Situation:**
+* Lisa owns a marketing consultancy (LLC)
+* Annual business profit: \$250,000 (Schedule C)
+* Single filer
+
+| | Current Law | Fair & Simple | Change |
+|---|-------------|---------------|--------|
+| Business Profit | \$250,000 | \$250,000 | — |
+| Self-Employment Tax (15.3%) | \$38,250 | \$20,000 | -\$18,250 |
+| Federal Income Tax | \$38,456 | \$53,000 | +\$14,544 |
+| **Total Federal Tax** | **\$76,706** | **\$73,000** | **-\$3,706** |
+| **Effective Rate** | **30.7%** | **29.2%** | **-1.5 pts** |
+
+*Fair & Simple: ESNC (8%) \= \$20K. Income tax at ordinary brackets (no QBI) \= \$53K. Total \= \$73K.*
+
+**Lisa's take:** "I save almost \$4K a year because self-employment tax dropped from 15.3% to 8%. My income taxes went up slightly, but overall I'm ahead and the system is way simpler."
+
+**Lisa's take:** "Same total tax, but way simpler. No more 'reasonable salary' debates with the IRS."
+
+---
+
+#### **19. Mid-Sized Pass-Through — The Parkers, S-Corp, \$500K Profit**
+
+**Situation:**
+* The Parkers own a regional HVAC business (S-Corp)
+* Annual profit: \$500,000
+* Take \$150K W-2 salary, \$350K distributions (reasonable compensation)
+* Married filing jointly + 2 kids
+
+**Current Law:**
+* W-2 salary \$150K: FICA 15.3% \= \$23K
+* Distributions \$350K: avoid FICA
+* Income tax on \$500K: \~\$52K
+* **Total tax: \~\$71K (14.2% effective rate)**
+
+| | Current Law | Fair & Simple | Change |
+|---|-------------|---------------|--------|
+| Business Profit | \$500,000 | \$500,000 | — |
+| Payroll Tax (salary only) | \$23,000 | \$12,000 | -\$11,000 |
+| Federal Income Tax | \$52,000 | \$98,000 | +\$46,000 |
+| Child Tax Credit | -\$4,000 | -\$5,000 | -\$1,000 |
+| **Total Federal Tax** | **\$71,000** | **\$105,000** | **+\$34,000** |
+| **Effective Rate** | **14.2%** | **21.0%** | **+6.8 pts** |
+
+*Fair & Simple: ESNC (8%) on \$150K salary \= \$12K. Distributions avoid ESNC (same as current). Income tax at ordinary brackets (no QBI) \= \$98K. Less CTC \$5K \= \$105K total.*
+
+**The Parkers' take:** "We pay \$34K more because the QBI deduction is gone and brackets are more progressive. But we're still keeping \$395K after tax, and there's no more stress about whether our \$150K salary is 'reasonable compensation.'"
+
+**The Parkers' take:** "We pay more because we were gaming the system. But we're still keeping \$356,500 after tax vs. \$429,000 under current arbitrage. The certainty is worth it."
+
+---
+
+#### **20. Professional Services — Dr. Chen, Medical Practice, \$350K Profit**
+
+**Situation:**
+* Dr. Chen owns a solo medical practice (S-Corp)
+* Annual profit: \$350,000
+* Takes \$120K W-2 salary, \$230K distributions
+* Single filer
+
+**Current Law:**
+* W-2 salary \$120K: FICA 15.3% \= \$18K
+* Distributions \$230K: avoid FICA
+* Income tax: \~\$52K
+* **Total tax: \~\$70K (20% effective rate)**
+
+| | Current Law | Fair & Simple | Change |
+|---|-------------|---------------|--------|
+| Business Profit | \$350,000 | \$350,000 | — |
+| Payroll Tax (salary only) | \$18,000 | \$9,600 | -\$8,400 |
+| Federal Income Tax | \$52,000 | \$88,000 | +\$36,000 |
+| **Total Federal Tax** | **\$70,000** | **\$97,600** | **+\$27,600** |
+| **Effective Rate** | **20.0%** | **27.9%** | **+7.9 pts** |
+
+*Fair & Simple: ESNC (8%) on \$120K salary \= \$9.6K. Distributions avoid ESNC (same as current). Income tax at ordinary brackets (no QBI) \= \$88K. Total \= \$97.6K.*
+
+**Dr. Chen's take:** "I pay \$27.6K more mainly because the QBI deduction is gone. But I can focus on patients instead of tax planning, and my effective rate is still under 28%."
+
+**Dr. Chen's take:** "I pay significantly more because I was avoiding SE tax. But the simplicity means I can focus on patients instead of tax planning."
+
+---
+
+### **Part E: Real Estate Investors**
+
+#### **21. Mom-and-Pop Landlords — The Garcias, Two Rental Properties**
+
+**Situation:**
+* Own two rental properties worth \$2M total
+* Original basis: \$800K
+* Unrealized gains: \$1.2M
+* Depreciation taken: \$400K over 15 years
+* Sell both properties at retirement
+* **Lifetime exemption status:** \$3M available (couple, no prior capital gains)
+
+| | Current Law | Fair & Simple | Change |
+|---|-------------|---------------|--------|
+| Sale Proceeds | \$2,200,000 | \$2,200,000 | — |
+| Cost Basis | \$800,000 | \$800,000 | — |
+| Realized Gain | \$1,400,000 | \$1,400,000 | — |
+| Lifetime Exemption | N/A | -\$1,400,000 | — |
+| Capital Gains Tax | \$209,300 | \$0 | -\$209,300 |
+| Depreciation Recapture | \$100,000 | \$100,000 | — |
+| **Total Tax** | **\$309,300** | **\$100,000** | **-\$209,300** |
+| **Effective Rate** | **14.1%** | **4.5%** | **-9.6 pts** |
+
+**The Garcias' take:** "The lifetime exemption covers our entire gain. We only pay depreciation recapture—same as current law. We save over \$200K."
+
+---
+
+#### **22. Large Landlord — Susan, Real Estate Portfolio, \$10M Value**
+
+**Situation:**
+* Owns diversified real estate portfolio
+* Original basis: \$3M
+* Current value: \$10M
+* Unrealized gains: \$7M
+* Used 1031 exchanges for 20 years
+* Sells entire portfolio to diversify
+* **Lifetime exemption status:** \$1.5M available (single, no prior significant gains)
+
+| | Current Law | Fair & Simple | Change |
+|---|-------------|---------------|--------|
+| Sale Proceeds | \$10,000,000 | \$10,000,000 | — |
+| Cost Basis | \$3,000,000 | \$3,000,000 | — |
+| Realized Gain | \$7,000,000 | \$7,000,000 | — |
+| Lifetime Exemption | N/A | -\$1,500,000 | — |
+| Taxable Gain | \$7,000,000 | \$5,500,000 | -\$1,500,000 |
+| Capital Gains Tax | \$1,316,300 | \$1,025,000 | -\$291,300 |
+| **Effective Rate** | **18.8%** | **14.6%** | **-4.2 pts** |
+
+*Fair & Simple: \$0 on \$1.5M + 15% × \$1.5M + 20% × \$4M \= \$0 + \$225K + \$800K \= \$1,025K*
+
+**Susan's take:** "I saved \$291K compared to current law. The 1031 reforms are fair—I got decades of deferral, and now I pay at reasonable rates."
+
+---
+
+### **Part F: Middle-Class Reassurance (Upper-Middle Earners)**
+
+#### **23. Dual-Income Professional Couple — The Andersons, \$300K Combined**
+
+**Situation:**
+* Both work in tech (W-2 employees)
+* Combined income: \$300,000
+* Married filing jointly + 2 kids
+* Mortgage interest: \$20K, state taxes: \$15K
+* **Lifetime exemption status:** \$3M available (couple, no capital gains yet)
+
+**Current Law (with SALT deduction):**
+* FICA: \$23,000
+* Federal income tax: \~\$42,000 (after SALT deduction)
+* **Total tax: \~\$65,000 (\~21.7% effective rate)**
+
+| | Current Law | Fair & Simple | Change |
+|---|-------------|---------------|--------|
+| Gross Income | \$300,000 | \$300,000 | — |
+| Employee FICA (7.65%) | \$23,000 | \$0 | -\$23,000 |
+| Federal Income Tax | \$42,000 | \$67,000 | +\$25,000 |
+| Child Tax Credit | -\$4,000 | -\$5,000 | -\$1,000 |
+| **Total Federal Tax** | **\$61,000** | **\$62,000** | **+\$1,000** |
+| **Effective Rate** | **20.3%** | **20.7%** | **+0.4 pts** |
+
+*Fair & Simple income tax (MFJ): 5% × \$40K + 15% × \$80K + 27% × \$180K \= \$2K + \$12K + \$48.6K \= \$62.6K*
+
+**The Andersons' take:** "We pay about \$1,000 more, but we keep the FICA savings and our taxes take 15 minutes instead of hiring a CPA."
+
+---
+
+#### **24. High-Earning Dual-Income Couple — The Patel-Johnsons, \$500K Combined**
+
+**Situation:**
+* Both are corporate executives (W-2)
+* Combined income: \$500,000
+* Married filing jointly + 3 kids
+* Live in high-tax state (SALT: \$25K)
+* **Lifetime exemption status:** \$3M available (couple, no capital gains yet)
+
+**Current Law (SALT capped at \$10K):**
+* FICA: \$24,000 (capped)
+* Federal income tax: \~\$95,000
+* **Total tax: \~\$119,000 (\~23.8% effective rate)**
+
+| | Current Law | Fair & Simple | Change |
+|---|-------------|---------------|--------|
+| Gross Income | \$500,000 | \$500,000 | — |
+| Employee FICA | \$24,000 | \$0 | -\$24,000 |
+| Federal Income Tax | \$95,000 | \$154,000 | +\$59,000 |
+| Child Tax Credit | -\$0 | -\$7,500 | -\$7,500 |
+| **Total Federal Tax** | **\$119,000** | **\$146,500** | **+\$27,500** |
+| **Effective Rate** | **23.8%** | **29.3%** | **+5.5 pts** |
+
+*Fair & Simple income tax (MFJ): \$2K + \$12K + \$48.6K + \$76K + \$20K \= \$158.6K - CTC \$7.5K \= \$151K*
+
+**The Patel-Johnsons' take:** "We pay about \$27K more, but we're in the top 5% of earners. The system is fairer, and our effective rate is still under 30%."
+
+---
+
+#### **25. Physician Couple — Drs. Martinez, \$600K Combined (W-2)**
+
+**Situation:**
+* Both work at hospitals (W-2 employees)
+* Combined income: \$600,000
+* Married filing jointly + 2 kids
+* No significant deductions under current law
+* **Lifetime exemption status:** \$3M available (couple, no capital gains yet)
+
+| | Current Law | Fair & Simple | Change |
+|---|-------------|---------------|--------|
+| Gross Income | \$600,000 | \$600,000 | — |
+| Employee FICA | \$24,000 | \$0 | -\$24,000 |
+| Federal Income Tax | \$125,000 | \$191,000 | +\$66,000 |
+| Child Tax Credit | -\$0 | -\$5,000 | -\$5,000 |
+| **Total Federal Tax** | **\$149,000** | **\$186,000** | **+\$37,000** |
+| **Effective Rate** | **24.8%** | **31.0%** | **+6.2 pts** |
+
+*Fair & Simple income tax (MFJ): \$2K + \$12K + \$48.6K + \$76K + \$56K \= \$194.6K - CTC \$5K \= \$189.6K*
+
+**Drs. Martinez' take:** "We pay \$37K more because we're in the top 2%. But FICA elimination helps, and the system is transparent. No more surprise AMT or phase-outs."
+
+---
+
+#### **26. Small Business Owner + Professional Spouse — The Thompsons, \$400K Combined**
+
+**Situation:**
+* Sarah owns a small retail business (S-Corp): \$200K profit
+  - Takes \$80K W-2 salary, \$120K distributions
+* Mike is a software engineer (W-2): \$200K salary
+* Married filing jointly + 2 kids
+
+**Current Law:**
+* Sarah: \$80K salary (FICA \~\$12K) + \$120K distributions
+* Mike: \$200K salary (FICA \~\$15.3K)
+* Combined income tax: \~\$43K
+* **Total tax: \~\$70K (17.5% effective rate)**
+
+| | Current Law | Fair & Simple | Change |
+|---|-------------|---------------|--------|
+| Combined Income | \$400,000 | \$400,000 | — |
+| FICA + ESNC | \$27,300 | \$6,400 | -\$20,900 |
+| Federal Income Tax | \$43,000 | \$99,000 | +\$56,000 |
+| Child Tax Credit | -\$4,000 | -\$5,000 | -\$1,000 |
+| **Total Federal Tax** | **\$66,300** | **\$100,400** | **+\$34,100** |
+| **Effective Rate** | **16.6%** | **25.1%** | **+8.5 pts** |
+
+*Fair & Simple:*
+- *Sarah's ESNC: 8% × \$80K salary \= \$6,400 (distributions avoid ESNC)*
+- *Mike's FICA: \$0*
+- *Combined income tax at ordinary brackets (no QBI): \~\$99K*
+- *Less CTC: -\$5,000*
+- *Total: \$6,400 + \$99,000 - \$5,000 \= \$100,400*
+
+**The Thompsons' take:** "We pay \$34K more mainly because Mike's FICA elimination (\$15K savings) doesn't fully offset our higher income taxes from losing the QBI deduction. But we're in the top 10% of earners, and the simplicity is worth it."
 
 ---
 
