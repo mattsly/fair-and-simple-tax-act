@@ -2375,16 +2375,16 @@ These case studies show detailed before/after calculations for representative ta
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$35,000 | \$35,000 | — |
 | Employee FICA (7.65%) | \$2,678 | \$0 | \-\$2,678 |
-| Federal Income Tax | \$2,271 | \$4,000 | \+\$1,729 |
+| Federal Income Tax | \$2,271 | \$3,250 | \+\$979 |
 | Child Tax Credit | \$0 | \$0 | — |
-| **Total Federal Tax** | **\$4,949** | **\$4,000** | **\-\$949** |
-| **Effective Rate** | **14.1%** | **11.4%** | **\-2.7 pts** |
+| **Total Federal Tax** | **\$4,949** | **\$3,250** | **\-\$1,699** |
+| **Effective Rate** | **14.1%** | **9.3%** | **\-4.8 pts** |
 
 Export to Sheets
 
-*Income tax calculation: 5% × \$15K \+ 15% × \$20K \= \$750 \+ \$3,000 \+ \$250 \= \$4,000*
+*Income tax calculation: 5% × \$20K \+ 15% × \$15K \= \$1,000 \+ \$2,250 \= \$3,250*
 
-**Maria's take:** "I keep an extra \$950 a year. That's a month of groceries."
+**Maria's take:** "I keep an extra \$1,700 a year. That's real money for groceries."
 
 ---
 
@@ -2394,15 +2394,15 @@ Export to Sheets
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$45,000 | \$45,000 | — |
 | Self-Employment Tax (15.3%) | \$6,885 | \$3,600 | \-\$3,285 |
-| Federal Income Tax | \$2,567 | \$5,250 | \+\$2,683 |
-| **Total Federal Tax** | **\$9,452** | **\$8,850** | **\-\$602** |
-| **Effective Rate** | **21.0%** | **19.7%** | **\-1.3 pts** |
+| Federal Income Tax | \$2,567 | \$4,750 | \+\$2,183 |
+| **Total Federal Tax** | **\$9,452** | **\$8,350** | **\-\$1,102** |
+| **Effective Rate** | **21.0%** | **18.6%** | **\-2.4 pts** |
 
 Export to Sheets
 
-*SE tax: 8% × \$45K \= \$3,600. Income tax: 5% × \$15K \+ 15% × \$30K \= \$750 \+ \$4,500 \= \$5,250*
+*SE tax: 8% × \$45K \= \$3,600. Income tax: 5% × \$20K \+ 15% × \$25K \= \$1,000 \+ \$3,750 \= \$4,750*
 
-**DeShawn's take:** "The self-employment tax cut is huge. I was getting killed at 15.3%."
+**DeShawn's take:** "The self-employment tax cut saves me over \$3,000. That's huge for my income level."
 
 ---
 
@@ -2412,15 +2412,15 @@ Export to Sheets
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$55,000 | \$55,000 | — |
 | Employee FICA (7.65%) | \$4,208 | \$0 | \-\$4,208 |
-| Federal Income Tax | \$4,208 | \$6,000 | \+\$1,792 |
-| **Total Federal Tax** | **\$8,416** | **\$6,000** | **\-\$2,416** |
-| **Effective Rate** | **15.3%** | **10.9%** | **\-4.4 pts** |
+| Federal Income Tax | \$4,208 | \$6,250 | \+\$2,042 |
+| **Total Federal Tax** | **\$8,416** | **\$6,250** | **\-\$2,166** |
+| **Effective Rate** | **15.3%** | **11.4%** | **\-3.9 pts** |
 
 Export to Sheets
 
-*Income tax: 5% × \$15K \+ 15% × \$35K \+ 25% × \$5K \= \$750 \+ \$5,250 \+ \$0 \= \$6,000*
+*Income tax: 5% × \$20K \+ 15% × \$35K \= \$1,000 \+ \$5,250 \= \$6,250*
 
-**Angela's take:** "I save over \$2,400. That's my summer travel budget."
+**Angela's take:** "I save over \$2,100. That's my annual travel fund now."
 
 ---
 
@@ -2430,13 +2430,15 @@ Export to Sheets
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$60,000 | \$60,000 | — |
 | Employee FICA (7.65%) | \$4,590 | \$0 | \-\$4,590 |
-| Federal Income Tax | \$5,168 | \$8,500 | \+\$3,332 |
-| **Total Federal Tax** | **\$9,758** | **\$8,500** | **\-\$1,258** |
-| **Effective Rate** | **16.3%** | **14.2%** | **\-2.1 pts** |
+| Federal Income Tax | \$5,168 | \$7,000 | \+\$1,832 |
+| **Total Federal Tax** | **\$9,758** | **\$7,000** | **\-\$2,758** |
+| **Effective Rate** | **16.3%** | **11.7%** | **\-4.6 pts** |
 
 Export to Sheets
 
-**Jake's take:** "FICA elimination more than offsets the higher income tax. I'm up \$1,200."
+*Income tax: 5% × \$20K \+ 15% × \$40K \= \$1,000 \+ \$6,000 \= \$7,000*
+
+**Jake's take:** "FICA elimination is a huge raise. My total tax drops \$2,750."
 
 ---
 
@@ -2446,16 +2448,16 @@ Export to Sheets
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$75,000 | \$75,000 | — |
 | Employee FICA (7.65%) | \$5,738 | \$0 | \-\$5,738 |
-| Federal Income Tax | \$6,748 | \$12,000 | \+\$5,252 |
+| Federal Income Tax | \$6,748 | \$11,050 | \+\$4,302 |
 | Child Tax Credit | \-\$2,000 | \-\$2,500 | \-\$500 |
-| **Total Federal Tax** | **\$10,486** | **\$9,500** | **\-\$986** |
-| **Effective Rate** | **14.0%** | **12.7%** | **\-1.3 pts** |
+| **Total Federal Tax** | **\$10,486** | **\$8,550** | **\-\$1,936** |
+| **Effective Rate** | **14.0%** | **11.4%** | **\-2.6 pts** |
 
 Export to Sheets
 
-*Income tax: 5% × \$15K \+ 15% × \$35K \+ 25% × \$25K \= \$750 \+ \$5,250 \+ \$6,250 \= \$12,250. Rounding to \$12,000 for illustration.*
+*Income tax: 5% × \$20K \+ 15% × \$40K \+ 27% × \$15K \= \$1,000 \+ \$6,000 \+ \$4,050 \= \$11,050*
 
-**Sofia's take:** "Between FICA and the bigger child credit, I keep almost \$1,000 more."
+**Sofia's take:** "Between FICA elimination and the bigger child credit, I keep almost \$2,000 more."
 
 ---
 
@@ -2481,14 +2483,16 @@ Export to Sheets
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$140,000 | \$140,000 | — |
 | Employee FICA (7.65%) | \$10,710 | \$0 | \-\$10,710 |
-| Federal Income Tax | \$12,456 | \$22,000 | \+\$9,544 |
+| Federal Income Tax | \$12,456 | \$19,400 | \+\$6,944 |
 | Child Tax Credit | \-\$6,000 | \-\$7,500 | \-\$1,500 |
-| **Total Federal Tax** | **\$17,166** | **\$14,500** | **\-\$2,666** |
-| **Effective Rate** | **12.3%** | **10.4%** | **\-1.9 pts** |
+| **Total Federal Tax** | **\$17,166** | **\$11,900** | **\-\$5,266** |
+| **Effective Rate** | **12.3%** | **8.5%** | **\-3.8 pts** |
 
 Export to Sheets
 
-**The Garcias:** "We save \$2,600 and never have to file again. The CTC just shows up automatically."
+*Income tax (MFJ): 5% × \$40K \+ 15% × \$80K \+ 27% × \$20K \= \$2,000 \+ \$12,000 \+ \$5,400 \= \$19,400. CTC: \$2,500 × 3 kids \= \$7,500.*
+
+**The Garcias:** "We save \$5,300 and never have to file again. The automatic CTC is life-changing."
 
 ---
 
@@ -2498,14 +2502,14 @@ Export to Sheets
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$180,000 | \$180,000 | — |
 | Self-Employment Tax | \$27,540 | \$14,400 | \-\$13,140 |
-| Federal Income Tax | \$18,123 | \$32,000 | \+\$13,877 |
+| Federal Income Tax | \$18,123 | \$30,200 | \+\$12,077 |
 | Child Tax Credit | \-\$4,000 | \-\$5,000 | \-\$1,000 |
-| **Total Federal Tax** | **\$41,663** | **\$41,400** | **\-\$263** |
-| **Effective Rate** | **23.1%** | **23.0%** | **\-0.1 pts** |
+| **Total Federal Tax** | **\$41,663** | **\$39,600** | **\-\$2,063** |
+| **Effective Rate** | **23.1%** | **22.0%** | **\-1.1 pts** |
 
 Export to Sheets
 
-*Income tax (MFJ): \$1,500 \+ \$10,500 \+ \$20,000 \= \$32,000. SE: 8% × \$180K \= \$14,400.*
+*Income tax (MFJ): 5% × \$40K \+ 15% × \$80K \+ 27% × \$60K \= \$2,000 \+ \$12,000 \+ \$16,200 \= \$30,200. SE: 8% × \$180K \= \$14,400.*
 
 **The Johnsons:** "About the same total, but the SE tax cut is massive. We're reinvesting that in the business."
 
@@ -2517,15 +2521,15 @@ Export to Sheets
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$200,000 | \$200,000 | — |
 | Employee FICA (7.65%) | \$15,300 | \$0 | \-\$15,300 |
-| Federal Income Tax | \$23,997 | \$37,000 | \+\$13,003 |
-| **Total Federal Tax** | **\$39,297** | **\$37,000** | **\-\$2,297** |
-| **Effective Rate** | **19.6%** | **18.5%** | **\-1.1 pts** |
+| Federal Income Tax | \$23,997 | \$35,600 | \+\$11,603 |
+| **Total Federal Tax** | **\$39,297** | **\$35,600** | **\-\$3,697** |
+| **Effective Rate** | **19.6%** | **17.8%** | **\-1.8 pts** |
 
 Export to Sheets
 
-*Income tax (MFJ): \$1,500 \+ \$10,500 \+ \$25,000 \= \$37,000*
+*Income tax (MFJ): 5% × \$40K \+ 15% × \$80K \+ 27% × \$80K \= \$2,000 \+ \$12,000 \+ \$21,600 \= \$35,600*
 
-**The Chens:** "We save \$2,300 and the whole system is so much simpler."
+**The Chens:** "We save almost \$3,700. Between FICA elimination and simpler filing, this is a huge win."
 
 ---
 
@@ -2535,13 +2539,15 @@ Export to Sheets
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$600,000 | \$600,000 | — |
 | Employee FICA | \$10,453 | \$0 | \-\$10,453 |
-| Federal Income Tax | \$165,829 | \$203,500 | \+\$37,671 |
-| **Total Federal Tax** | **\$176,282** | **\$203,500** | **\+\$27,218** |
-| **Effective Rate** | **29.4%** | **33.9%** | **\+4.5 pts** |
+| Federal Income Tax | \$165,829 | \$212,800 | \+\$46,971 |
+| **Total Federal Tax** | **\$176,282** | **\$212,800** | **\+\$36,518** |
+| **Effective Rate** | **29.4%** | **35.5%** | **\+6.1 pts** |
 
 Export to Sheets
 
-**David's take:** "I pay more. That's fair — I can afford it, and the system is finally simple enough that I don't need a \$10K accountant."
+*Income tax: 5% × \$20K \+ 15% × \$40K \+ 27% × \$140K \+ 38% × \$100K \+ 40% × \$100K \+ 45% × \$200K \= \$212,800*
+
+**David's take:** "I pay significantly more, nearly \$37K. But the system is simple and I'm not hiding from it. That's fair."
 
 ---
 
