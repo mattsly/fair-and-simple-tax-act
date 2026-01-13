@@ -49,7 +49,7 @@
 
 # **Press Release**
 
-**WASHINGTON, D.C. —** The U.S. tax code is broken: too complex to understand, too riddled with loopholes for the wealthy, and contributing to unsustainable deficits. Today, bipartisan leaders introduced the Fair & Simple Tax Act — comprehensive reform built on three principles: radical simplicity, fairness that fuels upward mobility, and fiscal durability.
+**WASHINGTON, D.C. —** The U.S. tax code is broken: too complex to understand, too riddled with loopholes for the wealthy, and contributing to an unsustainable deficit that is too large. Today, bipartisan leaders introduced the Fair & Simple Tax Act — comprehensive reform built on three principles: radical simplicity, fairness that fuels upward mobility, and fiscal durability.
 
 ### **Three principles, one system**
 
