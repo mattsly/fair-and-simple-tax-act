@@ -391,9 +391,7 @@ The ASA replaces more than 15 fragmented account types with one simple, universa
 * \$1,000 government seed at birth  
 * Up to \$30,000 in annual contributions (after-tax, indexed — meaning it rises annually with inflation to preserve purchasing power)
 * Tax-free growth
-
-### **Withdrawals**
-
+* **Qualified medical withdrawals:** Tax-free and penalty-free at any age (consolidates HSA benefit into one account)
 * **Contributions:** Withdraw anytime, tax-free, penalty-free  
 * **Gains before age 60:** Taxed as capital gains, uses lifetime \$1.5M exemption  
 * **Gains after age 60:** Up to \$2.5M in total withdrawals (indexed) are tax-free; gains above \$2.5M are taxed as capital gains
@@ -572,6 +570,76 @@ The conversion offer is so financially compelling that most Americans should con
 This is why the 10-year window exists — to give people time to understand the offer and act on it. After 10 years, legacy accounts are closed to new money, and the financial case for conversion only gets stronger.
 
 For those who do keep legacy accounts past the window, it's not a catastrophe (your money still grows), but it's an expensive choice relative to the alternative.
+
+### **Great Conversion Case Studies**
+
+Here's how conversion works in practice across different life stages and account sizes:
+
+#### **Case 1: The Early Retiree**
+
+**Tom, 55, recently retired**
+
+* Traditional 401(k): \$800,000
+* Conversion Tax (12%): \$96,000
+* Expected withdrawal bracket: 25%
+
+**Analysis:** Without conversion: \$800K × 25% = \$200K in taxes. With conversion: \$96K total. **Savings: \$104K.**
+
+---
+
+#### **Case 2: The Mid-Career Professional**
+
+**Aisha, 40, software engineer**
+
+* Traditional 401(k): \$350,000
+* Conversion Tax (12%): \$42,000
+* Projected balance at 65 (7% growth): \$1,890,000
+
+**Analysis:** Without conversion, \$1.89M taxed at 25% = \$472.5K. With conversion: \$42K now, then tax-free withdrawals. **Savings: \$430K.** The longer you have until retirement, the more conversion wins.
+
+---
+
+#### **Case 3: The High Earner Approaching Retirement**
+
+**James, 62, executive**
+
+* Traditional 401(k): \$2,000,000
+* Conversion Tax (12%): \$240,000
+* Expected withdrawal bracket: 35%
+
+**Analysis:** ASA has a \$2.5M lifetime withdrawal cap. James converts \$2M and pays \$240K tax over 10 years. Without conversion: \$2M taxed at 35% at withdrawal = \$700K. **Savings: \$460K.** Even at the cap, conversion wins.
+
+---
+
+### **Who Should NOT Convert?**
+
+**Consider keeping Traditional accounts if:**
+
+1. **Very low expected retirement income** — If you'll be in the 5-15% brackets in retirement, the savings from 10% conversion are smaller
+2. **Near the ARA cap** — If converting would push you well over \$2.5M, excess growth may face penalties
+3. **Need funds before 59½** — Converting requires the 10% tax; early withdrawal from Traditional may be cheaper depending on circumstances
+4. **State tax considerations** — Some states don't tax retirement income; conversion may trigger state tax
+
+---
+
+### **Revenue Impact**
+
+**Assumptions:**
+
+* Total pre-tax retirement assets: ~\$20 trillion
+* Conversion rate: 40-60%
+* Converted assets: \$8-12 trillion
+
+**Revenue:**
+
+* \$8-12T × 12% = \$960B - \$1.44T
+* Collected over 10 years = \$96-144B/year
+
+**Budget Treatment:**
+
+* Years 1-5: Significant revenue boost (front-loaded conversions)
+* Years 6-10: Declining as payment plans complete
+* Years 11+: No conversion revenue, but also no deferred tax liability
 
 ## **Q10: What is the Child Tax Credit under this plan, and how is it different from today?**
 
@@ -816,6 +884,63 @@ Lenders already track the stated purpose of loans — it's standard underwriting
 The IRS already has well-established legal doctrines (substance-over-form, sham transaction doctrine) for addressing scenarios where claimed business purposes don't align with actual practice. Someone who borrows 'for consulting' but spends it all on a yacht would face the same scrutiny as someone who claims a vacation home is a 'rental property' but never rents it.
 
 **The result:** Innovation and legitimate capital formation are unaffected — while the buy-borrow-die loophole (extracting \$500M to live on a yacht for 30 years without paying tax on appreciated assets) is closed.
+
+### **Borrowing Rule Case Studies**
+
+Here's how the rule works in practice across different scenarios:
+
+#### **Case 1: The Cape Cod Doctor**
+
+**Dr. Sarah Chen, 58, Primary Care Physician**
+
+* Owns vacation home worth \$1.2M (cost basis: \$200K, gain: \$1M)
+* Wants to borrow \$400K for daughter's medical school
+* Current law: No tax triggered. At death, step-up eliminates the gain. **Total tax: \$0.**
+* Fair & Simple: Loan (\$400K) exceeds basis (\$200K) by \$200K. Using her unused lifetime exemption, this is **tax-free.** Basis steps to \$400K.
+
+**Dr. Chen's take:** "If I didn't have the exemption, I'd pay \$30K (15% × \$200K gain). That's 7.5% of the loan amount—less than my interest rate. And I know my tax bill upfront."
+
+---
+
+#### **Case 2: The Tech Founder**
+
+**Marcus Williams, 42, Tech Startup Founder**
+
+* Owns \$50M in company stock (cost basis: \$50K, gain: \$49.95M)
+* Wants to borrow \$10M to buy a house (avoid selling shares and market signaling)
+* Current law: No tax. Rolls interest-only debt. At death, step-up eliminates \$50M gain. **Total tax: \$0 (plus \~\$500K/year in perpetual interest).**
+* Fair & Simple: Loan exceeds basis by \$9.95M. After using his \$1.5M lifetime exemption, he owes: 15% on \$1.5M + 20% on \$6.95M = **\$1.525M tax.** Basis steps to \$10M.
+
+**Marcus's take:** "I pay \$1.5M upfront instead of zero. But I own my house free and clear, I've used my exemption, and I know the tax won't compound forever. Under the old system, I'd have rolled that debt indefinitely."
+
+---
+
+#### **Case 3: The Inherited Wealth Heir**
+
+**Elizabeth "Bitsy" Thornton IV, 35, Trust Beneficiary**
+
+* Inherits \$30M in stocks from grandmother (grandmother's basis: \$3M, gain: \$27M)
+* Under old law: Bitsy would inherit with step-up to \$30M basis. **No tax ever on the \$27M gain.**
+* Under Fair & Simple: Grandmother's estate paid ~\$6.5M in capital gains tax at death. Bitsy inherits with \$30M clean basis.
+* Bitsy borrows \$5M against the portfolio. Loan (\$5M) < Basis (\$30M). **No additional tax triggered.**
+
+**Bitsy's take:** "Grandma's estate paid decades of deferred taxes when she died. I inherited less money upfront, but with a clean slate. I can borrow, sell, or hold without surprise tax bills."
+
+---
+
+#### **Case 4: The Serial Entrepreneur**
+
+**Raj Patel, 55, Three-Time Founder**
+
+* Already used his \$1.5M lifetime exemption through two prior exits
+* Current company worth \$20M (basis: \$100K)
+* Wants to borrow \$3M for a new venture
+* Loan exceeds basis by \$2.9M
+* After exemption exhausted: 15% on \$1.5M + 20% on \$1.4M = **\$505K tax.**
+
+**Raj's take:** "I've had a good run. I've used my exemption, I've paid taxes along the way. This \$500K on a \$3M loan is about 17%—not cheap, but I keep full control of my company without an eternal debt burden."
+
+---
 
 ### **Impact**
 
@@ -3120,8 +3245,6 @@ These case studies show detailed before/after calculations for representative ta
 * Large exits: About the same (no QSBS, but simpler)  
 * Inheritance: Pay much more (step-up eliminated)
 
-## **Appendix C: Borrowing Rule Case Studies**
-
 The Borrowing Rule prevents the "Buy, Borrow, Die" strategy by treating loans against appreciated assets (above cost basis) as taxable events. Here's how it works in practice.
 
 ---
@@ -3600,396 +3723,3 @@ The Borrowing Rule prevents the "Buy, Borrow, Die" strategy by treating loans ag
 - *Total: \$6,400 + \$99,000 - \$5,000 \= \$100,400*
 
 **The Thompsons' take:** "We pay \$34K more mainly because Mike's FICA elimination (\$15K savings) doesn't fully offset our higher income taxes from losing the QBI deduction. But we're in the top 10% of earners, and the simplicity is worth it."
-
----
-
-## **Appendix D: Great Conversion Details**
-
-The Great Conversion offers a one-time opportunity to convert pre-tax retirement accounts to the new American Savings Account (ASA) at a deeply discounted 12% tax rate.
-
----
-
-### **Why Convert?**
-
-**The Math:**
-
-| Scenario | Tax Rate |
-| :---- | :---- |
-| Normal withdrawal (current law) | 22-37% |
-| Great Conversion | **12%** |
-| Savings | **10-25 percentage points** |
-
- 
-
-A \$500,000 Traditional 401(k) converted today:
-
-* Normal withdrawal tax: \$110,000 \- \$185,000  
-* Great Conversion tax: \$60,000  
-* **Savings: \$60,000 \- \$135,000**
-
-Plus: All future growth and withdrawals are tax-free.
-
----
-
-### **Eligible Accounts**
-
-**Can Convert:**
-
-* Traditional 401(k)  
-* Traditional IRA  
-* 403(b)  
-* 457(b)  
-* SEP-IRA  
-* SIMPLE IRA
-
-**Automatic Conversion (no action needed):**
-
-* Roth 401(k) → ARA  
-* Roth IRA → ARA  
-* (Same tax treatment, just new name)
-
-**Not Eligible:**
-
-* HSA (remains separate)  
-* Taxable brokerage accounts (not retirement accounts)
-
----
-
-### **How It Works**
-
-**Step 1: Elect to Convert**
-
-* 3-year enrollment window after bill passage  
-* Convert all or part of pre-tax balance  
-* Can convert in stages (Year 1: \$200K, Year 2: \$300K, etc.)
-
-**Step 2: Calculate Tax**
-
-* 10% of converted balance  
-* Example: Convert \$400,000 → \$40,000 tax
-
-**Step 3: Payment Options**
-
-* **Option A:** Pay in full (one-time)  
-* **Option B:** Pay over 10 years, interest-free  
-  * \$40,000 tax ÷ 10 years \= \$4,000/year  
-  * Added to annual tax bill  
-  * No penalties for early payoff
-
-**Step 4: Account Becomes ASA**
-
-* Converted funds now in ASA  
-* All future growth tax-free  
-* Withdrawals after age 60 tax-free  
-* Subject to ASA rules (\$2.5M lifetime cap)
-
----
-
-### **Case Studies**
-
-#### **Case 1: The Early Retiree**
-
-**Tom, 55, recently retired**
-
-|  | Amount |
-| :---- | :---- |
-| Traditional 401(k) Balance | \$800,000 |
-| Conversion Tax (10%) | \$80,000 |
-| Payment Plan | \$8,000/year for 10 years |
-
- 
-
-**Tom's Analysis:**
-
-* He expects to be in the 25% bracket during retirement  
-* Without conversion: \$800K × 25% \= \$200,000 in taxes over time  
-* With conversion: \$80,000 total  
-* **Savings: \$120,000**
-
-"I'm paying \$8,000 a year for 10 years to save \$120,000 in lifetime taxes. That's a no-brainer."
-
----
-
-#### **Case 2: The Mid-Career Professional**
-
-**Aisha, 40, software engineer**
-
-|  | Amount |
-| :---- | :---- |
-| Traditional 401(k) Balance | \$350,000 |
-| Expected Balance at 65 (7% growth) | \$1,890,000 |
-| Conversion Tax (10%) | \$35,000 |
-
- 
-
-**Aisha's Analysis:**
-
-* If she doesn't convert, the \$350K grows to \$1.89M  
-* Taxed at withdrawal: \$1.89M × 25% \= \$472,500  
-* If she converts now: \$35,000 tax, then \$1.89M withdraws tax-free  
-* **Savings: \$437,500**
-
-"The earlier you convert, the more you save. 25 years of tax-free growth is incredible."
-
----
-
-#### **Case 3: The High Earner Approaching Retirement**
-
-**James, 62, executive**
-
-|  | Amount |
-| :---- | :---- |
-| Traditional 401(k) Balance | \$2,000,000 |
-| Conversion Tax (10%) | \$200,000 |
-| Payment Plan | \$20,000/year for 10 years |
-
- 
-
-**Complication:** ASA has a \$2.5M lifetime cap. James needs to plan carefully.
-
-**James's Strategy:**
-
-* Convert \$2M to ASA (at \$2.5M cap, room for some growth)  
-* Pay \$200K over 10 years  
-* Expected withdrawals in 35% bracket without conversion: \$700,000 in taxes  
-* **Savings: \$500,000**
-
-"Even at \$2M, the conversion saves me half a million. The cap doesn't hurt me because I'm near retirement anyway."
-
----
-
-#### **Case 4: The Partial Converter**
-
-**Maria, 45, small business owner**
-
-|  | Amount |
-| :---- | :---- |
-| SEP-IRA Balance | \$600,000 |
-| Current Income Tax Bracket | 35% |
-| Expected Retirement Bracket | 25% |
-
- 
-
-**Maria's Analysis:**
-
-* She's in a high bracket now, will be lower in retirement  
-* Still, 10% \< 25%, so conversion wins  
-* But she wants to hedge: converts \$300,000 now, waits on rest
-
-**Partial Conversion:**
-
-* Year 1: Convert \$300,000 → \$30,000 tax  
-* Year 3 (end of window): Convert remaining \$350,000 → \$35,000 tax  
-* **Total tax: \$65,000**
-
-"I converted half immediately and waited to see how the transition went. Both tranches saved me money."
-
----
-
-### **Who Should NOT Convert?**
-
-**Consider keeping Traditional accounts if:**
-
-1. **Very low expected retirement income** — If you'll be in the 5-15% brackets in retirement, the savings from 10% conversion are smaller  
-2. **Near the ARA cap** — If converting would push you well over \$2.5M, excess growth may face penalties  
-3. **Need funds before 59½** — Converting requires the 10% tax; early withdrawal from Traditional may be cheaper depending on circumstances  
-4. **State tax considerations** — Some states don't tax retirement income; conversion may trigger state tax
-
----
-
-### **Revenue Impact**
-
-**Assumptions:**
-
-* Total pre-tax retirement assets: \~\$20 trillion  
-* Conversion rate: 40-60%  
-* Converted assets: \$8-12 trillion
-
-**Revenue:**
-
-* \$8-12T × 10% \= \$800B \- \$1.2T  
-* Collected over 10 years \= \$80-120B/year
-
-**Budget Treatment:**
-
-* Years 1-5: Significant revenue boost (front-loaded conversions)  
-* Years 6-10: Declining as payment plans complete  
-* Years 11+: No conversion revenue, but also no deferred tax liability
-
----
-
-### **Administrative Details**
-
-**Employer Plans:**
-
-* Employers must offer conversion option to all participants  
-* Can convert in-plan or roll to personal ASA  
-* Employer match continues to new ASA
-
-**Record Keeping:**
-
-* IRS tracks conversion amounts and payment schedules  
-* Taxpayers receive annual statement showing:  
-  * Original conversion amount  
-  * Remaining payments  
-  * ARA balance and lifetime cap status
-
-**Penalties:**
-
-* Missed payments: Standard IRS collection procedures  
-* Fraudulent conversion: Standard tax fraud penalties
-
----
-
-### **Timeline**
-
-| Year | Action |
-| :---- | :---- |
-| 0 | Bill passes |
-| 1-3 | Conversion window open |
-| 3 | Window closes for new conversions |
-| 4-13 | Payment plans continue |
-| 14+ | All conversions complete |
-
- 
-
-**Bottom line:** The Great Conversion is a once-in-a-generation opportunity to move retirement savings into a simpler, tax-free structure at a fraction of normal cost. Most Americans with pre-tax retirement accounts should convert.
-
-## **Appendix E: Account Underutilization Data**
-
-**Retirement Accounts:**
-
-* 54.4% of all families have retirement accounts; 45.6% have none (Federal Reserve, 2022\)  
-* Racial disparity: 61.8% white families vs. 34.8% Black families vs. 27.5% Hispanic families  
-* Tax incentives are poorly targeted — most subsidies go to high-income taxpayers who would save anyway
-
-**529 Plans:**
-
-* Less than 3% of families use 529 plans or Coverdell accounts  
-* 54% of parents are unaware of 529 programs  
-* 43% don't use them because they've never heard of them  
-* Those who save tend to be at the higher end of income and wealth distributions
-
-**Current complexity:** 15+ account types (401k, 403b, 457, Traditional IRA, Roth IRA, SEP-IRA, SIMPLE IRA, Solo 401k, HSA, FSA, 529, Coverdell ESA, ABLE, UGMA, UTMA...). Each has different limits, rules, and tax treatment.
-
----
-
-## **Appendix F: International Tax Rate Comparisons**
-
-### **Top Individual Income Tax Rates**
-
-| Country | Top Rate |
-| :---- | :---- |
-| Denmark | 55.9% |
-| France | 55.4% |
-| Austria | 55% |
-| Sweden | \~52% |
-| **Fair & Simple Tax Act** | **45%** |
-| Germany | 47.5% |
-| UK | 45% |
-| Australia | 45% |
-| OECD Average | 42.8% |
-| US Current | 37% |
-
- 
-
-### **Capital Gains Rates**
-
-| Country | Top Capital Gains Rate |
-| :---- | :---- |
-| Denmark | 42% |
-| Norway | 37.8% |
-| France | 34% |
-| Finland | 34% |
-| **Fair & Simple (above \$10M)** | **25%** |
-| US Current (long-term) | 23.8% |
-| OECD Average | 19.1% |
-
- 
-
-**Effective Rates Under Our Lifetime Exemption:**
-
-| Lifetime Gains | Effective Rate |
-| :---- | :---- |
-| Under \$1.5M | 0% |
-| \$3M | 7.5% |
-| \$10M | 16.3% |
-| \$50M | 23.2% |
-| \$500M | 24.8% |
-
- 
-
-Most Americans will pay 0% (under the exemption) or 15-20%. Only mega-exits approach the 25% statutory cap.
-
-### **Corporate Tax Rate**
-
-| Country | Corporate Rate |
-| :---- | :---- |
-| Germany | 29.9% |
-| Japan | 29.7% |
-| France | 25% |
-| UK | 25% |
-| **Fair & Simple Tax Act** | **25%** |
-| OECD Average | 23.6% |
-| US Current | 21% |
-
- 
-
-### **Estate/Inheritance Tax**
-
-| Country | Top Rate | Exemption |
-| :---- | :---- | :---- |
-| Japan | 55% | \~\$300K |
-| South Korea | 50% | \~\$500K |
-| France | 45% | \~\$100K |
-| **Fair & Simple Tax Act** | **40%** | **\$5M** |
-| UK | 40% | \~\$400K |
-| US Current | 40% | \~\$13M |
-| Germany | 30% | Varies |
-
- 
-
-Our \$5M exemption remains among the most generous in the developed world.
-
-### **Assessment**
-
-**Income Tax:** Our 45% top rate aligns with UK and Australian peers while maintaining progressive structure. With state taxes, top marginal rates remain under 55% depending on state.
-
-**Capital Gains:** Our \$1.5M lifetime exemption \+ progressive rates (15-32%) are competitive globally. Most Americans pay 0-15%. Only the ultra-wealthy approach rates charged in Nordic countries.
-
-**Corporate:** Our 25% matches UK/France exactly. Above US current law, but middle of OECD pack.
-
-**Estate:** Our 40% rate is standard. Our \$5M exemption is more generous than almost every peer country.
-
-**Bottom line:** Competitive with developed economies. Not punitive, not a tax haven. A system that works.
-
----
-
-## **Appendix G: Future Work**
-
-1. **SALT Credit State Table Methodology**  
-   * Deep analysis on blended rate construction (income \+ sales \+ property)  
-   * Final credit rate (25-30% range)  
-   * Final cap (\$10-15K range)  
-   * Annual refresh process  
-2. **Financial Transaction Tax (Phase 2\)**  
-   * Rate structure (0.05-0.1% range)  
-   * Asset coverage (stocks, bonds, derivatives)  
-   * Revenue estimates  
-   * Implementation mechanics  
-3. **Carbon Tax (Phase 2\)**  
-   * \$/ton rate (\$50-100 range)  
-   * Rebate mechanism (progressive dividend?)  
-   * Revenue estimates  
-   * Interaction with existing regulations  
-4. **Value-Added Tax (Phase 2\)**  
-   * Rate structure (10-15% range)  
-   * Exemptions (groceries, healthcare, etc.)  
-   * Revenue estimates (\$1-1.5T potential)  
-   * Regressivity mitigation (rebates for low-income)  
-   * Note: Most OECD countries rely on VAT for significant revenue; may be necessary for long-term fiscal sustainability  
-5. **Trade/Tariff Policy**  
-   * Interaction with corporate tax reform  
-   * Border adjustment mechanisms  
-   * Revenue potential
-
