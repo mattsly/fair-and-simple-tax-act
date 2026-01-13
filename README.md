@@ -1,27 +1,52 @@
 # Fair & Simple Tax Act (PR/FAQ)
 
-***This is an 'Amazon Style' PR/FAQ document, proposing how to to radically simplify the American Federal Tax Code***
+***This is an 'Amazon Style' PR/FAQ document, proposing how to to radically simplify the American Federal Tax Code - the propoposal is detailed in the [Fair & Simple Tax Act PR/FAQ](The%20Fair%20%26%20Simple%20Tax%20Act%20-%20PR_FAQ.md).***
 
 ## Summary of the Proposal
 
+*For detailed explanations of each change, see **Q1: What does the Fair & Simple Tax Act actually change?** in [The Fair & Simple Tax Act - PR_FAQ.md](The%20Fair%20%26%20Simple%20Tax%20Act%20-%20PR_FAQ.md#q1-what-does-the-fair--simple-tax-act-actually-change)*
+
 | What | Why | Budget Impact |
 | :--- | :--- | :--- |
-| Six income tax brackets (4%, 12%, 23%, 36%, 39%, 45%) | Simpler & Fairer | Costs $110–130B |
-| Standard deduction replaces itemized deductions for all filers | Simpler & Fairer | Modest cost (offset elsewhere) |
-| Capital gains: $1.5M lifetime exemption; progressive rates above | Fairer | Modest cost (loophole closures offset) |
-| Child benefit: $3,000 per child, universal/refundable, consolidates CTC/EITC/childcare to $3,000 | Fairer | Raises $50–60B |
-| SALT becomes an automatic universal credit | Simpler & Fairer  | Negligible |
-| Charitable Giving universal credit (30%, capped at 25% of income)| Simpler & Fairer | Negligible |
-| No AMT, NIIT, no phase-outs/cliffs on income | Simpler | Included in bracket cost |
-| Social Security payroll taxes wage cap removed | Fairer | Raises $150–200B |
-| Self-employment payroll taxes reduced to 12% self-employment | Fairer | costs $50–70B |
-| Pass-throughs: $120K salary floor + 20% residual sweat-equity allowance (counts toward lifetime exemption) | Simpler & Fairer | Costs $30–50B |
-| Carried interest follows the salary floor + 20% residual allowance (counts toward lifetime exemption) | Fairer | Costs $30–50B (gross gain offset by allowance) |
-| QSBS, 1031 overuse, and buy-borrow-die shut down; step-up eliminated | Fairer | Raises $100–200B |
-| One universal American Savings Account (ASA) replaces many account types | Simpler | Negligible |
-| **Net position** | **Simpler & Fairer** | **Raises $140–350B** |
+| **INCOME TAXES** | | |
+| Six slightly more progressive brackets: 4%, 12%, 23%, 36%, 39%, 45%; eliminates AMT and NIIT | Simpler & Fairer | Costs $110–130B |
+| **ITEMIZED DEDUCTIONS & UNIVERSAL CREDITS** | | |
+| Standard deduction for all filers; eliminates all itemized deductions, some replaced with credits | Simpler & Fairer | Negligible |
+| Mortgage interest deduction eliminated; replaced by standard deduction for all | Simpler & Fairer | Raises $70–90B |
+| SALT deduction eliminated; replaced with automatic universal credit | Simpler & Fairer | Negligible |
+| Charitable deduction eliminated; replaced with 30% universal credit (capped at 25% of tax liability) | Simpler & Fairer | Negligible || Medical cost credit: 30% credit on expenses above $5K threshold (refundable) | Fairer | Negligible || Student loan interest, energy efficiency credits, home office moved to direct programs (revenue-neutral; made visible outside tax code) | Simpler | Negligible |
+| **PAYROLL TAXES** | | |
+| Social Security wage cap eliminated; 6.2% applies to all wages | Fairer | Raises $150–200B |
+| Self-employment tax reduced to 12% (6.2% Social Security uncapped + 5.8% Medicare) | Fairer | Costs $50–70B |
+| Social Security and Medicare benefits unchanged; dedicated revenue extended indefinitely | Fairer | Negligible |
+| **CAPITAL GAINS & INVESTMENT INCOME** | | |
+| $1.5M lifetime capital gains exemption per person; progressive rates above (15%, 20%, 27%, 32%; offset by loophole closures below) | Fairer | Negligible |
+| Short-term gains taxed as ordinary income; long-term gets exemption (rewards patient capital) | Fairer | Negligible |
+| Stepped-up basis eliminated; unrealized gains taxed at death using lifetime exemption | Fairer | Raises $75–100B |
+| Buy-borrow-die closed; asset-backed borrowing triggers deemed sale on appreciation | Fairer | Raises $25–50B |
+| QSBS eliminated; replaced with universal lifetime exemption for all founders | Simpler & Fairer | Raises $10–20B |
+| Carried interest: $120K salary floor + 20% residual allowance (counts toward exemption) | Fairer | Raises $50–80B |
+| **FAMILY & DEPENDENT BENEFITS** | | |
+| Universal $6,000/child per year (consolidates CTC/EITC/childcare); phases out $120K–$400K | Fairer & Simpler | Costs $50–60B |
+| Automatic delivery; fully refundable | Simpler & Fairer | Negligible |
+| **SAVINGS & RETIREMENT** | | |
+| American Savings Account (ASA): universal $1K seed, $30K annual cap, $2.5M lifetime cap | Simpler | Negligible |
+| Replaces 15+ account types (401k, IRA, 529, etc.; streamlines admin) | Simpler | Negligible |
+| 10-year conversion window: pre-tax accounts convert at 12% flat rate (one-time revenue) | Fairer | Raises $1.2–1.3T |
+| **ESTATES & INHERITANCE** | | |
+| Death = realization event; unrealized gains taxed using lifetime exemption (included in cap gains estimates above) | Fairer | Negligible |
+| Estate exemption reduced $14M → $5M per person ($10M per couple) | Fairer | Raises $50–65B |
+| Payment flexibility for illiquid assets (15-year payout, low interest; protects family businesses) | Fair | Negligible |
+| **BUSINESS & PASS-THROUGHS** | | |
+| Pass-throughs: $120K salary floor + 20% residual sweat-equity allowance (counts toward exemption) | Simpler & Fairer | Costs $30–50B |
+| Home office: standard Schedule C deduction (no percentage allocation loopholes; moved to direct programs) | Simpler | Negligible |
+| **CORPORATE TAXES** | | |
+| Corporate rate: 21% → 25% | Fairer | Raises $80B |
+| **ADMINISTRATION & COMPLIANCE** | | |
+| Pre-filled returns for ~95% of filers; third-party reporting automated | Simpler | Raises $50–100B |
+| Reduced tax gap through automation and fewer carve-outs | Fairer | Raises $50–100B |
+| **OVERALL** | **Simpler & Fairer** | **Raises $140–350B annually** |
 
-This repository contains working drafts of the Fair & Simple Tax Act PR/FAQ and supporting notes. It is a narrative, policy-focused document set, not executable code.
 
 ## Contents
 - `The Fair & Simple Tax Act - PR_FAQ.md`: Current in-progress draft with latest policy architecture, rate tables, and examples.

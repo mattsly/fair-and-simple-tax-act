@@ -32,7 +32,7 @@ Income taxes are dramatically simplified. The six simplified tax brackets replac
 
 Saving becomes understandable. More than a dozen overlapping savings programs are replaced with one simple, universal account — flexible enough for all life stages, from education to homeownership to retirement.
 
-Families receive clear, automatic support. Three child‑related programs become a single \$3,000 annual benefit per child, delivered automatically without paperwork or phase‑outs.
+Families receive clear, automatic support. Three child‑related programs become a single \$6,000 annual benefit per child (phasing out \$120K–\$400K), delivered automatically without paperwork.
 
 Major loopholes are closed. The special rules that allow extreme wealth to avoid taxation — including stepped‑up basis at death, QSBS, NIIT, and buy‑borrow‑die strategies — are eliminated and replaced with a single, consistent system built around a lifetime capital gains exemption that applies uniformly across all asset types.
 
@@ -63,72 +63,6 @@ The Fair & Simple Tax Act replaces a black box with a system people can see, und
 1. **Radical Simplicity**: If a rule cannot be automated or clearly explained to a normal taxpayer, it does not belong in the tax code.  
 2. **Fuel the Climb**: The system should help families build stability and wealth over time — not reward financial engineering or entrenched dynastic wealth that concentrates power across generations.  
 3. **Fiscal Durability**: The reform holds the line on deficits, closes avoidance, and creates a tax base that actually collects what it is owed.
-
-## **What This Act Changes (At a Glance)**
-
-This section is a factual summary of what the Fair & Simple Tax Act adds, changes, and removes.
-
-### **Income Taxes**
-
-* Replaces current income tax brackets with six simplified brackets (Married Filing Jointly: 4% up to \$40K, 12% up to \$120K, 23% up to \$400K, 36% up to \$600K, 39% up to \$800K, 45% above \$800K)
-* Eliminates the Alternative Minimum Tax (AMT)
-
-### **Payroll Taxes**
-
-* Maintains current payroll tax structure (6.2% Social Security + 1.45% Medicare)
-* Eliminates the Social Security wage cap — the 6.2% Social Security tax now applies to all wages with no ceiling
-* Strengthens Social Security funding: removes $160K cap, raising approximately $150-200 billion annually to extend solvency without changing benefit formulas
-
-### **Capital Gains and Investment Income**
-
-* Introduces a \$1.5M lifetime capital gains exemption per person  
-* Applies progressive rates to gains above the exemption (15% from \$1.5M–\$3M, 20% from \$3M–\$10M, 27% from \$10M–\$50M, 32% above \$50M)  
-* Retains ordinary‑income treatment for short‑term gains  
-* Eliminates stepped‑up basis at death  
-* Eliminates QSBS and NIIT
-* Applies the salary floor + 20% residual allowance (counting against the lifetime exemption) to carried interest and passthrough entities 
-
-### **Family Benefits**
-
-* Replaces the Child Tax Credit, Earned Income Tax Credit, and Child & Dependent Care Credit  
-* Establishes a single universal \$3,000 annual benefit per child  
-
-### **Savings and Accounts**
-
-* Replaces more than 15 tax‑advantaged savings accounts with one universal account: * American Savings Account (ASA)  
-* \$1,000 government seed at birth, \$30,000 annual contribution cap, \$2.5M lifetime cap
-* Contributions withdraw anytime tax-free; gains tax-free after age 60
-* Provides a one‑time conversion option for existing retirement accounts
-
-### **Deductions and Credits**
-
-* Eliminates the mortgage interest deduction  
-* Replaces the SALT deduction with an automatic SALT credit, applied uniformly nationwide and available in every state  
-* Replaces the charitable deduction with a universal charitable credit
-
-### **Estates and Inheritance**
-
-* Eliminates stepped‑up basis at death  
-* Taxes unrealized capital gains at death under the same lifetime system, after a reduced estate exemption of \$5M per person (\$10M per couple), in addition to any remaining lifetime capital gains exemption  
-* Preserves payment flexibility for illiquid assets
-
-### **Corporate Taxes**
-
-* Sets the corporate income tax rate at 25%  
-* Makes no other changes to corporate taxation
-
-### **Filing and Administration**
-
-* Makes filing file‑free by default for most taxpayers  
-* Relies on third‑party reporting and pre‑filled returns  
-* Reduces manual forms and schedules
-
-### **Headline Budget Impact**
-
-* **Revenue-positive from Day 1:** Raises approximately $300-450 billion annually through wage cap removal, carried interest reform (salary floor + residual allowance), buy-borrow-die closure, and other loophole elimination
-* Delivers clear tax relief to families earning under $250K through reduced income tax brackets
-* Strengthens **long-term fiscal durability** by broadening the tax base and closing major avoidance channels  
-* Improves collections by reducing the tax gap through automation, third-party reporting, and fewer carve-outs
 
 # Frequently Asked Questions (FAQs)
 
@@ -171,7 +105,7 @@ Social Security and Medicare remain fully funded. Benefit formulas do not change
 
 ### **4\. Family Benefits: Automatic and Universal**
 
-* **\$3,000 per child per year**  
+* **\$6,000 per child per year** (full benefit <\$120K; phases \$120K–\$400K)  
 * Automatically delivered  
 * Fully refundable  
 * No income limits or phase-outs
@@ -202,7 +136,6 @@ The Fair & Simple Tax Act:
 **What gets eliminated:**
 
 * Alternative Minimum Tax (AMT)
-* Phase-outs and income cliffs
 * Itemized deductions (mortgage interest, SALT, charitable)
 * 15+ retirement account types
 * Dozens of credits and carve-outs (QSBS, carried interest, NIIT, etc.)
@@ -227,7 +160,7 @@ The Fair & Simple Tax Act:
 
 ### **The pattern**
 
-* Eliminating payroll taxes alone provides a major tax cut for most workers  
+* Lower income tax brackets provide a tax cut for most workers  
 * Families with children benefit from automatic credits  
 * Capital gains below \$1.5M are tax-free (replaces the primary residence exclusion with a universal lifetime exemption), progressive rates above that (15%/20%/27%/32%)  
 * Very large incomes and very large fortunes contribute more
@@ -640,16 +573,21 @@ The current system spreads child support across three separate programs, creatin
 
 **The Problem:** This Byzantine structure creates perverse incentives. Families face "benefits cliffs" where earning \$100 more means losing \$500 in benefits. Filing is complicated. Support is unpredictable.
 
-### **The Fair & Simple System: Universal \$3,000 per Child**
+### **The Fair & Simple System: Universal \$6,000 per Child**
 
-* **\$3,000 per child per year**
-* **Universal** — everyone with children gets it
-* **Fully refundable** — the full amount, no phase-outs
+* **\$6,000 per child per year** (full benefit for families earning under \$120K)
+* **Progressive phase-out** — reduces linearly for incomes \$120K–\$400K, reaches \$0 at \$400K+
+* **Fully refundable** — the full amount for those under \$120K
 * **No filing required** — automatically delivered via payroll or direct payment
 
-**New system cost: ~\$222B annually (74M children × \$3,000)**
+**Phase-out formula:**
+- Income ≤ \$120K: Full \$6K per child
+- \$120K < Income < \$400K: (Kids × \$6K) × [1 − (Income − \$120K) / \$280K]
+- Income ≥ \$400K: \$0
 
-**Net savings from consolidation: ~\$54B per year**
+**New system cost: ~\$330B annually**  
+**Current system cost: ~\$276B (CTC + EITC + childcare)**  
+**Net additional cost: ~\$54B per year**
 
 ### **The Complete Picture: How Families Come Out Ahead**
 
@@ -663,8 +601,8 @@ Here's where it gets important: the child benefit alone looks modest compared to
 | Income Tax | -\$1,400 | -\$560 | **+\$840** ✓ |
 | EITC (refundable) | +\$3,540 | — | — |
 | CTC (refundable) | +\$0 | — | — |
-| **Child Benefit (\$3,000 × 2)** | — | **+\$6,000** | **+\$6,000** ✓ |
-| **Net Take-Home After All Taxes + Benefits** | ~\$27,998 | ~\$31,298 | **+\$3,300 (+11.8%)** |
+| **Child Benefit (\$6,000 × 2)** | — | **+\$12,000** | **+\$12,000** ✓ |
+| **Net Take-Home After All Taxes + Benefits** | ~\$27,998 | ~\$37,298 | **+\$9,300 (+33.2%)** |
 
 #### **Example 2: Married Couple, 1 Child, \$75,000 Annual Income (W-2 Wages)**
 | Component | Today | Fair & Simple | Change |
@@ -674,8 +612,8 @@ Here's where it gets important: the child benefit alone looks modest compared to
 | Income Tax | -\$5,850 | -\$3,780 | **+\$2,070** ✓ |
 | EITC | +\$0 | — | — |
 | CTC | +\$2,000 | — | — |
-| **Child Benefit (\$3,000 × 1)** | — | **+\$3,000** | **+\$3,000** ✓ |
-| **Net Take-Home After All Taxes + Benefits** | ~\$65,412 | ~\$68,982 | **+\$3,570 (+4.8%)** |
+| **Child Benefit (\$6,000 × 1)** | — | **+\$6,000** | **+\$6,000** ✓ |
+| **Net Take-Home After All Taxes + Benefits** | ~\$65,412 | ~\$74,982 | **+\$9,570 (+14.6%)** |
 
 #### **Example 3: Married Couple, 2 Children, \$150,000 Annual Income (W-2 Wages)**
 | Component | Today | Fair & Simple | Change |
@@ -685,8 +623,10 @@ Here's where it gets important: the child benefit alone looks modest compared to
 | Income Tax | -\$18,900 | -\$13,050 | **+\$5,850** ✓ |
 | EITC | +\$0 | — | — |
 | CTC | +\$4,000 | — | — |
-| **Child Benefit (\$3,000 × 2)** | — | **+\$6,000** | **+\$6,000** ✓ |
-| **Net Take-Home After All Taxes + Benefits** | ~\$132,625 | ~\$140,475 | **+\$7,850 (+5.9%)** |
+| **Child Benefit (\$6,000 × 2, phased)** | — | **+\$10,714** | **+\$10,714** ✓ |
+| **Net Take-Home After All Taxes + Benefits** | ~\$132,625 | ~\$146,189 | **+\$13,564 (+10.2%)** |
+
+*Note: Benefit phases at \$150K: \$12,000 × [1 − (\$30K / \$280K)] = \$10,714*
 
 ### **Why This Works**
 
@@ -1156,7 +1096,88 @@ By moving them to **direct, transparent, auditable programs**, we:
 **The bottom line:**  
 We're not cutting these programs. We're making them honest.
 
-## **Q16: Will this punish entrepreneurs and innovators?**
+## **Q15a: What about medical expenses? Don't people with high medical costs need help?**
+
+**Yes, they do.** That's why we're replacing the complex itemized medical deduction with a **simple, refundable medical cost credit.**
+
+### **The Problem with Current Law**
+
+Today's medical expense deduction is broken:
+
+1. **Only helps itemizers:** Most people (87%) take the standard deduction and get zero help with medical costs
+2. **High threshold:** You can only deduct medical expenses **exceeding 7.5% of your AGI**
+   - On $60K income, you need $4,500 in expenses just to start deducting
+   - On $100K income, you need $7,500
+3. **Regressive:** Higher earners get bigger tax savings (worth more at 37% bracket than 12%)
+4. **Complex:** Requires itemizing, tracking receipts, understanding qualified medical expenses
+
+**Result:** A family with a $40K medical emergency gets little or no help because they don't itemize or don't exceed the threshold.
+
+### **The Fair & Simple Solution: Universal Medical Cost Credit**
+
+**Structure:**
+- **30% refundable credit** on medical expenses above **$5,000 threshold**
+- Available to **everyone** (not just itemizers)
+- **Fully refundable** (get the benefit even if you owe no tax)
+- Simple to claim (no itemization, just report total qualified medical expenses)
+
+**Example 1: Middle-class family, $70K income, $15K medical emergency**
+- **Current system:**
+  - Need $5,250 to start deducting (7.5% of $70K)
+  - Can deduct: $15K - $5,250 = $9,750
+  - Tax savings at 12% bracket: $1,170
+  - **But**: Only if they itemize (most don't)
+- **Fair & Simple:**
+  - Expenses above $5K: $15K - $5K = $10K
+  - Credit: $10K × 30% = **$3,000 refundable**
+  - No itemization required, get it even if you owe no tax
+
+**Example 2: Low-income family, $35K income, $12K medical costs**
+- **Current system:**
+  - Need $2,625 to start deducting
+  - Can deduct: $12K - $2,625 = $9,375
+  - **But**: Take standard deduction anyway (don't itemize), so get $0
+- **Fair & Simple:**
+  - Expenses above $5K: $12K - $5K = $7K
+  - Credit: $7K × 30% = **$2,100 refundable**
+  - Get the benefit regardless of itemization or tax owed
+
+### **Why This Is Better**
+
+1. **Universal:** Helps everyone with high medical costs, not just itemizers
+2. **Progressive:** Same 30% rate regardless of income bracket (vs. regressive deduction)
+3. **Refundable:** Get the benefit even if you owe no tax (helps low-income families most)
+4. **Simple:** No itemization, no calculating AGI thresholds, just report expenses
+5. **Fair threshold:** $5K is simpler than "7.5% of AGI" and roughly equivalent for median incomes
+
+### **What Qualifies as Medical Expenses?**
+
+Same categories as today:
+- Doctor visits, hospital care, surgery
+- Prescription medications
+- Medical equipment (wheelchairs, hearing aids, etc.)
+- Health insurance premiums (if not pre-tax via employer)
+- Long-term care expenses
+- Mental health and addiction treatment
+
+**Not qualified:**
+- Cosmetic procedures (unless medically necessary)
+- General health/wellness products
+- Over-the-counter medications (unless prescribed)
+
+### **Budget Impact**
+
+**Current medical deduction:** ~$10–15B/year in tax expenditures (mostly to high-income itemizers)
+
+**New medical credit:** ~$12–18B/year (spread more broadly, helps more families)
+
+**Net cost:** ~$3–5B/year additional (but vastly more equitable and effective)
+
+### **The Bottom Line**
+
+Families facing medical emergencies shouldn't have to navigate itemization rules and AGI thresholds to get help. The medical cost credit delivers relief simply, fairly, and universally—consistent with our philosophy that support should be transparent and accessible to everyone.
+
+## **Q17: Will this punish entrepreneurs and innovators?**
 
 **No. The Fair & Simple Tax Act is designed to reward long-term innovation, protect the startup ecosystem, and eliminate loopholes that distort incentives.**
 
@@ -1247,7 +1268,7 @@ Breakthroughs happen in ecosystems — universities, infrastructure, talent pipe
 **Bottom line:**  
 The Fair & Simple Tax Act protects ambition, rewards risk-taking, and preserves America’s innovation edge — while ensuring that the system works for decades rather than depending on fragile loopholes.
 
-## **Q17: How does this close estate planning loopholes like GRATs, dynasty trusts, and valuation discounts?**
+## **Q18: How does this close estate planning loopholes like GRATs, dynasty trusts, and valuation discounts?**
 
 **The Fair & Simple Tax Act eliminates the underlying conditions that make sophisticated estate planning techniques work — without having to ban each one individually.**
 
@@ -1437,7 +1458,7 @@ The Fair & Simple Tax Act doesn't ban these techniques. It just says: **at some 
 
 Typical families are completely protected. Ultra-wealthy families can still transfer wealth — they just can't transfer billions tax-free across 10 generations using legal engineering.
 
-## **Q18: What about expatriation and capital flight?**
+## **Q19: What about expatriation and capital flight?**
 
 **The Fair & Simple Tax Act treats renunciation of citizenship the same way it treats death — as a realization event. Departing citizens owe tax on accumulated gains, just like they would if they sold everything.**
 
@@ -1788,7 +1809,7 @@ Real estate doesn't disappear. Landlords don't disappear. Depreciation deduction
 
 What disappears is the ability to defer taxes indefinitely by chaining 1031s across decades and generations. Wealth created in real estate eventually gets taxed — at exit or at death, just like wealth in any other asset class.
 
-## **Q19: How does this affect pass-through businesses (S-Corps, LLCs, partnerships)?**
+## **Q20: How does this affect pass-through businesses (S-Corps, LLCs, partnerships)?**
 
 **Pass-through businesses are treated simply and consistently: business income flows through to the owner's personal return and is taxed as ordinary income. Self-employment taxes are simplified to 12% (keeping the full 6.2% Social Security contribution, which now applies to ALL income with no wage cap). Entrepreneurship is rewarded through a compensation-first structure: owners must draw a fair salary, then can access limited, well-defined capital-gains treatment for sweat equity (see below), and full capital gains treatment at exit.**
 
@@ -1936,7 +1957,7 @@ These three examples illustrate the effect of the **salary floor + 20% residual 
 
 # **Part 4: Revenue and Fiscal Impact**
 
-## **Q20: How much does this cost, and how is it funded?**
+## **Q21: How much does this cost, and how is it funded?**
 
 ### **The Numbers**
 
@@ -1959,10 +1980,10 @@ The Fair & Simple Tax Act generates **$300-450B in new annual revenue** on Day 1
 | Income tax bracket cuts (Option 3) | $110-130B |
 | SE tax reduction 15.3% → 12% | $50-70B |
 | Sweat-equity allowance (salary floor + 20% residual at cap gains, counts vs lifetime exemption) | $30-50B |
-| Family benefits ($3,000/child, replaces 3 programs) | Net $54B savings (consolidation) |
-| **Total Costs (net of savings)** | **~$100-160B** |
+| Family benefits ($6,000/child phased $120K–$400K, replaces 3 programs) | Net $54B cost (consolidation offset by increased benefit) |
+| **Total Costs (net of child benefit cost)** | **~$154-214B** |
 
-**Net Fiscal Impact: ~$140-350B revenue-positive annually**
+**Net Fiscal Impact: ~$86-296B revenue-positive annually**
 
 This positions the Act as not just fiscally sound, but as a genuine deficit reducer in the long term while providing immediate relief to working families.
 
@@ -2088,7 +2109,7 @@ This reflects the policy choice: **We're simplifying the system without squeezin
 
 ---
 
-## **Q21: How does this plan handle income earned outside the U.S.?**
+## **Q22: How does this plan handle income earned outside the U.S.?**
 
 **Simple answer: U.S. citizens and residents are taxed on worldwide income using the same rules as domestic income. Foreign earned income is ordinary income. Foreign business income follows pass-through rules. Foreign capital gains use the lifetime exemption. Foreign tax credit continues. GILTI, Subpart F, and PFIC complexity are eliminated.**
 
@@ -2197,7 +2218,7 @@ U.S. businesses no longer face GILTI penalties when earning abroad. They compete
 
 ---
 
-## **Q21: How do trusts work under this plan? Can I use them to avoid paying tax forever?**
+## **Q23: How do trusts work under this plan? Can I use them to avoid paying tax forever?**
 
 **No. Trusts can still be used for estate planning, liability protection, and managing beneficiary distribution — but not for tax deferral. Income retained in a trust is taxed to the trust at the top marginal rate (45%) in the year earned. Distributions to beneficiaries are taxed as ordinary income (or capital gains if the trust distributes capital gains). The lifetime capital gains exemption is per-person and doesn't transfer through trusts or multiply across generations.**
 
@@ -2295,8 +2316,8 @@ The Fair & Simple Tax Act is **revenue-neutral in Years 1-5** thanks to the Grea
 | Employee FICA elimination | \-\$750B | 7.65% × \~\$10T in covered wages |
 | Middle-class bracket cuts | \-\$150B | Lower effective rates for \<\$150K |
 | Self-employed rate cut (15.3% → 8%) | \-\$50B | \~\$700B in self-employment income |
-| Child benefits consolidation | \+\$54B | Consolidates CTC/EITC/Childcare (current: \$276B) into universal \$3,000/child (\$222B), saves \$54B |
-| **Total Annual Costs** | **\-\$950B** | (Reduced by \$54B due to child benefits consolidation savings) |
+| Child benefits consolidation | \-\$54B | Consolidates CTC/EITC/Childcare (current: \$276B) into \$6,000/child with phase-out (\$330B), costs \$54B more |
+| **Total Annual Costs** | **\-\$1,004B** | (Increased by \$54B due to child benefit enhancement) |
 
 ---
 
@@ -2604,15 +2625,15 @@ Export to Sheets
 | Gross Income | \$75,000 | \$75,000 | — |
 | Employee FICA (7.65%) | \$5,738 | \$0 | \-\$5,738 |
 | Federal Income Tax | \$6,748 | \$11,050 | \+\$4,302 |
-| Child Tax Credit | \-\$2,000 | \-\$2,500 | \-\$500 |
-| **Total Federal Tax** | **\$10,486** | **\$8,550** | **\-\$1,936** |
-| **Effective Rate** | **14.0%** | **11.4%** | **\-2.6 pts** |
+| Child Tax Credit | \-\$2,000 | \-\$6,000 | \-\$4,000 |
+| **Total Federal Tax** | **\$10,486** | **\$5,050** | **\-\$5,436** |
+| **Effective Rate** | **14.0%** | **6.7%** | **\-7.3 pts** |
 
 Export to Sheets
 
 *Income tax: 5% × \$20K \+ 15% × \$40K \+ 27% × \$15K \= \$1,000 \+ \$6,000 \+ \$4,050 \= \$11,050*
 
-**Sofia's take:** "Between FICA elimination and the bigger child credit, I keep almost \$2,000 more."
+**Sofia's take:** "Between FICA elimination and the \$6K child benefit, I keep over \$5,400 more each year. That's life-changing."
 
 ---
 
@@ -2639,15 +2660,15 @@ Export to Sheets
 | Gross Income | \$140,000 | \$140,000 | — |
 | Employee FICA (7.65%) | \$10,710 | \$0 | \-\$10,710 |
 | Federal Income Tax | \$12,456 | \$19,400 | \+\$6,944 |
-| Child Tax Credit | \-\$6,000 | \-\$7,500 | \-\$1,500 |
-| **Total Federal Tax** | **\$17,166** | **\$11,900** | **\-\$5,266** |
-| **Effective Rate** | **12.3%** | **8.5%** | **\-3.8 pts** |
+| Child Tax Credit | \-\$6,000 | \-\$17,143 | \-\$11,143 |
+| **Total Federal Tax** | **\$17,166** | **\$2,257** | **\-\$14,909** |
+| **Effective Rate** | **12.3%** | **1.6%** | **\-10.7 pts** |
 
 Export to Sheets
 
-*Income tax (MFJ): 5% × \$40K \+ 15% × \$80K \+ 27% × \$20K \= \$2,000 \+ \$12,000 \+ \$5,400 \= \$19,400. CTC: \$2,500 × 3 kids \= \$7,500.*
+*Income tax (MFJ): 5% × \$40K \+ 15% × \$80K \+ 27% × \$20K \= \$2,000 \+ \$12,000 \+ \$5,400 \= \$19,400. Child benefit: 3 kids × \$6K = \$18K, phased at \$140K: \$18,000 × [1 − (\$20K / \$280K)] = \$17,143.*
 
-**The Garcias:** "We save \$5,300 and never have to file again. The automatic CTC is life-changing."
+**The Garcias:** "We save almost \$15,000 and never have to file again. The automatic child benefit is incredible."
 
 ---
 
