@@ -32,7 +32,7 @@ Income taxes are dramatically simplified. The six simplified tax brackets replac
 
 Saving becomes understandable. More than a dozen overlapping savings programs are replaced with one simple, universal account — flexible enough for all life stages, from education to homeownership to retirement.
 
-Families receive clear, automatic support. Three child‑related programs become a single \$2,500 annual benefit per child, delivered automatically without paperwork or phase‑outs.
+Families receive clear, automatic support. Three child‑related programs become a single \$3,000 annual benefit per child, delivered automatically without paperwork or phase‑outs.
 
 Major loopholes are closed. The special rules that allow extreme wealth to avoid taxation — including stepped‑up basis at death, QSBS, NIIT, and buy‑borrow‑die strategies — are eliminated and replaced with a single, consistent system built around a lifetime capital gains exemption that applies uniformly across all asset types.
 
@@ -76,7 +76,7 @@ This section is a factual summary of what the Fair & Simple Tax Act adds, change
 ### **Payroll Taxes**
 
 * Maintains current payroll tax structure (6.2% Social Security + 1.45% Medicare)
-* **Eliminates the Social Security wage cap** — the 6.2% Social Security tax now applies to all wages with no ceiling
+* Eliminates the Social Security wage cap — the 6.2% Social Security tax now applies to all wages with no ceiling
 * Strengthens Social Security funding: removes $160K cap, raising approximately $150-200 billion annually to extend solvency without changing benefit formulas
 
 ### **Capital Gains and Investment Income**
@@ -85,14 +85,13 @@ This section is a factual summary of what the Fair & Simple Tax Act adds, change
 * Applies progressive rates to gains above the exemption (15% from \$1.5M–\$3M, 20% from \$3M–\$10M, 27% from \$10M–\$50M, 32% above \$50M)  
 * Retains ordinary‑income treatment for short‑term gains  
 * Eliminates stepped‑up basis at death  
-* Eliminates QSBS, NIIT, carried interest, and related carve‑outs  
-* Applies a single, consistent rule to dividends and interest income
+* Eliminates QSBS and NIIT
+* Applies the salary floor + 20% residual allowance (counting against the lifetime exemption) to carried interest and passthrough entities 
 
 ### **Family Benefits**
 
 * Replaces the Child Tax Credit, Earned Income Tax Credit, and Child & Dependent Care Credit  
-* Establishes a single \$2,500 annual benefit per child  
-* Makes the benefit universal and fully refundable
+* Establishes a single universal \$3,000 annual benefit per child  
 
 ### **Savings and Accounts**
 
@@ -126,7 +125,7 @@ This section is a factual summary of what the Fair & Simple Tax Act adds, change
 
 ### **Headline Budget Impact**
 
-* **Revenue-positive from Day 1:** Raises approximately $300-450 billion annually through wage cap removal, carried interest reclassification, buy-borrow-die closure, and other loophole elimination
+* **Revenue-positive from Day 1:** Raises approximately $300-450 billion annually through wage cap removal, carried interest reform (salary floor + residual allowance), buy-borrow-die closure, and other loophole elimination
 * Delivers clear tax relief to families earning under $250K through reduced income tax brackets
 * Strengthens **long-term fiscal durability** by broadening the tax base and closing major avoidance channels  
 * Improves collections by reducing the tax gap through automation, third-party reporting, and fewer carve-outs
@@ -172,7 +171,7 @@ Social Security and Medicare remain fully funded. Benefit formulas do not change
 
 ### **4\. Family Benefits: Automatic and Universal**
 
-* **\$2,500 per child per year**  
+* **\$3,000 per child per year**  
 * Automatically delivered  
 * Fully refundable  
 * No income limits or phase-outs
@@ -245,7 +244,7 @@ Yes. The Fair & Simple Tax Act is **revenue-positive from Day 1**.
 It achieves this by:
 
 * Removing the Social Security wage cap (high earners pay on all wages): +$150-200B annually
-* Reclassifying carried interest as ordinary compensation: +$50-80B annually
+* Carried interest reform (salary floor + 20% residual allowance; lifetime-exemption limited): +$50-80B gross (net reflects allowance cost below)
 * Closing buy-borrow-die and other avoidance strategies: +$100-200B annually
 * Broadening the tax base and reducing the tax gap through automation and third-party reporting: +$50-100B annually
 * **Total: $350-580B in new annual revenue**
@@ -371,70 +370,48 @@ This matches current law and provides reasonable loss recognition without creati
 
 ### **Carried Interest (Investment Manager Compensation)**
 
-Carried interest is a major tax loophole used by private equity, hedge fund, and venture capital managers. It allows investment professionals to receive compensation for their work but have it taxed as capital gains instead of ordinary income.
+Carried interest has been a loophole allowing service compensation to be taxed as capital gains. Under Fair & Simple, it follows the same compensation-first rule as other sweat equity: a salary floor plus a capped residual allowance that counts against the lifetime exemption.
 
 **What is carried interest?**
 
 Investment managers typically receive two forms of compensation:
 
 1. **Management fees** (usually 2%) — paid by limited partners, taxed as ordinary income
-2. **Carried interest** ("carry") (usually 20%) — a share of the fund's profits, currently taxed as capital gains
+2. **Carried interest** ("carry") (usually 20%) — a share of the fund's profits, historically taxed as capital gains
 
-The problem: Carried interest is **compensation for work**, not genuine capital investment. A fund manager contributes minimal capital but receives 20% of all profits through a partnership structure. The manager's share of these profits is economically equivalent to a performance bonus — but is taxed at capital gains rates (currently 15-20%) instead of ordinary income rates (currently 37% for top earners).
+The problem: Carried interest is **compensation for work**, not genuine capital investment. A fund manager contributes minimal capital but receives 20% of all profits through a partnership structure. The manager's share of these profits is economically equivalent to a performance bonus — but is taxed at capital gains rates (currently 15-20%) instead of ordinary income rates.
 
 **Example: The gap**
 
-* A PE fund manages \$10 billion and generates \$1 billion in profits
-* The manager receives 20% carry = \$200 million
-* Under current law: Taxed at 20% capital gains rate = \$40M in taxes, manager keeps \$160M (80%)
-* Under ordinary income: Taxed at 37% rate = \$74M in taxes, manager keeps \$126M (63%)
-* **Annual benefit from loophole: \$34 million per manager**
+* A PE fund manages $10 billion and generates $1 billion in profits
+* The manager receives 20% carry = $200 million
+* Under current law: Taxed at 20% capital gains rate = $40M in taxes, manager keeps $160M (80%)
+* Ordinary-income equivalent: $74M at 37% → manager keeps $126M (63%)
+* **Annual benefit from loophole: $34 million per manager**
 
-This compounds across the industry. With roughly 2,500-3,000 active PE/hedge fund managers, the total annual revenue loss is approximately **\$50-80 billion per year**.
+This compounds across the industry. With roughly 2,500-3,000 active PE/hedge fund managers, the total annual revenue loss is approximately **$50-80 billion per year (gross)**.
 
-**How the Fair & Simple Tax Act addresses this:**
+**How the Fair & Simple Tax Act addresses this (aligned with sweat equity):**
 
-The Act reclassifies carried interest as ordinary compensation income, not capital gains:
-
-* **Carried interest is taxed as ordinary income** — at the same rates as salary and wages
-* The manager's personal capital contributions (if any) still receive capital gains treatment
-* But the share of profits attributable to "sweat equity" (the carry) is ordinary income
-
-This is both philosophically and economically correct: if you perform services (managing a fund), the compensation is income. If you invest your own capital, the returns are capital gains.
-
-**Mechanics:**
-
-* Fund partnerships allocate carried interest to the general partner annually
-* The GP includes this as ordinary income on their tax return
-* If the GP has made genuine capital contributions alongside limited partners, those can be treated separately and receive capital gains treatment
-* The distinction is: **capital you put at risk = capital gains treatment; compensation for services = ordinary income**
+* **Compensation floor:** At least $120K (indexed) must be taken as ordinary income/salary.
+* **Residual allowance:** Up to 20% of residual profits may be treated as capital gains, counting against the lifetime exemption; the rest is ordinary income.
+* **Capital at risk:** Genuine GP capital contributions still receive capital gains treatment separately.
+* **Lifetime brake:** Preferred portions consume the $1.5M lifetime exemption; above that, progressive capital gains rates apply.
 
 **Example: PE Manager under Fair & Simple Tax Act**
 
-* Same scenario: \$200M in carried interest
-* Now taxed as ordinary income at top rate (45% under the Act) = \$90M in taxes
-* Manager keeps: \$110M (55%)
-* **Annual cost to manager: \$50M** (compared to current system)
-
-This is substantial, but:
-- The manager is still extraordinarily wealthy and compensated
-- They're paying the same rate as any other high-income professional (doctor, lawyer, executive)
-- The policy is: compensation is compensation, regardless of asset class
+* Carry stream: $200M
+* Salary floor: $120K (ordinary)
+* Residual allowance: 20% of profits eligible for cap-gains treatment, counts against remaining lifetime exemption
+* Balance: Ordinary income at top bracket
 
 **Why this matters:**
 
-Currently, a PE fund manager earning \$200M pays 20% tax on their carry. A surgeon earning \$1M in compensation pays 37% tax. This inverts normal tax progressivity: the person with far more income pays a lower rate because of how the compensation is structured, not because of policy.
+* Aligns finance with the same sweat-equity rules used for founders/SMBs — no finance-only carve-outs
+* Ensures meaningful ordinary-income inclusion, while allowing capped upside tied to real performance
+* Uses the lifetime exemption to prevent serial reclassification of labor income as gains
 
-The Fair & Simple Tax Act treats all compensation equally. If you earn money for performing services — whether managing a fund, practicing medicine, or leading a corporation — it's taxed as ordinary income. If you invest your own capital and earn returns, it's taxed as capital gains.
-
-**Impact on the industry:**
-
-* Private equity firms will still be profitable — this doesn't eliminate the carry, just taxes it correctly
-* Carried interest remains a powerful incentive for fund managers (still 55% after-tax under Fair & Simple, vs. 63% today)
-* The industry will likely adjust by: (1) increasing management fee structures modestly, or (2) maintaining carry as a competitive incentive despite higher taxes
-* This is comparable to how all other industries adapt to tax changes
-
-**Estimated revenue recovery: \$50-80 billion annually**
+**Estimated revenue recovery:** Gross $50-80B; net reflects the allowance cost already accounted for in costs
 
 ### **Foreign Investments**
 
@@ -663,16 +640,16 @@ The current system spreads child support across three separate programs, creatin
 
 **The Problem:** This Byzantine structure creates perverse incentives. Families face "benefits cliffs" where earning \$100 more means losing \$500 in benefits. Filing is complicated. Support is unpredictable.
 
-### **The Fair & Simple System: Universal \$2,500 per Child**
+### **The Fair & Simple System: Universal \$3,000 per Child**
 
-* **\$2,500 per child per year**
+* **\$3,000 per child per year**
 * **Universal** — everyone with children gets it
 * **Fully refundable** — the full amount, no phase-outs
 * **No filing required** — automatically delivered via payroll or direct payment
 
-**New system cost: ~\$185B annually (74M children × \$2,500)**
+**New system cost: ~\$222B annually (74M children × \$3,000)**
 
-**Net savings from consolidation: ~\$91B per year**
+**Net savings from consolidation: ~\$54B per year**
 
 ### **The Complete Picture: How Families Come Out Ahead**
 
@@ -686,8 +663,8 @@ Here's where it gets important: the child benefit alone looks modest compared to
 | Income Tax | -\$1,400 | -\$560 | **+\$840** ✓ |
 | EITC (refundable) | +\$3,540 | — | — |
 | CTC (refundable) | +\$0 | — | — |
-| **Child Benefit (\$2,500 × 2)** | — | **+\$5,000** | **+\$5,000** ✓ |
-| **Net Take-Home After All Taxes + Benefits** | ~\$27,998 | ~\$30,298 | **+\$2,300 (+8.2%)** |
+| **Child Benefit (\$3,000 × 2)** | — | **+\$6,000** | **+\$6,000** ✓ |
+| **Net Take-Home After All Taxes + Benefits** | ~\$27,998 | ~\$31,298 | **+\$3,300 (+11.8%)** |
 
 #### **Example 2: Married Couple, 1 Child, \$75,000 Annual Income (W-2 Wages)**
 | Component | Today | Fair & Simple | Change |
@@ -697,8 +674,8 @@ Here's where it gets important: the child benefit alone looks modest compared to
 | Income Tax | -\$5,850 | -\$3,780 | **+\$2,070** ✓ |
 | EITC | +\$0 | — | — |
 | CTC | +\$2,000 | — | — |
-| **Child Benefit (\$2,500 × 1)** | — | **+\$2,500** | **+\$2,500** ✓ |
-| **Net Take-Home After All Taxes + Benefits** | ~\$65,412 | ~\$67,982 | **+\$2,570 (+3.9%)** |
+| **Child Benefit (\$3,000 × 1)** | — | **+\$3,000** | **+\$3,000** ✓ |
+| **Net Take-Home After All Taxes + Benefits** | ~\$65,412 | ~\$68,982 | **+\$3,570 (+4.8%)** |
 
 #### **Example 3: Married Couple, 2 Children, \$150,000 Annual Income (W-2 Wages)**
 | Component | Today | Fair & Simple | Change |
@@ -708,8 +685,8 @@ Here's where it gets important: the child benefit alone looks modest compared to
 | Income Tax | -\$18,900 | -\$13,050 | **+\$5,850** ✓ |
 | EITC | +\$0 | — | — |
 | CTC | +\$4,000 | — | — |
-| **Child Benefit (\$2,500 × 2)** | — | **+\$5,000** | **+\$5,000** ✓ |
-| **Net Take-Home After All Taxes + Benefits** | ~\$132,625 | ~\$139,475 | **+\$6,850 (+5.2%)** |
+| **Child Benefit (\$3,000 × 2)** | — | **+\$6,000** | **+\$6,000** ✓ |
+| **Net Take-Home After All Taxes + Benefits** | ~\$132,625 | ~\$140,475 | **+\$7,850 (+5.9%)** |
 
 ### **Why This Works**
 
@@ -718,7 +695,7 @@ The Fair & Simple system accomplishes what current patchwork programs cannot:
 1. **Predictability** — families know exactly what they'll receive
 2. **Universality** — the same benefit for everyone with children
 3. **Alignment with work** — payroll tax elimination means no "benefits cliffs"
-4. **Administrative efficiency** — \$91B saved by consolidating three programs into one
+4. **Administrative efficiency** — ~\$54B saved by consolidating three programs into one
 
 **The political genius:** This appeals across the aisle. Conservatives like that we're simplifying government, reducing hidden taxes, and cutting fraud. Progressives like that every family with children gets automatic support with no conditions attached.
 
@@ -1102,7 +1079,84 @@ This preserves public funding for shared priorities while still strongly support
 **Bottom line:**  
 The Fair & Simple Tax Act replaces an uneven, opaque deduction with a clear, universal incentive that supports charities, respects democratic budgeting, and encourages giving across the income spectrum.
 
-## **Q15: Will this punish entrepreneurs and innovators?**
+## **Q15: What about student loan interest, energy efficiency credits, and home office deductions?**
+
+**These are eliminated.** We believe consumer incentives should be delivered transparently via direct government programs, not embedded in tax code as hidden subsidies.
+
+### **The Philosophy**
+
+When you put incentives in the tax code, three things happen:
+
+1. **They become invisible.** Voters don't know what government spending is happening; it's buried in return complexity
+2. **They're regressive.** High earners benefit more (higher marginal rates, better tax planning access)
+3. **They create perverse incentives.** Behavior gets distorted by tax rules rather than by actual policy merit
+
+**Example:** A $2,000 energy efficiency credit is worth $600 to a 30% bracket earner but $800 to a 40% earner — even though the environmental benefit is identical. Why should taxpayer income determine the subsidy for climate action?
+
+By contrast, direct programs make government spending visible and can be designed fairly:
+
+### **Student Loan Interest Deduction (~$7–10B annually)**
+
+**Current system:** $2,500 deduction for student loan interest, phasing out at $80K+ income (married). Regressive; excludes borrowers below the deduction threshold.
+
+**Fair & Simple approach:** Eliminate the deduction. Handle student debt via:
+- **Direct income-driven repayment reform** (cap payments at % of discretionary income, with transparent forgiveness timelines)
+- **Direct subsidies for specific populations** (teachers, public servants) if we want to incentivize those careers
+- **Transparent budget line-item** so voters know what we're spending on debt relief
+
+This way: Everyone can see what we're paying, and repayment is based on actual ability-to-pay, not tax bracket.
+
+### **Energy Efficiency & EV Credits (~$50–80B in various credits annually)**
+
+**Current system:** Fragmented credits for solar, heat pumps, EVs, home efficiency upgrades. Complex eligibility rules, income phase-outs, form-filing. Benefits accrue to higher-income households with access to tax planners and upfront capital.
+
+**Fair & Simple approach:** Eliminate all personal energy credits. Replace with:
+- **Point-of-sale rebates** (buyer walks into dealer or contractor, rebate is processed at checkout; no tax filing required)
+- **Direct grants for low-income retrofits** (government sends contractor to your home, does work, pays contractor directly)
+- **Transparent budget** so Congress debates: "Do we want to spend $60B on climate investment this year?"
+
+**Why this is better:** A homeowner buying a heat pump doesn't need to remember to claim a credit on next year's taxes. They get the savings immediately. Contractors know exact pricing. And voters can see: "We spent $60B on clean energy incentives last year."
+
+### **Home Office Deduction**
+
+**Current system:** "Simplified option" ($5/sq ft, capped at 300 sq ft = max $1,500/year) or "actual expense" method (depreciate home, deduct % of utilities, mortgage interest, property tax, repairs). Confusing; encourages creative allocation of home expenses.
+
+**Fair & Simple approach:** **Home office remains a standard business deduction on Schedule C** — but it's treated like any other business expense:
+- If you're self-employed and have a dedicated office space, you can deduct the direct costs of that space (rent if rented, or fair-market rent if in your own home)
+- You track square footage and business-use percentage
+- No percentage allocation of household utilities or mortgage interest
+- It's simple, auditable, and leaves no room for gaming
+
+**The key difference:** You're not trying to apportion your mortgage/utilities/repairs across your home. You're simply deducting the cost of your workspace, same as you'd deduct rent for a commercial office.
+
+**Example:**
+- You own a home and use 200 sq ft (10% of your home) as a dedicated office
+- Your home's fair-market rent value is $24,000/year (an appraisal figure)
+- You can deduct $2,400/year for the office space
+- That's it. No depreciation schedules, no utilities allocation, no repairs basis
+
+This remains fully deductible by self-employed people — we're not eliminating it, just simplifying it and removing the loopholes that turned it into a way to allocate personal home expenses.
+
+### **Why This Approach**
+
+These three categories represent ~$60–100B in annual tax expenditures that:
+
+- Are poorly targeted (help higher-income households more)
+- Are invisible to voters (buried in code complexity)
+- Distort behavior (people make decisions based on tax incentives, not actual economics)
+- Are hard to audit and easy to abuse
+
+By moving them to **direct, transparent, auditable programs**, we:
+
+✓ Make government spending visible  
+✓ Design benefits fairly (same subsidy for same action, regardless of income/bracket)  
+✓ Reduce tax compliance burden (no forms to file, no audit risk)  
+✓ Enable Congress to have honest debates: "Should we spend $60B on clean energy?"
+
+**The bottom line:**  
+We're not cutting these programs. We're making them honest.
+
+## **Q16: Will this punish entrepreneurs and innovators?**
 
 **No. The Fair & Simple Tax Act is designed to reward long-term innovation, protect the startup ecosystem, and eliminate loopholes that distort incentives.**
 
@@ -1193,7 +1247,7 @@ Breakthroughs happen in ecosystems — universities, infrastructure, talent pipe
 **Bottom line:**  
 The Fair & Simple Tax Act protects ambition, rewards risk-taking, and preserves America’s innovation edge — while ensuring that the system works for decades rather than depending on fragile loopholes.
 
-## **Q16: How does this close estate planning loopholes like GRATs, dynasty trusts, and valuation discounts?**
+## **Q17: How does this close estate planning loopholes like GRATs, dynasty trusts, and valuation discounts?**
 
 **The Fair & Simple Tax Act eliminates the underlying conditions that make sophisticated estate planning techniques work — without having to ban each one individually.**
 
@@ -1383,7 +1437,7 @@ The Fair & Simple Tax Act doesn't ban these techniques. It just says: **at some 
 
 Typical families are completely protected. Ultra-wealthy families can still transfer wealth — they just can't transfer billions tax-free across 10 generations using legal engineering.
 
-## **Q17: What about expatriation and capital flight?**
+## **Q18: What about expatriation and capital flight?**
 
 **The Fair & Simple Tax Act treats renunciation of citizenship the same way it treats death — as a realization event. Departing citizens owe tax on accumulated gains, just like they would if they sold everything.**
 
@@ -1757,7 +1811,7 @@ The Fair & Simple Tax Act simplifies this by: (1) reducing SE tax to 12%, (2) ma
 3. **All income** — Taxed as ordinary income on owner's personal return (no operational capital gains treatment)
 4. **At sale/exit** — Capital gains treatment using lifetime exemption, then progressive capital gains rates
 5. **QBI deduction (Section 199A)** — Eliminated (simplification)
-6. **Carried interest loophole** — Closed (all compensation is ordinary income)
+6. **Carried interest** — Follows the same salary floor + 20% residual allowance (counts against lifetime exemption) as other sweat equity
 
 **The practical effect:**
 
@@ -1893,7 +1947,7 @@ The Fair & Simple Tax Act generates **$300-450B in new annual revenue** on Day 1
 | Source | Estimate |
 | :---- | :---- |
 | Social Security wage cap removal | $150-200B |
-| Carried interest reclassification | $50-80B |
+| Carried interest reform (salary floor + residual allowance; gross before allowance cost) | $50-80B |
 | Buy-borrow-die closure | $50-100B |
 | Other loophole closures (QSBS, etc.) | $50-100B |
 | **Total New Revenue** | **$300-450B** |
@@ -1905,7 +1959,7 @@ The Fair & Simple Tax Act generates **$300-450B in new annual revenue** on Day 1
 | Income tax bracket cuts (Option 3) | $110-130B |
 | SE tax reduction 15.3% → 12% | $50-70B |
 | Sweat-equity allowance (salary floor + 20% residual at cap gains, counts vs lifetime exemption) | $30-50B |
-| Family benefits ($2,500/child, replaces 3 programs) | Net $91B savings (consolidation) |
+| Family benefits ($3,000/child, replaces 3 programs) | Net $54B savings (consolidation) |
 | **Total Costs (net of savings)** | **~$100-160B** |
 
 **Net Fiscal Impact: ~$140-350B revenue-positive annually**
@@ -2034,7 +2088,7 @@ This reflects the policy choice: **We're simplifying the system without squeezin
 
 ---
 
-## **Q20: How does this plan handle income earned outside the U.S.?**
+## **Q21: How does this plan handle income earned outside the U.S.?**
 
 **Simple answer: U.S. citizens and residents are taxed on worldwide income using the same rules as domestic income. Foreign earned income is ordinary income. Foreign business income follows pass-through rules. Foreign capital gains use the lifetime exemption. Foreign tax credit continues. GILTI, Subpart F, and PFIC complexity are eliminated.**
 
@@ -2241,8 +2295,8 @@ The Fair & Simple Tax Act is **revenue-neutral in Years 1-5** thanks to the Grea
 | Employee FICA elimination | \-\$750B | 7.65% × \~\$10T in covered wages |
 | Middle-class bracket cuts | \-\$150B | Lower effective rates for \<\$150K |
 | Self-employed rate cut (15.3% → 8%) | \-\$50B | \~\$700B in self-employment income |
-| Child benefits consolidation | \+\$75-90B | Consolidates CTC/EITC/Childcare (current: \$276B) into universal \$2,500/child (\$185B), saves \$91B |
-| **Total Annual Costs** | **\-\$950B** | (Reduced by \$50B due to child benefits consolidation savings) |
+| Child benefits consolidation | \+\$54B | Consolidates CTC/EITC/Childcare (current: \$276B) into universal \$3,000/child (\$222B), saves \$54B |
+| **Total Annual Costs** | **\-\$950B** | (Reduced by \$54B due to child benefits consolidation savings) |
 
 ---
 
