@@ -1777,16 +1777,16 @@ The Fair & Simple Tax Act simplifies this by: (1) reducing SE tax to 12%, (2) ma
 * **Lifetime limits** — All capital gains (including carried interest) count against the lifetime exemption; once used, gains face progressive capital gains rates
 * **Pro-entrepreneur, anti-loophole** — Rewards real risk and sweat equity while preventing serial reclassification of labor income as lightly taxed gains
 
-_Note: The three business examples below currently show pure ordinary-income treatment. Applying the compensation floor + sweat-equity allowance would reduce their income tax relative to W-2 earners at the same income once the $120,000 salary floor is met. Revenue modeling will be updated to reflect the exact allowance design._
+_Note: The three business examples below now apply the $120,000 salary floor and a 20% residual profit sweat-equity allowance (counts against lifetime exemption). Revenue modeling will be updated as we finalize the allowance percentage and any cap._
 
 ### **How they compare to W-2 earners at the same income (Option 3)**
 
 * **$350K W-2 (MFJ):** Income tax ~$64,100; payroll ~$27,675 (7.65% + 0.9% surtax over $250K) → **Total ~$91,775 (26.2% effective)**
-  * **Dr. Chen (S-Corp $350K):** ~$91,200 (26.1% effective) — essentially parity with W-2 at same income before sweat-equity allowance
+  * **Dr. Chen (S-Corp $350K with allowance):** ~$67,920 (19.4% effective) — lower than W-2 due to payroll limited to salary and sweat-equity allowance
 * **$500K W-2 (MFJ):** Income tax ~$111,600; payroll ~$40,500 (includes 0.9% surtax over $250K) → **Total ~$152,100 (30.4% effective)**
-  * **Parkers (S-Corp $500K):** ~$129,600 (25.9% effective) — lower than W-2 because payroll applies only to salary portion
+  * **Parkers (S-Corp $500K with allowance):** ~$98,640 (19.7% effective) — much lower than W-2; parity with current law after applying salary floor + allowance
 
-Implication: even without the sweat-equity allowance, active owners are at or below W-2 burden at the same income. The new allowance will further recognize sweat equity while keeping a firm compensation floor.
+Implication: with the salary floor + 20% allowance, active owners are below W-2 burden at the same income, while still meeting a clear compensation minimum and consuming lifetime exemption for the preferred portion.
 
 ---
 
@@ -1799,20 +1799,21 @@ Implication: even without the sweat-equity allowance, active owners are at or be
 * Income tax at current brackets on \$400K: ~$75K
 * **Total federal tax: ~\$98K (19.6% effective rate)** — lower due to S-corp salary planning + QBI
 
-**Under Fair & Simple (Option 3):**
-* W-2 salary: \$150K (payroll tax: 12% = \$18K) 
-* Distributions: \$350K (zero payroll tax)
-* **Taxable income: \$500K (no QBI deduction, no salary optimization reduces taxable base)**
-* Income tax on \$500K MFJ at new brackets: 
+**Under Fair & Simple (Option 3) with sweat-equity allowance:**
+* W-2 salary: $120K (payroll tax: 12% = $14,400)
+* Residual profit: $380K; **sweat-equity allowance:** 20% of residual = $76K as capital gains (counts toward lifetime exemption)
+* Ordinary income taxed: $120K salary + $304K residual = $424K
+* Income tax on $424K MFJ at new brackets:
   * $0–$40K @ 4% = $1,600
   * $40–$120K @ 12% = $9,600
   * $120–$400K @ 23% = $64,400
-  * $400–$500K @ 36% = $36,000
-  * Total: $111,600
-* **Total federal tax: \$18K + \$111.6K = \$129,600 (25.9% effective rate)**
-* **Change: +\$31,600/year**
+  * $400–$424K @ 36% = $8,640
+  * Total ordinary income tax: $84,240
+* Capital gains tax on $76K (assumes lifetime exemption remaining): ~$0
+* **Total federal tax: ~$98,640 (19.7% effective rate)**
+* **Change vs current law: +~$640/year (near parity)**
 
-**The Parkers' take:** "Yes, we pay more—we lose QBI deduction and can't optimize as aggressively. But we save $5K in payroll tax (12% vs 15.3%). The system is now simpler: 12% payroll tax on all income, ordinary income tax on business profit. It's more transparent, and we still retain $370K in after-tax income."
+**The Parkers' take:** "With the salary floor and sweat-equity allowance, we're basically at parity with today. We lose QBI but get to recognize some sweat equity at capital gains rates. Payroll drops to 12%, and we avoid the old salary-vs-distribution games."
 
 ---
 
@@ -1824,18 +1825,20 @@ Implication: even without the sweat-equity allowance, active owners are at or be
 * Income tax before QBI: ~$48K; after 20% QBI deduction (~$50K) ≈ $38K
 * **Total federal tax: ~\$66,200 (26.5% effective rate)**
 
-**Under Fair & Simple (Option 3):**
-* Schedule C income: \$250K
-* Self-employment tax: 12% on ~\$184K net SE income = \$22,100 (saves $6,100)
-* Income tax (no QBI deduction, but lower brackets): 
+**Under Fair & Simple (Option 3) with sweat-equity allowance:**
+* Pays herself \$120K (treated as salary for payroll): payroll tax 12% = \$14,400
+* Residual profit: \$130K; **sweat-equity allowance:** 20% of residual = \$26K as capital gains (counts toward lifetime exemption)
+* Ordinary income taxed: \$120K salary + \$104K residual = \$224K
+* Income tax on \$224K: 
   * $0–$40K @ 4% = $1,600
   * $40–$120K @ 12% = $9,600
-  * $120–$250K @ 23% = $29,900
-  * Total: $41,100
-* **Total federal tax: \$22,100 + \$41,100 = \$63,200 (25.3% effective rate)**
-* **Change: -\$3,000/year (saves $3K)**
+  * $120–$224K @ 23% = $23,920
+  * Total ordinary income tax: $35,120
+* Capital gains tax on \$26K (assumes lifetime exemption remaining): ~$0
+* **Total federal tax: ~$14,400 + $35,120 = ~$49,520 (19.8% effective rate)**
+* **Change vs current law: saves ~$16,700/year**
 
-**Lisa's take:** "I save money! The 12% payroll tax is 3.3 points lower than 15.3%, and while I lost the QBI deduction, the lower brackets more than make up for it. And since I'm under the $160K Social Security cap anyway, I don't take a wage cap hit. It's a clear win: simpler, fairer, and I pocket $3K more."
+**Lisa's take:** "This is a win. I meet the $120K salary floor, still pay 12% payroll, and I can treat part of my residual profit as sweat-equity gains. My tax bill drops by ~17K versus today, and I’m doing it cleanly without QBI games."
 
 ---
 
@@ -1848,31 +1851,32 @@ Implication: even without the sweat-equity allowance, active owners are at or be
 * Income tax: ~$45K
 * **Total federal tax: ~\$65K (18.6% effective rate)**
 
-**Under Fair & Simple (Option 3):**
-* W-2 salary: \$130K (payroll tax: 12% = \$15,600)
-* Distributions: \$220K (zero payroll tax)
-* Taxable income: \$350K MFJ (no QBI deduction)
-* Income tax: 
+**Under Fair & Simple (Option 3) with sweat-equity allowance:**
+* W-2 salary: \$120K (payroll tax: 12% = \$14,400)
+* Residual profit: \$230K; **sweat-equity allowance:** 20% of residual = \$46K as capital gains (counts toward lifetime exemption)
+* Ordinary income taxed: \$120K salary + \$184K residual = \$304K
+* Income tax on \$304K: 
   * $0–$40K @ 4% = $1,600
   * $40–$120K @ 12% = $9,600
-  * $120–$400K @ 23% = $64,400
-  * Total: $75,600
-* **Total federal tax: \$15,600 + \$75,600 = \$91,200 (26.1% effective rate)**
-* **Change: +\$26,200/year**
+  * $120–$304K @ 23% = $42,320
+  * Total ordinary income tax: $53,520
+* Capital gains tax on \$46K (assumes lifetime exemption remaining): ~$0
+* **Total federal tax: ~$14,400 + $53,520 = ~$67,920 (19.4% effective rate)**
+* **Change vs current law: +~\$2,900/year (near parity)**
 
-**Dr. Chen's take:** "I pay more because I lose QBI and the lower salary cap removes payroll tax optimization. But my Social Security tax stays the same (still under $160K cap on the salary), and the system is much simpler. Higher earners are supposed to pay more under a progressive system, and that's fair."
+**Dr. Chen's take:** "With the salary floor and sweat-equity allowance, I’m basically at parity with today. I still pay 12% payroll on my salary, but I can recognize part of my residual profit as sweat equity. It’s simpler and feels fair."
 
 ---
 
 ## **How to Read These Examples**
 
-These three examples illustrate a key principle: **Option 3 (combination approach) balances relief and fairness.**
+These three examples illustrate the effect of the **salary floor + 20% residual sweat-equity allowance** layered on Option 3.
 
-- **Lisa saves $3K**: Small business owner under the wage cap benefits most (12% vs 15.3% SE tax outweighs loss of QBI)
-- **Dr. Chen pays +$26K**: Higher earner loses QBI deduction; wage cap removal doesn't hit S-corp W-2 structure as hard as sole proprietor
-- **The Parkers pay +$31K**: High-income business owners see more of the wage cap impact, but 12% SE tax savings ($5K) reduces the burden versus if we'd kept 15.3%
+- **Lisa saves ~$16.7K**: SE tax drops to 12% on salary; 20% of residual profit at cap gains; big net win vs today
+- **Dr. Chen is near parity (+~$2.9K)**: Loses QBI but offsets with payroll drop and sweat-equity allowance
+- **The Parkers are near parity (+~$0.6K)**: Lose QBI, but salary floor plus 20% sweat-equity allowance and 12% payroll largely offset
 
-**The transparency**: All three know exactly what they're paying and why. No hidden "reasonable compensation" debates. No QBI phase-outs. No salary-vs-distribution optimization games.
+**Transparency**: Compensation floor is clear, allowance is formulaic, lifetime exemption caps abuse. No "reasonable compensation" games, no QBI phase-outs.
 
 ---
 
@@ -1900,10 +1904,11 @@ The Fair & Simple Tax Act generates **$300-450B in new annual revenue** on Day 1
 | :---- | :---- |
 | Income tax bracket cuts (Option 3) | $110-130B |
 | SE tax reduction 15.3% → 12% | $50-70B |
+| Sweat-equity allowance (salary floor + 20% residual at cap gains, counts vs lifetime exemption) | $30-50B |
 | Family benefits ($2,500/child, replaces 3 programs) | Net $91B savings (consolidation) |
-| **Total Costs** | **$60-110B** |
+| **Total Costs (net of savings)** | **~$100-160B** |
 
-**Net Fiscal Impact: $190-390B revenue-positive annually**
+**Net Fiscal Impact: ~$140-350B revenue-positive annually**
 
 This positions the Act as not just fiscally sound, but as a genuine deficit reducer in the long term while providing immediate relief to working families.
 
