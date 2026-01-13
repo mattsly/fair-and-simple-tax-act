@@ -1,5 +1,3 @@
-# The Fair & Simple Tax Act \- PR (DONE)
-
 # **The Fair & Simple Tax Act**
 
 ***This is an 'Amazon Style' PR/FAQ document, proposing how to to radically simplify the American Federal Tax Code***
@@ -28,9 +26,9 @@ The current Internal Revenue Code spans 2,600 pages of statute and 10,000 pages 
 
 ### **What this bill does**
 
-No family earning under \$400,000 pays more. The reform is designed so that no household earning under \$400,000 faces a higher federal tax bill than under current law.
+The vast majority of families earning under \$400,000 pay less. The reform is designed so that most households earning under \$400,000 face a lower federal tax bill than under current law through reduced income tax brackets, expanded child benefits, and closing loopholes for high earners and wealth accumulation.
 
-Payroll taxes are simplified and made transparent. Employee‑side payroll taxes are removed. Social Security and Medicare are funded through a single, clearly labeled employer contribution. Workers see their full earnings directly, and benefits remain unchanged.
+Income taxes are dramatically simplified. The six simplified tax brackets replace a complex system with phase-outs, cliffs, and hidden preferences. Social Security's wage cap is eliminated, making it more progressive—high earners finally contribute on all income. Families earning under $250K see clear tax relief compared to today.
 
 Saving becomes understandable. More than a dozen overlapping savings programs are replaced with one simple, universal account — flexible enough for all life stages, from education to homeownership to retirement.
 
@@ -72,20 +70,14 @@ This section is a factual summary of what the Fair & Simple Tax Act adds, change
 
 ### **Income Taxes**
 
-* Replaces current income tax brackets with six simplified brackets (Married Filing Jointly: 5% up to \$40K, 15% up to \$120K, 27% up to \$400K, 38% up to \$600K, 40% up to \$800K, 45% above \$800K)
+* Replaces current income tax brackets with six simplified brackets (Married Filing Jointly: 4% up to \$40K, 12% up to \$120K, 23% up to \$400K, 36% up to \$600K, 39% up to \$800K, 45% above \$800K)
 * Eliminates the Alternative Minimum Tax (AMT)
-* Eliminates income phase‑outs and hidden cliffs
-* Indexes all thresholds to inflation  
-* Eliminates the Alternative Minimum Tax (AMT)  
-* Eliminates income phase‑outs and hidden cliffs  
-* Indexes all thresholds to inflation
 
 ### **Payroll Taxes**
 
-* Removes employee‑side payroll taxes  
-* Replaces employer payroll taxes with a single Employer Safety Net Contribution  
-* Applies a flat contribution rate to self‑employed workers  
-* Preserves Social Security and Medicare benefits
+* Maintains current payroll tax structure (6.2% Social Security + 1.45% Medicare)
+* **Eliminates the Social Security wage cap** — the 6.2% Social Security tax now applies to all wages with no ceiling
+* Strengthens Social Security funding: removes $160K cap, raising approximately $150-200 billion annually to extend solvency without changing benefit formulas
 
 ### **Capital Gains and Investment Income**
 
@@ -134,7 +126,8 @@ This section is a factual summary of what the Fair & Simple Tax Act adds, change
 
 ### **Headline Budget Impact**
 
-* Designed to be **revenue-neutral in the short term** relative to current law, and **revenue-positive over the medium term** as compliance improves and major avoidance channels are closed  
+* **Revenue-positive from Day 1:** Raises approximately $300-450 billion annually through wage cap removal, carried interest reclassification, buy-borrow-die closure, and other loophole elimination
+* Delivers clear tax relief to families earning under $250K through reduced income tax brackets
 * Strengthens **long-term fiscal durability** by broadening the tax base and closing major avoidance channels  
 * Improves collections by reducing the tax gap through automation, third-party reporting, and fewer carve-outs
 
@@ -150,20 +143,22 @@ The Act replaces a sprawling, exception-ridden tax code with a simpler structure
 
 | Single Filer | Married Filing Jointly | Rate |
 | :---- | :---- | :---- |
-| \$0 – \$20,000 | \$0 – \$40,000 | 5% |
-| \$20,000 – \$60,000 | \$40,000 – \$120,000 | 15% |
-| \$60,000 – \$200,000 | \$120,000 – \$400,000 | 27% |
-| \$200,000 – \$300,000 | \$400,000 – \$600,000 | 38% |
-| \$300,000 – \$400,000 | \$600,000 – \$800,000 | 40% |
+| \$0 – \$20,000 | \$0 – \$40,000 | 4% |
+| \$20,000 – \$60,000 | \$40,000 – \$120,000 | 12% |
+| \$60,000 – \$200,000 | \$120,000 – \$400,000 | 23% |
+| \$200,000 – \$300,000 | \$400,000 – \$600,000 | 36% |
+| \$300,000 – \$400,000 | \$600,000 – \$800,000 | 39% |
 | \$400,000+ | \$800,000+ | 45% |
 
-### **2\. Payroll Taxes: Immediate Relief for Workers**
+### **2\. Payroll Taxes: More Progressive, Simplified**
 
-* **Employee payroll tax (7.65%): Eliminated**  
-* **Employer contribution:** Replaced with an 8% Employer Safety Net Contribution  
-* **Self-employed:** Flat 8% rate (down from 15.3%)
+* **Self-employment tax reduced to 12%:** Down from 15.3%, reducing burden on small business owners
+  * Includes full 6.2% Social Security, now with wage cap eliminated
+  * Includes 5.8% Medicare/employer portion (reduced from 2.9%)
+* **Social Security wage cap eliminated:** The 6.2% Social Security tax now applies to all wages—no ceiling
+* **Net effect:** Removes the regressive wage cap that currently exempts high earners from Social Security contributions above ~$160,000; simultaneously reduces overall SE tax burden on small business owners
 
-Social Security and Medicare remain fully funded. Benefits do not change.
+Social Security and Medicare remain fully funded. Benefit formulas do not change.
 
 ### **3\. Capital Gains: Simple, Progressive, and Fair**
 
@@ -245,15 +240,17 @@ A nurse, a teacher, a small business owner, and a dual-income professional house
 
 ## **Q4: Is this plan fiscally responsible?**
 
-Yes. The Fair & Simple Tax Act is **revenue-neutral today and more durable over time**.
+Yes. The Fair & Simple Tax Act is **revenue-positive from Day 1**.
 
 It achieves this by:
 
-* Broadening the tax base  
-* Closing major avoidance strategies  
-* Modestly strengthening top-end rates  
-* Reducing the tax gap through automation and third-party reporting  
-* Creating a more vibrant environment for national priorities and values through transparency and simplicity
+* Removing the Social Security wage cap (high earners pay on all wages): +$150-200B annually
+* Reclassifying carried interest as ordinary compensation: +$50-80B annually
+* Closing buy-borrow-die and other avoidance strategies: +$100-200B annually
+* Broadening the tax base and reducing the tax gap through automation and third-party reporting: +$50-100B annually
+* **Total: $350-580B in new annual revenue**
+
+These gains fund lower income tax brackets for working and middle-class families, while maintaining overall fiscal responsibility.
 
 Rather than relying on optimistic growth assumptions, the Act prioritizes **structural soundness**.
 
@@ -265,23 +262,37 @@ Rather than relying on optimistic growth assumptions, the Act prioritizes **stru
 
 ## **Q5: What happens to payroll taxes?**
 
-Employees stop paying them. Employers continue funding the system under a renamed contribution. Self-employed workers see the largest proportional cut.
+Payroll taxes remain in place, but the Social Security wage cap is eliminated — making the system more progressive while strengthening its solvency.
 
-The result is:
+The key change:
 
-* Bigger paychecks  
-* Lower distortion between wage and non-wage income  
-* Full preservation of Social Security and Medicare benefits
+* **Social Security tax (6.2%):** Currently capped at ~$160,000 of annual wages. The Fair & Simple Tax Act removes this cap entirely. High earners now pay on all wages, same as everyone else.
+* **Medicare tax (1.45%):** Unchanged (already uncapped)
+* **Overall effect:** Social Security funding improves by $150-200 billion annually, extending solvency indefinitely without raising rates or cutting benefits
 
-**Does this hide the tax or jeopardize benefits?**
+**Why keep payroll taxes instead of consolidating them?**
 
-No. Funding is unchanged; benefits are unchanged. The employer Safety Net Contribution (ESNC) fully funds Social Security and Medicare. General revenues backstop the transition. Benefit formulas do not change.
+Payroll taxes have a unique feature: they're dedicated to specific benefits (Social Security and Medicare), and that dedication is protected by statute. Consolidating them into general revenue would require restructuring how these programs are funded and creating new protections to ensure they aren't raided for other purposes. The simpler solution: make the existing system more progressive by removing the wage cap.
 
-Pay stubs still show the ESNC so workers see the contribution made on their behalf. The tax simply sits where the economic incidence already falls — nothing is hidden.
+**Does this affect my benefits?**
 
-One employer-side charge removes duplicative calculations for Schedule C, gig, and capital gains filers, improving compliance and predictability.
+No. Your Social Security benefit formula doesn't change. Higher-earning workers who now pay more in Social Security tax don't receive higher benefits—Social Security remains progressive on the benefit side (high earners get a lower replacement rate). The additional revenue purely extends the program's solvency.
 
-If visibility is desired, policymakers can retain a small employee line (e.g., 1–2%) while keeping the rest employer-side. The base design maximizes simplicity and preserves funding.
+Under current law, Social Security taxes apply only to wages up to approximately $160,000 (indexed annually). Above that threshold, workers and employers pay no Social Security tax — only Medicare tax continues.
+
+**Example: Impact of Removing the Wage Cap**
+
+* A worker earning $160,000 pays 6.2% Social Security tax = $9,920
+* A worker earning $500,000 pays 6.2% Social Security tax = $31,000 (under current law, only $9,920, capped at wage threshold)
+* A worker earning $2 million pays 6.2% Social Security tax = $124,000 (under current law, only $9,920)
+
+This removes a regressive feature where million-dollar earners pay the same absolute amount as $160K earners.
+
+**Does this mean Social Security benefits increase for high earners?**
+
+No. Benefit formulas remain unchanged. High earners who pay more in Social Security tax do not receive proportionally higher benefits. Social Security remains progressive on the benefit side: it has a cap on benefits and a progressive replacement rate formula that favors lower earners.
+
+This creates a simple policy: high earners contribute more because all income counts (no cap), but they receive moderate-income benefits (capped formula). This shores up Social Security's long-term funding without raising rates or cutting benefits for anyone.
 
 ---
 
@@ -295,11 +306,13 @@ There are:
 * no hidden cliffs  
 * no alternative minimum taxes
 
-Everyone knows their marginal rate. Everyone pays something. And families under \$400,000 are protected from increases.
+Everyone knows their marginal rate. Everyone pays something. Families earning under $250K see clear tax relief compared to current law.
 
 ---
 
 ## **Q7: How are capital gains, dividends, and investment income taxed?**
+
+We introduce a new paradigm to determine Capital Gains rates based on lifetime total of capital gains. This is both to encourage saving early in life, and to recognize that many gains occur after multiple years or investment.
 
 ### **Capital Gains (Asset Appreciation)**
 
@@ -663,40 +676,40 @@ The current system spreads child support across three separate programs, creatin
 
 ### **The Complete Picture: How Families Come Out Ahead**
 
-Here's where it gets important: the child benefit alone looks modest compared to what some families receive today. But combine it with **payroll tax elimination**, and every family gets significantly ahead:
+Here's where it gets important: the child benefit alone looks modest compared to what some families receive today. But combine it with **payroll tax rate reduction (12% vs 15.3% for self-employed) and income tax bracket cuts**, and many families get significantly ahead. For families with W-2 wages under the current $160K Social Security wage cap, payroll taxes don't change—but income tax brackets do.
 
-#### **Example 1: Single Parent, 2 Children, \$28,000 Annual Income**
+#### **Example 1: Single Parent, 2 Children, \$28,000 Annual Income (W-2 Wages)**
 | Component | Today | Fair & Simple | Change |
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$28,000 | \$28,000 | — |
-| Payroll Tax (7.65% FICA) | -\$2,142 | \$0 | **+\$2,142** ✓ |
-| Income Tax | -\$200 | \$0 | **+\$200** ✓ |
+| Payroll Tax (7.65% FICA) | -\$2,142 | -\$2,142 | \$0 (below wage cap) |
+| Income Tax | -\$1,400 | -\$560 | **+\$840** ✓ |
 | EITC (refundable) | +\$3,540 | — | — |
 | CTC (refundable) | +\$0 | — | — |
 | **Child Benefit (\$2,500 × 2)** | — | **+\$5,000** | **+\$5,000** ✓ |
-| **Total Change in Taxes + Benefits** | — | — | **+\$3,542 (+12.7%)** |
+| **Net Take-Home After All Taxes + Benefits** | ~\$27,998 | ~\$30,298 | **+\$2,300 (+8.2%)** |
 
-#### **Example 2: Married Couple, 1 Child, \$75,000 Annual Income**
+#### **Example 2: Married Couple, 1 Child, \$75,000 Annual Income (W-2 Wages)**
 | Component | Today | Fair & Simple | Change |
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$75,000 | \$75,000 | — |
-| Payroll Tax (7.65% FICA) | -\$5,738 | \$0 | **+\$5,738** ✓ |
-| Income Tax | -\$5,850 | -\$2,100 | **+\$3,750** ✓ |
+| Payroll Tax (7.65% FICA) | -\$5,738 | -\$5,738 | \$0 (below wage cap) |
+| Income Tax | -\$5,850 | -\$3,780 | **+\$2,070** ✓ |
 | EITC | +\$0 | — | — |
 | CTC | +\$2,000 | — | — |
 | **Child Benefit (\$2,500 × 1)** | — | **+\$2,500** | **+\$2,500** ✓ |
-| **Total Change in Taxes + Benefits** | — | — | **+\$7,988 (+10.7%)** |
+| **Net Take-Home After All Taxes + Benefits** | ~\$65,412 | ~\$67,982 | **+\$2,570 (+3.9%)** |
 
-#### **Example 3: Married Couple, 2 Children, \$150,000 Annual Income**
+#### **Example 3: Married Couple, 2 Children, \$150,000 Annual Income (W-2 Wages)**
 | Component | Today | Fair & Simple | Change |
 | :---- | :---- | :---- | :---- |
 | Gross Income | \$150,000 | \$150,000 | — |
-| Payroll Tax (7.65% FICA) | -\$11,475 | \$0 | **+\$11,475** ✓ |
-| Income Tax | -\$18,900 | -\$13,450 | **+\$5,450** ✓ |
+| Payroll Tax (7.65% FICA) | -\$11,475 | -\$11,475 | \$0 (below wage cap) |
+| Income Tax | -\$18,900 | -\$13,050 | **+\$5,850** ✓ |
 | EITC | +\$0 | — | — |
 | CTC | +\$4,000 | — | — |
 | **Child Benefit (\$2,500 × 2)** | — | **+\$5,000** | **+\$5,000** ✓ |
-| **Total Change in Taxes + Benefits** | — | — | **+\$10,975 (+7.3%)** |
+| **Net Take-Home After All Taxes + Benefits** | ~\$132,625 | ~\$139,475 | **+\$6,850 (+5.2%)** |
 
 ### **Why This Works**
 
@@ -1723,55 +1736,83 @@ What disappears is the ability to defer taxes indefinitely by chaining 1031s acr
 
 ## **Q19: How does this affect pass-through businesses (S-Corps, LLCs, partnerships)?**
 
-**Pass-through businesses are treated simply and consistently: business income flows through to the owner's personal return and is taxed as ordinary income. The Employer Share National Contribution (ESNC, 8%) replaces self-employment tax on wages and self-employment income. Distributions continue to avoid payroll tax, following current law's reasonable compensation framework. Entrepreneurship is rewarded through capital gains treatment at exit, not through annual operational preferences.**
+**Pass-through businesses are treated simply and consistently: business income flows through to the owner's personal return and is taxed as ordinary income. Self-employment taxes are simplified to 12% (keeping the full 6.2% Social Security contribution, which now applies to ALL income with no wage cap). Entrepreneurship is rewarded through a compensation-first structure: owners must draw a fair salary, then can access limited, well-defined capital-gains treatment for sweat equity (see below), and full capital gains treatment at exit.**
 
 The current tax system for pass-through businesses is messy:
 
-* **Self-employment tax** at 15.3% (both employer and employee share)
+* **Self-employment tax** at 15.3%, but capped at ~$160K for Social Security (making it regressive)
 * **S-corp owners** minimize W-2 wages and maximize distributions to avoid SE tax
 * **"Reasonable compensation" debates** create uncertainty and compliance costs
 * **QBI deduction (Section 199A)** adds complexity with phase-outs and restrictions
 * **Carried interest loophole** allows compensation to be taxed as capital gains
 
-The Fair & Simple Tax Act simplifies this by focusing on what matters: operational income is ordinary income, appreciation at exit is capital gains.
+The Fair & Simple Tax Act simplifies this by: (1) reducing SE tax to 12%, (2) making Social Security tax apply to all income (no cap), (3) eliminating QBI complexity, and (4) treating operational income as ordinary income, with entrepreneurial reward coming at exit via capital gains treatment.
 
 ### **How pass-through taxation works under Fair & Simple**
 
 **For all pass-through entities (S-Corps, LLCs, partnerships, Schedule C):**
 
-1. **Wages and self-employment income** — Subject to 8% ESNC (Employer Share National Contribution)
+1. **Wages and self-employment income** — Subject to payroll tax: 12% SE tax (includes 6.2% Social Security on ALL income, no cap + 5.8% Medicare/employer)
 2. **Distributions** — Avoid payroll tax (follows current law's reasonable compensation framework)
 3. **All income** — Taxed as ordinary income on owner's personal return (no operational capital gains treatment)
-4. **At sale/exit** — Capital gains treatment using lifetime exemption, then progressive capital gains rates (15-20%)
+4. **At sale/exit** — Capital gains treatment using lifetime exemption, then progressive capital gains rates
 5. **QBI deduction (Section 199A)** — Eliminated (simplification)
 6. **Carried interest loophole** — Closed (all compensation is ordinary income)
 
 **The practical effect:**
 
 * **S-Corp owners** still follow reasonable compensation rules (as they do today)
-* **Self-employed** pay 8% ESNC instead of 15.3% SE tax (saves ~7%)
+* **Self-employed pay less SE tax** — down from 15.3% to 12%, saving 3.3 percentage points
+* **High earners still pay more overall** because Social Security portion (6.2%) applies to ALL income (no wage cap)
+* **Small business owners under $250K often break even or come out ahead** because SE tax savings and progressive brackets offset any modest income tax increases
 * **No new compliance burdens** — uses existing structures
 * **Simpler than current law** — no QBI phase-outs, no arbitrary thresholds
 * **Entrepreneurship rewarded at exit** — capital gains on business sale, just like today
+
+### **Sweat equity and carried interest: one unified rule**
+
+* **One rule for everyone** — Small business owners, founders, and VC/PE partners use the same framework; no finance-only carve-outs
+* **Compensation floor** — Preferential capital-gains treatment is available only if the individual receives at least $120,000 per year (indexed) in taxable ordinary compensation. Upside cannot replace wages for active work.
+* **Reward without forced sales** — Owner-operators can treat a defined share of residual profit as capital gains while running the business; no exit required to recognize some upside
+* **Lifetime limits** — All capital gains (including carried interest) count against the lifetime exemption; once used, gains face progressive capital gains rates
+* **Pro-entrepreneur, anti-loophole** — Rewards real risk and sweat equity while preventing serial reclassification of labor income as lightly taxed gains
+
+_Note: The three business examples below currently show pure ordinary-income treatment. Applying the compensation floor + sweat-equity allowance would reduce their income tax relative to W-2 earners at the same income once the $120,000 salary floor is met. Revenue modeling will be updated to reflect the exact allowance design._
+
+### **How they compare to W-2 earners at the same income (Option 3)**
+
+* **$350K W-2 (MFJ):** Income tax ~$64,100; payroll ~$27,675 (7.65% + 0.9% surtax over $250K) → **Total ~$91,775 (26.2% effective)**
+  * **Dr. Chen (S-Corp $350K):** ~$91,200 (26.1% effective) — essentially parity with W-2 at same income before sweat-equity allowance
+* **$500K W-2 (MFJ):** Income tax ~$111,600; payroll ~$40,500 (includes 0.9% surtax over $250K) → **Total ~$152,100 (30.4% effective)**
+  * **Parkers (S-Corp $500K):** ~$129,600 (25.9% effective) — lower than W-2 because payroll applies only to salary portion
+
+Implication: even without the sweat-equity allowance, active owners are at or below W-2 burden at the same income. The new allowance will further recognize sweat equity while keeping a firm compensation floor.
 
 ---
 
 ### **Example: The Parkers' HVAC Business (S-Corp, \$500K profit)**
 
-**Current Law:**
-* W-2 salary: \$150K (SE tax: 15.3% = \$23K)
-* Distributions: \$350K (avoids SE tax)
-* Income tax on \$500K: ~\$52K
-* **Total federal tax: ~\$75K (15% effective rate)**
+**Current Law (with typical S-Corp optimization):**
+* W-2 salary: \$150K (triggers ~$23K payroll tax, but subject to FICA)
+* Distributions: \$350K (zero payroll tax)
+* Taxable income: \$500K, but with QBI deduction (~20% reduction) = \$400K effective income
+* Income tax at current brackets on \$400K: ~$75K
+* **Total federal tax: ~\$98K (19.6% effective rate)** — lower due to S-corp salary planning + QBI
 
-**Under Fair & Simple:**
-* W-2 salary: \$150K (ESNC: 8% = \$12K)
-* Distributions: \$350K (avoids ESNC, same as current)
-* Income tax on \$500K at ordinary brackets: ~\$98K
-* **Total federal tax: ~\$110K (22% effective rate)**
-* **Change: +\$35K/year**
+**Under Fair & Simple (Option 3):**
+* W-2 salary: \$150K (payroll tax: 12% = \$18K) 
+* Distributions: \$350K (zero payroll tax)
+* **Taxable income: \$500K (no QBI deduction, no salary optimization reduces taxable base)**
+* Income tax on \$500K MFJ at new brackets: 
+  * $0–$40K @ 4% = $1,600
+  * $40–$120K @ 12% = $9,600
+  * $120–$400K @ 23% = $64,400
+  * $400–$500K @ 36% = $36,000
+  * Total: $111,600
+* **Total federal tax: \$18K + \$111.6K = \$129,600 (25.9% effective rate)**
+* **Change: +\$31,600/year**
 
-**The Parkers' take:** "We pay more because FICA was artificially low and ordinary brackets are more progressive. But we're still keeping \$390K after tax, and there's no more 'reasonable compensation' guesswork."
+**The Parkers' take:** "Yes, we pay more—we lose QBI deduction and can't optimize as aggressively. But we save $5K in payroll tax (12% vs 15.3%). The system is now simpler: 12% payroll tax on all income, ordinary income tax on business profit. It's more transparent, and we still retain $370K in after-tax income."
 
 ---
 
@@ -1779,37 +1820,92 @@ The Fair & Simple Tax Act simplifies this by focusing on what matters: operation
 
 **Current Law:**
 * Schedule C income: \$250K
-* Self-employment tax: 15.3% = \$38,250
-* Income tax: ~\$38,500
-* **Total federal tax: ~\$76,750 (30.7% effective rate)**
+* Self-employment tax: 15.3% on ~\$184K net SE income = \$28,200
+* Income tax before QBI: ~$48K; after 20% QBI deduction (~$50K) ≈ $38K
+* **Total federal tax: ~\$66,200 (26.5% effective rate)**
 
-**Under Fair & Simple:**
+**Under Fair & Simple (Option 3):**
 * Schedule C income: \$250K
-* ESNC: 8% = \$20,000
-* Income tax at ordinary brackets: ~\$53K
-* **Total federal tax: ~\$73K (29.2% effective rate)**
-* **Change: Saves ~\$3,750/year**
+* Self-employment tax: 12% on ~\$184K net SE income = \$22,100 (saves $6,100)
+* Income tax (no QBI deduction, but lower brackets): 
+  * $0–$40K @ 4% = $1,600
+  * $40–$120K @ 12% = $9,600
+  * $120–$250K @ 23% = $29,900
+  * Total: $41,100
+* **Total federal tax: \$22,100 + \$41,100 = \$63,200 (25.3% effective rate)**
+* **Change: -\$3,000/year (saves $3K)**
 
-**Lisa's take:** "I save money because SE tax dropped from 15.3% to 8%. My income taxes went up slightly due to no QBI deduction, but overall I'm ahead."
+**Lisa's take:** "I save money! The 12% payroll tax is 3.3 points lower than 15.3%, and while I lost the QBI deduction, the lower brackets more than make up for it. And since I'm under the $160K Social Security cap anyway, I don't take a wage cap hit. It's a clear win: simpler, fairer, and I pocket $3K more."
 
 ---
 
 ### **Example: Dr. Chen's Medical Practice (S-Corp, \$350K profit)**
 
-**Current Law:**
-* W-2 salary: \$120K (SE tax: ~\$18K)
-* Distributions: \$230K
-* Income tax: ~\$52K
-* **Total federal tax: ~\$70K (20% effective rate)**
+**Current Law (typical strategy):**
+* W-2 salary: \$130K (payroll tax: ~$20K)
+* Distributions: \$220K (zero payroll tax)
+* Taxable income: \$350K with QBI deduction (~$280K effective)
+* Income tax: ~$45K
+* **Total federal tax: ~\$65K (18.6% effective rate)**
 
-**Under Fair & Simple:**
-* W-2 salary: \$120K (ESNC: \$9.6K)
-* Distributions: \$230K
-* Income tax: ~\$88K
-* **Total federal tax: ~\$97.6K (27.9% effective rate)**
-* **Change: +\$27.6K/year**
+**Under Fair & Simple (Option 3):**
+* W-2 salary: \$130K (payroll tax: 12% = \$15,600)
+* Distributions: \$220K (zero payroll tax)
+* Taxable income: \$350K MFJ (no QBI deduction)
+* Income tax: 
+  * $0–$40K @ 4% = $1,600
+  * $40–$120K @ 12% = $9,600
+  * $120–$400K @ 23% = $64,400
+  * Total: $75,600
+* **Total federal tax: \$15,600 + \$75,600 = \$91,200 (26.1% effective rate)**
+* **Change: +\$26,200/year**
 
-**Dr. Chen's take:** "I pay more because payroll tax on distributions still avoids ESNC, but ordinary income brackets are more progressive. Still, no more CPA games about what salary is 'reasonable.'"
+**Dr. Chen's take:** "I pay more because I lose QBI and the lower salary cap removes payroll tax optimization. But my Social Security tax stays the same (still under $160K cap on the salary), and the system is much simpler. Higher earners are supposed to pay more under a progressive system, and that's fair."
+
+---
+
+## **How to Read These Examples**
+
+These three examples illustrate a key principle: **Option 3 (combination approach) balances relief and fairness.**
+
+- **Lisa saves $3K**: Small business owner under the wage cap benefits most (12% vs 15.3% SE tax outweighs loss of QBI)
+- **Dr. Chen pays +$26K**: Higher earner loses QBI deduction; wage cap removal doesn't hit S-corp W-2 structure as hard as sole proprietor
+- **The Parkers pay +$31K**: High-income business owners see more of the wage cap impact, but 12% SE tax savings ($5K) reduces the burden versus if we'd kept 15.3%
+
+**The transparency**: All three know exactly what they're paying and why. No hidden "reasonable compensation" debates. No QBI phase-outs. No salary-vs-distribution optimization games.
+
+---
+
+# **Part 4: Revenue and Fiscal Impact**
+
+## **Q20: How much does this cost, and how is it funded?**
+
+### **The Numbers**
+
+The Fair & Simple Tax Act generates **$300-450B in new annual revenue** on Day 1, making it revenue-positive even after funding major tax relief for working families.
+
+**Revenue Sources (Annual):**
+
+| Source | Estimate |
+| :---- | :---- |
+| Social Security wage cap removal | $150-200B |
+| Carried interest reclassification | $50-80B |
+| Buy-borrow-die closure | $50-100B |
+| Other loophole closures (QSBS, etc.) | $50-100B |
+| **Total New Revenue** | **$300-450B** |
+
+**Costs (Annual):**
+
+| Category | Estimate |
+| :---- | :---- |
+| Income tax bracket cuts (Option 3) | $110-130B |
+| SE tax reduction 15.3% → 12% | $50-70B |
+| Family benefits ($2,500/child, replaces 3 programs) | Net $91B savings (consolidation) |
+| **Total Costs** | **$60-110B** |
+
+**Net Fiscal Impact: $190-390B revenue-positive annually**
+
+This positions the Act as not just fiscally sound, but as a genuine deficit reducer in the long term while providing immediate relief to working families.
 
 ---
 
