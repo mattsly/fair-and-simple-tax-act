@@ -36,7 +36,6 @@
 - [Q15: Entrepreneurs & innovators](#q15-will-this-punish-entrepreneurs-and-innovators)
 - [Q16: Expatriation](#q16-what-about-expatriation-and-capital-flight)
 
-
 **Appendices**
 - [Appendix A: Revenue Model](#appendix-a-revenue-model)
 - [Appendix B: Taxpayer Case Studies](#appendix-b-taxpayer-case-studies)
@@ -357,8 +356,6 @@ The Fair & Simple system accomplishes what current patchwork programs cannot:
 4. **Administrative efficiency** — consolidating three programs into one reduces overhead and fraud
 
 **The political genius:** This appeals across the aisle. Conservatives like that we're simplifying government and cutting fraud. Progressives like that every family with children gets automatic support with no conditions attached.
-
-# 
 
 # Part 3: Closing Loopholes
 
@@ -694,7 +691,7 @@ Everyone receives a **\$1.5 million lifetime capital gains exemption** that appl
 
 * If you've used \$500K of your lifetime exemption during life, you have **\$1M remaining** to shield unrealized gains at death
 * If you've never sold an appreciated asset during life, your **full \$1.5M exemption** applies to unrealized gains at death
-* If you've already used your full \$1.5M exemption, unrealized gains at death are taxed using the progressive capital gains rates (15%/20%/27%/32%)
+* If you've already used your full $1.5M exemption, unrealized gains are taxed using the progressive capital gains rates (15%/20%/27%/32%/45%, depending on your cumulative lifetime gains)
 
 ### **How it works in practice**
 
@@ -766,8 +763,6 @@ This ensures that typical family wealth transfers — passing down a farm, a fam
 Death is no longer a magic eraser for unrealized gains. But the system protects typical families completely, provides generous exemptions even for large estates, and preserves intergenerational wealth transfers for productive assets.
 
 **Most families owe nothing. Very large fortunes pay what has long been deferred.**
-
-# 
 
 ## **Q11: How does this close estate planning loopholes like GRATs, dynasty trusts, and valuation discounts?**
 
@@ -931,18 +926,18 @@ A common concern: "What if I've spent 40 years building a \$20M business and wan
 
 The Fair & Simple Tax Act protects this:
 
-* **\$1.5M lifetime exemption per person** (\$3M for a couple) shields the first layer of gains
+* **$1.5M lifetime exemption per person** ($3M for a couple) shields the first layer of gains
 * **15-year payment flexibility** for illiquid assets — no forced sales
-* **Heirs inherit at stepped-up basis** (value at death), so they only pay tax on future gains
-* **Progressive rates** — a \$20M family business with \$15M in gains pays modest rates (15-20%), not confiscatory rates
+* **Clean basis after tax is paid:** unrealized gains are realized and taxed at death, and heirs inherit assets with a **clean basis** (value at death), so they only pay tax on future gains
+* **Progressive rates** — a $20M family business with $15M in gains pays modest rates (15-20%), not confiscatory rates
 
-The difference: **a genuine family business transition is protected. A \$5 billion dynasty trust using legal engineering to skip 5 generations of estate tax is not.**
+The difference: **a genuine family business transition is protected. A $5 billion dynasty trust using legal engineering to skip 5 generations of estate tax is not.**
 
 ### **Why this approach works better**
 
 Instead of playing whack-a-mole with individual techniques, the Act removes the game board:
 
-* **No stepped-up basis** → can't erase gains by dying
+* **No free stepped-up basis** → you can't erase gains by dying; gains are taxed first, then basis resets
 * **Death as realization** → can't defer forever
 * **Progressive rates on lifetime gains** → can't avoid tax by never selling
 * **Lower estate exemption** → can't shelter \$50M+ completely
@@ -959,7 +954,7 @@ Typical families are completely protected. Ultra-wealthy families can still tran
 
 ## **Q12: How do trusts work under this plan? Can I use them to avoid paying tax forever?**
 
-**No. Trusts can still be used for estate planning, liability protection, and managing beneficiary distribution — but not for tax deferral. Income retained in a trust is taxed to the trust at the top marginal rate (45%) in the year earned. Distributions to beneficiaries are taxed as ordinary income (or capital gains if the trust distributes capital gains). The lifetime capital gains exemption is per-person and doesn't transfer through trusts or multiply across generations.**
+**No. Trusts can still be used for estate planning, liability protection, and managing beneficiary distribution — but they cannot be used as permanent tax deferral vehicles.** Any **income or realized gains retained by a trust** are taxed to the trust at the **top marginal rate (45%)** in the year earned. **Distributions** are taxed to the beneficiary: ordinary income at ordinary rates, and capital gains under the capital gains schedule. The **$1.5M lifetime capital gains exemption is per-person** and is used only by individuals — **trusts do not get their own exemption and cannot “stack” exemptions across generations.**
 
 The current system allows wealthy families to use trusts for permanent tax deferral:
 
@@ -972,20 +967,22 @@ Fair & Simple eliminates the tax deferral game without disrupting legitimate tru
 
 ### **How trusts are taxed under Fair & Simple**
 
-**For income retained by the trust:**
-* **Income stays in trust** = Trust pays 45% tax on that income in the year earned
-* No multi-generational deferral, no accumulation strategy
+**For income or realized gains retained by the trust:**
+
+* **Retained in trust** = Trust pays **45%** tax on that amount in the year earned
+* This makes indefinite accumulation expensive, without banning trusts
 
 **For distributions to beneficiaries:**
+
 * **Ordinary income distributed** = Beneficiary pays ordinary income tax at their rate
-* **Capital gains distributed** = Beneficiary uses their portion of lifetime exemption, then pays capital gains rates
+* **Capital gains distributed** = Beneficiary uses their lifetime exemption, then pays capital gains rates
 * **Principal (non-income) distributed** = Tax-free (it's already been taxed at some point)
 
 **For the lifetime capital gains exemption:**
+
 * Each person gets one $1.5M exemption (couples $3M), usable any time during life or at death
-* **Exemption does not transfer through trusts or multiply across family members**
-* If you use your $1.5M exemption during life, your kids get their own fresh $1.5M at their death/during their life
-* No dynasty planning, no exemption multiplication
+* **Exemption does not apply at the trust level, does not transfer through trusts, and does not multiply across generations**
+* If you use your $1.5M exemption during life, your kids still get their own $1.5M during their life or at their death
 
 ### **Example: Family Accumulation Trust**
 
@@ -1012,7 +1009,7 @@ Fair & Simple eliminates the tax deferral game without disrupting legitimate tru
 
 **Fair & Simple:** 
 1. Deferral is expensive (45% annual tax on retained income)
-2. Step-up basis is gone (exit = realization)
+2. Free step-up basis is gone (death/distribution triggers realization and tax; basis resets only after tax is paid)
 3. Exemption doesn't multiply (one per person, not per dynasty)
 
 **Result:** Trusts are still valuable for non-tax reasons (management, creditor protection, probate avoidance), but they can't be used as permanent tax vehicles.
@@ -1025,6 +1022,7 @@ Fair & Simple eliminates the tax deferral game without disrupting legitimate tru
 * **Tax-efficient distribution:** Distribute to lower-bracket beneficiaries, but this is ordinary tax planning, not deferral
 
 Basically: Use a trust if you want to manage how/when heirs get money, or protect assets. Don't use a trust expecting to avoid tax — that's gone.
+
 
 # Part 4: Impact on Innovation & Investment
 
@@ -1073,6 +1071,7 @@ Unlike the current system, which privileges housing over other forms of saving, 
 
 **Bottom line:**  
 Most home sales remain tax-free. Families who move over time are protected. And the tax code treats homeowners and renters more fairly than it does today.
+
 ## **Q14: Why no special carried interest rule?**
 
 Because the structure already closes it. At $100M+ in lifetime capital gains, the rate converges to 45% — the same as the top ordinary income rate — so there is no benefit to re-labeling labor income as capital gains at extreme levels.
@@ -1261,6 +1260,9 @@ The American Tax Fairness Act is **revenue-positive from Day 1**, raising $200�
 | QSBS eliminated; replaced with universal $1.5M exemption | \+\$10–20B | All founders/investors get same exemption; no more $10M+ exclusions |
 | Estate tax reform (\$14M → \$5M exemption) | \+\$50–65B | ~30K estates taxed vs. ~4K currently |
 | ROTH reforms (contribution cap, $2.5M freeze, death = realization) | \+\$15–25B | Closes "Peter Thiel loophole" while expanding access |
+
+*Note on scoring:* These line-item estimates overlap. For example, “death as realization,” “no step-up,” and “buy-borrow-die” often apply to the same deferred gains in different circumstances. The totals above should be read as an **interaction-adjusted range**, not a simple sum of independent policies.
+
 | **Total Annual Gains** | **\+\$265–400B** | |
 
 ---
@@ -1275,7 +1277,7 @@ The American Tax Fairness Act is **revenue-positive from Day 1**, raising $200�
 
 **Conclusion:** The American Tax Fairness Act is solidly revenue-positive from Day 1, raising $200–310B annually by closing loopholes that allow ultra-wealthy families to avoid taxation. These gains fund the expanded child benefit and simplified AMT/NIIT elimination with substantial surplus for deficit reduction.
 
-## **Appendix A-1: Tax Burden by Income Percentile**
+## **Tax Burden by Income Percentile**
 
 This table shows the distributional impact of the Fair & Simple Tax Act across income levels, demonstrating that the reform is **progressive** — most households pay less or about the same, while high earners contribute more.
 
@@ -1370,6 +1372,10 @@ These case studies show detailed before/after calculations for representative ta
 | [Giant Founder](#9-large-founder--sarah-50m-exit-after-15-years) | \$50M exit | 23.8% | 23.2% | **\-0.6%** |
 | [Mega Exit](#10-mega-exit--hedge-fund-founder-500m-exit) | \$500M exit | 23.8% | 24.8% | **\+1.0%** |
 | [Trust Fund Heir](#11-trust-fund-heir--inherits-20m) | \$20M estate | 0% | 37.5% | **\+37.5%** |
+| [Dual-Income Professionals](#23-dual-income-professional-couple--the-andersons-300k-combined) | $300K | 20.3% | 20.7% | **+0.4%** |
+| [High-Earning Dual-Income](#24-high-earning-dual-income-couple--the-patel-johnsons-500k-combined) | $500K | 23.8% | 29.3% | **+5.5%** |
+| [Physician Couple](#25-physician-couple--drs-martinez-600k-combined-w-2) | $600K | 24.8% | 31.0% | **+6.2%** |
+| [Small Biz + Professional Spouse](#26-small-business-owner--professional-spouse--the-thompsons-400k-combined) | $400K | 16.6% | 25.1% | **+8.5%** |
 
 **The Pattern:**
 
@@ -1610,8 +1616,6 @@ These case studies show detailed before/after calculations for representative ta
 | Capital Gains Tax | \$116,620,000 | \$121,350,000 | \+\$4,730,000 |
 | **Effective Rate** | **23.8%** | **24.8%** | **\+1.0%** |
 
- 
-
 *Fair & Simple: \$0 \+ \$225K \+ \$1.4M \+ 25% × \$478.5M \= \$0 \+ \$225K \+ \$1.4M \+ \$119.625M \= \$121.25M*
 
 **The take:** "The carried interest loophole is gone. I pay about \$5M more. That's the deal."
@@ -1639,8 +1643,6 @@ These case studies show detailed before/after calculations for representative ta
 | Tax: 25% on \$3.5M | \$875,000 |
 | **Capital Gains Tax** | **\$2,500,000** |
 
- 
-
 **Step 2: Estate Tax**
 
 |  | Amount |
@@ -1651,8 +1653,6 @@ These case studies show detailed before/after calculations for representative ta
 | Less: Estate Exemption | \-\$5,000,000 |
 | Taxable Estate | \$12,500,000 |
 | Estate Tax (40%) | **\$5,000,000** |
-
- 
 
 **Total Taxes at Death:** \$2,500,000 \+ \$5,000,000 \= **\$7,500,000**
 
@@ -1668,76 +1668,8 @@ These case studies show detailed before/after calculations for representative ta
 **The heir's take:** "I'm still inheriting \$12.5 million dollars. My parents paid taxes on their gains like everyone else. That's fair."
 
 ---
-----
 
-#### **19. Mid-Sized Pass-Through — The Parkers, S-Corp, \$500K Profit**
-
-**Situation:**
-* The Parkers own a regional HVAC business (S-Corp)
-* Annual profit: \$500,000
-* Take \$150K W-2 salary, \$350K distributions (reasonable compensation)
-* Married filing jointly + 2 kids
-
-**Current Law:**
-* W-2 salary \$150K: FICA 15.3% \= \$23K
-* Distributions \$350K: avoid FICA
-* Income tax on \$500K: \~\$52K
-* **Total tax: \~\$71K (14.2% effective rate)**
-
-| | Current Law | Fair & Simple | Change |
-|---|-------------|---------------|--------|
-| Business Profit | \$500,000 | \$500,000 | — |
-| Payroll Tax (salary only) | \$23,000 | \$12,000 | -\$11,000 |
-| Federal Income Tax | \$52,000 | \$98,000 | +\$46,000 |
-| Child Tax Credit | -\$4,000 | -\$5,000 | -\$1,000 |
-| **Total Federal Tax** | **\$71,000** | **\$105,000** | **+\$34,000** |
-| **Effective Rate** | **14.2%** | **21.0%** | **+6.8%** |
-
-*Fair & Simple: ESNC (8%) on \$150K salary \= \$12K. Distributions avoid ESNC (same as current). Income tax at ordinary brackets (no QBI) \= \$98K. Less CTC \$5K \= \$105K total.*
-
-**The Parkers' take:** "We pay \$34K more because the QBI deduction is gone and brackets are more progressive. But we're still keeping \$395K after tax, and there's no more stress about whether our \$150K salary is 'reasonable compensation.'"
-
-**The Parkers' take:** "We pay more because we were gaming the system. But we're still keeping \$356,500 after tax vs. \$429,000 under current arbitrage. The certainty is worth it."
-
----
-
-#### **20. Professional Services — Dr. Chen, Medical Practice, \$350K Profit**
-
-**Situation:**
-* Dr. Chen owns a solo medical practice (S-Corp)
-* Annual profit: \$350,000
-* Takes \$120K W-2 salary, \$230K distributions
-* Single filer
-
-**Current Law:**
-* W-2 salary \$120K: FICA 15.3% \= \$18K
-* Distributions \$230K: avoid FICA
-* Income tax: \~\$52K
-* **Total tax: \~\$70K (20% effective rate)**
-
-| | Current Law | Fair & Simple | Change |
-|---|-------------|---------------|--------|
-| Business Profit | \$350,000 | \$350,000 | — |
-| Payroll Tax (salary only) | \$18,000 | \$9,600 | -\$8,400 |
-| Federal Income Tax | \$52,000 | \$88,000 | +\$36,000 |
-| **Total Federal Tax** | **\$70,000** | **\$97,600** | **+\$27,600** |
-| **Effective Rate** | **20.0%** | **27.9%** | **+7.9%** |
-
-*Fair & Simple: ESNC (8%) on \$120K salary \= \$9.6K. Distributions avoid ESNC (same as current). Income tax at ordinary brackets (no QBI) \= \$88K. Total \= \$97.6K.*
-
-**Dr. Chen's take:** "I pay \$27.6K more mainly because the QBI deduction is gone. But I can focus on patients instead of tax planning, and my effective rate is still under 28%."
-
-**Dr. Chen's take:** "I pay significantly more because I was avoiding SE tax. But the simplicity means I can focus on patients instead of tax planning."
-
----
-
-### **Part E: Real Estate Investors**
-
----
-
-### **Part F: Middle-Class Reassurance (Upper-Middle Earners)**
-
-#### **23. Dual-Income Professional Couple — The Andersons, \$300K Combined**
+#### **12. Dual-Income Professional Couple — The Andersons, \$300K Combined**
 
 **Situation:**
 * Both work in tech (W-2 employees)
@@ -1766,56 +1698,26 @@ These case studies show detailed before/after calculations for representative ta
 
 ---
 
-#### **24. High-Earning Dual-Income Couple — The Patel-Johnsons, \$500K Combined**
+#### **13. High-Earning Dual-Income Couple — The Patel-Johnsons, \$500K Combined**
 
 **Situation:**
 * Both are corporate executives (W-2)
 * Combined income: \$500,000
 * Married filing jointly + 3 kids
-* Live in high-tax state (SALT: \$25K)
-* **Lifetime exemption status:** \$3M available (couple, no capital gains yet)
-
-**Current Law (SALT capped at \$10K):**
-* FICA: \$24,000 (capped)
-* Federal income tax: \~\$95,000
-* **Total tax: \~\$119,000 (\~23.8% effective rate)**
-
-| | Current Law | Fair & Simple | Change |
-|---|-------------|---------------|--------|
-| Gross Income | \$500,000 | \$500,000 | — |
-| Employee FICA | \$24,000 | \$0 | -\$24,000 |
-| Federal Income Tax | \$95,000 | \$154,000 | +\$59,000 |
-| Child Tax Credit | -\$0 | -\$7,500 | -\$7,500 |
-| **Total Federal Tax** | **\$119,000** | **\$146,500** | **+\$27,500** |
-| **Effective Rate** | **23.8%** | **29.3%** | **+5.5%** |
-
-*Fair & Simple income tax (MFJ): \$2K + \$12K + \$48.6K + \$76K + \$20K \= \$158.6K - CTC \$7.5K \= \$151K*
-
-**The Patel-Johnsons' take:** "We pay about \$27K more, but we're in the top 5% of earners. The system is fairer, and our effective rate is still under 30%."
-
----
-
-#### **25. Physician Couple — Drs. Martinez, \$600K Combined (W-2)**
-
-**Situation:**
-* Both work at hospitals (W-2 employees)
-* Combined income: \$600,000
-* Married filing jointly + 2 kids
-* No significant deductions under current law
 * **Lifetime exemption status:** \$3M available (couple, no capital gains yet)
 
 | | Current Law | Fair & Simple | Change |
 |---|-------------|---------------|--------|
-| Gross Income | \$600,000 | \$600,000 | — |
-| Employee FICA | \$24,000 | \$0 | -\$24,000 |
-| Federal Income Tax | \$125,000 | \$191,000 | +\$66,000 |
-| Child Tax Credit | -\$0 | -\$5,000 | -\$5,000 |
-| **Total Federal Tax** | **\$149,000** | **\$186,000** | **+\$37,000** |
-| **Effective Rate** | **24.8%** | **31.0%** | **+6.2%** |
+| Employee FICA | $24,000 | $24,000 | $0 |
+| Federal Income Tax | $95,000 | $95,000 | $0 |
+| Child Tax Credit | -$0 | -$0 | $0 |
+| **Total Federal Tax** | **$119,000** | **$119,000** | **$0** |
+| **Effective Rate** | **23.8%** | **23.8%** | **0%** |
 
-*Fair & Simple income tax (MFJ): \$2K + \$12K + \$48.6K + \$76K + \$56K \= \$194.6K - CTC \$5K \= \$189.6K*
+*Fair & Simple income tax (MFJ): Brackets unchanged except for new 45% top rate. No child credit at $500K. FICA unchanged.*
 
-**Drs. Martinez' take:** "We pay \$37K more because we're in the top 2%. But FICA elimination helps, and the system is transparent. No more surprise AMT or phase-outs."
+**The Patel-Johnsons' take**: "Our total tax is about the same as under current law, since the child credit phases out and the brackets are unchanged except at the very top."
+
 
 ---
 
@@ -1823,7 +1725,7 @@ These case studies show detailed before/after calculations for representative ta
 
 **Situation:**
 * Sarah owns a small retail business (S-Corp): \$200K profit
-  - Takes \$80K W-2 salary, \$120K distributions
+  * Takes \$80K W-2 salary, \$120K distributions
 * Mike is a software engineer (W-2): \$200K salary
 * Married filing jointly + 2 kids
 
@@ -1835,21 +1737,20 @@ These case studies show detailed before/after calculations for representative ta
 
 | | Current Law | Fair & Simple | Change |
 |---|-------------|---------------|--------|
-| Combined Income | \$400,000 | \$400,000 | — |
-| FICA + ESNC | \$27,300 | \$6,400 | -\$20,900 |
-| Federal Income Tax | \$43,000 | \$99,000 | +\$56,000 |
-| Child Tax Credit | -\$4,000 | -\$5,000 | -\$1,000 |
-| **Total Federal Tax** | **\$66,300** | **\$100,400** | **+\$34,100** |
-| **Effective Rate** | **16.6%** | **25.1%** | **+8.5%** |
+| FICA + ESNC | $27,300 | $27,300 | $0 |
+| Federal Income Tax | $43,000 | $43,000 | $0 |
+| Child Tax Credit | -$4,000 | -$0 | +$4,000 |
+| **Total Federal Tax** | **$66,300** | **$70,300** | **+$4,000** |
+| **Effective Rate** | **16.6%** | **17.6%** | **+1.0%** |
 
 *Fair & Simple:*
-- *Sarah's ESNC: 8% × \$80K salary \= \$6,400 (distributions avoid ESNC)*
-- *Mike's FICA: \$0*
-- *Combined income tax at ordinary brackets (no QBI): \~\$99K*
-- *Less CTC: -\$5,000*
-- *Total: \$6,400 + \$99,000 - \$5,000 \= \$100,400*
+- *Sarah's ESNC: 8% × $80K salary = $6,400 (distributions avoid ESNC)*
+- *Mike's FICA: $20,900 (7.65% of $200K)*
+- *Combined income tax at ordinary brackets (no QBI): ~$43K*
+- *No child credit at $400K (phased out)*
+- *Total: $6,400 + $20,900 + $43,000 = $70,300*
 
-**The Thompsons' take:** "We pay \$34K more mainly because Mike's FICA elimination (\$15K savings) doesn't fully offset our higher income taxes from losing the QBI deduction. But we're in the top 10% of earners, and the simplicity is worth it."
+**The Thompsons' take:** "We pay about $4,000 more than under current law, mainly due to the loss of the QBI deduction and child credit phase-out."
 
 
 
@@ -2035,7 +1936,7 @@ If Phase 1 + Phase 2 + GDP growth have reduced deficit to 4-5% of GDP range, Pha
 
 ---
 
-### **For Those Who Ask: "What If Spending Reform Fails?"**
+### **For Those Who Ask: "What Other Revenue Raising Options Are There?"**
 
 Congress will have spending reform options ranging from modest (program consolidation, waste elimination) to aggressive (major entitlement reform). If all reasonable spending reform options are exhausted, the simplified tax base makes emergency revenue measures straightforward:
 
