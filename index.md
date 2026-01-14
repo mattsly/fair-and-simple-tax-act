@@ -1069,7 +1069,7 @@ By contrast, the lifetime exemption:
 
 Unlike the current system, which privileges housing over other forms of saving, the Fair & Simple Tax Act treats homeownership as **one important way** families build long-term security — not a tax-preferred category that distorts behavior.
 
-**Bottom line:**  
+**Bottom Line:**  
 Most home sales remain tax-free. Families who move over time are protected. And the tax code treats homeowners and renters more fairly than it does today.
 
 ## **Q14: Why no special carried interest rule?**
@@ -1559,7 +1559,7 @@ These case studies show detailed before/after calculations for representative ta
 
 *Fair & Simple: \$0 on \$1.5M \+ 15% × \$1.5M \+ 20% × \$5M \= \$0 \+ \$225K \+ \$1M \= \$1.225M on \$8M. Wait, let me recalc:*
 
-*\$0-\$1.5M: 0%. \$1.5M-\$3M: 15% × \$1.5M \= \$225K. \$3M-\$10M: 20% × \$6.5M \= \$1.3M. Total on \$9.5M gain \= \$225K \+ \$1.3M \= \$1.525M*
+*\$0-\$1.5M: 0%. \$1.5M-\$3M: 15% × \$1.5M \= \$225K. \$3M-\$10M: 20% × \$7M \= \$1.4M. Total \= \$1.625M*
 
 **Without QSBS:**
 
@@ -1583,7 +1583,7 @@ These case studies show detailed before/after calculations for representative ta
 | Gain | \$49,000,000 | \$49,000,000 | — |
 | Lifetime Exemption | N/A | \-\$1,500,000 | — |
 | Taxable Gain | \$49,000,000 | \$47,500,000 | — |
-| Capital Gains Tax | \$11,662,200 | \$11,350,000 | \-\$312,200 |
+| Capital Gains Tax | \$11,662,200 | \$11,375,000 | \-\$287,200 |
 | **Effective Rate** | **23.8%** | **23.2%** | **\-0.6%** |
 
  
@@ -1591,6 +1591,8 @@ These case studies show detailed before/after calculations for representative ta
 *Fair & Simple: \$0 \+ \$225K \+ \$1.4M \+ 25% × \$37.5M \= \$0 \+ \$225K \+ \$1.4M \+ \$9.375M \= \$11M. Let me recalc:*
 
 *\$0-\$1.5M: 0%. \$1.5M-\$3M: 15% × \$1.5M \= \$225K. \$3M-\$10M: 20% × \$7M \= \$1.4M. \$10M+: 25% × \$39M \= \$9.75M. Total \= \$11.375M*
+
+**Without QSBS:**
 
 |  | Current Law | Fair & Simple | Change |
 | :---- | :---- | :---- | :---- |
@@ -1688,7 +1690,7 @@ These case studies show detailed before/after calculations for representative ta
 | Gross Income | \$300,000 | \$300,000 | — |
 | Employee FICA (7.65%) | \$23,000 | \$0 | -\$23,000 |
 | Federal Income Tax | \$42,000 | \$67,000 | +\$25,000 |
-| Child Tax Credit | -\$4,000 | -\$5,000 | -\$1,000 |
+| Child Tax Credit | -$4,000 | -$5,000 | -\$1,000 |
 | **Total Federal Tax** | **\$61,000** | **\$62,000** | **+\$1,000** |
 | **Effective Rate** | **20.3%** | **20.7%** | **+0.4%** |
 
@@ -1753,12 +1755,11 @@ These case studies show detailed before/after calculations for representative ta
 **The Thompsons' take:** "We pay about $4,000 more than under current law, mainly due to the loss of the QBI deduction and child credit phase-out."
 
 
-
 ## **Appendix C: Path to Fiscal Sustainability**
 
 ### **The Honest Assessment: ATFA is a Great Start — But Only a Start**
 
-The American Tax Fairness Act is **a major step forward**, generating \$200–310B annually through loophole closures. But let's be clear: **it's not the whole solution.** This Act tackles the revenue side of the fiscal gap. Congress must now match that effort on the spending side — with the same principles of simplicity, fairness, and durability.
+The American Tax Fairness Act is **a major step forward**, generating \$200-310B annually through loophole closures. But let's be clear: **it's not the whole solution.** This Act tackles the revenue side of the fiscal gap. Congress must now match that effort on the spending side — with the same principles of simplicity, fairness, and durability.
 
 ---
 
@@ -1824,7 +1825,7 @@ The same principles should guide spending reform:
 | Program consolidation (reduce duplication) | \$80-150B | 80\+ programs → 10; 40\+ housing programs → 1 |
 | Federal IT modernization | \$20-40B | Modern systems reduce fraud and improve service delivery |
 | Interest savings (deficit reduction) | \$100-300B | Compounding effect as deficit shrinks over 10 years |
-| **Total Potential Annual Savings** | **\$390-870B** | Combined with revenue reform: \$590B-1.18T |
+| **Total Potential Annual Savings** | **\$390-870B** | Combined with revenue reform: \$590B-1.18T annually |
 
 **Why this is realistic:** Every major audit of federal spending (GAO, OMB) identifies \$200-400B annually in waste, fraud, and duplication. We're identifying those items, not creating new cuts.
 
