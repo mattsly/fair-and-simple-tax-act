@@ -35,7 +35,6 @@
 - [Q14: Carried interest](#q14-why-no-special-carried-interest-rule)
 - [Q15: Entrepreneurs & innovators](#q15-will-this-punish-entrepreneurs-and-innovators)
 - [Q16: Expatriation](#q16-what-about-expatriation-and-capital-flight)
-- [Q15: Expatriation & capital flight](#q15-what-about-expatriation-and-capital-flight)
 
 
 **Appendices**
@@ -97,11 +96,12 @@ The Act closes the most egregious loopholes used by ultra-wealthy individuals an
 | $1.5M lifetime exemption ($3M couples); progressive rates above [(details in Q6)](#q6-how-are-capital-gains-dividends-and-investment-income-taxed) | Climb, Durability | Raises $15–40B |
 | Stepped-up basis eliminated; death = realization event [(details in Q10)](#q10-what-happens-when-someone-dies) | Climb, Durability | Raises $75–100B |
 | Buy-borrow-die closed [(details in Q9)](#q9-how-does-the-act-close-the-buy-borrow-die-loophole) | Climb, Durability | Raises $25–50B |
-| QSBS eliminated; universal $1.5M exemption for all [(details in Q14)](#q14-will-this-punish-entrepreneurs-and-innovators) | Simplicity, Climb | Raises $10–20B |
+| QSBS eliminated; universal $1.5M exemption for all [(details in Q15)](#q15-will-this-punish-entrepreneurs-and-innovators) | Simplicity, Climb | Raises $10–20B |
 | **FAMILY BENEFITS** | | |
 | $4,000/child; full benefit <$120K, phases to $0 at $400K [(details in Q7)](#q7-what-is-the-child-tax-credit-under-this-plan-and-how-is-it-different-from-today) | Simplicity, Climb | Costs $20–30B |
 | **ESTATES** | | |
 | Estate exemption: $14M → $5M per person ($10M couples) [(details in Q10)](#q10-what-happens-when-someone-dies) | Climb, Durability | Raises $50–65B |
+| Trust income taxed annually; no exemption stacking via dynasty trusts [(details in Q12)](#q12-how-do-trusts-work-under-this-plan-can-i-use-them-to-avoid-paying-tax-forever) | Climb, Durability | Base-protecting (eliminates multigenerational deferral) |
 | **RETIREMENT (ROTH)** | | |
 | Income limits eliminated; cap raised to $15K/year; $2.5M contribution freeze; death = realization of gains [(details in Q8)](#q8-what-are-the-roth-account-reforms-and-why-close-the-peter-thiel-loophole) | Simplicity, Climb, Durability | Raises $15–25B |
 | **TOTAL** | **Simpler, fairer, fiscally durable** | **Raises $200–310B annually** |
@@ -111,7 +111,7 @@ The Act closes the most egregious loopholes used by ultra-wealthy individuals an
 
 ## **Q2: How much simpler is this really?**
 
-**The American Tax Fairness Act (ATFA) dismantles the complexity machinery that dynastic wealth exploits.**
+**The American Tax Fairness Act (ATFA) dismantles the complex machinery that dynastic wealth exploits.**
 
 The current tax code's sprawling complexity (thousands of pages of statute and regulations) isn't just annoying—it's weaponized. Edge-case loopholes and financial engineering workarounds are deliberately obscure, allowing extreme wealth to compound indefinitely while ordinary Americans pay their full share.
 
@@ -178,7 +178,7 @@ It achieves this by:
 
 These gains easily cover the costs ($50-70B for AMT/NIIT elimination and expanded child benefits), resulting in **$200-310B net annual revenue**.
 
-### **How far does this go toward a responsible federal budget?**
+### **What else is needed to have a responsible federal budget?**
 
 It's a good first step, but not sufficient on its own.
 
@@ -232,7 +232,7 @@ ATFA keeps income tax brackets close to current law while eliminating the Altern
 
 ## **Q6: How are capital gains, dividends, and investment income taxed?**
 
-We introduce a new paradigm to determine Capital Gains rates based on lifetime total of capital gains. This is both to encourage saving early in life, and to recognize that many gains occur after multiple years of investment.
+We introduce a new paradigm to determine Capital Gains rates based on lifetime total of capital gains. This is both to encourage saving early in life, and to recognize that many gains occur after multiple years of investment. We also recognize that "wealth begets wealth", and it is not fair to allow for the extremely wealthy (+$100M) to pay a lower tax rate than someone making $300K.
 
 **At $100M+ in lifetime gains, capital gains rates converge with ordinary income rates (45%)** — eliminating any incentive to reclassify labor income as capital gains at extreme wealth levels.
 
@@ -1668,29 +1668,7 @@ These case studies show detailed before/after calculations for representative ta
 **The heir's take:** "I'm still inheriting \$12.5 million dollars. My parents paid taxes on their gains like everyone else. That's fair."
 
 ---
-
-#### **18. Small Pass-Through Business — Lisa, LLC Owner, \$250K Profit**
-
-**Situation:**
-* Lisa owns a marketing consultancy (LLC)
-* Annual business profit: \$250,000 (Schedule C)
-* Single filer
-
-| | Current Law | Fair & Simple | Change |
-|---|-------------|---------------|--------|
-| Business Profit | \$250,000 | \$250,000 | — |
-| Self-Employment Tax (15.3%) | \$38,250 | \$20,000 | -\$18,250 |
-| Federal Income Tax | \$38,456 | \$53,000 | +\$14,544 |
-| **Total Federal Tax** | **\$76,706** | **\$73,000** | **-\$3,706** |
-| **Effective Rate** | **30.7%** | **29.2%** | **-1.5%** |
-
-*Fair & Simple: ESNC (8%) \= \$20K. Income tax at ordinary brackets (no QBI) \= \$53K. Total \= \$73K.*
-
-**Lisa's take:** "I save almost \$4K a year because self-employment tax dropped from 15.3% to 8%. My income taxes went up slightly, but overall I'm ahead and the system is way simpler."
-
-**Lisa's take:** "Same total tax, but way simpler. No more 'reasonable salary' debates with the IRS."
-
----
+----
 
 #### **19. Mid-Sized Pass-Through — The Parkers, S-Corp, \$500K Profit**
 
@@ -1754,56 +1732,6 @@ These case studies show detailed before/after calculations for representative ta
 ---
 
 ### **Part E: Real Estate Investors**
-
-#### **21. Mom-and-Pop Landlords — The Garcias, Two Rental Properties**
-
-**Situation:**
-* Own two rental properties worth \$2M total
-* Original basis: \$800K
-* Unrealized gains: \$1.2M
-* Depreciation taken: \$400K over 15 years
-* Sell both properties at retirement
-* **Lifetime exemption status:** \$3M available (couple, no prior capital gains)
-
-| | Current Law | Fair & Simple | Change |
-|---|-------------|---------------|--------|
-| Sale Proceeds | \$2,200,000 | \$2,200,000 | — |
-| Cost Basis | \$800,000 | \$800,000 | — |
-| Realized Gain | \$1,400,000 | \$1,400,000 | — |
-| Lifetime Exemption | N/A | -\$1,400,000 | — |
-| Capital Gains Tax | \$209,300 | \$0 | -\$209,300 |
-| Depreciation Recapture | \$100,000 | \$100,000 | — |
-| **Total Tax** | **\$309,300** | **\$100,000** | **-\$209,300** |
-| **Effective Rate** | **14.1%** | **4.5%** | **-9.6%** |
-
-**The Garcias' take:** "The lifetime exemption covers our entire gain. We only pay depreciation recapture—same as current law. We save over \$200K."
-
----
-
-#### **22. Large Landlord — Susan, Real Estate Portfolio, \$10M Value**
-
-**Situation:**
-* Owns diversified real estate portfolio
-* Original basis: \$3M
-* Current value: \$10M
-* Unrealized gains: \$7M
-* Used 1031 exchanges for 20 years
-* Sells entire portfolio to diversify
-* **Lifetime exemption status:** \$1.5M available (single, no prior significant gains)
-
-| | Current Law | Fair & Simple | Change |
-|---|-------------|---------------|--------|
-| Sale Proceeds | \$10,000,000 | \$10,000,000 | — |
-| Cost Basis | \$3,000,000 | \$3,000,000 | — |
-| Realized Gain | \$7,000,000 | \$7,000,000 | — |
-| Lifetime Exemption | N/A | -\$1,500,000 | — |
-| Taxable Gain | \$7,000,000 | \$5,500,000 | -\$1,500,000 |
-| Capital Gains Tax | \$1,316,300 | \$1,025,000 | -\$291,300 |
-| **Effective Rate** | **18.8%** | **14.6%** | **-4.2%** |
-
-*Fair & Simple: \$0 on \$1.5M + 15% × \$1.5M + 20% × \$4M \= \$0 + \$225K + \$800K \= \$1,025K*
-
-**Susan's take:** "I saved \$291K compared to current law. The 1031 reforms are fair—I got decades of deferral, and now I pay at reasonable rates."
 
 ---
 
