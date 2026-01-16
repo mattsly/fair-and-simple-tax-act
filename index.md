@@ -1,15 +1,10 @@
-# **The Fair & Simple Tax Project**
-## **Act 1: The American Tax Fairness Act**
+# **The Fair & Simple Tax Act**
 
-***
-This document is intentionally written in an Amazon-style PR-FAQ format by [Matt Sly](https://wwww.mattsly.com). I spent much of my career in technology and product development, where this format is commonly used to present complex ideas, establish clear design tenets, and make assumptions and tradeoffs explicit.
+*This document is intentionally written in an [Amazon-style "Working Backwards" PR-FAQ format](https://www.aboutamazon.com/news/workplace/an-insider-look-at-amazons-culture-and-processes) by [Matt Sly](https://wwww.mattsly.com). I spent much of my career in technology and product development, where this format is commonly used to present complex ideas, establish clear design tenets, and make assumptions and tradeoffs explicit.*
 
-I am not a career policy professional. I’m a software entrepreneur approaching the U.S. tax code as a product that has accumulated complexity over decades without a clear owner. My goal is to help “refactor” the tax code by simplifying where possible, reducing the hidden costs of complexity and edge cases, and making fiscal tradeoffs legible to both policymakers and the public.
+*I am not a career policy professional. I’m a software entrepreneur approaching the U.S. tax code as a product that has accumulated complexity over decades without a clear owner. My goal is to help “refactor” the tax code by simplifying where possible, reducing the hidden costs of complexity and edge cases, and making fiscal tradeoffs legible to both policymakers and the public.*
 
-What follows is a concrete proposal, written to invite critique.
-***
-
----
+*What follows is a concrete proposal, written to invite critique.*
 
 ## **Quick Navigation**
 
@@ -52,35 +47,35 @@ What follows is a concrete proposal, written to invite critique.
 
 # **Press Release**
 
-**WASHINGTON, D.C. —** The U.S. tax code is broken: too complex, riddled with loopholes for the wealthy, and feeding an unsustainable deficit. Today, bipartisan leaders introduced the American Tax Fairness Act — phase one of comprehensive reform built on three principles: radical simplicity, fairness that fuels upward mobility, and fiscal durability.
+FOR IMMEDIATE RELEASE
 
-### **Three principles, one system**
+**The American Tax Fairness Act Simplifies the Tax Code, Closes Loopholes, and Makes the System Work Better for Ordinary Americans**
 
-**Simplicity that restores transparency.** The code spans 2,600 pages of statute and 10,000 pages of regulations. This bill eliminates the AMT, streamlines brackets, and closes complex loopholes. Future phases would remove itemized deductions and enable pre-filled returns for most Americans.
+Today, a new proposal called the American Tax Fairness Act was released as the first phase of the Fair & Simple Tax Project. The Act modernizes the U.S. tax code by eliminating unnecessary complexity, closing long-standing loopholes, and creating a system that is easier to understand, harder to game, and more fiscally durable over time.
 
-**Fairness that fuels the climb.** Everyday savers and entrepreneurs get a \$1.5M lifetime capital gains exemption and simpler pass-through rules. Extreme wealth that exploits stepped-up basis, buy-borrow-die, and carried interest loopholes pays its share. The system rewards value creation, not tax engineering.
+Over decades, the tax code has accumulated layer upon layer of special rules, carve-outs, and parallel systems. While many of these provisions were created with good intentions, the result is a system that is difficult for taxpayers to understand, costly to comply with, and increasingly disconnected from its stated goals. Filing taxes has become unpredictable for ordinary households and arbitrage-driven for those with access to sophisticated planning.
 
-**Fiscal durability from Day 1.** The bill is revenue-positive, generating \$200–310B annually by closing loopholes and broadening the base. No gimmicks. This is the first step toward closing the gap between today’s 6% of GDP deficit and the sustainable 3–4% target, alongside future tax and spending reforms.
+The American Tax Fairness Act addresses this problem by simplifying the structure of personal taxation and broadening the tax base rather than relying on narrow fixes or symbolic changes. It removes overlapping systems like the 
+Alternative Minimum Tax and the Net Investment Income Tax, replaces a patchwork of deductions and credits with simpler, more transparent mechanisms, and reforms capital gains taxation to better reflect lifetime outcomes rather than one-off transactions.
 
-### **What supporters are saying**
+For most working families, this means a tax system that is more predictable and easier to navigate, with fewer hidden penalties and fewer incentives for financial engineering. The Act includes a straightforward, refundable child benefit that supports families building economic security, while avoiding sharp cliffs or complex eligibility rules.
 
-'This bill closes loopholes that let billionaires avoid taxes while working families pay full freight. Earn a million, you pay tax. Inherit a billion? Under current law, zero. This ends that.'
+For entrepreneurs and investors, the proposal preserves strong incentives to start companies, take risks, and invest for the long term, while reducing opportunities to reclassify income or defer taxes indefinitely. Capital gains remain taxed on realization, not on paper, but are treated more consistently across a lifetime, closing loopholes that disproportionately benefit a small number of very high-income households.
 
-— *Senior Democratic Senator*
+The American Tax Fairness Act is designed to be fiscally responsible. By broadening the base and simplifying the rules, it raises revenue in a more stable and predictable way, reducing reliance on temporary patches and narrow surtaxes. The proposal is revenue-positive from day one and contributes to a more credible path toward long-term budget sustainability.
+This Act is intentionally focused in scope. It addresses personal income and capital taxation and does not attempt to resolve every major fiscal challenge in a single step. Future phases of the Fair & Simple Tax Project will tackle related issues, including payroll taxes and Social Security, with the same emphasis on clarity, fairness, and durability.
 
-'We eliminate the Alternative Minimum Tax and pay for it by closing stepped-up basis. We protect family farms and businesses with 15-year payment flexibility. This is fiscal responsibility: real revenue from real loopholes.'
-
-— *Senior Republican Senator*
-
-'We’re getting $4,000 per kid, my filing is simpler, and billionaires finally pay their share. That’s real money for families like ours.'
-
-— *Middle‑class parent, Ohio*
-
+The goal of the American Tax Fairness Act is not to make the tax code perfect, but to make it legible, coherent, and honest about tradeoffs. By simplifying the system and aligning incentives with productive economic activity, the proposal aims to create a tax code that better serves taxpayers, policymakers, and the long-term health of the country.
 # **Tenets**
 
-1. **Radical Simplicity**: If a rule cannot be automated or clearly explained to a normal taxpayer, it does not belong in the tax code.  
-2. **Fuel the Climb**: The system should reward families building wealth and entrepreneurs creating companies — not financial engineering or dynastic wealth.  
-3. **Fiscal Durability**: The reform is revenue-positive from Day 1 (\$200–310B annually), closing loopholes and broadening the base so the system collects what it is owed.
+1. **Radical Simplicity**: 
+The tax code should be clearly explainable and ideally automated. If a provision cannot be understood without specialists or implemented in software, it does not belong. Simplicity reduces compliance costs, limits loopholes, and enables more meaningful public debate about tradeoffs and priorities.
+
+1. **Fuel the Climb (Don’t Protect the Summit)**: 
+The tax code should reward work, entrepreneurship, and families building economic security, not financial engineering or the preservation of entrenched privilege. Incentives should favor productive effort and long-term investment over rent-seeking and avoidance.
+
+1. **Fiscal Durability**:
+The tax code must be fiscally responsible and durable over time. This proposal is revenue-positive from day one and contributes to a credible path toward long-term budget balance. Broad bases, simple rules, and fewer exceptions make revenues more predictable and reduce the need for future patches, gimmicks, or crisis-driven tax hikes.
 
 # Frequently Asked Questions (FAQs)
 
@@ -93,19 +88,19 @@ For most taxpayers, filing stays familiar but becomes fairer and simpler, while 
 | **What Changes** | **Why** | **Fiscal Impact** |
 | :---- | :---- | :---- |
 | **INCOME TAXES** | | |
-| Current brackets maintained + 45% top bracket ($1.5M+ Single / $3M+ MFJ); eliminates AMT and NIIT [(details in Q5)](#q5-how-do-the-new-income-tax-brackets-work) | Simplicity, Durability | Raises $10–20B |
+| Current brackets maintained + 45% top bracket ($1.5M+ Single / $3M+ MFJ); eliminates AMT and NIIT [(details in Q5)](#q5-how-do-the-new-income-tax-brackets-work) | Radical Simplicity, Fiscal Durability | Raises $10–20B |
 | **CAPITAL GAINS** | | |
-| $1.5M lifetime exemption ($3M couples); progressive rates above [(details in Q6)](#q6-how-are-capital-gains-dividends-and-investment-income-taxed) | Climb, Durability | Raises $15–40B |
-| Stepped-up basis eliminated; death = realization event [(details in Q10)](#q10-what-happens-when-someone-dies) | Climb, Durability | Raises $75–100B |
-| Buy-borrow-die closed [(details in Q9)](#q9-how-does-the-act-close-the-buy-borrow-die-loophole) | Climb, Durability | Raises $25–50B |
-| QSBS eliminated; universal $1.5M exemption for all [(details in Q15)](#q15-will-this-punish-entrepreneurs-and-innovators) | Simplicity, Climb | Raises $10–20B |
+| $1.5M lifetime exemption ($3M couples); progressive rates above [(details in Q6)](#q6-how-are-capital-gains-dividends-and-investment-income-taxed) | Fuel the Climb, Fiscal Durability | Raises $15–40B |
+| Stepped-up basis eliminated; death = realization event [(details in Q10)](#q10-what-happens-when-someone-dies) | Fuel the Climb, Fiscal Durability | Raises $75–100B |
+| Buy-borrow-die closed [(details in Q9)](#q9-how-does-the-act-close-the-buy-borrow-die-loophole) | Fuel the Climb, Fiscal Durability | Raises $25–50B |
+| QSBS eliminated; universal $1.5M exemption for all [(details in Q15)](#q15-will-this-punish-entrepreneurs-and-innovators) | Radical Simplicity, Fuel the Climb | Raises $10–20B |
 | **FAMILY BENEFITS** | | |
-| $4,000/child (max 3), fully refundable; phase-out starts at $150K married / $100K single + $25K per child (cap +$75K), ends at $500K married / $300K single [(details in Q7)](#q7-what-is-the-child-tax-credit-under-this-plan-and-how-is-it-different-from-today) | Simplicity, Climb | Costs $20–30B |
+| $4,000/child (max 3), fully refundable; phase-out starts at $150K married / $100K single + $25K per child (cap +$75K), ends at $500K married / $300K single [(details in Q7)](#q7-what-is-the-child-tax-credit-under-this-plan-and-how-is-it-different-from-today) | Radical Simplicity, Fuel the Climb | Costs $20–30B |
 | **ESTATES** | | |
-| Estate exemption: $14M → $5M per person ($10M couples) [(details in Q10)](#q10-what-happens-when-someone-dies) | Climb, Durability | Raises $50–65B |
-| Trust income taxed annually; no exemption stacking via dynasty trusts [(details in Q12)](#q12-how-do-trusts-work-under-this-plan-can-i-use-them-to-avoid-paying-tax-forever) | Climb, Durability | Base-protecting (eliminates multigenerational deferral) |
+| Estate exemption: $14M → $5M per person ($10M couples) [(details in Q10)](#q10-what-happens-when-someone-dies) | Fuel the Climb, Fiscal Durability | Raises $50–65B |
+| Trust income taxed annually; no exemption stacking via dynasty trusts [(details in Q12)](#q12-how-do-trusts-work-under-this-plan-can-i-use-them-to-avoid-paying-tax-forever) | Fuel the Climb, Fiscal Durability | Base-protecting (eliminates multigenerational deferral) |
 | **RETIREMENT (ROTH)** | | |
-| Income limits eliminated; cap raised to $15K/year; $2.5M contribution freeze; death = realization of gains [(details in Q8)](#q8-what-are-the-roth-account-reforms-and-why-close-the-peter-thiel-loophole) | Simplicity, Climb, Durability | Raises $15–25B |
+| Income limits eliminated; cap raised to $15K/year; $2.5M contribution freeze; death = realization of gains [(details in Q8)](#q8-what-are-the-roth-account-reforms-and-why-close-the-peter-thiel-loophole) | Radical Simplicity, Fuel the Climb, Fiscal Durability | Raises $15–25B |
 | **TOTAL** | **Simpler, fairer, fiscally durable** | **Raises $200–310B annually** |
 
 
