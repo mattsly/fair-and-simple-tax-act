@@ -84,9 +84,9 @@ For most taxpayers, filing stays familiar but becomes fairer and simpler, while 
 | **What Changes** | **Design Lens** | **Fiscal Impact** |
 | :---- | :---- | :---- |
 | **INCOME TAXES** | | |
-| Current brackets are maintained and a new 45% top bracket is added for (incomes $1.5M+ Single / $3M+ MFJ); eliminates AMT and NIIT [(details in Q5)](#q5-how-do-the-new-income-tax-brackets-work) | Radical Simplicity, Fiscal Durability | Raises $10–20B |
+| Current brackets are maintained and a new 45% top bracket is added for (incomes $1.5M+ Single / $3M+ MFJ); eliminates AMT and NIIT [(details in Q5)](#q5-how-do-the-new-income-tax-brackets-work) | Radical Simplicity, Fiscal Durability | Raises $40–60B |
 | **CAPITAL GAINS** | | |
-| A new concept of a $1.5M *lifetime* tax free exemption ($3M couples); progressive rates above based on *lifetime* gains [(details in Q6)](#q6-how-are-capital-gains-dividends-and-investment-income-taxed) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $15–40B |
+| A new concept of a $1.5M *lifetime* tax free exemption ($3M couples); progressive rates above based on *lifetime* gains [(details in Q6)](#q6-how-are-capital-gains-dividends-and-investment-income-taxed) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $50–80B |
 | Stepped-up basis eliminated; death = realization event [(details in Q10)](#q10-what-happens-when-someone-dies) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $75–100B |
 | Buy-borrow-die closed [(details in Q9)](#q9-how-does-the-act-close-the-buy-borrow-die-loophole) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $25–50B |
 | QSBS eliminated; universal $1.5M exemption for all [(details in Q15)](#q15-will-this-punish-entrepreneurs-and-innovators) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit) | Raises $10–20B |
@@ -99,6 +99,7 @@ For most taxpayers, filing stays familiar but becomes fairer and simpler, while 
 | Income limits eliminated; cap raised to $15K/year; $2.5M contribution freeze; death = realization of gains [(details in Q8)](#q8-what-are-the-roth-account-reforms-and-why-close-the-peter-thiel-loophole) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $15–25B |
 | **TOTAL** | **Simpler, fairer, fiscally durable** | **Raises $200–310B annually** |
 
+All revenue ranges shown are conservatively estimated and already account for likely behavioral responses, including timing and avoidance effects.
 
 ---
 
@@ -106,11 +107,11 @@ For most taxpayers, filing stays familiar but becomes fairer and simpler, while 
 
 For taxpayers, this means no broad tax increase and an immediate deficit impact; the Fair & Simple Tax Act is **revenue-positive from Day 1**:
 
-* Adding 45% top bracket for $1.5M+ earners: +$40-60B annually
+* Adding 45% top bracket for $1.5M+ earners: +$40–60B annually
 * Closing stepped-up basis loophole (death = realization event): +$75-100B annually
 * Closing buy-borrow-die and other avoidance strategies: +$25-50B annually
 * Estate tax reform (lower exemption, broader base): +$50-65B annually
-* Progressive capital gains rates above $1.5M exemption: +$50-80B annually
+* Progressive capital gains rates above $1.5M exemption: +$50–80B annually
 * QSBS elimination (universal $1.5M exemption instead): +$10-20B annually
 * ROTH mega-account reforms (contribution freeze + death taxation of gains): +$15-25B annually
 * **Total: $265-400B in new annual revenue**
@@ -510,7 +511,7 @@ FSTA is **revenue-positive from Day 1**, raising $200-310B annually by closing l
 | **Top 0.1%** | \$5M | 29.8% | 35.2% | +5.4% | **+\$270,000** | Pays significantly more |
 | **Top 0.01%** | \$25M | 23.1% | 37.5% | +14.4% | **+\$3.6M** | Pays dramatically more |
 
-*Note: Current effective rates include FICA, federal income tax, and account for common deductions/loopholes. Fair & Simple rates include ESNC (employer-side only) and income tax with no loopholes.*
+*Note: Current effective rates include FICA, federal income tax, and account for common deductions/loopholes. Fair & Simple rates include income tax with no loopholes.*
 
 **Key takeaways:**
 - Bottom 80% pay less or about the same, driven primarily by the $4K/child benefit.
