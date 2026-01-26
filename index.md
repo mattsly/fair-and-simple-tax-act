@@ -173,6 +173,10 @@ A nurse or teacher with kids saves money through the child benefit. A small busi
 
 ---
 
+## **How to Read the Brackets in This Proposal**
+
+This proposal is primarily about structural reform, not locking in precise tax rates. The income and lifetime capital gains brackets shown below are initial calibrations, intended to demonstrate how a simpler system can function, not to represent final or immutable numbers. Reasonable people can disagree on the exact levels, and this proposal is explicitly designed to allow those disagreements to be resolved through iteration rather than complexity. The core objective of this phase is to replace today’s exception-ridden tax code with a small number of transparent, modelable levers. That simplicity is what makes responsible adjustment possible over time. If there is disagreement, it should be about outcomes and calibration, not about preserving a system that cannot be clearly understood, modeled, or tuned.
+
 ## **Q5: How do the new income tax brackets work?**
 
 For most earners, brackets stay essentially the same and filing is simpler because AMT/NIIT disappear; only very high earners see a new 45% bracket.
@@ -220,6 +224,31 @@ Key rules:
 The lifetime exemption is indexed to inflation. Capital losses can offset gains but do not replenish the exemption. The exemption is per individual and becomes portable prospectively upon marriage; it does not retroactively pool pre-marriage gains.
 
 This structure protects ordinary wealth-building while ensuring very large gains contribute more.
+
+### **Bracket Calibration and Ongoing Adjustment**
+
+The brackets shown here are initial calibrations. Phase 1 is focused on locking in structure, not final rates, and reasonable disagreement on exact bracket levels is expected. The system is intentionally designed to allow iteration without reopening core structural decisions over time, with wealth disparity treated as a primary calibration input.
+
+Today’s tax code contains too many hidden levers to model or tune coherently. This proposal intentionally limits the number of policy knobs so modeling, feedback, and adjustment are clearer over time. Simplicity is a governance advantage, not just a usability improvement.
+
+Bracket calibration may be adjusted over time based on a small set of explicit indicators, including:
+
+* **Wealth disparity:**
+  * Concentration of wealth at the top
+  * Growth of median net worth relative to top deciles
+* **Economic performance:**
+  * Real GDP growth
+  * Median wage growth
+* **Fiscal sustainability:**
+  * Debt-to-GDP trajectory
+  * Long-term solvency of Social Security and Medicare (post-Phase 2)
+* **Behavioral signals:**
+  * Capital gains realization patterns
+  * Labor participation at high income levels
+
+Phase 2 Social Security reform will inform future bracket calibration, and final tuning should consider the full tax and benefit system.
+
+Structural elements are intentionally hard to change. Rates and thresholds should be reviewed periodically. Adjustments should be incremental and transparent. The objective is long-term system stability rather than short-term optimization.
 
 ### **Capital Losses**
 
