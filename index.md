@@ -69,9 +69,9 @@ The goal of the Fair & Simple Tax Act is not to make the tax code perfect, but t
 
 1. **Radical Simplicity:** The tax code should be clearly explainable and ideally automated. If a provision cannot be understood without specialists or implemented in software, it does not belong. Simplicity reduces compliance costs, limits loopholes, and enables more meaningful public debate about tradeoffs and priorities.
 
-2. **Fuel the Climb (Don’t Protect the Summit):** The tax code should reward work, entrepreneurship, and families building economic security, not financial engineering or the preservation of entrenched privilege. Incentives should favor productive effort and long-term investment over rent-seeking and avoidance.
+2. **Fuel the Climb (Don’t Protect the Summit):** The tax code should reward work, entrepreneurship, and families building economic security, not financial engineering or the preservation of entrenched privilege. Fairness should be evaluated over a lifetime rather than through annual snapshots, reflecting modern, non-linear careers. Incentives should favor productive effort and broad-based upward mobility over rent-seeking, avoidance, or asset defense. Incentives should favor productive effort and long-term investment over rent-seeking and avoidance.
 
-3. **Fiscal Durability:** The tax code must be fiscally responsible and durable over time. This proposal is revenue-positive from day one and contributes to a credible path toward long-term budget balance. Broad bases, simple rules, and fewer exceptions make revenues more predictable and reduce the need for future patches, gimmicks, or crisis-driven tax hikes.
+3. **Fiscal Durability:** The tax code must be fiscally responsible and durable across economic cycles and demographic change. Reforms should rely on broad bases, predictable revenue, and parameters that can be adjusted over time without reopening the system’s core structure. Durable systems reduce reliance on temporary patches, political gimmicks, or crisis-driven overhauls.
 
 # Frequently Asked Questions (FAQs)
 
