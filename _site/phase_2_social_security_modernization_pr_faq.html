@@ -105,6 +105,12 @@
   <li><a href="#q20-why-not-replace-social-security-with-private-retirement-accounts">Q20: Why not replace Social Security with private retirement accounts?</a></li>
 </ul>
 
+<p><strong>Appendices</strong></p>
+<ul>
+  <li><a href="#appendix-a-solvency-model-illustrative">Appendix A: Solvency Model (Illustrative)</a></li>
+  <li><a href="#appendix-b-case-studies">Appendix B: Case Studies</a></li>
+</ul>
+
 <hr />
 
 <h1 id="press-release"><strong>Press Release</strong></h1>
@@ -134,13 +140,13 @@
 
 <ol>
   <li>
-    <p><strong>Radical Simplicity:</strong> The tax code should be clearly explainable and ideally automated. If a provision cannot be understood without specialists, it does not belong. Simplicity reduces compliance costs, economic deadweight loss, limits loopholes (raising revenue). With a less obscure tax code with a few key levers, we enable more meaningful public debate about tradeoffs and priorities.</p>
+    <p><strong>Radical Simplicity:</strong> The tax code should be clearly explainable and ideally automated. If a provision cannot be understood without specialists, it does not belong. Simplicity reduces compliance costs, reduces economic deadweight loss, and limits loopholes (raising revenue). Every tax paying American should have a strong understanding of how the tax code works and what the key levers are. With a more broadly understood tax code with a smaller number key levers, we enable more meaningful public debate about our tradeoffs and priorities. By reducing the tax code to a few transparent levers, we shift the power from specialists back to citizens.</p>
   </li>
   <li>
-    <p><strong>Fuel the Climb (Don’t Protect the Summit):</strong> The tax code and entitlement system should reward work, entrepreneurship, and families building economic security, not financial engineering or the preservation of entrenched privilege. Fairness should be evaluated over a lifetime rather than through annual snapshots, reflecting modern, non-linear careers. Incentives should favor productive effort and broad-based upward mobility over rent-seeking or perpetual avoidance.</p>
+    <p><strong>Fuel the Climb (Don’t Protect the Summit):</strong> The tax code and entitlement system should reward work, entrepreneurship, and families building economic security. It should not reward financial engineering or the preservation of entrenched privilege. Fairness should be evaluated over a lifetime rather than through annual snapshots, reflecting modern, non-linear careers. Incentives should favor productive effort and broad-based upward mobility over rent-seeking or perpetual avoidance.</p>
   </li>
   <li>
-    <p><strong>Fiscal Durability:</strong> The system must be fiscally responsible and durable across economic cycles and demographic change. Reforms should rely on broad bases, predictable revenue, and parameters that can be adjusted over time without reopening the system’s core structure. Durable systems reduce reliance on temporary patches, political gimmicks, or crisis-driven overhauls. We aim to be agnostic about revenues versus costs and prioritize the most effective path to fiscal health while codifying core American values.</p>
+    <p><strong>Fiscal Durability:</strong> The system must be fiscally responsible and durable across economic cycles and demographic changes. Reforms should rely on broad bases, predictable revenue, and parameters that can be adjusted over time without reopening the system’s core structure. An adequately durable systems will reduce reliance on temporary patches, political gimmicks, or crisis-driven overhauls. We aim to be agnostic about revenues versus costs and prioritize the most effective path to fiscal health while codifying core American values.</p>
   </li>
 </ol>
 
@@ -181,7 +187,7 @@ Under current law, individuals with extremely high lifetime earnings continue to
   <thead>
     <tr>
       <th style="text-align: left"><strong>What Changes</strong></th>
-      <th style="text-align: left"><strong>Design Lens</strong></th>
+      <th style="text-align: left"><strong>Design Tenet</strong></th>
       <th style="text-align: left"><strong>Fiscal Impact</strong></th>
     </tr>
   </thead>
@@ -376,7 +382,7 @@ Under current law, individuals with extremely high lifetime earnings continue to
 <h2 id="q11-does-this-proposal-raise-the-retirement-age"><strong>Q11: Does this proposal raise the retirement age?</strong></h2>
 
 <p>Gradually, and only for younger cohorts.
-For cohorts affected by the gradual FRA adjustment, this is a modest scheduled benefit reduction relative to current law, paired with a stronger minimum benefit and long phase-in.</p>
+We treat the retirement age as a Variable, not a Constant. Just as life expectancy has evolved, the system’s schedule must evolve to stay durable.</p>
 
 <p><strong>Why:</strong> Americans are living longer in retirement than prior generations. The Social Security Trustees’ period life expectancy table shows that remaining life expectancy at age 65 increased from about 15.0 years for men and 19.0 years for women in 1990 to about 18.3 and 20.9 years in 2024.⁴ Meanwhile, the average retirement age in the U.S. is already in the mid-60s for men and the low-60s for women.⁵ A very slow FRA adjustment reflects these realities and improves long-run solvency without shocks.</p>
 
@@ -410,26 +416,19 @@ For cohorts affected by the gradual FRA adjustment, this is a modest scheduled b
 
 <h2 id="q14-how-is-the-mcr-calculated"><strong>Q14: How is the MCR calculated?</strong></h2>
 
-<p>Illustrative calibration (subject to adjustment)</p>
+<p>To maintain Radical Simplicity, the MCR uses a single, mechanical formula applied to each tax year. It requires no complex valuations or multi-year smoothing.</p>
 
-<p>The current floor amounts ($75,000 single; $150,000 married) and the 35% three-year smoothed profit share are illustrative starting points. These parameters can be tuned without changing the core structure of the rule. Tunable parameters include floor amounts, the profit-share percentage, the averaging window length and treatment of boundary years, the ownership or control threshold for applicability, and the definition of a capital-dominant safe harbor. Tuning should be guided by Social Security revenue integrity, simplicity, and minimizing gaming.</p>
+<p>MCR = max(A, B)</p>
 
-<p><strong>MCR = max(A, B)</strong></p>
+<p>A) The Safe Harbor Floor: $75,000 (Single) / $150,000 (Married).</p>
 
-<p><strong>A) Floor</strong></p>
-<ul>
-  <li>$75,000 (single)</li>
-  <li>$150,000 (married)</li>
-</ul>
+<p>B) The Entrepreneur’s Split: 35% of current-year net business profit.</p>
 
-<p><strong>B) Smoothed profit share</strong></p>
-<ul>
-  <li><strong>35% of average net profit over the most recent three qualifying years</strong>, including the current year.</li>
-</ul>
+<p>Why 35%? The FSTA recognizes that entrepreneurs contribute both labor and at-risk capital. We define 35% of profit as a market labor share (subject to payroll tax) and the remaining 65% as a return on risk (not subject to payroll tax).</p>
 
-<p>Boundary conditions are handled mechanically for first-year businesses, early years with limited history, exit or sale years, and temporary health or caregiving interruptions.</p>
+<p>Solo Practitioner Example: A freelancer makes $100k in profit. The Floor ($75k) is higher than 35% of profit ($35k), so they pay payroll tax on $75k. This ensures everyone contributes a baseline to the safety net.</p>
 
-<p>Example: A small business owner pays a modest salary but takes most income as distributions. The MCR treats a baseline portion as labor income for payroll taxes, while remaining profit keeps its character.</p>
+<p>Successful Firm Example: A partner in a law firm makes $1M in profit. The Entrepreneur’s Split ($350k) is higher than the floor, so they pay payroll tax on $350k. The remaining $650k keeps its normal tax character and is not subject to payroll tax.</p>
 
 <hr />
 
@@ -497,6 +496,403 @@ For cohorts affected by the gradual FRA adjustment, this is a modest scheduled b
 
 <p>This proposal fixes solvency and integrity while keeping the simple, durable insurance core.</p>
 
+<h2 id="appendix-a-solvency-model-illustrative"><strong>Appendix A: Solvency Model (Illustrative)</strong></h2>
+
+<h3 id="executive-summary"><strong>Executive Summary</strong></h3>
+
+<p>The estimates below use SSA OACT 2025 option impacts as proxies for Phase 2 levers. Values are shown as long-range actuarial balance improvements (percent of taxable payroll). These figures are illustrative and are <strong>not additive</strong>.⁹</p>
+
+<h3 id="current-oasdi-shortfall-2025-trustees"><strong>Current OASDI Shortfall (2025 Trustees)</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Metric</th>
+      <th style="text-align: left">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Long-range actuarial shortfall</td>
+      <td style="text-align: left"><strong>3.82% of taxable payroll</strong>⁹</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">75th-year annual deficit</td>
+      <td style="text-align: left"><strong>4.84% of taxable payroll</strong>⁹</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="costs-benefit-expansions"><strong>Costs (Benefit Expansions)</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Change</th>
+      <th style="text-align: left">Long-range actuarial balance</th>
+      <th style="text-align: left">Share of shortfall</th>
+      <th style="text-align: left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Strengthen minimum benefit to ~125% of poverty for long-career low earners</td>
+      <td style="text-align: left"><strong>-0.10%</strong></td>
+      <td style="text-align: left"><strong>-3%</strong></td>
+      <td style="text-align: left">SSA OACT proxy: B5.2⁹</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="gains--savings"><strong>Gains / Savings</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Change</th>
+      <th style="text-align: left">Long-range actuarial balance</th>
+      <th style="text-align: left">Share of shortfall</th>
+      <th style="text-align: left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Remove taxable maximum with partial benefit credit</td>
+      <td style="text-align: left"><strong>+2.21%</strong></td>
+      <td style="text-align: left"><strong>58%</strong></td>
+      <td style="text-align: left">SSA OACT proxy: E2.11⁰</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">High-earner benefit phase-down</td>
+      <td style="text-align: left"><strong>+1.11%</strong></td>
+      <td style="text-align: left"><strong>29%</strong></td>
+      <td style="text-align: left">SSA OACT proxy: B1.4 (progressive price indexing at 50th percentile)⁹</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Gradual FRA adjustment (1 month every 2 years to 68)</td>
+      <td style="text-align: left"><strong>+0.45%</strong></td>
+      <td style="text-align: left"><strong>12%</strong></td>
+      <td style="text-align: left">SSA OACT proxy: C1.1⁹</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Market Compensation Requirement (MCR)</td>
+      <td style="text-align: left"><strong>Not scored</strong></td>
+      <td style="text-align: left">—</td>
+      <td style="text-align: left">No official estimate available</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="additional-integrity-gains-not-scored-yet"><strong>Additional Integrity Gains (Not Scored Yet)</strong></h3>
+
+<p>IRS estimates the <strong>employment tax gap</strong> at <strong>$127B</strong> for tax year 2022. A portion of that gap is attributable to income recharacterization and payroll leakage that the MCR is designed to reduce.¹¹</p>
+
+<hr />
+
+<h3 id="net-position-summary-indicative"><strong>Net Position Summary (Indicative)</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Scenario</th>
+      <th style="text-align: left">Costs</th>
+      <th style="text-align: left">Gains</th>
+      <th style="text-align: left">Net Improvement</th>
+      <th style="text-align: left">Share of 3.82% Gap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Illustrative (additive, excludes interactions and MCR)</td>
+      <td style="text-align: left">-0.10%</td>
+      <td style="text-align: left">+3.77%</td>
+      <td style="text-align: left"><strong>+3.67%</strong></td>
+      <td style="text-align: left"><strong>~96%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="dollar-translation-illustrative"><strong>Dollar Translation (Illustrative)</strong></h3>
+
+<p>Rule of thumb: <strong>1% of taxable payroll ≈ $85–95B per year</strong> (using recent taxable payroll on the order of $8.5–9.5T). On that basis, the illustrative <strong>+3.67%</strong> improvement equates to roughly <strong>$310–350B per year</strong> in steady‑state savings. Final totals depend on calibration and interactions.</p>
+
+<hr />
+
+<h2 id="appendix-b-case-studies"><strong>Appendix B: Case Studies</strong></h2>
+
+<p>These case studies show simplified before/after impacts for representative taxpayers. Figures are <strong>illustrative</strong> and rounded; they focus on OASDI and do not include Medicare taxes.</p>
+
+<h3 id="summary-phase-2-impact-examples"><strong>Summary: Phase 2 Impact Examples</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Case Study</th>
+      <th>Current Law</th>
+      <th>FSTA</th>
+      <th>Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#1-long-career-home-aide--minimum-benefit-floor">Long-Career Home Aide</a></td>
+      <td>~$1,100/mo benefit</td>
+      <td>~$1,560/mo benefit</td>
+      <td><strong>+$460/mo</strong></td>
+    </tr>
+    <tr>
+      <td><a href="#2-low-income-consultant--mcr-floor">Low-Income Consultant</a></td>
+      <td>$6,200 OASDI tax</td>
+      <td>$9,300 OASDI tax</td>
+      <td><strong>+$3,100</strong></td>
+    </tr>
+    <tr>
+      <td><a href="#3-mid-income-s-corp-consultant--mcr-example">Mid-Income S-Corp Consultant</a></td>
+      <td>$12,400 OASDI tax</td>
+      <td>$21,700 OASDI tax</td>
+      <td><strong>+$9,300</strong></td>
+    </tr>
+    <tr>
+      <td><a href="#4-high-income-s-corp-owner--mcr-high">High-Income S-Corp Owner</a></td>
+      <td>$18,600 OASDI tax</td>
+      <td>$43,400 OASDI tax</td>
+      <td><strong>+$24,800</strong></td>
+    </tr>
+    <tr>
+      <td><a href="#5-typical-w-2-worker--no-change">Typical W‑2 Worker</a></td>
+      <td>$9,920 OASDI tax</td>
+      <td>$9,920 OASDI tax</td>
+      <td><strong>$0</strong></td>
+    </tr>
+    <tr>
+      <td><a href="#6-top-01-executive--cap-removal-and-phase-down">Top 0.1% Executive</a></td>
+      <td>~$21k OASDI tax</td>
+      <td>$248k OASDI tax</td>
+      <td><strong>+$227k</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Pattern:</strong></p>
+<ul>
+  <li>Long-career low earners gain a clear floor above poverty.</li>
+  <li>MCR scales contributions for owner‑operators from the floor to high income.</li>
+  <li>Typical W‑2 workers see no change in payroll tax or benefit formula.</li>
+  <li>Top earners pay full payroll tax, while benefit accrual phases down.</li>
+</ul>
+
+<hr />
+
+<h4 id="1-long-career-home-aide-----minimum-benefit-floor"><strong>1. Long-Career Home Aide  -  Minimum Benefit Floor</strong></h4>
+
+<p>Assumes 30+ years of covered earnings at low wages. Illustrative Federal Poverty Level (FPL) for a single adult is set at $15,000 (rounded). Phase 2 floors the minimum benefit at <strong>125% of FPL</strong>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">Current Law</th>
+      <th style="text-align: left">FSTA</th>
+      <th style="text-align: left">Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Annual Benefit</td>
+      <td style="text-align: left">$13,200</td>
+      <td style="text-align: left">$18,750</td>
+      <td style="text-align: left">+$5,550</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Monthly Benefit</td>
+      <td style="text-align: left">$1,100</td>
+      <td style="text-align: left">$1,560</td>
+      <td style="text-align: left">+$460</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Benefit Level</strong></td>
+      <td style="text-align: left">~88% of FPL</td>
+      <td style="text-align: left"><strong>125% of FPL</strong></td>
+      <td style="text-align: left">+37 pts</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Why:</strong> The minimum benefit guarantees that a long-career low earner does not retire into poverty, while keeping the contributory structure intact.</p>
+
+<hr />
+
+<h4 id="2-low-income-consultant-----mcr-floor"><strong>2. Low-Income Consultant  -  MCR Floor</strong></h4>
+
+<p>Assumes $90,000 in annual profit and a $50,000 salary under current law. The MCR sets the payroll tax base to the greater of the floor ($75k) or <strong>35% of current-year net profit</strong> (35% × $90k = $31.5k).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">Current Law</th>
+      <th style="text-align: left">FSTA</th>
+      <th style="text-align: left">Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">OASDI Tax Base</td>
+      <td style="text-align: left">$50,000</td>
+      <td style="text-align: left">$75,000</td>
+      <td style="text-align: left">+$25,000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">OASDI Payroll Tax (12.4%)</td>
+      <td style="text-align: left">$6,200</td>
+      <td style="text-align: left">$9,300</td>
+      <td style="text-align: left"><strong>+$3,100</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Why:</strong> The floor ensures a baseline contribution even when reported wages are low.</p>
+
+<hr />
+
+<h4 id="3-mid-income-s-corp-consultant-----mcr-example"><strong>3. Mid-Income S-Corp Consultant  -  MCR Example</strong></h4>
+
+<p>Assumes $500,000 in annual earnings and a $100,000 salary under current law. The MCR sets the payroll tax base to the greater of the floor ($75k) or <strong>35% of current-year net profit</strong> (35% × $500k = $175k).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">Current Law</th>
+      <th style="text-align: left">FSTA</th>
+      <th style="text-align: left">Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">OASDI Tax Base</td>
+      <td style="text-align: left">$100,000</td>
+      <td style="text-align: left">$175,000</td>
+      <td style="text-align: left">+$75,000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">OASDI Payroll Tax (12.4%)</td>
+      <td style="text-align: left">$12,400</td>
+      <td style="text-align: left">$21,700</td>
+      <td style="text-align: left"><strong>+$9,300</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Why:</strong> The MCR aligns payroll contributions with market‑rate compensation and reduces the advantage of recharacterizing labor income as profit.</p>
+
+<hr />
+
+<h4 id="4-high-income-s-corp-owner-----mcr-high"><strong>4. High-Income S-Corp Owner  -  MCR (High)</strong></h4>
+
+<p>Assumes $1,000,000 in annual profit and a $150,000 salary under current law. The MCR sets the payroll tax base to the greater of the floor ($75k) or <strong>35% of current-year net profit</strong> (35% × $1M = $350k).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">Current Law</th>
+      <th style="text-align: left">FSTA</th>
+      <th style="text-align: left">Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">OASDI Tax Base</td>
+      <td style="text-align: left">$150,000</td>
+      <td style="text-align: left">$350,000</td>
+      <td style="text-align: left">+$200,000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">OASDI Payroll Tax (12.4%)</td>
+      <td style="text-align: left">$18,600</td>
+      <td style="text-align: left">$43,400</td>
+      <td style="text-align: left"><strong>+$24,800</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Why:</strong> The split scales contributions with business scale without requiring a subjective “reasonable salary” test.</p>
+
+<hr />
+
+<h4 id="5-typical-w2-worker-----no-change"><strong>5. Typical W‑2 Worker  -  No Change</strong></h4>
+
+<p>Assumes $80,000 in wage income (below the taxable maximum). Under current law and FSTA, the same OASDI tax applies and the benefit formula is unchanged.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">Current Law</th>
+      <th style="text-align: left">FSTA</th>
+      <th style="text-align: left">Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">OASDI Tax Base</td>
+      <td style="text-align: left">$80,000</td>
+      <td style="text-align: left">$80,000</td>
+      <td style="text-align: left">$0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">OASDI Payroll Tax (12.4%)</td>
+      <td style="text-align: left">$9,920</td>
+      <td style="text-align: left">$9,920</td>
+      <td style="text-align: left"><strong>$0</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Why:</strong> The cap removal only affects wages above the taxable maximum. For typical W‑2 workers below the cap, payroll taxes and benefits remain the same.</p>
+
+<hr />
+
+<h4 id="6-top-01-executive-----cap-removal-and-phase-down"><strong>6. Top 0.1% Executive  -  Cap Removal and Phase-Down</strong></h4>
+
+<p>Assumes $2,000,000 in wage income. Current law applies OASDI tax only up to the taxable maximum (illustratively $170,000).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">Current Law</th>
+      <th style="text-align: left">FSTA</th>
+      <th style="text-align: left">Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">OASDI Tax Base</td>
+      <td style="text-align: left">$170,000</td>
+      <td style="text-align: left">$2,000,000</td>
+      <td style="text-align: left">+$1,830,000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">OASDI Payroll Tax (12.4%)</td>
+      <td style="text-align: left">$21,080</td>
+      <td style="text-align: left">$248,000</td>
+      <td style="text-align: left"><strong>+$226,920</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Benefit impact:</strong> Benefit accrual above today’s taxable maximum phases down at very high lifetime earnings, so contributions rise but benefits do not scale without limit. This preserves the insurance design while strengthening solvency.</p>
+
 <h2 id="sources">Sources</h2>
 <ul>
   <li>¹ <a href="https://www.pewresearch.org/politics/2024/06/24/americans-views-of-government-aid-to-poor-role-in-health-care-and-social-security/">Pew Research Center, Americans’ Views of Government’s Role: Social Security</a></li>
@@ -507,6 +903,9 @@ For cohorts affected by the gradual FRA adjustment, this is a modest scheduled b
   <li>⁶ <a href="https://www.cbo.gov/system/files/2024-08/60392-Social-Security.pdf">CBO, 2024 Long-Term Projections for Social Security (August 2024)</a></li>
   <li>⁷ <a href="https://www.cbo.gov/sites/default/files/cbofiles/ftpdocs/52xx/doc5277/report.pdf">CBO, Administrative Costs of Private Accounts in Social Security (March 2004)</a></li>
   <li>⁸ <a href="https://www.aarp.org/advocacy/poll-social-security-medicare-cuts-2023/">AARP, Poll: Most Oppose Social Security, Medicare Cuts</a></li>
+  <li>⁹ <a href="https://www.ssa.gov/oact/solvency/provisions/summary.html">Social Security Administration, OACT Summary of Provisions (2025 Trustees assumptions)</a></li>
+  <li>¹⁰ <a href="https://www.ssa.gov/oact/solvency/provisions/payrolltax_summary.html">Social Security Administration, OACT Payroll Tax Provisions Summary (2025 Trustees assumptions)</a></li>
+  <li>¹¹ <a href="https://www.irs.gov/statistics/irs-the-tax-gap">IRS, The Tax Gap (TY 2022 employment tax gap)</a></li>
 </ul>
 
 <hr />

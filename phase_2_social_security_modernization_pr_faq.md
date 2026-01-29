@@ -43,6 +43,10 @@ This document describes **Phase 2** of the Fair & Simple Tax Act: a targeted mod
 - [Q19: What is intentionally left open?](#q19-what-is-intentionally-left-open)
 - [Q20: Why not replace Social Security with private retirement accounts?](#q20-why-not-replace-social-security-with-private-retirement-accounts)
 
+**Appendices**
+- [Appendix A: Solvency Model (Illustrative)](#appendix-a-solvency-model-illustrative)
+- [Appendix B: Case Studies](#appendix-b-case-studies)
+
 ---
 
 # **Press Release**
@@ -99,7 +103,7 @@ This proposal addresses all three issues directly while protecting current retir
 
 For most workers, Social Security remains intact; the changes focus on a small set of structural levers.
 
-| **What Changes** | **Design Lens** | **Fiscal Impact** |
+| **What Changes** | **Design Tenet** | **Fiscal Impact** |
 | :---- | :---- | :---- |
 | **PAYROLL TAX BASE** | | |
 | Apply the full 12.4% payroll tax to all wage income by removing the taxable maximum [(details in Q6)](#q6-what-changes-on-the-payroll-tax-side) | Fiscal Durability, Radical Simplicity | Raises revenue; closes long-run gap |
@@ -233,7 +237,7 @@ Example: A home health aide who works most years at low wages gains a more relia
 ## **Q11: Does this proposal raise the retirement age?**
 
 Gradually, and only for younger cohorts.
-For cohorts affected by the gradual FRA adjustment, this is a modest scheduled benefit reduction relative to current law, paired with a stronger minimum benefit and long phase-in.
+We treat the retirement age as a Variable, not a Constant. Just as life expectancy has evolved, the system's schedule must evolve to stay durable.
 
 **Why:** Americans are living longer in retirement than prior generations. The Social Security Trustees’ period life expectancy table shows that remaining life expectancy at age 65 increased from about 15.0 years for men and 19.0 years for women in 1990 to about 18.3 and 20.9 years in 2024.⁴ Meanwhile, the average retirement age in the U.S. is already in the mid-60s for men and the low-60s for women.⁵ A very slow FRA adjustment reflects these realities and improves long-run solvency without shocks.
 
@@ -265,22 +269,19 @@ The MCR is a single, mechanical rule that ensures a baseline amount of income is
 
 ## **Q14: How is the MCR calculated?**
 
-Illustrative calibration (subject to adjustment)
+To maintain Radical Simplicity, the MCR uses a single, mechanical formula applied to each tax year. It requires no complex valuations or multi-year smoothing.
 
-The current floor amounts ($75,000 single; $150,000 married) and the 35% three-year smoothed profit share are illustrative starting points. These parameters can be tuned without changing the core structure of the rule. Tunable parameters include floor amounts, the profit-share percentage, the averaging window length and treatment of boundary years, the ownership or control threshold for applicability, and the definition of a capital-dominant safe harbor. Tuning should be guided by Social Security revenue integrity, simplicity, and minimizing gaming.
+MCR = max(A, B)
 
-**MCR = max(A, B)**
+A) The Safe Harbor Floor: $75,000 (Single) / $150,000 (Married).
 
-**A) Floor**
-- $75,000 (single)
-- $150,000 (married)
+B) The Entrepreneur's Split: 35% of current-year net business profit.
 
-**B) Smoothed profit share**
-- **35% of average net profit over the most recent three qualifying years**, including the current year.
+Why 35%? The FSTA recognizes that entrepreneurs contribute both labor and at-risk capital. We define 35% of profit as a market labor share (subject to payroll tax) and the remaining 65% as a return on risk (not subject to payroll tax).
 
-Boundary conditions are handled mechanically for first-year businesses, early years with limited history, exit or sale years, and temporary health or caregiving interruptions.
+Solo Practitioner Example: A freelancer makes $100k in profit. The Floor ($75k) is higher than 35% of profit ($35k), so they pay payroll tax on $75k. This ensures everyone contributes a baseline to the safety net.
 
-Example: A small business owner pays a modest salary but takes most income as distributions. The MCR treats a baseline portion as labor income for payroll taxes, while remaining profit keeps its character.
+Successful Firm Example: A partner in a law firm makes $1M in profit. The Entrepreneur's Split ($350k) is higher than the floor, so they pay payroll tax on $350k. The remaining $650k keeps its normal tax character and is not subject to payroll tax.
 
 ---
 
@@ -344,6 +345,160 @@ Public support for protecting benefits is strong, which makes durable solvency f
 
 This proposal fixes solvency and integrity while keeping the simple, durable insurance core.
 
+## **Appendix A: Solvency Model (Illustrative)**
+
+### **Executive Summary**
+
+The estimates below use SSA OACT 2025 option impacts as proxies for Phase 2 levers. Values are shown as long-range actuarial balance improvements (percent of taxable payroll). These figures are illustrative and are **not additive**.⁹
+
+### **Current OASDI Shortfall (2025 Trustees)**
+
+| Metric | Value |
+| :---- | :---- |
+| Long-range actuarial shortfall | **3.82% of taxable payroll**⁹ |
+| 75th-year annual deficit | **4.84% of taxable payroll**⁹ |
+
+---
+
+### **Costs (Benefit Expansions)**
+
+| Change | Long-range actuarial balance | Share of shortfall | Notes |
+| :---- | :---- | :---- | :---- |
+| Strengthen minimum benefit to ~125% of poverty for long-career low earners | **-0.10%** | **-3%** | SSA OACT proxy: B5.2⁹ |
+
+---
+
+### **Gains / Savings**
+
+| Change | Long-range actuarial balance | Share of shortfall | Notes |
+| :---- | :---- | :---- | :---- |
+| Remove taxable maximum with partial benefit credit | **+2.21%** | **58%** | SSA OACT proxy: E2.11⁰ |
+| High-earner benefit phase-down | **+1.11%** | **29%** | SSA OACT proxy: B1.4 (progressive price indexing at 50th percentile)⁹ |
+| Gradual FRA adjustment (1 month every 2 years to 68) | **+0.45%** | **12%** | SSA OACT proxy: C1.1⁹ |
+| Market Compensation Requirement (MCR) | **Not scored** | — | No official estimate available |
+
+---
+
+### **Additional Integrity Gains (Not Scored Yet)**
+
+IRS estimates the **employment tax gap** at **$127B** for tax year 2022. A portion of that gap is attributable to income recharacterization and payroll leakage that the MCR is designed to reduce.¹¹
+
+---
+
+### **Net Position Summary (Indicative)**
+
+| Scenario | Costs | Gains | Net Improvement | Share of 3.82% Gap |
+| :---- | :---- | :---- | :---- | :---- |
+| Illustrative (additive, excludes interactions and MCR) | -0.10% | +3.77% | **+3.67%** | **~96%** |
+
+---
+
+### **Dollar Translation (Illustrative)**
+
+Rule of thumb: **1% of taxable payroll ≈ $85–95B per year** (using recent taxable payroll on the order of $8.5–9.5T). On that basis, the illustrative **+3.67%** improvement equates to roughly **$310–350B per year** in steady‑state savings. Final totals depend on calibration and interactions.
+
+---
+
+## **Appendix B: Case Studies**
+
+These case studies show simplified before/after impacts for representative taxpayers. Figures are **illustrative** and rounded; they focus on OASDI and do not include Medicare taxes.
+
+### **Summary: Phase 2 Impact Examples**
+
+| Case Study | Current Law | FSTA | Change |
+| ----- | ----- | ----- | ----- |
+| [Long-Career Home Aide](#1-long-career-home-aide--minimum-benefit-floor) | ~$1,100/mo benefit | ~$1,560/mo benefit | **+\$460/mo** |
+| [Low-Income Consultant](#2-low-income-consultant--mcr-floor) | $6,200 OASDI tax | $9,300 OASDI tax | **+\$3,100** |
+| [Mid-Income S-Corp Consultant](#3-mid-income-s-corp-consultant--mcr-example) | $12,400 OASDI tax | $21,700 OASDI tax | **+\$9,300** |
+| [High-Income S-Corp Owner](#4-high-income-s-corp-owner--mcr-high) | $18,600 OASDI tax | $43,400 OASDI tax | **+\$24,800** |
+| [Typical W‑2 Worker](#5-typical-w-2-worker--no-change) | $9,920 OASDI tax | $9,920 OASDI tax | **$0** |
+| [Top 0.1% Executive](#6-top-01-executive--cap-removal-and-phase-down) | ~$21k OASDI tax | $248k OASDI tax | **+\$227k** |
+
+**Pattern:**
+- Long-career low earners gain a clear floor above poverty.
+- MCR scales contributions for owner‑operators from the floor to high income.
+- Typical W‑2 workers see no change in payroll tax or benefit formula.
+- Top earners pay full payroll tax, while benefit accrual phases down.
+
+---
+
+#### **1\. Long-Career Home Aide  -  Minimum Benefit Floor**
+
+Assumes 30+ years of covered earnings at low wages. Illustrative Federal Poverty Level (FPL) for a single adult is set at \$15,000 (rounded). Phase 2 floors the minimum benefit at **125% of FPL**.
+
+|  | Current Law | FSTA | Change |
+| :---- | :---- | :---- | :---- |
+| Annual Benefit | \$13,200 | \$18,750 | +\$5,550 |
+| Monthly Benefit | \$1,100 | \$1,560 | +\$460 |
+| **Benefit Level** | ~88% of FPL | **125% of FPL** | +37 pts |
+
+**Why:** The minimum benefit guarantees that a long-career low earner does not retire into poverty, while keeping the contributory structure intact.
+
+---
+
+#### **2\. Low-Income Consultant  -  MCR Floor**
+
+Assumes \$90,000 in annual profit and a \$50,000 salary under current law. The MCR sets the payroll tax base to the greater of the floor (\$75k) or **35% of current-year net profit** (35% × \$90k = \$31.5k).
+
+|  | Current Law | FSTA | Change |
+| :---- | :---- | :---- | :---- |
+| OASDI Tax Base | \$50,000 | \$75,000 | +\$25,000 |
+| OASDI Payroll Tax (12.4%) | \$6,200 | \$9,300 | **+\$3,100** |
+
+**Why:** The floor ensures a baseline contribution even when reported wages are low.
+
+---
+
+#### **3\. Mid-Income S-Corp Consultant  -  MCR Example**
+
+Assumes \$500,000 in annual earnings and a \$100,000 salary under current law. The MCR sets the payroll tax base to the greater of the floor (\$75k) or **35% of current-year net profit** (35% × \$500k = \$175k).
+
+|  | Current Law | FSTA | Change |
+| :---- | :---- | :---- | :---- |
+| OASDI Tax Base | \$100,000 | \$175,000 | +\$75,000 |
+| OASDI Payroll Tax (12.4%) | \$12,400 | \$21,700 | **+\$9,300** |
+
+**Why:** The MCR aligns payroll contributions with market‑rate compensation and reduces the advantage of recharacterizing labor income as profit.
+
+---
+
+#### **4\. High-Income S-Corp Owner  -  MCR (High)**
+
+Assumes \$1,000,000 in annual profit and a \$150,000 salary under current law. The MCR sets the payroll tax base to the greater of the floor (\$75k) or **35% of current-year net profit** (35% × \$1M = \$350k).
+
+|  | Current Law | FSTA | Change |
+| :---- | :---- | :---- | :---- |
+| OASDI Tax Base | \$150,000 | \$350,000 | +\$200,000 |
+| OASDI Payroll Tax (12.4%) | \$18,600 | \$43,400 | **+\$24,800** |
+
+**Why:** The split scales contributions with business scale without requiring a subjective “reasonable salary” test.
+
+---
+
+#### **5\. Typical W‑2 Worker  -  No Change**
+
+Assumes \$80,000 in wage income (below the taxable maximum). Under current law and FSTA, the same OASDI tax applies and the benefit formula is unchanged.
+
+|  | Current Law | FSTA | Change |
+| :---- | :---- | :---- | :---- |
+| OASDI Tax Base | \$80,000 | \$80,000 | \$0 |
+| OASDI Payroll Tax (12.4%) | \$9,920 | \$9,920 | **\$0** |
+
+**Why:** The cap removal only affects wages above the taxable maximum. For typical W‑2 workers below the cap, payroll taxes and benefits remain the same.
+
+---
+
+#### **6\. Top 0.1% Executive  -  Cap Removal and Phase-Down**
+
+Assumes \$2,000,000 in wage income. Current law applies OASDI tax only up to the taxable maximum (illustratively \$170,000).
+
+|  | Current Law | FSTA | Change |
+| :---- | :---- | :---- | :---- |
+| OASDI Tax Base | \$170,000 | \$2,000,000 | +\$1,830,000 |
+| OASDI Payroll Tax (12.4%) | \$21,080 | \$248,000 | **+\$226,920** |
+
+**Benefit impact:** Benefit accrual above today’s taxable maximum phases down at very high lifetime earnings, so contributions rise but benefits do not scale without limit. This preserves the insurance design while strengthening solvency.
+
 ## Sources
 - ¹ [Pew Research Center, Americans’ Views of Government’s Role: Social Security](https://www.pewresearch.org/politics/2024/06/24/americans-views-of-government-aid-to-poor-role-in-health-care-and-social-security/)
 - ² [Social Security Administration, Trustees Report press release (June 18, 2025)](https://www.ssa.gov/news/en/press/releases/2025-06-18.html)
@@ -353,5 +508,8 @@ This proposal fixes solvency and integrity while keeping the simple, durable ins
 - ⁶ [CBO, 2024 Long-Term Projections for Social Security (August 2024)](https://www.cbo.gov/system/files/2024-08/60392-Social-Security.pdf)
 - ⁷ [CBO, Administrative Costs of Private Accounts in Social Security (March 2004)](https://www.cbo.gov/sites/default/files/cbofiles/ftpdocs/52xx/doc5277/report.pdf)
 - ⁸ [AARP, Poll: Most Oppose Social Security, Medicare Cuts](https://www.aarp.org/advocacy/poll-social-security-medicare-cuts-2023/)
+- ⁹ [Social Security Administration, OACT Summary of Provisions (2025 Trustees assumptions)](https://www.ssa.gov/oact/solvency/provisions/summary.html)
+- ¹⁰ [Social Security Administration, OACT Payroll Tax Provisions Summary (2025 Trustees assumptions)](https://www.ssa.gov/oact/solvency/provisions/payrolltax_summary.html)
+- ¹¹ [IRS, The Tax Gap (TY 2022 employment tax gap)](https://www.irs.gov/statistics/irs-the-tax-gap)
 
 ---

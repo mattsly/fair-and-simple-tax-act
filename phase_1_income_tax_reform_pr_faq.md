@@ -23,29 +23,29 @@ This document describes **Phase 1** of the Fair & Simple Tax Act: a standalone p
 **Part 2: Core Mechanics**
 - [Q6: Income brackets](#q6-how-do-the-new-income-tax-brackets-work)
 - [Q7: Capital gains & dividends](#q7-how-are-capital-gains-dividends-and-investment-income-taxed)
-- [Q8: Child tax benefit](#q8-what-is-the-child-tax-credit-under-this-plan-and-how-is-it-different-from-today)
+- [Q8: Bracket calibration](#q8-how-are-brackets-calibrated-over-time)
+- [Q9: Child tax benefit](#q9-what-is-the-child-tax-credit-under-this-plan-and-how-is-it-different-from-today)
 
 **Part 3: Closing Loopholes**
-- [Q9: ROTH account reforms](#q9-what-are-the-roth-account-reforms-and-why-close-the-peter-thiel-loophole)
-- [Q10: Buy-borrow-die loophole](#q10-how-does-the-act-close-the-buy-borrow-die-loophole)
-- [Q11: What happens at death?](#q11-what-happens-when-someone-dies)
-- [Q12: Estate planning loopholes](#q12-how-does-this-close-estate-planning-loopholes-like-grats-dynasty-trusts-and-valuation-discounts)
-- [Q13: Trusts](#q13-how-do-trusts-work-under-this-plan-can-i-use-them-to-avoid-paying-tax-forever)
+- [Q10: ROTH account reforms](#q10-what-are-the-roth-account-reforms-and-why-close-the-peter-thiel-loophole)
+- [Q11: Buy-borrow-die loophole](#q11-how-does-the-act-close-the-buy-borrow-die-loophole)
+- [Q12: What happens at death?](#q12-what-happens-when-someone-dies)
+- [Q13: Estate planning loopholes](#q13-how-does-this-close-estate-planning-loopholes-like-grats-dynasty-trusts-and-valuation-discounts)
+- [Q14: Trusts](#q14-how-do-trusts-work-under-this-plan-can-i-use-them-to-avoid-paying-tax-forever)
 
 **Part 4: Impact on Innovation & Investment**
-- [Q14: Primary residence exclusion](#q14-doesnt-eliminating-the-primary-residence-exclusion-hurt-homeowners)
-- [Q15: Carried interest](#q15-why-no-special-carried-interest-rule)
-- [Q16: Entrepreneurs & innovators](#q16-will-this-punish-entrepreneurs-and-innovators)
-- [Q17: Expatriation](#q17-what-about-expatriation-and-capital-flight)
-- [Q18: Why not just impose a wealth tax?](#q18-why-not-just-impose-a-wealth-tax)
-- [Q19: What is not included?](#q19-what-is-not-included-in-this-act)
-- [Q20: Why now?](#q20-why-now)
-- [Q21: Social Security and payroll taxes](#q21-does-this-act-address-social-security-or-payroll-taxes)
+- [Q15: Primary residence exclusion](#q15-doesnt-eliminating-the-primary-residence-exclusion-hurt-homeowners)
+- [Q16: Carried interest](#q16-why-no-special-carried-interest-rule)
+- [Q17: Entrepreneurs & innovators](#q17-will-this-punish-entrepreneurs-and-innovators)
+- [Q18: Expatriation](#q18-what-about-expatriation-and-capital-flight)
+- [Q19: Why not just impose a wealth tax?](#q19-why-not-just-impose-a-wealth-tax)
+- [Q20: What is not included?](#q20-what-is-not-included-in-this-act)
+- [Q21: Why now?](#q21-why-now)
+- [Q22: Social Security and payroll taxes](#q22-does-this-act-address-social-security-or-payroll-taxes)
 
 **Appendices**
 - [Appendix A: Revenue Model](#appendix-a-revenue-model)
 - [Appendix B: Taxpayer Case Studies](#appendix-b-taxpayer-case-studies)
-- [Appendix C: Path to Fiscal Sustainability](#appendix-c-path-to-fiscal-sustainability)
 
 ---
 
@@ -73,10 +73,6 @@ The goal of the Fair & Simple Tax Act is not to make the tax code perfect, but t
 
 # Frequently Asked Questions (FAQs)
 
-## **How to Read the Specific Numbers in This Proposal**
-
-This proposal is primarily about structural reform, not locking in precise tax rates. The income and lifetime capital gains brackets shown below are initial calibrations meant to prove the system can work and to anchor the fiscal targets; they are not final numbers, but they are based on real estimates. Reasonable people can disagree on exact rates and cutoffs, yet any revisions must still meet the revenue and durability goals in Tenet 3. The intent is to make the levers transparent and modelable so debate stays focused on outcomes and calibration rather than defending a system that cannot be clearly understood, modeled, or tuned.
-
 ## **Part 1: The Big Picture**
 
 ## **Q1: What problem does this solve?**
@@ -87,24 +83,29 @@ This phase addresses those problems by simplifying the structure, closing the bi
 
 ## **Q2: What does the Fair & Simple Tax Act actually change?**
 
+> *Note: How to Read the Specific Numbers in This Proposal*
+>
+> This proposal is primarily about structural reform, not locking in precise tax rates. The income and lifetime capital gains brackets shown below are initial calibrations meant to prove the system can work and to anchor the fiscal targets; they are not final numbers, but they are based on real estimates. Reasonable people can disagree on exact rates and cutoffs, yet any revisions must still meet the revenue and durability goals in Tenet 3. The intent is to make the levers transparent and modelable so debate stays focused on outcomes and calibration rather than defending a system that cannot be clearly understood, modeled, or tuned.
+
 For most taxpayers, filing stays familiar but becomes fairer and simpler, while the largest loopholes used by ultra-wealthy families are closed.
 
-| **What Changes** | **Design Lens** | **Fiscal Impact** |
+
+| **What Changes** | **Design Tenet** | **Fiscal Impact** |
 | :---- | :---- | :---- |
 | **INCOME TAXES** | | |
 | Current brackets are maintained and a new 45% top bracket is added for (incomes $1.5M+ Single / $3M+ MFJ); eliminates AMT and NIIT [(details in Q6)](#q6-how-do-the-new-income-tax-brackets-work) | Radical Simplicity, Fiscal Durability | Raises $40–60B |
 | **CAPITAL GAINS** | | |
-| A new concept of a $1.5M *lifetime* tax free exemption ($3M couples); progressive rates above based on *lifetime* gains [(details in Q7)](#q7-how-are-capital-gains-dividends-and-investment-income-taxed) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $50–80B |
-| Stepped-up basis eliminated; death = realization event [(details in Q11)](#q11-what-happens-when-someone-dies) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $75–100B |
-| Buy-borrow-die closed [(details in Q10)](#q10-how-does-the-act-close-the-buy-borrow-die-loophole) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $25–50B |
-| QSBS eliminated; universal $1.5M exemption for all [(details in Q16)](#q16-will-this-punish-entrepreneurs-and-innovators) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit) | Raises $10–20B |
+| A new **Lifetime Tax-Free Capital Gains Allowance** ($1.5M single / $3M couples); progressive rates above based on *lifetime* gains [(details in Q7)](#q7-how-are-capital-gains-dividends-and-investment-income-taxed) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $50–80B |
+| Stepped-up basis eliminated; death = realization event [(details in Q12)](#q12-what-happens-when-someone-dies) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $75–100B |
+| Buy-borrow-die closed [(details in Q11)](#q11-how-does-the-act-close-the-buy-borrow-die-loophole) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $25–50B |
+| QSBS eliminated; universal $1.5M allowance for all [(details in Q17)](#q17-will-this-punish-entrepreneurs-and-innovators) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit) | Raises $10–20B |
 | **FAMILY BENEFITS** | | |
-| $4,000/child (max 3), fully refundable; phase-out starts at $150K married / $100K single + $25K per child (cap +$75K), ends at $500K married / $300K single [(details in Q8)](#q8-what-is-the-child-tax-credit-under-this-plan-and-how-is-it-different-from-today) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit) | Costs $20–30B |
+| $4,000/child (max 3), fully refundable; phase-out starts at $150K married / $100K single + $25K per child (cap +$75K), ends at $500K married / $300K single [(details in Q9)](#q9-what-is-the-child-tax-credit-under-this-plan-and-how-is-it-different-from-today) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit) | Costs $20–30B |
 | **ESTATES** | | |
-| Estate exemption: $14M → $5M per person ($10M couples) [(details in Q11)](#q11-what-happens-when-someone-dies) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $50–65B |
-| Trust income taxed annually; no exemption stacking via dynasty trusts [(details in Q13)](#q13-how-do-trusts-work-under-this-plan-can-i-use-them-to-avoid-paying-tax-forever) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Base-protecting (eliminates multigenerational deferral) |
+| Estate exemption: $14M → $5M per person ($10M couples) [(details in Q12)](#q12-what-happens-when-someone-dies) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $50–65B |
+| Trust income taxed annually; no exemption stacking via dynasty trusts [(details in Q14)](#q14-how-do-trusts-work-under-this-plan-can-i-use-them-to-avoid-paying-tax-forever) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Base-protecting (eliminates multigenerational deferral) |
 | **RETIREMENT (ROTH)** | | |
-| Income limits eliminated; cap raised to $15K/year; $2.5M contribution freeze; death = realization of gains [(details in Q9)](#q9-what-are-the-roth-account-reforms-and-why-close-the-peter-thiel-loophole) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $15–25B |
+| Income limits eliminated; cap raised to $15K/year; $2.5M contribution freeze; death = realization of gains [(details in Q10)](#q10-what-are-the-roth-account-reforms-and-why-close-the-peter-thiel-loophole) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $15–25B |
 | **TOTAL** | **Simpler, fairer, fiscally durable** | **Raises $200–310B annually** |
 
 All revenue ranges shown are conservatively estimated and already account for likely behavioral responses, including timing and avoidance effects.
@@ -119,14 +120,14 @@ For taxpayers, this means no broad tax increase and an immediate deficit impact;
 * Closing stepped-up basis loophole (death = realization event): +$75-100B annually
 * Closing buy-borrow-die and other avoidance strategies: +$25-50B annually
 * Estate tax reform (lower exemption, broader base): +$50-65B annually
-* Progressive capital gains rates above $1.5M exemption: +$50–80B annually
-* QSBS elimination (universal $1.5M exemption instead): +$10-20B annually
+* Progressive capital gains rates above the $1.5M allowance: +$50–80B annually
+* QSBS elimination (universal $1.5M allowance instead): +$10-20B annually
 * ROTH mega-account reforms (contribution freeze + death taxation of gains): +$15-25B annually
 * **Total: $265-400B in new annual revenue**
 
 These gains cover the costs ($50-70B for AMT/NIIT elimination and expanded child benefits), resulting in **$200-310B net annual revenue**.
 
-This closes roughly 15-25% of the deficit gap. The remainder requires additional revenue measures and spending reforms; see [Appendix C: Path to Fiscal Sustainability](#appendix-c-path-to-fiscal-sustainability).
+This closes roughly 15-25% of the deficit gap. The remainder requires additional revenue measures and spending reforms; see the [Fiscal Sustainability Summary](index.md#fiscal-sustainability-summary) in the Project Overview.
 
 **Bottom line:** The Act is fiscally responsible and revenue-positive, but long-term balance requires parallel tax and spending discipline.
 
@@ -138,9 +139,7 @@ This closes roughly 15-25% of the deficit gap. The remainder requires additional
 
 ## **Q4: How much simpler is this really?**
 
-**For typical filers, this means fewer hidden rules and a system that’s easier to understand. FSTA simplifies the code by replacing narrow carve-outs with universal rules.**
-
-The current system’s complexity is a feature for those who can exploit it. FSTA targets the highest-value avoidance strategies:
+The current system’s complexity is a feature for those who can exploit it. FSTA simplifies the code by replacing narrow carve-outs with universal rules:
 
 * **Stepped-up basis at death**  -  The $300B+ loophole letting appreciated assets pass tax-free across generations
 * **Buy-borrow-die**  -  Living off asset-backed loans to avoid ever selling (and ever paying tax)
@@ -153,7 +152,7 @@ The current system’s complexity is a feature for those who can exploit it. FST
 FSTA replaces this with clear, universal rules:
 
 * Eight income brackets (adding 45% top bracket for $1.5M+ earners)
-* One lifetime capital gains exemption ($1.5M per person)
+* One **Lifetime Tax-Free Capital Gains Allowance** ($1.5M per person)
 * Death = realization event (no basis step-up)
 * Progressive capital gains convergence at $100M+ (45%, matching the ordinary income rate)
 
@@ -173,11 +172,11 @@ For most families, taxes go down or stay flat; the increases are concentrated at
 The pattern:
 * Income tax brackets match current law (no change for most workers)
 * Families with children benefit from the $4K/child credit  
-* Capital gains below \$1.5M are tax-free (replaces the primary residence exclusion), progressive rates above that (15%/20%/27%/32%/45%)  
+* Capital gains below the Lifetime Tax-Free Capital Gains Allowance are tax-free (replaces the primary residence exclusion), progressive rates above that (15%/20%/27%/32%/45%)  
 * Very large incomes ($1.5M+) and very large fortunes contribute more through the new 45% bracket
 
 **In plain terms:**  
-A nurse or teacher with kids saves money through the child benefit. A small business owner with capital gains under $1.5M pays nothing on those gains. A nine-figure fortune pays more.
+A nurse or teacher with kids saves money through the child benefit. A small business owner with capital gains under the lifetime allowance pays nothing on those gains. A nine-figure fortune pays more.
 
 ---
 
@@ -198,17 +197,17 @@ For most earners, brackets stay essentially the same and filing is simpler becau
 - 45% top bracket added ($1.5M+ Single / $3M+ MFJ)
 - Standard brackets through 37% remain essentially unchanged
 
-Brackets stay stable to prioritize predictability while loopholes are closed.
+Brackets stay stable to prioritize predictability while loopholes are closed. See [Q8](#q8-how-are-brackets-calibrated-over-time) for how both income and capital gains brackets are calibrated over time.
 
 ---
 
 ## **Q7: How are capital gains, dividends, and investment income taxed?**
 
-For most investors, the first \$1.5M of lifetime gains are tax-free and long-term holdings are still rewarded. FSTA sets capital gains rates by lifetime cumulative gains to ensure extreme wealth does not pay lower rates than labor. **At $100M+ in lifetime gains, capital gains rates converge with ordinary income (45%).**
+For all investors, the first \$1.5M of lifetime gains are tax-free under the **Lifetime Tax-Free Capital Gains Allowance** (\$3M married filing jointly) and long-term holdings are still rewarded. FSTA sets capital gains rates by **Cumulative Lifetime Capital Gains** — the running total of realized gains — to ensure extreme wealth does not pay lower rates than labor. **At $100M+ in lifetime gains, capital gains rates converge with ordinary income (45%).**
 
 ### **Capital Gains (Asset Appreciation)**
 
-| Cumulative Lifetime Gains |  Marginal Capital Gains Rate |
+| Cumulative Lifetime Capital Gains |  Marginal Capital Gains Rate |
 | ----- | ----- |
 | \$0 – \$1.5M | **0%** |
 | \$1.5M – \$3M | **15%** |
@@ -218,20 +217,45 @@ For most investors, the first \$1.5M of lifetime gains are tax-free and long-ter
 | \$100M+ | **45%** |
 
 Key rules:
+- Thresholds are shown for single filers; married filing jointly doubles the allowance and brackets.
+- If the allowance is adjusted in the future, changes apply prospectively: increases add headroom for everyone; decreases apply only to gains realized after the change (no retroactive clawback). Bracket thresholds are expected to be indexed to inflation over time.
 
 * Assets must be held **more than one year** to qualify  
 * Short-term gains are taxed as ordinary income  
-* The exemption is **\$1.5M per person** (married couples can combine for **\$3M**)  
-* The exemption applies across all assets  -  once used, it is gone  
-* Lifetime gains tracking starts at enactment; only post-enactment gains count
+* The allowance is **\$1.5M per person** (married couples can combine for **\$3M**)  
+* The allowance is a **lifetime cumulative** 0% bucket that can be used across multiple sales until the \$1.5M cap is reached  
+* **Cumulative Lifetime Capital Gains** tracking starts at enactment; only post-enactment gains count
 
-The lifetime exemption is indexed to inflation. Capital losses can offset gains but do not replenish the exemption. The exemption is per individual and becomes portable prospectively upon marriage; it does not retroactively pool pre-marriage gains.
+The allowance is indexed to inflation. Capital losses can offset gains but do not replenish the allowance. The allowance is per individual and becomes portable prospectively upon marriage; it does not retroactively pool pre-marriage gains.
 
 This structure protects ordinary wealth-building while ensuring very large gains contribute more.
 
-### **Bracket Calibration and Ongoing Adjustment**
+For the most part, there are no changes to how capital losses, interest and dividends are taxed
 
-The brackets shown here are initial calibrations. Phase 1 is focused on locking in structure, not final rates, and reasonable disagreement on exact bracket levels is expected. The system is intentionally designed to allow iteration without reopening core structural decisions over time, with wealth disparity treated as a primary calibration input.
+### **Capital Losses**
+
+* Capital losses offset capital gains without limit (same as current law)
+* Up to $3,000/year can offset ordinary income (same as current law)
+* Unused losses carry forward indefinitely (same as current law)
+
+### **Dividends (Investment Yield)**
+
+* **Qualified dividends**  -  Taxed at the capital gains rate determined by lifetime gains, with a **15% minimum**; dividends do **not** consume the allowance
+* **Ordinary dividends**  -  Taxed as ordinary income (same as current law)
+* Dividends do NOT count toward the $1.5M allowance  -  the allowance is reserved for capital appreciation only
+
+### **Interest Income & Foreign Investments**
+
+* Municipal bond interest  -  Tax-exempt (unchanged)
+* All other interest  -  Taxed as ordinary income (unchanged)
+* Foreign dividends  -  Taxed under same rules as domestic dividends with foreign tax credit (unchanged)
+
+
+---
+
+## **Q8: How are brackets calibrated over time?**
+
+These principles apply to both **income tax brackets** and **lifetime capital gains brackets**. The brackets shown here are initial calibrations. Phase 1 is focused on locking in structure, not final rates, and reasonable disagreement on exact bracket levels is expected. The system is intentionally designed to allow iteration without reopening core structural decisions over time, with wealth disparity treated as a primary calibration input.
 
 Today’s tax code contains too many hidden levers to model or tune coherently. This proposal intentionally limits the number of policy knobs so modeling, feedback, and adjustment are clearer over time. Simplicity is a governance advantage, not just a usability improvement.
 
@@ -254,29 +278,11 @@ Phase 2 Social Security reform will inform future bracket calibration, and final
 
 Structural elements are intentionally hard to change. Rates and thresholds should be reviewed periodically. Adjustments should be incremental and transparent. The objective is long-term system stability rather than short-term optimization.
 
-### **Capital Losses**
-
-* Capital losses offset capital gains without limit (same as current law)
-* Up to $3,000/year can offset ordinary income (same as current law)
-* Unused losses carry forward indefinitely (same as current law)
-
-### **Dividends (Investment Yield)**
-
-* **Qualified dividends**  -  Taxed at capital gains rates based on the filer's cumulative lifetime gains (not the $1.5M exemption)
-* **Ordinary dividends**  -  Taxed as ordinary income (same as current law)
-* Dividends do NOT count toward the $1.5M lifetime exemption  -  the exemption is reserved for capital appreciation only
-
-### **Interest Income & Foreign Investments**
-
-* Municipal bond interest  -  Tax-exempt (unchanged)
-* All other interest  -  Taxed as ordinary income (unchanged)
-* Foreign dividends  -  Taxed under same rules as domestic dividends with foreign tax credit (unchanged)
-
 ---
 
-## **Q8: What is the Child Tax Credit under this plan, and how is it different from today?**
+## **Q9: What is the Child Tax Credit under this plan, and how is it different from today?**
 
-For families, this means a simple, predictable \$4,000-per-child benefit with no work tests or cliffs. The Act replaces the CTC, EITC, and childcare credit with one universal benefit.
+This is a simple universal benefit that replaces the CTC, EITC, and childcare credit with a simple, predictable \$4,000-per-child benefit with no work tests or cliffs.
 
 ### **Core structure**
 
@@ -314,18 +320,19 @@ This removes benefit cliffs, treats stay-at-home and working parents equally, an
 
 ---
 
-## **Q9: What are the ROTH account reforms, and why close the "Peter Thiel loophole"?**
+## **Q10: What are the ROTH account reforms, and why close the "Peter Thiel loophole"?**
 
 For savers, this means broader access to ROTHs and clear limits, while mega-account abuse is closed. The Act makes four changes to ROTH IRAs:
 
 1. **Remove income limits** for direct ROTH contributions (ends backdoor conversions).
 2. **Raise the annual cap** to \$15K (indexed).
 3. **Freeze new contributions** once the balance reaches \$2.5M; investment growth can continue.
-4. **Tax ROTH gains at death** as capital gains using the remaining lifetime exemption; contributions remain untaxed, with a 15-year payment option for illiquid estates.
+4. **Tax ROTH gains at death** as capital gains using the remaining allowance; contributions remain untaxed, with a 15-year payment option for illiquid estates.
 
 These reforms close the "Peter Thiel" mega-ROTH loophole while protecting ordinary savers. **Revenue: \$15–25B annually.**
+There are **no changes** to Traditional 401(k)s, Traditional IRAs, SEP IRAs, or SIMPLE IRAs.
 
-## **Q10: How does the Act close the 'buy, borrow, die' loophole?**
+## **Q11: How does the Act close the 'buy, borrow, die' loophole?**
 
 For most taxpayers, ordinary borrowing is unchanged; the only impact is on ultra-wealthy strategies that live tax-free on loans. Buy-borrow-die lets ultra-wealthy households borrow against appreciated assets, live on loans, and erase gains at death via stepped-up basis. FSTA closes the loop with a deemed-sale rule for asset-backed borrowing and by ending stepped-up basis.
 
@@ -334,25 +341,29 @@ For most taxpayers, ordinary borrowing is unchanged; the only impact is on ultra
 * Tax applies to appreciation only; basis steps up by the borrowed amount to avoid double taxation  
 * Illiquid assets get payment flexibility (same 15-year option)
 
+**Safety valve:** A "deemed sale" only only triggers once the loan amount (combined with previous gains) exceeds the $1.5M exceeds your remaining **Lifetime Tax-Free Capital Gains Allowance**.
+
 **What is not affected:** ordinary business loans, mortgages, and borrowing for reinvestment or expansion. The rule targets personal-consumption borrowing against appreciated collateral, using lender-reported loan purpose and existing enforcement doctrines.
 
 **Bottom line:** You can still borrow, but you cannot live tax-free on appreciation and wipe the gain at death.
 
-## **Q11: What happens when someone dies?**
+Case study: [Billionaire Borrower](#7-billionaire-borrower--100m-stock-5m-year-loan).
 
-For most families, nothing is owed at death and heirs receive a clean basis; only large unrealized gains face tax. Under the Fair & Simple Tax Act, death is treated as a realization event  -  unrealized capital gains are taxed on the final return using the same lifetime capital gains system, and heirs receive a clean basis at the value at death.
+## **Q12: What happens when someone dies?**
 
-**How the exemption applies:**
-* Remaining lifetime exemption shields unrealized gains first  
+For most families, nothing is owed at death and heirs receive a clean basis; only large unrealized gains face tax. Under the Fair & Simple Tax Act, **basis step-up is eliminated** and death becomes the final realization event (the **Final Sync**)  -  unrealized capital gains are taxed on the final return using the same lifetime capital gains system, and heirs receive a clean basis at the value at death.
+
+**How the allowance applies:**
+* Remaining lifetime allowance shields unrealized gains first  
 * Gains above that are taxed at the progressive capital gains rates (15%/20%/27%/32%/45%)
 
-**Example (typical estate):** \$400K in unrealized gains with an unused \$1.5M exemption → **\$0** tax.
+**Example (typical estate):** \$400K in unrealized gains with an unused \$1.5M allowance → **\$0** tax.
 
 **Illiquid assets:** 15-year payment option at low interest to avoid forced sales of farms, businesses, or real estate.
 
 **Bottom line:** Most families owe nothing; large fortunes pay deferred tax and heirs start with a clean basis.
 
-## **Q12: How does this close estate planning loopholes like GRATs, dynasty trusts, and valuation discounts?**
+## **Q13: How does this close estate planning loopholes like GRATs, dynasty trusts, and valuation discounts?**
 
 For typical families, legitimate estate planning still works; the change is that appreciation can’t escape tax forever. The Act eliminates the underlying conditions that make these techniques work  -  without banning each vehicle. GRATs, dynasty trusts, valuation discounts, and similar tools rely on indefinite deferral, stepped-up basis at death, and high estate exemptions.
 
@@ -365,14 +376,14 @@ For typical families, legitimate estate planning still works; the change is that
 
 **Bottom line:** Trusts and planning tools can still be used for governance and protection, but appreciation cannot escape taxation indefinitely.
 
-## **Q13: How do trusts work under this plan? Can I use them to avoid paying tax forever?**
+## **Q14: How do trusts work under this plan? Can I use them to avoid paying tax forever?**
 
 **No.** For families using trusts, you can still protect assets and manage distributions, but you cannot use trusts for permanent tax deferral.
 
 **How trusts are taxed:**
 * **Retained income/gains:** Trust pays **45%** in the year earned  
-* **Distributions:** Beneficiaries pay ordinary income tax or capital gains tax using their lifetime exemption  
-* **Exemption is per person:** Trusts do not get their own \$1.5M exemption and cannot stack exemptions across generations
+* **Distributions:** Beneficiaries pay ordinary income tax or capital gains tax using their lifetime allowance  
+* **Allowance is per person:** Trusts do not get their own \$1.5M allowance and cannot stack allowances across generations
 
 Trusts remain useful for governance, creditor protection, and controlled distributions  -  not for avoiding tax forever.
 
@@ -380,19 +391,19 @@ Trusts remain useful for governance, creditor protection, and controlled distrib
 # Part 4: Impact on Innovation & Investment
 
 
-## **Q14: Doesn’t eliminating the primary residence exclusion hurt homeowners?**
+## **Q15: Doesn’t eliminating the primary residence exclusion hurt homeowners?**
 
-**No.** For most homeowners, nothing changes in practice  -  the \$1.5M lifetime capital gains exemption covers typical home-sale gains and treats housing the same as other long-term saving.
+**No.** For most homeowners, nothing changes in practice  -  the \$1.5M Lifetime Capital Gains Allowance covers typical home-sale gains and treats housing the same as other long-term saving.
 
-**Example:** Buy at \$250K, sell at \$650K → \$400K gain, **\$0 tax**. You still have \$1.1M of exemption left for future gains.
+**Example:** Buy at \$250K, sell at \$650K → \$400K gain, **\$0 tax**. You still have \$1.1M of lifetime allowance left for future gains.
 
-The exemption is designed to cover multiple moves over a lifetime; most households never reach \$1.5M in total housing gains.
+The allowance is designed to cover multiple moves over a lifetime; most households never reach \$1.5M in total housing gains.
 
-**Why replace the current exclusion?** The current rule privileges homeowners, encourages tax-driven housing decisions, and requires ownership/use tests. A single lifetime exemption is simpler and neutral across homes, stocks, and businesses.
+**Why replace the current exclusion?** The current rule privileges homeowners, encourages tax-driven housing decisions, and requires ownership/use tests. A single lifetime allowance is simpler and neutral across homes, stocks, and businesses.
 
 **Bottom line:** Most home sales remain tax-free, with fewer special rules and fairer treatment across asset types.
 
-## **Q15: Why no special carried interest rule?**
+## **Q16: Why no special carried interest rule?**
 
 For most funds and investors, there’s no new special rule to track; carried interest is neutralized automatically. At \$100M+ in lifetime capital gains, the rate converges to 45%  -  the same as the top ordinary income rate  -  so re-labeling labor income as capital gains no longer helps.
 
@@ -405,22 +416,22 @@ For most funds and investors, there’s no new special rule to track; carried in
 
 **Bottom line:** Carried interest is closed by design, not by creating a new carve-out.
 
-## **Q16: Will this punish entrepreneurs and innovators?**
+## **Q17: Will this punish entrepreneurs and innovators?**
 
-**No.** For founders, long-term gains are still rewarded and the \$1.5M lifetime exemption applies broadly. FSTA keeps long-term capital gains treatment, adds a \$1.5M lifetime exemption, and taxes short-term trading as ordinary income. It replaces QSBS with a **universal exemption** that applies to all founders, regardless of entity type or industry.
+**No.** For founders, long-term gains are still rewarded and the \$1.5M lifetime allowance applies broadly. FSTA keeps long-term capital gains treatment, adds a \$1.5M lifetime allowance, and taxes short-term trading as ordinary income. It replaces QSBS with a **universal allowance** that applies to all founders, regardless of entity type or industry.
 
 Some large exits that currently qualify for QSBS will pay more, but the system is broader, simpler, and more predictable. Case studies are in [Appendix B](#appendix-b-taxpayer-case-studies).
 
 **Bottom line:** The Act rewards patient capital and innovation while eliminating narrow carve-outs that only some founders can access.
 
 
-## **Q17: What about expatriation and capital flight?**
+## **Q18: What about expatriation and capital flight?**
 
-For almost everyone, this doesn’t apply; for those who expatriate, gains are taxed as if sold. **Renouncing citizenship triggers the same rule as death: a mark-to-market tax on all gains, with the lifetime exemption and progressive capital gains rates.**
+For almost everyone, this doesn’t apply; for those who expatriate, gains are taxed as if sold. **Renouncing citizenship triggers the same rule as death: a mark-to-market tax on all gains, with the lifetime allowance and progressive capital gains rates.**
 
 ### **How the exit tax works**
-- All appreciated assets are marked to market on the departure date; remaining lifetime exemption applies first.
-- Gains above the exemption are taxed at 15%/20%/27%/32% based on total lifetime gains.
+- All appreciated assets are marked to market on the departure date; remaining lifetime allowance applies first.
+- Gains above the allowance are taxed at 15%/20%/27%/32% based on total lifetime gains.
 - Illiquid assets get 15-year payment flexibility to avoid forced sales.
 - Covered expatriate rules continue to apply; returns within 10 years can trigger collection.
 
@@ -435,7 +446,7 @@ For almost everyone, this doesn’t apply; for those who expatriate, gains are t
 
 **Bottom line:** Departure is taxed as if assets were sold. Payment relief prevents fire sales, existing reporting makes evasion difficult, and the fiscal risk is limited.
 
-## **Q18: Why not just impose a wealth tax?**
+## **Q19: Why not just impose a wealth tax?**
 
 For taxpayers, this approach avoids annual asset valuations while still capturing extreme wealth. Wealth taxes have failed in most countries that tried them. France, Sweden, Austria, and others repealed their wealth taxes after discovering:
 
@@ -453,7 +464,7 @@ By taxing gains at realization with progressive rates (0% to 45%), eliminating s
 
 **Bottom line:** This approach is more durable, more enforceable, and learns from the failures of wealth taxes in other countries.
 
-## **Q19: What is not included in this Act?**
+## **Q20: What is not included in this Act?**
 
 For taxpayers, this means the plan stays focused on personal taxation to maximize clarity, feasibility, and administrative simplicity. As a result:
 
@@ -462,11 +473,11 @@ For taxpayers, this means the plan stays focused on personal taxation to maximiz
 
 **Bottom line:** Focus now is loophole closure and simplification; broader tax architecture changes are outside this Act’s scope.
 
-## **Q20: Why now?**
+## **Q21: Why now?**
 
 For taxpayers, the timing finally supports real simplification. The code has hit a complexity ceiling, parallel systems (AMT, NIIT, deductions, carve‑outs) have become unmanageable, and public trust is eroding in a system that feels arbitrary and gamed. At the same time, automation and pre‑filled returns are now technically feasible  -  but only if the underlying rules are simplified. This proposal focuses on the foundation first: reduce complexity, close obvious gaps, and create a clearer base for future reforms.
 
-## **Q21: Does this Act address Social Security or payroll taxes?**
+## **Q22: Does this Act address Social Security or payroll taxes?**
 
 No. This Act focuses narrowly on simplifying personal income and capital taxation. Social Security and payroll taxes raise distinct questions about demographics, benefits, and long-term solvency, and deserve a dedicated treatment. A follow-on proposal will address Social Security directly using the same tenets.
 
@@ -508,10 +519,10 @@ FSTA is **revenue-positive from Day 1**, raising $200-310B annually by closing l
 | Change | Annual Revenue | Notes |
 | :---- | :---- | :---- |
 | 45% top bracket ($1.5M+ Single / $3M+ MFJ) | \+\$40–60B | Applies to ~0.1% of taxpayers; AMT/NIIT elimination simplifies compliance |
-| Capital gains: progressive rates above $1.5M exemption | \+\$50–80B | 6-tier lifetime system; protects small gains, taxes large accumulations |
-| Stepped-up basis eliminated at death | \+\$75–100B | Unrealized gains taxed at death using lifetime exemption |
+| Capital gains: progressive rates above $1.5M allowance | \+\$50–80B | 6-tier lifetime system; protects small gains, taxes large accumulations |
+| Stepped-up basis eliminated at death | \+\$75–100B | Unrealized gains taxed at death using lifetime allowance |
 | Buy-borrow-die closed (asset-backed borrowing rule) | \+\$25–50B | Deemed sale when appreciated assets secure loans |
-| QSBS eliminated; replaced with universal $1.5M exemption | \+\$10–20B | All founders/investors get same exemption; no more $10M+ exclusions |
+| QSBS eliminated; replaced with universal $1.5M allowance | \+\$10–20B | All founders/investors get same allowance; no more $10M+ exclusions |
 | Estate tax reform (\$14M → \$5M exemption) | \+\$50–65B | ~30K estates taxed vs. ~4K currently |
 | ROTH reforms (contribution cap, $2.5M freeze, death = realization) | \+\$15–25B | Closes "Peter Thiel loophole" while expanding access |
 
@@ -566,12 +577,14 @@ These case studies show simplified before/after calculations for representative 
 | [High Earner](#3-high-earner--david-single-600000-w-2-salary) | \$600K | 30.6% | 30.6% | **0%** |
 | [Homeowner](#4-homeowner--linda-sells-primary-residence-400k-gain) | \$400K gain | 5.6% | 0% | **\-5.6%** |
 | [Small Founder](#5-small-founder--priya-3m-exit-after-8-years) | \$3M exit | 19.8% | 7.2% | **\-12.6%** |
-| [Trust Fund Heir](#6-trust-fund-heir--inherits-20m) | \$20M estate | 0% | 37.5% | **\+37.5%** |
+| [Inherited Estate](#6-inherited-estate--20m) | \$20M estate | 0% | 37.5% | **\+37.5%** |
+| [Billionaire Borrower](#7-billionaire-borrower--100m-stock-5m-year-loan) | \$5M loan | 0% | 45.0% | **\+45.0%** |
 
 **Pattern:**
 - Families with children see the largest gains from the $4K/child benefit.
 - Upper-middle incomes are mostly flat; high earners pay more through base-broadening.
 - Inheritance and ultra-wealth face the biggest increases due to loophole closure.
+- Asset-backed borrowing strategies shift from tax-free to taxable gains.
 
 ---
 
@@ -615,7 +628,7 @@ These case studies show simplified before/after calculations for representative 
 |  | Current Law | FSTA | Change |
 | :---- | :---- | :---- | :---- |
 | Home Sale Gain | \$400,000 | \$400,000 |  -  |
-| Exemption Applied | -\$250,000 | -\$400,000 |  -  |
+| Allowance Applied | -\$250,000 | -\$400,000 |  -  |
 | Taxable Gain | \$150,000 | \$0 | \-\$150,000 |
 | Capital Gains Tax | \$22,350 | \$0 | \-\$22,350 |
 | **Effective Rate** | **5.6%** | **0%** | **\-5.6%** |
@@ -624,19 +637,19 @@ These case studies show simplified before/after calculations for representative 
 
 #### **5\. Small Founder  -  Priya, \$3M Exit After 8 Years**
 
-Assumes no QSBS (common). FSTA applies a universal lifetime exemption.
+Assumes no QSBS (common). FSTA applies a universal lifetime allowance.
 
 |  | Current Law (no QSBS) | FSTA | Change |
 | :---- | :---- | :---- | :---- |
 | Gain | \$2,900,000 | \$2,900,000 |  -  |
-| Lifetime Exemption | N/A | -\$1,500,000 |  -  |
+| Lifetime Allowance | N/A | -\$1,500,000 |  -  |
 | Taxable Gain | \$2,900,000 | \$1,400,000 | \-\$1,500,000 |
 | Capital Gains Tax | \$575,420 | \$210,000 | \-\$365,420 |
 | **Effective Rate** | **19.8%** | **7.2%** | **\-12.6%** |
 
 ---
 
-#### **6\. Trust Fund Heir  -  Inherits \$20M**
+#### **6\. Inherited Estate  -  \$20M**
 
 |  | Amount |
 | :---- | :---- |
@@ -649,43 +662,18 @@ Assumes no QSBS (common). FSTA applies a universal lifetime exemption.
 
 Current law: step-up and a \$14M exemption would likely result in **\$0 tax** for a similarly sized estate.
 
+---
 
-## **Appendix C: Path to Fiscal Sustainability**
+#### **7\. Billionaire Borrower  -  \$100M Stock, \$5M/Year Loan**
 
-FSTA is a strong start, but it addresses only the revenue side. A durable path requires spending reform and growth, aligned with the three tenets.
+Assumes the Lifetime Tax-Free Capital Gains Allowance is already fully used. The loan is secured by appreciated stock.
 
-### **Fiscal Gap (Illustrative)**
-
-| Metric | Current | Sustainable Target | Gap to Close |
+|  | Current Law | FSTA | Change |
 | :---- | :---- | :---- | :---- |
-| **Federal Deficit** | ~\$1.7T (~6% of GDP) | ~\$840B-1.12T (3-4% of GDP) | ~\$580-860B annually |
-| **Over 10 Years** | ~\$17T of deficit | ~\$8.4T-11.2T sustainable | Need to reduce by ~$5.8T-8.6T |
+| Lifestyle Loan | \$5,000,000 | \$5,000,000 |  -  |
+| Taxable Gain Triggered | \$0 | \$5,000,000 | +\$5,000,000 |
+| Capital Gains Tax | \$0 | \$2,250,000 | +\$2,250,000 |
+| **Effective Rate** | **0%** | **45.0%** | **\+45.0%** |
 
-FSTA closes $200-310B annually (~15-25% of the gap). Remaining gap: roughly $230-720B per year.
+**Why:** Under current law, borrowing against appreciated assets produces no taxable event. Under FSTA, the **deemed-sale rule** treats the borrowed amount as realized gain once the allowance is exhausted, so borrowing to fund consumption triggers tax at the top capital gains rate. Basis steps up by the borrowed amount to prevent double taxation on eventual sale.
 
-### **Three-Track Strategy**
-
-**Track 1: Revenue (FSTA)**
-- $200-310B annually from loophole closure and base broadening.
-
-**Track 2: Spending Reform (Partner Legislation)**
-Target $230-720B annually using the same tenets: simplicity, fairness, durability.
-
-| Category | Potential Annual Savings | Notes |
-| :---- | :---- | :---- |
-| Entitlement targeting and fraud reduction | \$150-300B | Focused on high-income beneficiaries |
-| Program consolidation | \$80-150B | Reduce duplication across agencies |
-| Defense procurement and IT modernization | \$60-120B | Efficiency gains, not capability cuts |
-| Interest savings (deficit reduction) | \$100-300B | Compounding over time |
-| **Total Potential Annual Savings** | **\$390-870B** | Range varies by design |
-
-**Track 3: Growth**
-- With 2-3% nominal growth, the deficit falls as a share of GDP even with flat dollar deficits.
-
-### **Phasing**
-
-- **Years 1-3:** FSTA enacted; revenue positive from Day 1.
-- **Years 2-5:** spending reform and simplification implementation (pre-filled returns, automated matching).
-- **Years 5-10:** optional refinements (retirement account simplification, Social Security sustainability) if the gap persists.
-
-**Bottom line:** Revenue reform + spending reform + growth deliver a credible path to a 3-4% deficit without middle-class tax hikes or across-the-board cuts.

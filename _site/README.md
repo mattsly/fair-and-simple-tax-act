@@ -42,3 +42,20 @@ Open an issue or discussion with your question. We aim to clarify any part of th
 ---
 
 **Status:** Active draft. Core policy stable; examples and estimates under review.
+
+** Review Process**
+
+When working with an LLM for review, give the following priming:
+
+I am working on a comprehensive tax reform proposal. 
+Phase 1 addresses Income Tax and Capital Gains
+Phase 2 addresses Social Security
+
+Both docs are linked from this main page, which gives an outline and, importantly, includes the Tenets which guide the design of these proposals.
+https://www.mattsly.com/fair-and-simple-tax-act/
+
+Can you read all 3 documents (start page, Phase 1 and Phase 2) give me some feedback? 
+
+The audience here is newspapers, think tanks, politicians, public intellectuals/ professors. 
+
+I want the documents to be very readable (not too wonky) and full of examples and clear numbers when appropriate.
