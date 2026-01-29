@@ -403,6 +403,19 @@ Rule of thumb: **1% of taxable payroll ≈ $85–95B per year** (using recent ta
 
 These case studies show simplified before/after impacts for representative taxpayers. Figures are **illustrative** and rounded; they focus on OASDI and do not include Medicare taxes.
 
+### **Rules Used in These Case Studies (Illustrative)**
+
+- **Payroll taxes apply to all wage income** (no taxable maximum).
+- **Benefits are unchanged for typical earners**; high-earner accrual phases down above today’s cap.
+- **Minimum Contribution Rule (MCR)** applies to closely held businesses and pass‑throughs where owners control compensation.
+- **MCR mechanics:** payroll‑tax wages must be at least the **max of** a **baseline floor** (\$75k single / \$150k married) or **35% of current‑year net business profit**.
+- **Distributions below the MCR are treated as wages** for Social Security purposes.
+- Parameters are **illustrative** and subject to legislative calibration.
+
+### **Minimum Contribution Rule (MCR) — One‑Paragraph Summary**
+
+The MCR applies to owner‑operators of closely held businesses and pass‑throughs. It uses reported wages and business profits to set a **minimum payroll‑tax wage base**, preventing income recharacterization from eroding Social Security contributions. The rule preserves entrepreneurship by allowing a portion of profit to remain outside payroll tax while ensuring a baseline contribution that protects the system’s financing and fairness.
+
 ### **Summary: Phase 2 Impact Examples**
 
 | Case Study | Current Law | FSTA | Change |
@@ -426,6 +439,8 @@ These case studies show simplified before/after impacts for representative taxpa
 
 Assumes 30+ years of covered earnings at low wages. Illustrative Federal Poverty Level (FPL) for a single adult is set at \$15,000 (rounded). Phase 2 floors the minimum benefit at **125% of FPL**.
 
+**Rule applied:** Minimum benefit floor at 125% of FPL for long‑career low earners.
+
 |  | Current Law | FSTA | Change |
 | :---- | :---- | :---- | :---- |
 | Annual Benefit | \$13,200 | \$18,750 | +\$5,550 |
@@ -438,12 +453,16 @@ Assumes 30+ years of covered earnings at low wages. Illustrative Federal Poverty
 
 #### **2\. Low-Income Consultant  -  MCR Floor**
 
-Assumes \$90,000 in annual profit and a \$50,000 salary under current law. The MCR sets the payroll tax base to the greater of the floor (\$75k) or **35% of current-year net profit** (35% × \$90k = \$31.5k).
+Assumes \$90,000 in annual profit and a \$50,000 salary under current law.
+
+**Rule applied:** MCR sets payroll‑tax wages to max(\$75k, 35% of profit).
 
 |  | Current Law | FSTA | Change |
 | :---- | :---- | :---- | :---- |
 | OASDI Tax Base | \$50,000 | \$75,000 | +\$25,000 |
 | OASDI Payroll Tax (12.4%) | \$6,200 | \$9,300 | **+\$3,100** |
+
+**Intentional impact:** Contributions rise to meet the baseline floor, broadening the base for system durability.
 
 **Why:** The floor ensures a baseline contribution even when reported wages are low.
 
@@ -451,12 +470,16 @@ Assumes \$90,000 in annual profit and a \$50,000 salary under current law. The M
 
 #### **3\. Mid-Income S-Corp Consultant  -  MCR Example**
 
-Assumes \$500,000 in annual earnings and a \$100,000 salary under current law. The MCR sets the payroll tax base to the greater of the floor (\$75k) or **35% of current-year net profit** (35% × \$500k = \$175k).
+Assumes \$500,000 in annual earnings and a \$100,000 salary under current law.
+
+**Rule applied:** MCR sets payroll‑tax wages to max(\$75k, 35% of profit).
 
 |  | Current Law | FSTA | Change |
 | :---- | :---- | :---- | :---- |
 | OASDI Tax Base | \$100,000 | \$175,000 | +\$75,000 |
 | OASDI Payroll Tax (12.4%) | \$12,400 | \$21,700 | **+\$9,300** |
+
+**Intentional impact:** Contributions rise to align payroll taxes with a market‑labor share of profit and reduce avoidance.
 
 **Why:** The MCR aligns payroll contributions with market‑rate compensation and reduces the advantage of recharacterizing labor income as profit.
 
@@ -464,12 +487,16 @@ Assumes \$500,000 in annual earnings and a \$100,000 salary under current law. T
 
 #### **4\. High-Income S-Corp Owner  -  MCR (High)**
 
-Assumes \$1,000,000 in annual profit and a \$150,000 salary under current law. The MCR sets the payroll tax base to the greater of the floor (\$75k) or **35% of current-year net profit** (35% × \$1M = \$350k).
+Assumes \$1,000,000 in annual profit and a \$150,000 salary under current law.
+
+**Rule applied:** MCR sets payroll‑tax wages to max(\$75k, 35% of profit).
 
 |  | Current Law | FSTA | Change |
 | :---- | :---- | :---- | :---- |
 | OASDI Tax Base | \$150,000 | \$350,000 | +\$200,000 |
 | OASDI Payroll Tax (12.4%) | \$18,600 | \$43,400 | **+\$24,800** |
+
+**Intentional impact:** Contributions scale with business size while preserving a return‑on‑risk share outside payroll tax.
 
 **Why:** The split scales contributions with business scale without requiring a subjective “reasonable salary” test.
 
@@ -478,6 +505,8 @@ Assumes \$1,000,000 in annual profit and a \$150,000 salary under current law. T
 #### **5\. Typical W‑2 Worker  -  No Change**
 
 Assumes \$80,000 in wage income (below the taxable maximum). Under current law and FSTA, the same OASDI tax applies and the benefit formula is unchanged.
+
+**Rule applied:** Wages below the taxable maximum are unaffected by cap removal.
 
 |  | Current Law | FSTA | Change |
 | :---- | :---- | :---- | :---- |
@@ -492,12 +521,14 @@ Assumes \$80,000 in wage income (below the taxable maximum). Under current law a
 
 Assumes \$2,000,000 in wage income. Current law applies OASDI tax only up to the taxable maximum (illustratively \$170,000).
 
+**Rule applied:** The taxable maximum is removed and benefit accrual phases down at very high lifetime earnings.
+
 |  | Current Law | FSTA | Change |
 | :---- | :---- | :---- | :---- |
 | OASDI Tax Base | \$170,000 | \$2,000,000 | +\$1,830,000 |
 | OASDI Payroll Tax (12.4%) | \$21,080 | \$248,000 | **+\$226,920** |
 
-**Benefit impact:** Benefit accrual above today’s taxable maximum phases down at very high lifetime earnings, so contributions rise but benefits do not scale without limit. This preserves the insurance design while strengthening solvency.
+**Intentional impact:** Contributions rise because the taxable maximum is removed. Benefit accrual above today’s cap phases down at very high lifetime earnings, preserving the insurance design while strengthening solvency.
 
 ## Sources
 - ¹ [Pew Research Center, Americans’ Views of Government’s Role: Social Security](https://www.pewresearch.org/politics/2024/06/24/americans-views-of-government-aid-to-poor-role-in-health-care-and-social-security/)

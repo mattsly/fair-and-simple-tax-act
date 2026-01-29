@@ -100,7 +100,7 @@ For most taxpayers, filing stays familiar but becomes fairer and simpler, while 
 | Buy-borrow-die closed [(details in Q11)](#q11-how-does-the-act-close-the-buy-borrow-die-loophole) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $25–50B |
 | QSBS eliminated; universal $1.5M allowance for all [(details in Q17)](#q17-will-this-punish-entrepreneurs-and-innovators) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit) | Raises $10–20B |
 | **FAMILY BENEFITS** | | |
-| $4,000/child (max 3), fully refundable; phase-out starts at $150K married / $100K single + $25K per child (cap +$75K), ends at $500K married / $300K single [(details in Q9)](#q9-what-is-the-child-tax-credit-under-this-plan-and-how-is-it-different-from-today) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit) | Costs $20–30B |
+| $4,000/child (max 3), fully refundable; phase-out starts at $150K married / $100K single + $25K per child (cap +$75K), ends at $500K married / $300K single [(details in Q9)](#q9-what-is-the-child-tax-credit-under-this-plan-and-how-is-it-different-from-today) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit) | Net savings ~$50–60B (consolidates CTC + EITC + CDCC) |
 | **ESTATES** | | |
 | Estate exemption: $14M → $5M per person ($10M couples) [(details in Q12)](#q12-what-happens-when-someone-dies) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $50–65B |
 | Trust income taxed annually; no exemption stacking via dynasty trusts [(details in Q14)](#q14-how-do-trusts-work-under-this-plan-can-i-use-them-to-avoid-paying-tax-forever) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Base-protecting (eliminates multigenerational deferral) |
@@ -123,9 +123,9 @@ For taxpayers, this means no broad tax increase and an immediate deficit impact;
 * Progressive capital gains rates above the $1.5M allowance: +$50–80B annually
 * QSBS elimination (universal $1.5M allowance instead): +$10-20B annually
 * ROTH mega-account reforms (contribution freeze + death taxation of gains): +$15-25B annually
-* **Total: $265-400B in new annual revenue**
+* **Total: $240–350B in new annual revenue** (interaction-adjusted)
 
-These gains cover the costs ($50-70B for AMT/NIIT elimination and expanded child benefits), resulting in **$200-310B net annual revenue**.
+These gains cover the costs (~$30–40B for AMT/NIIT elimination) and include the child benefit consolidation savings, resulting in **$200-310B net annual revenue**.
 
 This closes roughly 15-25% of the deficit gap. The remainder requires additional revenue measures and spending reforms; see the [Fiscal Sustainability Summary](index.md#fiscal-sustainability-summary) in the Project Overview.
 
@@ -282,7 +282,7 @@ Structural elements are intentionally hard to change. Rates and thresholds shoul
 
 ## **Q9: What is the Child Tax Credit under this plan, and how is it different from today?**
 
-This is a simple universal benefit that replaces the CTC, EITC, and childcare credit with a simple, predictable \$4,000-per-child benefit with no work tests or cliffs.
+This is a simple universal benefit that **replaces the CTC, EITC, and Child and Dependent Care Credit (CDCC)** with a predictable \$4,000-per-child benefit and automatic delivery, with no work tests or cliffs.
 
 ### **Core structure**
 
@@ -312,7 +312,9 @@ This is a simple universal benefit that replaces the CTC, EITC, and childcare cr
 * **If no agreement:** one claimant per child per year, resolved by a simple tie‑breaker (e.g., higher AGI or prior‑year claimant)
 * **No double‑counting:** a child counts once toward the 3‑child cap per household
 
-**Cost:** New system ~\$220B annually vs. current ~\$276B (CTC + EITC + childcare) → net savings ~\$56B.
+**Budget impact (illustrative):** Current combined spending is **~\$270–280B/year** (CTC + EITC + CDCC). The proposed unified benefit is **~\$220B/year**, for **~\$50–60B/year** in net savings.
+
+*Note: Budget figures are illustrative ranges based on public aggregates; final calibration is a legislative choice.*
 
 This removes benefit cliffs, treats stay-at-home and working parents equally, and makes support predictable. Distributional impacts are detailed in [Appendix B](#appendix-b-taxpayer-case-studies).
 
@@ -509,8 +511,7 @@ FSTA is **revenue-positive from Day 1**, raising $200-310B annually by closing l
 | Change | Annual Cost | Notes |
 | :---- | :---- | :---- |
 | Elimination of AMT and NIIT | \-\$30–40B | Simpler tax code; complexity savings offset some revenue loss |
-| Child benefits consolidation | \-\$20–30B | Consolidates CTC/EITC/Childcare (current: \$276B) into \$4,000/child with phase-out (\$220B cost) |
-| **Total Annual Costs** | **\-\$50–70B** | |
+| **Total Annual Costs** | **\-\$30–40B** | |
 
 ---
 
@@ -519,6 +520,7 @@ FSTA is **revenue-positive from Day 1**, raising $200-310B annually by closing l
 | Change | Annual Revenue | Notes |
 | :---- | :---- | :---- |
 | 45% top bracket ($1.5M+ Single / $3M+ MFJ) | \+\$40–60B | Applies to ~0.1% of taxpayers; AMT/NIIT elimination simplifies compliance |
+| Child benefit consolidation | **+\$50–60B** | Consolidates CTC/EITC/CDCC (~\$270–280B) into \$4,000/child benefit (~\$220B) |
 | Capital gains: progressive rates above $1.5M allowance | \+\$50–80B | 6-tier lifetime system; protects small gains, taxes large accumulations |
 | Stepped-up basis eliminated at death | \+\$75–100B | Unrealized gains taxed at death using lifetime allowance |
 | Buy-borrow-die closed (asset-backed borrowing rule) | \+\$25–50B | Deemed sale when appreciated assets secure loans |
@@ -526,9 +528,9 @@ FSTA is **revenue-positive from Day 1**, raising $200-310B annually by closing l
 | Estate tax reform (\$14M → \$5M exemption) | \+\$50–65B | ~30K estates taxed vs. ~4K currently |
 | ROTH reforms (contribution cap, $2.5M freeze, death = realization) | \+\$15–25B | Closes "Peter Thiel loophole" while expanding access |
 
-*Note on scoring:* Line-item estimates overlap (e.g., death as realization, no step-up, and buy-borrow-die). Totals are **interaction-adjusted ranges**, not simple sums.
+*Note on scoring:* Line-item estimates overlap (e.g., death as realization, no step-up, and buy-borrow-die). Totals are **interaction-adjusted ranges** that include conservative offsets and are **not** simple sums.
 
-| **Total Annual Gains** | **\+\$265–400B** | |
+| **Total Annual Gains** | **\+\$240–350B** | |
 
 ---
 
@@ -536,9 +538,9 @@ FSTA is **revenue-positive from Day 1**, raising $200-310B annually by closing l
 
 | Scenario | Annual Costs | Annual Gains | Net |
 | :---- | :---- | :---- | :---- |
-| Conservative | \-\$70B | \+\$265B | **\+\$195B** |
-| Mid | \-\$60B | \+\$333B | **\+\$273B** |
-| Optimistic | \-\$50B | \+\$400B | **\+\$350B** |
+| Conservative | \-\$40B | \+\$240B | **\+\$200B** |
+| Mid | \-\$35B | \+\$290B | **\+\$255B** |
+| Optimistic | \-\$30B | \+\$340B | **\+\$310B** |
 
 ### **Distributional Impact (Income Percentiles)**
 
@@ -676,4 +678,4 @@ Assumes the Lifetime Tax-Free Capital Gains Allowance is already fully used. The
 | **Effective Rate** | **0%** | **45.0%** | **\+45.0%** |
 
 **Why:** Under current law, borrowing against appreciated assets produces no taxable event. Under FSTA, the **deemed-sale rule** treats the borrowed amount as realized gain once the allowance is exhausted, so borrowing to fund consumption triggers tax at the top capital gains rate. Basis steps up by the borrowed amount to prevent double taxation on eventual sale.
-
+| Child benefit consolidation | **+\$50–60B** | Consolidates CTC/EITC/CDCC (~\$270–280B) into \$4,000/child benefit (~\$220B) |
