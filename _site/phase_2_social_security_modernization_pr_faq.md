@@ -1,39 +1,42 @@
+## Phase 2: Social Security Modernization
+---
+
+### Overview
+
 This document describes **Phase 2** of the Fair & Simple Tax Act: a targeted modernization of Social Security designed to restore long-term solvency, improve fairness across modern careers, and close entitlement-related loopholes while preserving the core contributory structure of the program. Phase 2 is narrower in scope than Phase 1. Social Security is fundamentally sound and needs modernization and leakage prevention, not wholesale redesign.
 
-## Phase 2: Social Security Modernization
+## **Quick Navigation**
 
-## Quick Navigation
+**[Press Release](#press-release)** | **[Tenets](#tenets)** | **[FAQs](#frequently-asked-questions-faqs)** | **[Sources](#sources)**
 
-**[Press Release](#press-release)** | **[Tenets](#tenets)** | **[FAQs](#frequently-asked-questions-faqs)** | [Sources](#sources)
+### **FAQ Quick Links**
 
-### FAQ Quick Links
-
-Part 1: The Big Picture
+**Part 1: The Big Picture**
 - [Q1: What problem is this reform trying to solve?](#q1-what-problem-is-this-reform-trying-to-solve)
-- [Q2: What is this proposal not?](#q2-what-is-this-proposal-not)
-- [Q3: Is this a benefit cut?](#q3-is-this-a-benefit-cut)
+- [Q2: What actually changes?](#q2-what-actually-changes)
+- [Q3: What is this proposal not?](#q3-what-is-this-proposal-not)
+- [Q4: Is this a benefit cut?](#q4-is-this-a-benefit-cut)
 
-Part 2: Solvency Strategy
-- [Q4: How does this proposal restore long-term solvency?](#q4-how-does-this-proposal-restore-long-term-solvency)
+**Part 2: Solvency Strategy**
 - [Q5: Why this approach instead of a temporary patch or crisis compromise?](#q5-why-this-approach-instead-of-a-temporary-patch-or-crisis-compromise)
 
-Part 3: Payroll Tax Base
+**Part 3: Payroll Tax Base**
 - [Q6: What changes on the payroll tax side?](#q6-what-changes-on-the-payroll-tax-side)
 - [Q7: Does removing the payroll tax cap mean very high earners get much larger benefits?](#q7-does-removing-the-payroll-tax-cap-mean-very-high-earners-get-much-larger-benefits)
 
-Part 4: Benefit Design and Retirement Age
+**Part 4: Benefit Design and Retirement Age**
 - [Q8: How are benefits adjusted for very high earners?](#q8-how-are-benefits-adjusted-for-very-high-earners)
 - [Q9: Why use lifetime earnings instead of annual income or wealth testing?](#q9-why-use-lifetime-earnings-instead-of-annual-income-or-wealth-testing)
 - [Q10: What protections are included for low-income workers?](#q10-what-protections-are-included-for-low-income-workers)
 - [Q11: Does this proposal raise the retirement age?](#q11-does-this-proposal-raise-the-retirement-age)
 
-Part 5: Closing Payroll Leakage (MCR)
+**Part 5: Closing Payroll Leakage (MCR)**
 - [Q12: How does this proposal handle income recharacterization and avoidance?](#q12-how-does-this-proposal-handle-income-recharacterization-and-avoidance)
 - [Q13: What is the Market Compensation Requirement?](#q13-what-is-the-market-compensation-requirement)
 - [Q14: How is the MCR calculated?](#q14-how-is-the-mcr-calculated)
 - [Q15: How does the MCR interact with benefits?](#q15-how-does-the-mcr-interact-with-benefits)
 
-Part 6: Scope, Integration, and Open Parameters
+**Part 6: Scope, Integration, and Open Parameters**
 - [Q16: Does this proposal include capital gains in Social Security?](#q16-does-this-proposal-include-capital-gains-in-social-security)
 - [Q17: What about low-income self-employed workers?](#q17-what-about-low-income-self-employed-workers)
 - [Q18: How does this interact with the Phase 1 tax reforms?](#q18-how-does-this-interact-with-the-phase-1-tax-reforms)
@@ -42,11 +45,11 @@ Part 6: Scope, Integration, and Open Parameters
 
 ---
 
-# Press Release
+# **Press Release**
 
 FOR IMMEDIATE RELEASE
 
-Fair & Simple Tax Act, Phase 2 Modernizes Social Security to Restore Solvency and Protect the Program for Current and Future Retirees
+**Fair & Simple Tax Act, Phase 2 Modernizes Social Security to Restore Solvency and Protect the Program for Current and Future Retirees**
 
 Today, Phase 2 of the Fair & Simple Tax Act is introduced as a targeted modernization of Social Security. The proposal preserves Social Security's earned-benefit structure while restoring long-term solvency, strengthening minimum protections for long-career low earners, and reducing payroll tax leakage at the top.
 
@@ -67,9 +70,9 @@ The proposal is intentionally explicit about what is structural versus what is c
 
 # Frequently Asked Questions (FAQs)
 
-## Part 1: The Big Picture
+## **Part 1: The Big Picture**
 
-## Q1: What problem is this reform trying to solve?
+## **Q1: What problem is this reform trying to solve?**
 
 Phase 2 preserves Social Security’s core promise while addressing three structural problems under current law. The headline facts are below.
 
@@ -92,7 +95,24 @@ Under current law, individuals with extremely high lifetime earnings continue to
 
 This proposal addresses all three issues directly while protecting current retirees and preserving Social Security as a work-based social insurance program.
 
-## Q2: What is this proposal not?
+## **Q2: What actually changes?**
+
+For most workers, Social Security remains intact; the changes focus on a small set of structural levers.
+
+| **What Changes** | **Design Lens** | **Fiscal Impact** |
+| :---- | :---- | :---- |
+| **PAYROLL TAX BASE** | | |
+| Apply the full 12.4% payroll tax to all wage income by removing the taxable maximum [(details in Q6)](#q6-what-changes-on-the-payroll-tax-side) | Fiscal Durability, Radical Simplicity | Raises revenue; closes long-run gap |
+| **TOP-END BENEFITS** | | |
+| Limit benefit accrual above today’s taxable maximum using a lifetime earnings–based phase-down [(details in Q7)](#q7-does-removing-the-payroll-tax-cap-mean-very-high-earners-get-much-larger-benefits), [(details in Q8)](#q8-how-are-benefits-adjusted-for-very-high-earners) | Fiscal Durability, Fuel the Climb (Don’t Protect the Summit) | Cost control at the top; preserves insurance design |
+| **RETIREMENT AGE** | | |
+| Make a slow, capped adjustment to the Full Retirement Age for younger cohorts only [(details in Q11)](#q11-does-this-proposal-raise-the-retirement-age) | Fiscal Durability | Modest savings over time |
+| **MINIMUM BENEFIT** | | |
+| Strengthen the minimum benefit for long-career low earners [(details in Q10)](#q10-what-protections-are-included-for-low-income-workers) | Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Targeted benefit increase |
+| **PAYROLL LEAKAGE** | | |
+| Apply a Market Compensation Requirement for closely held business owners to reduce income recharacterization [(details in Q12)](#q12-how-does-this-proposal-handle-income-recharacterization-and-avoidance) | Radical Simplicity, Fiscal Durability | Base-protecting (reduces avoidance) |
+
+## **Q3: What is this proposal not?**
 
 This is a modernization of Social Security, not a replacement. It keeps the earned-benefit structure intact and preserves the program’s insurance role. It relies on a few simple, durable levers rather than annual means testing or wealth taxes. The goal is a system people can understand and trust over time.
 
@@ -102,7 +122,7 @@ This is a modernization of Social Security, not a replacement. It keeps the earn
 
 ---
 
-## Q3: Is this a benefit cut?
+## **Q4: Is this a benefit cut?**
 
 For most workers, **no**.
 
@@ -116,23 +136,9 @@ Example: A long-career, middle-income worker who has paid in steadily sees sched
 
 ---
 
-## Part 2: Solvency Strategy
+## **Part 2: Solvency Strategy**
 
-## Q4: How does this proposal restore long-term solvency?
-
-This proposal targets **full 75-year solvency** with a small number of high-leverage, structurally simple changes:
-
-1. Applying payroll taxes to all wages.
-2. Moderating benefit growth for very high lifetime earners.
-3. Gradually adjusting retirement age for younger cohorts.
-4. Preventing systematic underpayment of payroll taxes by high earners.
-5. Strengthening minimum benefits for long-career low earners.
-
-These elements are designed to work together and can be calibrated over time.
-
----
-
-## Q5: Why this approach instead of a temporary patch or crisis compromise?
+## **Q5: Why this approach instead of a temporary patch or crisis compromise?**
 
 Under current law, scheduled benefits face automatic reductions in 2034 when reserves run short.² This approach prevents that outcome by using a small number of durable levers rather than repeated short-term fixes.
 
@@ -144,9 +150,9 @@ The result is a modernized system that can be adjusted over time without crisis-
 
 ---
 
-## Part 3: Payroll Tax Base
+## **Part 3: Payroll Tax Base**
 
-## Q6: What changes on the payroll tax side?
+## **Q6: What changes on the payroll tax side?**
 
 The current cap on wages subject to the Social Security payroll tax is removed.
 
@@ -158,7 +164,7 @@ Removing the cap reflects modern wage concentration and is one of the most effec
 
 ---
 
-## Q7: Does removing the payroll tax cap mean very high earners get much larger benefits?
+## **Q7: Does removing the payroll tax cap mean very high earners get much larger benefits?**
 
 No.
 
@@ -174,9 +180,9 @@ Example: A high-earning executive pays payroll tax on all wages once the cap is 
 
 ---
 
-## Part 4: Benefit Design and Retirement Age
+## **Part 4: Benefit Design and Retirement Age**
 
-## Q8: How are benefits adjusted for very high earners?
+## **Q8: How are benefits adjusted for very high earners?**
 
 Instead of annual means testing, this proposal uses a **lifetime earnings–based benefit phase-down**.
 
@@ -201,7 +207,7 @@ Example: A high-earning professional pays payroll tax on all wages once the cap 
 
 ---
 
-## Q9: Why use lifetime earnings instead of annual income or wealth testing?
+## **Q9: Why use lifetime earnings instead of annual income or wealth testing?**
 
 Lifetime measures are harder to game, more consistent with Social Security’s contributory design, and better aligned with modern, non-linear careers.
 
@@ -209,7 +215,7 @@ Annual income or wealth testing introduces complexity, administrative discretion
 
 ---
 
-## Q10: What protections are included for low-income workers?
+## **Q10: What protections are included for low-income workers?**
 
 The proposal strengthens the **minimum benefit** for long-career low earners.
 
@@ -224,7 +230,7 @@ Example: A home health aide who works most years at low wages gains a more relia
 
 ---
 
-## Q11: Does this proposal raise the retirement age?
+## **Q11: Does this proposal raise the retirement age?**
 
 Gradually, and only for younger cohorts.
 For cohorts affected by the gradual FRA adjustment, this is a modest scheduled benefit reduction relative to current law, paired with a stronger minimum benefit and long phase-in.
@@ -241,9 +247,9 @@ Example: If enacted in 2026, a 50-year-old sees no change. A 30-year-old sees a 
 
 ---
 
-## Part 5: Closing Payroll Leakage (MCR)
+## **Part 5: Closing Payroll Leakage (MCR)**
 
-## Q12: How does this proposal handle income recharacterization and avoidance?
+## **Q12: How does this proposal handle income recharacterization and avoidance?**
 
 This proposal uses a **Universal Market Compensation Requirement (MCR)** to protect Social Security’s contributory base.
 
@@ -251,13 +257,13 @@ High earners can currently avoid payroll taxes by recharacterizing labor income 
 
 ---
 
-## Q13: What is the Market Compensation Requirement?
+## **Q13: What is the Market Compensation Requirement?**
 
 The MCR is a single, mechanical rule that ensures a baseline amount of income is treated as labor income for Social Security purposes when individuals control or manage closely held businesses.
 
 ---
 
-## Q14: How is the MCR calculated?
+## **Q14: How is the MCR calculated?**
 
 Illustrative calibration (subject to adjustment)
 
@@ -278,7 +284,7 @@ Example: A small business owner pays a modest salary but takes most income as di
 
 ---
 
-## Q15: How does the MCR interact with benefits?
+## **Q15: How does the MCR interact with benefits?**
 
 Income up to the MCR is treated as labor income, subject to payroll taxes, and counts toward Social Security benefits (subject to high-earner phase-down). Income above the MCR retains its assigned tax character.
 
@@ -286,9 +292,9 @@ The rule applies consistently to S-corp owners, professional partnerships, and c
 
 ---
 
-## Part 6: Scope, Integration, and Open Parameters
+## **Part 6: Scope, Integration, and Open Parameters**
 
-## Q16: Does this proposal include capital gains in Social Security?
+## **Q16: Does this proposal include capital gains in Social Security?**
 
 No.
 
@@ -296,13 +302,13 @@ Social Security remains a **labor-based insurance system**. Capital gains do not
 
 ---
 
-## Q17: What about low-income self-employed workers?
+## **Q17: What about low-income self-employed workers?**
 
 This proposal does not reduce payroll tax rates or create special carve-outs. Relief for low-income workers comes through lower income tax rates at the bottom and a stronger Social Security minimum benefit.
 
 ---
 
-## Q18: How does this interact with the Phase 1 tax reforms?
+## **Q18: How does this interact with the Phase 1 tax reforms?**
 
 The two phases are designed together:
 
@@ -314,7 +320,7 @@ Rates and thresholds can be calibrated jointly over time.
 
 ---
 
-## Q19: What is intentionally left open?
+## **Q19: What is intentionally left open?**
 
 This proposal fixes **structure first**, not final numbers.
 
@@ -326,7 +332,7 @@ Open calibration questions include:
 
 ---
 
-## Q20: Why not replace Social Security with private retirement accounts?
+## **Q20: Why not replace Social Security with private retirement accounts?**
 
 Private accounts have appeal: investment growth and personal ownership. But the central problem is transition financing: promised benefits to current retirees and near-retirees still must be paid, and diverting payroll taxes to private accounts creates a large funding gap that must be filled by higher taxes, borrowing, or benefit cuts.⁶
 

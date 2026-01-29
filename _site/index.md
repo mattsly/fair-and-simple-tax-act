@@ -9,6 +9,6 @@ I am not a career policy professional. I’m a software entrepreneur approaching
 
 Each proposal can be enacted independently, but they are designed together and can be calibrated as part of a single fiscal system.
 
-### [Phase 1: Income Tax Reform](phase_1_income_tax_reform_pr_faq.md)
-### [Phase 2: Social Security Modernization](phase_2_social_security_modernization_pr_faq.md) 
+### [Phase 1: Income Tax Reform](phase_1_income_tax_reform_pr_faq.md): Eliminate loopholes and complexity, introduce new top bracket, universal child credit and lifetime capital gains rate table. 
+### [Phase 2: Social Security Modernization](phase_2_social_security_modernization_pr_faq.md): Restore solvency and protect current and future retirees.
 ### Phase 3: American Opportunity Accounts (Coming Soon)
