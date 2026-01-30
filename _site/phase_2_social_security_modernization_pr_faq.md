@@ -1,7 +1,4 @@
 ## Phase 2: Social Security Modernization
----
-
-### Overview
 
 This document describes **Phase 2** of the Fair & Simple Tax Act: a targeted modernization of Social Security designed to restore long-term solvency, improve fairness across modern careers, and close entitlement-related loopholes while preserving the core contributory structure of the program. Phase 2 is narrower in scope than Phase 1. Social Security is fundamentally sound and needs modernization and leakage prevention, not wholesale redesign.
 
@@ -55,7 +52,7 @@ FOR IMMEDIATE RELEASE
 
 **Fair & Simple Tax Act, Phase 2 Modernizes Social Security to Restore Solvency and Protect the Program for Current and Future Retirees**
 
-Today, Phase 2 of the Fair & Simple Tax Act is introduced as a targeted modernization of Social Security. The proposal preserves Social Security's earned-benefit structure while restoring long-term solvency, strengthening minimum protections for long-career low earners, and reducing payroll tax leakage at the top.
+Today, Phase 2 of the Fair & Simple Tax Act is introduced as a targeted modernization of Social Security. The proposal preserves Social Security's earned-benefit structure while restoring long-term solvency, strengthening minimum protections for long-career low earners, and reducing payroll tax leakage at the top. For the large majority of workers, payroll taxes and benefit calculations would look the same as they do today.
 
 The Social Security Trustees project that under current law the system faces automatic benefit reductions in 2034 when reserves are depleted.² This proposal is designed to prevent those cuts with a small number of durable, easy-to-explain reforms.
 
@@ -101,7 +98,7 @@ This proposal addresses all three issues directly while protecting current retir
 
 ## **Q2: What actually changes?**
 
-For most workers, Social Security remains intact; the changes focus on a small set of structural levers.
+The changes focus on a small set of structural levers.
 
 | **What Changes** | **Design Tenet** | **Fiscal Impact** |
 | :---- | :---- | :---- |
@@ -144,13 +141,11 @@ Example: A long-career, middle-income worker who has paid in steadily sees sched
 
 ## **Q5: Why this approach instead of a temporary patch or crisis compromise?**
 
-Under current law, scheduled benefits face automatic reductions in 2034 when reserves run short.² This approach prevents that outcome by using a small number of durable levers rather than repeated short-term fixes.
+Under current law, scheduled benefits face automatic reductions in 2034 when reserves run short.² This approach prevents that outcome by using a small number of durable levers rather than repeated short-term fixes. The 75-year actuarial balance used by the Trustees is the standard test of solvency, and this package is calibrated to close nearly all of that long-range gap.
 
 - It avoids annual means testing and preserves the earned-benefit structure.
 - It protects the payroll base through cap removal and MCR leakage prevention.
 - It is designed so calibration can change without reopening the structure.
-
-The result is a modernized system that can be adjusted over time without crisis-driven deals.
 
 ---
 
@@ -236,8 +231,9 @@ Example: A home health aide who works most years at low wages gains a more relia
 
 ## **Q11: Does this proposal raise the retirement age?**
 
-Gradually, and only for younger cohorts.
-We treat the retirement age as a Variable, not a Constant. Just as life expectancy has evolved, the system's schedule must evolve to stay durable.
+Gradually, and only for younger cohorts. Current retirees and near-retirees are fully protected, and the change applies only to workers below a defined age at enactment (illustratively, under age 45).
+
+We treat the retirement age as a variable, not a constant. Just as life expectancy has evolved, the system's schedule must evolve to stay durable.
 
 **Why:** Americans are living longer in retirement than prior generations. The Social Security Trustees’ period life expectancy table shows that remaining life expectancy at age 65 increased from about 15.0 years for men and 19.0 years for women in 1990 to about 18.3 and 20.9 years in 2024.⁴ Meanwhile, the average retirement age in the U.S. is already in the mid-60s for men and the low-60s for women.⁵ A very slow FRA adjustment reflects these realities and improves long-run solvency without shocks.
 
@@ -245,7 +241,6 @@ We treat the retirement age as a Variable, not a Constant. Just as life expectan
 - Applies only to workers below a defined age at enactment (illustratively, under age 45).
 - For affected cohorts, the Full Retirement Age increases at a rate of one month every two years.
 - The increase is capped at a total of 12 months.
-- Current retirees and near-retirees are fully protected.
 
 Example: If enacted in 2026, a 50-year-old sees no change. A 30-year-old sees a small, predictable increase over time, measured in months, not years. The total increase is capped so the adjustment cannot expand indefinitely.
 
@@ -263,7 +258,7 @@ High earners can currently avoid payroll taxes by recharacterizing labor income 
 
 ## **Q13: What is the Market Compensation Requirement?**
 
-The MCR is a single, mechanical rule that ensures a baseline amount of income is treated as labor income for Social Security purposes when individuals control or manage closely held businesses.
+The MCR is a single, mechanical rule that ensures a baseline amount of income is treated as labor income for Social Security purposes when individuals control or manage closely held businesses. The Minimum Contribution Rule replaces today’s subjective reasonable compensation enforcement with a single mechanical rule that is simpler to administer and harder to game.
 
 ---
 
@@ -287,7 +282,7 @@ Successful Firm Example: A partner in a law firm makes $1M in profit. The Entrep
 
 ## **Q15: How does the MCR interact with benefits?**
 
-Income up to the MCR is treated as labor income, subject to payroll taxes, and counts toward Social Security benefits (subject to high-earner phase-down). Income above the MCR retains its assigned tax character.
+Income up to the MCR is treated as labor income, subject to payroll taxes, and counts toward Social Security benefits (subject to high-earner phase-down). Income above the MCR retains its assigned tax character, and because the rule is mechanical rather than discretionary it avoids case-by-case disputes.
 
 The rule applies consistently to S-corp owners, professional partnerships, and carried interest.
 

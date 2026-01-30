@@ -1,11 +1,6 @@
-This document is the Phase 1 PR-FAQ for the Fair & Simple Tax Act, focused on personal income and capital taxation. It is written in a working-backwards format to make the design goals, tradeoffs, and fiscal impacts explicit. Phase 1 is a standalone proposal, but it is designed to pair with Phase 2 (Social Security modernization) as part of a cohesive fiscal system.
-
 ## Phase 1: Income Tax Reform
----
 
-### Overview
-
-This document describes **Phase 1** of the Fair & Simple Tax Act: a standalone proposal to simplify personal income and capital taxation.
+This document is the Phase 1 PR-FAQ for the Fair & Simple Tax Act, focused on personal income and capital taxation. It is written in a working-backwards format to make the design goals, tradeoffs, and fiscal impacts explicit. Phase 1 is a standalone proposal, but it is designed to pair with Phase 2 (Social Security modernization) as part of a cohesive fiscal system.
 
 ## **Quick Navigation**
 
@@ -79,7 +74,7 @@ The goal of the Fair & Simple Tax Act is not to make the tax code perfect, but t
 
 The current personal tax system is complex, unpredictable, and increasingly gameable. It burdens ordinary filers with a maze of overlapping rules while leaving large gaps that sophisticated planning can exploit, especially for investment income and very high-wealth households. It also relies on narrow, temporary fixes rather than a stable base, making long-term fiscal planning harder.
 
-This phase addresses those problems by simplifying the structure, closing the biggest avoidance channels, and making the revenue base more durable. That keeps debate focused on outcomes and calibration, not preserving a system that cannot be clearly understood, modeled, or tuned.
+This phase addresses those problems by simplifying the structure, closing the biggest avoidance channels, and making the revenue base more durable.
 
 ## **Q2: What does the Fair & Simple Tax Act actually change?**
 
@@ -108,7 +103,7 @@ For most taxpayers, filing stays familiar but becomes fairer and simpler, while 
 | Income limits eliminated; cap raised to $15K/year; $2.5M contribution freeze; death = realization of gains [(details in Q10)](#q10-what-are-the-roth-account-reforms-and-why-close-the-peter-thiel-loophole) | Radical Simplicity, Fuel the Climb (Don’t Protect the Summit), Fiscal Durability | Raises $15–25B |
 | **TOTAL** | **Simpler, fairer, fiscally durable** | **Raises $200–310B annually** |
 
-All revenue ranges shown are conservatively estimated and already account for likely behavioral responses, including timing and avoidance effects.
+Revenue ranges reflect expected behavioral and timing responses, not a purely static snapshot.
 
 ---
 
@@ -203,7 +198,7 @@ Brackets stay stable to prioritize predictability while loopholes are closed. Se
 
 ## **Q7: How are capital gains, dividends, and investment income taxed?**
 
-For all investors, the first \$1.5M of lifetime gains are tax-free under the **Lifetime Tax-Free Capital Gains Allowance** (\$3M married filing jointly) and long-term holdings are still rewarded. FSTA sets capital gains rates by **Cumulative Lifetime Capital Gains** — the running total of realized gains — to ensure extreme wealth does not pay lower rates than labor. **At $100M+ in lifetime gains, capital gains rates converge with ordinary income (45%).**
+For all investors, the first \$1.5M of lifetime gains are tax-free under the **Lifetime Tax-Free Capital Gains Allowance** (\$3M married filing jointly) and long-term holdings are still rewarded. FSTA sets capital gains rates by **Cumulative Lifetime Capital Gains** — the running total of realized gains — to ensure extreme wealth does not pay lower rates than labor. Throughout this document, “lifetime capital gains” refers to the same tracked cumulative total, whether described as the allowance or cumulative gains. **At $100M+ in lifetime gains, capital gains rates converge with ordinary income (45%).**
 
 ### **Capital Gains (Asset Appreciation)**
 
@@ -256,8 +251,6 @@ For the most part, there are no changes to how capital losses, interest and divi
 ## **Q8: How are brackets calibrated over time?**
 
 These principles apply to both **income tax brackets** and **lifetime capital gains brackets**. The brackets shown here are initial calibrations. Phase 1 is focused on locking in structure, not final rates, and reasonable disagreement on exact bracket levels is expected. The system is intentionally designed to allow iteration without reopening core structural decisions over time, with wealth disparity treated as a primary calibration input.
-
-Today’s tax code contains too many hidden levers to model or tune coherently. This proposal intentionally limits the number of policy knobs so modeling, feedback, and adjustment are clearer over time. Simplicity is a governance advantage, not just a usability improvement.
 
 Bracket calibration may be adjusted over time based on a small set of explicit indicators, including:
 
