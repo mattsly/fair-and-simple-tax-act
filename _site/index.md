@@ -1,82 +1,92 @@
-The Fair and Simple Tax Act is a proposal to "refactor U.S." fiscal policy.
+# The Fair & Simple Tax Act
 
-### Why This Matters
-The U.S. tax system raises revenue in ways that are opaque, uneven, and increasingly disconnected from how Americans actually earn money and build wealth. It punishes work more reliably than wealth, rewards financial engineering over productive activity, and requires an entire parallel industry just to navigate it. The result is a system that is widely resented, poorly understood, and politically brittle.
+**A two-phase proposal to modernize how America raises revenue and funds earned benefits.**
 
-At the same time, we are heading into a decade defined by two unavoidable realities:
-1. An aging population that will put sustained pressure on Social Security and Medicare
-2. A labor market that looks nothing like the one the tax code was designed for
+The U.S. tax system is overly complex, opaque, and increasingly optimized for strategies that concentrate wealth rather than broadly reward work, saving, and productive investment.
 
-Layering new credits on top of old deductions, or carving out yet another exception, only deepens the problem. Complexity itself has become a form of unfairness.
+This project proposes a cleaner, more durable alternative designed to be legible to citizens and usable by policymakers.
 
-This proposal starts from a different premise:
+---
 
-If the tax code were simple, durable, and legible to ordinary citizens, many downstream problems would become easier to solve.
+## The Proposal (Start Here)
 
-The policy design is based on three fundamental tenets (see below). These tenets will be referenced throughout, and are included in each independant proposal.
+> *The proposals are written in an [Amazon-style "Working Backwards" PR-FAQ format](https://www.aboutamazon.com/news/workplace/an-insider-look-at-amazons-culture-and-processes) I spent much of my career in technology and product development and have written many such documents. The format is an effective way to present new ideas, establish clear design tenets, and make assumptions and tradeoffs explicit.*
 
-Phase 1 modernizes how we tax income and capital so that work, saving, and entrepreneurship are treated consistently and transparently.
+### **Phase 1: Income & Capital Gains**
+A structural redesign of the income and capital gains tax system that:
+- Simplifies brackets and eliminates major carve-outs  
+- Introduces a lifetime capital gains framework  
+- Consolidates family benefits  
+- Closes buy–borrow–die mechanics  
+- Reduces compliance and tax-planning overhead  
+- Net revenue-positive over the long term, raising several hundred billion dollars annually and closing a meaningful share of the structural federal deficit through base broadening and reduced avoidance.
+  
+→ **[Read Phase 1: Income & Capital Gains Reform](phase_1_income_tax_reform_pr_faq.md)**
 
-Phase 2 strengthens Social Security by broadening its funding base in a way that reflects today’s economy, without cutting benefits for typical workers.
+---
 
-The goal is not to “win” a partisan argument or to optimize for a single constituency. It’s to build a tax system that can plausibly last: one that people can understand, comply with, and debate honestly.
+### **Phase 2: Social Security**
+A modernization of Social Security financing that:
+- Broadens the contribution base to reflect today’s economy  
+- Preserves scheduled benefits for typical earners  
+- Improves long-term solvency without benefit cuts  
+- Treats wage earners and business owners more consistently  
+- Restores Social Security to long-term solvency on a 75-year horizon without reducing scheduled benefits for typical earners.
 
-A tax system that no one trusts cannot sustain a democratic society for long. This is an attempt to rebuild that trust, starting with the fundamentals.
+→ **[Read Phase 2: Social Security Modernization](phase_2_social_security_modernization_pr_faq.md)**
 
-### Why I'm Doing This
+---
 
-I’ve paid taxes as a student, a teacher, a W-2 employee, a startup employee, a founder, an executive, and an investor. I’ve filed as single and married, with and without kids. I’ve done my taxes by hand, used consumer software, hired professionals, filed extensions, and dealt with edge cases that only show up once you’ve lived in the system for a long time. None of this makes me special, but it does give me a wide, practical view of how the tax code actually behaves in the real world.
+## Why This Matters
 
-What stands out is not that taxes are too high or too low. It’s that the system is far more complex than it needs to be, in ways that actively distort behavior and undermine trust.
+The U.S. tax system isn’t just complicated. It is structurally misaligned with the economy and society it is meant to serve.
 
-I’m a systems thinker by training and by instinct. I’ve spent my career designing and maintaining software systems, and one lesson carries across domains: complexity is not neutral. Every extra rule, exception, and workaround increases failure modes, shifts power to intermediaries, and makes honest reasoning harder. When a system becomes too complex to explain clearly, it stops being governable. The tax code now feels like a software system that has never been refactored, only patched.
+Over time, three deep problems have emerged.
 
-I’m also an experienced product leader. Whether we like it or not, we are all customers of our government, and the tax code is how most of us interact with it most directly. For many households, taxes are the single largest “purchase” they make each year. Yet the experience is opaque, stressful, and often dependent on professional help. In any other domain, we would call that a design failure. A well-designed tax system should feel more like a simple checkout flow than a legal obstacle course. That means thinking explicitly about different user personas, defaults, automation, and clarity, not just statutory intent.
+**First, the system has become too complex to understand, explain, or govern.**  
+What began as a set of pragmatic rules has grown into a dense web of deductions, credits, exceptions, and phase-outs. Complexity is not neutral. It shifts power toward specialists, raises compliance costs, and makes honest public debate about tradeoffs nearly impossible. When a tax system requires professional mediation to navigate, it stops being democratically legible. Trust erodes not because people disagree with outcomes, but because they cannot reason about the system at all.
 
-I sold a company a few years ago and now have time to work on problems that sit at the intersection of systems, numbers, and fairness. This is exactly that kind of problem. I’m not approaching it as an academic exercise or a campaign platform, but as a design challenge: how do we build a tax system that is simpler, more legible, and more durable over time?
+**Second, the system no longer treats income and wealth accumulation coherently.**  
+Labor income is taxed early and often, while large asset gains can compound for decades with little or no taxation. Similar economic outcomes are treated very differently depending on form, timing, and sophistication. This asymmetry rewards financial engineering over productive activity and contributes to persistent wealth concentration that undermines economic mobility and opportunity. The issue is not any single tax rate. It is that the structure no longer aligns incentives with broadly shared growth.
 
-Finally, I’m doing this as an American citizen and a parent. I’m concerned about the long-term fiscal health of the country my kids will inherit, and about a political environment that makes sensible reform feel impossible. I believe we need to find a middle ground that protects and rewards innovation and work, while also acknowledging the systemic risks of extreme and growing wealth inequality.
+**Third, the current structure makes long-term fiscal balance harder, not easier.**  
+An aging population, rising interest costs, and persistent deficits leave little room for error. Yet the tax code relies on narrow bases, temporary provisions, and optimistic assumptions. Systems that are complex, brittle, and fiscally unbalanced do not fail all at once. They fail through gradual loss of credibility, followed by crisis-driven fixes that are harder and more divisive than thoughtful reform would have been.
 
-This proposal is an attempt to bring a fresh perspective, without a political agenda, to a system that desperately needs one.
+These problems point to a clear conclusion: continuing to layer new credits, deductions, and exceptions onto the existing system will not resolve its underlying failures. Over time, that approach has increased complexity without improving fairness or durability.
 
-{% include tenets.md %}
+This proposal focuses on structural reform within the existing income and capital gains framework. A simpler, more coherent, and fiscally durable system is not just easier to comply with—it is fairer, more enforceable, and more likely to endure.
+That leads to three design commitments:
 
-## Proposals
+These conclusions inform three core design tenets that guide both phases of the proposal:
 
-These proposals are intentionally written in an [Amazon-style "Working Backwards" PR-FAQ format](https://www.aboutamazon.com/news/workplace/an-insider-look-at-amazons-culture-and-processes) by [Matt Sly](https://wwww.mattsly.com). I spent much of my career in technology and product development and wrote many such documents. The format is an effective way to present new ideas, establish clear design tenets, and make assumptions and tradeoffs explicit.
+- **Radical Simplicity**
+- **Fuel the Climb (Don’t Protect the Summit)**
+- **Fiscal Durability**
 
-As a major caveat - I am not a career policy professional. I’m a quasi-retired software entrepreneur. I am approaching the U.S. tax code as a product that has accumulated complexity over decades without a clear owner and is not serving its customers well. My goal is to help “refactor” the tax code by simplifying where possible, reducing the hidden costs of complexity and edge cases, and making fiscal tradeoffs legible to both policymakers and the public.
+Each tenet is defined in detail and applied consistently across Phase 1 and Phase 2.
 
-Each proposal can be enacted independently, but they are designed together and can be calibrated as part of a single fiscal system.
+The goal is not to win a partisan argument or optimize for a single constituency. It is to refactor a system that has accumulated too much accidental complexity and too many hidden tradeoffs.
 
-#### [Phase 1: Income Tax Reform](phase_1_income_tax_reform_pr_faq.md) Eliminate loopholes and complexity, introduce new top bracket, universal child credit, and a **Lifetime Tax-Free Capital Gains Allowance** with a lifetime rate table. 
+A tax system that people cannot understand cannot sustain trust.  
+A system that cannot balance over time cannot sustain a republic.
 
-#### [Phase 2: Social Security Modernization](phase_2_social_security_modernization_pr_faq.md): Restore solvency and protect current and future retirees.
+This is an attempt to fix both.
 
-#### Phase 3: American Opportunity Accounts (Coming Soon)
+---
 
-## Fiscal Sustainability Summary
+## About This Project
 
-This project is designed to be additive across phases, but it does not replace the need for spending reform.
+These proposals are by [Matt Sly](https://wwww.mattsly.com). I am not a career policy professional. I’m a quasi-retired software entrepreneur. I’ve paid taxes in many roles—student, teacher, employee, founder, executive, investor, parent—and seen the system from multiple angles. 
 
-### **Current Fiscal Baseline (Illustrative)**
+I’m a systems thinker and product builder by background, and I approach the tax code the same way I would a complex software system that has accumulated too much accidental complexity over decades without a clear owner and is not serving its customers well. My goal is to help “refactor” the tax code by simplifying where possible, reducing the hidden costs of complexity and edge cases, and making fiscal tradeoffs legible to both policymakers and the public.
 
-| Metric | Current | Sustainable Target | Gap to Close |
-| :---- | :---- | :---- | :---- |
-| **Federal Deficit** | ~\$1.7T (~6% of GDP) | ~\$840B–1.14T (3–4% of GDP) | ~\$600B–1.12T annually |
-| **Over 10 Years** | ~\$17T of deficit | ~\$8.4T–11.4T sustainable | Need to reduce by ~$6.0T–11.2T |
+This project is not affiliated with a political party, campaign, or institution. It is an attempt to apply systems thinking, real-world experience, and clear tradeoffs to a problem that sits at the intersection of economics, equity, and long-term national health.
 
-### **Project Impact (Illustrative Annual)**
+---
 
-| Component | Annual Impact | Notes |
-| :---- | :---- | :---- |
-| **Phase 1** | **\$200–310B** | Base‑broadening and loophole closure |
-| **Phase 2** | **\$310–350B** | Long‑run Social Security gap reduction (steady‑state, illustrative) |
-| **Interest Savings** | **\$20–50B (near‑term)** | Scales over time with debt avoided and rates |
+## Scope and Status
 
-### **What Remains**
-
-On optimistic assumptions, Phase 1 + Phase 2 + interest savings can close most (or even all) of the near‑term deficit gap. On conservative assumptions, a meaningful gap remains, so **targeted spending cuts and modernization** are still likely needed.
-
-*Note:* Interest savings are small in the early years and grow as avoided debt accumulates. A simple rule of thumb is **interest savings ≈ cumulative debt avoided × average interest rate**.
-Example (10‑year, 4%): avoiding $6T of cumulative borrowing implies roughly **$240B/year** in interest savings once fully phased in.
+- This is a **structural proposal**, not a fully calibrated legislative bill.  
+- All figures are illustrative ranges, not point estimates.  
+- Corporate taxation is out of scope.  
+- Feedback and critique are welcome.
