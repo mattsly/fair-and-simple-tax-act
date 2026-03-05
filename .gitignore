@@ -1,2 +1,6 @@
+# macOS clutter
 .DS_Store
 Thumbs.db
+
+# Jekyll build output
+_site/
