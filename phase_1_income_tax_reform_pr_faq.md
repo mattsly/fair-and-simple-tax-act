@@ -64,6 +64,7 @@ The Fair & Simple Tax Act is designed to be fiscally responsible. By broadening 
 This Act is intentionally focused in scope. It addresses personal income and capital taxation and does not attempt to resolve every major fiscal challenge in a single step.
 
 The goal of the Fair & Simple Tax Act is not to make the tax code perfect, but to make it legible, coherent, and honest about tradeoffs. By simplifying the system and aligning incentives with productive economic activity, the proposal aims to create a tax code that better serves taxpayers, policymakers, and the long-term health of the country.
+
 {% include tenets.md %}
 
 # Frequently Asked Questions (FAQs)
