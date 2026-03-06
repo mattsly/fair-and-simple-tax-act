@@ -2,7 +2,9 @@
 
 ### A Proposal to Radically Simplify Capital Gains Taxation and Reduce Wealth Inequality in a Fiscally Durable Manner
 
-I'm [Matt Sly](https://www.mattsly.com) - a software entrepreneur, not a policy professional. But the tax code is essentially an algorithm. And, as implemented, it is our country's most profound and expensive technical debt. My perspective is shaped by 20 years managing software products as well as a lifetime of paying taxes in many capacities: a student, a W2 employee, startup employee, founder and investor.
+I'm [Matt Sly](https://www.mattsly.com) - a software entrepreneur, not a policy professional. But the tax code is essentially an algorithm. And, as implemented, it is our country's most profound and expensive technical debt. I also have a lifetime of experience paying taxes in many capacities: a student, a W2 employee, startup employee, founder and investor.
+
+My perspective is shaped by 20 years of experience building software, during which I focued on maximizing objectives while minimizing complexity.
 
 I'm proposing a "major refactor" based on four design tenets. My solution is centered on the concept of a universal lifetime capital gains framework which renders entire categories of tax law redundant while addressing many of our most pressing social challenges including profound wealth inequality and a cascading federal deficit.
 
@@ -22,7 +24,7 @@ Over decades, the tax code, specifically as it pertains to capital and wealth, h
 
 Simultaneously, the federal deficit has become a primary national expense, with 2026 net interest outlays projected to exceed $1 trillion, or roughly 14% of the total federal budget.
 
-The LEA introduces a single Lifetime Gains Framework that replaces the entire capital gains patchwork with two rules: a generous lifetime exemption and ordinary income treatment above it. The Act eliminates dozens of complex carve-outs and loopholes, moves the country toward long-term budget sustainability by raising an estimated $200–300 billion annually, and makes the system legible enough to explain in two sentences.
+The LEA introduces a single Lifetime Gains Framework that replaces the entire capital gains patchwork with two rules: a generous lifetime exemption and a sliding scale that phases up to ordinary income rates. The Act eliminates dozens of complex carve-outs and loopholes, moves the country toward long-term budget sustainability by raising an estimated $120–265 billion annually, and makes the system legible enough to explain in two sentences.
 
 Importantly, the LEA is not a wealth tax. It accomplishes the same objective of reducing wealth inequality with a simpler, constitutionally sound mechanism. The LEA also eliminates three redundant "shadow" components of the tax code — the Estate Tax, the Alternative Minimum Tax, and the Net Investment Income Tax — making it the largest tax simplification in modern American history. This combination of progressive base-broadening and conservative tax repeal has achieved broad appeal across a bipartisan congressional coalition.
 
@@ -48,20 +50,23 @@ Risk-taking and entrepreneurship have genuine social value. The framework must p
 
 ## Solution Overview
 
-The core idea can be stated in two sentences: **Every American gets their first $3 million in lifetime capital gains tax-free ($6 million for married couples). Above that, gains are taxed as ordinary income, averaged over the holding period.**
+The core idea can be stated in two sentences: **Every American gets their first $3 million in lifetime capital gains tax-free ($6 million for married couples). Above that, the tax rate phases up gradually, reaching ordinary income rates at $25 million in cumulative lifetime gains.**
 
 That's it. Two rules replace the entire capital gains patchwork — the rate tables, the exclusions, the exemptions, the deferrals, and the three parallel tax systems that exist solely because the base system has so many holes.
 
-> **How to Read the Numbers in This Proposal**
+> **How to Read This Document**
 >
-> This document proposes a structure. The brackets and thresholds shown are initial calibrations meant to prove the system works and to anchor fiscal targets. Reasonable people can disagree on exact numbers; any revisions must still meet the revenue and durability goals in Tenet 2. The intent is to make the levers transparent and modelable, so debate stays focused on outcomes rather than defending a system that cannot be clearly understood, modeled, or tuned.
-
+> This is a working draft intended to invite debate, not foreclose it. The core architecture — a lifetime exemption, three realization events, CPI-indexed basis, and elimination of shadow tax codes — is a structural proposal. But several important design choices remain deliberately open, and **we are asking for your input.**
+>
+> The most consequential: [how should gains above the exemption be taxed?](#3-help-us-choose-what-is-the-right-rate-structure-above-the-exemption) We present three options — from full ordinary income treatment to a graduated sliding scale — each with real tradeoffs in simplicity, political viability, and incentive design. The document's preferred approach is Option C (sliding scale), though the case studies were originally modeled on Option A and are noted accordingly.
+>
+> Additional open questions — including the exemption threshold, dividend treatment, and charitable transfer rules — are collected in the [Open Questions and Debates](#open-questions-and-debates) section. The intent is to make the levers transparent and modelable, so debate stays focused on outcomes rather than defending a system that cannot be clearly understood, modeled, or tuned.
 
 ### Why This Design
 
 The $3M/$6M lifetime exemption ensures that over 99% of American households never interact with capital gains taxation at all. A married couple can sell their home, their stock portfolio, their small business — and pay nothing on the first $6 million in lifetime gains. This is the most generous universal capital gains allowance ever proposed in any country. It replaces Section 121 (home sale exclusion), QSBS (startup stock exclusion), and every other narrow provision with a single, universal benefit that treats all Americans equally regardless of asset class, entity type, or industry. The government stops dictating which types of investments deserve reward — a home sale, a stock sale, and a business exit are treated identically.
 
-For gains above the exemption, holding-period averaging prevents the "bunching" problem that has historically been the strongest argument against taxing gains as income. When you sell an asset held for 10 years, the gain is spread over 10 years for rate purposes. An $8M gain held 10 years is taxed as if you earned an extra $800K per year. This means long-term holders pay substantially lower rates than short-term speculators — preserving the incentive for patient capital without requiring a separate rate schedule.
+For gains above the exemption, the tax rate phases up on a sliding scale from 0% (at the $3M/$6M exemption boundary) to the taxpayer's ordinary income rate (at $25M in cumulative lifetime gains). This eliminates the cliff effect that would otherwise make the jump from tax-free to fully-taxed abrupt and politically untenable. The sliding scale also eliminates the need for holding-period averaging — because the rate increases gradually across a wide range, the "bunching" problem that has historically been the strongest argument against taxing gains as income is addressed by the rate structure itself rather than by an additional averaging mechanism.
 
 Three expanded realization events — death, gifts, and borrowing — ensure gains cannot be deferred indefinitely. Basis is indexed to inflation so the system taxes real wealth, not measurement error.
 
@@ -75,7 +80,7 @@ Because the lifetime gains system is universal and closes all deferral escape ro
 |---|---|---|
 | Estate Tax | ~$20-25B/yr | Deemed realization at death collects multiples more — with no avoidance path. The estate tax's existence has historically justified stepped-up basis, which costs $75-100B/yr. Abolishing both and replacing with deemed realization is a massive net gain. ([See FAQ: Why abolish the estate tax?](#q-why-abolish-the-estate-tax-instead-of-fixing-it)) |
 | Alternative Minimum Tax (AMT) | ~$5-7B/yr | A parallel tax system created in 1969 to catch 155 wealthy non-payers. It now traps millions of upper-middle-class households while the truly wealthy route around it. With no exclusions to exploit, AMT's purpose is obsolete. |
-| Net Investment Income Tax (NIIT) | ~$25-33B/yr | A 3.8% surtax bolted onto capital gains to fund Medicare — a patch on a patch. Under the hybrid, gains above the exemption flow to the 1040 as ordinary income, where they are taxed at rates far exceeding 3.8%. The NIIT becomes redundant by design, not repealed as a giveaway. Medicare revenue *increases*. ([See FAQ: How is Medicare funded without the NIIT?](#q-how-is-medicare-funded-without-the-niit)) |
+| Net Investment Income Tax (NIIT) | ~$25-33B/yr | A 3.8% surtax bolted onto capital gains to fund Medicare — a patch on a patch. Under this framework, gains above the exemption flow to the 1040 as ordinary income, where they are taxed at rates far exceeding 3.8%. The NIIT becomes redundant by design, not repealed as a giveaway. Medicare revenue *increases*. ([See FAQ: How is Medicare funded without the NIIT?](#q-how-is-medicare-funded-without-the-niit)) |
 
 **Twelve shadow exclusions and preferences eliminated:**
 
@@ -95,7 +100,7 @@ Because the lifetime gains system is universal and closes all deferral escape ro
 | Lifetime Gift Tax Exemption ($13.6M) | Eliminated. Gifts are realization events with basis reset; the exemption's original purpose (preventing double taxation with the estate tax) no longer applies. The annual gift exclusion ($18K) is retained for administrative simplicity. |
 | Carried Interest Preference | Rendered moot. Gains above the exemption are ordinary income. A fund manager with $50M+ in gains pays the same rate as if it were wages. Rate convergence eliminates the preference without requiring the IRS to draw definitional lines. |
 
-**Elevator pitch:** *"Every American gets their first $3 million in lifetime capital gains tax-free. Above that, gains are taxed as income, averaged over your holding period. We eliminate the estate tax, the AMT, and twelve special preferences that only benefit the well-advised. One system. No loopholes. No games."*
+**Elevator pitch:** *"Every American gets their first $3 million in lifetime capital gains tax-free. Above that, the rate phases up gradually to ordinary income rates. We eliminate the estate tax, the AMT, and twelve special preferences that only benefit the well-advised. One system. No loopholes. No games."*
 
 The framework also includes targeted **Roth IRA reform** to close the "Peter Thiel loophole" — the last remaining avenue for unlimited tax-free accumulation. Income limits are removed, the annual cap is raised to $15K, and a $5M balance cap ensures the Roth serves ordinary savers, not billionaires. ([See Roth Reform FAQ for details.](#q-how-do-roth-accounts-change-and-what-about-the-thiel-loophole))
 
@@ -106,7 +111,7 @@ The framework also includes targeted **Roth IRA reform** to close the "Peter Thi
 
 ### FAQ Quick Links
 
-**Implementation Details:** [How does the lifetime exemption work?](#q-how-does-the-lifetime-exemption-work) · [What is holding-period averaging?](#q-what-is-holding-period-averaging) · [How do the three realization events work?](#q-how-do-the-three-realization-events-work) · [How does CPI basis indexing work?](#q-how-does-cpi-basis-indexing-work) · [How does the lifetime counter work?](#q-how-does-the-lifetime-counter-work) · [Payment flexibility for illiquid assets?](#q-what-about-payment-flexibility-for-illiquid-assets)
+**Implementation Details:** [How does the lifetime exemption work?](#q-how-does-the-lifetime-exemption-work) · [What is the sliding scale?](#q-what-is-the-sliding-scale-and-how-does-it-work) · [How do the three realization events work?](#q-how-do-the-three-realization-events-work) · [How does CPI basis indexing work?](#q-how-does-cpi-basis-indexing-work) · [How does the lifetime counter work?](#q-how-does-the-lifetime-counter-work) · [Payment flexibility for illiquid assets?](#q-what-about-payment-flexibility-for-illiquid-assets)
 
 **What Gets Eliminated:** [Why abolish the estate tax?](#q-why-abolish-the-estate-tax-instead-of-fixing-it) · [Dynasty fortunes without estate tax?](#q-without-an-estate-tax-do-we-enable-perpetual-dynastic-fortunes) · [Homeowners hurt?](#q-doesnt-eliminating-the-primary-residence-exclusion-hurt-homeowners) · [QSBS elimination?](#q-will-getting-rid-of-qsbs-punish-entrepreneurs-and-innovators) · [1031 elimination?](#q-wont-eliminating-1031-exchanges-crash-the-real-estate-market) · [Carried interest?](#q-what-about-carried-interest)
 
@@ -138,43 +143,35 @@ Key rules:
 - Capital losses can offset gains within each year but do not replenish the exemption.
 - The exemption is per individual and becomes portable prospectively upon marriage; it does not retroactively pool pre-marriage gains.
 
-Once the exemption is exhausted, all subsequent long-term capital gains are added to the taxpayer's 1040 as ordinary income, subject to [holding-period averaging](#q-what-is-holding-period-averaging).
+Once the exemption is exhausted, all subsequent long-term capital gains are taxed on a sliding scale that phases from 0% (at the exemption boundary) to the taxpayer's ordinary income rate (at $25M in cumulative lifetime gains). See [rate structure details](#q-what-is-the-sliding-scale-and-how-does-it-work).
 
 **Example:** A married couple sells their home ($400K gain), then later sells stock ($200K gain), then one spouse sells a small business ($800K gain). Total lifetime gains: $1.4M. All within the $6M joint exemption. **$0 tax.** They have $4.6M of exemption remaining for future gains.
 
 **Why $3M?** The threshold is a calibration variable, not a structural choice — but the rationale matters. $3M is high enough to cover 99%+ of American households' lifetime capital gains (including multiple home sales, retirement portfolio gains, and a small business exit). It's high enough to neutralize the "anti-innovation" attack: a founder's first $3M exit is completely tax-free, with zero qualifying tests. And it's low enough that gains above it generate meaningful revenue. The number can be adjusted legislatively without reopening the structural framework; any revision must still meet the revenue targets in Tenet 2.
 
-#### Q: What is holding-period averaging?
+#### Q: What is the sliding scale and how does it work?
 
-When a gain above the lifetime exemption is realized, the gain is divided by the number of years the asset was held. This **annualized gain** is added to the taxpayer's regular income for that year to determine the applicable tax rate. The total tax equals the incremental tax (from adding the annualized gain) multiplied by the number of holding years.
+Above the lifetime exemption, the capital gains tax rate phases up continuously from 0% to the taxpayer's ordinary income tax rate over the range from $3M to $25M in cumulative lifetime gains ($6M to $50M for married couples filing jointly). This is a smooth, linear interpolation — no brackets, no cliffs, no discrete jumps.
 
-This mechanism — historically known as "income averaging" and used in U.S. tax law until 1986 (and still available for farmers) — prevents the "bunching" problem that has always been the strongest argument against taxing gains as income.
+**Example:** Marcus has used his $3M exemption and realizes a $5M gain. His cumulative lifetime gains are now $8M — that's $5M into the $22M phase-up range ($3M to $25M). The applicable capital gains rate on this $5M: approximately 5/22 × 37% = **~8.4%**. Tax: ~$420K. Effective rate on the full $8M in lifetime gains (including the $3M at 0%): **~5.3%**.
 
-**Example:** Marcus has $200K in regular income and realizes an $8M gain on an asset held for 10 years. His lifetime exemption is fully used.
+Compare to a $25M+ cumulative gain, where the rate has fully phased up to ordinary income levels (~37%). The sliding scale ensures that the transition from tax-free to full taxation is gradual — every additional dollar of gain is taxed at a slightly higher rate, but the increase is never abrupt.
 
-- Annualized gain: $8M ÷ 10 = $800K
-- Tax on $200K income: ~$40K
-- Tax on $1M income ($200K + $800K): ~$310K
-- Incremental tax per year: ~$270K
-- **Total tax on gain: $270K × 10 = $2.7M (effective rate on gain: ~34%)**
+**Why this design?** The "bunching" problem — historically the strongest argument against taxing gains as income — is addressed by the rate structure itself rather than by a separate averaging mechanism. A founder who sells a company for $10M doesn't get hit with a sudden 37% rate; the sliding scale ensures the effective rate reflects their position in the phase-up range. This eliminates the need for holding-period averaging (see [Open Question #4](#4-is-holding-period-averaging-still-needed-under-a-sliding-scale)), which is a significant simplicity win — particularly for private businesses, real estate, and farms where computing averaged gains adds complexity.
 
-Without averaging, the full $8M would land in one year, pushing the effective rate to ~37%. Averaging saves Marcus approximately $260K and ensures long-term holders pay lower effective rates than short-term speculators — preserving the incentive for patient capital.
+**Implementation:** The calculation is a single linear interpolation that any tax software can handle: `rate = min(max_rate, max_rate × (cumulative_gains - exemption) / (phase_out_ceiling - exemption))`. Brokerages already track cost basis; the IRS tracks the lifetime counter. The taxpayer's experience is: check your counter, look up your rate, done.
 
-**For smaller gains, the effect is even more pronounced.** A $1M gain held 10 years on top of $100K regular income: averaged rate ~25% vs. ~35% without averaging. This is where the design matters most — protecting the successful-but-not-ultra-wealthy.
-
-**Implementation:** Brokerages already track cost basis and acquisition dates per lot. The averaging calculation is a simple division that any brokerage system can automate and report on existing 1099-B forms. For taxpayers, the math is invisible — it's handled by software, not by hand.
-
-**What about private businesses, real estate, and farms?** For non-brokerage assets, the holding period is typically clear (when you acquired the asset) and the CPI adjustment requires only a purchase date and purchase price — both of which the owner already knows. The genuinely hard part — *valuing* an illiquid business or property at death or gift — is unchanged from today's estate tax system. We're not adding that problem; it already exists. What we *are* adding is one multiplication (CPI adjustment) and one division (holding-period averaging). Meanwhile, under current law, these same assets often require far more complex calculations: a farm that's been 1031-exchanged three times, has layered depreciation recapture, and was partially gifted requires tracking multiple basis components across decades. Under this framework: one basis number, one CPI adjustment, one division. Net complexity goes *down* for most private assets.
+**What about private businesses, real estate, and farms?** For non-brokerage assets, the CPI basis adjustment requires only a purchase date and purchase price — both of which the owner already knows. The genuinely hard part — *valuing* an illiquid business or property at death or gift — is unchanged from today's estate tax system. We're not adding that problem; it already exists. What we *are* adding is one multiplication (CPI adjustment) and one rate lookup. Meanwhile, under current law, these same assets often require far more complex calculations: a farm that's been 1031-exchanged three times, has layered depreciation recapture, and was partially gifted requires tracking multiple basis components across decades. Under this framework: one basis number, one CPI adjustment, one rate. Net complexity goes *down* for most private assets.
 
 #### Q: How do the three realization events work?
 
-The framework expands realization beyond just sales to close the three major deferral strategies. In each case, gains within the remaining lifetime exemption are tax-free; gains above flow to the 1040 as ordinary income with holding-period averaging.
+The framework expands realization beyond just sales to close the three major deferral strategies. In each case, gains within the remaining lifetime exemption are tax-free; gains above are taxed on the sliding scale (phasing from 0% at the $3M exemption to ordinary income rates at $25M in cumulative gains).
 
 **1. Death is a realization event.** All unrealized gains are taxed on the decedent's final return. Heirs receive a clean basis at the date-of-death value. This follows the Canadian model (in use since 1972) and eliminates stepped-up basis entirely. For most families, the lifetime exemption shields all gains and nothing is owed.
 
 **Example (typical estate):** $300K in unrealized gains (after CPI adjustment), unused $3M exemption → **$0 tax**. Heir inherits at current market value with a clean basis.
 
-**Example (large estate):** $80M in unrealized gains (after CPI adjustment), exemption fully used. With holding-period averaging over 20 years, the annualized gain of $4M pushes the rate to ~37%. Total tax: approximately $29M. ([Payment flexibility](#q-what-about-payment-flexibility-for-illiquid-assets) is available for illiquid assets.)
+**Example (large estate):** $80M in unrealized gains (after CPI adjustment), exemption fully used. At this level, the sliding scale has fully phased up to ordinary income rates (~37%). Total tax: approximately $29M. ([Payment flexibility](#q-what-about-payment-flexibility-for-illiquid-assets) is available for illiquid assets.)
 
 **2. Gifts are realization events.** The donor pays tax at the time of transfer using their own lifetime counter. This neutralizes GRATs, dynasty trusts, and every other technique that relies on transferring appreciation without triggering tax. The recipient receives a clean basis at the gift-date value.
 
@@ -206,11 +203,11 @@ The lifetime counter is the core tracking mechanism. It is:
 - **Inflation-adjusted.** Gains entering the counter are real gains after CPI basis adjustment.
 - **Survives marriage and divorce.** The counter belongs to the individual. Marriage doubles the exemption thresholds for joint filing; divorce returns each spouse to their individual counter. ([See marriage FAQ for details.](#q-what-happens-with-marriage-and-divorce))
 
-The counter serves a single purpose: tracking whether you've used your $3M lifetime exemption. Once the exemption is exhausted, the counter is no longer relevant — subsequent gains simply flow to the 1040 as ordinary income with holding-period averaging. This is dramatically simpler than maintaining a multi-bracket lifetime schedule, because the only threshold that matters is one number: $3M.
+The counter serves two purposes: tracking whether you've used your $3M lifetime exemption, and determining your position on the sliding scale above it. Once cumulative gains exceed $25M, the scale has fully phased up and the counter becomes a simple pass-through — all subsequent gains are taxed at ordinary income rates.
 
 **Capital losses:** Losses offset gains without limit within each year (same as current law). Up to $3,000/year of net losses can offset ordinary income (same as current law). Net losses in a given year reduce the lifetime counter, reopening exemption headroom. Because the counter itself tracks the net position, there is no need for a separate loss carryforward — the counter *is* the carryforward.
 
-**Dividends:** Qualified dividends are taxed at a 15% minimum rate; they do *not* consume the lifetime exemption. Ordinary dividends are taxed as ordinary income (same as current law). Interest income rules are unchanged.
+**Dividends:** Qualified dividends are treated identically to capital gains — they count against the lifetime counter and are taxed on the same sliding scale above the exemption. This preserves the current alignment between dividends and gains (both taxed at the same rate) while eliminating the need for a separate rate schedule. Ordinary dividends are taxed as ordinary income (same as current law). Interest income rules are unchanged. ([See FAQ: What happens to qualified dividends?](#q-what-happens-to-qualified-dividends))
 
 #### Q: What about payment flexibility for illiquid assets?
 
@@ -272,7 +269,19 @@ No. The exemption is the innovation incentive. A founder who builds a company ov
 
 **Who QSBS actually serves:** QSBS requires you to form a C-corp (not an LLC or S-corp — the structures 95% of small businesses actually use), stay under $75M in assets, be in a qualifying industry, and hold for 5+ years. A Treasury analysis found that 70% of excluded QSBS dollars go to taxpayers with average income over $1 million making claims over $1 million. The landscaper who builds a $3M business and sells it gets nothing from QSBS. Under this framework, they get the same exemption as the YC-backed founder.
 
-**For large exits:** A founder with a $20M exit pays tax on $17M above the exemption as ordinary income with holding-period averaging. Over a 10-year holding period, the annualized gain of $1.7M puts them in the 37% bracket. Effective rate on the full $20M: approximately 29%. This is higher than current law's 23.8% — but the founder also got $3M at 0%, didn't need to spend $20K on tax attorneys qualifying for QSBS, and the estate tax / AMT / NIIT they'd eventually encounter are all gone.
+**For large exits:** A founder with a $20M exit pays tax on $17M above the exemption on the sliding scale. At $20M cumulative, the scale hasn't fully phased up — the effective rate on the $17M above the exemption is approximately 26%, for total tax of ~$4.4M. Effective rate on the full $20M: approximately 22%. This is comparable to current law's 23.8% — but the founder also got $3M at 0%, didn't need to spend $20K on tax attorneys qualifying for QSBS, and the estate tax / AMT / NIIT they'd eventually encounter are all gone.
+
+#### Q: Doesn't this punish serial entrepreneurs?
+
+The objection: "Why should it matter how well I've done in the past? We want founders to swing for the fences every time. By raising rates after a modest threshold, you're taxing success."
+
+**The math first.** A serial founder whose exemption is fully used, exiting a second company at $20M after 8 years, with $300K in other income: Under current law, they keep ~$15.2M after tax. Under this framework (Option A), they keep ~$12.8M. The difference is $2.4M on a $20M exit. The framework doesn't eliminate the reward — it adjusts it. The founder still builds life-changing wealth on every successful venture.
+
+**Wealth changes the nature of risk.** The exemption protects the first venture — where a founder might be maxing out credit cards, forgoing salary, and betting their financial future. That's genuine risk, and the code should reward it generously. A founder starting company #2 with $10M in the bank is in a fundamentally different position: they can self-fund longer, take a lower salary, negotiate from strength with investors, and absorb failure without personal financial ruin. The tax code shouldn't pretend these two situations carry the same risk.
+
+**Outcomes vary for reasons beyond effort.** Among equally talented, equally hardworking founders, the spread between a $5M exit and a $50M exit reflects market timing, competitive dynamics, network effects, and macroeconomic conditions as much as individual merit. Kauffman Foundation research consistently finds that serial founders are motivated primarily by autonomy, problem-solving, and the challenge itself — not by marginal differences in after-tax returns. The exemption rewards the skill and effort. The rate above it reflects that outsized outcomes involve significant variance not attributable to the founder's work alone.
+
+**The VC portfolio argument:** VCs will argue that fund-level returns depend on outsized exits, and higher tax rates shrink those returns. True at the margin — but VC fund economics are driven by 2-3 home-run investments that return 10-50x. The tax differential between 23.8% and ~35% on a 30x return does not change the investment decision. A deal that returns $100M is still a great deal at a 35% rate. The threshold where taxation materially alters VC portfolio construction is well above the range where this framework operates.
 
 #### Q: Won't eliminating 1031 exchanges crash the real estate market?
 
@@ -288,7 +297,7 @@ No. But the real estate lobby will tell you otherwise, so let's engage seriously
 
 #### Q: What about carried interest?
 
-Not banned — rendered moot. Under the hybrid, gains above the exemption are ordinary income. A fund manager with $50M+ in lifetime gains pays income tax rates, the same as if the gains were wages. Rate convergence eliminates the preference at scale without requiring the IRS to draw lines between "real" capital gains and labor income dressed up as capital gains.
+Not banned — rendered moot. Under this framework, gains above the exemption are ordinary income. A fund manager with $50M+ in lifetime gains pays income tax rates, the same as if the gains were wages. Rate convergence eliminates the preference at scale without requiring the IRS to draw lines between "real" capital gains and labor income dressed up as capital gains.
 
 Below the $3M exemption, emerging fund managers are actually *better off* than under current law. No new rules needed.
 
@@ -386,7 +395,7 @@ The lifetime counter is per individual, always. It is never pooled, merged, or t
 
 #### Q: What about expatriation and capital flight?
 
-Renouncing citizenship already triggers an exit tax under current law (IRC §877A, enacted 2008) — a mark-to-market deemed sale of all worldwide assets. This framework preserves and strengthens that mechanism: expatriation triggers deemed realization of all gains, with the lifetime exemption and holding-period averaging applied. Payment flexibility for illiquid assets. This is not a new realization event — it's an existing one that aligns naturally with the framework's three core triggers (death, gifts, borrowing).
+Renouncing citizenship already triggers an exit tax under current law (IRC §877A, enacted 2008) — a mark-to-market deemed sale of all worldwide assets. This framework preserves and strengthens that mechanism: expatriation triggers deemed realization of all gains, with the lifetime exemption and sliding scale applied. Payment flexibility for illiquid assets. This is not a new realization event — it's an existing one that aligns naturally with the framework's three core triggers (death, gifts, borrowing).
 
 Enforcement uses existing FATCA/FBAR reporting, beneficial ownership rules, and bank reporting on large transfers. Departure bonds and treaty information-sharing can be required for high-net-worth departures.
 
@@ -396,7 +405,7 @@ The fiscal risk is limited. A few thousand people renounce annually; a minority 
 
 The NIIT generates ~$30-40B/year from a 3.8% surtax on net investment income. But Medicare is already primarily funded from general revenue — Parts B and D draw ~75% from general funds, and Medicaid is 100% general revenue. The NIIT's "earmarking" for the Hospital Insurance Trust Fund is largely an accounting convention, not a lockbox.
 
-Under the hybrid, gains above the $3M/$6M exemption flow to the 1040 as ordinary income. They are taxed at rates ranging from 22% to 37% — far exceeding the NIIT's 3.8%. The NIIT becomes redundant because the problem it was designed to patch (investment income escaping adequate taxation) no longer exists. The existing 0.9% Additional Medicare Tax on high earners continues to apply.
+Under this framework, gains above the $3M/$6M exemption flow to the 1040 as ordinary income. They are taxed at rates ranging from 22% to 37% — far exceeding the NIIT's 3.8%. The NIIT becomes redundant because the problem it was designed to patch (investment income escaping adequate taxation) no longer exists. The existing 0.9% Additional Medicare Tax on high earners continues to apply.
 
 The net effect: a $30-40B surtax levied against a narrow, avoidable base is replaced by ordinary income taxation of a broad, unavoidable base — generating substantially more federal revenue available for Medicare, not less.
 
@@ -440,7 +449,7 @@ It depends on who you are.
 
 **If you're a middle-class family** with one home sale and a retirement portfolio: You almost certainly pay *less* under this system. The lifetime exemption covers the vast majority of your lifetime capital gains. You no longer need to worry about whether your home sale qualifies for Section 121, or whether you held long enough, or whether you used it as a primary residence for 2 of the last 5 years. You just sell your house.
 
-**If you're a successful entrepreneur** with a $5M exit: You pay ordinary income rates (with holding-period averaging) on $2M above the exemption. You might pay more than you would under current QSBS rules — but you don't need $20K in tax attorneys, and the effective rate with averaging over a 10-year holding period is moderate (~25-30%).
+**If you're a successful entrepreneur** with a $5M exit: You pay sliding-scale rates on $2M above the exemption. At $5M cumulative, you're early in the phase-up range — the effective rate on the $2M above the exemption is approximately 3-4%, far below current law's 23.8%. You might pay *less* than current law depending on your QSBS eligibility.
 
 **If you're a serial real estate investor** rolling gains through 1031 exchanges indefinitely: Yes, you pay more. The code currently lets you defer — and ultimately eliminate — gains forever. That ends. The counterargument is that 1031s encourage reinvestment in real estate, increasing housing supply. The evidence is weak: the National Association of Realtors' own data shows 1031 exchanges are concentrated in commercial properties, not residential construction. And the $3M/$6M exemption still covers most individual rental property investors entirely — this primarily affects large portfolio operators who were using 1031s as a permanent deferral engine.
 
@@ -616,22 +625,22 @@ Charitable giving reform (including a proposed universal credit) is addressed in
 | Change | Annual Revenue Gained | Notes |
 |---|---|---|
 | Deemed realization at death (stepped-up basis eliminated) | +$75-100B | Every estate realizes; exemption protects ordinary families |
-| Gains above $3M/$6M taxed as ordinary income | +$60-100B | Higher rates than old preferential system for gains in $3M-$25M range; holding-period averaging moderates effective rates |
+| Gains above $3M/$6M taxed on sliding scale to ordinary income | +$45-85B | Sliding scale (0% at $3M → ordinary income rates at $25M) produces modestly less than immediate ordinary income treatment; most revenue comes from gains above $25M where rates are identical |
 | Buy-borrow-die closure (borrowing as realization) | +$25-50B | Deemed sale when appreciated assets secure consumption loans |
 | QSBS elimination (replaced by universal exemption) | +$10-20B | All founders/investors get same exemption; no more $10M+ exclusions |
 | 1031 exchange elimination | +$10-15B | Real estate gains flow through same system as all other assets |
 | Other preference elimination (OZ, 1256, collectibles, 453, 1045) | +$10-20B | Collectively meaningful; individually small |
 | Roth reform ($5M contribution cap) | +$3-8B | Closes mega-account loophole; contribution freeze prevents new mega-Roths |
 | Roth revenue acceleration (income limit removal) | +$7-15B | Near-term; high earners shift from Traditional IRA deductions to Roth contributions |
-| **Total** | **+$200-330B** | Interaction-adjusted (overlapping provisions netted) |
+| **Total** | **+$185-315B** | Interaction-adjusted (overlapping provisions netted) |
 
 ### Net Position
 
 | Scenario | Annual Cost | Annual Gain | Net Revenue |
 |---|---|---|---|
-| Conservative | -$65B | +$200B | **+$135B** |
-| Mid | -$57B | +$265B | **+$208B** |
-| Optimistic | -$50B | +$330B | **+$280B** |
+| Conservative | -$65B | +$185B | **+$120B** |
+| Mid | -$57B | +$250B | **+$193B** |
+| Optimistic | -$50B | +$315B | **+$265B** |
 
 *Note: These estimates are directional. Line items overlap (e.g., death as realization and ordinary income treatment interact). Totals are interaction-adjusted ranges that include conservative offsets for behavioral response. Formal scoring by JCT/CBO would be needed for legislative purposes.*
 
@@ -641,7 +650,7 @@ Charitable giving reform (including a proposed universal credit) is addressed in
 
 ## Case Studies
 
-These case studies show simplified before/after calculations for representative taxpayers. All gains are shown after CPI basis adjustment. Holding-period averaging is applied where applicable. Income tax rates used are 2025 brackets.
+These case studies show simplified before/after calculations for representative taxpayers. All gains are shown after CPI basis adjustment. Income tax rates used are 2025 brackets. *Note: These case studies were modeled using Option A (ordinary income with holding-period averaging). Under the preferred Option C (sliding scale to $25M), taxpayers in the $3M-$25M range would pay moderately less than shown here. The cases below represent a conservative upper bound.*
 
 ### Summary
 
@@ -684,7 +693,7 @@ Does not qualify for QSBS (common — most founders don't). CPI-adjusted gain: $
 | Capital Gains Tax | $555K (at ~19.8%) | **$0** |
 | **Effective Rate** | **19.8%** | **0%** |
 
-Under the hybrid, Priya's entire $2.8M gain falls within the $3M lifetime exemption. She pays nothing and has $200K of exemption remaining. Under current law without QSBS, she pays $555K. This is the design intent: **the exemption is the innovation incentive.**
+Under this framework, Priya's entire $2.8M gain falls within the $3M lifetime exemption. She pays nothing and has $200K of exemption remaining. Under current law without QSBS, she pays $555K. This is the design intent: **the exemption is the innovation incentive.**
 
 ---
 
@@ -720,7 +729,7 @@ CPI-adjusted gain: $95M. Other income: $500K.
 | Approximate Tax | $22.6M (at 23.8%) | ~$33.5M (at ~36.4% blended) |
 | **Effective Rate on $95M** | **23.8%** | **~35.3%** |
 
-Sarah pays $10.9M more. This is where the revenue argument lives: the current system charges a $100M exit the same 23.8% rate as a $100K gain. The hybrid charges income rates that reflect the taxpayer's actual position.
+Sarah pays $10.9M more. This is where the revenue argument lives: the current system charges a $100M exit the same 23.8% rate as a $100K gain. This framework charges income rates that reflect the taxpayer's actual position.
 
 ---
 
@@ -782,19 +791,39 @@ This framework treats all capital income identically: dividends and gains both c
 
 The threshold is a calibration point, not a structural principle. $3M was chosen because it covers ~99% of home sales, most small business exits, and a full career of retirement portfolio gains after CPI adjustment. But the coalition math shifts at different levels: a $5M/$10M exemption buys more Republican votes and covers virtually all family farms; a $1.5M/$3M exemption raises substantially more revenue. The right number depends on the legislative environment. The architecture works at any threshold.
 
-**3. How should holding-period averaging interact with volatile income?**
+**3. Help us choose: What is the right rate structure above the exemption?**
 
-Holding-period averaging prevents bunching — a 10-year gain is spread over 10 years for rate purposes. But what about a taxpayer whose income fluctuates wildly? A freelancer earning $50K most years who sells a business for $5M gets the gain averaged over the holding period added to their *current-year* income. If their current year is a high-income year, the averaged gain is taxed at a higher marginal rate than if they'd sold in a low-income year. This is true under current law too (your tax bracket when you sell matters), but averaging makes the interaction more visible. Is this a problem worth solving, or acceptable noise?
+This is the most consequential open design question — and we're asking for your input. The framework's core architecture is the same regardless of which rate treatment applies above the exemption: the lifetime exemption, three realization events, CPI-indexed basis, and elimination of shadow codes are structural decisions, not rate decisions. What changes between these three options is how steeply the tax burden increases once the exemption is exhausted. Each option has real tradeoffs in simplicity, political viability, and incentive design.
 
-**4. Borrowing-as-realization: where exactly is the line?**
+**Option A: Income after Exemption.** Gains above the exemption are taxed as ordinary income with holding-period averaging to prevent bunching. This is the simplest option — one number (the exemption) and one rule (ordinary income). The downside is a steep cliff: dollar $3,000,001 goes from 0% to the taxpayer's marginal rate (likely 35-37%). Holding-period averaging softens this for long-held assets but adds computational complexity, particularly for non-brokerage assets like private businesses and real estate. This is the approach used throughout this document's case studies and revenue estimates.
+
+**Option B: Progressive Rate Table.** Gains above the exemption are taxed at graduated capital gains rates (e.g., 10% → 15% → 20% → converging to ordinary income rates at high levels). This eliminates the cliff entirely and is more palatable to the investor class — the transition from 0% to full taxation is gradual. It may also eliminate the need for holding-period averaging, since the graduated rates themselves prevent the bunching problem. The tradeoff: every bracket boundary is a lobbying target, and the system is no longer "gains are just income."
+
+**Option C: Sliding Scale over Exemption (our current preference).** The capital gains rate phases up continuously from 0% (at the $3M exemption) to the taxpayer's ordinary income rate (at $25M in cumulative lifetime gains). No cliff, no bracket boundaries, no lobbying targets — just a smooth curve. This also eliminates the need for holding-period averaging, since the gradual rate increase addresses the bunching problem directly. The tradeoff: slightly more complex to explain than Option A, though computationally trivial (linear interpolation). The $25M phase-out ceiling is a calibration point — a wider range (e.g., $35M) is gentler; a narrower range (e.g., $15M) raises more revenue.
+
+**The case for Option A** is architectural purity and simplicity — one number, one rule, no separate rate schedule.
+
+**The case for Options B and C** is political viability, fairness at the transition, and incentive preservation. Unlike income tax — which applies a blended rate across all brackets on every paycheck — capital gains often involve large, infrequent realization events where cliff effects are dramatic and visible. The lifetime counter's bidirectionality (it can go negative from losses and reset toward zero) mitigates but does not eliminate the cliff concern.
+
+The incentive-structure argument is particularly important for the innovation economy. Under Option A, a serial founder whose exemption is exhausted faces a flat cliff to ~37% on their next dollar of gains — weakening the financial incentive to push for the next valuation milestone. Under a sliding scale or progressive table, every incremental dollar of gains is taxed at a rate that increases gradually, preserving the incentive to reach the next level. VCs and founders think in terms of valuation tranches ($10M, $50M, $100M); a rate structure that keeps the marginal reward positive at each tranche is more aligned with how venture capital actually works.
+
+**On revenue:** Option C produces modestly less revenue than Option A — estimated $10-20B/year less — because gains in the $3M-$25M phase-up range are taxed at lower average rates. However, the vast majority of revenue comes from gains well above the $25M ceiling (large estates, mega-exits, billionaire borrowing), where the rate is identical across all three options. The framework remains strongly revenue-positive under Option C (see [Revenue Assessment](#revenue-assessment)). The revenue cost buys significant political viability and eliminates the need for holding-period averaging — a meaningful simplicity win.
+
+All three options preserve the core architecture. The choice is about which tradeoffs matter most — and we believe that decision is better made through open debate than by fiat. We invite your perspective.
+
+**4. Is holding-period averaging still needed under a sliding scale?**
+
+Under Option A (immediate ordinary income treatment), holding-period averaging is essential to prevent bunching — a 10-year gain spread over 10 years for rate purposes. Under Option C (our current preference), the sliding scale itself addresses the bunching concern by phasing the rate gradually over the $3M-$25M range. This likely makes holding-period averaging unnecessary — a significant simplicity win, particularly for non-brokerage assets like private businesses and real estate where computing averaged gains is complex. However, if the phase-up range is narrower (e.g., $3M-$15M), the rate increase is steeper and averaging may still provide value. This is a calibration question tied directly to the rate structure choice.
+
+**5. Borrowing-as-realization: where exactly is the line?**
 
 The framework triggers deemed realization when appreciated assets are pledged as collateral for personal consumption loans and the lifetime exemption is exhausted. The principle is clear; the boundary cases are not. What about a business owner who pledges personal stock to secure a business line of credit? What about a margin loan used partly for reinvestment and partly for a kitchen renovation? The IRS already navigates similar distinctions (business vs. personal use, economic substance doctrine), but this provision will generate new case law. The enforcement infrastructure exists; the gray areas will take time to clarify.
 
-**5. Is the exit tax sufficient to prevent capital flight?**
+**6. Is the exit tax sufficient to prevent capital flight?**
 
 Expatriation triggers deemed realization under existing law (IRC §877A), and this framework strengthens that mechanism. But enforcement depends on international cooperation, and the ultra-wealthy have access to citizenship-by-investment programs in countries with no capital gains tax. The empirical evidence from Canada and Australia suggests capital flight from realization-at-death systems is minimal. But the U.S. has more ultra-high-net-worth individuals than any other country, and the incentive is proportionally larger. Monitoring this post-enactment is essential.
 
-**6. What is the right treatment for charitable transfers of appreciated assets?**
+**7. What is the right treatment for charitable transfers of appreciated assets?**
 
 This framework treats charitable gifts as realization events (donor pays gains tax, retains charitable deduction eligibility). This closes the largest remaining avoidance route but may reduce charitable giving at the margin. The details — including whether a universal charitable credit can offset this effect — are deferred to a companion proposal. But the interaction between the capital gains framework and charitable incentives is among the most consequential design decisions and deserves dedicated public debate.
 
@@ -807,7 +836,7 @@ This is not a bill. It is not a CBO score. It is a framework — a structural ar
 The specific thresholds are calibration points. The structural principles are not:
 
 1. One lifetime exemption replaces all carve-outs.
-2. Above the exemption, gains are ordinary income with holding-period averaging.
+2. Above the exemption, gains converge toward ordinary income rates (see [Open Question #3](#3-what-is-the-right-rate-structure-above-the-exemption) for rate structure options).
 3. Death, gifts, and borrowing are realization events.
 4. Basis is inflation-adjusted.
 5. The exemption makes most Americans better off than current law.
