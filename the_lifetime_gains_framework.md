@@ -2,17 +2,15 @@
 
 ### A Proposal to Radically Simplify Capital Gains Taxation and Reduce Wealth Inequality in a Fiscally Durable Manner
 
-I'm [Matt Sly](https://www.mattsly.com) - a software entrepreneur, not a policy professional. But the tax code is essentially an algorithm. And, as implemented, it is our country's most profound and expensive technical debt. I also have a lifetime of experience paying taxes in many capacities: a student, a W2 employee, startup employee, founder and investor.
+I'm [Matt Sly](https://www.mattsly.com) - a software entrepreneur with 20 years of experience building pragmatic, managable and impactful software used by many millions of people. I also have many decades of experience paying taxes in many capacities: a student, a W2 employee, startup employee, homeowner, parent, company founder (with an exit) and investor.
 
-My perspective is shaped by 20 years of experience building software, during which I focued on maximizing objectives while minimizing complexity.
-
-I'm proposing a "major refactor" based on four design tenets. My solution is centered on the concept of a universal lifetime capital gains framework which renders entire categories of tax law redundant while addressing many of our most pressing social challenges including profound wealth inequality and a cascading federal deficit.
+The federal tax code is an algorithm. And, as currently implemented, our country's most profound and expensive technical debt. I'm proposing a "major refactor" based on [four design tenets](#the-design-tenets). My proposal is centered on the concept of a universal lifetime capital gains framework which renders entire categories of tax law redundant while addressing many of our most pressing social challenges including profound wealth inequality and a cascading federal deficit.
 
 This project is not affiliated with a political party, campaign, or institution. It is an attempt to apply systems thinking, real-world experience, and clear tradeoffs to a problem that sits at the intersection of economics, equity, and long-term national health.
 
 ## Press Release
 
-*This document follows the [PR/FAQ format](https://www.aboutamazon.com/news/workplace/an-inside-look-at-amazons-culture-and-processes) — a working-backwards framework used at Amazon (where I spent years writing these) to pressure-test product decisions before building. The "press release" states the desired outcome; the FAQs stress-test every assumption.*
+*This document follows the [PR/FAQ format](https://www.aboutamazon.com/news/workplace/an-inside-look-at-amazons-culture-and-processes) — a working-backwards framework used at Amazon (where I read and wrote many) to pressure-test product decisions before building. The "press release" states the desired outcome; the FAQs stress-test every assumption.*
 
 FOR IMMEDIATE RELEASE
 
@@ -20,11 +18,11 @@ FOR IMMEDIATE RELEASE
 
 WASHINGTON, D.C. — Today, a bipartisan coalition introduced The Lifetime Equity Act (LEA), a structural modernization of the U.S. tax code designed to eliminate systemic complexity that has enabled unprecedented levels of wealth inequality.
 
-Over decades, the tax code, specifically as it pertains to capital and wealth, has accumulated layer upon layer of special rules, carve-outs, and parallel systems. While many of these provisions were created with good intentions, the result is a system that is difficult for taxpayers to understand, costly to comply with, and increasingly disconnected from its stated goals. Filing taxes has become unpredictable for ordinary households and arbitrage-driven for those with access to sophisticated planning.
-
-Simultaneously, the federal deficit has become a primary national expense, with 2026 net interest outlays projected to exceed $1 trillion, or roughly 14% of the total federal budget.
+Over decades, the tax code, specifically as it pertains to capital and wealth, has accumulated layer upon layer of special rules, carve-outs, and parallel systems. While many of these provisions were created with good intentions, the result is a byzantine system that is difficult for taxpayers to understand and rife with loopholes and arbitrage-driven avoidance opportunities. Billionaires pay taxes at lower effective rates than teachers, and the federal deficit has become a primary national expense, with 2026 net interest outlays projected to exceed $1 trillion, or roughly 14% of the total federal budget.
 
 The LEA introduces a single Lifetime Gains Framework that replaces the entire capital gains patchwork with two rules: a generous lifetime exemption and a sliding scale that phases up to ordinary income rates. The Act eliminates dozens of complex carve-outs and loopholes, moves the country toward long-term budget sustainability by raising an estimated $85–203 billion annually, and makes the system legible enough to explain in two sentences.
+
+The framework's $2.5 million lifetime exemption means a founder's first successful exit is completely tax-free — no QSBS qualification, no entity-type restrictions, no 5-year holding period. The tax code stops picking winners among asset classes and starts rewarding wealth-building universally.
 
 Importantly, the LEA is not a wealth tax. It accomplishes the same objective of reducing wealth inequality with a simpler, constitutionally sound mechanism. The LEA also eliminates three redundant "shadow" components of the tax code — the Estate Tax, the Alternative Minimum Tax, and the Net Investment Income Tax — making it the largest tax simplification in modern American history. This combination of progressive base-broadening and conservative tax repeal has achieved broad appeal across a bipartisan congressional coalition.
 
@@ -35,7 +33,7 @@ By simplifying the system and aligning incentives with productive economic activ
 Every design decision in this framework is evaluated against four tenets. When tenets conflict, the tensions are acknowledged explicitly rather than papered over.
 
 **1. Radical Simplicity**
-The tax code should be broadly understood and almost entirely automated. If a provision cannot be understood without specialists, it does not belong. Simplicity reduces compliance costs, economic deadweight loss, and evasion vectors. Simplicity also enables more meaningful public debate about national priorities.
+The tax code should be broadly understood and almost entirely automated. Simplicity reduces compliance costs, economic deadweight loss, and evasion vectors. Simplicity also enables more meaningful public debate about national priorities.
 
 **2. Fiscal Durability**
 The reform must be meaningfully revenue-positive and resilient to political cycles. The federal deficit exceeds $2 trillion annually; net interest on the debt is now a top-five budget line item. Reforms that are merely "revenue neutral" are no longer sufficient — any structural change to the tax code must contribute to restoring long-term budget sustainability. Revenue estimates must account for behavioral responses.
@@ -54,13 +52,13 @@ The core idea can be stated in two sentences: **Every American gets their first 
 
 That's it. Two rules replace the entire capital gains patchwork — the rate tables, the exclusions, the exemptions, the deferrals, and the three parallel tax systems that exist solely because the base system has so many holes.
 
-> **How to Read This Document**
+> **A Note on Numbers**
 >
-> This is a working draft intended to invite debate, not foreclose it. The core architecture — a lifetime exemption, three realization events, CPI-indexed basis, and elimination of shadow tax codes — is a structural proposal. But several important design choices remain deliberately open, and **we are asking for your input.**
+> This is a working draft intended to invite debate, not foreclose it. The core architecture — a lifetime exemption, three realization events, CPI-indexed basis, and elimination of shadow tax codes — is a structural proposal. But several important design choices remain deliberately open, and **we are asking for input.**
 >
 > The most consequential open question: [what is the right calibration for the sliding scale?](#2-what-is-the-right-calibration-for-the-sliding-scale) We've chosen a sliding scale over the alternatives (immediate ordinary income treatment, progressive rate table) for reasons of political viability and simplicity. But where the scale starts and ends — the exemption and the phase-out ceiling — is a negotiable calibration that drives the revenue-vs-political-viability tradeoff. This document uses $2.5M-$10M as its baseline and models two alternatives (a more generous $3M-$25M and a tighter $1.25M-$5M) in a companion spreadsheet.
 >
-> Additional open questions — including dividend treatment, borrowing boundaries, and charitable transfer rules — are collected in the [Open Questions and Debates](#open-questions-and-debates) section. The intent is to make the levers transparent and modelable, so debate stays focused on outcomes rather than defending a system that cannot be clearly understood, modeled, or tuned.
+> Additional open questions — including dividend treatment, borrowing boundaries, and charitable transfer rules — are collected in the [Open Questions and Debates](#open-questions-and-debates) section.
 
 ### Why This Design
 
@@ -70,7 +68,9 @@ The $2.5M/$5M lifetime exemption ensures that over 98% of American households ne
 
 For gains above the exemption, the tax rate phases up on a sliding scale from 0% (at the $2.5M/$5M exemption boundary) to the taxpayer's ordinary income rate (at $10M in cumulative lifetime gains, $20M married). This eliminates the cliff effect that would otherwise make the jump from tax-free to fully-taxed abrupt and politically untenable. The sliding scale also eliminates the need for holding-period averaging — because the rate increases gradually, the "bunching" problem that has historically been the strongest argument against taxing gains as income is addressed by the rate structure itself rather than by an additional averaging mechanism.
 
-Three expanded realization events — death, gifts, and borrowing — ensure gains cannot be deferred indefinitely. Basis is indexed to inflation so the system taxes real wealth, not measurement error.
+The progressive structure of the exemption and sliding scale isn't just a political concession — it reflects an economic reality. The risk premium on capital investment decreases with wealth. A founder betting their savings on a startup bears genuine economic risk that benefits society; a billionaire redeploying capital across a diversified portfolio bears far less. This is well-established in economics as "decreasing absolute risk aversion" ([Arrow-Pratt framework](http://assets.press.princeton.edu/chapters/s7945.pdf)), and confirmed empirically by [Guiso & Paiella (2008)](https://www.eief.it/files/2011/02/guiso_paiella_jeea_2008.pdf): absolute risk aversion decreases measurably with wealth, predicting higher rates of entrepreneurship, risky asset ownership, and job mobility among wealthier individuals. The current tax code ignores this asymmetry entirely — it charges the same preferential rate on a $500K gain whether it represents a founder's entire net worth or a billionaire's rounding error. The lifetime exemption corrects this by concentrating the tax benefit where the risk — and the social return on that risk — is highest.
+
+Three expanded realization events — death, gifts, and borrowing — ensure gains cannot be deferred indefinitely. Basis is indexed to inflation so the system taxes real wealth, not measurement error. The exemption amount and the phase out target are adjusted annually based on inflation, just as income tax brackets are.
 
 ### What Becomes Redundant
 
@@ -104,18 +104,19 @@ Because the lifetime gains system is universal and closes all deferral escape ro
 | Lifetime Gift Tax Exemption ($13.6M) | Eliminated. Gifts are realization events with basis reset; the exemption's original purpose (preventing double taxation with the estate tax) no longer applies. The annual gift exclusion ($18K) is retained for administrative simplicity. |
 | Carried Interest Preference | Rendered moot. Gains above the exemption are ordinary income. A fund manager with $50M+ in gains pays the same rate as if it were wages. Rate convergence eliminates the preference without requiring the IRS to draw definitional lines. |
 
-**Elevator pitch:** *"Every American gets their first $3 million in lifetime capital gains tax-free. Above that, the rate phases up gradually to ordinary income rates. We eliminate the estate tax, the AMT, and twelve special preferences that only benefit the well-advised. One system. No loopholes. No games."*
-
 The framework also includes targeted **Roth IRA reform** to close the "Peter Thiel loophole" — the last remaining avenue for unlimited tax-free accumulation. Income limits are removed, the annual cap is raised to $15K, and a $5M balance cap ensures the Roth serves ordinary savers, not billionaires. ([See Roth Reform FAQ for details.](#q-how-do-roth-accounts-change-and-what-about-the-thiel-loophole))
 
-**The coalition math:** *"Under our proposal, a married couple can accumulate up to $16 million in tax-free or tax-advantaged wealth — $6 million in lifetime capital gains and $10 million across two Roth accounts. If that's not enough to retire on, I don't know what is."*
+**Elevator pitch:** *"Every American gets their first $2.5 million in lifetime capital gains tax-free. Above that, the rate phases up gradually to ordinary income rates. We eliminate the estate tax, the AMT, and twelve special preferences that only benefit the well-advised. One system. No loopholes. No games."*
+
+**The coalition math:** *"Under our proposal, a married couple can accumulate up to $15 million in tax-free or tax-advantaged wealth — $5 million in lifetime capital gains and $10 million across two Roth accounts. If that's not enough to retire on, I don't know what is."*
+
 ---
 
 ## Frequently Asked Questions
 
 ### FAQ Quick Links
 
-**Implementation Details:** [How does the lifetime exemption work?](#q-how-does-the-lifetime-exemption-work) · [What is the sliding scale?](#q-what-is-the-sliding-scale-and-how-does-it-work) · [How is the rate calculated?](#q-how-is-the-sliding-scale-rate-actually-calculated) · [How do the three realization events work?](#q-how-do-the-three-realization-events-work) · [How does CPI basis indexing work?](#q-how-does-cpi-basis-indexing-work) · [How does the lifetime counter work?](#q-how-does-the-lifetime-counter-work) · [Payment flexibility for illiquid assets?](#q-what-about-payment-flexibility-for-illiquid-assets)
+**Implementation Details:** [How does the lifetime exemption work?](#q-how-does-the-lifetime-exemption-work) · [What is the sliding scale?](#q-what-is-the-sliding-scale-and-how-does-it-work) · [How is the rate calculated?](#q-how-is-the-sliding-scale-rate-actually-calculated) · [How do the three realization events work?](#q-how-do-the-three-realization-events-work) · [How does CPI basis indexing work?](#q-how-does-cpi-basis-indexing-work) · [How does the lifetime counter work?](#q-how-does-the-lifetime-counter-work)
 
 **What Gets Eliminated:** [Why abolish the estate tax?](#q-why-abolish-the-estate-tax-instead-of-fixing-it) · [Dynasty fortunes without estate tax?](#q-without-an-estate-tax-do-we-enable-perpetual-dynastic-fortunes) · [Homeowners hurt?](#q-doesnt-eliminating-the-primary-residence-exclusion-hurt-homeowners) · [QSBS elimination?](#q-will-getting-rid-of-qsbs-punish-entrepreneurs-and-innovators) · [1031 elimination?](#q-wont-eliminating-1031-exchanges-crash-the-real-estate-market) · [Carried interest?](#q-what-about-carried-interest)
 
@@ -125,9 +126,9 @@ The framework also includes targeted **Roth IRA reform** to close the "Peter Thi
 
 **On Specific Situations:** [Marriage and divorce?](#q-what-happens-with-marriage-and-divorce) · [Expatriation?](#q-what-about-expatriation-and-capital-flight) · [Medicare without NIIT?](#q-how-is-medicare-funded-without-the-niit) · [Trusts?](#q-what-about-trusts) · [Remaining avoidance vectors?](#q-what-are-the-remaining-avoidance-vectors)
 
-**On Practical Concerns:** [Forced farm/business sales?](#q-wont-this-force-families-to-sell-farms-and-businesses) · [Is this a massive tax increase?](#q-isnt-this-a-massive-tax-increase) · [Radical simplicity with lifetime tracking?](#q-how-is-this-radical-simplicity-if-youre-adding-lifetime-tracking) · [Complexity for middle-class filers?](#q-does-this-add-complexity-for-middle-class-filers) · [Borrowing-as-realization?](#q-how-does-borrowing-as-realization-work-in-practice) · [Why the exemption matters](#q-why-is-the-lifetime-exemption-so-important) · [Government as behavioral engineer?](#q-should-the-government-use-the-tax-code-to-encourage-specific-behaviors) · [Canada complexity creep?](#q-canada-has-a-lifetime-capital-gains-system-that-got-more-complex-over-time-what-makes-this-different)
+**On Practical Concerns:** [Forced farm/business sales?](#q-wont-this-force-families-to-sell-farms-and-businesses) · [How are illiquid assets valued?](#q-how-are-illiquid-assets-valued) · [Payment flexibility for illiquid assets?](#q-what-about-payment-flexibility-for-illiquid-assets) · [Is this a massive tax increase?](#q-isnt-this-a-massive-tax-increase) · [Radical simplicity with lifetime tracking?](#q-how-is-this-radical-simplicity-if-youre-adding-lifetime-tracking) · [Complexity for middle-class filers?](#q-does-this-add-complexity-for-middle-class-filers) · [Borrowing-as-realization?](#q-how-does-borrowing-as-realization-work-in-practice) · [Why the exemption matters](#q-why-is-the-lifetime-exemption-so-important) · [Government as behavioral engineer?](#q-should-the-government-use-the-tax-code-to-encourage-specific-behaviors) · [Canada complexity creep?](#q-canada-has-a-lifetime-capital-gains-system-that-got-more-complex-over-time-what-makes-this-different)
 
-**Political Landscape & Common Objections:** [Bipartisan path?](#q-how-does-this-get-bipartisan-support) · [Who opposes?](#q-who-opposes-this-and-why) · [Why not a wealth tax?](#q-why-not-just-impose-a-wealth-tax) · [What debates does this render moot?](#q-what-debates-does-this-framework-render-moot) · [Doesn't simplification kill good incentives?](#q-doesnt-tax-simplification-undermine-the-governments-ability-to-incentivize-socially-valuable-behavior)
+**Political Landscape & Common Objections:** [Doesn't eliminating QSBS destroy startups?](#q-doesnt-eliminating-qsbs-destroy-the-startup-ecosystem) · [Bipartisan path?](#q-how-does-this-get-bipartisan-support) · [Who opposes?](#q-who-opposes-this-and-why) · [Why not a wealth tax?](#q-why-not-just-impose-a-wealth-tax) · [What debates does this render moot?](#q-what-debates-does-this-framework-render-moot) · [Doesn't simplification kill good incentives?](#q-doesnt-tax-simplification-undermine-the-governments-ability-to-incentivize-socially-valuable-behavior)
 
 **On Scope:** [Income tax brackets?](#q-what-about-income-tax-brackets) · [Child tax credit?](#q-what-about-the-child-tax-credit) · [Retirement accounts?](#q-what-about-retirement-accounts-beyond-roth) · [Charitable giving?](#q-what-about-charitable-giving)
 
@@ -165,7 +166,7 @@ Compare to a $10M+ cumulative gain, where the rate has fully phased up to ordina
 
 **Implementation:** The calculation is a single linear interpolation that any tax software can handle: `rate = min(max_rate, max_rate × (cumulative_gains - exemption) / (phase_out_ceiling - exemption))`. Brokerages already track cost basis; the IRS tracks the lifetime counter. The taxpayer's experience is: check your counter, look up your rate, done.
 
-**What about private businesses, real estate, and farms?** For non-brokerage assets, the CPI basis adjustment requires only a purchase date and purchase price — both of which the owner already knows. The genuinely hard part — *valuing* an illiquid business or property at death or gift — is unchanged from today's estate tax system. We're not adding that problem; it already exists. What we *are* adding is one multiplication (CPI adjustment) and one rate lookup. Meanwhile, under current law, these same assets often require far more complex calculations: a farm that's been 1031-exchanged three times, has layered depreciation recapture, and was partially gifted requires tracking multiple basis components across decades. Under this framework: one basis number, one CPI adjustment, one rate. Net complexity goes *down* for most private assets.
+**What about private businesses, real estate, and farms?** For non-brokerage assets, the CPI basis adjustment requires only a purchase date and purchase price — both of which the owner already knows. The genuinely hard part — *valuing* an illiquid asset at the point of realization — is addressed in a [dedicated FAQ](#q-how-are-illiquid-assets-valued). Meanwhile, under current law, these same assets often require far more complex calculations: a farm that's been 1031-exchanged three times, has layered depreciation recapture, and was partially gifted requires tracking multiple basis components across decades. Under this framework: one basis number, one CPI adjustment, one rate. Net complexity goes *down* for most private assets.
 
 #### Q: How is the sliding scale rate actually calculated?
 
@@ -260,14 +261,6 @@ The counter serves two purposes: tracking whether you've used your $2.5M lifetim
 
 **Dividends:** Qualified dividends are treated identically to capital gains — they count against the lifetime counter and are taxed on the same sliding scale above the exemption. This preserves the current alignment between dividends and gains (both taxed at the same rate) while eliminating the need for a separate rate schedule. Ordinary dividends are taxed as ordinary income (same as current law). Interest income rules are unchanged. ([See FAQ: What happens to qualified dividends?](#q-what-happens-to-qualified-dividends))
 
-#### Q: What about payment flexibility for illiquid assets?
-
-For all three realization events (death, gift, borrowing), a universal lien at market-rate interest is available for illiquid assets — farms, closely-held businesses, real estate. Heirs, donors, or borrowers can defer payment over **15 years** without forced liquidation.
-
-The lien rate is the prevailing market rate, not a subsidized government rate. A business that cannot service market-rate cost of capital has a problem predating this framework. Every LBO and PE deal finances at market rates. GRATs work precisely because they arbitrage the artificial Section 7520 rate against actual returns. This framework replaces artificial government rates with real ones.
-
-([See FAQ: Won't this force families to sell farms and businesses?](#q-wont-this-force-families-to-sell-farms-and-businesses))
-
 ---
 
 ### What Gets Eliminated
@@ -314,7 +307,7 @@ The current Section 121 exclusion ($250K/$500K) requires ownership and use tests
 
 No. The exemption is the innovation incentive. A founder who builds a company over 8 years and exits for $2.5M pays **$0** in capital gains tax — better than current law unless they qualified for QSBS, which most founders don't.
 
-**What QSBS actually does in practice:** It provides a tax windfall *after* a startup has already succeeded. By definition, you only claim QSBS when you sell stock at a large gain — meaning the company already worked. QSBS doesn't reduce payroll costs, lower the failure rate, or make it easier to raise a seed round. It's a reward for having already won. Does it factor into investment decisions on the margins? Yes — VCs and angel investors acknowledge that QSBS eligibility increases their after-tax return and can influence deal-level math. But the empirical evidence that it drives *net new* company formation is thin. A 2023 Treasury analysis found no measurable increase in qualifying small business formation after the exclusion was raised to 100% in 2010. The number of C-corp formations (the only structure eligible for QSBS) has been flat-to-declining as a share of new businesses for two decades.
+**What QSBS actually does in practice:** It provides a tax windfall *after* a startup has already succeeded. Does it factor into investment decisions on the margins? Yes — VCs and angel investors acknowledge that QSBS eligibility increases their after-tax return and can influence deal-level math. But the empirical evidence that it drives *net new* company formation is thin. A 2023 Treasury analysis found no measurable increase in qualifying small business formation after the exclusion was raised to 100% in 2010. The number of C-corp formations (the only structure eligible for QSBS) has been flat-to-declining as a share of new businesses for two decades.
 
 **What about fundraising?** It's true that QSBS benefits investors as well as founders, and some investors factor QSBS eligibility into their investment decisions because it increases their after-tax return. Under this framework, investors get the same $2.5M universal exemption. For angel investors and small funds, $2.5M tax-free is comparable to what QSBS provides for most deals (since QSBS is capped at the greater of $10M or 10x basis per issuer). For large institutional investors, the exemption is less than QSBS — but those investors are making portfolio-level decisions where any single company's tax treatment is a rounding error.
 
@@ -494,6 +487,36 @@ No. The payment flexibility lien exists specifically for this case. A family far
 
 Moreover, the $5M exemption (for a couple) covers most family farm and small business exits entirely. A farm couple that sells for $4.5M in real gains after CPI adjustment pays **$0**. The 15-year lien is for the edge cases above that threshold — and even then, the annual payment at market rate is typically manageable for a going-concern business.
 
+#### Q: How are illiquid assets valued?
+
+This is the hardest practical question the framework faces, and it deserves an honest answer. For publicly traded securities, valuation is trivial — there's a market price every millisecond. For private businesses, real estate, farms, art, and other illiquid assets, valuation requires judgment. But this problem is not new, and the framework doesn't make it worse.
+
+**The key insight: we're not adding a valuation problem. We're inheriting one that already exists — and in some cases, making it easier.**
+
+Under the current estate tax system, every estate above $13.6M already requires date-of-death valuations of every asset, including illiquid ones. Appraisers value closely-held businesses (using discounted cash flow, comparable transactions, and asset-based methods), real property (comparable sales, income capitalization), and specialty assets (art, collectibles, mineral rights). The IRS already has decades of case law, valuation guidance (Revenue Ruling 59-60), and an entire Valuation Office staffed with engineers, economists, and industry specialists. None of that infrastructure needs to be built — it exists.
+
+**For the three realization events, here's how valuation works in practice:**
+
+**Sale:** No valuation problem at all. The sale price *is* the fair market value — it was set by an arm's-length transaction. This covers the vast majority of realization events. When you sell your house, your business, or your stock, the price is the price.
+
+**Death:** Same as current estate tax — date-of-death fair market value, established by qualified appraisal. The framework actually *simplifies* this relative to current law: under the estate tax, valuation disputes often involve aggressive discount claims (minority interest discounts, lack-of-marketability discounts, valuation of complex trust structures). Under this framework, most of those structures don't exist because the avoidance routes they serve are closed. Fewer exotic structures means more straightforward valuations.
+
+**Gifts:** Fair market value at date of gift, established by qualified appraisal for gifts above a de minimis threshold. Same methodology as current gift tax valuations under IRC §2512.
+
+**Borrowing (deemed realization):** This is where your point about lender valuations is particularly strong. When a taxpayer pledges appreciated assets as collateral for a loan, *the lender has already established a fair market value*. Banks don't lend against assets they haven't valued — their entire risk management framework depends on accurate collateral valuation. The loan-to-value ratio (typically 50-70% for securities, 60-80% for real estate) is based on the bank's independent assessment. The IRS doesn't need to perform a separate valuation; the lender's collateral appraisal provides a contemporaneous, arms-length fair market value established by a party with strong incentives to get it right (the bank loses money if they overvalue the collateral). This actually makes the borrowing-as-realization provision *easier* to enforce than death or gift valuations, because the valuation infrastructure is built into the loan origination process.
+
+**What about valuation disputes?** They will happen — just as they happen today under the estate tax, the gift tax, and IRC §170 (charitable contribution valuations). The IRS and Tax Court have well-established procedures for resolving valuation disputes: qualified appraisals, expert testimony, comparable transactions, and judicial precedent. The framework doesn't introduce a new category of dispute; it uses the same valuation methodologies and the same resolution mechanisms that have operated for decades.
+
+**The honest concession:** Valuation of closely-held businesses at death will generate some disputes, particularly for businesses with unusual characteristics, significant intangible value, or complex capital structures. This is the same problem the estate tax has always had — and the same reason the 15-year payment lien exists. If valuation is contested, the payment obligation can be deferred while the dispute is resolved, preventing forced liquidation. The framework also benefits from a structural advantage the estate tax lacks: because *every* estate realizes (not just those above $13.6M), the IRS develops a much larger dataset of valuations, improving its ability to identify outliers and audit efficiently.
+
+#### Q: What about payment flexibility for illiquid assets?
+
+For all three realization events (death, gift, borrowing), a universal lien at market-rate interest is available for illiquid assets — farms, closely-held businesses, real estate. Heirs, donors, or borrowers can defer payment over **15 years** without forced liquidation.
+
+The lien rate is the prevailing market rate, not a subsidized government rate. A business that cannot service market-rate cost of capital has a problem predating this framework. Every LBO and PE deal finances at market rates. GRATs work precisely because they arbitrage the artificial Section 7520 rate against actual returns. This framework replaces artificial government rates with real ones.
+
+([See also: Won't this force families to sell farms and businesses?](#q-wont-this-force-families-to-sell-farms-and-businesses))
+
 #### Q: Isn't this a massive tax increase?
 
 It depends on who you are.
@@ -600,6 +623,20 @@ But we're not naive. The honest answer is: **every tax system trends toward comp
 ---
 
 ### Political Landscape & Common Objections
+
+#### Q: Doesn't eliminating QSBS destroy the startup ecosystem?
+
+This is the loudest objection from Silicon Valley: that [Section 1202 (QSBS)](https://www.law.cornell.edu/uscode/text/26/1202) is why Google, NVIDIA, and OpenAI are American companies, and eliminating it will kill the venture capital model.
+
+The historical timeline doesn't support this. The QSBS exclusion was enacted in 1993 at [50% — not 100%](https://www.qsbsexpert.com/history-of-qualified-small-business-stock-qsbs-section-1202/). It rose to 75% in 2009 and didn't reach 100% exclusion until September 2010. It wasn't made permanent until the [PATH Act of 2015](https://www.congress.gov/bill/114th-congress/house-bill/2029). NVIDIA was founded in [April 1993](https://en.wikipedia.org/wiki/Nvidia) — before QSBS existed. Google IPO'd in [August 2004](https://en.wikipedia.org/wiki/Initial_public_offering_of_Google) when exclusion was 50%. Apple, Microsoft, Amazon, and Intel were all built in a world with no QSBS at all. The American startup ecosystem was not created by Section 1202; it was created by deep capital markets, research universities, immigration, and rule of law. QSBS is a windfall on top of an ecosystem that already worked.
+
+**The framework's exemption already covers most founders.** A first-time founder who builds a company and exits for $8M in gains pays an effective rate of roughly 7-8% under the sliding scale. Under current law *without* QSBS qualification — which many founders fail to obtain due to the [C-corp requirement, $50M gross asset test, 5-year hold, and active business test](https://carta.com/learn/startups/tax-planning/qsbs/) — they'd pay 23.8%. The framework is actually *better* than the status quo for most founders who miss QSBS technicalities. And unlike QSBS, the lifetime exemption works for every type of wealth creation: real estate, small businesses, freelancers, artists — not just VC-backed C-corps.
+
+**The real QSBS beneficiaries aren't first-time risk-takers.** The [Joint Committee on Taxation estimates](https://www.jct.gov/publications/?category_name=Tax+Expenditures) QSBS costs ~$4-5B/yr in forgone revenue, and the benefit is concentrated among high-net-worth serial entrepreneurs and VC fund partners. Peter Thiel famously used QSBS-eligible PayPal shares to build a [$5 billion tax-free Roth IRA](https://www.propublica.org/article/lord-of-the-roths-how-tech-mogul-peter-thiel-turned-a-retirement-account-for-the-middle-class-into-a-5-billion-dollar-tax-free-piggy-bank) — a result that has nothing to do with incentivizing risk-taking and everything to do with tax optimization by the already-wealthy. This is the DARA principle in action: the marginal risk premium for someone deploying capital from an existing $50M net worth into their fourth startup is negligible. They would make that investment at a 7% effective rate. They would make it at 15%. The zero-tax QSBS exclusion is not what's motivating the bet.
+
+**International evidence confirms this.** [Israel has roughly one startup per 1,400 people](https://en.wikipedia.org/wiki/Silicon_Wadi) — the highest density globally and arguably more startup-dense per capita than the United States. Israel has no equivalent of QSBS. The UK's [Enterprise Investment Scheme (EIS)](https://www.gov.uk/guidance/venture-capital-schemes-apply-for-the-enterprise-investment-scheme) and [Seed Enterprise Investment Scheme (SEIS)](https://www.gov.uk/guidance/venture-capital-schemes-apply-to-use-the-seed-enterprise-investment-scheme) are narrower, more targeted, and capped at much lower levels (£5M/yr for EIS, £250K for SEIS). Sweden, Canada, and Germany all have thriving startup sectors without QSBS-style blanket exclusions. If a 100% capital gains exclusion were truly the secret ingredient, you'd expect startup formation to correlate with it internationally. It doesn't.
+
+**The honest concession:** QSBS elimination does raise the cost of early-stage equity compensation for employees at pre-IPO startups. A senior engineer joining a Series A company who holds for 5+ years and exits with $3M in gains currently pays zero federal capital gains tax. Under the framework, they'd pay a small amount on the $500K above the exemption (~2-3% effective). That's real, and the VC lobby will amplify these stories. But the trade is a universal, simple exemption that covers *all* risk-takers — not just those who happened to join C-corps that meet arbitrary technical thresholds — funded by closing a loophole that disproportionately benefits people for whom the "risk premium" justification has long since expired.
 
 #### Q: How does this get bipartisan support?
 
@@ -973,26 +1010,31 @@ If these five principles hold, the rest is calibration.
 This framework builds on work from across the political spectrum:
 
 **Progressive foundations:**
-- **Ray Madoff**, *The Second Estate* (2025) — the foundational insight that the estate tax is structural cover for non-taxation of wealth transfers
-- **Edward Fox & Zachary Liscow** — borrowing-as-realization design and empirical data
-- **Owen Zidar et al. (Princeton)** — revenue-maximizing rates under base-broadening
-- **Yale Budget Lab** — scoring data for borrowing-as-realization
-- **Saez & Zucman**, *The Triumph of Injustice* — effective tax rate data showing top-end regressivity
-- **David Cay Johnston**, *Perfectly Legal* — political economy of avoidance
-- **Colin Heath (NYU Law Review)** — constitutional analysis of deemed realization
+- **[Ray Madoff](https://www.bc.edu/bc-web/schools/law/academics-faculty/faculty-directory/ray-madoff.html)**, *[The Second Estate](https://www.simonandschuster.com/books/The-Second-Estate/Ray-D-Madoff/9781668078006)* (2025) — the foundational insight that the estate tax is structural cover for non-taxation of wealth transfers
+- **[Edward Fox](https://www.law.umich.edu/FacultyBio/Pages/FacultyBio.aspx?FacID=edfox) & [Zachary Liscow](https://law.yale.edu/zachary-liscow)** — borrowing-as-realization design and empirical data
+- **[Owen Zidar](https://zidar.princeton.edu/) et al. (Princeton)** — revenue-maximizing rates under base-broadening
+- **[Yale Budget Lab](https://budgetlab.yale.edu/research/buy-borrow-die-options-reforming-tax-treatment-borrowing-against-appreciated-assets)** — scoring data for borrowing-as-realization
+- **[Saez](https://eml.berkeley.edu/~saez/) & [Zucman](https://gabriel-zucman.eu/)**, *[The Triumph of Injustice](https://wwnorton.com/books/9781324002727)* — effective tax rate data showing top-end regressivity
+- **[David Cay Johnston](https://davidcayjohnston.com/)**, *Perfectly Legal* — political economy of avoidance
+- **[Colin Heath (NYU Law Review)](https://www.nyulawreview.org/wp-content/uploads/2024/05/99-NYU-L-Rev-717.pdf)** — constitutional analysis of deemed realization ("Taxing 'Borrow' in 'Buy/Borrow/Die'")
 
 **Conservative and market-oriented foundations:**
-- **Milton Friedman** — advocated for radical simplification and elimination of tax preferences; the negative income tax concept informs the universal exemption design
-- **Martin Feldstein** — base-broadening + rate reduction framework; capital gains taxation research at NBER
-- **The Tax Foundation** — extensive analysis of complexity costs, base erosion, and the efficiency gains from eliminating preferences in favor of lower, broader rates
-- **Heritage Foundation** — longstanding advocacy for estate tax repeal and AMT elimination; both are core features of this framework
-- **Greg Mankiw** — optimal tax theory, including the case for consumption-based taxation that motivated the exemption structure
-- **The 2017 Tax Cuts and Jobs Act** — demonstrated the political viability and public appetite for meaningful simplification (doubled standard deduction, limited SALT), even if the execution added complexity elsewhere
+- **[Milton Friedman](https://miltonfriedman.hoover.org/)** — advocated for radical simplification and elimination of tax preferences; the [negative income tax](https://mitsloan.mit.edu/ideas-made-to-matter/negative-income-tax-explained) concept informs the universal exemption design
+- **[Martin Feldstein](https://www.nber.org/people/martin_feldstein)** — base-broadening + rate reduction framework; capital gains taxation research at NBER
+- **[The Tax Foundation](https://taxfoundation.org/)** — extensive analysis of complexity costs, base erosion, and the efficiency gains from eliminating preferences in favor of lower, broader rates
+- **[Heritage Foundation](https://www.heritage.org/taxes)** — longstanding advocacy for estate tax repeal and AMT elimination; both are core features of this framework
+- **[Greg Mankiw](https://scholar.harvard.edu/mankiw)** — optimal tax theory, including the case for consumption-based taxation that motivated the exemption structure
+- **[The 2017 Tax Cuts and Jobs Act](https://www.congress.gov/bill/115th-congress/house-bill/1/text)** — demonstrated the political viability and public appetite for meaningful simplification (doubled standard deduction, limited SALT), even if the execution added complexity elsewhere
 
 **International precedent:**
-- **The Canadian model** — deemed disposition at death (since 1972), Lifetime Capital Gains Exemption, Canadian Entrepreneurs' Incentive (2024)
+- **[The Canadian model](https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-25400-capital-gains-deduction.html)** — deemed disposition at death (since 1972), Lifetime Capital Gains Exemption, [Canadian Entrepreneurs' Incentive (2024)](https://www.canada.ca/en/department-finance/news/2024/04/the-canadian-entrepreneurs-incentive.html)
 - **Denmark and Hungary** — death as realization event
 - **Australia, Ireland, and UK** — gifts as recognition events
+
+**Risk and wealth theory:**
+- **[Arrow-Pratt framework](http://assets.press.princeton.edu/chapters/s7945.pdf)** — the foundational theory of decreasing absolute risk aversion (DARA): the risk premium on investment decreases with wealth
+- **[Guiso & Paiella (2008)](https://www.eief.it/files/2011/02/guiso_paiella_jeea_2008.pdf)** — empirical confirmation that absolute risk aversion decreases with wealth, predicting entrepreneurship and risky asset ownership
+- **[Piketty, Saez & Zucman (2023)](https://gabriel-zucman.eu/files/PikettySaezZucman2023.pdf)** — "Rethinking Capital and Wealth Taxation"; the return on wealth increases with wealth level, widening the risk-adjusted return gap
 
 **Key finding:** No country has implemented a universal, progressive lifetime capital gains exemption paired with ordinary income treatment above the exemption. Each component has precedent; the combination is novel.
 
