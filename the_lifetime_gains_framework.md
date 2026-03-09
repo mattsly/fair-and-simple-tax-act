@@ -58,7 +58,7 @@ That's it. Two rules replace the entire capital gains patchwork — the rate tab
 >
 > This is a working draft intended to invite debate, not foreclose it. The core architecture — a lifetime exemption, three realization events, CPI-indexed basis, and elimination of shadow tax codes — is a structural proposal. But several important design choices remain deliberately open, and **we are asking for your input.**
 >
-> The most consequential: [how should gains above the exemption be taxed?](#3-help-us-choose-what-is-the-right-rate-structure-above-the-exemption) We present three options — from full ordinary income treatment to a graduated sliding scale — each with real tradeoffs in simplicity, political viability, and incentive design. The document's preferred approach is Option C (sliding scale), though the case studies were originally modeled on Option A and are noted accordingly.
+> The most consequential: [how should gains above the exemption be taxed?](#3-help-us-choose-what-is-the-right-rate-structure-above-the-exemption) We present three options — from full ordinary income treatment to a graduated sliding scale — each with real tradeoffs in simplicity, political viability, and incentive design. The document's preferred approach is Option C (sliding scale), and the case studies and revenue estimates reflect this approach.
 >
 > Additional open questions — including the exemption threshold, dividend treatment, and charitable transfer rules — are collected in the [Open Questions and Debates](#open-questions-and-debates) section. The intent is to make the levers transparent and modelable, so debate stays focused on outcomes rather than defending a system that cannot be clearly understood, modeled, or tuned.
 
@@ -115,7 +115,7 @@ The framework also includes targeted **Roth IRA reform** to close the "Peter Thi
 
 ### FAQ Quick Links
 
-**Implementation Details:** [How does the lifetime exemption work?](#q-how-does-the-lifetime-exemption-work) · [What is the sliding scale?](#q-what-is-the-sliding-scale-and-how-does-it-work) · [How do the three realization events work?](#q-how-do-the-three-realization-events-work) · [How does CPI basis indexing work?](#q-how-does-cpi-basis-indexing-work) · [How does the lifetime counter work?](#q-how-does-the-lifetime-counter-work) · [Payment flexibility for illiquid assets?](#q-what-about-payment-flexibility-for-illiquid-assets)
+**Implementation Details:** [How does the lifetime exemption work?](#q-how-does-the-lifetime-exemption-work) · [What is the sliding scale?](#q-what-is-the-sliding-scale-and-how-does-it-work) · [How is the rate calculated?](#q-how-is-the-sliding-scale-rate-actually-calculated) · [How do the three realization events work?](#q-how-do-the-three-realization-events-work) · [How does CPI basis indexing work?](#q-how-does-cpi-basis-indexing-work) · [How does the lifetime counter work?](#q-how-does-the-lifetime-counter-work) · [Payment flexibility for illiquid assets?](#q-what-about-payment-flexibility-for-illiquid-assets)
 
 **What Gets Eliminated:** [Why abolish the estate tax?](#q-why-abolish-the-estate-tax-instead-of-fixing-it) · [Dynasty fortunes without estate tax?](#q-without-an-estate-tax-do-we-enable-perpetual-dynastic-fortunes) · [Homeowners hurt?](#q-doesnt-eliminating-the-primary-residence-exclusion-hurt-homeowners) · [QSBS elimination?](#q-will-getting-rid-of-qsbs-punish-entrepreneurs-and-innovators) · [1031 elimination?](#q-wont-eliminating-1031-exchanges-crash-the-real-estate-market) · [Carried interest?](#q-what-about-carried-interest)
 
@@ -166,6 +166,53 @@ Compare to a $25M+ cumulative gain, where the rate has fully phased up to ordina
 **Implementation:** The calculation is a single linear interpolation that any tax software can handle: `rate = min(max_rate, max_rate × (cumulative_gains - exemption) / (phase_out_ceiling - exemption))`. Brokerages already track cost basis; the IRS tracks the lifetime counter. The taxpayer's experience is: check your counter, look up your rate, done.
 
 **What about private businesses, real estate, and farms?** For non-brokerage assets, the CPI basis adjustment requires only a purchase date and purchase price — both of which the owner already knows. The genuinely hard part — *valuing* an illiquid business or property at death or gift — is unchanged from today's estate tax system. We're not adding that problem; it already exists. What we *are* adding is one multiplication (CPI adjustment) and one rate lookup. Meanwhile, under current law, these same assets often require far more complex calculations: a farm that's been 1031-exchanged three times, has layered depreciation recapture, and was partially gifted requires tracking multiple basis components across decades. Under this framework: one basis number, one CPI adjustment, one rate. Net complexity goes *down* for most private assets.
+
+#### Q: How is the sliding scale rate actually calculated?
+
+One sentence: **Average the rate at the bottom and top of your gains above the exemption. Multiply by the amount.**
+
+The rate at any counter position above $3M is:
+
+```
+rate = (counter_position - $3M) / ($25M - $3M) × top_rate
+```
+
+The top rate is the taxpayer's ordinary income rate (up to 37%). The denominator is $22M (the phase-up range). Tax on any tranche of gains is:
+
+```
+tax = ((rate_at_start + rate_at_end) / 2) × taxable_amount
+```
+
+This is mathematically identical to integrating the area under a linear curve. Endpoint averaging is the exact answer for a linear scale — it's not an approximation.
+
+**Example 1 — First sale, counter starting at $0.** Sell an asset for $5M gain. First $3M = exemption (0%). Remaining $2M on the scale. Rate at $3M = 0%. Rate at $5M = ($5M - $3M) / $22M × 37% = 3.4%. Average = 1.7%. Tax = 1.7% × $2M = **$34,000**. Effective rate on full $5M = **0.68%**.
+
+**Example 2 — Second sale, counter at $5M.** Sell another asset for $3M gain. Counter moves from $5M to $8M. Rate at $5M = 3.4%. Rate at $8M = 8.4%. Average = 5.9%. Tax = 5.9% × $3M = **$177,000**.
+
+**Example 3 — Multiple sales in same year.** Aggregate all net gains for the year, compute once. Order of sales within the year doesn't matter. The taxpayer needs two numbers: starting counter position + total net gains for the year.
+
+Example: Stock A ($4M gain in March) + Stock B ($6M gain in October) = $10M total. Counter $0 → $10M. First $3M exempt. Remaining $7M: rate at $3M = 0%, rate at $10M = ($10M - $3M) / $22M × 37% = 11.8%. Average = 5.9%. Tax = **$413K**. Effective rate on $10M = **4.1%**.
+
+**Example 4 — Above $25M (fully phased up).** Counter at $30M, new $2M gain, 37% bracket. Tax = 37% × $2M = $740K. No sliding scale math needed — it's just ordinary income.
+
+**Quick reference table:**
+
+| Total Lifetime Gains | Approx. Tax | Effective Rate |
+|---|---|---|
+| $3M | $0 | 0% |
+| $5M | $34K | 0.7% |
+| $8M | $191K | 2.4% |
+| $10M | $413K | 4.1% |
+| $15M | $1.1M | 7.3% |
+| $20M | $2.2M | 11.0% |
+| $25M | $4.1M | 16.3% |
+| $30M | $5.9M | 19.8% |
+| $50M | $13.4M | 26.7% |
+| $100M | $31.9M | 31.9% |
+
+*(Assumes 37% top rate, single filer, counter starting at $0. Married couples double all thresholds.)*
+
+Compare to current law: navigating the 0%/15%/20% rate structure, AMT check, NIIT calculation, QSBS eligibility, and multiple forms. This system: look up your counter, average two rates, multiply. The effective rates are remarkably low through the middle of the range — at $10M in cumulative lifetime gains, the effective rate is 4.1%, well below current law's 23.8% headline rate.
 
 #### Q: How do the three realization events work?
 
@@ -273,13 +320,13 @@ No. The exemption is the innovation incentive. A founder who builds a company ov
 
 **Who QSBS actually serves:** QSBS requires you to form a C-corp (not an LLC or S-corp — the structures 95% of small businesses actually use), stay under $75M in assets, be in a qualifying industry, and hold for 5+ years. A Treasury analysis found that 70% of excluded QSBS dollars go to taxpayers with average income over $1 million making claims over $1 million. The landscaper who builds a $3M business and sells it gets nothing from QSBS. Under this framework, they get the same exemption as the YC-backed founder.
 
-**For large exits:** A founder with a $20M exit pays tax on $17M above the exemption on the sliding scale. At $20M cumulative, the scale hasn't fully phased up — the effective rate on the $17M above the exemption is approximately 26%, for total tax of ~$4.4M. Effective rate on the full $20M: approximately 22%. This is comparable to current law's 23.8% — but the founder also got $3M at 0%, didn't need to spend $20K on tax attorneys qualifying for QSBS, and the estate tax / AMT / NIIT they'd eventually encounter are all gone.
+**For large exits:** A founder with a $20M exit pays tax on $17M above the exemption on the sliding scale. Rate at $3M = 0%, rate at $20M = 28.6%, average = 14.3%. Tax = ~$2.4M. Effective rate on the full $20M: approximately **12%** — roughly half of current law's 23.8%. The founder also didn't need to spend $20K on tax attorneys qualifying for QSBS, and the estate tax / AMT / NIIT they'd eventually encounter are all gone.
 
 #### Q: Doesn't this punish serial entrepreneurs?
 
 The objection: "Why should it matter how well I've done in the past? We want founders to swing for the fences every time. By raising rates after a modest threshold, you're taxing success."
 
-**The math first.** A serial founder whose exemption is fully used, exiting a second company at $20M after 8 years, with $300K in other income: Under current law, they keep ~$15.2M after tax. Under this framework (Option A), they keep ~$12.8M. The difference is $2.4M on a $20M exit. The framework doesn't eliminate the reward — it adjusts it. The founder still builds life-changing wealth on every successful venture.
+**The math first.** A serial founder whose exemption is fully used, exiting a second company at $20M: Under current law, they pay ~$4.76M in tax (23.8%) and keep ~$15.2M. Under this framework's sliding scale, the $20M gain pushes their counter from $3M to $23M — still within the phase-up range. Average rate: 16.8%. Tax: ~$3.36M. They keep ~**$16.64M — more than under current law.** The sliding scale is so gradual that a serial founder with a $20M second exit actually pays less than the current preferential rate system. The "punishing success" attack doesn't survive contact with the math.
 
 **Wealth changes the nature of risk.** The exemption protects the first venture — where a founder might be maxing out credit cards, forgoing salary, and betting their financial future. That's genuine risk, and the code should reward it generously. A founder starting company #2 with $10M in the bank is in a fundamentally different position: they can self-fund longer, take a lower salary, negotiate from strength with investors, and absorb failure without personal financial ruin. The tax code shouldn't pretend these two situations carry the same risk.
 
@@ -453,7 +500,7 @@ It depends on who you are.
 
 **If you're a middle-class family** with one home sale and a retirement portfolio: You almost certainly pay *less* under this system. The lifetime exemption covers the vast majority of your lifetime capital gains. You no longer need to worry about whether your home sale qualifies for Section 121, or whether you held long enough, or whether you used it as a primary residence for 2 of the last 5 years. You just sell your house.
 
-**If you're a successful entrepreneur** with a $5M exit: You pay sliding-scale rates on $2M above the exemption. At $5M cumulative, you're early in the phase-up range — the effective rate on the $2M above the exemption is approximately 3-4%, far below current law's 23.8%. You might pay *less* than current law depending on your QSBS eligibility.
+**If you're a successful entrepreneur** with a $5M exit: You pay sliding-scale rates on $2M above the exemption. Total tax: ~$34K. Effective rate on the full $5M: **0.7%**. Current law charges 23.8% ($1.19M) if you don't qualify for QSBS. You pay less under this framework by a factor of 35.
 
 **If you're a serial real estate investor** rolling gains through 1031 exchanges indefinitely: Yes, you pay more. The code currently lets you defer — and ultimately eliminate — gains forever. That ends. The counterargument is that 1031s encourage reinvestment in real estate, increasing housing supply. The evidence is weak: the National Association of Realtors' own data shows 1031 exchanges are concentrated in commercial properties, not residential construction. And the $3M/$6M exemption still covers most individual rental property investors entirely — this primarily affects large portfolio operators who were using 1031s as a permanent deferral engine.
 
@@ -654,7 +701,7 @@ Charitable giving reform (including a proposed universal credit) is addressed in
 
 ## Case Studies
 
-These case studies show simplified before/after calculations for representative taxpayers. All gains are shown after CPI basis adjustment. Income tax rates used are 2025 brackets. *Note: These case studies were modeled using Option A (ordinary income with holding-period averaging). Under the preferred Option C (sliding scale to $25M), taxpayers in the $3M-$25M range would pay moderately less than shown here. The cases below represent a conservative upper bound.*
+These case studies show simplified before/after calculations for representative taxpayers. All gains are shown after CPI basis adjustment. Tax is calculated using the sliding scale (Option C) with a $3M exemption, phase-up to 37% at $25M. Income tax rates used are 2025 brackets.
 
 ### Summary
 
@@ -662,13 +709,13 @@ These case studies show simplified before/after calculations for representative 
 |---|---|---|---|---|
 | Homeowner — $250K real gain | $250K gain | $0 (Section 121) | $0 (exemption) | **No change** |
 | Small Founder — $2.8M gain, 8-yr hold | $2.8M gain | $555K (no QSBS) | $0 | **-$555K** |
-| Successful Founder — $19M gain, 10-yr hold | $19M gain | $4.52M | ~$5.5M | **+$980K** |
-| Mega Founder — $95M gain, 10-yr hold | $95M gain | $22.6M | ~$33.5M | **+$10.9M** |
-| Inherited Estate — $15M unrealized gain | $15M gain | ~$0 (step-up) | ~$4M | **+$4M** |
+| Successful Founder — $19M gain, 10-yr hold | $19M gain | $4.52M | ~$2.15M | **-$2.37M** |
+| Mega Founder — $95M gain, 10-yr hold | $95M gain | $22.6M | ~$30M | **+$7.4M** |
+| Inherited Estate — $15M unrealized gain | $15M gain | ~$0 (step-up) | ~$1.2M | **+$1.2M** |
 | Billionaire Borrower — $5M/yr loan | $5M/yr deemed | $0 | ~$1.85M/yr | **+$1.85M/yr** |
-| Dynasty Estate — $400M unrealized | $400M gain | ~$30-50M (with planning) | ~$146M | **+$96-116M** |
+| Dynasty Estate — $400M unrealized | $400M gain | ~$30-50M (with planning) | ~$144M | **+$94-114M** |
 
-**Pattern:** The bottom 99%+ of households pay the same or less. Small founders and homeowners benefit from the universal exemption. Successful founders in the $10M-$25M range pay moderately more (offset by elimination of AMT/NIIT/estate tax). The increases are concentrated on very large accumulations, inherited estates exploiting stepped-up basis, and asset-backed borrowing strategies.
+**Pattern:** The bottom 99%+ of households pay the same or less. Small founders and homeowners benefit from the universal exemption. The sliding scale is so gradual that even a successful founder with a $19M exit pays *less* than under current law — the combination of the $3M exemption and the phase-up range is that generous. Tax increases are concentrated where they belong: on very large accumulations ($95M+), inherited estates exploiting stepped-up basis, asset-backed borrowing strategies, and dynasty-scale wealth transfers.
 
 ---
 
@@ -709,13 +756,12 @@ CPI-adjusted gain: $19M. Other income: $300K. First-time use of lifetime exempti
 |---|---|---|
 | Real Gain | $19M | $19M |
 | Exemption | N/A | $3M at 0% |
-| Taxable Gain | $19M | $16M (as ordinary income) |
-| Holding-Period Averaging | N/A | $16M ÷ 10 yrs = $1.6M/yr |
-| Annual income for rate purposes | N/A | $300K + $1.6M = $1.9M |
-| Approximate Tax | $4.52M (at 23.8% incl. NIIT) | ~$5.5M (at ~34% blended) |
-| **Effective Rate on $19M** | **23.8%** | **~29%** |
+| Taxable Gain | $19M | $16M on sliding scale |
+| Sliding Scale Rate | N/A | 0% at $3M → 26.9% at $19M, avg 13.45% |
+| Approximate Tax | $4.52M (at 23.8% incl. NIIT) | ~$2.15M |
+| **Effective Rate on $19M** | **23.8%** | **~11.3%** |
 
-Marcus pays about $1M more, but the system eliminated the AMT check, the NIIT calculation, and the QSBS qualification attempt. His future estate won't face estate tax. And the rate reflects his actual economic position — $1.9M in annual income warrants a higher rate than the preferential 23.8% that current law offers regardless of how wealthy the taxpayer is.
+Marcus pays **$2.37M less** than under current law. Read that again. A successful founder with a $20M exit pays less under this framework than under the current preferential capital gains system. The combination of the $3M exemption and the gradual sliding scale is that generous through the middle of the range. Marcus also never needs to check for AMT, calculate NIIT, or attempt QSBS qualification. His future estate won't face estate tax. This is the political story: the framework isn't just fairer — it's better for successful entrepreneurs.
 
 ---
 
@@ -727,13 +773,12 @@ CPI-adjusted gain: $95M. Other income: $500K.
 |---|---|---|
 | Real Gain | $95M | $95M |
 | Exemption | N/A | $3M at 0% |
-| Taxable Gain | $95M | $92M (as ordinary income) |
-| Holding-Period Averaging | N/A | $92M ÷ 10 yrs = $9.2M/yr |
-| Annual income for rate purposes | N/A | $500K + $9.2M = $9.7M |
-| Approximate Tax | $22.6M (at 23.8%) | ~$33.5M (at ~36.4% blended) |
-| **Effective Rate on $95M** | **23.8%** | **~35.3%** |
+| Phase-up range ($3M–$25M) | N/A | $22M at avg 18.5% = $4.07M |
+| Above $25M | N/A | $70M at 37% = $25.9M |
+| Approximate Tax | $22.6M (at 23.8%) | ~$30M |
+| **Effective Rate on $95M** | **23.8%** | **~31.6%** |
 
-Sarah pays $10.9M more. This is where the revenue argument lives: the current system charges a $100M exit the same 23.8% rate as a $100K gain. This framework charges income rates that reflect the taxpayer's actual position.
+Sarah pays $7.4M more. At this scale, the sliding scale has largely phased up to ordinary income rates. The current system charges a $100M exit the same 23.8% rate as a $100K gain. This framework charges rates that reflect the taxpayer's actual position — but even here, the effective rate (31.6%) is below the top marginal rate because the $3M exemption and phase-up range provide meaningful benefit.
 
 ---
 
@@ -746,10 +791,10 @@ Decedent's lifetime exemption unused. CPI-adjusted unrealized gains: $15M. Asset
 | Stepped-up basis | Yes — $0 gains tax | No — gains taxed on final return |
 | Estate tax (with planning) | Likely ~$0 (exemption + planning) | $0 (estate tax abolished) |
 | Exemption | N/A | $3M at 0% |
-| Remaining $12M | $0 | As ordinary income, averaged over 20 yrs ($600K/yr) |
-| Approximate Tax | **$0** | **~$4M** |
+| Remaining $12M | $0 | On sliding scale: 0% at $3M → 20.2% at $15M, avg 10.1% |
+| Approximate Tax | **$0** | **~$1.2M** |
 
-Under current law: **$0** (stepped-up basis eliminates gains; estate planning reduces or eliminates estate tax). Under this framework: ~$4M collected on wealth that currently escapes entirely. The 15-year payment lien is available if assets are illiquid.
+Under current law: **$0** (stepped-up basis eliminates gains; estate planning reduces or eliminates estate tax). Under this framework: ~$1.2M collected on wealth that currently escapes entirely — and the effective rate of 8.1% is remarkably gentle for a $20M estate. The 15-year payment lien is available if assets are illiquid.
 
 ---
 
@@ -776,8 +821,8 @@ Decedent's lifetime exemption fully used. CPI-adjusted unrealized gains: $400M. 
 |---|---|---|
 | Stepped-up basis | Yes — $0 gains tax | No |
 | Estate tax | ~$30-50M (after GRAT/trust planning) | $0 (abolished) |
-| Capital gains tax | $0 | $400M as ordinary income, averaged → ~$146M |
-| **Total** | **~$30-50M** | **~$146M** |
+| Capital gains tax | $0 | $22M phase-up ($4.1M) + $378M at 37% ($139.9M) = ~$144M |
+| **Total** | **~$30-50M** | **~$144M** |
 
 The framework collects 3-5x what the current system actually collects on a $500M estate. This is where the revenue argument lives: the gap between what the estate tax theoretically collects and what it actually collects after planning.
 
@@ -830,6 +875,62 @@ Expatriation triggers deemed realization under existing law (IRC §877A), and th
 **7. What is the right treatment for charitable transfers of appreciated assets?**
 
 This framework treats charitable gifts as realization events (donor pays gains tax, retains charitable deduction eligibility). This closes the largest remaining avoidance route but may reduce charitable giving at the margin. The details — including whether a universal charitable credit can offset this effect — are deferred to a companion proposal. But the interaction between the capital gains framework and charitable incentives is among the most consequential design decisions and deserves dedicated public debate.
+
+---
+
+## Transition Design
+
+Any structural tax reform must answer: how do you get from here to there without creating chaos? This section addresses the four critical transition questions.
+
+### Clean Break: Valuation Day
+
+The lifetime counter begins at **$0 for all taxpayers** on the date of enactment. Only gains realized on or after that date count toward the counter. Pre-enactment gains were taxed under prior law and are not retroactively recharacterized.
+
+**Why a clean break is the only workable approach:**
+
+A lookback — attempting to reconstruct each taxpayer's historical lifetime gains — is administratively impossible. Before 2011, brokerages were not required to track cost basis. The IRS cannot reconstruct lifetime capital gains for ~150 million filing households from incomplete records. A lookback would create millions of audit disputes on day one, and it would be retroactive in spirit — applying new-system rules to transactions that were legal and fully taxed under the old system. Telling a 65-year-old their counter starts at $8M because of gains realized in 1997 is politically toxic and arguably unconstitutional.
+
+**Precedent:** Canada used exactly this approach in 1972 when introducing capital gains taxation for the first time. All assets were deemed acquired at fair market value on December 31, 1971 — known as "Valuation Day" or "V-Day." Everything before that date was wiped clean. The system has worked for over 50 years.
+
+**Fairness:** Starting at $0 is not a windfall — it's a principle. The new system applies to new gains. The 65-year-old already paid tax on prior realizations under the old rules. The 30-year-old gets the full $3M exemption ahead of them, which is more generous than anything in current law. Both are unambiguously better off than under the old system.
+
+### Cost Basis for Pre-Enactment Assets
+
+For assets held at the time of enactment that are later sold, the cost basis is the **original purchase price** — not the enactment-date value. This means pre-enactment unrealized appreciation is taxed when eventually realized under the new system. The counter starts at $0, but the basis doesn't reset.
+
+This is an important distinction. If you're sitting on $10M in unrealized gains from stock purchased in 2005, selling it post-enactment puts $10M on your counter. The exemption protects the first $3M; the remaining $7M goes through the sliding scale. Your counter started at $0, giving you the full exemption — but your basis reflects when you actually bought the asset.
+
+The only way to lock in the old system's rates and reset your basis is to sell before enactment and pay tax under prior law. Which leads to the next question.
+
+### Pre-Enactment Gain Harvesting
+
+Some investors will sell appreciated assets before the enactment date to realize gains at current preferential rates (15-23.8%) and reset their cost basis. This is rational tax planning, not abuse — and the government wins anyway.
+
+**Why the government is better off:**
+
+Under current law with stepped-up basis, many of these gains would *never* be taxed. The investor would hold until death, basis would reset, and heirs would pay $0. Someone paying 23.8% now on gains that were headed for 0% at death is pure revenue acceleration. The "loss" is only relative to the new system's higher rates, not relative to the old system. The government collects real money today versus a hypothetical future collection — and the time value of money favors current collection.
+
+**Why it's self-limiting:**
+
+Only investors with large unrealized gains *and* enough liquidity to absorb the tax hit will harvest. Most retirees drawing down assets get minimal benefit from resetting basis, because the $3M/$6M exemption already protects their first several million in future gains. Real estate can't be easily "wash-sold" — transaction costs of 5-8% make basis-reset round-trips uneconomical for property. And there is no wash sale rule for gains under current law: investors can sell and immediately repurchase identical securities to reset basis. This isn't an exploit — it's how the rule works. The wash sale rule (IRC §1091) only applies to losses.
+
+> "We anticipate that some taxpayers will realize gains before the enactment date to lock in current rates and reset their cost basis. This is rational behavior, not abuse — and it generates immediate tax revenue on gains that under current law might never be taxed at all via stepped-up basis at death. The government is better off collecting 23.8% today than collecting 0% at death under the old system."
+
+### Market Impact
+
+**Will this crash the market?** No. Here's why.
+
+**Sellers are also buyers.** Pre-enactment gain harvesting is overwhelmingly round-trip transactions: sell to reset basis, immediately rebuy. Net selling pressure is approximately zero. This is analogous to year-end tax-loss harvesting, which generates hundreds of billions in annual trading volume without market disruption. This is the mirror image — harvesting gains instead of losses.
+
+**Ultra-high-net-worth investors execute methodically.** The investors with the largest unrealized gains are sophisticated institutional actors who use dark pools, block trades, and algorithmic execution specifically designed to minimize market impact. They don't panic-sell on Robinhood.
+
+**Real estate is unaffected.** You can't wash-sale a building. Transaction costs of 5-8% make round-trip basis resets uneconomical for property.
+
+**Where there is some risk:** Concentrated single-stock positions (multiple large holders of the same company selling simultaneously), thinly traded small-caps and private secondary markets, and narrative contagion if media frames orderly basis resetting as a panic sell-off.
+
+**Mitigation: the announcement window.** A 9-12 month window between signing and effective date allows orderly adjustment. If the law is signed in March with a January 1 effective date, the volume is spread across ~190 trading days. Even trillions in notional round-trip sales becomes manageable daily volume when distributed over that period.
+
+> "The transition may produce a short-term increase in market trading volume as some investors realize gains to reset basis under current rates. This is a one-time adjustment, not a liquidation event — sellers overwhelmingly reinvest immediately, creating volume without net selling pressure. A 9-12 month transition window allows orderly adjustment."
 
 ---
 
