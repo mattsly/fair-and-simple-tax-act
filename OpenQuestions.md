@@ -24,3 +24,7 @@ potential aspects of a response:
 - You will still make a lot of money for a great idea.
 
 What do you think? Let's brainstorm a bit...
+
+
+
+Should we move " Payment flexibility for illiquid assets?" into practice concerns? Those two FAQs should prob be in the same section and next to one another

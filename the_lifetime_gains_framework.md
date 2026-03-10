@@ -6,7 +6,7 @@ I'm [Matt Sly](https://www.mattsly.com) - a software entrepreneur with 20 years 
 
 The federal tax code is an algorithm. And, as currently implemented, our country's most profound and expensive technical debt. I'm proposing a "major refactor" based on [four design tenets](#the-design-tenets). My proposal is centered on the concept of a universal lifetime capital gains framework which renders entire categories of tax law redundant while addressing many of our most pressing social challenges including profound wealth inequality and a cascading federal deficit.
 
-This project is not affiliated with a political party, campaign, or institution. It is an attempt to apply systems thinking, real-world experience, and clear tradeoffs to a problem that sits at the intersection of economics, equity, and long-term national health.
+This proposal is not affiliated with a political party, campaign, or institution. It is an attempt to apply systems thinking, real-world experience, and clear tradeoffs to a problem that sits at the intersection of economics, equity, and long-term national health.
 
 ## Press Release
 
@@ -18,31 +18,29 @@ FOR IMMEDIATE RELEASE
 
 WASHINGTON, D.C. — Today, a bipartisan coalition introduced The Lifetime Equity Act (LEA), a structural modernization of the U.S. tax code designed to eliminate systemic complexity that has enabled unprecedented levels of wealth inequality.
 
-Over decades, the tax code, specifically as it pertains to capital and wealth, has accumulated layer upon layer of special rules, carve-outs, and parallel systems. While many of these provisions were created with good intentions, the result is a byzantine system that is difficult for taxpayers to understand and rife with loopholes and arbitrage-driven avoidance opportunities. Billionaires pay taxes at lower effective rates than teachers, and the federal deficit has become a primary national expense, with 2026 net interest outlays projected to exceed $1 trillion, or roughly 14% of the total federal budget.
+Over decades, the tax code, specifically as it pertains to capital and wealth, has accumulated layer upon layer of special rules, carve-outs, and parallel systems. While many of these provisions were created with good intentions, the result is a byzantine system that is difficult  rife with loopholes and arbitrage-driven avoidance opportunities. Billionaires pay taxes at lower effective rates than teachers. Meanwhile, the federal deficit has become a primary national expense, with 2026 net interest outlays projected to exceed $1 trillion, or roughly 14% of the total federal budget.
 
-The LEA introduces a single Lifetime Gains Framework that replaces the entire capital gains patchwork with two rules: a generous lifetime exemption and a sliding scale that phases up to ordinary income rates. The Act eliminates dozens of complex carve-outs and loopholes, moves the country toward long-term budget sustainability by raising an estimated $85–203 billion annually, and makes the system legible enough to explain in two sentences.
-
-The framework's $2.5 million lifetime exemption means a founder's first successful exit is completely tax-free — no QSBS qualification, no entity-type restrictions, no 5-year holding period. The tax code stops picking winners among asset classes and starts rewarding wealth-building universally.
+The LEA introduces a single Lifetime Gains Framework that replaces the entire capital gains patchwork with a simple alternative: a generous lifetime exemption of $2.5M ($5M for couples) and a sliding rate scale beyond that which phases up to ordinary income rates for gains beyond $10M ($20M for couples). The Act eliminates dozens of complex carve-outs and loopholes, moves the country toward long-term budget sustainability by raising an estimated $85–203 billion annually. The tax code stops picking winners among asset classes and starts rewarding wealth-building universally.
 
 Importantly, the LEA is not a wealth tax. It accomplishes the same objective of reducing wealth inequality with a simpler, constitutionally sound mechanism. The LEA also eliminates three redundant "shadow" components of the tax code — the Estate Tax, the Alternative Minimum Tax, and the Net Investment Income Tax — making it the largest tax simplification in modern American history. This combination of progressive base-broadening and conservative tax repeal has achieved broad appeal across a bipartisan congressional coalition.
 
-By simplifying the system and aligning incentives with productive economic activity, the proposal aims to create a tax code that is legible, coherent, and honest about tradeoffs — one that better serves taxpayers, policymakers, and the long-term health of the country.
+The proposal aims to create a tax code that is legible, coherent, honest about tradeoffs, and better serves the long-term health of the country.
 
 ## The Design Tenets
 
 Every design decision in this framework is evaluated against four tenets. When tenets conflict, the tensions are acknowledged explicitly rather than papered over.
 
 **1. Radical Simplicity**
-The tax code should be broadly understood and almost entirely automated. Simplicity reduces compliance costs, economic deadweight loss, and evasion vectors. Simplicity also enables more meaningful public debate about national priorities.
+The tax code should be broadly understood and almost entirely automated. Simplicity reduces compliance costs, economic deadweight loss, and evasion vectors. Simplicity also enables broader understanding of trade-offs and more meaningful public debate about national priorities.
 
 **2. Fiscal Durability**
-The reform must be meaningfully revenue-positive and resilient to political cycles. The federal deficit exceeds $2 trillion annually; net interest on the debt is now a top-five budget line item. Reforms that are merely "revenue neutral" are no longer sufficient — any structural change to the tax code must contribute to restoring long-term budget sustainability. Revenue estimates must account for behavioral responses.
+The reform must be meaningfully revenue-positive and resilient to political cycles. Reforms that are merely "revenue neutral" are no longer sufficient — any structural change to the tax code must contribute to restoring long-term budget sustainability. Revenue estimates must account for behavioral responses.
 
 **3. Fuel the Climb**
 Americans who are seeking to climb the economic ladder should be unambiguously better off under this framework than under current law. The system should reward work, saving, and wealth-building. It should not create structural advantages that entrench dynastic wealth at the expense of economic ascendancy.
 
 **4. Reward Innovation**
-Risk-taking and entrepreneurship have genuine social value. The framework must preserve strong incentives to start companies, build businesses, and allocate capital productively — particularly at the early stage where risk is highest and social returns are greatest.
+Risk-taking and entrepreneurship have genuine social value. The framework must preserve strong incentives to start companies, build businesses, and allocate capital productively — particularly where risk is highest and social returns are greatest.
 
 ---
 
@@ -66,7 +64,7 @@ This is not a radical new concept — it's an upgrade of one that already exists
 
 The $2.5M/$5M lifetime exemption ensures that over 98% of American households never interact with capital gains taxation at all. A married couple can sell their home, their stock portfolio, their small business — and pay nothing on the first $5 million in lifetime gains. This is the most generous universal capital gains allowance ever proposed in any country. It replaces Section 121 (home sale exclusion), QSBS (startup stock exclusion), and every other narrow provision with a single, universal benefit that treats all Americans equally regardless of asset class, entity type, or industry. The government stops dictating which types of investments deserve reward — a home sale, a stock sale, and a business exit are treated identically.
 
-For gains above the exemption, the tax rate phases up on a sliding scale from 0% (at the $2.5M/$5M exemption boundary) to the taxpayer's ordinary income rate (at $10M in cumulative lifetime gains, $20M married). This eliminates the cliff effect that would otherwise make the jump from tax-free to fully-taxed abrupt and politically untenable. The sliding scale also eliminates the need for holding-period averaging — because the rate increases gradually, the "bunching" problem that has historically been the strongest argument against taxing gains as income is addressed by the rate structure itself rather than by an additional averaging mechanism.
+For gains above the exemption, the tax rate phases up on a sliding scale from 0% (at the $2.5M/$5M exemption boundary) to the taxpayer's ordinary income rate (at $10M in cumulative lifetime gains, $20M married). This eliminates the cliff effect that would otherwise make the jump from tax-free to fully-taxed abrupt and politically untenable. The sliding scale also eliminates the need for holding-period averaging — because the rate increases gradually, the "bunching" problem that has historically been a strong argument against taxing gains as income is addressed by the rate structure itself rather than by an additional averaging mechanism.
 
 The progressive structure of the exemption and sliding scale isn't just a political concession — it reflects an economic reality. The risk premium on capital investment decreases with wealth. A founder betting their savings on a startup bears genuine economic risk that benefits society; a billionaire redeploying capital across a diversified portfolio bears far less. This is well-established in economics as "decreasing absolute risk aversion" ([Arrow-Pratt framework](http://assets.press.princeton.edu/chapters/s7945.pdf)), and confirmed empirically by [Guiso & Paiella (2008)](https://www.eief.it/files/2011/02/guiso_paiella_jeea_2008.pdf): absolute risk aversion decreases measurably with wealth, predicting higher rates of entrepreneurship, risky asset ownership, and job mobility among wealthier individuals. The current tax code ignores this asymmetry entirely — it charges the same preferential rate on a $500K gain whether it represents a founder's entire net worth or a billionaire's rounding error. The lifetime exemption corrects this by concentrating the tax benefit where the risk — and the social return on that risk — is highest.
 
@@ -108,7 +106,7 @@ The framework also includes targeted **Roth IRA reform** to close the "Peter Thi
 
 **Elevator pitch:** *"Every American gets their first $2.5 million in lifetime capital gains tax-free. Above that, the rate phases up gradually to ordinary income rates. We eliminate the estate tax, the AMT, and twelve special preferences that only benefit the well-advised. One system. No loopholes. No games."*
 
-**The coalition math:** *"Under our proposal, a married couple can accumulate up to $15 million in tax-free or tax-advantaged wealth — $5 million in lifetime capital gains and $10 million across two Roth accounts. If that's not enough to retire on, I don't know what is."*
+**The coalition math:** *"Under our proposal, a married couple can accumulate up to $20 million in tax-free or tax-advantaged wealth — $10 million in lifetime capital gains and $10 million across two Roth accounts."*
 
 ---
 
@@ -162,7 +160,7 @@ Above the lifetime exemption, the capital gains tax rate phases up continuously 
 
 Compare to a $10M+ cumulative gain, where the rate has fully phased up to ordinary income levels (~37%). The sliding scale ensures that the transition from tax-free to full taxation is gradual — every additional dollar of gain is taxed at a slightly higher rate, but the increase is never abrupt.
 
-**Why this design?** The "bunching" problem — historically the strongest argument against taxing gains as income — is addressed by the rate structure itself rather than by a separate averaging mechanism. A founder who sells a company for $10M doesn't get hit with a sudden 37% rate; the sliding scale ensures the effective rate reflects their position in the phase-up range. This eliminates the need for holding-period averaging (see [Open Question #4](#4-is-holding-period-averaging-still-needed-under-a-sliding-scale)), which is a significant simplicity win — particularly for private businesses, real estate, and farms where computing averaged gains adds complexity.
+**Why this design?** The "bunching" problem (that large gains are realized infrequently) has historically been one of strongest argument against taxing gains as income. With this design, it is addressed by the rate structure itself rather than by a separate averaging mechanism. A founder who sells a company after 25 years of hard work for $10M doesn't get hit with a sudden 37% rate; the sliding scale ensures the effective rate reflects their position in the phase-up range. This eliminates the need for holding-period averaging (see [Open Question #4](#4-is-holding-period-averaging-still-needed-under-a-sliding-scale)), which is a significant simplicity win — particularly for private businesses, real estate, and farms where computing averaged gains adds complexity.
 
 **Implementation:** The calculation is a single linear interpolation that any tax software can handle: `rate = min(max_rate, max_rate × (cumulative_gains - exemption) / (phase_out_ceiling - exemption))`. Brokerages already track cost basis; the IRS tracks the lifetime counter. The taxpayer's experience is: check your counter, look up your rate, done.
 
@@ -219,7 +217,7 @@ Compare to current law: navigating the 0%/15%/20% rate structure, AMT check, NII
 
 The framework expands realization beyond just sales to close the three major deferral strategies. In each case, gains within the remaining lifetime exemption are tax-free; gains above are taxed on the sliding scale (phasing from 0% at the $2.5M exemption to ordinary income rates at $10M in cumulative gains).
 
-**1. Death is a realization event.** All unrealized gains are taxed on the decedent's final return. Heirs receive a clean basis at the date-of-death value. This follows the Canadian model (in use since 1972) and eliminates stepped-up basis entirely. For most families, the lifetime exemption shields all gains and nothing is owed.
+**1. Death is a realization event.** All unrealized gains are taxed on the decedent's final return. Heirs receive a clean basis at the date-of-death value. This follows the Canadian model (in use since 1972) and eliminates stepped-up basis entirely. For most families, the lifetime exemption shields all gains and nothing is owed. (? what about tax advantaged accounts - IRAs, ROTH etc...?)
 
 **Example (typical estate):** $300K in unrealized gains (after CPI adjustment), unused $2.5M exemption → **$0 tax**. Heir inherits at current market value with a clean basis.
 
@@ -232,6 +230,7 @@ Because gifts trigger realization and basis resets to the gift-date value, the t
 **3. Borrowing against appreciated assets is a realization event.** If a loan is secured by appreciated assets, the appreciation used as collateral triggers a deemed realization. If the taxpayer has remaining lifetime exemption, the deemed gain counts against it (consuming exemption headroom but generating no tax); if the exemption is exhausted, the gain flows to the 1040 as ordinary income. In either case, basis steps up by the deemed amount to prevent double taxation on eventual sale. This closes buy-borrow-die: you can still borrow, but you cannot live tax-free on appreciation indefinitely. ([See detailed mechanics.](#q-how-does-borrowing-as-realization-work-in-practice))
 
 **What is not affected:** Ordinary business loans, mortgages for purchase, and borrowing for reinvestment or expansion. The rule targets personal-consumption borrowing against appreciated collateral.
+(? this part is pretty soft...who is in charge of enforcing this classifications? This feels like it needs to be tightened to make sure we aren't opening up loopholes. If we just look at the appreciation, then a new home purchase is no issue, b/c the collateral hasn't appreciated, right? But what about a HELOC...)
 
 #### Q: How does CPI basis indexing work?
 
@@ -341,7 +340,7 @@ No. But the real estate lobby will tell you otherwise, so let's engage seriously
 
 #### Q: What about carried interest?
 
-Not banned — rendered moot. Under this framework, gains above the exemption are ordinary income. A fund manager with $50M+ in lifetime gains pays income tax rates, the same as if the gains were wages. Rate convergence eliminates the preference at scale without requiring the IRS to draw lines between "real" capital gains and labor income dressed up as capital gains.
+The Carried Interest debate is rendered essentially moot under this framework, because gains above the exemption are ordinary income. A fund manager with $50M+ in lifetime gains pays income tax rates, the same as if the gains were wages. Rate convergence eliminates the preference at scale without requiring the IRS to draw lines between "real" capital gains and labor income dressed up as capital gains.
 
 Below the $2.5M exemption, emerging fund managers are actually *better off* than under current law. No new rules needed.
 
@@ -357,7 +356,7 @@ Without Roth reform, the entire capital gains framework has an escape hatch. The
 
 **The proposal makes four changes to Roth IRAs:**
 
-1. **Remove income limits** for direct Roth contributions. This eliminates the backdoor Roth conversion, the mega-backdoor Roth, and the conversion ladder — three layers of complexity that exist only because the current income phaseout ($161K single / $240K married) forces high earners into workarounds. Every American can contribute directly to a Roth, period.
+1. **Remove income limits** for direct Roth contributions. This eliminates the backdoor Roth conversion (? does it though? why can't I also do a backdoor roth? don't we need to explicitly prevent those now?), the mega-backdoor Roth, and the conversion ladder — three layers of complexity that exist only because the current income phaseout ($161K single / $240K married) forces high earners into workarounds. Every American can contribute directly to a Roth, period.
 
 2. **Raise the annual contribution cap** to $15,000 (indexed to inflation), up from $7K/$8K. This is generous for ordinary savers while keeping the cap meaningful.
 
@@ -379,7 +378,7 @@ Without Roth reform, the entire capital gains framework has an escape hatch. The
 
 #### Q: Why not tax capital gains as ordinary income from dollar one?
 
-Under this framework, gains above the $2.5M exemption *are* taxed as ordinary income. The question is: why have the exemption at all? Five reasons:
+Under this framework, gains above the $2.5M exemption *are* taxed as ordinary income. The question is: why even distinguish between capital gains and wages income? Why not combine all annual taxpaper income and use the same rate table? Five reasons:
 
 1. **Investment entails risk that employment income does not.** A W-2 employee earns their paycheck regardless of market conditions. An investor can lose everything. The exemption recognizes that the first several million in gains often represent decades of risk-taking by ordinary Americans — home appreciation, retirement portfolios, small business exits. Taxing these at full income rates from dollar one fails to account for the risk premium.
 
@@ -390,6 +389,8 @@ Under this framework, gains above the $2.5M exemption *are* taxed as ordinary in
 4. **Lock-in.** At income tax rates from dollar one, the incentive to never sell becomes overwhelming for small investors, reducing market liquidity and capital reallocation. The exemption eliminates lock-in for 99%+ of households.
 
 5. **Political viability.** Full equalization from dollar one gets zero votes in the current Congress. The exemption is the coalition-builder — it's what makes estate tax repeal a trade rather than a giveaway.
+
+(? can we also point out that basically no other countries do this and we'd really risk capital flight? )
 
 #### Q: Why not higher rates?
 
@@ -409,7 +410,7 @@ Under this framework, qualified dividends are treated identically to capital gai
 
 **For most investors, this is a non-issue.** A couple with a $2M portfolio yielding 2% in qualified dividends receives ~$40K/year. At that rate, the $5M joint exemption takes 125 years to exhaust via dividends alone. The exemption protects ordinary dividend investors. The change is felt by investors with portfolios large enough to generate six-figure annual dividends — and those investors are above the threshold where the exemption was designed to provide full shelter.
 
-#### Q: What about inflation indexing?
+#### Q: What about inflation indexing? Does this add complexity?
 
 No. This is a 1986 objection, not a 2026 objection. The IRS already indexes brackets, standard deductions, and dozens of thresholds annually using CPI. Brokerages already track cost basis with purchase dates. The calculation is: `adjusted_basis = original_basis × (CPI_sale / CPI_purchase)`. Any brokerage API can compute this in milliseconds.
 
@@ -503,7 +504,7 @@ Under the current estate tax system, every estate above $13.6M already requires 
 
 **Gifts:** Fair market value at date of gift, established by qualified appraisal for gifts above a de minimis threshold. Same methodology as current gift tax valuations under IRC §2512.
 
-**Borrowing (deemed realization):** This is where your point about lender valuations is particularly strong. When a taxpayer pledges appreciated assets as collateral for a loan, *the lender has already established a fair market value*. Banks don't lend against assets they haven't valued — their entire risk management framework depends on accurate collateral valuation. The loan-to-value ratio (typically 50-70% for securities, 60-80% for real estate) is based on the bank's independent assessment. The IRS doesn't need to perform a separate valuation; the lender's collateral appraisal provides a contemporaneous, arms-length fair market value established by a party with strong incentives to get it right (the bank loses money if they overvalue the collateral). This actually makes the borrowing-as-realization provision *easier* to enforce than death or gift valuations, because the valuation infrastructure is built into the loan origination process.
+**Borrowing (deemed realization):** When a taxpayer pledges appreciated assets as collateral for a loan, *the lender has already established a fair market value*. Banks don't lend against assets they haven't valued — their entire risk management framework depends on accurate collateral valuation. The loan-to-value ratio (typically 50-70% for securities, 60-80% for real estate) is based on the bank's independent assessment. The IRS doesn't need to perform a separate valuation; the lender's collateral appraisal provides a contemporaneous, arms-length fair market value established by a party with strong incentives to get it right (the bank loses money if they overvalue the collateral). This actually makes the borrowing-as-realization provision *easier* to enforce than death or gift valuations, because the valuation infrastructure is built into the loan origination process.
 
 **What about valuation disputes?** They will happen — just as they happen today under the estate tax, the gift tax, and IRC §170 (charitable contribution valuations). The IRS and Tax Court have well-established procedures for resolving valuation disputes: qualified appraisals, expert testimony, comparable transactions, and judicial precedent. The framework doesn't introduce a new category of dispute; it uses the same valuation methodologies and the same resolution mechanisms that have operated for decades.
 
@@ -575,6 +576,8 @@ The rule targets personal-consumption borrowing against appreciated collateral. 
 **Enforcement:** Lender-reported loan purpose, existing IRS enforcement doctrines (economic substance, sham transaction), and bank reporting on large transfers. This is the same enforcement infrastructure used for existing margin lending rules, the wash sale rule, and anti-abuse doctrines.
 
 **What is not affected:** Ordinary business loans, mortgages for purchase, borrowing for reinvestment or expansion, and margin loans used to buy additional securities. The rule specifically targets the buy-borrow-die strategy: using appreciated assets as collateral for personal lifestyle while deferring gains indefinitely.
+
+(? I think this is a bit redundant w/ the above section - it shoudl be combined / edited)
 
 **Basis step-up:** When borrowing triggers a deemed realization, the taxpayer's basis steps up by the taxed amount. This prevents double taxation on eventual sale.
 
@@ -681,7 +684,6 @@ This framework achieves the same progressivity through realization events (sales
 | Inflation indexing | Built in. CPI-adjusted basis is automatic for all assets |
 | Carried interest | Gains are income. Problem solved. |
 | Wealth tax | Same outcome, constitutionally sound, proven internationally |
-| SALT (partially) | $2.5M/$5M exemption provides significant new benefit that partially offsets SALT pain for wealth-builders in high-tax states |
 
 #### Q: Doesn't tax simplification undermine the government's ability to incentivize socially valuable behavior?
 
