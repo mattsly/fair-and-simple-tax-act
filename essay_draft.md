@@ -6,9 +6,9 @@
 
 ---
 
-I have spent twenty years in the software industry working in a variety of environments. I've been a W-2 employee, a startup employee with stock options, a founder with an exit, and an investor writing checks to the next generation of builders. I have filed taxes in every one of these capacities, and I can tell you with confidence: the American capital gains tax system is the most consequential piece of technical debt in the United States.
+I have spent twenty years in the software industry working in a variety of environments. I've been a W-2 employee, a startup employee with stock options, a founder with an exit, and an investor writing checks to the next generation of builders. As both a software professional and a taxpayer, I think that the American tax code is the most consequential piece of technical debt in the United States.
 
-It is a direct cause of wealth and opportunity inequality in America, epitomized by [billionaires paying taxes at a lower rate than teachers](https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax). But I believe it can be fixed with a radical but simple "refactor" that can be specified with five rules. Those five rules would eliminate more tax law than any reform in American history and preclude the need for a wealth tax.
+It is a direct cause of wealth and opportunity inequality in America, epitomized by [billionaires paying taxes at a lower rate than teachers](https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax). But I believe it can be dramatically improved with a radical but simple "refactor" of capital gains taxation that can be specified with five rules. Those five rules would eliminate more tax law than any reform in American history (including the Estate Tax, the AMT, and the NIIT), preclude the need for a wealth tax, close the "buy, borrow, die" loophole, cut taxes for 98% of Americans, and generate $85-200 billion in annual deficit reduction.
 
 ## The Algorithm Nobody Wrote
 
@@ -24,11 +24,11 @@ Each layer has a constituency. Estate planning attorneys. 1031 exchange intermed
 
 ## The Refactor: Five Rules
 
-The best products hide complexity from the user. Google's search index is one of the most sophisticated pieces of software ever built; you interact with it through a single text box. Apple's iPhone requires millions of lines of code and requires a complex global supply chain, but you can learn how to use the product in 3 minutes. The tax code does the opposite. Yes, the underlying economy is complicated. But the interface (the part citizens and small business owners actually touch) should be simple. The current system takes the hardest problem in government (allocating the cost of civilization fairly) and makes it every individual taxpayer's problem to solve. That's a design failure.
+The best products hide complexity from the user. Google's search index is one of the most sophisticated pieces of software ever built; you interact with it through a single text box. Apple's iPhone requires millions of lines of code and requires a complex global supply chain, but you can learn how to use the product in 3 minutes. The tax code does the opposite. Yes, the underlying economy is complicated. But the interface (the part citizens actually touch) should be simple. The current system takes the hardest problem in government (allocating the cost of civilization fairly) and makes it every individual taxpayer's problem to solve. That's a design failure.
 
 Here is the entire capital gains tax system (or "User Interface") that I'm proposing, in five rules:
 
-> Note - the specific numbers here are stakes in the ground - they are much less important than the general framework and open for debate
+> Note - the specific numbers here are "stakes in the ground" - they are much less important than the general framework and are open for debate
 
 **Rule 1: Every American gets a $2.5 million lifetime capital gains exemption.** That's $5 million for a married couple. Your first $2.5 million in investment gains, from any source, over your entire lifetime, is tax-free. Home sales, stock sales, business exits, everything. No forms, no qualification tests, no entity-type restrictions. The government stops telling you which types of investments are virtuous.
 
@@ -48,7 +48,7 @@ That's it. Five rules. From these five rules, an extraordinary amount of existin
 
 ## What Falls Away
 
-This is the part that surprises people. The five rules don't just simplify capital gains. They make entire categories of tax law redundant.
+The five rules don't just simplify capital gains. They make entire categories of tax law redundant.
 
 **The estate tax.** If death is a realization event and all gains are taxed on the decedent's final return, why do we need a separate estate tax? The estate tax currently collects about $20-25 billion per year, a fraction of what it should, because the wealthy use GRATs, dynasty trusts, and valuation discounts to reduce their effective rates to 10-15%. Under this framework, a $100 million estate with $80 million in unrealized gains pays approximately $29 million. No planning tricks. No escape routes. The estate tax is replaced by something that actually works.
 
@@ -58,7 +58,7 @@ Eliminating the estate tax is not a concession to conservatives. It is a trade. 
 
 **The Net Investment Income Tax.** A 3.8% surtax bolted onto the Affordable Care Act to fund Medicare. Under this framework, gains above the exemption are ordinary income taxed at rates far exceeding 3.8%. Medicare revenue doesn't decrease. It increases. The NIIT becomes redundant by design.
 
-**A Wealth Tax** We don't currenty have a wealth tax, but it has been frequently floated as a solution to inequality, that, in my opinion, is a poor solution to a valid problem. This framework precludes the need for a wealth tax as it achieves the same progressivity through realization events (sales, death, gifts, borrowing), which are easier to value (transaction prices, not annual appraisals), harder to evade (documented transactions with third-party reporting), and more enforceable (uses existing IRS infrastructure). By expanding realization events and taxing gains as ordinary income, the base captures wealth accumulation that a rate-based-only approach never reaches.
+**A Wealth Tax.** We don't currently have a wealth tax, but it has been frequently floated as a solution to inequality that, in my opinion, is a poor solution to a valid problem. This framework precludes the need for a wealth tax as it achieves the same progressivity through realization events (sales, death, gifts, borrowing), which are easier to value (transaction prices, not annual appraisals), harder to evade (documented transactions with third-party reporting), and more enforceable (uses existing IRS infrastructure). By expanding realization events and taxing gains as ordinary income, the base captures wealth accumulation that a rate-based-only approach never reaches.
 
 **Twelve special exclusions and preferences.** QSBS (the startup stock exclusion). Section 121 (the home sale exclusion). 1031 exchanges (the real estate deferral). Opportunity Zone deferrals. The 60/40 rule for derivatives. The collectibles rate. Installment sale deferrals. GRATs and dynasty trusts. Stepped-up basis. The lifetime gift tax exemption. Carried interest. Each one replaced by the universal exemption and the four rules.
 
@@ -93,7 +93,7 @@ The JCT estimates the 1031 tax expenditure at roughly $4-10 billion per year. Th
 
 ## The QSBS Question and Startups
 
-The venture capital community will argue that eliminating QSBS (Section 1202, the qualified small business stock exclusion) will destroy American startup formation. The history doesn't support this. QSBS existed at 50% exclusion from 1993 to 2009, rose to 75%, and only reached 100% exclusion in September 2010. Google went public in 2004. Apple's iPhone launched in 2007. NVIDIA was founded in 1993. The American startup ecosystem was built before QSBS reached its current form. Meanwhile, Israel has the highest startup density in the world with no equivalent provision, and the UK uses targeted EIS/SEIS programs that are narrower and more time-limited. Under this framework, a founder's first $2.5 million in gains ($5M married) is still tax-free, covering the vast majority of startup exits. The founders who lose are the ones with $50 million exits, and they can afford the tax bill.
+The venture capital community will argue that eliminating QSBS (Section 1202, the qualified small business stock exclusion) will destroy American startup formation. The history doesn't support this. QSBS existed at 50% exclusion from 1993 to 2009, rose to 75%, and only reached 100% exclusion in September 2010. Google went public in 2004. Apple's iPhone launched in 2007. NVIDIA was founded in 1993. The American startup ecosystem was built before QSBS reached its current form. Meanwhile, Israel has the highest startup density in the world with no equivalent provision, and the UK uses targeted EIS/SEIS programs that are narrower and more time-limited. Under this framework, a founder's first $2.5 million in gains ($5M married) is still tax-free, covering the vast majority of startup exits. And the universal exemption is arguably *better* for innovation than QSBS: it requires no C-corp structure, no $50M gross asset test, no five-year hold, no active business test. Most founders fail at least one of those. The exemption just says: build something valuable, sell it, keep the first $2.5M. The founders who lose are the ones with $50 million exits, and they can afford the tax bill.
 
 ---
 
@@ -127,7 +127,7 @@ The net position depends on the sliding scale calibration: how quickly the rate 
 
 **A dynasty estate with $500 million, $400 million in unrealized gains:** Under current law, with competent estate planning, the family pays roughly $30-50 million. Under this framework, approximately $148 million. The framework collects three to five times what the current system actually collects. This is where the revenue argument lives: in the chasm between what the estate tax theoretically collects and what it actually collects after planning.
 
-The pattern is clear. The bottom 98% of American households pay the same or less. Tax increases are concentrated exactly where they should be: on very large accumulations, inherited estates exploiting stepped-up basis, and the borrow-against-assets strategy that allows billionaires to live tax-free.
+The pattern is clear. The framework is designed to fuel the climb: the homeowner, the first-time founder, the saver building a retirement portfolio — all pay the same or less. Tax increases are concentrated exactly where they should be: on very large accumulations, inherited estates exploiting stepped-up basis, and the borrow-against-assets strategy that allows billionaires to live tax-free. The current system structurally advantages those who've already arrived. This one clears the path for those still building.
 
 ---
 
@@ -177,7 +177,7 @@ No other capital gains proposal can get a meeting with both the Senate Finance C
 
 ## The Invitation
 
-This is a working proposal, not a finished bill. The architecture is a structural claim. The calibration (should the exemption be $2.5 million or $3 million? the ceiling $10 million or $25 million?) is deliberately open, and I am asking for input. These are consequential choices that deserve public debate and rigorous scoring, not unilateral declaration.
+This is a working proposal, not a finished bill. The architecture is a structural claim. The calibration (should the exemption be $2.5 million or $3 million? the ceiling $10 million or $8 million?) is deliberately open, and I am asking for input. These are consequential choices that deserve public debate and rigorous scoring, not unilateral declaration.
 
 What I am confident about is the structural claim: that a system built on five rules can replace a system built on four thousand pages, can collect more revenue with fewer escape routes, and can do so in a way that makes 98% of American households unambiguously better off.
 

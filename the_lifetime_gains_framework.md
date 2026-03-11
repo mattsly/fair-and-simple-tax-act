@@ -235,10 +235,9 @@ The framework expands realization beyond just sales to close the three major def
 
 Because gifts trigger realization and basis resets to the gift-date value, the traditional gift tax exemption structure becomes largely redundant. The annual gift tax exclusion ($18K/person/year) is retained for administrative simplicity — it covers birthday checks and modest family transfers without requiring tracking. The lifetime gift tax exemption ($13.6M) is eliminated since its primary purpose was to prevent double taxation with the estate tax, which no longer exists.
 
-**3. Borrowing against appreciated assets is a realization event.** If a loan is secured by appreciated assets, the appreciation used as collateral triggers a deemed realization. If the taxpayer has remaining lifetime exemption, the deemed gain counts against it (consuming exemption headroom but generating no tax); if the exemption is exhausted, the gain flows to the 1040 as ordinary income. In either case, basis steps up by the deemed amount to prevent double taxation on eventual sale. This closes buy-borrow-die: you can still borrow, but you cannot live tax-free on appreciation indefinitely. ([See detailed mechanics.](#q-how-does-borrowing-as-realization-work-in-practice))
+**3. Borrowing against appreciated assets is a realization event.** When a loan is secured by appreciated assets, the unrealized gain on the collateral is deemed realized at the time of borrowing, regardless of the loan's purpose. If the taxpayer has remaining lifetime exemption, the deemed gain counts against it (consuming exemption headroom but generating no tax); if the exemption is exhausted, the gain flows to the 1040 as ordinary income. In either case, basis steps up by the deemed amount to prevent double taxation on eventual sale. This closes buy-borrow-die: you can still borrow, but you cannot live tax-free on appreciation indefinitely. ([See detailed mechanics.](#q-how-does-borrowing-as-realization-work-in-practice))
 
-**What is not affected:** Ordinary business loans, mortgages for purchase, and borrowing for reinvestment or expansion. The rule targets personal-consumption borrowing against appreciated collateral.
-(? this part is pretty soft...who is in charge of enforcing this classifications? This feels like it needs to be tightened to make sure we aren't opening up loopholes. If we just look at the appreciation, then a new home purchase is no issue, b/c the collateral hasn't appreciated, right? But what about a HELOC...)
+**The rule is universal** — no distinction between personal, business, or investment purpose. This eliminates what would otherwise be the framework's largest enforcement challenge (classifying loan purpose). A purchase mortgage on a newly acquired home triggers $0 deemed realization because the collateral has no unrealized gain. A HELOC on a home that has appreciated $250K triggers deemed realization of $250K — but for most homeowners, this falls within the lifetime exemption and the tax is $0. The basis steps up, so the homeowner saves on taxes later.
 
 #### Q: How does CPI basis indexing work?
 *([Technical spec §2, Rule 4](./technical_spec.md#rule-4-cpi-indexed-basis-gains-only) has the precise gains/losses determination logic.)*
@@ -491,7 +490,7 @@ Honest answer: the attack surface is dramatically smaller, but not zero. Eight v
 
 3. **Slow-drip realization.** Spreading gains over decades to stay low on the sliding scale. This is not abuse — it is intended behavior. The framework prefers steady realization over indefinite deferral. Deemed realization at death catches any remaining gains.
 
-4. **Borrowing structuring.** Gray areas remain in the borrowing-as-realization provision: business-purpose loans secured by personal assets, mixed-use borrowing, loans below enforcement thresholds. This is the most significant enforcement gap. Needs clearer safe harbors in regulatory guidance.
+4. **Borrowing structuring.** The universal borrowing rule (all borrowing against appreciated collateral triggers deemed realization, regardless of purpose) eliminates the loan-purpose classification problem. Remaining gray areas: loans below enforcement thresholds, serial refinancing to drip-feed realization, and creative collateral substitution. These are administrative enforcement challenges, not structural gaps.
 
 5. **Jurisdiction arbitrage.** Moving to no-income-tax states before large realizations. This is constitutional and unavoidable at the federal level; it is a state revenue issue best resolved by state-level sourcing rules (as California, New York, and Connecticut have already begun implementing). Expatriation triggers the existing exit tax under IRC §877A.
 
@@ -593,18 +592,21 @@ The complexity concern only becomes real for households whose cumulative lifetim
 The bottom line: if your lifetime capital gains are under the exemption, your taxes got dramatically simpler. If they're over it, your taxes got somewhat simpler (one sliding scale vs. a maze of preferences, holding periods, and phase-outs). Nobody's taxes got more complex.
 
 #### Q: How does borrowing-as-realization work in practice?
+*([Technical spec §2, Rule 3](./technical_spec.md#rule-3-expanded-realization-events) has the precise definition.)*
 
-The rule targets personal-consumption borrowing against appreciated collateral. If a taxpayer pledges appreciated assets as collateral and uses the loan proceeds for personal consumption (not reinvestment or business expansion), and the taxpayer's lifetime exemption is exhausted, the loan triggers a deemed realization.
+The rule is universal: when a loan is secured by appreciated assets, the unrealized gain on the collateral is deemed realized at the time of borrowing, regardless of loan purpose. This eliminates what would otherwise be the framework's largest enforcement challenge — classifying whether a loan is for "personal consumption" vs. "business purposes."
 
-**Why mortgages are fully protected:** A standard home purchase mortgage is collateralized by the property being acquired — an asset that by definition has zero appreciation at the time of purchase (basis = purchase price). There is no unrealized gain to trigger. The borrowing-as-realization rule only applies when *appreciated* assets are pledged as collateral for *personal consumption* loans. A mortgage on a new purchase fails the first test; a home equity line on an appreciated home could trigger the rule, but only if the homeowner's lifetime exemption is already exhausted and the proceeds are used for personal consumption.
+**Examples:**
 
-**Enforcement:** Lender-reported loan purpose, existing IRS enforcement doctrines (economic substance, sham transaction), and bank reporting on large transfers. This is the same enforcement infrastructure used for existing margin lending rules, the wash sale rule, and anti-abuse doctrines.
+- **Purchase mortgage:** Collateral is the property being acquired. Appreciation is $0 (basis = purchase price). Deemed realization: $0. No impact.
+- **HELOC on appreciated home:** Bought for $300K, now worth $550K, CPI-adjusted basis $450K. Real gain: $100K. Deemed realization: $100K. For most homeowners, this falls within the lifetime exemption — $0 tax, counter increments by $100K, basis steps up to $550K.
+- **Margin loan on stock portfolio:** $5M portfolio with $2M in CPI-adjusted gains. Deemed realization: $2M. If exemption is available, $0 tax. If exemption is exhausted, taxed on the sliding scale. Basis steps up.
+- **Business loan secured by personal stock:** Founder pledges appreciated shares to secure a business credit line. Deemed realization on the stock's gains. No classification debate needed.
+- **Underwater collateral:** Stock worth $80K with basis of $100K. No gain to realize. Deemed realization: $0.
 
-**What is not affected:** Ordinary business loans, mortgages for purchase, borrowing for reinvestment or expansion, and margin loans used to buy additional securities. The rule specifically targets the buy-borrow-die strategy: using appreciated assets as collateral for personal lifestyle while deferring gains indefinitely.
+**Why universal?** The "personal consumption" distinction that previous versions considered would have become the 1031-exchange-intermediary of the new system — a cottage industry of lawyers arguing about loan purpose. The universal rule eliminates that entire attack surface. And the cost to ordinary borrowers is negligible: purchase mortgages trigger $0 (no appreciation on new collateral), and HELOCs on appreciated homes are overwhelmingly covered by the lifetime exemption.
 
-(? I think this is a bit redundant w/ the above section - it shoudl be combined / edited)
-
-**Basis step-up:** When borrowing triggers a deemed realization, the taxpayer's basis steps up by the taxed amount. This prevents double taxation on eventual sale.
+**Basis step-up:** When borrowing triggers a deemed realization, the taxpayer's basis steps up by the deemed amount. This prevents double taxation on eventual sale. If you pay tax on $100K of appreciation when you take a HELOC, that $100K is not taxed again when you sell the home.
 
 #### Q: Why is the lifetime exemption so important?
 

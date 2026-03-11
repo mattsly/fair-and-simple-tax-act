@@ -62,7 +62,7 @@ Four events trigger realization of capital gains:
 1. **Sale.** (Unchanged from current law.)
 2. **Death.** All unrealized gains are deemed realized on the decedent's final return. Heirs receive basis at date-of-death fair market value. Follows the Canadian model (in use since 1972).
 3. **Gift.** The donor is taxed on unrealized gains at the time of transfer, using the donor's lifetime counter. Recipient receives basis at gift-date fair market value. Annual gift exclusion ($18K/person/year) retained for administrative simplicity.
-4. **Borrowing against appreciated assets.** When a loan is secured by appreciated assets for personal consumption, the appreciation used as collateral triggers deemed realization. Basis steps up by the deemed amount to prevent double taxation on eventual sale. Business-purpose loans, purchase mortgages, and reinvestment borrowing are excluded.
+4. **Borrowing against appreciated assets.** When a loan is secured by appreciated assets, the unrealized gain on the collateral is deemed realized at the time of borrowing, regardless of loan purpose. Basis steps up by the deemed amount to prevent double taxation on eventual sale. If the collateral has no unrealized gain (e.g., a purchase mortgage on a newly acquired home, or collateral that is underwater), the deemed realization is $0. This rule applies universally — no distinction between personal, business, or investment purpose — eliminating the classification disputes that would otherwise become the primary enforcement challenge.
 
 In all cases, gains within remaining exemption headroom are tax-free; gains above are taxed on the sliding scale.
 
@@ -235,13 +235,12 @@ OUTPUT:
 
 These are acknowledged areas where the spec is incomplete or where reasonable people may disagree:
 
-1. **Borrowing-as-realization enforcement.** The boundary between personal-consumption borrowing and business-purpose borrowing needs regulatory definition. HELOCs, margin loans, and mixed-use borrowing are gray areas.
-2. **Illiquid asset valuation at death/gift.** Private businesses, art, and real estate require appraisal. Existing IRS infrastructure (Revenue Ruling 59-60, Valuation Office) handles this but disagreements will arise.
-3. **Payment flexibility.** The main doc proposes 15-year lien options for illiquid estates. Specific terms (interest rate, collateral rules) are not specified here.
-4. **Wash sale interaction with CPI asymmetry.** Current 30-day wash sale rules presumably continue to apply. Interaction with nominal-basis losses needs confirmation.
-5. **Backdoor Roth closure mechanics.** The spec says "Traditional-to-Roth conversions are closed." This is a significant change that needs precise statutory language. Does it apply to all conversions, or only above certain thresholds?
-6. **Qualified dividends.** Counted against the lifetime counter — but what about dividends received within the exemption? Presumably tax-free, same as capital gains within the exemption. Confirm.
-7. **State interaction.** The framework is federal. State capital gains taxes (which vary widely) are unaffected. State estate taxes may need separate treatment.
+1. **Illiquid asset valuation at death/gift.** Private businesses, art, and real estate require appraisal. Existing IRS infrastructure (Revenue Ruling 59-60, Valuation Office) handles this but disagreements will arise.
+2. **Payment flexibility.** The main doc proposes 15-year lien options for illiquid estates. Specific terms (interest rate, collateral rules) are not specified here.
+3. **Wash sale interaction with CPI asymmetry.** Current 30-day wash sale rules presumably continue to apply. Interaction with nominal-basis losses needs confirmation.
+4. **Backdoor Roth closure mechanics.** The spec says "Traditional-to-Roth conversions are closed." This is a significant change that needs precise statutory language. Does it apply to all conversions, or only above certain thresholds?
+5. **Qualified dividends.** Counted against the lifetime counter — but what about dividends received within the exemption? Presumably tax-free, same as capital gains within the exemption. Confirm.
+6. **State interaction.** The framework is federal. State capital gains taxes (which vary widely) are unaffected. State estate taxes may need separate treatment.
 
 ---
 
