@@ -1,3 +1,7 @@
+---
+layout: plain
+---
+
 # America's Most Expensive Technical Debt
 
 ### A software entrepreneur's case for simple, fair and durable tax reform
@@ -26,7 +30,7 @@ Each layer has a constituency. Estate planning attorneys. 1031 exchange intermed
 
 The best products hide complexity from the user. Google search is one of the most sophisticated pieces of software ever built; you interact with it through a single text box. Apple's iPhone requires millions of lines of code and a complex global supply chain, but you can learn how to use the product in 3 minutes. The tax code does the opposite. Yes, the underlying economy is complicated. But the interface (the part citizens actually touch) should be simple. The current system takes the hardest problem in government (allocating the cost of civilization fairly) and makes it every individual taxpayer's problem to solve. That's a design failure.
 
-Here is my proposal for how fix the capital gains tax system (or "User Interface") in five rules:
+Here is my proposal for how to fix the capital gains tax system (or "User Interface") in five rules:
 
 > Note - the specific numbers here are "stakes in the ground" - they are much less important than the general framework and are open for debate
 
@@ -60,7 +64,7 @@ Eliminating the estate tax is not a concession to conservatives. It is a trade. 
 
 **A Wealth Tax.** We don't currently have a wealth tax, but it has been frequently floated as a solution to inequality that, in my opinion, is a poor solution to a valid problem. This framework precludes the need for a wealth tax as it achieves the same progressivity through realization events (sales, death, gifts, borrowing), which are easier to value (transaction prices, not annual appraisals), harder to evade (documented transactions with third-party reporting), and more enforceable (uses existing IRS infrastructure). By expanding realization events and taxing gains as ordinary income, the base captures wealth accumulation that a rate-based-only approach never reaches.
 
-**Twelve special exclusions and preferences.** QSBS (the startup stock exclusion). Section 121 (the home sale exclusion). 1031 exchanges (the real estate deferral). Opportunity Zone deferrals. The 60/40 rule for derivatives. The collectibles rate. Installment sale deferrals. GRATs and dynasty trusts. Stepped-up basis. The lifetime gift tax exemption. Carried interest. Each one replaced by the universal exemption and the four rules.
+**Twelve special exclusions and preferences.** QSBS (the startup stock exclusion). Section 121 (the home sale exclusion). 1031 exchanges (the real estate deferral). Opportunity Zone deferrals. The 60/40 rule for derivatives. The collectibles rate. Installment sale deferrals. GRATs and dynasty trusts. Stepped-up basis. The lifetime gift tax exemption. Carried interest. Each one replaced by the universal exemption and the five rules.
 
 The current system has at least twenty-five independent configuration parameters that interact in ways no single expert fully understands. The proposed system has two: the exemption level and the phase-out ceiling. Both are indexed to inflation. Both can be adjusted by Congress without reopening the structural framework. That is what radical simplification actually looks like.
 
@@ -87,7 +91,7 @@ Lobbyists claim eliminating 1031 exchanges will crash the real estate market, bu
 
 ## The QSBS Question and Startups
 
-Critics argue that ending the QSBS exclusion (Section 1202) will stifle startups, but history suggests otherwise: Google, the iPhone, and NVIDIA were all launched before the 100% exclusion even existed. International hubs like Israel and the UK thrive without similar open-ended tax shelters. In fact, a Universal Exemption is better for innovation: it removes the rigid "C-Corp" and "five-year hold" traps that disqualify most early-stage founders today. While $50M exits would face higher rates, the first $1.5M remains tax-free for everyone, protecting the vast majority of exits while dramatically simplifying the "User Interface" for starting a business.
+Critics argue that ending the QSBS exclusion (Section 1202) will stifle startups, but history suggests otherwise: Google, the iPhone, and NVIDIA were all launched before the 100% exclusion even existed. International hubs like Israel and the UK thrive without similar open-ended tax shelters. In fact, a Universal Exemption is better for innovation: it removes the rigid "C-Corp" and "five-year hold" traps that disqualify most early-stage founders today. While $50M exits would face higher rates, the first $2.5M remains tax-free for everyone, protecting the vast majority of exits while dramatically simplifying the "User Interface" for starting a business.
 
 ---
 
