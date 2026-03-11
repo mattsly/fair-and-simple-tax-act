@@ -14,17 +14,20 @@ This proposal is not affiliated with a political party, campaign, or institution
 
 FOR IMMEDIATE RELEASE
 
-**The Lifetime Equity Act Introduced to Refactor the U.S. Tax Code, Close $300B in Loopholes, and Restore Economic Mobility**
+**The Lifetime Equity Act: Four Rules to Replace 4,000 Pages of Capital Gains Tax Code**
 
-WASHINGTON, D.C. — Today, a bipartisan coalition introduced The Lifetime Equity Act (LEA), a structural modernization of the U.S. tax code designed to eliminate systemic complexity that has enabled unprecedented levels of wealth inequality.
+WASHINGTON, D.C. — A bipartisan coalition today introduced The Lifetime Equity Act (LEA), replacing the entire U.S. capital gains tax patchwork with four rules:
 
-Over decades, the tax code, specifically as it pertains to capital and wealth, has accumulated layer upon layer of special rules, carve-outs, and parallel systems. While many of these provisions were created with good intentions, the result is a byzantine system that is difficult  rife with loopholes and arbitrage-driven avoidance opportunities. Billionaires pay taxes at lower effective rates than teachers. Meanwhile, the federal deficit has become a primary national expense, with 2026 net interest outlays projected to exceed $1 trillion, or roughly 14% of the total federal budget.
+1. **A $2.5 million lifetime exemption** ($5M for married couples). Every American's first $2.5M in capital gains is tax-free, regardless of asset type. Home sales, stock sales, business exits: all treated identically.
+2. **A sliding scale to ordinary income rates.** Above the exemption, the rate phases smoothly from 0% to the taxpayer's income tax rate at $10M in cumulative gains ($20M married). Above that, investment gains are taxed like wages.
+3. **Three realization events.** Selling, dying, and borrowing against appreciated assets all trigger tax. No more deferring gains indefinitely.
+4. **Inflation-indexed basis.** Cost basis is adjusted by CPI, so the system taxes real wealth, not purchasing power erosion.
 
-The LEA introduces a single Lifetime Gains Framework that replaces the entire capital gains patchwork with a simple alternative: a generous lifetime exemption of $2.5M ($5M for couples) and a sliding rate scale beyond that which phases up to ordinary income rates for gains beyond $10M ($20M for couples). The Act eliminates dozens of complex carve-outs and loopholes, moves the country toward long-term budget sustainability by raising an estimated $85–203 billion annually. The tax code stops picking winners among asset classes and starts rewarding wealth-building universally.
+These four rules render the following redundant: the Estate Tax, the Alternative Minimum Tax, the Net Investment Income Tax, and twelve special exclusions including QSBS, 1031 exchanges, stepped-up basis, and carried interest. It is the largest simplification of the capital gains code ever proposed.
 
-Importantly, the LEA is not a wealth tax. It accomplishes the same objective of reducing wealth inequality with a simpler, constitutionally sound mechanism. The LEA also eliminates three redundant "shadow" components of the tax code — the Estate Tax, the Alternative Minimum Tax, and the Net Investment Income Tax — making it the largest tax simplification in modern American history. This combination of progressive base-broadening and conservative tax repeal has achieved broad appeal across a bipartisan congressional coalition.
+The current system's 4,000 pages of interacting rules have made it possible for billionaires to [pay effective federal tax rates in the single digits](https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax) while a teacher earning $65,000 pays 15%. The LEA closes these structural loopholes while protecting the 98% of American households whose lifetime gains fall within the exemption.
 
-The proposal aims to create a tax code that is legible, coherent, honest about tradeoffs, and better serves the long-term health of the country.
+The Act is not a wealth tax. It achieves the same progressivity through a constitutionally sound, realization-based mechanism. The combination of progressive base-broadening and conservative tax repeal (estate tax, AMT, NIIT) creates a coalition that no other capital gains proposal can assemble. Estimated net revenue: $85–203 billion annually.
 
 ## The Design Tenets
 
@@ -64,7 +67,7 @@ This is not a radical new concept — it's an upgrade of one that already exists
 
 The $2.5M/$5M lifetime exemption ensures that over 98% of American households never interact with capital gains taxation at all. A married couple can sell their home, their stock portfolio, their small business — and pay nothing on the first $5 million in lifetime gains. This is the most generous universal capital gains allowance ever proposed in any country. It replaces Section 121 (home sale exclusion), QSBS (startup stock exclusion), and every other narrow provision with a single, universal benefit that treats all Americans equally regardless of asset class, entity type, or industry. The government stops dictating which types of investments deserve reward — a home sale, a stock sale, and a business exit are treated identically.
 
-For gains above the exemption, the tax rate phases up on a sliding scale from 0% (at the $2.5M/$5M exemption boundary) to the taxpayer's ordinary income rate (at $10M in cumulative lifetime gains, $20M married). This eliminates the cliff effect that would otherwise make the jump from tax-free to fully-taxed abrupt and politically untenable. The sliding scale also eliminates the need for holding-period averaging — because the rate increases gradually, the "bunching" problem that has historically been a strong argument against taxing gains as income is addressed by the rate structure itself rather than by an additional averaging mechanism.
+For gains above the exemption, the tax rate phases up on a sliding scale from 0% (at the $2.5M/$5M exemption boundary) to the top marginal income tax rate (currently 37%) at $10M in cumulative lifetime gains ($20M married). The top rate applies regardless of the taxpayer's other income — a retiree with $0 in W-2 income and $15M in lifetime gains pays 37% on gains above $10M, same as a CEO earning $500K. This eliminates the cliff effect that would otherwise make the jump from tax-free to fully-taxed abrupt and politically untenable. The sliding scale also eliminates the need for holding-period averaging — because the rate increases gradually, the "bunching" problem that has historically been a strong argument against taxing gains as income is addressed by the rate structure itself rather than by an additional averaging mechanism.
 
 The progressive structure of the exemption and sliding scale isn't just a political concession — it reflects an economic reality. The risk premium on capital investment decreases with wealth. A founder betting their savings on a startup bears genuine economic risk that benefits society; a billionaire redeploying capital across a diversified portfolio bears far less. This is well-established in economics as "decreasing absolute risk aversion" ([Arrow-Pratt framework](http://assets.press.princeton.edu/chapters/s7945.pdf)), and confirmed empirically by [Guiso & Paiella (2008)](https://www.eief.it/files/2011/02/guiso_paiella_jeea_2008.pdf): absolute risk aversion decreases measurably with wealth, predicting higher rates of entrepreneurship, risky asset ownership, and job mobility among wealthier individuals. The current tax code ignores this asymmetry entirely — it charges the same preferential rate on a $500K gain whether it represents a founder's entire net worth or a billionaire's rounding error. The lifetime exemption corrects this by concentrating the tax benefit where the risk — and the social return on that risk — is highest.
 
@@ -112,6 +115,8 @@ The framework also includes targeted **Roth IRA reform** to close the "Peter Thi
 
 ## Frequently Asked Questions
 
+> **For precise algorithmic definitions** — including the complete tax calculation formula, full counter mechanics, and the canonical list of eliminated provisions — see the [Technical Specification](./technical_spec.md). This document is the source of truth; the FAQs below explain the rationale.
+
 ### FAQ Quick Links
 
 **Implementation Details:** [How does the lifetime exemption work?](#q-how-does-the-lifetime-exemption-work) · [What is the sliding scale?](#q-what-is-the-sliding-scale-and-how-does-it-work) · [How is the rate calculated?](#q-how-is-the-sliding-scale-rate-actually-calculated) · [How do the three realization events work?](#q-how-do-the-three-realization-events-work) · [How does CPI basis indexing work?](#q-how-does-cpi-basis-indexing-work) · [How does the lifetime counter work?](#q-how-does-the-lifetime-counter-work)
@@ -128,7 +133,7 @@ The framework also includes targeted **Roth IRA reform** to close the "Peter Thi
 
 **Political Landscape & Common Objections:** [Doesn't eliminating QSBS destroy startups?](#q-doesnt-eliminating-qsbs-destroy-the-startup-ecosystem) · [Bipartisan path?](#q-how-does-this-get-bipartisan-support) · [Who opposes?](#q-who-opposes-this-and-why) · [Why not a wealth tax?](#q-why-not-just-impose-a-wealth-tax) · [What debates does this render moot?](#q-what-debates-does-this-framework-render-moot) · [Doesn't simplification kill good incentives?](#q-doesnt-tax-simplification-undermine-the-governments-ability-to-incentivize-socially-valuable-behavior)
 
-**On Scope:** [Income tax brackets?](#q-what-about-income-tax-brackets) · [Child tax credit?](#q-what-about-the-child-tax-credit) · [Retirement accounts?](#q-what-about-retirement-accounts-beyond-roth) · [Charitable giving?](#q-what-about-charitable-giving)
+**On Scope:** [Income tax brackets?](#q-what-about-income-tax-brackets) · [Child tax credit?](#q-what-about-the-child-tax-credit) · [Retirement accounts?](#q-what-about-retirement-accounts-beyond-roth) · [Retirement accounts at death?](#q-what-happens-to-retirement-and-tax-advantaged-accounts-at-death) · [Charitable giving?](#q-what-about-charitable-giving)
 
 ---
 
@@ -146,15 +151,16 @@ Key rules:
 - Capital losses can offset gains within each year but do not replenish the exemption.
 - The exemption is per individual and becomes portable prospectively upon marriage; it does not retroactively pool pre-marriage gains.
 
-Once the exemption is exhausted, all subsequent long-term capital gains are taxed on a sliding scale that phases from 0% (at the exemption boundary) to the taxpayer's ordinary income rate (at $10M in cumulative lifetime gains). See [rate structure details](#q-what-is-the-sliding-scale-and-how-does-it-work). Both the exemption and the phase-out ceiling are CPI-indexed annually, just like income tax brackets — so these thresholds grow with inflation automatically.
+Once the exemption is exhausted, all subsequent long-term capital gains are taxed on a sliding scale that phases from 0% (at the exemption boundary) to the top marginal income tax rate (currently 37%) at $10M in cumulative lifetime gains. See [rate structure details](#q-what-is-the-sliding-scale-and-how-does-it-work). Both the exemption and the phase-out ceiling are CPI-indexed annually, just like income tax brackets — so these thresholds grow with inflation automatically.
 
 **Example:** A married couple sells their home ($400K gain), then later sells stock ($200K gain), then one spouse sells a small business ($800K gain). Total lifetime gains: $1.4M. All within the $5M joint exemption. **$0 tax.** They have $3.6M of exemption remaining for future gains.
 
 **Why $2.5M?** The threshold is a calibration variable, not a structural choice — but the rationale matters. $2.5M is high enough to cover 98%+ of American households' lifetime capital gains (including multiple home sales, retirement portfolio gains, and a small business exit). It's high enough to neutralize the "anti-innovation" attack: a founder's first $2.5M exit is completely tax-free, with zero qualifying tests. And it's low enough that gains above it generate meaningful revenue — with a breakeven vs. current law at ~$17.5M, the framework raises more revenue than current law on large gains while protecting the vast middle. The number can be adjusted legislatively without reopening the structural framework; both the exemption and the phase-out ceiling are CPI-indexed, so they grow with inflation just like tax brackets.
 
 #### Q: What is the sliding scale and how does it work?
+*([Technical spec §2, Rule 2](./technical_spec.md#rule-2-sliding-scale) has the precise formula and complete algorithm.)*
 
-Above the lifetime exemption, the capital gains tax rate phases up continuously from 0% to the taxpayer's ordinary income tax rate over the range from $2.5M to $10M in cumulative lifetime gains ($5M to $20M for married couples filing jointly). This is a smooth, linear interpolation — no brackets, no cliffs, no discrete jumps.
+Above the lifetime exemption, the capital gains tax rate phases up continuously from 0% to the top marginal income tax rate (currently 37%) over the range from $2.5M to $10M in cumulative lifetime gains ($5M to $20M for married couples filing jointly). The top rate applies regardless of the taxpayer's other income. This is a smooth, linear interpolation — no brackets, no cliffs, no discrete jumps.
 
 **Example:** Marcus has used his $2.5M exemption and realizes a $5M gain. His cumulative lifetime gains are now $7.5M — that's $5M into the $7.5M phase-up range ($2.5M to $10M). The applicable capital gains rate on this $5M: approximately 5/7.5 × 37% = **~24.7%**, but the tax is calculated by averaging the rate at the start (0%) and end (24.7%) of the tranche: avg 12.3%. Tax: ~$617K. Effective rate on the full $7.5M in lifetime gains (including the $2.5M at 0%): **~8.2%**.
 
@@ -167,6 +173,7 @@ Compare to a $10M+ cumulative gain, where the rate has fully phased up to ordina
 **What about private businesses, real estate, and farms?** For non-brokerage assets, the CPI basis adjustment requires only a purchase date and purchase price — both of which the owner already knows. The genuinely hard part — *valuing* an illiquid asset at the point of realization — is addressed in a [dedicated FAQ](#q-how-are-illiquid-assets-valued). Meanwhile, under current law, these same assets often require far more complex calculations: a farm that's been 1031-exchanged three times, has layered depreciation recapture, and was partially gifted requires tracking multiple basis components across decades. Under this framework: one basis number, one CPI adjustment, one rate. Net complexity goes *down* for most private assets.
 
 #### Q: How is the sliding scale rate actually calculated?
+*([Technical spec §6](./technical_spec.md#6-tax-calculation-complete-algorithm) has the complete pseudocode implementation.)*
 
 One sentence: **Average the rate at the bottom and top of your gains above the exemption. Multiply by the amount.**
 
@@ -176,7 +183,7 @@ The rate at any counter position above $2.5M is:
 rate = (counter_position - $2.5M) / ($10M - $2.5M) × top_rate
 ```
 
-The top rate is the taxpayer's ordinary income rate (up to 37%). The denominator is $7.5M (the phase-up range). Tax on any tranche of gains is:
+The top rate is the top marginal income tax rate (currently 37%), applied regardless of other income. The denominator is $7.5M (the phase-up range). Tax on any tranche of gains is:
 
 ```
 tax = ((rate_at_start + rate_at_end) / 2) × taxable_amount
@@ -214,6 +221,7 @@ Example: Stock A ($4M gain in March) + Stock B ($6M gain in October) = $10M tota
 Compare to current law: navigating the 0%/15%/20% rate structure, AMT check, NIIT calculation, QSBS eligibility, and multiple forms. This system: look up your counter, average two rates, multiply. The effective rates are favorable through the middle of the range — at $10M in cumulative lifetime gains (the top of the sliding scale), the effective rate is 13.9%, well below current law's 23.8% headline rate. The breakeven vs. current law occurs around $17.5M.
 
 #### Q: How do the three realization events work?
+*([Technical spec §2, Rule 3](./technical_spec.md#rule-3-expanded-realization-events) has the precise definitions.)*
 
 The framework expands realization beyond just sales to close the three major deferral strategies. In each case, gains within the remaining lifetime exemption are tax-free; gains above are taxed on the sliding scale (phasing from 0% at the $2.5M exemption to ordinary income rates at $10M in cumulative gains).
 
@@ -233,6 +241,7 @@ Because gifts trigger realization and basis resets to the gift-date value, the t
 (? this part is pretty soft...who is in charge of enforcing this classifications? This feels like it needs to be tightened to make sure we aren't opening up loopholes. If we just look at the appreciation, then a new home purchase is no issue, b/c the collateral hasn't appreciated, right? But what about a HELOC...)
 
 #### Q: How does CPI basis indexing work?
+*([Technical spec §2, Rule 4](./technical_spec.md#rule-4-cpi-indexed-basis-gains-only) has the precise gains/losses determination logic.)*
 
 All cost basis is adjusted for inflation using the Consumer Price Index. When an asset is sold, the basis is adjusted from the purchase date to the sale date:
 
@@ -240,18 +249,22 @@ All cost basis is adjusted for inflation using the Consumer Price Index. When an
 
 This ensures the framework taxes real gains, not phantom gains from purchasing power erosion. A family that bought a home for $200K in 1995 and sells for $600K in 2026 has a nominal gain of $400K — but a real gain of roughly $240K after CPI adjustment. The inflation component was never wealth; taxing it is taxing a measurement error.
 
-Implementation is straightforward: brokerages already track purchase dates and cost basis; the BLS publishes monthly CPI. The calculation is a lookup table multiplication that any brokerage system can automate. For assets acquired by gift or deemed realization at death, the basis date resets to the transfer date.
+**One asymmetry by design: CPI adjustment applies only to gains.** When an asset is sold at a loss, the loss is measured against the original nominal basis. This prevents inflation indexing from amplifying tax-loss harvesting — a strategy where investors sell losing positions to offset gains, then rebuy similar assets to maintain exposure. Without this rule, CPI indexing would inflate harvestable losses by 30-50% over typical holding periods (a stock bought for $100K ten years ago with a CPI-adjusted basis of $130K and sold for $90K would generate a $40K "loss" instead of the actual $10K loss). With this rule, losses reflect actual dollars lost, and gains reflect actual purchasing power gained.
+
+Implementation is straightforward: brokerages already track purchase dates and cost basis; the BLS publishes monthly CPI. The calculation is a lookup table multiplication that any brokerage system can automate. For gains, use CPI-adjusted basis. For losses, use original nominal basis. For assets acquired by gift or deemed realization at death, the basis date resets to the transfer date.
 
 Both the lifetime exemption ($2.5M/$5M) and the sliding scale ceiling ($10M/$20M) are indexed to CPI annually, ensuring the real value of these thresholds doesn't erode over time. This is the same mechanism the IRS already uses for income tax brackets, standard deductions, and dozens of other thresholds — extended to two more numbers. Over decades, these thresholds will grow with inflation, just as tax brackets do. A $2.5M exemption today might be $4M in 20 years — the purchasing power stays constant.
 
 #### Q: How does the lifetime counter work?
+*([Technical spec §3](./technical_spec.md#3-the-lifetime-counter) has the complete counter properties table including marriage, divorce, and negative floor rules.)*
 
 The lifetime counter is the core tracking mechanism. It is:
 
 - **Per individual.** Each person has their own counter from birth (or from enactment, for existing taxpayers — only post-enactment gains count).
 - **Cumulative.** Every realized capital gain (sale, deemed realization at death/gift/borrowing) adds to the counter.
 - **Annual netting.** Capital losses offset gains within each calendar year. The net result (gains minus losses) adjusts the counter. The counter can move up or down year-to-year based on net realized results — and yes, it can go negative. If you lose $500K before ever realizing a gain, your counter is -$500K, meaning you'd need $3.5M in future gains before exhausting the exemption. The counter itself is the only thing carried forward; there is no separate loss carryforward to track. This is simpler than current law, which requires tracking unused capital loss carryforwards as a separate line item indefinitely.
-- **Inflation-adjusted.** Gains entering the counter are real gains after CPI basis adjustment.
+- **Negative floor.** The counter cannot go below the negative value of the exemption (-$2.5M individual, -$5M married filing jointly). This prevents unlimited loss harvesting from creating effectively unbounded exemption headroom. Without this floor, an investor could systematically harvest losses for decades, building a deeply negative counter that shields far more than $2.5M in future gains from taxation. The floor ensures the maximum lifetime tax-free benefit is always bounded by the exemption.
+- **Inflation-adjusted (gains only).** Gains entering the counter are real gains after CPI basis adjustment. Losses enter at nominal value (original cost basis, no CPI adjustment). See [CPI basis indexing FAQ](#q-how-does-cpi-basis-indexing-work) for rationale.
 - **Survives marriage and divorce.** The counter belongs to the individual. Marriage doubles the exemption thresholds for joint filing; divorce returns each spouse to their individual counter. ([See marriage FAQ for details.](#q-what-happens-with-marriage-and-divorce))
 
 The counter serves two purposes: tracking whether you've used your $2.5M lifetime exemption, and determining your position on the sliding scale above it. Once cumulative gains exceed $10M, the scale has fully phased up and the counter becomes a simple pass-through — all subsequent gains are taxed at ordinary income rates.
@@ -351,6 +364,7 @@ Below the $2.5M exemption, emerging fund managers are actually *better off* than
 ### Roth Reform
 
 #### Q: How do Roth accounts change, and what about the "Thiel loophole"?
+*([Technical spec §2, Rule 5](./technical_spec.md#rule-5-roth-reform) has the precise four-part Roth reform definition.)*
 
 Without Roth reform, the entire capital gains framework has an escape hatch. The "Peter Thiel loophole" works primarily through two mechanisms: mega-backdoor Roth conversions (contributing to an after-tax 401(k) and converting to Roth, bypassing the normal contribution limits) and self-directed Roths holding alternative assets that explode in value. Thiel famously bought PayPal founder shares at $0.001/share inside a Roth IRA — the result is a $5B tax-free account. Without reform, the Roth becomes the new QSBS: an unlimited, unrestricted shelter with no cap, no industry restriction, and no holding period test. The backdoor Roth conversion is another unnecessary complexity artifact that exists solely because the current system's income limits force high earners into workarounds.
 
@@ -469,14 +483,25 @@ This eliminates dynasty trusts as a tax avoidance vehicle while preserving their
 
 #### Q: What are the remaining avoidance vectors?
 
-Honest answer: the attack surface is dramatically smaller, but not zero. Remaining vectors include:
+Honest answer: the attack surface is dramatically smaller, but not zero. Eight vectors remain:
 
-1. **Valuation gaming on illiquid assets.** Private businesses, art, and real estate require appraisal at death/gift. This is the #1 remaining attack surface. It exists today under the estate tax and doesn't go away.
-2. **Jurisdiction arbitrage.** Renouncing citizenship before realization events. Addressed by the exit tax, but enforcement depends on international cooperation.
-3. **Entity layering.** Complex partnership structures (e.g., tiered LLCs, blocker corps, fund-of-funds) that obscure who owns what and make basis tracking difficult. The defense is the Corporate Transparency Act's beneficial ownership reporting (effective 2024), strengthened partnership audit rules under the Bipartisan Budget Act, and requiring pass-through entities to report each partner's share of gains against their individual lifetime counter. The IRS already tracks K-1 allocations; the framework requires that these flow through to the individual's lifetime counter without netting across entities.
-4. **Charitable vehicle manipulation.** Charitable transfers are treated as realization events under this framework (donor pays gains tax, retains eligibility for charitable credit under separate reform). This closes the biggest escape route but the details of charitable reform are addressed in a companion proposal.
+1. **Valuation gaming on illiquid assets.** Private businesses, art, and real estate require appraisal at death/gift. This is the #1 remaining attack surface. It exists today under the estate tax and doesn't go away. The defense is existing IRS valuation infrastructure (Revenue Ruling 59-60, the Valuation Office, decades of Tax Court precedent).
 
-The critical difference: current avoidance is *structural* — it exploits gaps between parallel tax systems. Remaining avoidance under this framework is *administrative* — it exploits measurement difficulty. That is a much easier problem. The IRS can improve appraisal enforcement and entity reporting; it cannot fix the fundamental architecture of having two tax systems that don't talk to each other.
+2. **Tax-loss harvesting against the lifetime counter.** Investors with large diversified portfolios can realize losses to offset gains, keeping the counter low. This is bounded by portfolio math: harvestable losses are finite, diminish over time as basis resets, and are dampened by the CPI-adjusted-gains-only rule. A $500M portfolio might generate $3-5M/year in harvestable losses. Annual revenue leakage is estimated at $1-3B, roughly 1% of framework revenue. Strictly tighter than current law, which allows unlimited loss carryforwards with no cap.
+
+3. **Slow-drip realization.** Spreading gains over decades to stay low on the sliding scale. This is not abuse — it is intended behavior. The framework prefers steady realization over indefinite deferral. Deemed realization at death catches any remaining gains.
+
+4. **Borrowing structuring.** Gray areas remain in the borrowing-as-realization provision: business-purpose loans secured by personal assets, mixed-use borrowing, loans below enforcement thresholds. This is the most significant enforcement gap. Needs clearer safe harbors in regulatory guidance.
+
+5. **Jurisdiction arbitrage.** Moving to no-income-tax states before large realizations. This is constitutional and unavoidable at the federal level; it is a state revenue issue best resolved by state-level sourcing rules (as California, New York, and Connecticut have already begun implementing). Expatriation triggers the existing exit tax under IRC §877A.
+
+6. **Entity layering.** Complex partnership structures (tiered LLCs, blocker corps, fund-of-funds) that obscure ownership and basis. The defense is the Corporate Transparency Act's beneficial ownership reporting, strengthened partnership audit rules under the Bipartisan Budget Act, and requiring pass-through entities to report each partner's share of gains against their individual lifetime counter. The IRS already tracks K-1 allocations; the framework requires these flow through to individual counters.
+
+7. **Charitable basis optimization.** Donating high-basis assets (small gain, small tax, full deduction) while keeping low-basis assets. This still results in charitable giving, so the social harm is limited. Interaction effects will be addressed in the companion charitable reform proposal.
+
+8. **Grandfathered mega-Roths.** Existing Roths above $5M compound tax-free and pass tax-free under the 10-year rule. This is a known asymmetry, but it is self-limiting: the $5M contribution freeze prevents new mega-Roths from forming, and the 10-year distribution rule forces non-spouse drawdown.
+
+**The critical difference from current law:** Current avoidance is *structural* — it exploits gaps between parallel tax systems. Remaining avoidance under this framework is *administrative* — it exploits measurement difficulty and timing optimization. A crafty wealth advisor operating under this framework can plausibly reduce a client's effective rate from the intended 25-35% range to perhaps 12-18%. Under current law, the same advisor routinely achieves 5-8%. The framework roughly doubles effective collection from the ultra-wealthy while maintaining radical simplicity. Perfect is the enemy of good — and the enemy of done.
 
 ---
 
@@ -715,9 +740,25 @@ A unified child benefit ($4,000/child, fully refundable, consolidating CTC/EITC/
 
 #### Q: What about retirement accounts (beyond Roth)?
 
-Traditional 401(k)s, Traditional IRAs, SEP IRAs, SIMPLE IRAs, and 529 plans are explicitly excluded from the lifetime counter. Gains within these accounts do not consume the exemption.
+The following accounts are explicitly excluded from the lifetime gains counter: Traditional 401(k)s, Traditional IRAs, Roth IRAs, Roth 401(k)s, SEP IRAs, SIMPLE IRAs, HSAs, and 529 plans. Gains and growth within these accounts are not capital gains for purposes of this framework. Distributions from Traditional accounts are taxed as ordinary income under existing rules. Roth accounts are subject to the reforms described above (no income phaseout, $15K annual cap, $5M contribution freeze) but are otherwise unchanged. Death transfers for all tax-advantaged accounts follow current law, with no modifications.
 
-A separate companion proposal addresses retirement account consolidation and simplification. For purposes of this framework, the current retirement account structure is unchanged beyond the Roth reforms described above.
+A broader retirement account simplification is deferred to a companion proposal.
+
+#### Q: What happens to retirement and tax-advantaged accounts at death?
+
+The lifetime counter only applies to taxable accounts. Deemed realization at death does **not** apply to tax-advantaged accounts. Each account type follows its existing death transfer rules:
+
+**Traditional IRAs / 401(k)s / SEP / SIMPLE:** No changes. These hold pre-tax money. The entire balance is untaxed income, taxed as ordinary income upon distribution. Spouse can roll over to their own account; non-spouse must distribute within 10 years.
+
+**Roth IRAs / 401(k)s:** Death transfer rules unchanged. Passes tax-free. Spouse rolls over; non-spouse distributes within 10 years, tax-free. If the surviving spouse's combined Roth balance exceeds $5M after rollover, the contribution freeze applies (no new contributions), but growth continues tax-free regardless of balance.
+
+**HSAs:** No changes. Spouse inherits as HSA. Non-spouse: entire balance taxable as ordinary income in year of death.
+
+**529s:** No changes. Transfers to named beneficiary. Tax-free if used for qualifying education expenses.
+
+**Taxable brokerage accounts:** This is the one category that changes. Spouse receives a spousal transfer with no realization event. Non-spouse (and the spousal transfer upon the surviving spouse's eventual death) triggers deemed realization on the decedent's final return; the heir receives a clean basis at date-of-death value. Tax is calculated through the lifetime counter and sliding scale, with the decedent's remaining exemption applied.
+
+**Known asymmetry:** A $10M inherited Roth passes tax-free while a $10M inherited taxable account triggers deemed realization. This asymmetry is preserved for three reasons: (1) changing Roth death rules retroactively would destroy trust in the entire framework's promises; (2) the population is self-limiting, as the $5M contribution freeze prevents new mega-Roths and the 10-year distribution rule forces non-spouse drawdown; (3) the revenue impact is negligible, since the number of Roths large enough to matter is measured in thousands.
 
 #### Q: What about charitable giving?
 
@@ -752,7 +793,7 @@ Charitable giving reform (including a proposed universal credit) is addressed in
 
 ### Net Position
 
-Revenue depends significantly on the sliding scale calibration — specifically, how quickly the rate phases up from 0% to the taxpayer's ordinary income rate. The breakeven point (where the sliding scale's effective rate equals current law's 23.8%) determines whether a given gain level generates more or less revenue than the status quo.
+Revenue depends significantly on the sliding scale calibration — specifically, how quickly the rate phases up from 0% to the top marginal income tax rate. The breakeven point (where the sliding scale's effective rate equals current law's 23.8%) determines whether a given gain level generates more or less revenue than the status quo.
 
 | Calibration | Exemption | Ceiling | Breakeven | Est. Net Revenue |
 |---|---|---|---|---|
@@ -936,6 +977,8 @@ This framework treats charitable gifts as realization events (donor pays gains t
 ---
 
 ## Transition Design
+
+*([Technical spec §5](./technical_spec.md#5-transition-rules) has the precise transition rules.)*
 
 Any structural tax reform must answer: how do you get from here to there without creating chaos? This section addresses the four critical transition questions.
 
