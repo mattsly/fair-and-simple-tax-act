@@ -6,7 +6,7 @@
 
 ---
 
-I have spent twenty years in the software industry working in a variety of environments. I've been a W-2 employee, a startup employee with stock options, a founder with an exit, and an investor writing checks to the next generation of builders. As both a software professional and a taxpayer, I think that the American tax code is the most consequential piece of technical debt in the United States.
+I have spent twenty years building software in multiple capacities. I've been a W-2 employee, a startup employee with stock options, a founder with an exit, and an investor writing checks to the next generation of builders. As both a software professional and a taxpayer, I think that the American tax code is the most consequential piece of technical debt in the United States.
 
 It is a direct cause of wealth and opportunity inequality in America, epitomized by [billionaires paying taxes at a lower rate than teachers](https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax). But I believe it can be dramatically improved with a radical but simple "refactor" of capital gains taxation that can be specified with five rules. Those five rules would eliminate more tax law than any reform in American history (including the Estate Tax, the AMT, and the NIIT), preclude the need for a wealth tax, close the "buy, borrow, die" loophole, cut taxes for 98% of Americans, and generate $85-200 billion in annual deficit reduction.
 
@@ -16,17 +16,17 @@ A tax code is an algorithm. It takes inputs (your income, your assets, your tran
 
 This complexity is not a conspiracy. It is an accidental byproduct of a political system that rewards adding new provisions rather than shoring up existing ones. In most cases, each provision was a reasonable solution to a real problem. But reasonable solutions to problems caused by previous reasonable solutions, compounded over a century, have produced a byzantine mess that nobody designed.
 
-Consider that the estate tax was created to prevent dynastic wealth concentration. But it justified stepped-up basis (why tax gains at death if you're already taxing the estate?). Stepped-up basis created buy-borrow-die (why sell if you can borrow against your assets and let death erase the gains?). Buy-borrow-die meant billionaires could pay effective federal tax rates in the single digits, which created political pressure for the Net Investment Income Tax, bolted onto the Affordable Care Act as a 3.8% surtax. The NIIT didn't fix the underlying problem, so we got Opportunity Zones, which were supposed to direct capital to underserved communities but mostly subsidized luxury apartments in already-gentrifying neighborhoods. And on and on. A patient on seventeen medications, where half exist to manage the side effects of the other half.
+Consider that the estate tax was created to prevent dynastic wealth concentration. But it justified stepped-up basis (why tax gains at death if you're already taxing the estate?). Stepped-up basis created buy-borrow-die (why sell if you can borrow against your assets and let death erase the gains?). Buy-borrow-die meant billionaires could pay effective federal tax rates in the single digits, which created political pressure for the Net Investment Income Tax, bolted onto the Affordable Care Act as a 3.8% surtax. And on and on. The tax code is like a patient on dozens of medications, where half exist to manage the side effects of the other half.
 
-Each layer has a constituency. Estate planning attorneys. 1031 exchange intermediaries. Opportunity Zone fund managers. QSBS specialists. Together, this industry generates billions in fees, not for producing anything, but for navigating a system that shouldn't require navigation. When a system accumulates this much technical debt, you don't keep patching. You refactor.
+Each layer has a constituency. Estate planning attorneys. 1031 exchange intermediaries. Opportunity Zone fund managers. QSBS specialists. Together, this industry generates billions in fees, not for producing anything, but for navigating a system that shouldn't require navigation. In software, when a system accumulates this much technical debt, you don't keep patching. You refactor.
 
 ---
 
 ## The Refactor: Five Rules
 
-The best products hide complexity from the user. Google's search index is one of the most sophisticated pieces of software ever built; you interact with it through a single text box. Apple's iPhone requires millions of lines of code and requires a complex global supply chain, but you can learn how to use the product in 3 minutes. The tax code does the opposite. Yes, the underlying economy is complicated. But the interface (the part citizens actually touch) should be simple. The current system takes the hardest problem in government (allocating the cost of civilization fairly) and makes it every individual taxpayer's problem to solve. That's a design failure.
+The best products hide complexity from the user. Google search is one of the most sophisticated pieces of software ever built; you interact with it through a single text box. Apple's iPhone requires millions of lines of code and a complex global supply chain, but you can learn how to use the product in 3 minutes. The tax code does the opposite. Yes, the underlying economy is complicated. But the interface (the part citizens actually touch) should be simple. The current system takes the hardest problem in government (allocating the cost of civilization fairly) and makes it every individual taxpayer's problem to solve. That's a design failure.
 
-Here is the entire capital gains tax system (or "User Interface") that I'm proposing, in five rules:
+Here is my proposal for how fix the capital gains tax system (or "User Interface") in five rules:
 
 > Note - the specific numbers here are "stakes in the ground" - they are much less important than the general framework and are open for debate
 
@@ -81,19 +81,13 @@ The honest rebuttal to the left: gains above $10 million *are* taxed as ordinary
 
 ## The 1031 Question and Housing Prices
 
-The real estate lobby will tell you that eliminating 1031 exchanges will crash the property market. The opposite case is at least as strong.
-
-1031 exchanges, combined with stepped-up basis at death, create a structural incentive to hold real estate forever. An investor who bought an apartment building in 1985 has no tax reason to sell, ever. They can 1031 into another property, defer the gain, and let stepped-up basis erase it at death. This isn't capital efficiency. It's capital paralysis. Properties that should trade, get renovated, or change use instead sit in aging portfolios managed for tax optimization rather than productivity.
-
-Eliminating 1031 and stepped-up basis simultaneously increases the supply of investment-grade real estate entering the market. More supply, at the margin, means lower prices, particularly for commercial properties, multi-family housing, and rental units. The effect on single-family homes is modest (most homeowners' gains fall within the $5M married exemption), but for the rental and commercial markets that most affect housing affordability, the directional impact is clear: more transactions, more efficient allocation, and downward pressure on prices.
-
-The JCT estimates the 1031 tax expenditure at roughly $4-10 billion per year. The U.S. real estate market involves trillions in annual transactions. The idea that a tax provision worth single-digit billions would crash a multi-trillion dollar market is not supported by evidence. What it *would* crash is the 1031 exchange industry: qualified intermediaries, specialist attorneys, and dedicated software that exist solely because of this provision. That's not market liquidity. That's an artificial ecosystem built on a tax distortion.
+Lobbyists claim eliminating 1031 exchanges will crash the real estate market, but the opposite is more likely: it will unlock it. Currently, the 1031 deferral combined with stepped-up basis at death encourages "capital paralysis"—investors hold aging assets for decades solely to avoid tax. Simultaneously ending both provisions forces investment-grade real estate back into the market. This increased supply puts downward pressure on prices for rentals and commercial space, improving affordability. While this "crashes" the artificial ecosystem of tax intermediaries, it restores genuine market liquidity and efficiency.
 
 ---
 
 ## The QSBS Question and Startups
 
-The venture capital community will argue that eliminating QSBS (Section 1202, the qualified small business stock exclusion) will destroy American startup formation. The history doesn't support this. QSBS existed at 50% exclusion from 1993 to 2009, rose to 75%, and only reached 100% exclusion in September 2010. Google went public in 2004. Apple's iPhone launched in 2007. NVIDIA was founded in 1993. The American startup ecosystem was built before QSBS reached its current form. Meanwhile, Israel has the highest startup density in the world with no equivalent provision, and the UK uses targeted EIS/SEIS programs that are narrower and more time-limited. Under this framework, a founder's first $2.5 million in gains ($5M married) is still tax-free, covering the vast majority of startup exits. And the universal exemption is arguably *better* for innovation than QSBS: it requires no C-corp structure, no $50M gross asset test, no five-year hold, no active business test. Most founders fail at least one of those. The exemption just says: build something valuable, sell it, keep the first $2.5M. The founders who lose are the ones with $50 million exits, and they can afford the tax bill.
+Critics argue that ending the QSBS exclusion (Section 1202) will stifle startups, but history suggests otherwise: Google, the iPhone, and NVIDIA were all launched before the 100% exclusion even existed. International hubs like Israel and the UK thrive without similar open-ended tax shelters. In fact, a Universal Exemption is better for innovation: it removes the rigid "C-Corp" and "five-year hold" traps that disqualify most early-stage founders today. While $50M exits would face higher rates, the first $1.5M remains tax-free for everyone, protecting the vast majority of exits while dramatically simplifying the "User Interface" for starting a business.
 
 ---
 
