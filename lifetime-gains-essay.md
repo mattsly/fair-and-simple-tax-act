@@ -20,7 +20,7 @@ A tax code is an algorithm. It takes inputs (your income, your assets, your tran
 
 This complexity is not a conspiracy. It is an accidental byproduct of a political system that rewards adding new provisions rather than shoring up existing ones. In most cases, each provision was a reasonable solution to a real problem. But reasonable solutions to problems caused by previous reasonable solutions, compounded over a century, have produced a byzantine mess that nobody designed.
 
-Consider that the estate tax was created to prevent dynastic wealth concentration. But it justified stepped-up basis (why tax gains at death if you're already taxing the estate?). Stepped-up basis created buy-borrow-die (why sell if you can borrow against your assets and let death erase the gains?). Buy-borrow-die meant billionaires could pay effective federal tax rates in the single digits, which created political pressure for the Net Investment Income Tax, bolted onto the Affordable Care Act as a 3.8% surtax. And on and on. The tax code is like a patient on dozens of medications, where half exist to manage the side effects of the other half.
+Consider the estate tax: it was created to prevent dynastic wealth concentration, but it provided the moral 'double taxation' cover for stepped-up basis (the idea that we shouldn't tax gains at death if we’re already taxing the estate). That loophole, in turn, birthed 'Buy, Borrow, Die'—the ultimate bypass where billionaires borrow against untaxed appreciation to fund their lives, then let death erase the tax bill entirely. When this drove effective tax rates for the ultra-wealthy into the single digits, Congress didn't fix the loop; they bolted on the Net Investment Income Tax (NIIT) as a 3.8% surtax to try and claw back the lost revenue. The American tax code has become like a patient on dozens of medications, where half the pills exist solely to manage the side effects of the other half.
 
 Each layer has a constituency. Estate planning attorneys. 1031 exchange intermediaries. Opportunity Zone fund managers. QSBS specialists. Together, this industry generates billions in fees, not for producing anything, but for navigating a system that shouldn't require navigation. In software, when a system accumulates this much technical debt, you don't keep patching. You refactor.
 
@@ -75,13 +75,24 @@ The current system has at least twenty-five independent configuration parameters
 
 This is the first objection from the left, and it deserves a direct answer. If the goal is to treat investment income like wages, why bother with an exemption and a sliding scale? Why not just eliminate the preferential rate and be done with it?
 
-The core problem is lock-in. At full income tax rates from dollar one, the incentive to never sell becomes overwhelming. Capital gets trapped in yesterday's investments instead of flowing to tomorrow's. Add the bunching problem (a founder who builds a company over ten years realizes a decade of gains in a single tax year, facing a marginal rate designed for people earning that amount *every* year) and you've created a system that punishes exactly the kind of long-term entrepreneurial risk-taking you want to encourage. The exemption eliminates lock-in for 98%+ of households entirely, and the sliding scale handles bunching structurally.
+The core problem is lock-in. At full income tax rates from dollar one, the incentive to never sell becomes overwhelming. Capital gets trapped in yesterday's investments instead of flowing to tomorrow's. Add the bunching problem (a founder who builds a company over ten years realizes a decade of gains in a single tax year, facing a marginal rate designed for people earning that amount *every* year) and you've created a system that punishes exactly the kind of long-term entrepreneurial risk-taking you want to encourage. The exemption eliminates lock-in for 98%+ of households entirely and the sliding scale handles bunching structurally.
 
 There's also the capital flight problem. [France, Sweden, and Austria all repealed their wealth taxes](https://taxfoundation.org/research/all/eu/wealth-tax-impact/) after discovering that aggressive taxation of capital drove high-net-worth individuals and their assets to friendlier jurisdictions. Full equalization from dollar one creates the same pressure. The exemption and sliding scale keep rates competitive for the vast majority of investors while ensuring that very large accumulations pay their share.
 
 The honest rebuttal to the left: gains above $10 million *are* taxed as ordinary income under this framework. The disagreement isn't about whether gains should be income. It's about whether the transition should be gradual or abrupt, and what happens to capital mobility if it's abrupt.
 
 ---
+
+## Recognizing Relative Risk Premium
+
+We must also acknowledge that unlike a guaranteed paycheck, investments are risky. An entrepreneur or investor takes a chance that their capital could vanish entirely. The exemption and sliding scale act as a 'risk premium'—a recognition that the person putting their own wealth on the line to build something new deserves a different tax treatment than the person merely collecting a safe salary.
+
+However, we believe this public subsidy for risk should have a decay function. While the first few million dollars of a gain represent the 'reward' for a life-altering risk, once an individual has realized tens of millions in profit, they have moved beyond 'entrepreneurial risk-taking' and into the realm of 'Capital Management.' At that level of success, the tax code should stop providing a discount and start treating that wealth like any other form of income. We protect the seed, we encourage the growth, but we tax the harvest at the same rate as the labor that made it possible.
+
+Economists call this "[decreasing absolute risk aversion](https://en.wikipedia.org/wiki/Risk_aversion#Absolute_risk_aversion)": the risk premium on investment shrinks as wealth increases. If you have $50,000 to your name and you bet $25,000 on a startup, you are taking a life-altering risk. If you have $50 million and you bet $500,000, you are taking a rounding error. The current tax code ignores this entirely. It charges the same preferential rate (23.8%) whether a gain represents a first-time founder's entire net worth or a billionaire's Tuesday. The lifetime exemption corrects this: the tax benefit is concentrated where the risk is highest and the social return on that risk is greatest.
+
+---
+
 
 ## The 1031 Question and Housing Prices
 
@@ -138,12 +149,6 @@ One way to test whether a reform is structural or cosmetic is to ask: how many o
 The billionaire tax debate (whether to tax unrealized gains annually) is resolved by expanding realization events to death, gifts, and borrowing. You don't need mark-to-market accounting. You need to close the exits. Carried interest (the provision that lets hedge fund managers pay capital gains rates on what is essentially labor income) is rendered moot without a targeted ban — when gains above the exemption are ordinary income, there is no preferential rate to exploit. The wealth tax debate is settled by offering the same outcome through constitutionally sound means; [France, Sweden, and Austria all repealed their wealth taxes](https://taxfoundation.org/research/all/eu/wealth-tax-impact/) after discovering that capital flight and enforcement costs made them counterproductive.
 
 These are not separate reforms requiring separate political coalitions. They are natural consequences of five rules.
-
----
-
-## The Risk Premium Argument
-
-There is an economic theory behind this design. Economists call it "[decreasing absolute risk aversion](https://en.wikipedia.org/wiki/Risk_aversion#Absolute_risk_aversion)": the risk premium on investment shrinks as wealth increases. If you have $50,000 to your name and you bet $25,000 on a startup, you are taking a life-altering risk. If you have $50 million and you bet $500,000, you are taking a rounding error. The current tax code ignores this entirely. It charges the same preferential rate (23.8%) whether a gain represents a first-time founder's entire net worth or a billionaire's Tuesday. The lifetime exemption corrects this: the tax benefit is concentrated where the risk is highest and the social return on that risk is greatest. At the top, where a portfolio rebalancing is about as risky as choosing which yacht to refuel, the rate converges to ordinary income.
 
 ---
 
