@@ -36,7 +36,7 @@ Here is my proposal for how to fix the capital gains tax system in five rules:
 
 **Rule 2: Above the exemption, the tax rate phases up on a sliding scale to the top marginal income tax rate.** From $2.5 million to $10 million in cumulative lifetime gains, the rate increases smoothly from 0% to 37% (the current top marginal rate). Above $10 million, all gains are taxed at 37% regardless of other income. Crucially, the rate is not a fixed number — it is pegged to whatever the top marginal income tax rate happens to be. If Congress raises or lowers income tax rates, capital gains rates automatically follow. The two systems never drift apart again. This eliminates the preferential rate that allows hedge fund managers to pay a lower percentage than teachers.
 
-**Rule 3: You can't defer gains forever.** Three events trigger realization: selling, dying, and borrowing against appreciated assets. Death as a realization event follows [the Canadian model, in use since 1972](https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/capital-gains.html) (the sky has not fallen). Gifts also trigger realization. Borrowing closes the ["buy, borrow, die" strategy](https://budgetlab.yale.edu/research/buy-borrow-die-options-reforming-tax-treatment-borrowing-against-appreciated-assets) that lets the ultra-wealthy live on loans backed by untaxed appreciation indefinitely.
+**Rule 3: You can't defer gains forever.** Three events trigger realization: selling, dying, and borrowing against appreciated assets. Death as a realization event follows [the Canadian model, in use since 1972](https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/capital-gains.html) (the sky has not fallen). This eliminates stepped-up basis — the provision that currently lets heirs inherit appreciated assets with a clean tax slate, erasing a lifetime of untaxed gains. Gifts also trigger realization. Borrowing closes the ["buy, borrow, die" strategy](https://budgetlab.yale.edu/research/buy-borrow-die-options-reforming-tax-treatment-borrowing-against-appreciated-assets) that lets the ultra-wealthy live on loans backed by untaxed appreciation indefinitely.
 
 **Rule 4: Basis is indexed to inflation (for gains only).** Your cost basis is [adjusted by CPI](https://budgetlab.yale.edu/research/indexing-capital-gains-inflation), so you're taxed on real gains, not phantom gains from purchasing power erosion. A house you bought for $200,000 in 1995 has a CPI-adjusted basis of roughly $400,000 in 2026. You're taxed on the real wealth you accumulated, not on the fact that the dollar lost value. One asymmetry by design: CPI adjustment applies only to gains. Losses are measured against original purchase price. This prevents inflation indexing from amplifying tax-loss harvesting strategies, where investors sell losing positions to generate inflated deductions. Losses reflect actual dollars lost; gains reflect actual purchasing power gained.
 
@@ -52,20 +52,36 @@ That's it. Five rules. From these five rules, an extraordinary amount of existin
 
 The five rules don't just simplify capital gains. They make entire categories of tax law redundant.
 
-**The estate tax.** If death is a realization event and all gains are taxed on the decedent's final return, why do we need a separate estate tax? The estate tax currently collects [about $20-25 billion per year](https://taxpolicycenter.org/briefing-book/how-many-people-pay-estate-tax), a fraction of what it should, because the wealthy use [GRATs, dynasty trusts, and valuation discounts](https://www.bloomberg.com/graphics/infographics/how-to-preserve-a-family-fortune-through-tax-tricks.html) to reduce their effective rates to 10-15%. Under this framework, a $100 million estate with $80 million in unrealized gains pays approximately $29 million. No planning tricks. No escape routes. The estate tax is replaced by something that actually works.
-
-Eliminating the estate tax is not a concession to conservatives. It is a trade. For thirty years, estate tax repeal has been the Republican donor class's top legislative priority. This framework delivers it, in exchange for a system that collects two to six times more from the estates that matter most. That trade is the political engine that makes this proposal viable across party lines.
+**The estate tax.** If death is a realization event and all gains are taxed on the decedent's final return, the estate tax becomes redundant — and replaceable with something that actually collects. (See *The Estate Tax Question* below.)
 
 **The Alternative Minimum Tax.** The AMT is a parallel tax system [created in 1969 because 155 wealthy Americans paid zero income tax](https://taxfoundation.org/taxedu/glossary/alternative-minimum-tax-amt/). It now ensnares millions of upper-middle-class households in high-tax states, the very people it was never meant to touch, while the truly wealthy route around it through the same planning strategies they use for everything else. When there are no exclusions to exploit, the AMT's purpose evaporates.
 
 **The Net Investment Income Tax.** A 3.8% surtax bolted onto the Affordable Care Act to fund Medicare. Under this framework, gains above the exemption are ordinary income taxed at rates far exceeding 3.8%. Medicare revenue doesn't decrease. It increases. The NIIT becomes redundant by design.
 
-**A Wealth Tax.** We don't currently have a wealth tax, but it has been frequently floated as a solution to inequality that, in my opinion, is a poor solution to a valid problem. This framework precludes the need for a wealth tax as it achieves the same progressivity through [realization events](./technical_spec.md) (sales, death, gifts, borrowing), which are easier to value (transaction prices, not annual appraisals), harder to evade (documented transactions with third-party reporting), and more enforceable (uses existing IRS infrastructure). By expanding realization events and taxing gains as ordinary income, the base captures wealth accumulation that a rate-based-only approach never reaches.
+**A Wealth Tax.** This framework precludes the need for a wealth tax by achieving the same progressivity through better means. (See *The Wealth Tax Question* below.)
 
 **Twelve special exclusions and preferences.** QSBS (the startup stock exclusion). Section 121 (the home sale exclusion). 1031 exchanges (the real estate deferral). Opportunity Zone deferrals. The 60/40 rule for derivatives. The collectibles rate. Installment sale deferrals. GRATs and dynasty trusts. Stepped-up basis. The lifetime gift tax exemption. Carried interest. Each one replaced by the universal exemption and the five rules.
 
 The current system has at least twenty-five independent configuration parameters that interact in ways no single expert fully understands. The proposed system has two: the exemption level and the phase-out ceiling. Both are indexed to inflation. Both can be adjusted by Congress without reopening the structural framework. That is what radical simplification actually looks like.
 
+
+---
+
+## The Estate Tax Question
+
+Abolishing the estate tax sounds like a conservative fever dream. But the estate tax is a policy that looks progressive on paper and fails in practice. It theoretically imposes a 40% rate. In reality, well-advised estates routinely pay 10-15% or less — and the wealthiest pay the least, because they can afford the planners who make it disappear. As Professor Ray Madoff argues in [*The Second Estate*](https://press.uchicago.edu/ucp/books/book/chicago/S/bo256019296.html), the estate tax functions as political cover: its existence justifies excluding inheritances from income tax, while its hollowed-out structure ensures the wealthy pay neither.
+
+This framework replaces it with something that actually works. When death is a realization event and all gains are taxed on the decedent's final return, there is no stepped-up basis, no GRAT loophole, no valuation discount game. Dynasty trusts lose their power too: trust-held assets are deemed realized at each generational transfer, so wealth can no longer skip across generations untaxed. A $100 million estate with $80 million in unrealized gains pays approximately $29 million — automatically, with no planning tricks available. A $500 million dynasty estate pays roughly $148 million, compared to the $30-50 million the current estate tax actually collects after planning.
+
+The trade is simple: abolish a tax that collects [$20-25 billion per year](https://taxpolicycenter.org/briefing-book/how-many-people-pay-estate-tax) badly, and replace it with a mechanism that collects two to six times more from the estates that matter most. Progressives get more revenue and no escape routes. Conservatives get the estate tax repeal they've wanted for a generation. That exchange is the political engine of this proposal.
+
+---
+
+## The Wealth Tax Question
+
+A wealth tax polls well. It feels fair: if you have a billion dollars, pay a percentage every year. But [every European country that tried one repealed it](https://taxfoundation.org/research/all/eu/wealth-tax-impact/). France's wealth tax drove an estimated 42,000 millionaires out of the country before it was repealed in 2017. Sweden and Austria reached the same conclusion. The problems are structural: annual valuation of illiquid assets (private businesses, real estate, art) is expensive, subjective, and gameable. Enforcement costs eat the revenue. And capital flight is real — wealthy individuals move to jurisdictions that don't impose the tax, shrinking the base faster than the tax can collect from it.
+
+This framework achieves what a wealth tax promises without these failures. By expanding realization events (sales, death, gifts, borrowing) and taxing gains as ordinary income, it captures wealth accumulation at the moments when assets are easiest to value — transaction prices, not annual appraisals — and hardest to hide — documented transactions with third-party reporting. It uses existing IRS infrastructure rather than requiring a new valuation bureaucracy. The result is the same progressivity that wealth tax advocates want, delivered through mechanisms that actually work.
 
 ---
 
@@ -160,9 +176,7 @@ First, the complexity-industrial complex. The current system supports an ecosyst
 
 Second, partisan framing. Tax reform has been captured by a false binary: raise rates (left) or cut rates (right). This framework does neither. It broadens the base, eliminates preferences, and lets the rate structure do its job. That makes it harder to explain in a sound bite, but it also means it can get a meeting with both the Senate Finance Committee chair and the ranking member, which no other progressive capital gains proposal can claim.
 
-Third, the estate tax trap. For decades, progressive reformers have defended the estate tax as the last line of defense against dynastic wealth. And in theory, it is. In practice, it is a line of defense made of wet cardboard. The estate tax theoretically imposes a 40% rate. In practice, well-advised estates pay 10-15% or less. [The Walton family transferred billions using GRATs](https://www.bloomberg.com/graphics/infographics/how-to-preserve-a-family-fortune-through-tax-tricks.html) structured to generate zero gift tax liability. Defending the estate tax has become an article of progressive faith that prevents progressives from considering the possibility that abolishing it, in exchange for something that actually works, is the better deal.
-
-Professor Ray Madoff at Boston College School of Law made this argument rigorously in her 2025 book [*The Second Estate*](https://press.uchicago.edu/ucp/books/book/chicago/S/bo256019296.html): the estate tax functions as political cover. Its existence justifies excluding inheritances from income tax, while its hollowed-out structure ensures the wealthy pay neither. Tearing down the cover and replacing both with deemed realization at death collects more, with no escape routes.
+Third, the estate tax trap. For decades, progressive reformers have defended the estate tax as the last line of defense against dynastic wealth. Defending it has become an article of progressive faith — one that prevents progressives from considering the possibility that abolishing it, in exchange for something that actually works, is the better deal. [The Walton family transferred billions using GRATs](https://www.bloomberg.com/graphics/infographics/how-to-preserve-a-family-fortune-through-tax-tricks.html) structured to generate zero gift tax liability. The 40% rate on paper means nothing when the effective rate is 10-15%.
 
 ---
 
@@ -189,3 +203,5 @@ The tax code is America's most expensive, most consequential piece of technical 
 ---
 
 *Matt Sly is a software entrepreneur with twenty years of experience building products used by millions. The Lifetime Gains Framework and supporting analysis are available at [mattsly.com]. This essay is adapted from a longer policy document developed as part of the Fair and Simple Tax Project.*
+
+*Revenue estimates, sensitivity analysis, and editorial assistance provided by Claude AI. All policy positions and framework design are the author's own.*

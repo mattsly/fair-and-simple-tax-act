@@ -4,13 +4,10 @@
 
 OPEN QUESTIONS:
 
-1. This doesn't close the budget gap - what else can we do? (VAT, Cut Costs, Entitlements)
-1. Add sources / references
-2. What about tax loss harvesting?
-3. What about K1s?
-4. International Taxes?
-"un - AI" the writing
-Are we clear enough on the philosophy behind the approach?
+1. Is CPI fair to "sweat equity" where the "cost" is 0?
+2. What about K1s?
+3. International Taxes?
+4. Are we clear enough on the philosophy behind the approach?
 
 
 
