@@ -1,7 +1,7 @@
 # Lifetime Gains Framework: Technical Specification
 
-**Version:** 0.1 (Draft)
-**Date:** March 11, 2026
+**Version:** 0.2 (Draft)
+**Date:** March 16, 2026
 **Status:** Working document — not for public distribution
 
 This document is the canonical source of truth for the framework's mechanics. The essay and PR-FAQ are derived from this spec. If a conflict exists, this document governs.
@@ -39,13 +39,13 @@ Above E, the capital gains rate phases linearly from 0% to T over the range [E, 
 
 **Rate at any counter position P (where P > E):**
 
-```
+```text
 rate(P) = min(T, T × (P - E) / (C - E))
 ```
 
 **Tax on a tranche of gains from counter position P₁ to P₂ (where E ≤ P₁ < P₂):**
 
-```
+```text
 tax = ((rate(P₁) + rate(P₂)) / 2) × (P₂ - P₁)
 ```
 
@@ -68,17 +68,15 @@ Four events trigger realization of capital gains:
 
 In all cases, gains within remaining exemption headroom are tax-free; gains above are taxed on the sliding scale.
 
-### Rule 4: CPI-Indexed Basis (Gains Only)
+### Rule 4: CPI-Indexed Basis
 
-Cost basis is adjusted for inflation using the Consumer Price Index:
+Cost basis is fully adjusted for inflation using the Consumer Price Index:
 
-```
+```text
 adjusted_basis = original_basis × (CPI_sale / CPI_purchase)
 ```
 
-**Asymmetry by design:** CPI adjustment applies only when an asset is sold at a gain. When sold at a loss, the loss is measured against the original nominal basis (no CPI adjustment). This prevents inflation indexing from amplifying tax-loss harvesting.
-
-**Determination:** Compare sale price to both CPI-adjusted basis and nominal basis. If sale price > CPI-adjusted basis → gain, use CPI-adjusted basis. If sale price < nominal basis → loss, use nominal basis. If sale price is between the two → no gain, no loss (the nominal loss is entirely attributable to inflation).
+**Symmetry by design:** CPI adjustment applies universally to all transactions, whether sold at a gain or a loss. Because terminal realization (Rule 3) ensures deferred gains are eventually taxed, asymmetric rules to handicap tax-loss harvesting are unnecessary. The framework taxes only real economic gains and recognizes only real economic losses.
 
 For assets acquired by gift or deemed realization at death, the basis date resets to the transfer date.
 
@@ -108,12 +106,12 @@ The lifetime counter is the core tracking mechanism that determines exemption us
 | Scope | Per individual |
 | Starting value | $0 at enactment (for existing taxpayers) or $0 at birth (for post-enactment taxpayers) |
 | Increments | Net realized gains (after CPI adjustment) within each calendar year |
-| Decrements | Net realized losses (at nominal basis) within each calendar year |
+| Decrements | Net realized losses (after CPI adjustment) within each calendar year |
 | Negative floor | -E (-$2.5M individual, -$5M MFJ) |
 | Annual netting | Losses offset gains without limit within each year (same as current law) |
 | Ordinary income offset | Up to $3,000/year of net capital losses can offset ordinary income (same as current law) |
 | Loss carryforward | None needed — the counter itself is the carryforward |
-| CPI treatment | Gains enter at real (CPI-adjusted) value; losses enter at nominal value |
+| CPI treatment | Both gains and losses enter at real (CPI-adjusted) value |
 
 **Marriage:**
 
@@ -178,22 +176,20 @@ Existing Roth accounts above $5M: contributions frozen immediately, no forced di
 
 For a given taxpayer in a given tax year:
 
-```
+```text
 INPUTS:
   counter_start    = lifetime counter at start of year
-  gross_gains[]    = array of realized gains (each with purchase_date, purchase_price, sale_price, sale_date)
-  gross_losses[]   = array of realized losses (same fields)
+  transactions[]   = array of realized events (each with purchase_date, purchase_price, sale_price, sale_date)
   E                = current exemption (CPI-adjusted)
   C                = current ceiling (CPI-adjusted)
   T                = top marginal income tax rate
 
-STEP 1: Compute net gains
-  For each gain:
+STEP 1: Compute net real gain/loss
+  net = 0
+  For each transaction:
     cpi_adjusted_basis = purchase_price × (CPI[sale_date] / CPI[purchase_date])
-    real_gain = sale_price - cpi_adjusted_basis
-  For each loss:
-    nominal_loss = purchase_price - sale_price   (no CPI adjustment)
-  net = sum(real_gains) - sum(nominal_losses)
+    real_result = sale_price - cpi_adjusted_basis
+    net = net + real_result
 
 STEP 2: Update counter
   counter_end = max(-E, counter_start + net)
@@ -239,10 +235,9 @@ These are acknowledged areas where the spec is incomplete or where reasonable pe
 
 1. **Illiquid asset valuation at death/gift.** Private businesses, art, and real estate require appraisal. Existing IRS infrastructure (Revenue Ruling 59-60, Valuation Office) handles this but disagreements will arise.
 2. **Payment flexibility.** The main doc proposes 15-year lien options for illiquid estates. Specific terms (interest rate, collateral rules) are not specified here.
-3. **Wash sale interaction with CPI asymmetry.** Current 30-day wash sale rules presumably continue to apply. Interaction with nominal-basis losses needs confirmation.
-4. **Backdoor Roth closure mechanics.** The spec says "Traditional-to-Roth conversions are closed." This is a significant change that needs precise statutory language. Does it apply to all conversions, or only above certain thresholds?
-5. **Qualified dividends.** Counted against the lifetime counter — but what about dividends received within the exemption? Presumably tax-free, same as capital gains within the exemption. Confirm.
-6. **State interaction.** The framework is federal. State capital gains taxes (which vary widely) are unaffected. State estate taxes may need separate treatment.
+3. **Backdoor Roth closure mechanics.** The spec says "Traditional-to-Roth conversions are closed." This is a significant change that needs precise statutory language. Does it apply to all conversions, or only above certain thresholds?
+4. **Qualified dividends.** Counted against the lifetime counter — but what about dividends received within the exemption? Presumably tax-free, same as capital gains within the exemption. Confirm.
+5. **State interaction.** The framework is federal. State capital gains taxes (which vary widely) are unaffected. State estate taxes may need separate treatment.
 
 ---
 

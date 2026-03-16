@@ -8,6 +8,7 @@ OPEN QUESTIONS:
 2. What about K1s?
 3. International Taxes?
 4. Are we clear enough on the philosophy behind the approach?
+5. So we basically are keeping the estate tax though, if Death is a realization event?
 
 
 
