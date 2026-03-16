@@ -64,6 +64,31 @@ The five rules don't just simplify capital gains. They make entire categories of
 
 The current system has at least twenty-five independent configuration parameters that interact in ways no single expert fully understands. The proposed system has two: the exemption level and the phase-out ceiling. Both are indexed to inflation. Both can be adjusted by Congress without reopening the structural framework. That is what radical simplification actually looks like.
 
+---
+
+## Who Wins, Who Loses
+
+**A homeowner** who sells their primary residence for a $250,000 real gain (after inflation adjustment): $0 tax under current law, $0 tax under this framework. No change, except the exemption now covers all asset types, not just housing.
+
+**A first-time founder** who builds a company over eight years and exits for $2.8 million in real gains: Under current law, if they don't qualify for QSBS (and most founders don't, because it requires a C-corp structure, a $50 million gross asset test, a five-year hold, and an active business test), they pay roughly $555,000. Under this framework: approximately $2,200. The exemption covers almost the entire gain.
+
+**A tech employee** who accumulates $1.2 million in gains from RSU vesting and stock sales over a 15-year career at two companies: Under current law, about $285,000 in capital gains tax. Under this framework: $0. The entire amount falls within the lifetime exemption. No special elections, no holding-period optimization, no tax-lot accounting games.
+
+**A successful founder with a $19 million exit:** Under current law, about $4.5 million in tax. Under this framework, about $4.7 million. Roughly breakeven, within $200,000. The founder also never needs to check for AMT, calculate NIIT, or attempt QSBS qualification.
+
+**A mega-exit founder with $95 million in gains:** Under current law, about $22.6 million. Under this framework, about $32.8 million. This founder pays more, about $10 million more. At this scale, the sliding scale has fully phased to ordinary income rates, and the current system's 23.8% flat rate becomes visibly inadequate.
+
+**An inherited estate with $15 million in unrealized gains:** Under current law, $0. Stepped-up basis wipes the slate clean. Under this framework, about $3.2 million, collected on wealth that currently escapes taxation entirely.
+
+**A billionaire borrowing $5 million per year against appreciated stock:** Under current law, $0. This is buy-borrow-die. Under this framework, $1.85 million per year.
+
+**A dynasty estate with $500 million, $400 million in unrealized gains:** Under current law, with competent estate planning, the family pays roughly $30-50 million. Under this framework, approximately $148 million. The framework collects three to five times what the current system actually collects. This is where the revenue argument lives: in the chasm between what the estate tax theoretically collects and what it actually collects after planning.
+
+The pattern is clear. The framework is designed to fuel the climb: the homeowner, the first-time founder, the tech employee building a career, the saver building a retirement portfolio — all pay the same or less. Tax increases are concentrated exactly where they should be: on very large accumulations, inherited estates exploiting stepped-up basis, and the borrow-against-assets strategy that allows billionaires to live tax-free. The current system structurally advantages those who've already arrived. This one clears the path for those still building.
+
+---
+
+*What follows is a deeper dive into the most common questions and objections. If you're already sold on the architecture, skip to [The Coalition](#the-coalition). If you want to stress-test the idea, read on — this is where it gets wonky.*
 
 ---
 
@@ -95,40 +120,39 @@ The core problem is lock-in. At full income tax rates from dollar one, the incen
 
 Critics will argue that a 37% top rate on the ultra-wealthy will cause massive capital lock-in, as family offices refuse to sell assets to avoid the tax hit. Under the current system, they would be right—because today, holding an asset until death (stepped-up basis) reduces the tax rate to 0%. But lock-in is driven by escape hatches, not tax rates. Under this framework's expanded realization rules, the 37% tax becomes inevitable: it triggers upon sale, borrowing, gift, or death. When permanent tax avoidance is removed from the table, the mathematical incentive to hoard a stagnant asset collapses. Capital allocators are forced to return to their primary job: seeking the highest yield, rather than the lowest tax.
 
-(? I don't think this fights well here - this is about the estate tax, not high income tax rates...)
-There's also the capital flight problem. [France, Sweden, and Austria all repealed their wealth taxes](https://taxfoundation.org/research/all/eu/wealth-tax-impact/) after discovering that aggressive taxation of capital drove high-net-worth individuals and their assets to friendlier jurisdictions. Full equalization from dollar one creates the same pressure. The exemption and sliding scale keep rates competitive for the vast majority of investors while ensuring that very large accumulations pay their share.
-Why wouldn't a 37% top rate cause the same capital flight here? Because the United States possesses a structural firewall that Europe does not: citizenship-based taxation and the Exit Tax (IRC §877A). An American capital allocator cannot simply move to Singapore to escape the IRS; they must legally renounce their US citizenship. Doing so triggers a deemed sale of all worldwide assets, forcing them to pay the tax on their way out the door. As long as the US remains the deepest, most innovative market on earth, allocators will optimize for pre-tax alpha here rather than exiting the system entirely.
-
 The honest rebuttal to the left: gains above $10 million *are* taxed as ordinary income under this framework. The disagreement isn't about whether gains should be income. It's about whether the transition should be gradual or abrupt, and what happens to capital mobility if it's abrupt.
 
 ---
 
-## Recognizing Relative Risk Premium
+## Won't Higher Rates Kill Innovation?
 
-We must also acknowledge that unlike a guaranteed paycheck, investments are risky. An entrepreneur or investor takes a chance that their capital could vanish entirely. The exemption and sliding scale act as a 'risk premium'—a recognition that the person putting their own wealth on the line to build something new deserves a different tax treatment than the person merely collecting a safe salary.
+Critics argue that ending the QSBS exclusion ([Section 1202](https://www.law.cornell.edu/uscode/text/26/1202)) and raising the top capital gains rate to 37% will stifle startups and scare away angel investors. History says otherwise: Google (IPO [2004](https://www.britannica.com/money/Google-Inc)), the iPhone (launched 2007), and NVIDIA (founded [1993](https://www.britannica.com/money/NVIDIA-Corporation)) were all launched before the [100% QSBS exclusion even existed](https://home.treasury.gov/system/files/131/WP-127.pdf). Capital gains rates were 28% through the 1990s tech boom and 39.9% when venture capital was invented in the 1970s. International hubs like Israel and the UK thrive without comparable tax shelters. The tax rate has never been the binding constraint on transformative innovation — access to talent, infrastructure, and markets has.
 
-However, we believe this public subsidy for risk should have a decay function. While the first few million dollars of a gain represent the 'reward' for a life-altering risk, once an individual has realized tens of millions in profit, they have moved beyond 'entrepreneurial risk-taking' and into the realm of 'Capital Management.' At that level of success, the tax code should stop providing a discount and start treating that wealth like any other form of income. We protect the seed, we encourage the growth, but we tax the harvest at the same rate as the labor that made it possible.
+The deeper point is that the current system's flat preferential rate is poorly targeted. Economists call it "[decreasing absolute risk aversion](https://en.wikipedia.org/wiki/Risk_aversion#Absolute_risk_aversion)": the risk premium on investment shrinks as wealth increases. If you have $50,000 to your name and you bet $25,000 on a startup, you are taking a life-altering risk. If you have $50 million and you bet $500,000, you are taking a rounding error. The current tax code ignores this entirely — it charges the same preferential rate (23.8%) whether a gain represents a first-time founder's entire net worth or a billionaire's Tuesday. The public subsidy for risk should have a decay function: we protect the seed, encourage the growth, but tax the harvest at the same rate as the labor that made it possible.
 
-Economists call this "[decreasing absolute risk aversion](https://en.wikipedia.org/wiki/Risk_aversion#Absolute_risk_aversion)": the risk premium on investment shrinks as wealth increases. If you have $50,000 to your name and you bet $25,000 on a startup, you are taking a life-altering risk. If you have $50 million and you bet $500,000, you are taking a rounding error. The current tax code ignores this entirely. It charges the same preferential rate (23.8%) whether a gain represents a first-time founder's entire net worth or a billionaire's Tuesday. The lifetime exemption corrects this: the tax benefit is concentrated where the risk is highest and the social return on that risk is greatest.
+For the rising entrepreneur, this framework is *more* encouraging than the current system. The first $2.5M in gains is tax-free for everyone, with no "C-Corp" or "five-year hold" traps that disqualify most founders from QSBS today. A dentist in Omaha writing a $50K angel check into a friend's startup faces 23.8% from dollar one under current law; under this framework, that gain is fully exempt. By democratizing the tax incentive — making it universal rather than gating it behind entity structures and holding-period tests — we attract more investors from more backgrounds, producing a more diverse and market-driven capital allocation than today's system of specialized carve-outs.
 
----
+For the ultra-wealthy investor already past the exemption, the calculus is different — but the conclusion is the same. At $20M+ in realized gains, the primary driver of investment is no longer the marginal utility of the next dollar; it is influence, legacy, and self-actualization. You invest in a breakthrough fusion company or AI lab because you want a seat at the table where the future is being built. The difference between keeping 76 cents and 63 cents of a windfall profit is a rounding error compared to the value of being the person who funded a world-changing technology.
 
-
-## The 1031 Question and Housing Prices
-
-Lobbyists claim eliminating 1031 exchanges will crash the real estate market, but the opposite is more likely: it will unlock it. Currently, the 1031 deferral combined with stepped-up basis at death encourages "capital paralysis"—investors hold aging assets for decades solely to avoid tax. Simultaneously ending both provisions forces investment-grade real estate back into the market. This increased supply puts downward pressure on prices for rentals and commercial space, improving affordability. While this "crashes" the artificial ecosystem of tax intermediaries, it restores genuine market liquidity and efficiency.
+This framework also makes "doing nothing" more expensive than taking a risk. Today, the ultimate "safe" bet is holding a stagnant legacy asset until death to receive a 0% rate via stepped-up basis. Terminal realization (Rule 3) destroys that escape hatch. If you know you will eventually pay the top rate regardless, your only rational move is to seek the highest possible pre-tax return. We don't stifle investment — we force capital out of the shadows and back into the arena.
 
 ---
 
-## The QSBS Question and Startups
+## What About My House?
 
-Critics argue that ending the QSBS exclusion ([Section 1202](https://www.law.cornell.edu/uscode/text/26/1202)) will stifle startups, but history suggests otherwise: Google (IPO [2004](https://www.britannica.com/money/Google-Inc)), the iPhone (launched 2007), and NVIDIA (founded [1993](https://www.britannica.com/money/NVIDIA-Corporation)) were all launched before the [100% exclusion even existed](https://home.treasury.gov/system/files/131/WP-127.pdf). International hubs like Israel and the UK thrive without similar open-ended tax shelters. In fact, a Universal Exemption is better for innovation: it removes the rigid "C-Corp" and "five-year hold" traps that disqualify most early-stage founders today. While $50M exits would face higher rates, the first $2.5M remains tax-free for everyone, protecting the vast majority of exits while dramatically simplifying the "User Interface" for starting a business.
+This is the question every homeowner will ask, and the answer is: you're almost certainly better off.
+
+Under current law, the primary residence exclusion lets you sell your home tax-free up to $250K in gains ($500K married). That sounds generous, but it only covers your house — not your stock portfolio, not your small business, not your rental property. Under this framework, the $2.5M lifetime exemption ($5M married) covers *all* of it. A couple who sells their home for a $400K gain, later sells stock for $200K, and eventually sells a small business for $800K pays $0 on all of it. The exemption is ten times larger and infinitely more flexible than the provision it replaces.
+
+The more interesting question is what happens to real estate *markets*. Currently, two provisions — like-kind exchange deferrals and stepped-up basis at death — combine to create "capital paralysis" in investment real estate. Investors hold aging properties for decades, not because they're the best investment, but because selling triggers a tax bill that dying doesn't. This locks up inventory, inflates prices, and rewards inertia over efficiency. Eliminating both provisions simultaneously forces investment-grade real estate back into the market. This increased supply puts downward pressure on prices for rentals and commercial space, improving affordability. Lobbyists will call it a crash. Renters will call it a correction.
+
+The tax intermediary industry that exists to facilitate these deferrals — a multi-billion-dollar ecosystem of qualified intermediaries, accommodators, and specialist attorneys — will shrink. That is a feature, not a bug. The fees they collect are a deadweight cost of navigating complexity that this framework eliminates.
 
 ---
 
 ## A Meaningful Dent in the Federal Deficit
 
-> Note: This is an unofficial estimate, generated by Claude, not an official CBO score
+> Note: These are preliminary estimates based on IRS SOI data, standard elasticity models, and AI-assisted modeling — not an official CBO score
 
 This framework nets an **estimated annual federal revenue increase of $85-203 billion per year.**
 
@@ -139,26 +163,6 @@ The framework loses roughly $50-65 billion per year from repealing the estate ta
 The net position depends on the sliding scale calibration: how quickly the rate phases up and where it breaks even against current law's 23.8% rate. Under the moderate calibration I'm proposing ($2.5 million exemption, $10 million ceiling), the breakeven is around $17.5 million in cumulative lifetime gains. Below that, you pay less than current law. Above it, you pay more.
 
 To be clear: this does not solve the deficit. There is no silver bullet that does. The federal deficit exceeds $2 trillion annually; closing that gap requires a combination of tax reform, entitlement reform, and spending discipline. Most economists agree that [stabilizing the debt-to-GDP ratio requires deficit reduction on the order of $800 billion to $1 trillion per year](https://www.americanprogress.org/article/what-would-it-take-to-stabilize-the-debt-to-gdp-ratio/). This framework gets roughly 15-20% of the way there, from a single reform to a single part of the tax code. Paired with broader income tax reform, Social Security modernization, and credible spending restraint, there is a pragmatic path to fiscal sustainability. This is one of the most important arrows in that quiver.
-
----
-
-## Who Wins, Who Loses
-
-**A homeowner** who sells their primary residence for a $250,000 real gain (after inflation adjustment): $0 tax under current law, $0 tax under this framework. No change, except the exemption now covers all asset types, not just housing.
-
-**A first-time founder** who builds a company over eight years and exits for $2.8 million in real gains: Under current law, if they don't qualify for QSBS (and most founders don't, because it requires a C-corp structure, a $50 million gross asset test, a five-year hold, and an active business test), they pay roughly $555,000. Under this framework: approximately $2,200. The exemption covers almost the entire gain.
-
-**A successful founder with a $19 million exit:** Under current law, about $4.5 million in tax. Under this framework, about $4.7 million. Roughly breakeven, within $200,000. The founder also never needs to check for AMT, calculate NIIT, or attempt QSBS qualification.
-
-**A mega-exit founder with $95 million in gains:** Under current law, about $22.6 million. Under this framework, about $32.8 million. This founder pays more, about $10 million more. At this scale, the sliding scale has fully phased to ordinary income rates, and the current system's 23.8% flat rate becomes visibly inadequate.
-
-**An inherited estate with $15 million in unrealized gains:** Under current law, $0. Stepped-up basis wipes the slate clean. Under this framework, about $3.2 million, collected on wealth that currently escapes taxation entirely.
-
-**A billionaire borrowing $5 million per year against appreciated stock:** Under current law, $0. This is buy-borrow-die. Under this framework, $1.85 million per year.
-
-**A dynasty estate with $500 million, $400 million in unrealized gains:** Under current law, with competent estate planning, the family pays roughly $30-50 million. Under this framework, approximately $148 million. The framework collects three to five times what the current system actually collects. This is where the revenue argument lives: in the chasm between what the estate tax theoretically collects and what it actually collects after planning.
-
-The pattern is clear. The framework is designed to fuel the climb: the homeowner, the first-time founder, the saver building a retirement portfolio — all pay the same or less. Tax increases are concentrated exactly where they should be: on very large accumulations, inherited estates exploiting stepped-up basis, and the borrow-against-assets strategy that allows billionaires to live tax-free. The current system structurally advantages those who've already arrived. This one clears the path for those still building.
 
 ---
 
@@ -208,6 +212,6 @@ The tax code is America's most expensive, most consequential piece of technical 
 
 ---
 
-*Matt Sly is a software entrepreneur with twenty years of experience building products used by millions. The Lifetime Gains Framework and supporting analysis are available at [mattsly.com]. This essay is adapted from a longer policy document developed as part of the Fair and Simple Tax Project.*
+*Matt Sly is a software entrepreneur with twenty years of experience building products used by millions. The Lifetime Gains Framework and supporting analysis are available at [mattsly.com](https://mattsly.com). This essay is adapted from a longer policy document developed as part of the Fair and Simple Tax Project.*
 
 *Revenue estimates, sensitivity analysis, and editorial assistance provided by Claude AI. All policy positions and framework design are the author's own.*
