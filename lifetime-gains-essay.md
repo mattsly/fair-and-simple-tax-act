@@ -212,6 +212,6 @@ The tax code is America's most expensive, most consequential piece of technical 
 
 ---
 
-*Matt Sly is a software entrepreneur with twenty years of experience building products used by millions. The Lifetime Gains Framework and supporting analysis are available at [mattsly.com](https://mattsly.com). This essay is adapted from a longer policy document developed as part of the Fair and Simple Tax Project.*
+*Matt Sly is a software entrepreneur with twenty years of experience building products used by millions. The Lifetime Gains Framework and supporting analysis are available at [mattsly.com](https://www.mattsly.com). This essay is adapted from a longer policy document developed as part of the Fair and Simple Tax Project.*
 
 *Revenue estimates, sensitivity analysis, and editorial assistance provided by Claude AI. All policy positions and framework design are the author's own.*

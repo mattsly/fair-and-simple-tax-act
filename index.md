@@ -28,12 +28,13 @@ The centerpiece of this project: a structural redesign of the entire U.S. capita
 2. **A sliding scale above the exemption** — phasing smoothly from 0% to ordinary income rates. No cliffs, no brackets, no preferential rate.
 3. **Three realization events** — selling, dying, and borrowing against appreciated assets. No more deferring gains forever.
 4. **Inflation-indexed basis** — so you're taxed on real wealth, not measurement error.
+5. **Roth reforms** - remove income cap, raise annual limit, remove backdoor and unliminted tax-free growth loophole.
 
 These four rules replace the estate tax, the Alternative Minimum Tax, the Net Investment Income Tax, and twelve special exclusions including QSBS, 1031 exchanges, stepped-up basis, and carried interest — the largest simplification of the capital gains code ever proposed.
 
 The framework is revenue-positive ($85–203B/yr depending on calibration), protects small founders and homeowners, and creates a bipartisan path: estate tax repeal for the right, billionaire effective rate reform for the left, and a system ordinary citizens can actually understand for everyone.
 
-> **[Read the Lifetime Gains Framework →](the_lifetime_gains_framework.md)**
+> **[Read my proposal for the Lifetime Gains Framework tax reform →](lifetime-gains-essay.md)**
 
 ---
 
