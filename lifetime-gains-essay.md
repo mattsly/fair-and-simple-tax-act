@@ -12,13 +12,13 @@ layout: plain
 
 I have spent twenty years building software in multiple capacities. I've been a W-2 employee, a startup employee with stock options, a founder with an exit, and an investor writing checks to the next generation of builders. As both a software professional and a taxpayer, I think that the American tax code is the most consequential piece of technical debt in the United States.
 
-The tax code is a direct cause of wealth and opportunity inequality in America, epitomized by [billionaires paying taxes at a lower rate than teachers](https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax). And it can be dramatically improved with a radically simple "refactor" of capital gains taxation specified with five rules. These five rules would eliminate more tax law than any reform in American history (including the Estate Tax, the AMT, and the NIIT), preclude the need for a wealth tax, close the "buy, borrow, die" loophole, cut taxes for 98% of Americans, and generate $85-200 billion in annual deficit reduction.
+The tax code is a direct cause of wealth and opportunity inequality in America, epitomized by [billionaires paying taxes at a lower rate than teachers](https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax). And it can be dramatically improved with a radically simple "refactor" of capital gains taxation specified with five rules. These five rules would eliminate more tax law than any reform in American history (including the AMT, the NIIT and even the estate tax), preclude the need for a wealth tax, close the "buy, borrow, die" loophole, cut taxes for 98% of Americans, and generate $85-200 billion in annual deficit reduction.
 
 ## The Algorithm Nobody Wrote
 
 A tax code is an algorithm. It takes inputs (your income, your assets, your transactions) and produces an output (your tax bill). A well-designed algorithm is legible, predictable, and produces the same result regardless of who runs it. The federal capital gains system fails every one of these tests.
 
-This complexity is a byproduct of a political system that rewards adding new provisions rather than shoring up existing ones. In most cases, each provision was a reasonable solution to a real problem. But reasonable solutions to problems caused by previous reasonable solutions, compounded over a century, have produced a byzantine mess that nobody designed.
+This complexity is a byproduct of a political system that rewards adding new provisions rather than shoring up existing ones. In most cases, each provision was a reasonable solution to a real problem. But reasonable solutions to problems caused by previous reasonable solutions, compounded over a century, have produced a byzantine mess that nobody designed. The cost of this complexity is staggering: Americans spend [6.5 billion hours and over $500 billion annually](https://taxfoundation.org/data/all/federal/irs-tax-compliance-costs/) just complying with the tax code. That is 1.9% of GDP in pure deadweight loss — not building products, not funding factories, not making anyone healthier — just navigating the system. Meanwhile, [hundreds of billions of dollars in taxes are owed but uncollected every year](https://www.irs.gov/statistics/irs-the-tax-gap), enabled in large part by the very complexity that makes enforcement so difficult.
 
 Consider the estate tax: it was created to prevent dynastic wealth concentration, but it provided the moral 'double taxation' cover for stepped-up basis (the idea that we shouldn't tax gains at death if we’re already taxing the estate). That loophole, in turn, birthed 'Buy, Borrow, Die'—the ultimate bypass where billionaires borrow against untaxed appreciation to fund their lives, then let death erase the tax bill entirely. When this drove effective tax rates for the ultra-wealthy into the single digits, Congress didn't fix the loop; they bolted on the Net Investment Income Tax (NIIT) as a 3.8% surtax to try and claw back the lost revenue. The American tax code has become like a patient on dozens of medications, where half the pills exist solely to manage the side effects of the other half. In software, when a system accumulates this much technical debt, you don't keep patching. You refactor.
 
@@ -52,17 +52,17 @@ That's it. Five rules. From these five rules, an extraordinary amount of existin
 
 The five rules don't just simplify capital gains. They make entire categories of tax law redundant.
 
-**The estate tax.** If death is a realization event and all gains are taxed on the decedent's final return, the estate tax becomes redundant — and replaceable with something that actually collects. (See *The Estate Tax Question* below.)
-
 **The Alternative Minimum Tax.** The AMT is a parallel tax system [created in 1969 because 155 wealthy Americans paid zero income tax](https://taxfoundation.org/taxedu/glossary/alternative-minimum-tax-amt/). It now ensnares millions of upper-middle-class households in high-tax states, the very people it was never meant to touch, while the truly wealthy route around it through the same planning strategies they use for everything else. When there are no exclusions to exploit, the AMT's purpose evaporates.
 
 **The Net Investment Income Tax.** A 3.8% surtax bolted onto the Affordable Care Act to fund Medicare. Under this framework, gains above the exemption are ordinary income taxed at rates far exceeding 3.8%. Medicare revenue doesn't decrease. It increases. The NIIT becomes redundant by design.
 
-**A Wealth Tax.** This framework precludes the need for a wealth tax by achieving the same progressivity through better means. (See *The Wealth Tax Question* below.)
+**The estate tax.** If death is a realization event and all gains are taxed on the decedent's final return, the estate tax becomes redundant — and replaceable with something that actually collects. (See *The Estate Tax Question* below.)
+
+**A wealth tax.** This framework precludes the need for a wealth tax by achieving the same progressivity through better means. (See *The Wealth Tax Question* below.)
 
 **Twelve special exclusions and preferences.** QSBS (the startup stock exclusion). Section 121 (the home sale exclusion). 1031 exchanges (the real estate deferral). Opportunity Zone deferrals. The 60/40 rule for derivatives. The collectibles rate. Installment sale deferrals. GRATs and dynasty trusts. Stepped-up basis. The lifetime gift tax exemption. Carried interest. Each one replaced by the universal exemption and the five rules.
 
-The current system has at least twenty-five independent configuration parameters that interact in ways no single expert fully understands. The proposed system has two: the exemption level and the phase-out ceiling. Both are indexed to inflation. Both can be adjusted by Congress without reopening the structural framework. That is what radical simplification actually looks like.
+In total, these five rules eliminate roughly 10-15% of the Internal Revenue Code by volume, along with the thousands of pages of Treasury regulations, IRS guidance, and Tax Court precedent that interpret them. Any software engineer will tell you: deleting code while improving the product is the most satisfying kind of work. But simplification isn't just aesthetically pleasing. It is structurally important. Every eliminated provision is an eliminated edge case, an eliminated loophole, an eliminated compliance cost. The current system has at least twenty-five independent configuration parameters that interact in ways no single expert fully understands. The proposed system has two: the exemption level and the phase-out ceiling. Both are indexed to inflation. Both can be adjusted by Congress without reopening the structural framework. Fewer parameters means fewer interactions, fewer exploits, and a system that is dramatically easier to administer, audit, and explain. That is what radical simplification actually looks like.
 
 ---
 
@@ -88,7 +88,7 @@ The pattern is clear. The framework is designed to fuel the climb: the homeowner
 
 ---
 
-*What follows is a deeper dive into the most common questions and objections. If you're already sold on the architecture, skip to [The Coalition](#the-coalition). If you want to stress-test the idea, read on — this is where it gets wonky.*
+*What follows is a deeper dive into the most common questions and objections. If you're already sold on the architecture, skip to [The Coalition](#the-coalition). If you want to stress-test the idea, read on, but fair warning that it will get get a little wonky.*
 
 ---
 
