@@ -2,9 +2,9 @@
 
 **Version:** 0.2 (Draft)
 **Date:** March 16, 2026
-**Status:** Working document — not for public distribution
+**Status:** Working document
 
-This document is the canonical source of truth for the framework's mechanics. The essay and PR-FAQ are derived from this spec. If a conflict exists, this document governs.
+This document is the canonical source of truth for the framework's mechanics. Related documents are derived from this spec. If a conflict exists, this document governs.
 
 ---
 
@@ -62,11 +62,15 @@ Four events trigger realization of capital gains:
 1. **Sale.** (Unchanged from current law.)
 2. **Death.** All unrealized gains are deemed realized on the decedent's final return. Heirs receive basis at date-of-death fair market value. Follows the Canadian model (in use since 1972).
 3. **Gift.** The donor is taxed on unrealized gains at the time of transfer, using the donor's lifetime counter. Recipient receives basis at gift-date fair market value. Annual gift exclusion ($18K/person/year) retained for administrative simplicity.
+
+   **Gift valuation:** For publicly traded securities, FMV is market price. For illiquid assets, existing IRS qualified appraisal requirements and valuation enforcement (Revenue Ruling 59-60) apply. Critically, the elimination of stepped-up basis creates a natural tension between donor and recipient that discourages undervaluation: if the donor lowballs the gift's FMV, they pay less tax now — but the recipient inherits a lower basis and pays correspondingly more tax upon eventual sale or death. The total tax collected is approximately the same regardless of the stated gift value. Under current law, this tension does not exist because stepped-up basis at death eliminates the deferred tax entirely, making donor and recipient cooperative parties in undervaluation.
 4. **Borrowing against appreciated assets.** When a loan is secured by appreciated assets, the unrealized gain on the collateral is deemed realized at the time of borrowing, regardless of loan purpose. Basis steps up by the deemed amount to prevent double taxation on eventual sale. If the collateral has no unrealized gain (e.g., a purchase mortgage on a newly acquired home, or collateral that is underwater), the deemed realization is $0. This rule applies universally — no distinction between personal, business, or investment purpose — eliminating the classification disputes that would otherwise become the primary enforcement challenge.
 
-   **Collateral valuation safe harbor:** The deemed FMV of collateral for borrowing events is the greatest of: (a) the taxpayer's reported fair market value, (b) the value represented to the lender in loan documentation, or (c) the loan amount divided by the lender's stated loan-to-value ratio. This prevents collusion to understate collateral value for tax purposes: the lender's own risk assessment (documented in loan files and subject to bank regulatory examination) serves as a third-party-verified floor. For publicly traded securities, FMV is market price at time of borrowing — no safe harbor needed. The safe harbor primarily addresses illiquid collateral (private company stock, art, real estate portfolios) where valuation discretion exists.
+   **Collateral valuation:** For publicly traded securities, FMV is market price — no ambiguity. For illiquid collateral (private company stock, art, real estate portfolios), the deemed FMV is no less than the value implied by the loan terms (loan amount ÷ lender's LTV ratio). The lender's own risk assessment, documented in loan files and subject to bank regulatory examination, serves as a third-party-verified floor.
 
-**Trust treatment:** Transfers of appreciated assets into irrevocable trusts are realization events (treated as gifts). For grantor trusts (where the grantor remains the tax owner), realization is deferred until the earlier of: (a) the trust becoming irrevocable with respect to the grantor, or (b) the grantor's death. Trust-held assets are deemed realized upon the death of each generation's primary beneficiary, preventing dynasty trusts from deferring gains across generations indefinitely. This eliminates GRATs, dynasty trusts, and similar structures as tax avoidance vehicles — the appreciated assets are taxed on the way in, and again at each generational transfer to the extent of new appreciation.
+   **Trust treatment:** The governing principle is: if a transfer changes the tax owner of an asset, it is a realization event; if it does not, it is not. Transferring appreciated assets into an irrevocable trust changes the tax owner and is therefore a realization event (treated as a gift). Transferring assets into a revocable living trust — where the grantor remains the tax owner — is not a realization event; realization occurs when the trust becomes irrevocable or the grantor dies, whichever comes first. Trust-held assets are deemed realized upon the death of each generation's primary beneficiary, preventing dynasty trusts from deferring gains indefinitely. This structurally eliminates GRATs, dynasty trusts, and similar vehicles: appreciated assets are taxed on the way in, and again at each generational transfer to the extent of new appreciation.
+
+   *Design note:* In a cleaner world, revocable living trusts would be unnecessary — they exist primarily because state probate systems are slow, expensive, and public. The framework accommodates them not as a policy choice but because the "change of tax owner" principle naturally exempts them, and penalizing ~25 million households for working around broken state courts is not this proposal's fight. A companion recommendation for federal probate reform or uniform state probate standards would reduce the need for these structures over time.
 
 In all cases, gains within remaining exemption headroom are tax-free; gains above are taxed on the sliding scale.
 
@@ -235,11 +239,12 @@ OUTPUT:
 
 These are acknowledged areas where the spec is incomplete or where reasonable people may disagree:
 
-1. **Illiquid asset valuation at death/gift.** Private businesses, art, and real estate require appraisal. Existing IRS infrastructure (Revenue Ruling 59-60, Valuation Office) handles this but disagreements will arise. (Note: for borrowing events, the collateral valuation safe harbor in Rule 3 addresses this by using the lender's LTV ratio as a third-party floor.)
+1. **Illiquid asset valuation at death.** Private businesses, art, and real estate require appraisal. Existing IRS infrastructure (Revenue Ruling 59-60, Valuation Office) handles this but disagreements will arise. (Note: gift valuation is structurally mitigated by donor/recipient basis tension — see Rule 3. Borrowing valuation is addressed by the LTV floor — see Rule 3.)
 2. **Payment flexibility.** The main doc proposes 15-year lien options for illiquid estates. Specific terms (interest rate, collateral rules) are not specified here.
 3. **Backdoor Roth closure mechanics.** The spec says "Traditional-to-Roth conversions are closed." This is a significant change that needs precise statutory language. Does it apply to all conversions, or only above certain thresholds?
 4. **Qualified dividends.** Counted against the lifetime counter — but what about dividends received within the exemption? Presumably tax-free, same as capital gains within the exemption. Confirm.
 5. **State interaction.** The framework is federal. State capital gains taxes (which vary widely) are unaffected. State estate taxes may need separate treatment.
+6. **Charitable contributions of appreciated assets.** Under current law, donating appreciated assets to charity (including Donor Advised Funds) avoids capital gains entirely and provides a fair-market-value deduction — a double benefit. The framework's "change of tax owner" principle would logically make such donations realization events, significantly reducing the charitable giving incentive. But exempting them creates an obvious new shelter, particularly via DAFs (which have no payout requirement). This tension is intentionally deferred to a companion proposal on charitable giving reform rather than resolved within the capital gains framework.
 
 ---
 

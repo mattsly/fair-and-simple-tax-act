@@ -27,3 +27,48 @@ What do you think? Let's brainstorm a bit...
 
 
 Should we move " Payment flexibility for illiquid assets?" into practice concerns? Those two FAQs should prob be in the same section and next to one another
+
+
+
+
+References:
+https://youtu.be/cXBQYpUM9Dc - Maddoff on Scaramucci
+
+The biggest problem is Buy, Borrow, Die
+
+1. lending as realization 
+2. gettng rid of stepped up basis (?)
+
+how do we get rid fo
+
+Buffett - 
+
+PREPARING FOR MADDOFF INTERVIEW:
+
+1
+Estate Tax as cover
+? why haven't they just "agreed"
+
+
+ - "Mooch" - 
+"cloud clear discussions"
+"public needs to be informed"
+
+Go on Scott Galloway / Raging Moderates
+
+1. What does the left think? 
+Estate Tax and Wealth Tax?
+Have you had pushback and/or agreement?
+
+2. What do you see as the path to an "MVP" law, probably focused squarely on Buy, Borrow, Die
+Even Bill Ackman has come out in favor of this
+Valuation question is easier b/c the bank is presumably already valuing the collateral
+? Heloc? Just pay gains from part of the heloc, take a larger one if you need...
+
+3. PR and advocacy
+congress: Auchincloss
+Scott Galloway, Mark Cuban
+
+
+4. Charity
+Scope tight...
