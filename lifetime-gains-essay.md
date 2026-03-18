@@ -76,7 +76,7 @@ Most software engineers will tell you: deleting code *and* improving the product
 
 ## Stop Making Users Compile and Run the Code
 
-Imagine if Google shipped you the source code for their search engine and said "compile it yourself, and if it crashes, that’s your problem." That is the U.S. tax system. 160 million Americans download the algorithm every year and run it on their own machines (sometimes with the help of high-priced consultants who charge by the hour to debug it for them). And if you get it wrong, then it's your fault. (? add link to Donald Rumsfeld's famous loetter here...)
+Imagine if Google shipped you the source code for their search engine and said "compile it yourself, and if it crashes, that’s your problem." That is the U.S. tax system. 160 million Americans download the algorithm every year and run it on their own machines (sometimes with the help of high-priced consultants who charge by the hour to debug it for them). And if you get it wrong, it's your fault. Donald Rumsfeld, a man who ran the Department of Defense, [sent the IRS a letter every year](https://taxfoundation.org/blog/what-does-donald-rumsfeld-have-common-franklin-roosevelt/) saying he had "absolutely no idea" whether his tax returns were accurate, despite hiring a professional accounting firm. If a former Secretary of Defense can't figure it out, the interface is broken.
 
 This is not an unsolvable problem. In the Netherlands, the government pre-fills your return. The algorithm has already run. You review the output and click "confirm." In Estonia, the entire process takes about five minutes. The IRS already has your W-2s, your 1099s, your mortgage interest statements. The data exists. What’s missing is a codebase simple enough to automate.
 
@@ -104,19 +104,19 @@ The pattern is clear. The framework is designed to fuel the climb: the homeowner
 
 ---
 
-*What follows is a deeper dive into the most common questions and objections. If you're already sold on the architecture, skip to [The Coalition](#the-coalition). If you want to stress-test the idea, read on, but fair warning that it will get get a little wonky.*
+*What follows is a deeper dive into the most common questions and objections. If you're already sold on the architecture, skip to [The Coalition](#the-coalition). If you want to stress-test the idea, read on, but fair warning that it will get a little wonky.*
 
 ---
 
 ## The Estate Tax Question
 
-Abolishing the estate tax sounds like a conservative fever dream. But the estate tax is a policy that looks progressive on paper and fails in practice. It theoretically imposes a 40% rate above a large threshold. In reality, well-advised estates routinely pay 10-15% or less — and the wealthiest pay the least, because they can afford the planners who make it disappear. As Professor Ray Madoff argues in [*The Second Estate*](https://press.uchicago.edu/ucp/books/book/chicago/S/bo256019296.html), the estate tax functions as political cover, while its hollowed-out structure ensures the wealthy can avoid it.
+Abolishing the estate tax sounds like a conservative fever dream. But the estate tax is a policy that looks progressive on paper and fails in practice. It theoretically imposes a 40% rate above a large threshold. In reality, well-advised estates routinely pay 10-15% or less — and the wealthiest pay the least, because they can afford the planners who make it disappear. As Professor Ray Madoff documents in [*The Second Estate*](https://press.uchicago.edu/ucp/books/book/chicago/S/bo256019296.html), the estate tax has become political cover: it *looks* like a tax on dynastic wealth, while its hollowed-out structure ensures the wealthiest families pay the least.
 
 This framework replaces it with a mechanism that actually collects. Death as a realization event is not a radical experiment. It has been the [functional model in Canada since 1972](https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/capital-gains.html), where it successfully replaced their version of the estate tax.
 
 When death is a realization event and all gains are taxed on the decedent's final return, there is no stepped-up basis, no GRAT loophole, no valuation discount game. Even the incentive to lowball gift valuations is structurally defanged: because there is no stepped-up basis, an undervalued gift simply shifts a lower basis to the recipient, who pays a correspondingly larger tax bill later. The total tax collected is roughly the same — the donor and recipient are no longer on the same team. Dynasty trusts lose their power too: trust-held assets are deemed realized at each generational transfer, so wealth can no longer skip across generations untaxed. A $100 million estate with $80 million in unrealized gains pays approximately $29 million — automatically, with no planning tricks available. A $500 million dynasty estate pays roughly $148 million, compared to the $30-50 million the current estate tax actually collects after planning.
 
-Critics will inevitably point to the liquidity challenge: if death is a realization event, how do heirs pay the tax on an illiquid family business or farm without being forced to sell it? The solution is straightforward. We offer a 15-year IRS lien option—conceptually similar to existing estate tax installment plans—allowing heirs to pay the realization tax over a decade and a half out of the asset's operating cash flow. The framework does not force fire sales; it simply puts the government (? are we putting the government on a payment plan of the illiquid asset? ? also do we needd to make the tough point that if you can't finance the asset then on these terms then it is probably not valued correctly?) on a structured payment plan.
+Critics will inevitably point to the liquidity challenge: if death is a realization event, how do heirs pay the tax on an illiquid family business or farm without being forced to sell it? The solution is straightforward: a 15-year IRS lien option, conceptually similar to existing estate tax installment plans. The IRS places a lien on the asset; the heir pays the tax over fifteen years out of operating cash flow. No fire sale required. And if a family business genuinely cannot service its tax obligation over fifteen years, that is a valuation signal, not a liquidity crisis.
 
 The trade is simple: abolish a tax that collects [$20-25 billion per year](https://taxpolicycenter.org/briefing-book/how-many-people-pay-estate-tax) badly, and replace it with a mechanism that collects two to six times more from the estates that matter most. Progressives get more revenue and no escape routes. Conservatives get the estate tax repeal they've wanted for a generation.
 
@@ -124,7 +124,7 @@ The trade is simple: abolish a tax that collects [$20-25 billion per year](https
 
 ## The Wealth Tax Question
 
-A wealth tax polls well. It feels fair: if you have a billion dollars, pay a percentage every year. But [every European country that tried one repealed it](https://taxfoundation.org/research/all/eu/wealth-tax-impact/). France's wealth tax drove an estimated 42,000 millionaires out of the country before it was repealed in 2017. Sweden and Austria reached the same conclusion. The problems are structural: annual valuation of illiquid assets (private businesses, real estate, art) is expensive, subjective, and gameable. It is another kind of tax structure, and like the AMT, NIIT and Estate Tax, creates permutations and, inevitably, loopholes. (? how's this? fair) Enforcement costs eat the revenue. And capital flight is real — wealthy individuals move to jurisdictions that don't impose the tax, shrinking the base faster than the tax can collect from it.
+A wealth tax polls well. It feels fair: if you have a billion dollars, pay a percentage every year. But [every European country that tried one repealed it](https://taxfoundation.org/research/all/eu/wealth-tax-impact/). France's wealth tax drove an estimated 42,000 millionaires out of the country before it was repealed in 2017. Sweden and Austria reached the same conclusion. The problems are structural: annual valuation of illiquid assets (private businesses, real estate, art) is expensive, subjective, and gameable. And a wealth tax is yet another layer bolted onto an already brittle system — the same pattern that gave us the AMT and the NIIT. More tax types means more interactions, more edge cases, and more loopholes. Enforcement costs eat the revenue. And capital flight is real — wealthy individuals move to jurisdictions that don't impose the tax, shrinking the base faster than the tax can collect from it.
 
 This framework achieves what a wealth tax promises without these failures. By expanding realization events (sales, death, gifts, borrowing) and taxing gains as ordinary income, it captures wealth accumulation at the moments when assets are easiest to value — transaction prices, not annual appraisals — and hardest to hide — documented transactions with third-party reporting. It uses existing IRS infrastructure rather than requiring a new valuation bureaucracy. The result is the same progressivity that wealth tax advocates want, delivered through mechanisms that actually work.
 
@@ -142,6 +142,8 @@ But the most salient reason to protect the "climb" is that entrepreneurial risk 
 
 We want every American to build wealth, but the current system only provides meaningful tax breaks to those who are already wealthy and can navigate complex entity structures like QSBS or own homes. By creating a $2.5 million universal exemption, we provide a powerful, simple incentive for *every* citizen to invest and save.
 
+To be clear: above $10 million, gains *are* taxed as ordinary income under this framework. The disagreement isn't about whether gains should be treated as income. It's about where the exemption sits and how fast the rate phases in — and those are exactly the two parameters ($2.5M exemption, $10M ceiling) that this framework makes easy to debate and adjust.
+
 ---
 
 ## Won't Higher Rates Kill Innovation?
@@ -152,7 +154,7 @@ The deeper point is that the current system's flat preferential rate is poorly t
  
 For the rising entrepreneur, this framework is *more* encouraging than the current system. The first $2.5M in gains is tax-free for everyone, with no "C-Corp" or "five-year hold" traps that disqualify most founders from QSBS today. A dentist in Omaha writing a $50K angel check into a friend's startup faces 23.8% from dollar one under current law; under this framework, that gain is fully exempt. By democratizing the tax incentive we attract more investors from more backgrounds, producing a more diverse and market-driven capital allocation than today's system of specialized carve-outs.
 
-Finally, this framework makes "doing nothing" more expensive. Today, the ultimate safe bet is holding a stagnant legacy asset until death to receive a 0% rate via stepped-up basis. By closing the escape hatches (Rule 3), we encourge putting investment capital to work.
+Finally, this framework makes "doing nothing" more expensive. Today, the ultimate safe bet is holding a stagnant legacy asset until death to receive a 0% rate via stepped-up basis. By closing the escape hatches (Rule 3), we encourage putting investment capital to work.
 
 ---
 
