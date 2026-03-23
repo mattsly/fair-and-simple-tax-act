@@ -82,6 +82,8 @@ This is not an unsolvable problem. In the Netherlands, the government pre-fills 
 
 The tax-prep industry (an [$11 billion market](https://taxfoundation.org/data/all/federal/irs-tax-compliance-costs/)) has lobbied for decades to keep the interface manual, because their entire business model depends on the complexity that makes self-filing painful. Five deterministic rules don’t eliminate the need for tax software. But they make the software trivial to write, trivial to audit, and trivial to run on your behalf. That is the difference between spaghetti code and a clean API.
 
+---
+
 ## Who Wins, Who Loses
 
 **A homeowner** who sells their primary residence for a $250,000 real gain (after inflation adjustment): $0 tax under current law, $0 tax under this framework. No change, except the exemption now covers all asset types, not just housing.
@@ -174,7 +176,7 @@ The tax intermediary industry that exists to facilitate these deferrals — a mu
 
 > Note: These are preliminary estimates based on IRS SOI data, standard elasticity models, and AI-assisted modeling — not an official CBO score
 
-This framework nets an **estimated annual federal revenue increase of $85-203 billion per year.**
+This framework nets an **estimated annual federal revenue increase of $85-200 billion per year.**
 
 The net is real money. At the midpoint, it's roughly $140 billion per year, enough to meaningfully dent annual deficits that currently exceed $2 trillion. And the estimate is likely conservative: traditional capital gains elasticity estimates assume taxpayers can permanently defer or avoid gains, which this framework's expanded realization events largely prevent.
 
@@ -202,7 +204,7 @@ If the math works and the politics are tractable, why hasn't someone done this a
 
 Three reasons.
 
-First, the complexity-industrial complex. The current system supports an ecosystem of estate planners, 1031 exchange intermediaries, QSBS specialists, Opportunity Zone fund managers, and tax attorneys, collectively a multi-billion-dollar industry. Together, this industry generates billions in fees, not for producing anything, but for navigating a system that shouldn't require navigation. And every simplification is an existential threat to someone's livelihood. These constituencies are small but organized and well-funded. The people who benefit from simplification (essentially all taxpayers) are diffuse and unorganized. 
+First, the complexity-industrial complex. The current system supports an ecosystem of estate planners, 1031 exchange intermediaries, QSBS specialists, Opportunity Zone fund managers, and tax attorneys, collectively a multi-billion-dollar industry. Together, this industry generates billions in fees, not for producing anything, but for navigating a system that shouldn't require navigation. And every simplification is an existential threat to someone's livelihood. These constituencies are small but organized and well-funded. The people who benefit from simplification (essentially all taxpayers) are diffuse and unorganized.
 
 Second, partisan framing. Tax reform has been captured by a false binary: raise rates (left) or cut rates (right). This framework does neither. It broadens the base, eliminates preferences, and lets the rate structure do its job. That makes it harder to explain in a sound bite, but it also means it can get a meeting with both the Senate Finance Committee chair and the ranking member, which no other progressive capital gains proposal can claim.
 
