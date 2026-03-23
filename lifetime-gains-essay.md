@@ -1,5 +1,18 @@
 ---
 layout: plain
+title: "America's Most Expensive Technical Debt"
+description: "A software entrepreneur's case for radically simple capital gains tax reform. Five rules that eliminate 10-15% of the tax code, close buy-borrow-die, and cut taxes for 98% of Americans."
+image: /lifetime-gains-framework.png
+og:
+  title: "America's Most Expensive Technical Debt"
+  description: "Five rules to replace thousands of pages of tax code. $85-200B in annual deficit reduction."
+  image: /lifetime-gains-framework.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: "America's Most Expensive Technical Debt"
+  description: "Five rules to replace thousands of pages of tax code. $85-200B in annual deficit reduction."
+  image: /lifetime-gains-framework.png
 ---
 
 # America's Most Expensive Technical Debt
@@ -50,6 +63,8 @@ That's it. Five rules. From these five rules, an extraordinary amount of existin
 
 *If you are interested in the precise mechanics, including the complete tax calculation algorithm and full list of eliminated provisions, here is a full [technical specification](./technical_spec.md)*
 
+![The Lifetime Gains Framework — How the tax rate changes with cumulative lifetime capital gains](./lifetime-gains-framework.png)
+
 ---
 
 ## What Falls Away
@@ -65,6 +80,8 @@ The five rules make entire categories of tax law redundant.
 **A wealth tax.** Achieve the same progressivity through simpler and more politically pragmatic means. (See *The Wealth Tax Question* below.)
 
 **Twelve special exclusions and preferences.** QSBS (the startup stock exclusion). Section 121 (the home sale exclusion). 1031 exchanges (the real estate deferral). Opportunity Zone deferrals. The 60/40 rule for derivatives. The collectibles rate. Installment sale deferrals. GRATs and dynasty trusts. Stepped-up basis. Carried interest. Each one replaced by the universal exemption and the five rules.
+
+**One notable exception: charitable contributions of appreciated assets.** The framework's "change of tax owner" principle would logically make charitable donations a realization event, which would gut charitable giving incentives. But exempting them risks creating a new shelter via donor-advised funds (which currently have no payout requirement). This is a genuine design tension that deserves its own treatment, and I'm deferring it to a companion proposal on charitable giving reform.
 
 In total, these five rules eliminate roughly 10-15% of the Internal Revenue Code by volume, along with the thousands of pages of Treasury regulations, IRS guidance, and Tax Court precedent that interpret them. 
 
@@ -185,6 +202,8 @@ The framework loses roughly $50-65 billion per year from repealing the estate ta
 The net position depends on the sliding scale calibration: how quickly the rate phases up and where it breaks even against current law's 23.8% rate. Under the moderate calibration I'm proposing ($2.5 million exemption, $10 million ceiling), the breakeven is around $17.5 million in cumulative lifetime gains. Below that, you pay less than current law. Above it, you pay more.
 
 To be clear: this does not solve the deficit. There is no silver bullet that does. The federal deficit exceeds $2 trillion annually; closing that gap requires a combination of tax reform, entitlement reform, and spending discipline. Most economists agree that [stabilizing the debt-to-GDP ratio requires deficit reduction on the order of $800 billion to $1 trillion per year](https://www.americanprogress.org/article/what-would-it-take-to-stabilize-the-debt-to-gdp-ratio/). This framework gets roughly 15-20% of the way there, from a single reform to a single part of the tax code. Paired with broader income tax reform, Social Security modernization, and credible spending restraint, there is a pragmatic path to fiscal sustainability. This is one of the most important arrows in that quiver.
+
+One important implementation detail: on the day of enactment, everyone's lifetime counter starts at $0. Pre-enactment gains are not retroactively counted. This means investors who anticipate the change will harvest gains before enactment to lock in current rates, which is fine. That pre-enactment selling generates immediate tax revenue on gains that might otherwise have been deferred via stepped-up basis indefinitely. The Treasury benefits either way: from the rush of pre-enactment realizations, or from the new framework's broader base going forward.
 
 ---
 
