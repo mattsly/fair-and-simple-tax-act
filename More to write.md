@@ -5,9 +5,26 @@ Productizing the Tax Code"
 https://gemini.google.com/app/2241794092425f85
 
 2. What are we optimizing for? (see below)
+https://claude.ai/share/8c6d5976-e662-44a9-9b49-7facb9b19213
 
-3. Are loopholes good?
+3. Are loopholes effective?
 (i.e. a good way to direct capital towards desirable outcomes - green energy etc...)
+
+4. Importance of dexterity in a dynamic world
+AI is going to change things and we need to be able to respond with jsut a few levers vs tangled mess
+
+5. Studies to run:
+- can people predict their taxes?
+- do people remember their taxes?
+- do people feel that they are paying about the right amount of taxes?
+
+6. Why Tax Policy?
+alogorithm, work that matters
+
+7. Capital Gains get preferential treatment?
+
+8. The problem with a Wealth Tax
+
 
 
 ### scratch
@@ -44,3 +61,6 @@ The Structural Peg: Linking capital gains to the top marginal income rate ensure
 The Exit Tax (IRC §877A): Used as the ultimate defense against capital flight. Because the US uses citizenship-based taxation, the only way to "flee" the 37% rate is to pay the toll on the way out, capturing the deferred gains for the system.
 
 
+### People
+
+Gina Raimondo

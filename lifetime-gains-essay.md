@@ -2,17 +2,9 @@
 layout: plain
 title: "America's Most Expensive Technical Debt"
 description: "A software entrepreneur's case for radically simple capital gains tax reform. Five rules that eliminate 10-15% of the tax code, close buy-borrow-die, and cut taxes for 98% of Americans."
-image: /lifetime-gains-framework.png
-og:
-  title: "America's Most Expensive Technical Debt"
-  description: "Five rules to replace thousands of pages of tax code. $85-200B in annual deficit reduction."
-  image: /lifetime-gains-framework.png
-  type: article
+image: /fair-and-simple-tax-act/lifetime-gains-framework.png
 twitter:
   card: summary_large_image
-  title: "America's Most Expensive Technical Debt"
-  description: "Five rules to replace thousands of pages of tax code. $85-200B in annual deficit reduction."
-  image: /lifetime-gains-framework.png
 ---
 
 # America's Most Expensive Technical Debt
