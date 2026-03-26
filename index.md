@@ -14,25 +14,25 @@ Every proposal in this project is evaluated against four principles. When they c
 
 **2. Fiscal Durability.** Reform must be meaningfully revenue-positive and resilient to political cycles. The federal deficit exceeds $2 trillion annually; net interest on the debt is now a top-five budget line item. Reforms that are merely "revenue neutral" are no longer sufficient. Revenue estimates must account for behavioral responses.
 
-**3. Fuel the Climb.** Americans who are building wealth — buying homes, saving for retirement, starting businesses — should be unambiguously better off under these proposals than under current law. The system should reward work, saving, and wealth-building. It should not create structural advantages that entrench dynastic wealth at the expense of economic mobility.
+**3. Fuel the Climb.** Building new wealth should be easier than compounding dynastic wealth. The system should not create structural advantages that entrench existing fortunes at the expense of economic mobility.
 
-**4. Reward Innovation.** Risk-taking and entrepreneurship have genuine social value. The framework must preserve strong incentives to start companies, build businesses, and allocate capital productively — particularly at the early stage where risk is highest and social returns are greatest.
+**4. Reward Innovation.** Risk-taking and entrepreneurship have genuine social value. The framework must preserve strong incentives to start companies, build businesses, and allocate capital productively, particularly where individual risk is highest and social returns are greatest.
 
 ---
 
 ## The Lifetime Gains Framework
 
-The centerpiece of this project: a structural redesign of the entire U.S. capital gains tax system, built on four rules.
+The first and most fully developed proposal: a structural redesign of the entire U.S. capital gains tax system, built on five rules.
 
 1. **A $2.5 million lifetime exemption** ($5M married) — covering 98%+ of American households. Home sales, stock sales, business exits, all treated identically.
 2. **A sliding scale above the exemption** — phasing smoothly from 0% to ordinary income rates. No cliffs, no brackets, no preferential rate.
-3. **Three realization events** — selling, dying, and borrowing against appreciated assets. No more deferring gains forever.
+3. **Four realization events** — selling, dying, gifting, and borrowing against appreciated assets. No more deferring gains forever.
 4. **Inflation-indexed basis** — so you're taxed on real wealth, not measurement error.
-5. **Roth reforms** - remove income cap, raise annual limit, remove backdoor and unliminted tax-free growth loophole.
+5. **Roth reforms** — remove the income cap, raise the annual limit, and impose a hard $5 million balance cap. This eliminates the Thiel Loophole while expanding access for high-earning professionals.
 
-These four rules replace the estate tax, the Alternative Minimum Tax, the Net Investment Income Tax, and twelve special exclusions including QSBS, 1031 exchanges, stepped-up basis, and carried interest — the largest simplification of the capital gains code ever proposed.
+These five rules replace the estate tax, the Alternative Minimum Tax, the Net Investment Income Tax, and twelve special exclusions including QSBS, 1031 exchanges, stepped-up basis, and carried interest — the largest simplification of the capital gains code ever proposed.
 
-The framework is revenue-positive ($85–203B/yr depending on calibration), protects small founders and homeowners, and creates a bipartisan path: estate tax repeal for the right, billionaire effective rate reform for the left, and a system ordinary citizens can actually understand for everyone.
+The framework is revenue-positive ($85–200B/yr depending on calibration), protects small founders and homeowners, and creates a bipartisan path: estate tax repeal for the right, billionaire effective rate reform for the left, and a system ordinary citizens can actually understand for everyone.
 
 > **[Read my proposal for the Lifetime Gains Framework tax reform →](lifetime-gains-essay.md)**
 
@@ -40,17 +40,31 @@ The framework is revenue-positive ($85–203B/yr depending on calibration), prot
 
 ## What's Next
 
-The capital gains system is the foundation, but it's not the whole building. Several companion proposals are in development, each designed to work independently or as part of a cohesive fiscal system:
+The capital gains system is the foundation, but it's not the whole building. Each companion proposal below is designed to stand on its own or work as part of a cohesive fiscal system:
 
-**Social Security modernization.** A proposal to broaden the contribution base, restore 75-year solvency without cutting scheduled benefits, and treat wage earners and business owners more consistently. A working draft is complete.
+**[Income tax reform.](income-tax-essay.md)** Eliminate all deductions (including the mortgage interest deduction and SALT), replace the standard deduction with a 0% bracket, and reduce the rate table from seven brackets to five. Filing statuses drop from five to two. Nobody earning under $250K sees a tax increase. The rate table becomes the tax code. A working draft is available.
 
-**Charitable giving reform.** The Lifetime Gains Framework treats charitable transfers as realization events — closing the largest remaining avoidance route. A companion proposal will address how to preserve and strengthen incentives for charitable giving through a universal credit, ensuring the tax benefit reaches middle-class donors rather than concentrating among the wealthy.
+**[Child payment.](child-payment-essay.md)** Consolidate the CTC, EITC, and education tax credits into a single universal monthly payment per child. The 2021 expanded CTC experiment cut child poverty ~30% in six months. This proposal makes it permanent, funds it by redirecting the budgets of nine overlapping programs, and delivers it monthly instead of annually.
 
-**Child benefit consolidation.** The current landscape of CTC, EITC, CDCC, and dependent exemptions is fragmented and hard to navigate. A companion proposal will consolidate these into a single, fully refundable child benefit — simpler for families, more effective at reducing child poverty.
+**[FICA reform.](fica-reform-essay.md)** Eliminate employee-side FICA entirely (an immediate ~8% raise for every worker), replace it with an uncapped 8% employer-side contribution, and broaden Social Security's funding base without cutting benefits. Self-employed individuals pay 8% flat, down from 15.3%.
+
+**[Charitable giving reform.](charitable-giving-essay.md)** Replace the structurally regressive charitable deduction with a 50% credit (capped at 5% of tax liability), making the incentive to give flat across brackets. Address the donor-advised fund loophole, where $234 billion sits with no payout requirement.
 
 **Retirement account simplification.** Traditional 401(k), Traditional IRA, Roth IRA, Roth 401(k), SEP IRA, SIMPLE IRA, 529 plans — the current system has too many vehicles with overlapping purposes and conflicting rules. A companion proposal will streamline retirement savings into fewer, more intuitive accounts while preserving the Roth reforms introduced in the Lifetime Gains Framework.
 
-Each of these is guided by the same four design tenets above and designed to stand alone or work as part of a cohesive fiscal system.
+Each of these is guided by the same four design tenets above.
+
+---
+
+## The Architecture
+
+What we're building is a simple system architecture for the fiscal relationship between citizens and their government. Each component has a clean interface, no shared state (no deductions that cross boundaries, no phase-outs that reference other programs), and can be deployed, tested, and modified independently.
+
+On the outbound side, citizens pay taxes through two simple mechanisms: a progressive rate table (income) and a sliding scale (capital gains). No deductions, no itemization, no parallel systems. The government already has the data (W-2s, 1099s, transaction records). The algorithm should run automatically; the citizen confirms and clicks "submit."
+
+On the inbound side, citizens receive payments through equally simple mechanisms: a monthly child payment, a Social Security payment, and potentially other direct transfers in the future. The infrastructure for direct government-to-citizen payments (proven by the 2021 expanded CTC and pandemic stimulus checks) is the same infrastructure that could one day deliver a universal basic income, an AI productivity dividend, or any other form of direct transfer that the political process decides to fund. The architecture doesn't presume what those future payments should be. It just makes them trivial to implement.
+
+Today, the tax code is a monolith: 4,000+ pages of interdependent rules where changing one provision breaks three others. This project proposes replacing that monolith with a small set of independent components. Each one is simple enough to explain in a sentence, score independently, and debate on its own merits.
 
 ---
 
