@@ -1,29 +1,50 @@
+What should I name this project?
+"Fair and Simple Tax Act" is too boring
+
 More to write:
+
+
+9. "Imaginary World where money machine turns off" - what would you design from scratch
+why is it harder to undo bad stuff?
+endowment effect
+
+10. "Dear Tech Bros"
+It is astounding how many incredibly wealthy people's contriobution to the tax debate is simply "wealth taxes are dumb" or "government will just keep wasting money" taking and wasting money" without contributing anything more than that.
+
+We have a deficit.
+Of course we need to cut costs
+AND we need to rethink revenue
+We cannot 
+
+1.  A argument from the left on why a Wealth Tax is a bad idea, Carried Interest doesn't need another tax provision, and we should get rid of the estate tax
+
+
 
 1. What is the product spec?
 Productizing the Tax Code"
 https://gemini.google.com/app/2241794092425f85
 
-2. What are we optimizing for? (see below)
+1. What are we optimizing for? (see below)
 https://claude.ai/share/8c6d5976-e662-44a9-9b49-7facb9b19213
 
-3. Are loopholes effective?
+1. Are loopholes effective?
 (i.e. a good way to direct capital towards desirable outcomes - green energy etc...)
 
-4. Importance of dexterity in a dynamic world
+1. Importance of dexterity in a dynamic world
 AI is going to change things and we need to be able to respond with jsut a few levers vs tangled mess
 
-5. Studies to run:
+1. Studies to run:
 - can people predict their taxes?
 - do people remember their taxes?
 - do people feel that they are paying about the right amount of taxes?
 
-6. Why Tax Policy?
+1. Why Tax Policy?
 alogorithm, work that matters
 
-7. Capital Gains get preferential treatment?
+1. Capital Gains get preferential treatment?
 
-8. The problem with a Wealth Tax
+2. The problem with a Wealth Tax
+
 
 
 

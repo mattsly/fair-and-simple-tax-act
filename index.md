@@ -40,17 +40,15 @@ The framework is revenue-positive ($85–200B/yr depending on calibration), prot
 
 ## What's Next
 
-The capital gains system is the foundation, but it's not the whole building. Each companion proposal below is designed to stand on its own or work as part of a cohesive fiscal system:
+These are additional WIP proposals, each of which is scoped to be independently "shippable" and ultimately to work as part of a cohesive fiscal system:
 
-**[Income tax reform.](income-tax-essay.md)** Eliminate all deductions (including the mortgage interest deduction and SALT), replace the standard deduction with a 0% bracket, and reduce the rate table from seven brackets to five. Filing statuses drop from five to two. Nobody earning under $250K sees a tax increase. The rate table becomes the tax code. A working draft is available.
+**[Income tax reform.](income-tax-essay.md)** Eliminate all deductions (including the mortgage interest deduction and SALT), replace the standard deduction with a 0% bracket, and reduce the rate table from seven brackets to five. The charitable and medical expense deductions are replaced with targeted credits that work for all filers, not just itemizers. Filing statuses drop from five to two. Nobody earning under $250K sees a tax increase. A working draft is available.
 
 **[Child payment.](child-payment-essay.md)** Consolidate the CTC, EITC, and education tax credits into a single universal monthly payment per child. The 2021 expanded CTC experiment cut child poverty ~30% in six months. This proposal makes it permanent, funds it by redirecting the budgets of nine overlapping programs, and delivers it monthly instead of annually.
 
 **[FICA reform.](fica-reform-essay.md)** Eliminate employee-side FICA entirely (an immediate ~8% raise for every worker), replace it with an uncapped 8% employer-side contribution, and broaden Social Security's funding base without cutting benefits. Self-employed individuals pay 8% flat, down from 15.3%.
 
-**[Charitable giving reform.](charitable-giving-essay.md)** Replace the structurally regressive charitable deduction with a 50% credit (capped at 5% of tax liability), making the incentive to give flat across brackets. Address the donor-advised fund loophole, where $234 billion sits with no payout requirement.
-
-**Retirement account simplification.** Traditional 401(k), Traditional IRA, Roth IRA, Roth 401(k), SEP IRA, SIMPLE IRA, 529 plans — the current system has too many vehicles with overlapping purposes and conflicting rules. A companion proposal will streamline retirement savings into fewer, more intuitive accounts while preserving the Roth reforms introduced in the Lifetime Gains Framework.
+**[Universal Savings Account (USA).](universal-savings-account-essay.md)** Replace 15+ tax-advantaged account types (401(k), IRA, Roth, SEP, SIMPLE, 529, HSA, FSA, and more) with a single universal account. After-tax contributions, tax-free growth, $5M balance cap, $1,000 government seed at birth. A 10-year conversion window at a 12% flat rate generates an estimated $1.2-1.3 trillion in one-time revenue while leaving most savers hundreds of thousands of dollars better off.
 
 Each of these is guided by the same four design tenets above.
 
@@ -80,5 +78,6 @@ This project is not affiliated with a political party, campaign, or institution.
 
 - This is a **structural proposal**, not a fully calibrated legislative bill.
 - All figures are directional ranges, not point estimates. Formal scoring by JCT/CBO would be needed for legislative purposes.
-- Corporate taxation is out of scope.
+- **Corporate taxation** (corporate income tax, international tax, transfer pricing) is out of scope. Corporate tax reform is deeply intertwined with global competitiveness, trade policy, and entity structure decisions that deserve their own treatment.
+- **Healthcare tax treatment** (including the employer health insurance exclusion, the largest single tax expenditure at ~$300B/yr) is out of scope. Reforming how we tax health benefits is inseparable from healthcare delivery policy, and this project stays focused on the tax system's structural architecture.
 - Feedback, critique, and collaboration are welcome: **me@mattsly.com**

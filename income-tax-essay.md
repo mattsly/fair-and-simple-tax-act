@@ -90,6 +90,18 @@ One thing the current rate table gets badly wrong: there is a [10-percentage-poi
 
 ---
 
+## Two Credits Replace the Deductions That Matter Most
+
+Eliminating all deductions raises an obvious question: what about the things deductions were actually meant to encourage or protect? Most deductions (the mortgage interest deduction, SALT) are subsidies for specific financial choices that don't need federal encouragement. Two areas genuinely do: charitable giving and catastrophic medical costs. In both cases, the current deduction is the wrong mechanism. A credit is better.
+
+**Charitable giving credit.** Replace the charitable deduction with a 50% credit on donations, capped at 5% of tax liability. A $1,000 donation generates a $500 credit whether you earn $50,000 or $5,000,000. Under the current deduction, that same $1,000 is worth $370 to someone in the 37% bracket and $120 to someone in the 12% bracket. The credit democratizes the incentive. The 5% liability cap ensures charity cannot become a dominant tax avoidance strategy (95% of your liability is untouchable), dramatically limiting the benefit of very large gifts relative to current law. For a deeper treatment of the donor-advised fund tension and the interaction with appreciated asset donations, see the [charitable giving companion page](./charitable-giving-essay.md).
+
+**Medical cost credit.** Replace the itemized medical expense deduction with a 30% refundable credit on medical expenses above a $5,000 threshold. Under current law, the medical deduction only helps the roughly 13% of filers who itemize, and only on expenses exceeding 7.5% of AGI. A family earning $60,000 with a $15,000 medical emergency gets almost nothing. Under the credit, they get $3,000. The credit is fully refundable, meaning it helps even filers with zero tax liability (the people most likely to be crushed by medical costs). Over time, as the [Universal Savings Account](./universal-savings-account-essay.md) is widely adopted (with its tax-free medical withdrawals at any age), the need for this credit may diminish. But until that transition is complete, eliminating medical cost protection without a replacement is not an option.
+
+Both credits are available to every filer. Neither requires itemization. Both replace a regressive deduction (worth more to wealthier filers) with a mechanism that provides equal or greater benefit to middle- and lower-income households.
+
+---
+
 ## Filing Status: From Five to Two
 
 The current system has five filing statuses: Single, Married Filing Jointly, Married Filing Separately, Head of Household, and Qualifying Surviving Spouse. Each has different bracket thresholds, different phase-out rules, and different interactions with credits and deductions. Head of Household alone has its own bracket table, its own standard deduction amount, and its own set of qualifying rules.
@@ -105,11 +117,15 @@ That's it. Head of Household becomes unnecessary when dependent-related benefits
 
 ## What Falls Away
 
-**The standard deduction and all itemized deductions.** Schedule A disappears. No more choosing between standard and itemized. No more tracking mortgage interest, charitable donations, state taxes, or medical expenses for filing purposes. The 0% bracket replaces the standard deduction more progressively and more simply.
+**The standard deduction and all itemized deductions.** Schedule A disappears. No more choosing between standard and itemized. The 0% bracket replaces the standard deduction more progressively and more simply. The charitable and medical deductions are replaced by targeted credits (see above). The mortgage interest deduction and SALT deduction are eliminated outright.
 
 **The mortgage interest deduction.** A subsidy for borrowing that doesn't increase homeownership. Already half-dead after the TCJA. This finishes the job.
 
 **The SALT deduction.** A federal subsidy for high-tax state residents that primarily benefits high-income households. Eliminated entirely.
+
+**The charitable deduction.** Replaced by a 50% credit capped at 5% of tax liability. The incentive to give is preserved and democratized; the tax avoidance potential is sharply limited.
+
+**The medical expense deduction.** Replaced by a 30% refundable credit on expenses above $5,000. Available to all filers, not just the 13% who itemize.
 
 **The pass-through deduction (Section 199A / QBI).** This 20% deduction for pass-through business income expired at the end of 2025. It was a carve-out that primarily benefited high-income business owners and added substantial complexity (the rules for "specified service trades or businesses" alone were Byzantine). This proposal does not renew it. Small business owners are more than compensated by the simplified rate table, [FICA reform](./fica-reform-essay.md) (15.3% down to 8% for the self-employed), and the Lifetime Gains Framework's $2.5 million tax-free exemption on business sale proceeds.
 
@@ -143,9 +159,9 @@ This is not a phase-in. The new rate table takes effect on day one. The transiti
 
 ## Revenue
 
-The bracket restructuring alone is roughly revenue-neutral to modestly positive (an estimated +$10-70 billion annually). Revenue lost from tax cuts below $750,000 (approximately $50-80 billion) is offset by revenue gained from the 43% top rate above $750,000 (approximately $90-120 billion).
+The bracket restructuring alone is roughly revenue-neutral to modestly positive (an estimated +$10-70 billion annually). Revenue lost from tax cuts below $750,000 (approximately $50-80 billion) is offset by revenue gained from the 43% top rate above $750,000 (approximately $90-120 billion). Eliminating the mortgage interest deduction recovers roughly $25-30 billion. Eliminating the SALT deduction recovers roughly $10-15 billion (partially already captured by the $10,000 TCJA cap). The charitable credit costs less than the current deduction (preliminary savings of $20-40 billion, depending on behavioral response). The medical credit is roughly comparable in cost to the current deduction (~$10-12 billion).
 
-The income tax reform is designed as a simplification and fairness play, not a major revenue raiser. The heavy revenue lifting is done by the [Lifetime Gains Framework](./lifetime-gains-essay.md) ($85-200 billion per year from capital gains reform). Together with companion reforms to [FICA](./fica-reform-essay.md), [child benefits](./child-payment-essay.md), and [charitable giving](./charitable-giving-essay.md), the full system is simpler, fairer, and meaningfully revenue-positive.
+The income tax reform is designed as a simplification and fairness play, not a major revenue raiser. The heavy revenue lifting is done by the [Lifetime Gains Framework](./lifetime-gains-essay.md) ($85-200 billion per year from capital gains reform). Together with companion reforms to [FICA](./fica-reform-essay.md) and [child benefits](./child-payment-essay.md), the full system is simpler, fairer, and meaningfully revenue-positive.
 
 > Note: All revenue figures are preliminary estimates. Formal scoring by JCT/CBO would be required for legislative purposes. Behavioral responses (changes in housing decisions, labor supply) could meaningfully affect these estimates in either direction.
 
@@ -153,12 +169,12 @@ The income tax reform is designed as a simplification and fairness play, not a m
 
 ## The Bigger Picture
 
-This essay covers one piece of the [Fair and Simple Tax Act](./index.md). The rate table and deduction reform stand on their own, but they're designed to work with four companion proposals:
+This essay covers one piece of the [Fair and Simple Tax Act](./index.md). The rate table, deduction elimination, and replacement credits stand on their own, but they're designed to work with companion proposals:
 
 - **[Capital gains reform](./lifetime-gains-essay.md)** (the Lifetime Gains Framework) — five rules that replace the estate tax, the AMT, the NIIT, and twelve special exclusions.
 - **[FICA reform](./fica-reform-essay.md)** — eliminate employee-side payroll tax, uncap the employer side, simplify Social Security funding.
 - **[Child payment](./child-payment-essay.md)** — consolidate CTC, EITC, and education credits into a single monthly payment per child.
-- **[Charitable giving reform](./charitable-giving-essay.md)** — replace the regressive charitable deduction with a flat credit, address the DAF loophole.
+- **[Universal Savings Account](./universal-savings-account-essay.md)** — replace 15+ savings vehicles with one universal account.
 
 Each can be enacted independently. Together, the entire tax code for a typical American household fits on an index card. Not as a slogan. As a fact.
 

@@ -14,7 +14,7 @@ twitter:
 
 ---
 
-> **Status: Working draft.** This is a companion proposal to the [Fair and Simple Tax Act](./index.md). Feedback welcome at me@mattsly.com.
+> **Status: Working draft.** This is a deeper dive companion to the charitable giving credit introduced in [Income Tax Reform](./income-tax-essay.md). It covers the donor-advised fund tension, the interaction with appreciated asset donations under the [Lifetime Gains Framework](./lifetime-gains-essay.md), and open design questions. Feedback welcome at me@mattsly.com.
 
 ---
 
