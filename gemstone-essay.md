@@ -7,7 +7,26 @@ Imagine the U.S. federal government has been funded, since 1776, by a magic gems
 The gemstone just... produces money. Nobody knows how. Nobody cares. Every year it generates (almost) all the revenue the government needs, and no citizen has ever paid a dollar in taxes. There is no IRS. No W-2. No April 15th. The concept of "tax brackets" doesn't exist. Kids grow up without ever hearing the phrase "write-off." The gemstone handles most of it. The government borrows the rest. (Stay with me here - it's worth it I promise!)
 
 Until yesterday. Yesterday, the gemstone spontaneously combusted. Poof. Gone. The government calls an emergency session. America needs a revenue system, and it needs one fast.
+
 What do we build?
+
+---
+
+## The Beauty of a Blank Slate
+
+Here is the liberating aspect of this thought experiment: we can start from scratch. Nobody's accountant is billing $800/hour to navigate a system that doesn't exist yet. No interest groups lobbying to protect a goofy exemption that was designed decades ago. Nobody has structured their estate around stepped-up basis. We have a blank whiteboard and a simple question: *how should 330 million people of widely varying means split the cost of running their government?*
+
+I think a majority of reasonable people from across the political spectrum would converge on a few design principles:
+
+**It should be simple.** We are adding a layer into our dynamic economy. That will inherently be disruptive to basically everyone. So it should be as simple as possible. Citizens should understand what they owe and why. If you need a professional to tell you what you owe, it's too complicated. Fewer rules means fewer loopholes and fewer consultants. Ideally, the whole thing should just *work* — automated, pre-filled, done.
+
+**It should be fiscally durable.** Turns out the gemstone had been running a little short (in retrospect, maybe we should have seen the combustion coming), and we've been borrowing the difference to the tune of [$1.7 trillion a year](https://www.cbo.gov/publication/60870). Whatever we build needs to close that gap, not pass it to our kids.
+
+**It should fuel the climb.** The founders wrote down a pretty radical idea right before they found that gemstone: the right to life, liberty, and the pursuit of happiness. Not the guarantee of outcomes. The *pursuit*. Our revenue system should empower citizens to reach their full potential no matter the circumstances into which they were born.
+
+**It should reward innovation.** Nearly every material improvement in how human beings live traces back to someone who took a risk that could have failed. A day of work today buys more of what we need (food, shelter, power, health and so on) than a day of work bought a century ago. We want more of that, not less. And we should reward it handsomely. The system should also recognize that the risk of starting from the bottom is not the same as the risk of starting from the top.
+
+If you're designing from scratch, left, right, libertarian, whatever — you'd want all four.
 
 ---
 
@@ -21,26 +40,6 @@ But here's the math problem. The federal government spends roughly [$6.75 trilli
 
 So yes, cut waste. Absolutely. But you still need a revenue system that reliably generates trillions in revenue. And now you have to design one from scratch.
 
-What would it look like?
-
----
-
-## The Beauty of a Blank Slate
-
-Here is the liberating aspect of this thought experiment: we can start from scratch. Nobody's accountant is billing $800/hour to navigate a system that doesn't exist yet. No interest groups lobbying to protect a goofy exemption that was designed decades ago. Nobody has structured their estate around stepped-up basis. We have a blank whiteboard and a simple question: *how should 330 million people of widely varying means split the cost of running their government?*
-
-I think a majority of reasonable people from across the political spectrum would converge on a few design principles:
-
-**It should be simple.** We are adding a layer into our dynamic economy. That will inherently be disruptive to basically everyone. So it should be as simple as possible. Citizens should understand what they owe and why. If you need a professional to tell you what you owe, it's too complicated. Fewer rules means fewer loopholes and fewer $800/hour consultants. Ideally, the whole thing should just *work* — automated, pre-filled, done.
-
-**It should be fiscally durable.** Turns out the gemstone had been running a little short (in retrospect, maybe we should have seen the combustion coming), and we've been borrowing the difference to the tune of [$1.7 trillion a year](https://www.cbo.gov/publication/60870). Whatever we build needs to close that gap, not pass it to our kids.
-
-**It should facilitate socioeconomic mobility.** The founders wrote down a pretty radical idea right before they found that gemstone: the right to life, liberty, and the pursuit of happiness. Not the guarantee of outcomes. The *pursuit*. Our revenue system should empower citizens to reach their full potential no matter the circumstances into which they were born.
-
-**It should reward innovation.** We want people to work, save, invest, start businesses, and take risks. The system should reward that. Handsomely. And it should also recognize that there is a lot risk involved in starting from the bottom vs top.
-
-If you're designing from scratch, left, right, libertarian, whatever — you'd want all four.
-
 ---
 
 ## Now Look at What We Actually Have
@@ -53,7 +52,9 @@ Over [90% of taxpayers](https://www.ntu.org/foundation/detail/taxpayers-will-spe
 
 And the [tax gap](https://www.irs.gov/statistics/irs-the-tax-gap) (taxes legally owed but not collected) exceeds $600 billion per year. That's not tax avoidance. That's money the government is *supposed* to be collecting, under the current rules, and just... can't. Largely because the rules are too complex to enforce.
 
-Here's the thing: nobody sat down and designed this. The tax code is the accumulation of a century of patches. Each provision was (usually) well-intentioned. The mortgage interest deduction was meant to promote homeownership. Preferential capital gains rates were meant to encourage investment. 401(k)s were meant to encourage saving. But each one added dials and thresholds and phase-outs, and those interactions created loopholes, and the loopholes created counter-provisions, and those counter-provisions created their own interactions. The preferential capital gains rates led to armies of lawyers recharacterizing ordinary income as capital gains, which led to the Alternative Minimum Tax, which created its own complexity and unfairness. The estate tax led to stepped-up basis, which led to the Buy-Borrow-Die strategy, which led to the Net Investment Income Tax bolted on to fund the Affordable Care Act. Layer after layer after layer of income taxes, payroll taxes, capital gains taxes, estate taxes, excise taxes, and hundreds of targeted credits and deductions and additional taxes. Each one a hotfix for the side effects of previous hotfixes. In software, we call this spaghetti code.
+Here's the thing: nobody sat down and designed this. The tax code is the accumulation of a century of patches. Each provision was (usually) well-intentioned. The mortgage interest deduction was meant to promote homeownership. Preferential capital gains rates were meant to encourage investment. 401(k)s were meant to encourage saving. But each one added dials and thresholds and phase-outs, and those interactions created loopholes, and the loopholes created counter-provisions, and those counter-provisions created their own interactions. The preferential capital gains rates led to armies of lawyers recharacterizing ordinary income as capital gains, which led to the Alternative Minimum Tax, which created its own complexity and unfairness. The estate tax led to stepped-up basis, which led to the Buy-Borrow-Die strategy, which led to the Net Investment Income Tax bolted on to fund the Affordable Care Act. Layer after layer after layer of income taxes, payroll taxes, capital gains taxes, estate taxes, excise taxes, and hundreds of targeted credits and deductions and additional taxes. Each one a hotfix for the side effects of previous hotfixes.
+
+In software, we call this spaghetti code.
 
 Would the emergency session, staring at a blank whiteboard, design *this*?
 
@@ -65,15 +66,16 @@ Not a chance.
 
 I'll concede the obvious: the gemstone is fiction. We can't actually wipe the slate and start over. And yes, if we're being honest, a gemstone-funded America probably wouldn't look like today's America. Two and a half centuries of economic incentives would have played out differently. I'm waving that away for the thought experiment, but I don't want to pretend it's nothing.
 
-As is, roughly 160 million Americans have built financial plans around the current system. People bought homes expecting the mortgage interest deduction. People structured businesses as S-corps to optimize for the payroll tax rules. People set up GRATs and dynasty trusts because the estate tax told them to. These aren't irrational decisions. They're rational responses to the incentives the system created.
+But here's why it's still a useful exercise: replacing the gemstone lets us design a tax code free of the political gravity that bends every real attempt.
 
-So no, I'm not pretending we can snap our fingers and build from scratch. The transition problem is real and any serious reform has to deal with it head-on.
+Start with the politicians. Adding a new provision to the tax code is a ribbon-cutting. Removing one is a fight. Every carve-out has a visible beneficiary who will be loudly unhappy if it goes away, and a diffuse set of winners (everyone else, a little) who won't notice. So the rational move for any given legislator is to add rather than subtract, and to let the old stuff accumulate. The mortgage interest deduction is worth $0 to most middle-income families who take the standard deduction, and Canada has roughly the [same homeownership rate](https://www150.statcan.gc.ca/n1/daily-quotidien/221121/dq221121b-eng.htm) without one — but try proposing to eliminate it and watch what happens to the politician who did.
 
-But here's why it's still a useful exercise: we are trapped in the [endowment effect](https://en.wikipedia.org/wiki/Endowment_effect). We evaluate every proposed change against the current system, and because of the "bug" in our human psyches, we feel losses roughly twice as intensely as equivalent gains (a phenomenon Daniel Kahneman and Amos Tversky [documented extensively](https://www.aeaweb.org/articles?id=10.1257/jep.5.1.193)). So any change that takes something away from *anyone* feels like an attack, even if the new system is objectively better for that person on net. People don't rationally evaluate the mortgage interest deduction on its merits. They evaluate it against the pain of losing it. Never mind that the deduction is worth $0 to most middle-income families (who take the standard deduction) and $11,655 to a family in the 37% bracket. Never mind that Canada has roughly the [same homeownership rate](https://www150.statcan.gc.ca/n1/daily-quotidien/221121/dq221121b-eng.htm) without one. The fact that you *have* it makes it feel like yours.
+Then there are the lobbyists, who have money and lawyers and a professional interest in making sure none of this ever gets simpler. The tax preparation industry ([$11 billion](https://taxfoundation.org/data/all/federal/irs-tax-compliance-costs/) and counting) has [spent tens of millions lobbying against free government filing](https://www.propublica.org/article/filing-taxes-could-be-free-simple-hr-block-intuit-lobbying-against-it) — the IRS could do your taxes for you tomorrow, and they've made sure it doesn't. Real estate defends the mortgage interest deduction. Private equity defends the carried interest loophole. Insurance defends the employer health exclusion. Every major industry has tax provisions it considers existential and a team of people paid full-time to protect them. The 2017 Tax Cuts and Jobs Act was the biggest tax overhaul in a generation, and even it was designed to sunset most of its individual provisions with a built-in expiration clause that guaranteed the whole fight would happen again in 2025 (spoiler: it did).
 
-Every carve-out and complexity has a constituency that will fight to keep it. The tax preparation industry ([$11 billion](https://taxfoundation.org/data/all/federal/irs-tax-compliance-costs/) and counting) has [spent tens of millions lobbying against free government filing](https://www.propublica.org/article/filing-taxes-could-be-free-simple-hr-block-intuit-lobbying-against-it). Real estate, finance, healthcare, energy, every major industry has tax provisions it considers existential. The 2017 Tax Cuts and Jobs Act was the biggest tax overhaul in a generation, and even it was designed to sunset most of its individual provisions with a built-in expiration clause that guaranteed the whole fight would happen again in 2025 (spoiler: it did).
+And behind both is [loss aversion](https://www.aeaweb.org/articles?id=10.1257/jep.5.1.193): voters rally to defend provisions they don't actually use, which gives the politicians cover and the lobbyists their ammunition.
 
 That's why the gemstone matters. It's not a policy proposal. It's a mental trick. It asks: *what would make sense to someone seeing this for the first time?* If we can hold onto that question long enough to actually answer it, we might build something worth keeping.
+
 ---
 
 ## Why Now?
@@ -84,7 +86,7 @@ First, the deficit. We already mentioned the [$1.7 trillion annual gap](https://
 
 Second, AI is about to stress-test every assumption baked into the tax code, and we are not ready. The relationship between capital and labor is changing faster than at any point since industrialization. AI is accelerating a pattern where wealth flows to asset owners rather than wage earners. BlackRock CEO Larry Fink has [warned](https://entrepreneurloop.com/ai-wealth-inequality-blackrock-larry-fink-warning/) that AI could replay the dynamic where a dollar invested in equity grows 15x the value of a dollar tied to wages, at a scale the economy has never seen. An [IMF working paper](https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729) found that AI adoption is already reducing the income share of medium- and high-skilled workers. When the income share shifts, a tax code built on wage-based revenue (payroll taxes are 35% of federal revenue) is structurally exposed.
 
-Nobody knows exactly what an AI-driven economy looks like. But we're going to need a tax code with the dexterity to adapt. That means strong principles, minimal complexity, tunable variables, and infrastructure that can be automated. What we have is 75,000 pages of interdependent provisions where changing one parameter cascades unpredictably through dozens of others. That's not a system. It's a rat's nest. And you can't steer a rat's nest.
+Nobody knows exactly what an AI-driven economy looks like. **But we're going to need a tax code with the dexterity to adapt.** That means strong principles, minimal complexity, tunable variables, and infrastructure that can be automated. What we have is 75,000 pages of interdependent provisions where changing one parameter cascades unpredictably through dozens of others. That's not a system. It's a rat's nest. And you can't steer a rat's nest.
 
 Here's the real point: if we try to adapt the current tax code to an AI-driven economy, we will be patching patches of patches. We'll add an "AI income" category. We'll create a new credit for displaced workers that phases out based on a definition of "displacement" that 200 lawyers will spend a decade litigating. We'll bolt on another surtax to capture AI-generated wealth, and it'll interact with the AMT and NIIT in ways nobody predicts. We know exactly how this story goes because we've been living it for a hundred years.
 
