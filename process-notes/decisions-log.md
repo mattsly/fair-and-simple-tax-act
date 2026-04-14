@@ -2,6 +2,11 @@
 
 Key decisions made while developing the Fair and Simple Tax Act project, with the reasoning behind each. The goal is to capture the *why* so future-us (or a new collaborator) doesn't relitigate settled ground.
 
+## Process Rules
+
+### Published doc closure rule
+Any document linked from a published document must itself be published. The set of "published" files is the transitive closure of links starting from `index.md`, not just the essays we happen to be talking about at any given moment. Reason: broken links or 404s in a published doc are worse than having an unfinished stub live. If a stub is linked from `index.md`, the stub is published — even if it's still rough. How to apply: before moving any file out of the Jekyll deploy root, grep for inbound links from published docs. If any exist, either the file stays, or the link gets removed first.
+
 ## Framing & Architecture
 
 ### Lifetime Gains is "first and most fully developed," not "the centerpiece"
@@ -61,7 +66,7 @@ Collapses Single, MFJ, MFS, HoH, QW into just Single and Joint. Simplification f
 One monthly payment replaces six overlapping programs. 2021 expanded CTC cut child poverty ~30%; the precedent exists.
 
 ### FICA reform: kill employee side, keep employer side as 8% uncapped ESNC
-Employee-side FICA is regressive and visible on every paycheck. Eliminating it is a large tax cut for working people. Employer-side retained (and uncapped) as Employer Social Net Contribution. Details in phase_2_social_security_modernization_pr_faq.md.
+Employee-side FICA is regressive and visible on every paycheck. Eliminating it is a large tax cut for working people. Employer-side retained (and uncapped) as Employer Social Net Contribution. Details in social-security-prfaq.md.
 
 ### Universal Savings Account (USA) replaces 15+ account types
 401(k), IRA, Roth, SEP, SIMPLE, 529, Coverdell, ABLE, HSA, FSA, HRA, 457(b), etc. Single account, $1K seed at birth, $30K annual cap, tax-free growth, $5M balance cap, contributions withdrawable anytime, qualified medical withdrawals tax-free. "Great Conversion" at flat 12% over 10-year window yields ~$1.2-1.3T.
