@@ -1,10 +1,18 @@
 # Lifetime Gains Framework: Technical Specification
 
-**Version:** 0.2 (Draft)
-**Date:** March 16, 2026
+**Version:** 0.3 (Draft)
+**Date:** April 24, 2026
 **Status:** Working document
 
 This document is the canonical source of truth for the framework's mechanics. Related documents are derived from this spec. If a conflict exists, this document governs.
+
+---
+
+## 0. Scope
+
+This specification addresses the treatment of capital gains in taxable brokerage accounts and other non-retirement investment vehicles. The integration of retirement accounts (traditional and Roth 401(k)s, IRAs, 529s, HSAs, and other tax-advantaged vehicles) with the Lifetime Gains Framework is addressed in a separate proposal, "One Account to Rule Them All." Until that proposal is enacted, existing retirement account rules apply without modification.
+
+The framework is federal. State capital gains taxes (which vary widely) and state estate taxes are unaffected by this specification.
 
 ---
 
@@ -14,10 +22,12 @@ The framework has two adjustable parameters. All other values are derived or inh
 
 | Parameter | Symbol | Individual | Married Filing Jointly | Indexed |
 |---|---|---|---|---|
-| Lifetime Exemption | E | $2,500,000 | $5,000,000 | CPI, annually |
-| Phase-Out Ceiling | C | $10,000,000 | $20,000,000 | CPI, annually |
+| Lifetime Exemption | E | $2,000,000 | $4,000,000 | CPI, annually |
+| Phase-Out Ceiling | C | $6,000,000 | $12,000,000 | CPI, annually |
 
 The top rate (T) is inherited from the income tax code: currently 37%. It is not a framework parameter.
+
+**Breakeven against current law (informational):** at these parameters, a single filer with cumulative lifetime gains of approximately $11.2M pays the same tax under the framework as under current law's 23.8% top combined LTCG + NIIT rate. Below that cumulative gain, the taxpayer pays less under the framework; above, they pay more.
 
 ---
 
@@ -57,11 +67,13 @@ This endpoint averaging is exact for a linear scale (equivalent to integrating t
 
 ### Rule 3: Expanded Realization Events
 
-Four events trigger realization of capital gains:
+Realization happens whenever appreciated wealth changes hands in a way that preserves or transfers its availability for private consumption. Under this principle, four events trigger realization: sale, death, gift to another individual, and borrowing against appreciated assets.
+
+**Exception: transfers to qualified charities are not realization events.** The appreciation exits the private economy. See the Charitable Donation Treatment subsection below for mechanics.
 
 1. **Sale.** (Unchanged from current law.)
 2. **Death.** All unrealized gains are deemed realized on the decedent's final return. Heirs receive basis at date-of-death fair market value. Follows the Canadian model (in use since 1972).
-3. **Gift.** The donor is taxed on unrealized gains at the time of transfer, using the donor's lifetime counter. Recipient receives basis at gift-date fair market value. Annual gift exclusion ($18K/person/year) retained for administrative simplicity.
+3. **Gift.** The donor is taxed on unrealized gains at the time of transfer, using the donor's lifetime counter. Recipient receives basis at gift-date fair market value. Annual gift exclusion ($19K/person/year) retained for administrative simplicity.
 
    **Gift valuation:** For publicly traded securities, FMV is market price. For illiquid assets, existing IRS qualified appraisal requirements and valuation enforcement (Revenue Ruling 59-60) apply. Critically, the elimination of stepped-up basis creates a natural tension between donor and recipient that discourages undervaluation: if the donor lowballs the gift's FMV, they pay less tax now — but the recipient inherits a lower basis and pays correspondingly more tax upon eventual sale or death. The total tax collected is approximately the same regardless of the stated gift value. Under current law, this tension does not exist because stepped-up basis at death eliminates the deferred tax entirely, making donor and recipient cooperative parties in undervaluation.
 4. **Borrowing against appreciated assets.** When a loan is secured by appreciated assets, the unrealized gain on the collateral is deemed realized at the time of borrowing, regardless of loan purpose. Basis steps up by the deemed amount to prevent double taxation on eventual sale. If the collateral has no unrealized gain (e.g., a purchase mortgage on a newly acquired home, or collateral that is underwater), the deemed realization is $0. This rule applies universally — no distinction between personal, business, or investment purpose — eliminating the classification disputes that would otherwise become the primary enforcement challenge.
@@ -82,6 +94,20 @@ Four events trigger realization of capital gains:
 
 In all cases, gains within remaining exemption headroom are tax-free; gains above are taxed on the sliding scale.
 
+#### Charitable Donation Treatment
+
+Donations of appreciated assets to qualified 501(c)(3) charities are not realization events. Three mechanical consequences follow:
+
+1. **No capital gains tax is owed** on the appreciation at the time of donation.
+2. **The donor's lifetime capital gains counter is not affected.** The donated amount does not consume exemption headroom.
+3. **The income tax deduction is limited to the donor's CPI-adjusted basis**, not the asset's fair market value.
+
+**Worked example:** Donor contributes $1,000,000 of appreciated stock with a CPI-adjusted basis of $100,000. Capital gains tax owed: $0. Lifetime counter impact: $0. Charitable income tax deduction: $100,000.
+
+This differs sharply from current law, under which the donor would receive a $1,000,000 FMV deduction and owe no capital gains tax on the $900,000 of appreciation — a double benefit that the framework eliminates. The asset leaves the private economy; the subsidy the donor receives is tied to the real dollars they originally committed, not the unrealized appreciation.
+
+**Scope.** This treatment applies to direct contributions to public charities. Private foundations and donor-advised funds receive the same treatment at the donation stage (no gain recognized, basis-only deduction). Governance issues specific to those vehicles (DAF minimum payout requirements, foundation self-dealing rules, etc.) are addressed in a separate proposal on charitable giving reform and are out of scope for this specification.
+
 ### Rule 4: CPI-Indexed Basis
 
 Cost basis is fully adjusted for inflation using the Consumer Price Index:
@@ -93,6 +119,16 @@ adjusted_basis = original_basis × (CPI_sale / CPI_purchase)
 **Symmetry by design:** CPI adjustment applies universally to all transactions, whether sold at a gain or a loss. Because terminal realization (Rule 3) ensures deferred gains are eventually taxed, asymmetric rules to handicap tax-loss harvesting are unnecessary. The framework taxes only real economic gains and recognizes only real economic losses.
 
 For assets acquired by gift or deemed realization at death, the basis date resets to the transfer date.
+
+**CPI mechanics:**
+
+- **Index.** The all-urban consumer CPI-U published by the Bureau of Labor Statistics is the reference series. For months pre-dating CPI-U coverage, Treasury specifies the analogous historical series (same approach as existing indexed provisions such as Social Security).
+- **Computation timing.** CPI adjustment is computed at the time of realization (sale, death, gift, or borrowing), using the CPI value for the realization month and the CPI value for the purchase month. No annual mark-to-inflation is required on unsold positions.
+- **Lot-level indexing.** Each tax lot is indexed independently based on its own purchase date. Standard broker lot-tracking infrastructure (already used for specific-identification sales) accommodates this without material change.
+- **Lump-sum acquisitions.** For assets acquired in multiple installments (dollar-cost averaging, reinvested dividends, stock grants over a vesting schedule), each installment is a separate lot indexed from its own acquisition date.
+- **Fractional shares.** Indexed consistently with the full lot; no special rounding rules beyond existing broker conventions.
+- **Broker reporting.** Brokers already report cost basis to the IRS under Section 6045(g). The framework extends this obligation to include the purchase-month CPI value, enabling brokers to compute the CPI-adjusted basis and real gain automatically. Legacy lots acquired before reporting requirements (pre-2011 for equities) retain the existing taxpayer-reported basis approach, with CPI adjustment applied against the stated purchase date.
+- **Parameter indexing (separate from basis).** The exemption (E) and ceiling (C) are also CPI-indexed, but on an annual basis using the prior calendar year's year-end CPI. This parallels existing treatment of tax brackets and standard deduction.
 
 ### Rule 5: Roth Reform
 
@@ -121,7 +157,7 @@ The lifetime counter is the core tracking mechanism that determines exemption us
 | Starting value | $0 at enactment (for existing taxpayers) or $0 at birth (for post-enactment taxpayers) |
 | Increments | Net realized gains (after CPI adjustment) within each calendar year |
 | Decrements | Net realized losses (after CPI adjustment) within each calendar year |
-| Negative floor | -E (-$2.5M individual, -$5M MFJ) |
+| Negative floor | -E (-$2M individual, -$4M MFJ) |
 | Annual netting | Losses offset gains without limit within each year (same as current law) |
 | Ordinary income offset | Up to $3,000/year of net capital losses can offset ordinary income (same as current law) |
 | Loss carryforward | None needed — the counter itself is the carryforward |
@@ -140,6 +176,13 @@ The lifetime counter is the core tracking mechanism that determines exemption us
 
 **Qualified dividends:** Count against the lifetime counter and are taxed on the same sliding scale. Ordinary dividends taxed as ordinary income (unchanged).
 
+**Open design decision — MFJ counter architecture:** Two viable designs exist for married filers, each with tradeoffs:
+
+1. *Two per-spouse counters (current spec).* Each spouse has a personal counter tracked from birth/enactment. Joint filing aggregates remaining headroom ($2M + $2M = $4M) and allocates gains 50/50 by default. This preserves individual entitlements across marriage, divorce, and remarriage cleanly, but requires brokerage accounts to track which spouse owns (or is deemed to own) each lot.
+2. *Single combined MFJ counter.* Married couples filing jointly share one $4M counter with no per-spouse allocation. Simpler administratively, but creates asymmetry at divorce (how is a shared counter divided?) and at the death of one spouse (does the surviving spouse inherit the joint counter's remaining headroom, or only their half?).
+
+The spec currently adopts approach #1. A fuller treatment of marriage mechanics — including titling conventions for joint brokerage accounts, community property state interactions, and prenup overrides — is deferred to a companion marriage-tax proposal.
+
 ---
 
 ## 4. What Is Eliminated
@@ -152,8 +195,8 @@ The following provisions are rendered redundant and repealed:
 | Alternative Minimum Tax (capital gains component) | No preferential rate to exploit |
 | Net Investment Income Tax (3.8% surtax) | Gains above E are ordinary income at rates >> 3.8% |
 | Stepped-up basis at death | Death is a realization event; heir gets clean basis at FMV |
-| Section 121 (primary residence exclusion) | Replaced by universal lifetime exemption |
-| Section 1202 / QSBS (qualified small business stock) | Replaced by universal lifetime exemption |
+| Section 121 (primary residence exclusion) | Replaced by universal lifetime exemption (see callout below) |
+| Section 1202 / QSBS (qualified small business stock) | Replaced by universal lifetime exemption (see callout below) |
 | Section 1031 (like-kind exchanges) | Deferral mechanism; incompatible with expanded realization |
 | Section 1045 (QSBS rollover) | Same as above |
 | Section 453 (installment sale deferral) | Same as above |

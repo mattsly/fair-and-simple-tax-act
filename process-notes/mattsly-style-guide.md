@@ -156,3 +156,21 @@ When starting a writing task in Matt's voice, use this as a system-level instruc
 > Write in a conversational, direct tone. Use short sentences by default; go long only when the idea demands it, then edit ruthlessly. Include specific numbers and concrete details. Use humor (especially self-deprecating) but calibrate to the register: full volume for personal writing, dialed back for policy. Admit uncertainty where it exists. Use parenthetical asides for commentary and humor. Avoid corporate language, motivational clichés, and emoji. Em dashes sparingly. Earn emotional moments through restraint — don't announce feelings, show them. End with energy, not a summary.
 >
 > **Register:** [personal / analytical / policy] — adjust humor, anecdote density, sentence length, and formality accordingly.
+
+
+## Notes for Mechanical Edits and Refactors
+
+When making mechanical changes (parameter updates, recalculations, find-and-replace):
+
+- Preserve the existing voice exactly. Do not "improve" prose that wasn't part of the change request.
+- When a change request requires recalculating dollar amounts, show the math in your validation summary so the result can be verified.
+- When a parameter change creates a downstream inconsistency (e.g., a calculation elsewhere needs updating), flag it explicitly rather than fixing it silently.
+- When uncertain whether a passage needs updating, flag it rather than assuming.
+- Generate a validation checklist at the end of every significant edit pass.
+
+## Fact Integrity Rules
+
+- Do not invent numbers, citations, or sources. If a number is required and is not in the source material, flag it for human verification rather than inventing a plausible value.
+- Preserve all existing citations and links exactly. Do not "modernize" or "improve" URLs.
+- When updating a number, check whether it appears elsewhere in the document. Inconsistent numbers are worse than missed updates.
+- Mathematical formulas (phase-in calculations, tax tables) must be verifiable. Show the computation step-by-step in any validation output.
