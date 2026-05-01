@@ -209,7 +209,23 @@ The following provisions are rendered redundant and repealed:
 | Lifetime gift tax exemption ($13.6M) | Purpose (preventing double taxation with estate tax) no longer applies |
 | Separate capital loss carryforward tracking | Counter is the carryforward |
 
-**Retained:** Annual gift tax exclusion ($18K/person/year). Existing exit tax on expatriation (IRC §877A), strengthened by alignment with framework's realization events.
+**Retained:** Annual gift tax exclusion ($19K/person/year, 2026 figure, CPI-indexed). Existing exit tax on expatriation (IRC §877A), strengthened by alignment with framework's realization events.
+
+#### Section 121 Treatment (Primary Residence)
+
+Section 121 currently excludes up to $250K of gain ($500K MFJ) on the sale of a primary residence held for at least 2 of the prior 5 years. Under the framework, this carveout is eliminated outright. Primary residence gains count against the lifetime counter on the same terms as any other appreciated asset.
+
+For the median household, this is a non-event. The vast majority of primary residence gains over a lifetime fall within the $2M individual / $4M MFJ exemption. A homeowner who buys for $400K and sells for $1.2M generates an $800K gain that is fully exempt. Their counter advances by $800K, but no tax is owed.
+
+For high-basis or high-appreciation residences (luxury markets, multi-decade holds in coastal cities), the framework treats the gain like any other large gain: tax-free up to E, on the sliding scale through C, top rate above. Sellers who would have used Section 121 multiple times across a lifetime (the "serial home flipper" pattern) lose that ability — the counter is one-shot.
+
+#### Section 1202 / QSBS Treatment
+
+Section 1202 (Qualified Small Business Stock) currently allows a 100% exclusion of gain on QSBS held at least 5 years, capped at the greater of $10M or 10× basis. The 2025 One Big Beautiful Bill Act expanded this regime, raising the cap to $15M with a tiered holding-period schedule (50% at 3 years, 75% at 4 years, 100% at 5 years) and creating a $75M lifetime cap variant.
+
+The framework eliminates Section 1202 entirely. Founders and early employees instead use the universal $2M individual / $4M MFJ lifetime exemption, with phase-in to the top rate over the next $4M / $8M tranche. This is a meaningful loss for the largest exits (a successful founder above the $11.2M breakeven pays more under the framework than under post-OBBB QSBS), but a meaningful win for everyone below that threshold (the carve-out's holding-period and qualification requirements disappear, and the exemption applies to all asset types, not just QSBS).
+
+The post-OBBB expansion of Section 1202 is therefore noted but does not survive enactment of the framework.
 
 ---
 
@@ -284,6 +300,46 @@ OUTPUT:
 
 **Short-term gains** (holding period ≤ 1 year) are excluded from this algorithm entirely and taxed as ordinary income on Schedule D (unchanged from current law).
 
+### Worked Example: Successful Founder, Single Filer
+
+A single founder sells her startup in year 10 for a $19,000,000 long-term capital gain (net of CPI adjustment). Her counter started at $0 at enactment and her only prior post-enactment realization was a $500,000 gain three years earlier from a secondary stock sale.
+
+**Inputs:**
+- counter_start = $500,000
+- net = $19,000,000
+- E = $2,000,000
+- C = $6,000,000
+- T = 0.37
+
+**Step 1: Net real gain.** $19,000,000 (already CPI-adjusted at the lot level).
+
+**Step 2: Update counter.** counter_end = $500,000 + $19,000,000 = $19,500,000.
+
+**Step 3: Compute tax.**
+
+The counter moves from $500,000 (below E) to $19,500,000 (above C). Tax has three regions:
+
+*Below E ($500K → $2M = $1.5M of gain):* taxed at 0%. Tax = $0.
+
+*Phase-in band ($2M → $6M = $4M of gain):*
+- rate at $2M = 0.37 × (2M − 2M) / 4M = 0%
+- rate at $6M = 0.37 × (6M − 2M) / 4M = 37%
+- tax_band = ((0% + 37%) / 2) × $4,000,000 = 18.5% × $4,000,000 = **$740,000**
+
+*Above C ($6M → $19.5M = $13.5M of gain):* taxed at 37%.
+- tax_above = 37% × $13,500,000 = **$4,995,000**
+
+*Total framework tax:* $0 + $740,000 + $4,995,000 = **$5,735,000**
+
+**Effective rate on the $19M sale:** 30.2%.
+
+**For comparison — same founder under current law (post-OBBB QSBS, all qualifying):**
+- $15M QSBS exclusion → $0 tax on the first $15M
+- Remaining $4M at 23.8% (LTCG + NIIT) = $952,000
+- Total current-law tax: ~$952,000
+
+**Delta:** Founder pays roughly $4.78M more under the framework. This is the bargain the framework strikes: founders below the $11.2M breakeven win, those above it lose. The framework loses on this individual case to the post-OBBB QSBS regime, but recovers across the broader population by eliminating the carve-out entirely.
+
 ---
 
 ## 7. Open Design Questions
@@ -294,8 +350,11 @@ These are acknowledged areas where the spec is incomplete or where reasonable pe
 2. **Payment flexibility.** The main doc proposes 15-year lien options for illiquid estates. Specific terms (interest rate, collateral rules) are not specified here.
 3. **Backdoor Roth closure mechanics.** The spec says "Traditional-to-Roth conversions are closed." This is a significant change that needs precise statutory language. Does it apply to all conversions, or only above certain thresholds?
 4. **Qualified dividends.** Counted against the lifetime counter — but what about dividends received within the exemption? Presumably tax-free, same as capital gains within the exemption. Confirm.
-5. **State interaction.** The framework is federal. State capital gains taxes (which vary widely) are unaffected. State estate taxes may need separate treatment.
-6. **Charitable contributions of appreciated assets.** Under current law, donating appreciated assets to charity (including Donor Advised Funds) avoids capital gains entirely and provides a fair-market-value deduction — a double benefit. The framework's "change of tax owner" principle would logically make such donations realization events, significantly reducing the charitable giving incentive. But exempting them creates an obvious new shelter, particularly via DAFs (which have no payout requirement). This tension is intentionally deferred to a companion proposal on charitable giving reform rather than resolved within the capital gains framework.
+5. **State interaction.** The framework is federal. State capital gains taxes (which vary widely) are unaffected. State estate taxes may need separate treatment. (Also addressed in Section 0.)
+6. **MFJ counter architecture.** Two-counter (current spec) vs. single-combined approaches each have edge cases at marriage, divorce, and death. See discussion in Section 3.
+
+*Resolved in v0.3:*
+- ~~Charitable contributions of appreciated assets.~~ Resolved as a Rule 3 exception with basis-only deduction. See Rule 3 → Charitable Donation Treatment.
 
 ---
 

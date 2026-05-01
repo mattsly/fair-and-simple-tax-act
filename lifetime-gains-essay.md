@@ -91,7 +91,7 @@ The five rules make entire categories of tax law redundant.
 
 - **GRATs, dynasty trusts, and valuation discounts** — the estate planning toolkit that lets ultra-wealthy families transfer hundreds of millions to heirs with little or no tax. [The Walton family used GRATs to transfer billions with zero gift tax liability.](https://www.bloomberg.com/graphics/infographics/how-to-preserve-a-family-fortune-through-tax-tricks.html) These structures work by exploiting the gap between estate tax and income tax, and by deferring realization indefinitely. Eliminated by Rule 3 (gifts and trust transfers are realization events; no more indefinite deferral).
 
-Plus seven more: carried interest (see [Every Perennial Debate, Resolved](#every-perennial-debate-resolved)), Opportunity Zone deferrals, Section 453 installment sales, the Section 1256 60/40 rule for derivatives, the 28% collectibles rate, the lifetime gift tax exemption, and Section 1244 small business loss treatment. Full list in the [technical specification](https://www.mattsly.com/fair-and-simple-tax-act/technical_spec.html).
+Plus seven more: carried interest (see [What This Settles](#what-this-settles)), Opportunity Zone deferrals, Section 453 installment sales, the Section 1256 60/40 rule for derivatives, the 28% collectibles rate, the lifetime gift tax exemption, and Section 1244 small business loss treatment. Full list in the [technical specification](https://www.mattsly.com/fair-and-simple-tax-act/technical_spec.html).
 
 In total, these five rules eliminate roughly 10-15% of the Internal Revenue Code by volume, along with the thousands of pages of Treasury regulations, IRS guidance, and Tax Court precedent that interpret them.
 
@@ -107,7 +107,7 @@ One exception deserves its own treatment: donations of appreciated assets to qua
 
 Under current law, donating $1M of appreciated stock gets the donor a $1M income tax deduction even though only $100K of that was ever taxed — the other $900K is pure appreciation that has never been realized. The deduction exceeds what the donor actually paid tax on.
 
-Under this framework, the capital gains treatment is identical to current law: the appreciation isn't realized, doesn't eat the lifetime cap, and is never taxed. But the income tax deduction is aligned with the donor's actual basis ($100K in this example, CPI-adjusted per Rule 4). You're deducting what you contributed in after-tax terms, which is how deductions work in every other context. Canada uses a similar structure for decades. 
+Under this framework, the capital gains treatment is identical to current law: the appreciation isn't realized, doesn't eat the lifetime cap, and is never taxed. But the income tax deduction is aligned with the donor's actual basis ($100K in this example, CPI-adjusted per Rule 4). You're deducting what you contributed in after-tax terms, which is how deductions work in every other context. Canada has used a similar structure for decades. 
 
 As an example: a middle-class donor giving $5,000 of stock they bought for $4,500 barely notices. A billionaire donating $1 billion of stock with a $10 million basis sees their deduction drop from $1 billion to $10 million — which is the outcome the framework is designed to produce.
 
@@ -121,7 +121,9 @@ Broader questions about how charitable giving should be incentivized (deduction 
 
 **A homeowner** who sells their primary residence for a $250,000 real gain (after inflation adjustment): $0 tax under current law, $0 under this framework. **No change.** The exemption now covers all asset types, not just housing.
 
-**A retiree** who spent 40 years contributing to a 401(k) and taxable brokerage accounts, and sells $800,000 of appreciated stock over a 20-year retirement: Under current law, about $120,000 in capital gains tax over the retirement period (15% LTCG bracket, since $40K/year of gains plus typical retirement income stays below the $200K NIIT threshold). Under this framework, $0. **$120,000 less.** The entire amount falls within the lifetime exemption. The "lifetime" in "Lifetime Gains Framework" is literal. Gains accumulated over a career of saving are not penalized by being realized all at once.
+**A retiree** who saved diligently for 40 years and accumulated $400,000 of appreciated stock in a taxable brokerage account (in addition to her 401(k) and IRA), realized over a 20-year retirement: Under current law, about $60,000 in capital gains tax (15% LTCG bracket, well below the NIIT threshold). Under this framework, $0. **$60,000 less.** The entire amount falls within the lifetime exemption. The "lifetime" in "Lifetime Gains Framework" is literal. Gains accumulated over a career of saving are not penalized by being realized all at once.
+
+*Note: This essay covers capital gains in taxable accounts. Retirement account treatment (401(k)s, IRAs, and similar) under the Lifetime Gains Framework is addressed in a forthcoming companion proposal.*
 
 **A small business owner** who runs a successful auto repair shop for 25 years and sells it for $1.5 million (on a $200K basis): Under current law, about $310,000 in capital gains tax (assuming no QSBS qualification, which auto shops don't get because they're LLCs). Under this framework, $0. **$310,000 less.** This is what "fuel the climb" actually looks like for the 99.9% of small business owners who will never raise venture capital.
 
@@ -151,7 +153,7 @@ The pattern is clear. The framework is designed to fuel the climb: homeowners, r
 
 ---
 
-*What follows is a deeper dive into the most common questions and objections. If you're already sold on the architecture, skip to [The Coalition](#the-coalition). If you want to stress-test the idea, read on, but fair warning that it will get a little wonky.*
+*What follows is a deeper dive into the most common questions and objections. If you're already sold on the architecture, skip to [What Now](#what-now). If you want to stress-test the idea, read on, but fair warning that it will get a little wonky.*
 
 ---
 
@@ -252,7 +254,7 @@ The tax intermediary industry that exists to facilitate these deferrals (a multi
 
 **Net annual revenue change: $45B to $170B, midpoint approximately $108B.**
 
-The net revenue range at the $2M/$6M calibration is approximately $45-170 billion per year, with a midpoint near $108 billion. Under the framework's comprehensive exit closure (Rule 3), actual collections may outperform standard elasticity models because there are fewer avoidance pathways available than current law.
+Under the framework's comprehensive exit closure (Rule 3), actual collections may outperform standard elasticity models. Standard scoring assumes taxpayers will find new ways to avoid taxes when old ones are closed. The framework's architecture removes most of those pathways, suggesting the actual revenue outcome may sit closer to the upper end of this range than to the midpoint.
 
 This gets roughly 10-15% of the way to a sustainable federal budget from a single reform. The federal deficit exceeds $2 trillion annually; closing that gap requires a combination of tax reform, entitlement reform, and spending discipline. Most economists agree that [stabilizing the debt-to-GDP ratio requires deficit reduction on the order of $800 billion to $1 trillion per year](https://www.americanprogress.org/article/what-would-it-take-to-stabilize-the-debt-to-gdp-ratio/). This framework gets roughly 10-15% of the way there.
 
@@ -286,7 +288,7 @@ Every one of these is its own ongoing political fight. Every one of them appears
 
 ## The Politics
 
-The case for this framework is unusual. It gives both progressives and conversative side wins they've wanted for a generation.
+The case for this framework is unusual. It gives both progressives and conservatives wins they've wanted for a generation.
 
 **From the right:** Estate tax repeal. AMT repeal. Radical simplification. A universal exemption that rewards entrepreneurship without government picking winners. No new wealth tax. No annual mark-to-market accounting.
 
