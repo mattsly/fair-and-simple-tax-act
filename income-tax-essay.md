@@ -23,6 +23,15 @@ The core insight is simple. The income tax rate table (the thing most people thi
 
 ---
 
+
+Rule 1: Eliminate all deductions, including the standard deduction. The 0% bracket provides the basic-needs protection that the standard deduction used to provide, more progressively. Schedule A disappears. The choice between standard and itemized disappears. No mortgage interest deduction, no SALT, no medical expense deduction, no charitable deduction.
+Rule 2: Where the tax code needs to incentivize behavior, use credits, not deductions. Two areas survive: charitable giving (50% credit on donations, capped at 5% of tax liability) and catastrophic medical costs (30% refundable credit on expenses above $5,000). Universal access. Equal value at every income level. No itemization required.
+Rule 3: Five brackets, simple progressive rates. The rate table is the tax code: 0% / 12% / 22% / 35% / 43% (MFJ; single filer thresholds are half). No phase-outs. No parallel systems. No surcharges. Income goes in, tax comes out.
+Rule 4: Two filing statuses. Individual and Joint. Joint brackets are 2× individual thresholds. Head of Household, Qualifying Surviving Spouse, and the bracket-structure complexity of Married Filing Separately all collapse. Married Filing Separately persists as a mechanical option for separated couples, not as a separate bracket structure.
+Rule 5: Subsidies leave the tax code. Programs that look like subsidies (the Child Tax Credit, the EITC, the AOTC, the student loan interest deduction, education credits generally) are removed from the tax code and delivered through direct payment programs administered by domain-expert agencies. The income tax becomes an income tax again.
+
+
+
 ## The Hack That Became the Foundation
 
 The standard deduction is a hack. It was introduced in 1944 as a wartime simplification measure to reduce the number of taxpayers who had to itemize. It worked. But eighty years later, it has calcified into a load-bearing wall that distorts the entire system.
