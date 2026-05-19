@@ -42,13 +42,13 @@ The framework is revenue-positive ($85–200B/yr depending on calibration), prot
 
 These are additional WIP proposals, each of which is scoped to be independently "shippable" and ultimately to work as part of a cohesive fiscal system:
 
-**[Income tax reform.](income-tax-essay.md)** Eliminate all deductions (including the mortgage interest deduction and SALT), replace the standard deduction with a 0% bracket, and reduce the rate table from seven brackets to five. The charitable and medical expense deductions are replaced with targeted credits that work for all filers, not just itemizers. Filing statuses drop from five to two. Nobody earning under $250K sees a tax increase. A working draft is available.
+**[Income tax reform.] ** Eliminate all deductions (including the mortgage interest deduction and SALT), replace the standard deduction with a 0% bracket, and reduce the rate table from seven brackets to five. The charitable and medical expense deductions are replaced with targeted credits that work for all filers, not just itemizers. Filing statuses drop from five to two. Nobody earning under $250K sees a tax increase. A working draft is available.
 
-**[Child payment.](child-payment-essay.md)** Consolidate the CTC, EITC, and education tax credits into a single universal monthly payment per child. The 2021 expanded CTC experiment cut child poverty ~30% in six months. This proposal makes it permanent, funds it by redirecting the budgets of nine overlapping programs, and delivers it monthly instead of annually.
+**[Child payment.]** Consolidate the CTC, EITC, and education tax credits into a single universal monthly payment per child. The 2021 expanded CTC experiment cut child poverty ~30% in six months. This proposal makes it permanent, funds it by redirecting the budgets of nine overlapping programs, and delivers it monthly instead of annually.
 
-**[FICA reform.](fica-reform-essay.md)** Eliminate employee-side FICA entirely (an immediate ~8% raise for every worker), replace it with an uncapped 8% employer-side contribution, and broaden Social Security's funding base without cutting benefits. Self-employed individuals pay 8% flat, down from 15.3%.
+**[FICA reform.]** Eliminate employee-side FICA entirely (an immediate ~8% raise for every worker), replace it with an uncapped 8% employer-side contribution, and broaden Social Security's funding base without cutting benefits. Self-employed individuals pay 8% flat, down from 15.3%.
 
-**[Universal Savings Account (USA).](universal-savings-account-essay.md)** Replace 15+ tax-advantaged account types (401(k), IRA, Roth, SEP, SIMPLE, 529, HSA, FSA, and more) with a single universal account. After-tax contributions, tax-free growth, $5M balance cap, $1,000 government seed at birth. A 10-year conversion window at a 12% flat rate generates an estimated $1.2-1.3 trillion in one-time revenue while leaving most savers hundreds of thousands of dollars better off.
+**[Universal Savings Account (USA).]** Replace 15+ tax-advantaged account types (401(k), IRA, Roth, SEP, SIMPLE, 529, HSA, FSA, and more) with a single universal account. After-tax contributions, tax-free growth, $5M balance cap, $1,000 government seed at birth. A 10-year conversion window at a 12% flat rate generates an estimated $1.2-1.3 trillion in one-time revenue while leaving most savers hundreds of thousands of dollars better off.
 
 Each of these is guided by the same four design tenets above.
 
