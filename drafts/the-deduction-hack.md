@@ -1,30 +1,30 @@
-# The 1913 Bug We Never Fixed
+# The 1913 Bug We Never Fixed (? think we can do better)
 
 *The tax deduction is a bizarre remnant from a different era. We can do better.*
 
 ---
 
-Every time I've started a new job, when I get my first paycheck, the take-home amount is basically a surprise. The gross pay matches what I expected (my salary divided by 26). But the net - what ends up in my bank account for actual spending - involves a complex calculation that based on an assortment of federal income tax, Social Security, Medicare, state tax, maybe local tax, maybe 401(k) elections, maybe pre-tax health insurance, maybe an FSA, maybe an HSA.
+Every time I've started a new job, when I get my first paycheck, the take-home amount is basically a surprise. The gross pay matches what I expected (the salary I agreed to divided by 26). But the net - what ends up in my bank account for actual spending - involves a complex calculation based on an assortment of federal income tax, Social Security, Medicare, state tax, maybe local tax, maybe 401(k) elections, maybe pre-tax health insurance, maybe an FSA, maybe an HSA, etc.
 
 And then there's tax season. I'll sit down with tax software. I click buttons and enter numbers and the number at the top of the screen flips back and forth between red and green like a slot machine. I will usually end up owing (boo!) and being owed (yeah!) a significant amount. It feels so arbitrary - honestly like gambling. That's a strange relationship to have with our largest household expense and our fundamental connection to our government?
 
-I expect I'm not alone and that you too, brave reader, have yourself meandered down this murky path from known salary to actual spendable dollars. **The complexity has been built up over a century by additions that nobody is willing to subtract, and it serves specific interests at the expense of everyone who has to file a tax return.**
+A core thesis of The Tax Refactor is that the complexity of our tax system is costly (? reword and make more visual). We may have become numb to this complexity of our tax code. But a core thesis of The Tax Refactor it has real cost (? need to make a stronger case of what that cost is?). And it's time for a refactor.
 
-A core thesis of The Tax Refactor is that this even though we've become numb to this complexity, it has real cost (? need to make a stronger case of what that cost is?). And it's time for a refactor.
-
-This essay focuses on one major offender, the deduction architecture, which is a design from over a hundred years ago that should have been refactored decades ago.
-
-The good news: the fix isn't complicated. Replace the standard deduction with a 0% bracket. Replace deductions with credits, which is a more logically coherent design. That's it. Two architectural changes. We'll get to the details. But first, let's look at what we're actually fixing.
+The good news: the fix isn't complicated:
+1. Replace the standard deduction with a 0% bracket (because that's what it really is) and get rid of the idea of itemized deductions 
+2. Replace some specific worthwhile deductions with credits, which is a more logically coherent design. 
+   
+That's it. Two architectural changes. We'll get to the details. But first, let's look at what we're actually fixing.
 
 ## What it takes to compute your tax bill
 
-Let me try to spell out everything you need to know to calculate how much money you ultimately get to keep. I'll be exhaustive on purpose, because the point is exactly that this list is long.
+With patience and a calculator (ideally a spreadsheet), here's "all" it would take to calculate take home pay: (? should I use "gross" or "take home" as the term?:  here's what it would take. Warning - this is a little "mathy"
 
 ```
 Tax = f(
   income,
   filing_status,
-  above_the_line_adjustments (Schedule 1),
+  above_the_line_adjustments (Schedule 1), (? note - what are these?)
   schedule_1A_deductions (new in 2025: tips, overtime, car loan, senior),
   standard_deduction_amount,
   itemized_total (only if it exceeds standard),
@@ -49,12 +49,6 @@ Tax = f(income)
 
 One input. The bracket table is published infrastructure, the same for everyone (like the speed of light, or a tide chart). Everything else in that monstrous list above is design choice, not necessity.
 
-This isn't just my opinion. In [a 2021 survey of 1,000 American adults](https://www.aei.org/economics/survey-confirms-that-many-americans-misunderstand-income-tax-brackets/), 51% incorrectly believed that moving into a higher tax bracket means paying the higher rate on ALL your income. A majority of us don't understand the most basic structural feature of our own income tax. A [literature review of 128 studies on tax misperception](https://www.tandfonline.com/doi/full/10.1080/09638180.2020.1852095) found that this kind of misperception isn't just annoying — it distorts real economic decisions about whether to take a raise, whether to take a side gig, how much to save.
-
-The system is so complex that the people it taxes can't reason about it correctly. That's not a quirk. That's a design failure. And it's one we can fix.
-
-*(One quick note before going further: there's another federal tax called FICA, the payroll tax, that takes 7.65% off the top of every paycheck. FICA is its own architectural issue and deserves its own write up, which is coming. This piece focuses on the income tax.)*
-
 ## A grocery store, but for taxes
 
 Does this really matter? I think so. We should know how much money we have to spend so that we can make good decisions (?? let's make this stronger!)
@@ -70,13 +64,24 @@ If your answers add up to more than $15,750, you get a discount based on your in
 
 You'd think the cashier had lost her mind. None of these questions have anything to do with the groceries. But this is essentially what the federal government does every April. We compute your tax bill by asking a series of questions about behaviors that have nothing to do with how much you earned.
 
+## Sure it's confusing, but is this really that bad?
+
+I expect I'm not alone and that you too, brave reader, may have yourself meandered down this murky path from known salary to actual spendable dollars.
+
+This essay focuses on one major offender, the deduction architecture, which is a remnant from over a hundred years ago. When you start to pull at the thread of various deductions (starting with the standard deduction) you find that the idea of deductions is both unnecessarily complex and illogical.
+
+
+This isn't just my opinion. In [a 2021 survey of 1,000 American adults](https://www.aei.org/economics/survey-confirms-that-many-americans-misunderstand-income-tax-brackets/), 51% incorrectly believed that moving into a higher tax bracket means paying the higher rate on ALL your income. A majority of us don't understand the most basic structural feature of our own income tax. A [literature review of 128 studies on tax misperception](https://www.tandfonline.com/doi/full/10.1080/09638180.2020.1852095) found that this kind of misperception isn't just annoying — it distorts real economic decisions about whether to take a raise, whether to take a side gig, how much to save.
+
+The system is so complex that the people it taxes can't reason about it correctly. That's not a quirk. That's a design failure. And it's one we can fix.
+
+*(One quick note before going further: there's another federal tax called FICA, the payroll tax, that takes 7.65% off the top of every paycheck. FICA is its own architectural issue and deserves its own write up, which is coming. This piece focuses on the income tax.)*
+
 ## How we ended up here
 
 None of this was designed. It accumulated.
 
-The [1913 income tax](https://legalclarity.org/the-structure-of-the-revenue-act-of-1913/) was built for about 1% of households, mostly people who ran their own businesses. Treating a household like a small business made sense, because it usually was one. You computed net income after the costs of producing income. Interest paid? Deductible. State taxes paid? Deductible. Charitable giving was added in 1917, because back then it was hard to tell where the proprietor ended and the business began.
-
-Then in 1943, withholding was introduced. In 1944, the income tax became a mass tax (4 million filers in 1939, 50 million by the mid-1940s). The IRS had no way to audit fifty million Schedule A forms full of shoebox receipts. So Congress invented the [standard deduction](https://www.thefiscaltimes.com/Columns/2019/07/11/Surprising-History-Standard-Deduction). It was a peace treaty: take this flat number, skip the audit. It wasn't a theory of fairness. It was administrative duct tape.
+The [1913 income tax](https://legalclarity.org/the-structure-of-the-revenue-act-of-1913/) was built for about 1% of households, mostly people who ran their own businesses. Treating a household like a small business made sense, because it usually was one because so many Americans were proprieters or their own businesses. (? add more details - farms etc - not many companies and regular wages...) So the original version of the tax could was designed based on an assumption of *net* income as the primary independant variable. Then in 1943, withholding was introduced - meaning companies would send income directly to the government. In 1944, the income tax became a mass tax (4 million filers in 1939, 50 million by the mid-1940s ?? representing X% of the population). The IRS had no way to audit fifty million Schedule A forms full of shoebox receipts. So Congress invented the [standard deduction](https://www.thefiscaltimes.com/Columns/2019/07/11/Surprising-History-Standard-Deduction). It was a peace treaty: take this flat number, skip the audit. It wasn't a theory of fairness. It was administrative duct tape. But it also cloaked a shift from taxing *net* household income to taxing primarily *gross* household income.
 
 That duct tape is still there. Eighty years later. Layered with new deductions Congress has added every decade since: mortgage interest, medical expenses, SALT, sales tax, educator expenses, student loan interest, and as of last year, four new deductions on a brand new schedule (Schedule 1-A) for tips, overtime, US-assembled car loans, and seniors.
 

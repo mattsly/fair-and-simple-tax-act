@@ -2,7 +2,7 @@
 layout: plain
 title: "America's Most Expensive Technical Debt"
 description: "A software entrepreneur's case for radically simple capital gains tax reform. Five rules that eliminate 10-15% of the tax code, close buy-borrow-die, and cut taxes for 95%+ of Americans."
-image: /fair-and-simple-tax-act/lifetime-gains-framework.png
+image: /fair-and-simple-tax-act/assets/lifetime-gains-framework.png
 twitter:
   card: summary_large_image
 ---
@@ -59,7 +59,7 @@ That's it. Five rules. From these, an extraordinary amount of existing tax infra
 
 *The full mechanics — including the lifetime counter algorithm, transition rules, trust treatment, and complete list of provisions eliminated — are in the [technical specification](./technical_spec.html). When mechanics change, the spec governs.*
 
-![The Lifetime Gains Framework — How the tax rate changes with cumulative lifetime capital gains](./lifetime-gains-framework.png)
+![The Lifetime Gains Framework — How the tax rate changes with cumulative lifetime capital gains](./assets/lifetime-gains-framework.png)
 
 ---
 

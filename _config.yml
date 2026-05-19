@@ -1,10 +1,15 @@
-title: "The Simple & Fair Tax Project"
-description: "A radically pragmatic rethink of the American tax code — simpler, fairer, and built to last"
+title: "The Tax Refactor"
+description: "A software entrepreneur's case for simple, fair, and durable U.S. tax reform."
 url: "https://www.mattsly.com"
 baseurl: "/fair-and-simple-tax-act"
 
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
 exclude:
   - drafts
+  - process
   - process-notes
   - internal
   - README.md
