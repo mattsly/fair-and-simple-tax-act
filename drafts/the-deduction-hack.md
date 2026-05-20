@@ -4,7 +4,9 @@
 
 ---
 
-Every time I've started a new job, when I get my first paycheck, the take-home amount is basically a surprise. The gross pay matches what I expected (the salary I agreed to divided by 26). But the net - what ends up in my bank account for actual spending - involves a complex calculation based on an assortment of federal income tax, Social Security, Medicare, state tax, maybe local tax, maybe 401(k) elections, maybe pre-tax health insurance, maybe an FSA, maybe an HSA, etc.
+Every time I've started a new job, when I get my first paycheck, the take-home amount is basically a surprise. I can estimate, +/- 10% or so. We've all gotten used to this, but when you step back for a bit, it's actually pretty nuts that the amount of money that is hitting our bank accounts for the labor we deliver to the world is...kinda random?
+
+The gross pay matches what I expected (the salary I agreed to divided by 26). But the net - what ends up in my bank account for actual spending - involves a complex calculation based on an assortment of federal income tax, Social Security, Medicare, state tax, maybe local tax, maybe 401(k) elections, maybe pre-tax health insurance, maybe an FSA, maybe an HSA, etc.
 
 And then there's tax season. I'll sit down with tax software. I click buttons and enter numbers and the number at the top of the screen flips back and forth between red and green like a slot machine. I will usually end up owing (boo!) and being owed (yeah!) a significant amount. It feels so arbitrary - honestly like gambling. That's a strange relationship to have with our largest household expense and our fundamental connection to our government?
 
