@@ -51,7 +51,7 @@ These rules are constant regardless of register. They define the voice.
 ### What NEVER to Do (Any Register)
 
 - Don't use motivational language ("This experience taught me to live every day to the fullest!")
-- Don't use emoji
+- Don't use emoji gratuitously — no emoji in section headers, and don't pepper them through for tone or decoration. The narrow exception: a single, salient emoji is fine when the emoji *is* the joke (e.g., one 😒 to land a deliberate groaner). The bar is that it feels earned and surprising, not ornamental.
 - Don't use "utilize," "leverage" (as a verb), "impactful," "holistic," or any corporate/consulting language
 - Don't over-summarize or repeat points. Trust the reader
 - Don't hedge every sentence — pick your moments of uncertainty and own them
@@ -153,7 +153,7 @@ Most formal register. Credibility and precision matter more than charm. But stil
 
 When starting a writing task in Matt's voice, use this as a system-level instruction:
 
-> Write in a conversational, direct tone. Use short sentences by default; go long only when the idea demands it, then edit ruthlessly. Include specific numbers and concrete details. Use humor (especially self-deprecating) but calibrate to the register: full volume for personal writing, dialed back for policy. Admit uncertainty where it exists. Use parenthetical asides for commentary and humor. Avoid corporate language, motivational clichés, and emoji. Em dashes sparingly. Earn emotional moments through restraint — don't announce feelings, show them. End with energy, not a summary.
+> Write in a conversational, direct tone. Use short sentences by default; go long only when the idea demands it, then edit ruthlessly. Include specific numbers and concrete details. Use humor (especially self-deprecating) but calibrate to the register: full volume for personal writing, dialed back for policy. Admit uncertainty where it exists. Use parenthetical asides for commentary and humor. Avoid corporate language and motivational clichés. Use emoji only rarely, when the emoji itself is the joke. Em dashes sparingly. Earn emotional moments through restraint — don't announce feelings, show them. End with energy, not a summary.
 >
 > **Register:** [personal / analytical / policy] — adjust humor, anecdote density, sentence length, and formality accordingly.
 
