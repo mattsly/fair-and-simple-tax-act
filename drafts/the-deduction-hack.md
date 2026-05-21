@@ -4,26 +4,26 @@
 
 ---
 
-Every time I start a new job, my first paycheck's take-home is a surprise. The gross matches what I expected (salary divided by 26). The take-home is that gross minus a tangle of withholdings: federal income tax, Social Security, Medicare, state tax, maybe local tax, a 401(k), pre-tax health insurance, an FSA, an HSA.
+Every time I've started a new job, my first paycheck's take-home amount is a surprise. The gross pay matches what I expected (salary divided by 26). But the take-home is that gross minus a tangle of withholdings: federal income tax, Social Security, Medicare, state tax, maybe local tax, a 401(k), pre-tax health insurance, an FSA, an HSA.
 
 We've all gotten numb to this, but step back and it's a little crazy: the money we actually keep for our labor feels...kinda random.
 
-Then there's tax season. I sit down with tax software, click buttons, type in numbers, and the total at the top flips between red (owe) and green (refund) like a slot machine. It's a strange way to relate to what is, for many, our largest annual expense and our main connection to the government.
+Then there's tax season. I sit down with tax software, click buttons, type in numbers, and the balance flips between red (owe) and green (refund) like a slot machine. It's a strange way to relate to what is, for many, our largest annual expense and the price of the government we share.
 
-A core thesis of The Tax Refactor is that this complexity carries a real cost. This essay focuses on one major offender: the deduction architecture of the tax code. The idea of taking deductions - subtracting values from gross income and then using that difference to calculate your tax liability - is a remnant from over a hundred years ago. And when you start to pull at the thread of various deductions (starting with the standard deduction) you find that the idea of deductions in a personal tax return is unnecessarily complex, illogical, and quietly regressive.
+A core thesis of [The Tax Refactor](https://taxrefactor.substack.com/) is that this complexity has a real price: wasted hours, distorted decisions, and a thumb on the scale for the wealthy. This essay focuses on one major offender: the deduction architecture of the federal tax code. The idea of taking deductions - subtracting values from gross income and then using that difference to calculate your tax liability - is a remnant from over a hundred years ago. And when you start to pull at the thread of what deductions we take and why, you find that building deductions into the individual tax return is unnecessarily complex, illogical, and quietly regressive.
 
 *(Two quick boundaries. This post is about the federal income tax, not FICA, the payroll tax that skims another 7.65% off every paycheck (its own mess, its own essay). And I'm writing for the typical W-2 wage earner, the vast majority of filers, whose tax is auto-withheld and whose salary is a clean, knowable number. The self-employed are a different animal, with real business costs to net out, and get their own treatment elsewhere.)*
 
 The good news: the fix is two "code" changes:
 
-1. **The UI update:** turn the standard deduction into a 0% tax bracket. That's already what it is, mathematically. It's just cloaked in unnecessary complexity.
-2. **The architectural refactor:** stop using deductions to hand out subsidies, and deliver those as credits instead, which, as we'll get to, makes much more sense.
+1. **The architectural refactor:** stop using deductions to hand out subsidies; deliver those as credits instead.
+2. **The UI cleanup:** once itemizing is gone, the standard deduction turns out to have been a plain 0% bracket all along.
 
 We'll get to the details. But first, let's look at what we're actually fixing.
 
 ## What it takes to compute your tax bill
 
-It's true that with patience and a spreadsheet, you *could* compute it yourself. Here's "all" it takes:
+It's true that with patience and a spreadsheet, you *could* work out the federal income tax behind your take-home yourself. Here's "all" it takes:
 
 ```
 Tax = f(
@@ -50,7 +50,7 @@ Here's what the function could and should look like:
 ```
 Tax = f(income)
 ```
-One input. You look your income up in the bracket table, and that's your tax. Everything else in that monstrous list above is a design choice, not a necessity.
+One input. You look your income up in the bracket table, and that's your tax. Everything else in that massive list above is a design choice, not a necessity.
 
 ## A grocery store, but for taxes
 
@@ -65,69 +65,65 @@ Imagine groceries worked this way. You fill a cart, and at checkout, before she 
 
 Your answers set your discount. So picture two shoppers with identical $200 carts. The first has a big mortgage, a generous year of giving, and a stack of state tax payments; she walks out paying $137. The second, a renter who gave to his church but didn't clear the threshold, takes the automatic discount and pays $163. Same groceries, different price, the only variable being their answers to a quiz about their personal lives.
 
-You'd think the cashier had lost her mind, none of these questions have anything to do with groceries. But that's exactly what we've done to ourselves on the income side of the ledger: we work out our take-home by answering a quiz about behaviors that have nothing to do with what we earned. Apples, meet oranges. 😒
-
-## Sure it's confusing, but is this really that bad?
-
-**Problem 1: it's worth more to you the richer you are.** A deduction shrinks your taxable income, so what it's worth depends on your top tax rate. Take the same $1,000 gift to charity. A teacher in the 12% bracket gets nothing back, because she takes the standard deduction, like [about 90% of filers do](https://taxpolicycenter.org/briefing-book/what-are-itemized-deductions-and-who-claims-them). A hedge-fund manager in the 37% bracket gets $370. Same gift, same public good, but the federal government values his generosity at $370 and hers at $0. A deduction quietly says a rich person's charitable impulse is worth more than a teacher's, which is a frankly aristocratic thing for a tax code to say. A flat credit fixes it in one move: every $1,000 gift earns the same match, itemizer or not.
-
-**Problem 2: you can't tell whether your own choices "count."** Now decide whether to give that $1,000. Does the government chip in? You can't know, it depends on whether your itemized deductions will top the standard deduction ($15,750 single, $31,500 married) after a year of expenses you haven't had yet. The simplest question, "what will this gift cost me?", has no answer when you'd want it. And the fog reaches past the ~10% who itemize, since nobody knows in advance which side they'll land on. A credit erases it: the match is the same either way.
-
-**Problem 3: it pays people to rearrange their lives for zero value.** The only way to beat the standard deduction is to pile enough itemizable spending into one year, so people do, bunching two years of charitable gifts together, timing medical procedures, prepaying property taxes before December 31. Donor-advised funds, now holding over [$300 billion](https://www.dafresearchcollaborative.org/annual-daf-report/2025), exist largely to game this: park a lump sum for the deduction now, dole it out to charities later. None of it produces an extra dollar of giving. It's pure effort to outwit a threshold, and a credit (claimable whether or not you itemize) makes the whole game pointless.
-
-**The best case for keeping it this way.** Deductions have a serious defender, and it isn't "the rich deserve more." It's that the deducted dollar was never really income. The tax scholar William Andrews [argued in 1972](https://www.jstor.org/stable/1339894) that income should count only what you consume or save for yourself, and a dollar you give away is neither, so excluding it isn't a favor, it's correct measurement. And if the dollar shouldn't be taxed at all, returning it at your own marginal rate is the only coherent answer; a flat credit would over-credit the teacher and under-credit the manager relative to what each would otherwise owe. By that logic the regressivity isn't favoritism, just a progressive rate schedule on a correctly-measured base.
-
-It's a real argument, and it wins for the deductions that genuinely aren't discretionary, a catastrophic medical bill, or state taxes you were forced to pay. But charity is contestable (most economists treat giving as a chosen preference), and the mortgage on your own home isn't income measurement by any theory, it's consumption. And here's the tell: if measurement were the point, the teacher's gift would cut *her* income too, she'd get her 12%. She gets zero. Today's rule gives itemizers their full marginal-rate benefit and everyone else nothing, satisfying neither theory. It's the worst of both.
-
-The fog and the bunching land hardest on people near the itemize threshold; the regressivity lands on everyone who gives a dollar. Put them together and this isn't a quirky inconvenience. It's a design failure. And it's one we can fix.
+You'd think the cashier had lost her mind -- none of these questions have anything to do with groceries. But that's exactly what we've done to ourselves on the income side of our family ledgers: our take-home is determined based on a quiz about behaviors that have nothing to do with what we earned. Apples, meet oranges. (I'm just going to dwell on the grocery visual just long enough to get that in 😒)
 
 ## How we ended up here
 
-None of this was designed. It accumulated.
+None of this was designed, it accumulated. And the accumulation left a root bug: the tax code can't decide whether it taxes your *gross* income or your *net* income. It started as one, drifted toward the other, and never finished the trip.
 
-The [1913 income tax](https://legalclarity.org/the-structure-of-the-revenue-act-of-1913/) was never meant for regular people. It exempted the first $3,000 of income (about $95,000 in today's dollars), so only the richest 2% of households owed anything: just 358,000 returns. And those people mostly didn't live on a wage. They lived off *ownership*: business profits, farm income, dividends, interest, rents. For income that comes from owning things, "income" naturally means *net* income, what's left after the cost of earning it. So building the tax around net income made sense, because the few people who paid it genuinely had costs to subtract. A wage earner doesn't. A salary is already a clean number.
+The [1913 income tax](https://legalclarity.org/the-structure-of-the-revenue-act-of-1913/) exempted the first $3,000 of income (about $95,000 today, which was, ahem, a 0% bracket), so only the richest 2% of households owed anything: 358,000 returns. And those people mostly didn't live on a wage. They lived off *ownership*: business profits, farm income, dividends, interest, rents. For income that comes from owning things, "income" naturally means *net* income, what's left after the cost of earning it, so building the tax around net made sense. The handful who paid it genuinely had costs to subtract. A wage earner doesn't. A salary is already clean.
 
-Then the system swallowed everyone, to pay for World War II. In 1943, withholding arrived (your employer started sending the government a cut of every paycheck). Returns exploded from fewer than 4 million in 1939, about 3% of the population, to roughly 50 million by 1945, more than a third of it. The IRS suddenly had no way to audit fifty million Schedule A forms stuffed with shoebox receipts. So Congress invented the [standard deduction](https://www.thefiscaltimes.com/Columns/2019/07/11/Surprising-History-Standard-Deduction): take this flat number, skip the receipts. It wasn't a theory of fairness. It was administrative duct tape. But it quietly changed what we tax, from *net* household income to something much closer to *gross*.
+Then the tax went from a rich-person's levy to nearly everyone's, to pay for World War II, and broadening it was the right call: a country at war needs broad-based revenue. Filers jumped from about 4 million in 1939 to 50 million by 1945. But it created a contradiction. **Withholding, which arrived in 1943, computes your tax on gross pay, because your employer can't possibly know your charitable gifts or medical bills.** The moment we began withholding from tens of millions of paychecks, we were taxing gross income while still pretending, through deductions, to tax net. The honest move was to commit to gross. Instead, with no way to audit fifty million Schedule A forms full of shoebox receipts, Congress reached for the [standard deduction](https://www.thefiscaltimes.com/Columns/2019/07/11/Surprising-History-Standard-Deduction): a flat number, skip the receipts. As wartime triage it was reasonable; the laziness was never finishing the job. We've been stuck in the muddy in-between ever since, taxing gross minus a grab-bag of leftover subtractions.
 
-That duct tape is still there. Eighty years later. Layered with new deductions Congress has added every decade since: mortgage interest, medical expenses, SALT, sales tax, educator expenses, student loan interest, and as of last year, four new deductions on a brand new schedule (Schedule 1-A) for tips, overtime, US-assembled car loans, and seniors.
+To be fair, deductions aren't crazy on their own terms. There's a real argument, made by the tax scholar William Andrews [in 1972](https://www.jstor.org/stable/1339894), that a dollar which was never really your income shouldn't be taxed in the first place, which is exactly why a business subtracts its costs before reporting profit. The catch is that almost nothing we now deduct is a cost of *earning* income; it's things we do *with* income. (Whether a gift the government partly funds is even "yours" is a deeper question for another day.) And even where the logic does hold, today's system botches it, handing the benefit only to itemizers when it should apply to everyone.
 
-The architecture is a sedimentary record. Each layer is a political moment, frozen in code. Things get added; nothing ever gets removed. (Why this keeps happening is the subject of a future essay.) We're maintaining a 1944 workaround for a problem that no longer exists, while continuing to bolt on new exceptions every time Congress wants to encourage something.
+So we kept the machinery of the old net-income paradigm and stuffed it with subsidies: mortgage interest, medical expenses, SALT, educator expenses, student loan interest, and as of last year, four new ones on a brand-new Schedule 1-A for tips, overtime, US-assembled car loans, and seniors. We're overloading a hack that should have been deprecated in the 1940s.
 
-## The fix: a UI update and an architectural refactor
+## It's not just confusing — it's rigged toward the rich
 
-Two changes clean this up. One of them nobody will feel. The other, people will definitely feel, because making the swap means giving up the ability to itemize. That one's the whole ballgame.
+The grocery store already made the confusion vivid. But confusion isn't the real damage. This is:
 
-**Change 1 (the UI update): turn the standard deduction into a 0% bracket.**
+A deduction shrinks your taxable income, so what it's worth depends on your top tax rate. Take the same $1,000 gift to charity. A teacher in the 12% bracket gets nothing back, because she takes the standard deduction, like [about 90% of filers do](https://taxpolicycenter.org/briefing-book/what-are-itemized-deductions-and-who-claims-them). A hedge-fund manager in the 37% bracket gets $370. Same gift, same public good, but the federal government values his generosity at $370 and hers at $0. A deduction quietly says a rich person's charitable impulse is worth more than a teacher's. A flat credit fixes it in one move: every $1,000 gift earns the same match, itemizer or not.
 
-The standard deduction is just a 0% tax bracket wearing a disguise. If it's $15,750, that's identical to a bracket table where the first $15,750 of income is taxed at 0%. Try it: subtract $15,750 from $50,000, apply the 12% bracket, you get $4,110. Now tax the first $15,750 at 0% and the next $34,250 at 12%: $4,110. Same number.
+Not a quirk. A design failure. And one we can fix.
 
-So why keep the awkward "subtract this first" version instead of putting a 0% row at the top of the table? No good reason, except that's how it got jury-rigged in 1944. This change moves nobody's bill by a penny; it just deletes a step. Today you subtract the standard deduction to reach your "adjusted gross income" before you can even read the bracket table. A 0% bracket means one table, one lookup. (And once Change 2 kills itemizing, the whole "should I itemize?" question goes away too.)
+## The fix: an architectural refactor, then a UI cleanup
 
-**Change 2 (the architectural refactor): stop using deductions to hand out subsidies, and deliver them as credits instead.**
+Two changes. The first does the real work, and people will feel it. The second is a cosmetic payoff that, once the first is done, falls out for free.
+
+**Change 1 (the architectural refactor): scrap deductions as a way to hand out subsidies, and the itemize-or-not decision with them.**
 
 Not every deduction is the same animal, and the difference is the whole game. Sort them into three piles:
 
-- **Deductions that *define* income** (business expenses, capital losses, and for the self-employed, things like half of the self-employment tax). These aren't favors; they're how you measure income correctly in the first place. They stay. For a typical wage earner this pile is empty anyway, your salary is already a clean number, which is why we set the self-employed aside earlier.
-- **Deductions that *subsidize* a behavior** (mortgage interest, charity, SALT, student loan interest, last year's new tips/overtime/car-loan/senior breaks). These are the problem. These become credits.
-- **Tax-deferred saving** (traditional IRAs and the like). Not really a subsidy, it shifts *when* income is taxed, not whether, you pay on the way out instead of the way in. Leave it for now, though a future essay argues the whole retirement-savings tangle, IRAs, 401(k)s, HSAs, should collapse into a single Universal Savings Account.
+- **Deductions that *define* income** (the costs of running a business, netted on Schedule C; capital losses; and for the self-employed, things like half of the self-employment tax). These aren't favors; they're how you measure income correctly in the first place. They stay. For a typical wage earner this pile is empty anyway, your salary is already a clean number, which is why we set the self-employed aside earlier.
+- **Deductions that *subsidize* a behavior** (mortgage interest, charity, SALT, student loan interest, last year's new tips/overtime/car-loan/senior breaks). These are the problem. These should become credits.
+- **Tax-deferred saving** (traditional IRAs and the like). This is a subsidy too, but a different kind, it rewards the *timing* of saving rather than rebating a purchase, so a credit doesn't map cleanly onto it. Leave it for now; a future essay argues the whole retirement-savings tangle, IRAs, 401(k)s, HSAs, should collapse into a single Universal Savings Account.
 
 The middle pile is where the design goes wrong. A deduction says: this dollar wasn't income. That's true for the cost of earning income, but it's a fiction for charity, mortgage interest, or state taxes. If you earn $100,000 and give $5,000 to your church, your income is still $100,000, the gift is something you *did* with your money, not a cut in what you made. Treating it as negative income is a category error: we're using the income-definition mechanism to hand out a behavioral subsidy.
 
-If we want to subsidize charitable giving (and I think we should), a credit is the honest way to do it. It says: the government matches a set percentage of your gift, the same percentage for everyone. That also erases the regressivity from Problem 1, the teacher and the hedge-fund manager finally get the same deal.
+There's a structural problem too. Deductions are tightly coupled: you can't judge any single one on its own, because you have to add them all up just to know whether to itemize at all. Credits are modular, each stands alone, gets claimed on its own, and can be reported by a third party without reference to any other. The tax code already runs clean microservices like this, your 401(k) is one: handled at the paycheck, reported on your W-2, never part of the itemize calculus. Deductions are the tangled legacy module that never got refactored.
 
-Which subsidies deserve to exist is a separate fight, and a separate essay. (The swap I'm describing *is* redistributive, unapologetically, I'm just not relitigating each line item here.) The architectural claim is narrow: whatever we subsidize, a credit is the honest way to deliver it. So: take every subsidy we now route through a deduction (mortgage interest, charity, SALT, all of them) and re-express it as a credit, same list for now. Yes, that shifts value from high-bracket itemizers toward everyone else, that's the point, not a side effect to apologize for. Which subsidies ultimately survive, and at what rate, is for the reform proposal later in this series.
+If we want to subsidize charitable giving (and I think we should), a credit is the honest way to do it: the government matches a set percentage of your gift, the same percentage for everyone. That also erases the regressivity from Problem 1, the teacher and the hedge-fund manager finally get the same deal on the same gift (the higher earner can still give more, which is fine).
 
-Half the developed world has already cleaned this up. Estonia, Sweden, the Netherlands, the UK, Canada don't make citizens run a "standard vs. itemized" gauntlet at all; they apply the brackets to income and put subsidies elsewhere, as credits or direct payments. Australia draws the line even more pointedly, almost a mirror image of ours: Australians deduct the real costs of earning income (work tools, work travel, a uniform, interest on a loan that produces taxable rent) but get nothing for the mortgage on the home they live in. We do it backwards, deducting the interest on the home you live in (not a cost of earning a dime) but not, under current law, the tools your job demands (a real one). They deduct the costs of earning; we deduct a grab bag. (Australia still deducts charitable gifts, so it's not pure, but the housing contrast is stark.) None of these are radical countries, they've just made better design choices.
+Which subsidies deserve to exist is a separate fight, and a separate essay. (The swap I'm describing *is* redistributive, unapologetically, I'm just not relitigating each line item here.) The architectural claim is narrow: whatever we subsidize, a credit is the honest way to deliver it. Which subsidies ultimately survive, and at what rate (spoiler: not many), is for the reform proposal later in this series.
 
-How we'd actually rebuild this for the United States (new brackets, new credit rates, transition mechanics for things like the mortgage interest deduction without crashing the housing market) is the subject of the income tax reform proposal coming later in this series.
+Half the developed world has already cleaned this up. The UK, Canada, the Netherlands, Sweden don't make citizens run a "standard vs. itemized" gauntlet at all; they apply the brackets to income and put subsidies elsewhere, as credits or direct payments. In the UK, most people never file a return at all, the system just gets it right. None of these are radical countries, they've just made better design choices.
+
+**Change 2 (the UI cleanup): now look what's left.**
+
+With itemizing gone, there's no "itemize instead" alternative for the standard deduction to anchor, so it isn't really a deduction anymore. It's a 0% bracket. If the figure is $15,750, that's identical to a bracket table where the first $15,750 of income is taxed at 0%. Try it: subtract $15,750 from $50,000, apply the 12% bracket, you get $4,110. Now tax the first $15,750 at 0% and the next $34,250 at 12%: $4,110. Same number.
+
+So drop the awkward "subtract this first" step and put a 0% row at the top of the table. Nobody's bill moves by a penny; you just delete a concept. No "adjusted gross income" to compute before you can read your rate, one table, one lookup. The standard deduction was a 0% bracket the whole time, hiding behind eighty years of paperwork.
+
+How we'd rebuild the rest for the United States (new brackets, new credit rates, transition mechanics for things like the mortgage interest deduction without crashing the housing market) is the subject of the income tax reform proposal coming later in this series.
 
 ## The easy button
 
-Picture next April. You sit down with your phone. An app shows you: "Your income for 2026 was $X. Your tax is $Y. Tap to confirm." You tap. You're done. No TurboTax. No slot machine. No bunching strategies. No "do I itemize?" No wondering if you should call your accountant.
+Picture your next paycheck. You already know the number: salary ÷ 26, minus a rate you can actually see. No surprise. And come April, you open an app: "Your income for 2026 was $X. Your tax is $Y. Tap to confirm." You tap. You're done. No TurboTax, no slot machine, no bunching, no "do I itemize?", no calling your accountant.
 
-That's not utopian, it's roughly what Estonia, Sweden, and the UK already do. The technical infrastructure exists; the IRS could build it with the data it already has.
+That's not utopian, it's roughly what the UK and Canada already do, and the fully-automated version, tap and you're done, has run in even tiny Estonia for fifteen years. The technical infrastructure exists; the IRS could build it with the data it already has.
 
-And the handful of credits we keep don't break this. Your mortgage interest already lands at the IRS on a Form 1098; your charitable gifts could arrive the same way. So even for the minority who use them, the credits show up pre-filled, you confirm a number instead of assembling one. The roughly 90% who take the standard deduction today get the bare "tap to confirm." Everyone else gets the same screen with a few extra lines already filled in.
+And the handful of credits we keep don't break this. Your mortgage interest already lands at the IRS on a Form 1098; your charitable gifts could arrive the same way. Each is a self-contained microservice, pre-filled rather than assembled. The ~90% who take the standard deduction get the bare "tap to confirm"; everyone else gets the same screen with a few lines already filled in.
 
 What stands in the way is a hundred and ten years of deduction layers nobody's been willing to refactor, each added for a reason that made sense at the time, each kept because no politician wants to be the one who took something away. But the cost is real, and it lands on everyone trying to make a financial decision who can't get a straight answer about what it'll cost.
 
