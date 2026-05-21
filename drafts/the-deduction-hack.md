@@ -8,7 +8,7 @@ Every time I've started a new job, my first paycheck's take-home amount is a sur
 
 We've all gotten numb to this, but step back and it's a little crazy: the money we actually keep for our labor feels...kinda random.
 
-Then there's tax season. I sit down with tax software, click buttons, type in numbers, and the balance flips between red (owe) and green (refund) like a slot machine. It's a strange way to relate to what is, for many, our largest annual expense and the price of the government we share.
+Then there's tax season. Sit down with tax software, click buttons, type in numbers, and the balance flips between red (owe) and green (refund) like a slot machine. It's a strange way to relate to what is, for many, our largest annual expense and the price of the government we share.
 
 A core thesis of [The Tax Refactor](https://taxrefactor.substack.com/) is that this complexity has a real price: wasted hours, distorted decisions, and a thumb on the scale for the wealthy. This essay focuses on one major offender: the deduction architecture of the federal tax code. The idea of taking deductions - subtracting values from gross income and then using that difference to calculate your tax liability - is a remnant from over a hundred years ago. And when you start to pull at the thread of what deductions we take and why, you find that building deductions into the individual tax return is unnecessarily complex, illogical, and quietly regressive.
 
