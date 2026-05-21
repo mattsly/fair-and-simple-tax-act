@@ -1,6 +1,17 @@
+---
+layout: plain
+title: "The Deduction Hack"
+description: "A software entrepreneur's case for scrapping the tax deduction — a 1913 relic that makes your bill needlessly complex, illogical, and quietly regressive. Tax income directly; deliver subsidies as credits."
+image: /assets/deduction-hack.png
+twitter:
+  card: summary_large_image
+---
+
 # The Deduction Hack
 
-*Computing your tax bill takes about a dozen inputs. It should take one. We've been maintaining the bug since 1913.*
+### Computing your tax bill takes about a dozen inputs. It should take one. We've been maintaining the bug since 1913.
+
+*By Matt Sly*
 
 ---
 
@@ -54,7 +65,9 @@ One input. You look your income up in the bracket table, and that's your tax. Ev
 
 ## A grocery store, but for taxes
 
-Does it matter that you can't pin down your own take-home pay? I think it does. The average household [spends more on taxes than on food and clothing combined](https://reason.com/2022/09/12/americans-spent-more-on-taxes-last-year-than-on-food-health-care-education-and-clothing-combined/), it's about the biggest line item there is. Try budgeting when your largest expense stays a mystery, not just until next April, but in every paycheck along the way.
+![A grocery produce stand piled high with apples, beneath a chalkboard sign labeled "Oranges — $1.99/lb. Unless you have a mortgage, gave to charity, or paid state tax. Then ask the cashier."](./assets/deduction-hack.png)
+
+Does it matter that you can't pin down your own take-home pay? I think it does. Taxes are one of the largest claims on any household's income, and the only big one you can't see coming. Try budgeting around a number that stays a mystery, not just until next April, but in every paycheck along the way.
 
 Imagine groceries worked this way. You fill a cart, and at checkout, before she swipes your card, the cashier asks:
 
@@ -107,7 +120,7 @@ If we want to subsidize charitable giving (and I think we should), a credit is t
 
 Which subsidies deserve to exist is a separate fight, and a separate essay. (The swap I'm describing *is* redistributive, unapologetically, I'm just not relitigating each line item here.) The architectural claim is narrow: whatever we subsidize, a credit is the honest way to deliver it. Which subsidies ultimately survive, and at what rate (spoiler: not many), is for the reform proposal later in this series.
 
-Half the developed world has already cleaned this up. The UK, Canada, the Netherlands, Sweden don't make citizens run a "standard vs. itemized" gauntlet at all; they apply the brackets to income and put subsidies elsewhere, as credits or direct payments. In the UK, most people never file a return at all, the system just gets it right. None of these are radical countries, they've just made better design choices.
+Most of the developed world has already cleaned this up. The UK, Canada, the Netherlands, Sweden don't make citizens run a "standard vs. itemized" gauntlet at all; they apply the brackets to income and put subsidies elsewhere, as credits or direct payments. In the UK, most people never file a return at all, the system just gets it right. None of these are radical countries, they've just made better design choices.
 
 **Change 2 (the UI cleanup): now look what's left.**
 

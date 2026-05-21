@@ -12,12 +12,12 @@ Essays at the repo root, served from mattsly.com and re-posted to [taxrefactor.s
 - **warren-wealth-tax-oped-v7.md** — Op-ed positioning the framework against Warren's wealth tax. Submitted to Boston Globe (pending as of March 2026).
 - **gemstone-essay.md** — "If you designed it from scratch" framing piece.
 - **dear-tech-bros.md** — Direct address to Silicon Valley on QSBS, carried interest, and the framework's actual impact on founders.
+- **drafts/the-deduction-hack.md** — The 1913 Bug We Never Fixed. Personal W-4 hook → complexity-is-the-point thesis → deduction architecture as one major case → two fixes (0% bracket + credits) → easy button close. Draft complete, in review.
 
 ## In progress
 
 Active drafts in `drafts/` that are close to publishable.
 
-- **drafts/the-deduction-hack.md** — The 1913 Bug We Never Fixed. Personal W-4 hook → complexity-is-the-point thesis → deduction architecture as one major case → two fixes (0% bracket + credits) → easy button close. Draft complete, in review.
 - **drafts/income-tax-essay.md** — "The Index Card Tax Return." Rate table, deduction elimination, charitable + medical credits, filing status simplification. Substantively complete; not yet announced/distributed.
 
 ## Stubs awaiting expansion
