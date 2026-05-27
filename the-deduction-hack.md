@@ -1,15 +1,14 @@
 ---
 layout: plain
-title: "The Deduction Hack"
+title: "The Case for Abolishing the Tax Deduction"
 description: "A software entrepreneur's case for scrapping the tax deduction — a 1913 relic that makes your bill needlessly complex, illogical, and quietly regressive. Tax income directly; deliver subsidies as credits."
 image: /assets/deduction-hack.png
 twitter:
   card: summary_large_image
 ---
 
-# The Deduction Hack
-
-### Computing your tax bill takes about a dozen inputs. It should take one. We've been maintaining the bug since 1913.
+# Retire the Personal Tax Deduction
+## Simpler architecture. More honest logic. Same revenue. Long overdue.
 
 *By Matt Sly*
 

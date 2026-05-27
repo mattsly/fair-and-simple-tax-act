@@ -2,7 +2,7 @@
 layout: plain
 title: "America's Most Expensive Technical Debt"
 description: "A software entrepreneur's case for radically simple capital gains tax reform. Five rules that eliminate 10-15% of the tax code, close buy-borrow-die, and cut taxes for 95%+ of Americans."
-image: /fair-and-simple-tax-act/assets/lifetime-gains-framework.png
+image: /assets/lifetime-gains-framework.png
 twitter:
   card: summary_large_image
 ---

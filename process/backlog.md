@@ -50,9 +50,9 @@ Ranked roughly by likely impact / readiness.
 The Lifetime Gains framework makes the estate tax redundant (death is a realization event). Needs explicit piece: transition mechanics, treatment of mid-probate estates, interaction with GST tax, trust unwinding.
 
 ### AMT elimination
-AMT becomes vestigial once deductions are eliminated. Short piece explaining the elimination and the simplification dividend.
+AMT becomes vestigial once deductions are eliminated. Short piece explaining the elimination and the simplification dividend. Could also direct this to Scott Galloway, who's often argued for using the AMT (vs fixing root causes)
 
-### "The Great Conversion" standalone
+### Phase 5: "The Great Conversion" standalone
 Currently lives inside `universal-savings-account-essay.md`. The 12% flat conversion rate over a 10-year window to migrate legacy retirement accounts into USAs is a big enough idea (and a big enough revenue generator) to warrant its own treatment.
 
 ### Corporate tax companion (deferred, explicitly out-of-scope)
