@@ -71,6 +71,7 @@ Raw ideas from the old TODO. Not blocked, just not picked up yet.
 - **The Insane Phone that would be designed if it looked like the tax code.**
 - **Tax Code Needs Product Management.** What is product management? We've collapsed objectives into implementation. Student loans as example. Start with the problem, agnostic to solution. Opportunity for AI usage angle.
 - **Simplicity should not be political.** Historically "simple taxes" codes conservative (flat tax, free markets). Shouldn't be that way.
+- **Charity vs redistribution.** Why the same dollar gets celebrated as charity and attacked as redistribution. Asymmetry: charity preserves donor agency, hierarchy, naming rights, opt-in status; redistribution is mandatory, anonymous, rights-based. 530A as case study — federal seed + tax-advantaged corporate contributions, where political reception tracks framing not mechanism. Possible kicker: "charity in legislative drag."
 - **Productizing the Tax Code / Paying taxes should be delightful.**
 - **An argument against corporate taxation from the left.** Don't endow corporations with this kind of agency.
 - **Are loopholes (i.e. tax credits) effective to modify behavior?** Are they a good way to direct capital toward desirable outcomes — green energy etc.?
