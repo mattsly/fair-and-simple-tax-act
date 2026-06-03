@@ -46,6 +46,9 @@ Ranked roughly by likely impact / readiness.
 ### Who Really Owns "Free Markets"?
 **Thesis:** Republicans have abandoned free-market principles; Democrats failed to claim the actual Adam Smith tradition (externalities, anti-monopoly, labor mobility). Two angles in tension — the "rebrand" angle and the "hypocrisy" angle. Probably one essay focused on hypocrisy, with the rebrand argument as a footnote.
 
+### How Are We Keeping Score?
+**Thesis:** What metrics is the tax code actually optimizing for, and what *should* it be optimizing for? Inequality data (Realtime Inequality, WID) is contested precisely because we haven't agreed on which numbers matter — wealth share, mobility, middle-class growth rate, generational outcomes. A simple-enough tax code paired with clear scoring metrics could create a self-correcting system: define the optimization function, measure against it, adjust. Connects to the "tax code as algorithm" framing and the AI-era dexterity argument from the intro essay.
+
 ### Estate tax sunset
 The Lifetime Gains framework makes the estate tax redundant (death is a realization event). Needs explicit piece: transition mechanics, treatment of mid-probate estates, interaction with GST tax, trust unwinding.
 

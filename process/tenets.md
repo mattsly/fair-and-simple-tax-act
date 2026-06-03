@@ -19,11 +19,11 @@ The four tenets below split cleanly into two pairs. The first two (Radical Simpl
 
 #### **1. Radical Simplicity.**
 
-The tax code should be broadly understood and almost entirely automated. Simplicity reduces compliance costs, economic deadweight loss, and evasion vectors. It also enables more meaningful public debate about national priorities. If citizens can't understand the system, they can't govern it.
+Every citizen should be able to understand how they're taxed. The system itself should be as automated as possible. Simplicity reduces compliance costs, evasion, and the broader economic deadweight loss they create — and enables meaningful debate about national priorities.
 
 #### **2. Fiscal Durability.**
 
-Reform must measurably reduce the structural deficit, not just hold it steady. Servicing the debt is now the third-largest line item in the federal budget and the fastest-growing. Revenue-neutral reform is no longer enough.
+Reform must measurably reduce the structural deficit. Closing today's ~6% of GDP gap toward a sustainable 3% will require revenue, spending discipline, and growth. This project will make a meaningful contribution toward this goal, primarily on the revenue side. Revenue-positive reform is essential.
 
 #### **3. Fuel the Climb.**
 
