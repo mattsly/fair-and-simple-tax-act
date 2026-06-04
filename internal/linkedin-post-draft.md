@@ -12,8 +12,8 @@ I'm starting with capital gains reform, and I put together the following proposa
 
 It is based on five simple rules. (note: the specific numbers are stakes in the ground — the structural framework matters more than the exact calibration):
 
-1. Every American gets a $2.5M lifetime capital gains exemption ($5M married). Any source, any asset type, no qualification tests.
-2. Above the exemption, rates scale smoothly to the top income tax rate at $10M in lifetime gains, after which gains and ordinary income are pegged at the same rate.
+1. Every American gets a $2M lifetime capital gains exemption ($4M married). Any source, any asset type, no qualification tests.
+2. Above the exemption, rates scale smoothly to the top income tax rate at $6M in lifetime gains ($12M married), after which gains and ordinary income are pegged at the same rate.
 3. You can't defer gains forever. Sale, death, gift, and borrowing all trigger realization. This closes "buy, borrow, die" and eliminates stepped-up basis.
 4. Basis is indexed to CPI. You're taxed on real gains, not inflation.
 5. Roth reforms: remove the income cap, raise the annual limit, cap the balance at $5M. No more Thiel loophole.

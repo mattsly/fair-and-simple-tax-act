@@ -14,7 +14,7 @@ twitter:
 
 ---
 
-> **Status: Working draft.** This is a companion proposal to the [Fair and Simple Tax Act](./index.md). Feedback welcome at me@mattsly.com.
+> **Status: Working draft.** This is a companion proposal to [The Tax Refactor](./index.md). Feedback welcome at me@mattsly.com.
 
 ---
 
@@ -54,4 +54,4 @@ Net cost depends on calibration. The consolidated budget of eliminated programs 
 
 ---
 
-*This proposal is part of the [Fair and Simple Tax Act](./index.md). All policy positions are the author's own.*
+*This proposal is part of [The Tax Refactor](./index.md). All policy positions are the author's own.*

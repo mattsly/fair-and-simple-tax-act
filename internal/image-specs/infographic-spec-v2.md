@@ -1,5 +1,7 @@
 # Infographic Prompt for AI Image Generator
 
+> **NEEDS REGENERATION.** The published image (and the spec below) uses old $2.5M / $10M thresholds. Canonical per the published Lifetime Gains essay: $2M (exemption) / $6M (ceiling), both CPI-indexed. The crossover point shifts from ~$6.3M to roughly $4.6M. Revenue claim should read $45-170B (midpoint ~$108B), not $85-200B. Update all figures during regeneration.
+
 Create a clean, minimal infographic on a white background. No clip art, no icons, no flags, no illustrations. This should look like a chart from The Economist or a policy brief, not a campaign ad.
 
 **Title** (top left, bold, dark charcoal): "The Lifetime Gains Framework"

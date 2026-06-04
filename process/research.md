@@ -87,7 +87,7 @@ Optional 12% conversion from legacy 401(k)/IRA (10-year window)
 
 Revenue/Cost: Roughly neutral ($50-100B net cost)
 
-ASA conversion generates one-time windfall ($1.2-1.3T over 10 years)
+USA conversion redesigned (June 2026): deprecation-first + optional PV-neutral conversion; pulls revenue forward (near-term debt paydown) but not a net raiser. Old "$1.2-1.3T one-time windfall" claim retired.
 
 Political sell: "One retirement account instead of 15. One child benefit instead of three. Six simple brackets. Optional conversion at bargain 12% rate. This is what simplification actually looks like."
 Feasibility: MEDIUM - Easier after Phases 1-2 build trust
@@ -119,7 +119,7 @@ Total when fully implemented: $400-600B in annual deficit reduction
 ### Old Index PAge
 
 
-The Fair and Simple Tax Act is a proposal to "refactor" U.S. fiscal policy.
+The Tax Refactor is a proposal to "refactor" U.S. fiscal policy.
 
 ### Why This Matters
 The U.S. tax system raises revenue in ways that are opaque, uneven, and increasingly disconnected from how Americans actually earn money and build wealth. It punishes work more reliably than wealth, rewards financial engineering over productive activity, and requires an entire parallel industry just to navigate it. The result is a system that is widely resented, poorly understood, and politically brittle.

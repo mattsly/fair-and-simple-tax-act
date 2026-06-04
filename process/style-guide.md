@@ -43,7 +43,7 @@ These rules are constant regardless of register. They define the voice.
 
 ### Data & Evidence
 
-- **Concrete details over abstract claims.** Not "the surgery was long" but "I was under general anesthesia for almost 10 hours." Not "significant revenue" but "$85-200 billion."
+- **Concrete details over abstract claims.** Not "the surgery was long" but "I was under general anesthesia for almost 10 hours." Not "significant revenue" but "$45-170 billion."
 - **Numbers and specifics.** He includes real data: "41 lymph nodes," "6.5 billion hours," "$500 billion annually," "1.9% of GDP." This is the former math teacher and product manager — he respects his reader enough to give them real data.
 - **Quantify everything that can be quantified.** Vague claims ("significant savings") are not Matt's style.
 - **Show your math.** Don't just state conclusions. Walk through the calculation so the reader can follow the logic.

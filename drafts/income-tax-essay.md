@@ -7,6 +7,14 @@ twitter:
   card: summary_large_image
 ---
 
+> **Status note (working draft).** Per current design decisions (see `process/decisions-log.md`), this essay's SALT, charitable credit, and top bracket sections are stale and need rewriting before publication:
+> - SALT: not "eliminated entirely" — becomes a 25% federal credit via Treasury-maintained presumptive lookup table (income × state of residence), capped at ~15% of federal liability. Stakes-in-the-ground numbers; calibration TBD.
+> - Charitable credit: 25% / 3% liability cap (down from 50% / 5%).
+> - Top bracket: likely 47% on $750K+ MFJ (up from 43%) to fund the SALT credit, possibly with the higher rate kicking in at $1.5M MFJ instead. Stakes; calibration TBD.
+> - Presentation: introduce the "after-SALT effective rate" device — published headline brackets are uniform, after-SALT effective rates vary by state, recognizing federalism without expanding the bracket count.
+
+---
+
 # The Index Card Tax Return
 
 ### Eliminating deductions, simplifying the rate table, and making April boring
@@ -136,7 +144,7 @@ That's it. Head of Household becomes unnecessary when dependent-related benefits
 
 **The medical expense deduction.** Replaced by a 30% refundable credit on expenses above $5,000. Available to all filers, not just the 13% who itemize.
 
-**The pass-through deduction (Section 199A / QBI).** This 20% deduction for pass-through business income expired at the end of 2025. It was a carve-out that primarily benefited high-income business owners and added substantial complexity (the rules for "specified service trades or businesses" alone were Byzantine). This proposal does not renew it. Small business owners are more than compensated by the simplified rate table, [FICA reform](./fica-reform-essay.md) (15.3% down to 8% for the self-employed), and the Lifetime Gains Framework's $2.5 million tax-free exemption on business sale proceeds.
+**The pass-through deduction (Section 199A / QBI).** This 20% deduction for pass-through business income expired at the end of 2025. It was a carve-out that primarily benefited high-income business owners and added substantial complexity (the rules for "specified service trades or businesses" alone were Byzantine). This proposal does not renew it. Small business owners are more than compensated by the simplified rate table, [FICA reform](./fica-reform-essay.md) (15.3% down to 8% for the self-employed), and the Lifetime Gains Framework's $2 million tax-free exemption on business sale proceeds.
 
 **Three filing statuses.** Head of Household, Qualifying Surviving Spouse, and the practical distinction of Married Filing Separately all become unnecessary.
 
@@ -170,7 +178,7 @@ This is not a phase-in. The new rate table takes effect on day one. The transiti
 
 The bracket restructuring alone is roughly revenue-neutral to modestly positive (an estimated +$10-70 billion annually). Revenue lost from tax cuts below $750,000 (approximately $50-80 billion) is offset by revenue gained from the 43% top rate above $750,000 (approximately $90-120 billion). Eliminating the mortgage interest deduction recovers roughly $25-30 billion. Eliminating the SALT deduction recovers roughly $10-15 billion (partially already captured by the $10,000 TCJA cap). The charitable credit costs less than the current deduction (preliminary savings of $20-40 billion, depending on behavioral response). The medical credit is roughly comparable in cost to the current deduction (~$10-12 billion).
 
-The income tax reform is designed as a simplification and fairness play, not a major revenue raiser. The heavy revenue lifting is done by the [Lifetime Gains Framework](./lifetime-gains-essay.md) ($85-200 billion per year from capital gains reform). Together with companion reforms to [FICA](./fica-reform-essay.md) and [child benefits](./child-payment-essay.md), the full system is simpler, fairer, and meaningfully revenue-positive.
+The income tax reform is designed as a simplification and fairness play, not a major revenue raiser. The heavy revenue lifting is done by the [Lifetime Gains Framework](./lifetime-gains-essay.md) ($45-170 billion per year from capital gains reform, midpoint ~$108B). Together with companion reforms to [FICA](./fica-reform-essay.md) and [child benefits](./child-payment-essay.md), the full system is simpler, fairer, and meaningfully revenue-positive.
 
 > Note: All revenue figures are preliminary estimates. Formal scoring by JCT/CBO would be required for legislative purposes. Behavioral responses (changes in housing decisions, labor supply) could meaningfully affect these estimates in either direction.
 
@@ -178,7 +186,7 @@ The income tax reform is designed as a simplification and fairness play, not a m
 
 ## The Bigger Picture
 
-This essay covers one piece of the [Fair and Simple Tax Act](./index.md). The rate table, deduction elimination, and replacement credits stand on their own, but they're designed to work with companion proposals:
+This essay covers one piece of [The Tax Refactor](./index.md). The rate table, deduction elimination, and replacement credits stand on their own, but they're designed to work with companion proposals:
 
 - **[Capital gains reform](./lifetime-gains-essay.md)** (the Lifetime Gains Framework) — five rules that replace the estate tax, the AMT, the NIIT, and twelve special exclusions.
 - **[FICA reform](./fica-reform-essay.md)** — eliminate employee-side payroll tax, uncap the employer side, simplify Social Security funding.
@@ -189,6 +197,6 @@ Each can be enacted independently. Together, the entire tax code for a typical A
 
 ---
 
-*Matt Sly is a software entrepreneur with twenty years of experience building products used by millions. The income tax reform proposal is part of the [Fair and Simple Tax Act](./index.md), a comprehensive approach to modernizing the U.S. tax system.*
+*Matt Sly is a software entrepreneur with twenty years of experience building products used by millions. The income tax reform proposal is part of [The Tax Refactor](./index.md), a comprehensive approach to modernizing the U.S. tax system.*
 
 *Revenue estimates are preliminary. All policy positions and framework design are the author's own.*

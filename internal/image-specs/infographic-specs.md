@@ -1,5 +1,7 @@
 # Infographic Specs for AI Image Generator
 
+> **NEEDS REGENERATION.** The published image (and the spec below) uses old $2.5M / $10M thresholds. Canonical per the published Lifetime Gains essay: $2M (exemption) / $6M (ceiling), both CPI-indexed. Option B's scenario tax calculations also need re-derivation (e.g., the "$2.8M exit" case now produces ~$30K of tax under LGF, not the previously-listed ~$2K). Update all figures during regeneration.
+
 ## Option A: The Sliding Scale (Recommended)
 
 Create a clean, modern infographic with a white or very light gray background. No clip art, no illustrations of people, no flags. This should look like something from The Economist or a McKinsey report, not a political flyer.

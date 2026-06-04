@@ -22,6 +22,7 @@ The repo has four working areas, plus the usual Jekyll plumbing.
 │   ├── backlog.md                    #   Done · In Progress · Stubs · Planned · Ideas · Pitch list
 │   ├── decisions-log.md              #   Why we decided what we decided
 │   ├── open-questions.md             #   Unsettled architectural questions
+│   ├── proposal-tldr.md              #   Cross-phase integrative reference (state-of-play)
 │   ├── style-guide.md                #   Voice and writing rules (Matt's voice)
 │   ├── research.md                   #   Compliance stats, sources, raw data
 │   └── vibe-journalism-outline.md    #   Working outline for a meta essay
@@ -50,6 +51,20 @@ If you change `process/tenets.md`, update `index.md` in the same commit.
 ### Anything linked from a published doc must itself be published
 
 If you add a link from a published essay to a draft, either promote the draft (move it to root, build it out, accept that it's now live) or remove the link. Broken links on a published site are worse than an unfinished essay.
+
+### Published essays are the source of truth
+
+If a draft, process doc, or internal note contradicts a published essay on a number, design decision, or position, the published essay wins. Update the draft or process doc to match — don't quietly change the published essay to fit internal thinking that hasn't shipped. (Live thinking belongs in drafts; once it ships, it is the spec.) If a published number is genuinely up for revision, flag it as an open question and resolve it before shipping the next essay that depends on it.
+
+### Open questions land in `open-questions.md`; resolutions land in `decisions-log.md`
+
+When a new architectural question surfaces in discussion, capture it in `process/open-questions.md` with enough framing (the tension, candidate answers, what's at stake) that future-us can pick it up cold. When a question gets resolved, transcribe the decision and the *why* into `process/decisions-log.md` and remove the entry from `open-questions.md`. The two files should not overlap: a topic is either decided (in the log) or open, never both. If a decided number is still pending external validation (e.g. behavioral modeling), note that in the log entry; don't relist the topic as open.
+
+Three consequences of this rule:
+
+- **Published essays should not contradict anything in `open-questions.md`.** If it's published, we've decided. The exception is when the essay itself explicitly and publicly lists an open question (the LGF flagship's "$2M or $2.5M?" callout is the model). In that case the publicly flagged question can be mirrored in `open-questions.md`.
+- **Drafts can freely overlap with `open-questions.md`.** Drafts are work in progress; that's the whole point.
+- **When working on an essay produces a decision, update both files in the same pass.** Move the entry from open-questions to decisions-log, and update the essay (or essays) to reflect the decision. Don't leave the file system in an in-between state.
 
 ## Publishing workflow
 

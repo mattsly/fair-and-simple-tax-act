@@ -14,7 +14,7 @@ twitter:
 
 ---
 
-> **Status: Working draft.** This is a companion proposal to the [Fair and Simple Tax Act](./index.md). A detailed specification is available in the [Social Security reform PRFAQ](./social-security-prfaq.md). Feedback welcome at me@mattsly.com.
+> **Status: Working draft.** This is a companion proposal to [The Tax Refactor](./index.md). A detailed specification is available in the [Social Security reform PRFAQ](./social-security-prfaq.md). Feedback welcome at me@mattsly.com.
 
 ---
 
@@ -59,4 +59,4 @@ The combined effect: a worker earning $60,000 keeps an extra $4,590 per year. Th
 
 ---
 
-*This proposal is part of the [Fair and Simple Tax Act](./index.md). A detailed specification is available in the [Social Security reform PRFAQ](./social-security-prfaq.md). All policy positions are the author's own.*
+*This proposal is part of [The Tax Refactor](./index.md). A detailed specification is available in the [Social Security reform PRFAQ](./social-security-prfaq.md). All policy positions are the author's own.*

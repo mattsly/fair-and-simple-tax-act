@@ -67,4 +67,4 @@ The current charitable deduction costs the Treasury roughly [$50-60 billion per 
 
 ---
 
-*This proposal is part of the [Fair and Simple Tax Act](./index.md). All policy positions are the author's own.*
+*This proposal is part of [The Tax Refactor](./index.md). All policy positions are the author's own.*

@@ -1,6 +1,6 @@
 # Decisions Log
 
-Key decisions made while developing the Fair and Simple Tax Act project, with the reasoning behind each. The goal is to capture the *why* so future-us (or a new collaborator) doesn't relitigate settled ground.
+Key decisions made while developing The Tax Refactor project, with the reasoning behind each. The goal is to capture the *why* so future-us (or a new collaborator) doesn't relitigate settled ground.
 
 ## Process Rules
 
@@ -43,13 +43,16 @@ Using the whole-code compliance figure to motivate a capital-gains-only proposal
 ### NIIT is not part of the AMT lineage
 Initial draft implied a causal chain from AMT to NIIT. NIIT was ACA funding, not a response to buy-borrow-die. Corrected in lifetime-gains-essay.md.
 
+### Gift de minimis (rejected)
+All appreciated-asset gifts trigger cap-gains realization with no carve-out. Considered a $25-50K/yr de minimis threshold to spare small intra-family transfers (e.g., shares gifted to a grandkid) from triggering realization tax on small embedded gains. Rejected on architectural-simplicity grounds: the "no special carve-outs" pattern is the framework's core appeal, and adding even small thresholds opens a defense surface (where does the threshold sit? does it index? does it stack with other exclusions?). The sympathetic-grandparent case is real but bounded; the realization tax is on the embedded gain only, and small share gifts to grandkids typically have small embedded gains anyway.
+
 ## Income Tax Essay
 
 ### Charitable and medical credits live inside the income tax essay
 Originally carved out as standalone stubs. Realized they can't be teased apart from deduction elimination — if you kill all deductions, you have to say what replaces the two that matter most (charitable, medical) in the same breath. Folded back in. The charitable-giving-essay.md file was repurposed as a deeper-dive companion covering DAF tension and appreciated-asset realization.
 
-### Charitable credit: 50% of donation, capped at 5% of tax liability
-Voluntary incentive. The cap prevents the wealthy from using it to zero out their tax bill, which was the old itemized-deduction abuse pattern.
+### Charitable credit: 25% of donation, capped at 3% of tax liability
+**(Recalibrated from prior 50%/5% stake in the ground.)** Voluntary incentive, sized to align with international norms (UK Gift Aid ~25%, OECD ~25-30%) and to symmetrize with the SALT credit rate. The 50% rate was generous by historical standards — under current law, the max value of the charitable deduction equals the taxpayer's top bracket (37%). A 25% credit lands closer to that ceiling rather than above it, and a 3% liability cap keeps the zero-out-your-taxes abuse pattern off the table (97% of liability remains untouchable). Cost falls from ~$25-45B (50%/5%) to ~$15-25B/yr.
 
 ### Medical credit: 30% refundable, $5K threshold
 Involuntary catastrophe protection. Refundability is essential because the people most exposed to catastrophic medical costs are often those with little or no tax liability. The threshold prevents it from becoming a routine subsidy for minor expenses.
@@ -60,6 +63,18 @@ User asked whether they should have identical structure. Pushed back: they serve
 ### Filing status: five to two
 Collapses Single, MFJ, MFS, HoH, QW into just Single and Joint. Simplification for its own sake — the current five-status system creates edge cases and marriage penalties with no corresponding benefit.
 
+### SALT: kept as a credit, not eliminated
+**(Reverses the earlier "eliminate entirely" position from index.md and income-tax-essay.md.)** State and local taxes are recognized via a federal credit at the rate of 25% of estimated state+local taxes paid (stake in the ground; calibration to be finalized when income-tax-essay is written for real), capped at ~15% of federal tax liability (stake; range 10-20% defensible). Mechanism: a Treasury-maintained presumptive lookup table by income decile by state of residence, so the federal return depends on `f(income, state of residence)` rather than `f(income, actual state return)`. No state return required for federal calculation. The lookup approach extends a benefit that under current law is itemizer-only (~10% of filers) to all filers, in proportion to state taxes paid.
+
+Rationale: federalism / Brandeis "labs of democracy" — the federal government affirmatively endorses state-level service delivery and policy experimentation, partially crediting taxes states collect to enable that. The published lifetime-gains-essay's stance on "the framework taxes the use of wealth, not its existence" pairs naturally here with "the federal income tax recognizes the state taxation you've already shouldered." Considered and rejected: full elimination (the deduction-hack essay's published position, but that argument was about the regressive deduction *mechanism*, not the underlying federalism case — moot once we move to a credit); a token flat per-filer credit ($500-1,000, no state variation — defensible but loses the federalism signal); a tighter 5% liability cap (washes out state variation entirely, becoming essentially a flat federal benefit).
+
+To preserve the framework's Fiscal Durability footing, the SALT credit is paired with a more aggressive top bracket: 43% → ~47% on income above $750K MFJ (stake; calibration TBD — Matt has flagged $1.5M MFJ as a possible kick-up threshold for 48%). The bracket hike + LGF pin boost roughly offset the SALT credit cost within the income tax phase.
+
+Presentation device: published bracket rates are uniform (5 brackets, equal treatment under law); the after-SALT-credit effective rate varies by state of residence and is what taxpayers experience. Both can be shown in the essay — "headline rate" vs. "your effective rate" — to make federalism visible without complicating the bracket structure.
+
+### Phase 2 bracket structure stays at 5 brackets
+Even after adding SALT credit and raising the top rate, the structure remains 0% / 12% / 22% / 35% / X% MFJ at the published thresholds, where X is currently 43% (Phase 2 published) and likely moves to ~47% to fund the credit. Adding additional brackets (e.g., a separate millionaires-surcharge tier) was considered and rejected: the radical-simplicity claim weighs heavily, and a single steeper top rate accomplishes the same revenue work as a stepped tier above it without expanding the bracket count.
+
 ## Modular Components
 
 ### Child payment consolidates CTC/ACTC/EITC/AOTC/LLC/education credits
@@ -69,7 +84,39 @@ One monthly payment replaces six overlapping programs. 2021 expanded CTC cut chi
 Employee-side FICA is regressive and visible on every paycheck. Eliminating it is a large tax cut for working people. Employer-side retained (and uncapped) as Employer Social Net Contribution. Details in social-security-prfaq.md.
 
 ### Universal Savings Account (USA) replaces 15+ account types
-401(k), IRA, Roth, SEP, SIMPLE, 529, Coverdell, ABLE, HSA, FSA, HRA, 457(b), etc. Single account, $1K seed at birth, $30K annual cap, tax-free growth, $5M balance cap, contributions withdrawable anytime, qualified medical withdrawals tax-free. "Great Conversion" at flat 12% over 10-year window yields ~$1.2-1.3T.
+401(k), IRA, Roth, SEP, SIMPLE, 529, Coverdell, ABLE, HSA, FSA, HRA, 457(b), etc. Single account, $1K seed at birth, $30K annual cap, tax-free growth, $5M balance cap, contributions withdrawable anytime, qualified medical withdrawals tax-free. Legacy accounts deprecated on enactment with an optional PV-neutral conversion (redesigned June 2026 — see entry below; the old flat-12%/$1.2-1.3T framing is retired).
+
+### USA balance cap is CPI-indexed
+The $5M cap inflation-adjusts in parallel with the LGF exemption and the income tax brackets. Reason: without indexing, the cap loses ~50% of real value over 25 years and the account stops serving middle-class savers exactly when their balances would otherwise mature. The anti-dynastic purpose is preserved by the existence of any cap, not by its erosion. The counter-argument (deliberately non-indexed to force periodic political maintenance) was considered and rejected as inconsistent with Radical Simplicity.
+
+### USA eliminates the employer match as a construct (June 2026)
+No special employer-match mechanism. The USA has a single $30K annual cap that counts every dollar regardless of source (employee, employer, relative). Reasoning: today the match only adds tax-advantaged room because it lives in the gap between the employee elective limit ($23,500 in 2025) and the combined §415(c) limit ($70,000). Under one cap, an employer dollar just displaces an employee dollar for anyone saving near the cap, so the match collapses into compensation — pay it as wages and let the worker decide. This deletes ERISA nondiscrimination testing, top-heavy rules, safe harbor formulas, true-ups, and vesting (no employer-owned money to vest). Also resolves the regressivity tension: a match is a subsidy you only collect with the right employer and spare cash, re-creating the access gap the USA exists to close. Behavioral defense of the match is weak — Chetty et al. (2014, Denmark, 41M people): ~85% of savers are "passive" and barely respond to subsidies; each $1 of subsidy raises total saving ~1 cent; the responders skew wealthy. Vesting question (originally open) is dissolved by this, not answered.
+
+### USA participation engine is auto-enrollment, not the match (June 2026)
+Replaces the match's behavioral role with a payroll-level auto-enrollment default (3% escalating 1%/yr to ~10%, opt-out anytime), ported from SECURE 2.0 (2022). Because there's no employer "plan" to sponsor, auto-enrollment rides payroll instead — more universal than current law, which only fires if the employer sets up a plan. Default rate is a stake in the ground pending calibration.
+
+### USA is post-tax only — no pre-tax option (June 2026)
+Roth-style only; no Traditional/pre-tax election. Cost: workers expecting a lower retirement bracket lose the defer-high/withdraw-low arbitrage. Accepted on purpose — the Traditional-vs-Roth fork is the financial-literacy tax the essay attacks; you don't simplify it by keeping both options and a calculator. Post-tax is the honest one (no embedded IOU at withdrawal; government collects now, not on a bet about future brackets). Marginal losers are a narrow band; the lower income-tax rates + employee-side FICA elimination give most workers more to contribute. Resolves the backlog's "post-tax vs pre-tax" open question.
+
+### USA: 529 / Coverdell / ABLE roll in tax-free (June 2026)
+Already after-tax, tax-free-growth, purpose-specific accounts; the USA subsumes the purpose with fewer strings, so no conversion tax. Rolled-in balances count against the $5M balance cap (it's a balance) but not the $30K annual contribution cap (a transfer isn't a new contribution). Same treatment as Roth conversions.
+
+### USA medical: port §213(d); no double-dip with the Phase 2 medical credit (June 2026)
+Qualified medical withdrawals use the existing IRS §213(d) expense definition (the HSA list), ported wholesale rather than reinvented. The USA's tax-free medical withdrawal and the Phase 2 medical credit (30% refundable above $5K) target the same expenses, so they can't stack: a dollar covered tax-free from the USA doesn't count toward the credit base, and vice versa. Mirrors current law (can't deduct expenses paid from an HSA). Enforcement piggybacks on the same insurer/provider reporting the credit relies on. Resolves the open-questions.md double-dip item.
+
+### USA $1K birth seed funded from general revenue (June 2026)
+~$3.6B/yr (3.6M births × $1,000) ≈ 0.05% of a ~$7T federal budget. Funded from general revenue; no dedicated funding mechanism needed. Considered and set aside: endowing the seed from one-time conversion cash (rhetorically strong, but the conversion is now priced PV-neutral, so there's no windfall to endow from).
+
+### USA $5M cap is the system's only balance cap; LGF Rule 5 retires (June 2026)
+The $5M USA balance cap absorbs the separate $5M Roth balance cap proposed in Rule 5 of the Lifetime Gains Framework. One cap, one place. Rule 5 retires. (Was an explicit-reconciliation open question.)
+
+### Great Conversion redesigned: deprecation-first + optional PV-neutral conversion (June 2026)
+Replaces the original "flat 12% over a 10-year window → ~$1.2–1.3T one-time revenue" design. Two reasons it changed. (1) **The math didn't close and the framing was dishonest.** A conversion rate below the expected withdrawal rate is PV-negative for Treasury: collecting (say) 12% today on a balance that would be taxed at ~30% in 20 years books gross cash now but gives up more in present value. The "$1.2–1.3T windfall" counted the cash and ignored the forgone future stream. (2) **The trilemma.** Fast/universal conversion, near-term debt paydown, and not deepening the long-run deficit can't all hold — a carrot deep enough to convert everyone necessarily deepens the deficit. Matt's binding constraint is "don't deepen the deficit," so that wins.
+
+New design: **(a) Deprecation is the baseline** — on enactment, legacy account types close to new accounts and new contributions; all new saving flows to the USA; existing balances run off under old rules over their holders' lifetimes. Zero cost, near-zero risk, and it delivers the forward-looking simplification on its own (new entrants deal with one account; payroll/contribution rules simplify immediately). The only thing given up is speed (two systems coexist for a generation). **(b) Optional conversion priced PV-neutral** — after-tax accounts (Roth, 529, Coverdell, ABLE) roll in tax-free; pre-tax accounts pay a rate set so Treasury breaks even between collecting now and later. No discount carrot means no giveaway and no regressive windfall to large balances; converters self-select as people who value simplicity/certainty. It still pulls revenue forward (near-term debt paydown at no net long-run cost). No deadline/cliff. Rate is a placeholder; solve via simulation for the PV-neutral point (or a deliberately budgeted cost), modeling uptake by age/balance/horizon. Considered and rejected: revenue-maximizing (out-year hole), deep-discount migration-max (giveaway, deepens deficit). Eligibility cap on the low rate left as an open calibration flag rather than decided. Note: this demotes the standalone "Great Conversion" essay's revenue rationale; revisit that plan and possibly the name.
+
+### USA inheritance follows current Roth IRA rules (SECURE Act 2019)
+Spouse: treat-as-own rollover, lifetime continuation, no drain. Non-spouse heirs: separate Inherited USA, full drain within 10 years, tax-free during the window, no annual RMDs, drained balance exits to taxable brokerage at FMV basis. Eligible Designated Beneficiaries (minor child of decedent, disabled, chronically ill, beneficiary not more than 10 years younger) get lifetime stretch. We also considered C-only (immediate exit to brokerage at FMV; cleaner but loses the rhetorical offset to estate tax elimination) and C+A (full rollover into heir's USA up to cap; more generous than current Roth law, opens the trust-fund-kid optic). The Roth port is the middle ground: matches established convention, sidesteps the need to defend new architecture, and bounds intergenerational continuation to 10 years for non-spouse heirs. Defense reduces to "same as Roth, applied to USA."
 
 ## Publishing & Infrastructure
 
