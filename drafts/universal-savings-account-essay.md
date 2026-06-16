@@ -18,50 +18,59 @@ twitter:
 
 ---
 
+yes?
+
 ## The Problem
 
-The federal government currently incentivizes saving through at least 15 distinct account types: Traditional 401(k), Roth 401(k), Traditional IRA, Roth IRA, SEP IRA, SIMPLE IRA, 529 College Savings Plans, Coverdell Education Savings Accounts, ABLE Accounts, Health Savings Accounts (HSAs), Flexible Spending Accounts (FSAs), Health Reimbursement Arrangements (HRAs), 457(b) Deferred Compensation Plans, Thrift Savings Plans, and employer-sponsored pension plans.
+The federal government currently supports at least 15 distinct tax-advantaged account types: Traditional 401(k), Roth 401(k), Traditional IRA, Roth IRA, SEP IRA, SIMPLE IRA, 529 College Savings Plans, Coverdell Education Savings Accounts, ABLE Accounts, Health Savings Accounts (HSAs), Flexible Spending Accounts (FSAs), Health Reimbursement Arrangements (HRAs), 457(b) Deferred Compensation Plans, Thrift Savings Plans, and employer-sponsored pension plans.
 
-Each has its own contribution limits, income limits, eligibility rules, withdrawal penalties, required minimum distributions (or lack thereof), employer matching rules, and tax treatment. A financially literate person with a good accountant can navigate these to maximize tax-free growth. A normal person cannot. The complexity itself is a regressive tax on financial literacy.
+And the list only grows. The newest entry is the §530A "Trump Account," created in 2025: a brand-new child savings vehicle with its own rules, its own website, and its own $1,000 federal seed, [bolted onto the pile instead of improving what's already there](./trump-accounts-essay.md)).
 
-And the rules aren't just numerous, they're actively user-hostile. Your FSA is "use it or lose it": spend it by December 31 or forfeit it, unless your employer offers a carryover (capped at $660) or a 2.5-month grace period, but never both, and dependent-care FSAs can't roll over at all. Traditional IRAs and 401(k)s force you to start draining the account at 73 whether you need the money or not (the Required Minimum Distribution). Pull money out before 59½ and you eat a 10% penalty on top of the tax. Earn too much and you're locked out of contributing to a Roth IRA, unless you perform the "backdoor Roth," a real maneuver with a real name that exists only because the income limit exists, so the well-advised step around it and everyone else just loses access. None of this protects anyone. It's sediment.
+Each account type has its own contribution limits, income limits, eligibility rules, withdrawal penalties, required minimum distributions (or lack thereof), employer matching rules, and tax treatment. In theory, a motivated and financially savvy person, probably supported by a good accountant, can navigate these account types to maximize tax-advantaged growth. But the complexity itself is a regressive tax based financial literacy (? which impacts the ability of the vast majority of americans to participate effectively in tax advantaged programs - data etc linked...)
 
-The result: higher-income households with access to financial advisors optimize across multiple account types while lower-income households underutilize even the simplest options. [Nearly half of American workers have no access to a workplace retirement plan](https://www.bls.gov/ncs/ebs/benefits/2023/employee-benefits-in-the-united-states-march-2023.pdf), and of those who do, participation rates vary wildly based on plan complexity and employer match design.
-
-## The Proposal: Universal Savings Account (USA)
-
-One account. One set of rules. Every American.
-
-**How it works:**
-
-- **After-tax contributiosn, Tax-free growth.** No taxes on dividends, interest, or capital gains inside the account. The account is modeled after Roth IRAs.
-- **Qualified Withdrawls**: higher education, first time home purchase, retirement after age 59.5
-- **Contributions withdrawable anytime.** No penalty, no waiting period. Your contributions are your money.
-- **$1,000 government seed at birth.** Every American starts with a funded account. This is the most progressive wealth-building policy available: it gives every child a compounding head start regardless of family income.
-- **$30,000 annual contribution cap** (after-tax, indexed to CPI). One cap, every source. Whether the dollars come from you, an employer, or a generous grandparent, they all count against the same $30,000. There is no separate, higher employer limit the way 401(k)s work today (where you can put in $23,500 but the combined employee-plus-employer limit runs to $70,000). One number, no gaming.
-- **$5 million balance cap (indexed to CPI).** Prevents the account from becoming an unlimited tax shelter (closes the Thiel Loophole from day one). Once you hit the cap, you stop contributing, but the balance keeps growing tax-free. The cap inflation-adjusts in parallel with the Lifetime Gains exemption and the income tax brackets, so the wrapper keeps its real value across decades. This is the *only* balance cap in the system: it absorbs the separate $5M Roth cap that Rule 5 of the [Lifetime Gains Framework](./lifetime-gains-essay.md) originally proposed. One cap, one place.
-- **Qualified medical withdrawals: tax-free and penalty-free at any age.** This consolidates the HSA benefit into the same account, eliminating a separate vehicle with its own rules. "Qualified" means the existing IRS definition (Section 213(d)), the same expense list HSAs use today, ported wholesale rather than reinvented. (You can't double-dip: a dollar of medical spending you cover tax-free from your USA doesn't also count toward the Phase 2 medical credit. One dollar, one tax break. More on that below.)
-- **Unqualified Withdrawls before age 60:** Taxed as capital gains, using the [Lifetime Gains Framework](./lifetime-gains-essay.md) exemption and sliding scale. Early withdrawal of gains is possible but not tax-free. (? no penalty? just pay taxes I guess that's right...)
-- **Gains after age 60:** Tax-free up to $2.5 million in total withdrawals (indexed). Gains above $2.5 million are taxed as capital gains under the Lifetime Gains Framework.
-- **No required minimum distributions.** You are never forced to withdraw.
-(? need to describe what happens at death too)
-
-**What it replaces:** 401(k)s (Traditional and Roth), IRAs (Traditional and Roth), SEP IRAs, SIMPLE IRAs, 529 plans, Coverdell ESAs, ABLE accounts, HSAs, FSAs, HRAs, and 457(b) plans.
-
-## Why One Account?
-(? some more ideas - once a year "open [sic] enrollment" is so annoying... and can we add some meat to this section with data and analysis and numbers? these are strong arguments that feel right, but they feel speculative without more evidence)
-
-Complex savings systems disproportionately benefit higher-income households with advisors. One universal account increases participation, reduces administrative costs, and makes public subsidies for saving transparent and fair.
+Many of these plans (401K, HSA, FSA) are only available via employer sponsored programs. [Nearly half of American workers have no access to a workplace retirement plan](https://www.bls.gov/ncs/ebs/benefits/2023/employee-benefits-in-the-united-states-march-2023.pdf), and of those who do, participation rates vary wildly based on plan complexity and employer match design. And even those that do can only choose to enroll in employer-sponsored plans once a year during "open enrollment. 
 
 The current system forces people to make decisions they are not equipped to make: Traditional vs. Roth? IRA vs. 401(k)? Should I max my HSA first? What's my MAGI for backdoor Roth eligibility? Every one of these questions is an opportunity for the well-advised to optimize and the under-advised to lose.
 
-A single account with simple rules eliminates these decisions. You save. It grows tax-free. You access it when you need it (contributions anytime, medical expenses anytime, everything else after 60). That's it.
+And the rules aren't just complex, they're actively user-hostile. Your FSA is "use it or lose it": spend it by December 31 or forfeit it, unless your employer offers a carryover (capped at $660) or a 2.5-month grace period, but never both, and dependent-care FSAs can't roll over at all. Traditional IRAs and 401(k)s force you to start draining the account at 73 whether you need the money or not (the Required Minimum Distribution). Pull money out before 59½ and you eat a 10% penalty on top of the tax. Earn too much and you're locked out of contributing to a Roth IRA, unless you perform the "backdoor Roth," a real maneuver with a real name that exists only because the income limit exists, so the well-advised step around it and everyone else just loses access.
+
+## The Proposal: Universal Savings Account (USA)
+
+It doesn't need to be this complicated. This post maps out a plan to move to a single tax advantaged account: The Universal Savings Account (USA). One account. One set of rules. Every American.
+
+A quick aside, because it matters more than it should: the name is doing work. *Universal Savings Account* shortens to **USA**, a single savings vehicle that happens to spell the country. Set that next to "401(k)" (named after a subsection of the tax code), the "SIMPLE IRA," or the "Keogh plan" (named for a congressman from 1962). Part of what The Tax Refactor is doing is bringing product thinking to the tax code, and product thinking includes branding. People adopt things they can name, understand, and feel some ownership over. "Max out your USA" is a sentence a normal person might actually say.
+
+(? I think we should reference somewhere the project tenets - this really hits all 4, especially simplicity, fuel the climb, and I also think, perhaps less so, but still, reward innovation - as it makes a lot of capital more flexible)
+
+**How it works:**
+
+* the USA is largely modeled after a ROTH IRA, but with a few key changes *
+
+- **After-tax contributions, tax-free growth.** You fund the account with money you've already paid tax on, and from then on nothing inside it is ever taxed: no tax on dividends, interest, or capital gains. It's modeled on the Roth IRA.
+- **Your contributions come out anytime, tax- and penalty-free.** They're your money. For most people, contributions alone cover the emergencies, the down payment, and the tuition bills.
+- **Gains come out tax-free for qualified withdrawals:** in retirement (after age 59½), or at any age for higher education, medical expenses, or a first home. These port the definitions that 529s (education), HSAs (Section 213(d) medical), and the IRA first-time-homebuyer rule already use, so there's nothing new to define. This is what makes the USA a true *superset* of the accounts it replaces: it does everything a 529, an HSA, and a Roth each did, under one set of limits. (No double-dipping the medical case with the Phase 2 medical credit: one dollar, one tax break. More below.)
+- **Pull gains early for a non-qualified reason and you pay two things: capital-gains tax under the [Lifetime Gains Framework](./lifetime-gains-essay.md), plus a 10% surcharge.** For most people the LGF tax is $0 (the $2M lifetime exemption covers it), so the 10% is the real, deliberate friction, the commitment device that keeps the USA a retirement account instead of a checking account. It falls *only* on gains taken early for non-qualified reasons: your contributions always come out free, and qualified withdrawals (education, medical, first home, retirement) are never surcharged. (Those gains are taxed as long-term capital gains under LGF regardless of how long the underlying investments were held inside the account, so there's no short-term/long-term lot tracking to do.)
+- **$1,000 government seed at birth.** Every American starts with a funded account, a compounding head start regardless of family income. (The 2025 Trump Account got this part right: a $1,000 seed for newborns. The USA keeps the idea and makes it universal and permanent, instead of a four-year pilot for children born 2025–2028.)
+- **$30,000 annual contribution cap** (after-tax, indexed to CPI). One cap, every source. Whether the dollars come from you, an employer, or a generous grandparent, they all count against the same $30,000. There is no separate, higher employer limit the way 401(k)s work today (where you can put in $23,500 but the combined employee-plus-employer limit runs to $70,000). One number, no gaming.
+- **$5 million balance cap (indexed to CPI).** Prevents the account from becoming an unlimited tax shelter (closes the Thiel Loophole from day one). Once you hit the cap, you stop contributing, but the balance keeps growing tax-free. The cap inflation-adjusts in parallel with the Lifetime Gains exemption and the income tax brackets, so the wrapper keeps its real value across decades. This is the *only* balance cap in the system: it absorbs the separate $5M Roth cap that Rule 5 of the [Lifetime Gains Framework](./lifetime-gains-essay.md) originally proposed. One cap, one place.
+- **No required minimum distributions.** You are never forced to withdraw.
+- **At death, the account passes under today's Roth IRA rules:** a spouse rolls it into their own; non-spouse heirs drain it within 10 years, tax-free. Details in [What Happens at Death](#what-happens-at-death) below.
+
+**What it replaces:** 401(k)s (Traditional and Roth), IRAs (Traditional and Roth), SEP and SIMPLE IRAs, 529 plans, Coverdell ESAs, ABLE accounts, HSAs, FSAs, HRAs, 457(b) and 403(b) plans, Thrift Savings Plans, and the newest arrival, the §530A "[Trump Account](./trump-accounts-essay.md)."
+
+## Why One Account?
+
+Complex savings systems disproportionately benefit higher-income households with advisors. One universal account increases participation, reduces administrative costs, and makes public subsidies for saving transparent and fair.
+
+And the claim that complexity suppresses saving isn't a hunch. When Columbia researchers studied 800,000 workers across 647 retirement plans, they found that every additional 10 fund options dropped participation by 1.5 to 2 percentage points (? this is a little apples / oranges - it's funds w/in a given account, not optimizing from the platter of accounts). Faced with more choices, people don't try harder; they freeze, default, or opt out, what the researchers called "choosing not to choose." Past a point, choice isn't a feature; it's friction. And today's system is almost nothing but choices: which account, which provider, which funds, which contribution rate, re-litigated every open-enrollment season, that annual rite of squinting at HR PDFs trying to recall the difference between an FSA and an HSA before a Friday deadline.
+
+A single account with simple rules eliminates these decisions. You save. It grows tax-free. You access it when you need it (contributions anytime, medical expenses anytime, everything else after 59½). That's it.
 
 Even early withdrawals of gains benefit from years of tax-free compounding. The structure rewards patience without punishing flexibility.
 
-## Other Countries Already Do a Simpler Version
+One honest caveat, which is really a feature: the USA doesn't abolish every decision, but it relocates them to more appropriate times in one's life. Today you have to guess at age 32 how to divide money across a 529 for your young kids, an HSA, a Roth, and a 401(k), years before you know whether you'll face a tuition bill, a medical bill, or just a long retirement, and whatever you put in the wrong account is stranded there behind penalties. The USA swaps that blind, up-front, hard-to-reverse split for a single question asked later, only when you actually need the money: spend it now for this specific event, or leave it compounding for later? You decide with full information, nothing was ever trapped in the wrong wrapper, and the default, leaving it alone, is the one that builds retirement security. A decision made late with facts beats a decision made early with guesses.
 
-This isn't a thought experiment. The building blocks are running abroad right now.
+## Other Countries Already Do a Simpler Version
 
 The UK has the Individual Savings Account (ISA): you can put in £20,000 a year, and every pound of interest, dividends, and capital gains inside it is tax-free, permanently, with nothing to report on your tax return. Britons don't agonize over the tax treatment of their savings the way Americans do, because for most people it's one wrapper and one number.
 
@@ -73,27 +82,25 @@ Here's the honest part. None of these countries has gone all the way to a single
 
 ## What Happens to the Old Accounts?
 
-Roughly [$40 trillion sits in existing U.S. retirement (? not just retirement - what about HSA etc?) accounts](https://www.ici.org/statistical-report/ret_23_q4). We don't have to move it, and we shouldn't pay people a fortune to move it. Two mechanisms, in order of importance.
+Roughly [$40 trillion sits in existing U.S. retirement accounts](https://www.ici.org/statistical-report/ret_23_q4), plus several hundred billion more spread across HSAs, 529s, and the rest. We don't have to move it, and we shouldn't pay people a fortune to move it. Two mechanisms, in order of importance.
 
-**First, deprecate.** On enactment, the legacy account types close to new money. No new 401(k)s, IRAs, 529s, HSAs, or the rest, and no new contributions to the ones that already exist. Every dollar of new saving flows into the USA. Existing balances stay put under their current rules (RMDs, ordinary-income withdrawals) and drain naturally over their holders' lifetimes.
+**First, deprecate.** On enactment, the legacy account types close to new money. No new 401(k)s, IRAs, 529s, HSAs, or the rest, and no new contributions to the ones that already exist. Every dollar of new saving flows into the USA. Existing balances stay put under their current rules (RMDs, ordinary-income withdrawals) and drain naturally over their holders' lifetimes. (? do we need a FAQ for "why do we need to deprecate all of these other accounts? can't we still support them? we proably need more evidence about the true cost of supporting them indefinitely...don't want to tech-splain, but if this was a software product, no way we'd have so many different overlapping product features...)
 
 This one move does most of the work. Anyone entering the workforce deals with exactly one account. Payroll, contribution limits, and the entire "which account?" decision simplify immediately. The legacy pile just runs off over the next few decades. The cost is zero and the risk is close to it. Simplification doesn't require a grand migration; it requires closing the door to new complexity.
 
-**Second, an optional conversion, priced honestly.** Anyone who wants to fold their old accounts into their USA can. After-tax accounts (Roth IRAs and 401(k)s, plus 529s, Coverdells, and ABLE accounts) roll in tax-free, since they were funded with after-tax dollars already. Pre-tax accounts (Traditional 401(k), IRA, SEP, SIMPLE) pay tax on the converted balance. Rolled-in balances count against the $5M cap but not the $30,000 annual cap, and the conversion is a separate transition tax that doesn't touch the Lifetime Gains exemption.
-
-The one decision that matters is the conversion rate, and here we break from the usual sales pitch. A conversion "deal" normally dangles a rate below what you'd pay at withdrawal. But that discount isn't free money for the Treasury; it's a loss. Collecting 12% today on a balance that would have been taxed at 30% in twenty years books cash now and gives up more later in present-value terms. A carrot deep enough to convert everyone quickly necessarily deepens the long-run deficit, and that's a line this project won't cross.
+**Second, an optional conversion, priced honestly.** Anyone who wants to fold their old accounts into their USA can. After-tax accounts (Roth IRAs and 401(k)s, plus 529s, Coverdells, and ABLE accounts) roll in tax-free, since they were funded with after-tax dollars already. Pre-tax accounts (Traditional 401(k), IRA, SEP, SIMPLE) pay tax on the converted balance (? we should clarify this - the taxes are probably paid from the balance of the converted amount. Should they be taxed as capital gains? Or income? Income creates gamingand timing rules that I don't like... capital gains could eat up your LTCG exemption which I don't like that much either. So what about just 15%, which is the status quo Cap Gains rate? So there is a bit of a carrot...). Rolled-in balances count against the $5M cap but not the $30,000 annual cap, and the conversion is a separate transition tax that doesn't touch the Lifetime Gains exemption.
 
 So the conversion is priced to be roughly present-value-neutral: the rate is set so the Treasury comes out even between collecting now and collecting later. With no bargain to chase, the people who convert are the ones who genuinely want the simpler life and the certainty of a locked-in rate, not arbitrageurs, and no regressive windfall flows to the largest balances.
 
 It still buys something real. A present-value-neutral conversion pulls revenue *forward*: the government collects tax today that it would otherwise wait decades for, and can retire debt with it now at no net long-run cost. A debt-timing improvement and a faster cleanup, without a giveaway.
 
-> **The conversion rate is a placeholder.** Like the capital-gains numbers in the [Lifetime Gains essay](./lifetime-gains-essay.md), the right figure should come from simulation: model conversion uptake by age, balance, and time horizon, then set the rate at the present-value-neutral point (or wherever a deliberately chosen revenue target lands). Earlier drafts of this proposal floated a flat 12% rate and a $1.2–1.3 trillion one-time haul. Both are retired here, because that framing counted gross cash while quietly spending the future revenue that cash gives up.
-
-There's no deadline and no cliff. Conversion stays open indefinitely; the legacy accounts are simply frozen to new contributions from day one and empty out over time.
+There's no deadline and no cliff. Conversion stays open indefinitely; the legacy accounts are simply frozen to new contributions from day one and empty out over time. (? maybe we need a phase out rather than going cold turkey? 5 years or something?)
 
 ## What About the Employer Match?
 
-Here's a thing that sounds heretical until you do the arithmetic: the USA doesn't have an employer match.
+Here's a thing that sounds heretical until you do the arithmetic: the USA doesn't have an employer match. Here's a more general statement (with details coming in a future post): we need to wean ourselves from complex systems of employer benefits because it negatively impacts employees abilities to switch jobs.
+
+(the $30K cap is just a placeholder - could be more...or less...I'm open to discussions)
 
 Not because matching is evil, but because under a single contribution cap it stops doing anything. Today the match feels like extra tax-advantaged room because it lives in a gap: in 2025 you can defer $23,500 of your own pay into a 401(k), but the *combined* employee-plus-employer limit runs all the way to $70,000. The match fills that $46,500 gap. That's the whole trick. It's bonus shelter for people whose employers are generous and who can already afford to save a lot.
 
@@ -111,7 +118,7 @@ So keep the part that works. The USA's participation engine isn't the match; it'
 
 Auto-enrollment is already federal law in spirit. The SECURE 2.0 Act of 2022 requires most new 401(k) and 403(b) plans to automatically enroll workers at 3% of pay, escalating 1% per year toward a 10% ceiling, with the right to opt out anytime. The USA version is simpler because there's no employer "plan" to sponsor: auto-enrollment becomes a *payroll default*. Any employer that runs payroll defaults new hires into contributing to their existing USA (3% to start, escalating to ~10%, opt out whenever).
 
-That's actually more universal than today's rule, which only fires if your employer bothers to set up a plan. Riding payroll instead of plan sponsorship means the small-shop employee and the gig worker get the same nudge as the Google engineer. The default does the behavioral work the match was pretending to do, without tethering anyone's retirement to the generosity of their boss.
+That's actually more universal than today's rule, which only fires if your employer bothers to set up a plan. Riding payroll instead of plan sponsorship means the small-shop employee and the gig worker get the same nudge as the Google engineer. The default does the behavioral work the match was pretending to do, without tethering anyone's retirement to the generosity of their boss. The employer routes the money as part of payroll, but is not involved in setting up infrastructure. It is analagous to automatic withholding, essentially.
 
 (The 3%-to-10% numbers are stakes in the ground, ported straight from SECURE 2.0. Worth calibrating before this becomes law, not worth bikeshedding now.)
 
@@ -175,7 +182,7 @@ This worry is backwards. Letting people withdraw their contributions doesn't cre
 
 Leakage is a real and large problem today: Americans pull **$60–105 billion a year** out of retirement accounts early. But the dominant source isn't impulse spending, it's job changes. Between 31% and 47% of people cash out when they leave a job, and most who do drain the whole balance. The reason is friction: your 401(k) is tied to the employer you're leaving, rolling it over is confusing, the balance is often small, so people take the cash and eat the penalty. The USA deletes that trigger entirely. It's one account that follows you across every job, so there's no plan to leave and no rollover to fumble. The single biggest hole in the bucket structurally closes.
 
-The flexibility that remains isn't new, either. "Withdraw your contributions anytime" is exactly how Roth IRA contributions already work. And there's still a brake: your contributions come out free, but gains before age 60 are taxed under the Lifetime Gains rules. The tax-free payoff is the reward for patience — a soft lock, not a cage.
+The flexibility that remains isn't new, either. "Withdraw your contributions anytime" is exactly how Roth IRA contributions already work. And there's still a brake: contributions come out free, but gains pulled early for non-qualified reasons pay capital-gains tax (often $0, via the LGF exemption) plus a 10% surcharge. That surcharge is the commitment device. It keeps the account pointed at the long term without trapping your principal, which you can always reach.
 
 The honest tension is that the same flexibility that makes this account progressive (tap it for a house, a startup, an emergency) is also what lets people drain it. You can't offer penalty-free access and a hard lock at the same time. The bet is that we're better off with people saving who know they can reach the money in a crisis than with people not saving at all for fear they can't. Fear of locking money away is one of the top reasons lower-income households don't save in the first place. An escape hatch is what gets them in the door.
 
@@ -203,7 +210,7 @@ The architecture is settled. A handful of numbers and edges are stakes in the gr
 
 - **Auto-enrollment default rate.** Ported from SECURE 2.0 at 3% escalating to 10%. The right default is an empirical question worth real modeling before enactment.
 - **The conversion rate.** Set to roughly present-value-neutral (see "What Happens to the Old Accounts?"), but the actual number needs simulation: model conversion uptake by age, balance, and horizon, then solve for the rate that hits the chosen financial target (PV-neutral, or a deliberately budgeted cost). The old flat-12%/$1.2–1.3T framing is retired.
-- **Medical receipt substantiation.** Keeping a tax-free medical withdrawal (and a medical credit in Phase 2) means keeping some version of expense substantiation. The goal is to piggyback on existing insurer and provider reporting (1095s, EOBs) rather than push paperwork onto filers, but the clean mechanism isn't designed yet.
+- **Substantiation for qualified withdrawals.** Tax-free withdrawals for medical, education, and first-home purposes carry the same proof-of-purpose paperwork those categories require today (1098-T, §213(d) records, closing documents). The goal is to piggyback on existing third-party reporting rather than push it onto filers, but the clean mechanism isn't designed yet. (Most withdrawals are of contributions, which need no substantiation at all.)
 - **State conformity.** Some states tax 529s, HSAs, and retirement accounts on their own terms. Federal reform sets federal treatment only; it doesn't bind the states. The good news is that states overwhelmingly conformed to the federal definitions of Roth IRAs and HSAs, so conformity here is the likely path, not a fight. Out of scope to prescribe, consistent with the project's general deference to state sovereignty.
 
 ## Revenue Impact
@@ -214,7 +221,7 @@ The architecture is settled. A handful of numbers and edges are stakes in the gr
 
 ## Relationship to Other Proposals
 
-- **[Lifetime Gains Framework](./lifetime-gains-essay.md):** The USA's tax treatment of gains (before age 60) uses the Framework's exemption and sliding scale. Rule 5 (Roth Reforms) is fully subsumed by the USA, including its proposed $5M Roth balance cap. There is one balance cap in the system, and it lives in the USA. Rule 5 retires.
+- **[Lifetime Gains Framework](./lifetime-gains-essay.md):** The USA's tax treatment of non-qualified gains withdrawn before age 59½ uses the Framework's exemption and sliding scale. Rule 5 (Roth Reforms) is fully subsumed by the USA, including its proposed $5M Roth balance cap. There is one balance cap in the system, and it lives in the USA. Rule 5 retires.
 - **[Income tax reform](./income-tax-essay.md):** Eliminating deductions and simplifying the rate table reduces the complexity of the Traditional-vs-Roth decision, which the USA eliminates entirely by going post-tax only. The income tax essay's **medical credit** (30% refundable, above a $5,000 threshold) and the USA's tax-free medical withdrawals point at the same expenses, so they can't stack: dollars you cover with a tax-free USA withdrawal don't count toward the medical credit base, and dollars you claim the credit on aren't also pulled tax-free from the USA. One dollar of medical spending, one tax break. This mirrors current law, which already bars deducting expenses paid from an HSA, so it ports cleanly. Enforcement piggybacks on the same insurer and provider reporting the credit relies on.
 - **[FICA reform](./fica-reform-essay.md):** Independent, but they compound. FICA elimination raises take-home pay by ~8%, and converting the now-defunct employer match into wages (see above) raises it further. Both land in a worker's paycheck, where the USA's $30K cap and no income limit make saving the easy default rather than an optimization problem.
 - **[Child payment](./child-payment-essay.md):** The $1,000 seed and the child payment together form the inbound side of the system architecture: every child starts with a savings account and a monthly payment.
@@ -227,7 +234,7 @@ Like the rest of this series, the USA is built to give both sides a win they've 
 
 **From the right:** One account replaces fifteen. An entire layer of regulation (ERISA testing, nondiscrimination rules, safe harbors, plan compliance) simply disappears. No more required minimum distributions forcing you to drain your own savings. No employer mandate. Every American owns a private, market-based account, seeded at birth, that they control for life. This is the ownership society, actually delivered. And retiring the old accounts pulls tax revenue forward to pay down debt now, without raising a single rate.
 
-**From the left:** Universal access closes a participation gap that is currently brutal (36% of the lowest-paid workers have a retirement plan versus 91% of the highest paid). Every child, regardless of family wealth, starts with capital. Going post-tax kills the upside-down deduction that pays the highest earners the biggest subsidy. The $5M cap shuts the door on billion-dollar Roth shelters. Auto-enrollment reaches everyone, not just the people with generous employers.
+**From the left:** Universal access closes a participation gap that is currently brutal (36% of the lowest-paid workers have a retirement plan versus 91% of the highest paid (? do we have a source for this? Also maybe add this earlier?)). Every child, regardless of family wealth, starts with capital. Going post-tax kills the upside-down deduction that pays the highest earners the biggest subsidy. The $5M cap shuts the door on billion-dollar Roth shelters. Auto-enrollment reaches everyone, not just the people with generous employers.
 
 **From the middle:** One account, one set of rules, one cap. You can explain it to your neighbor in a sentence. The money is actually yours, with no embedded tax bill waiting at the end and no need to predict at 25 whether you'll need the money for a house, a hospital, or old age. You save. It grows. You use it when you need it.
 

@@ -108,7 +108,7 @@ Audience: deliberately cross-partisan. The published essays use a "From the righ
 
 ### Phase 5 — Universal Savings Account (USA). **DRAFT.**
 
-**Summary.** Replace 15+ tax-advantaged account types with one universal post-tax savings vehicle. $1K government seed at birth. Roth-style: contributions withdrawable anytime; gains tax-free after age 60 up to $2.5M of withdrawals; qualified medical withdrawals tax-free at any age. Inheritance mirrors current Roth IRA rules.
+**Summary.** Replace 15+ tax-advantaged account types with one universal post-tax savings vehicle, designed as a *superset* of the accounts it replaces. $1K government seed at birth. Roth-style: contributions withdrawable anytime; gains tax-free for qualified withdrawals (retirement after 59½, higher education, medical, first home — ported definitions); non-qualified early gains taxed under LGF. Inheritance mirrors current Roth IRA rules.
 
 **Key mechanics.**
 - **$1,000 government seed at birth** (annual cost ~$3.6B for 3.6M births/yr)
@@ -117,12 +117,14 @@ Audience: deliberately cross-partisan. The published essays use a "From the righ
 - **Post-tax only** — no pre-tax/Traditional option (kills the Traditional-vs-Roth decision)
 - **No employer match construct** — match collapses into salary under the single cap; deletes ERISA testing, safe harbor, true-ups, vesting
 - **Auto-enrollment as payroll default** — 3% → ~10% (SECURE 2.0 port); the participation engine in place of the match
-- Contributions withdrawable anytime, no penalty
-- Qualified medical withdrawals tax-free at any age (§213(d) definition; no double-dip with Phase 2 medical credit)
+- Contributions withdrawable anytime, tax-free, no penalty
+- **Gains tax-free for QUALIFIED withdrawals (superset design, June 2026):** retirement (after 59½), higher education, medical (§213(d)), first home. Ported definitions (§529 / §213(d) / IRA first-time-homebuyer) — nothing new to define. This is what makes the USA a true superset of 529 + HSA + Roth + IRA, which is what gets people to convert. No double-dip on the medical case with the Phase 2 medical credit.
+- **Non-qualified early gains (before 59½, non-purpose):** capital-gains tax under LGF (long-term treatment regardless of internal holding period; $0 for most via the $2M exemption) **PLUS a 10% surcharge** (restored June 2026 per reader feedback — the LGF exemption zeroes the tax for most people, so the surcharge is the actual commitment device keeping the USA a retirement account, not a checking account). Falls only on non-qualified early gains; never on contributions or qualified withdrawals.
+- **Onboarding (added June 2026):** no government custodian. Certified private brokerages offer a "baseline tier" ($0 fees/minimums, low-cost index target-date default, institutional expense-ratio cap); a stateless federal clearinghouse round-robin-assigns silent savers to a certified provider; one-click portability. The $0-CAC effect makes small-dollar accounts profitable to serve → flips industry from obstacle to constituency. Dependencies/risks: federal account-matching IT, KYC for lottery-created accounts, lottery quality floor. (Credit: reader proposal.)
+- **$2.5M tax-free-withdrawal sublimit DROPPED** (June 2026) for simplicity; the $5M balance cap is the sole anti-shelter limit. (Flagged for Matt to confirm vs. anti-mega-shelter concern.)
 - **529 / Coverdell / ABLE roll in tax-free** (count to $5M cap, not the $30K annual cap)
-- **Pre-age-60 gains:** taxed under LGF (USA gains use LGF exemption and sliding scale)
-- **Post-age-60:** tax-free up to $2.5M total withdrawals (indexed); above $2.5M, LGF rates
 - **No required minimum distributions**
+- 59½ is a familiarity port from Roth/IRA (acknowledged-arbitrary age; round 60/65 considered)
 
 **Inheritance (Roth IRA port; SECURE Act 2019).**
 - **Spouse:** treat-as-own rollover; lifetime continuation; no drain

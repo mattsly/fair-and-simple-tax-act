@@ -9,27 +9,21 @@ twitter:
 
 # America's Most Expensive Technical Debt, Part 1: Capital Gains
 
-### A software entrepreneur's case for simple, fair and durable capital gains tax reform
+### A proposal for simple, fair and durable capital gains tax reform that Closes “Buy, Borrow, Die” and Estate Tax evasion loopholes and supports universal wealth building.
 
 *By Matt Sly*
 
 ---
 
-## The Algorithm Nobody Designed
+Capital gains taxation is one of the most tangled corners of the tax code as well as one of the most consequential. A century of “patches” has produced a web of preferential rates, holding-period rules, exclusions, deferrals, and estate-planning workarounds. Capital gains tax policy enables the machinery behind "buy, borrow, die" (the reason billionaires can pay a lower effective rate than teachers) and creates a quiet distortion of where capital actually flows: investors hold aging assets for decades not because they're the best use of money, but because selling triggers a tax bill that dying doesn't.
 
-A billionaire can live tax-free in America. Not through some exotic offshore scheme, but through an entirely legal sequence called "buy, borrow, die." Buy appreciated assets. Borrow against them to fund your lifestyle (loans aren't income, so no tax). Die. Your heirs inherit those assets with the tax basis reset to market value, erasing a lifetime of gains. The lifetime tax on those gains: zero.
+So let’s refactor it. Five rules can replace a century of accretion. These rules cut capital gains taxes for 95%+ of Americans, close buy-borrow-die, eliminate roughly 10-15% of the Internal Revenue Code (including the AMT, the NIIT, and the estate tax), and generate an estimated $100 billion per year in net new revenue.
 
-This isn't tax fraud. It's "tax planning." And it's just one symptom of a tax code that has spent a century accumulating well-intentioned fixes on top of well-intentioned fixes. [A hedge fund manager pays a lower rate than the teacher who taught her kids](https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax). A couple selling the business they built over 30 years pays tax on decades of inflation, not real profit. An entire industry exists to help wealthy families avoid the estate tax, while the AMT ([created in 1969 to catch 155 ultra-wealthy non-payers](https://taxfoundation.org/taxedu/glossary/alternative-minimum-tax-amt/)) now ensnares millions of upper-middle-class families instead.
-
-I've spent twenty years in software, and I've seen the tax code from most angles available to an American: salaried employee, startup employee with options, big tech employee paid in RSUs, founder with an exit, angel investor. From that vantage point, the diagnosis is obvious. The federal tax code is America's most expensive piece of technical debt. It is spaghetti code: a tangle of hotfixes managing the side effects of previous hotfixes, and nobody has the political will to refactor it.
-
-So let's refactor it. Five rules can replace a century of accretion. Those rules cut capital gains taxes for 95%+ of Americans, close buy-borrow-die, eliminate roughly 10-15% of the Internal Revenue Code (including the AMT, the NIIT, and the estate tax), and generate an estimated $100 billion per year in net new revenue.
+Here we go:
 
 ---
 
 ## The Capital Gains Refactor: Five Rules
-
-Here's the proposal. Five rules replace a century of accretion.
 
 > Note: the specific numbers below are "stakes in the ground." They're open for debate and much less important than the general framework.
 
