@@ -7,6 +7,9 @@ Unresolved questions surfaced during development but not yet settled. These are 
 ### Charitable credit calibration (50% credit, 5% liability cap)
 Numbers are decided as the stake in the ground (per `decisions-log.md`). Calibration validation still open: no donor-behavior modeling has been done to test whether the 50%/5% pair optimally balances incentive strength against the zero-out-your-taxes abuse pattern. The numbers may need to move once empirical modeling exists.
 
+### Charitable credit base for appreciated assets: FMV or basis? (deferred from LGF flagship, June 2026)
+The LGF essay punts on this (see `decisions-log.md`): it keeps the status quo FMV deduction for gifts of appreciated assets and hands the reform to the charitable-giving companion proposal. The open question for that proposal: when the charitable deduction becomes a credit (income-tax essay: 25% credit, 3% liability cap), should the credit base for appreciated assets equal **fair market value** or the donor's **basis**? Current lean: **FMV** — it matches the donor's actual sacrifice and the charity's actual benefit, and aligns with current law plus Canada/UK norms. Flagged to reconsider: the basis version is the progressive / Madoff-aligned alternative that stops donors from getting credit on never-taxed appreciation. Entangled with the DAF/foundation warehousing problem (no-payout DAFs, 5% foundation payout) the companion proposal must also resolve.
+
 ### Medical credit calibration (30% refundable, $5K threshold)
 Numbers are decided as the stake in the ground (per `decisions-log.md`). Open work distinct from the structural choice: should the threshold scale with income or household size? Should the percentage phase up for very large expenses (e.g., 30% below $50K, 50% above)? How does the credit interact with ACA subsidies, which remain in place?
 
