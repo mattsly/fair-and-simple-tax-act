@@ -40,14 +40,14 @@ Here we go:
 
 *Transfers to qualified charities are not realization events. The appreciation exits the private economy. See "What About Charitable Giving?" below for mechanics.*
 
-**Rule 4: Basis is indexed to inflation.** Your cost basis is adjusted by CPI, so you're taxed on real economic gains, not phantom ones. A house bought for $200,000 in 1995 has a CPI-adjusted basis of roughly $400,000 in 2026. Indexing applies symmetrically to gains and losses. The government doesn't get to profit from inflation anymore.
+**Rule 4: Basis is indexed to inflation.** Your cost basis is adjusted by CPI, so you're taxed on real economic gains, not phantom ones. A house bought for $200,000 in 1995 has a CPI-adjusted basis of roughly $400,000 in 2026. Indexing applies symmetrically to gains and losses.
 
-**Rule 5: Roth reform.** Four changes to simplify Roth accounts and close the [Peter Thiel loophole](https://www.propublica.org/article/lord-of-the-roths-how-tech-mogul-peter-thiel-turned-a-retirement-account-for-the-middle-class-into-a-5-billion-dollar-tax-free-piggy-bank), where a hedge fund manager turned a middle-class retirement vehicle into a $5 billion tax shelter:
+**Rule 5: Roth reform.** These changes to simplify Roth accounts and close the [Peter Thiel loophole](https://www.propublica.org/article/lord-of-the-roths-how-tech-mogul-peter-thiel-turned-a-retirement-account-for-the-middle-class-into-a-5-billion-dollar-tax-free-piggy-bank).
 
-1. Remove the income cap for direct Roth contributions
-2. Raise the annual contribution limit to $15,000 (from $7K/$8K)
-3. Cap the total Roth balance at $5 million per person (growth above this continues tax-free, but new contributions freeze)
-4. Close the "backdoor Roth" conversion entirely
+1. (Quid) Remove the income cap for direct Roth contributions (currently higher earners cannot contribute to a Roth) and raise the annual contribution limit to $15,000 (from $7K/$8K)
+2. (Pro Quo) Cap the total Roth balance at $5 million per person (growth above this continues tax-free, but new contributions freeze) and close the "backdoor Roth" conversion entirely.
+
+(Rule 5 is the most complicated and least consequential in terms of impact, but we need to include it; otherwise we leave a loophole for perpetual tax-free growth)
 
 That's it. Five rules. From these, an extraordinary amount of existing tax infrastructure becomes unnecessary.
 
@@ -61,9 +61,9 @@ That's it. Five rules. From these, an extraordinary amount of existing tax infra
 
 The five rules make entire categories of tax law redundant.
 
-**The Alternative Minimum Tax.** Created in 1969 because [155 wealthy Americans paid zero income tax that year](https://taxfoundation.org/taxedu/glossary/alternative-minimum-tax-amt/). When there are no exclusions to exploit, the AMT's purpose evaporates. It's been functionally gutted for high earners anyway since the 2017 tax cuts, but it still ensnares upper-middle-class families in high-tax states. Good riddance.
+**The Alternative Minimum Tax.** Created in 1969 because [155 wealthy Americans paid zero income tax that year](https://taxfoundation.org/taxedu/glossary/alternative-minimum-tax-amt/). When there are no exclusions to exploit, the AMT's purpose evaporates. It's been functionally gutted for high earners anyway since the 2017 tax cuts, but it still ensnares upper-middle-class families in high-tax states. No more "shadow" tax code.
 
-**The Net Investment Income Tax.** A 3.8% surtax bolted onto the Affordable Care Act in 2010 to fund Medicare. Under this framework, gains above the exemption are taxed at rates far exceeding 3.8%. The NIIT becomes redundant by design.
+**The Net Investment Income Tax.** A 3.8% surtax bolted onto the Affordable Care Act in 2010 to fund Medicare. Under this framework, gains above the lifetime exemption are taxed at rates far exceeding 3.8%, raising total revenue. Medicare funding comes out of the general fund.
 
 **The estate tax.** A tax that looks progressive on paper and fails in practice. The statutory rate is 40%. The effective rate on well-planned estates is typically 10-15% because an entire industry exists to help wealthy families avoid it. Under this framework, death is a realization event and all unrealized gains are taxed on the decedent's final return. The replacement mechanism collects more revenue from large estates with fewer loopholes. (Full argument below in [The Estate Tax Question](#the-estate-tax-question).)
 
@@ -155,7 +155,7 @@ This framework replaces all of it with a mechanism that actually collects: death
 
 Here's the elegant part. Today, a family lowballs the value of a closely-held business or an artwork to shrink the estate, and nothing pushes back — the IRS is the only party who wants a higher number. Under this framework, the date-of-death valuation does double duty: it's the decedent's sale price *and* the heir's new cost basis. Lowball it and you shave the final return today, but you hand the heir a lower basis — so when the heir eventually sells, they realize a bigger gain, owe a bigger tax, and burn more of their own lifetime exemption doing it. The two sides of the family are no longer on the same team. The number polices itself, the way an arm's-length sale does, because someone always has a stake in pushing it up. Dynasty trusts lose their magic for the same reason: trust assets are deemed realized at each generational transfer, so wealth can't skip a generation untaxed.
 
-The liquidity objection (how do heirs pay on an illiquid farm or business without a fire sale?) has a clean answer: a 15-year IRS lien, like existing estate-tax installment plans. The heir pays out of operating cash flow over fifteen years; a business that genuinely can't service that has a valuation problem, not a liquidity crisis. So the trade is simple — abolish a tax that collects [$20-25 billion a year](https://taxpolicycenter.org/briefing-book/how-many-people-pay-estate-tax) badly, replace it with one that collects three to five times more from the estates that matter. Progressives get more revenue and no escape routes. Conservatives get the repeal they've wanted for a generation.
+The liquidity objection (how do heirs pay on an illiquid farm or business without a fire sale?) has a clean answer: a 15-year IRS lien, like existing estate-tax installment plans. The heir pays out of operating cash flow over fifteen years; a business that genuinely can't service that has a valuation problem, not a liquidity crisis. So the trade is simple — abolish a tax that collects [$20-25 billion a year](https://taxpolicycenter.org/briefing-book/how-many-people-pay-estate-tax) badly, replace it with one that collects three to five times more from the estates that matter. Progressives get more revenue and no escape routes. Conservatives get the repeal they've wanted for a generation. (Though I am cognizant that Conservatives will most likely dust off their "Death Tax" propaganda to oppose this approach.) (Though I am cognizant that Conservatives will most likely dust off their “Death Tax” propaganda to oppose this approach.)
 
 ---
 
@@ -320,6 +320,6 @@ But that distance isn't fixed. It's a design choice. When we refactor the design
 
 ---
 
-*Matt Sly is a software entrepreneur with twenty years of experience building products used by millions. The Lifetime Gains Framework and supporting analysis are available at [mattsly.com](https://www.mattsly.com). This essay is adapted from a longer policy document developed as part of The Tax Refactor.*
+*Matt Sly is a software entrepreneur with twenty years of experience building products used by millions.*
 
 *Revenue estimates, sensitivity analysis, and editorial assistance provided by Claude AI. All policy positions and framework design are the author's own.*
