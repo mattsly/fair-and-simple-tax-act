@@ -74,3 +74,17 @@ The abundance crowd has been making this argument across housing, energy, and in
 So here we are - even with an initiative like this that is being championed by private sector leaders with plenty of experience building and launching products...we still end up with the wrong government product experience.
 
 But Trump Accounts are a symptom, albeit a severe one. The disease is that when it comes to the tax code, we keep shipping new products when we should be simplifying and improving existing ones. We have a myriad of important issues that tax reform (or refactoring!) can help address: income inequality, healthcare access, universal wealth building. The question I'm going to keep pulling at across this series: how do we treat the disease, not just introduce more symptoms?
+
+---
+
+## Postscript, July 2026: The Part They Got Right
+
+*Added after the accounts launched on July 4, 2026.*
+
+An update, and some credit where I was stingy with it. Now that the accounts are live, the most interesting thing about them turns out to be something I mentioned above only in passing (my third bullet, "allow universal funding") and should have made a headline: **anyone can fund them.**
+
+Michael and Susan Dell [pledged $6.25 billion](https://www.foxbusiness.com/economy/michael-dell-celebrates-americas-250th-birthday-gift-seed-american-dream-millions-kids), a $250 deposit for roughly 25 million kids in lower-income ZIP codes. SpaceX president Gwynne Shotwell [pledged SpaceX stock](https://www.cnbc.com/2026/07/06/spacex-spcx-gwynne-shotwell-stock-trump-accounts.html), a gift Trump pegged at $325 million, toward the accounts of more than two million kids. That's on top of [the Treasury's own $1.4 billion in seed money](https://fortune.com/2026/07/06/trump-rings-opening-bell-trump-accounts-treasury-billion-dell/).
+
+Notice what actually happened there. Philanthropy at this scale didn't exist for children's savings two years ago. Not because billionaires suddenly got more generous, but because there was finally an address to send the money to. Build a deposit rail that reaches nearly every kid in the country, and the money shows up within months.
+
+Everything else I wrote here stands. It's still the wrong account: a worse 529 for education, a worse brokerage for a house, a worse Roth for retirement, one more can of alphabet soup. But universal fundability is a genuinely new piece of civic infrastructure, and it's the part worth keeping when we build the right account. That proposal, one account to replace the whole soup, is coming soon in this series.

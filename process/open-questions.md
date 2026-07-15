@@ -47,6 +47,14 @@ The published flagship essay states $45-170B/year, midpoint ~$108B. Internal doc
 ### Interaction effects between components
 We've modeled components largely in isolation. When you stack income tax rate table changes with deduction elimination with FICA reform with USA conversion, the interactions are non-trivial. No integrated model yet.
 
+## Employer Transition
+
+### Match pass-through: how hard can the conversion rule be?
+The USA essay commits to a one-time rule: employers offering a match at enactment must fold its dollar value into base pay. Open design work: what's the base ("dollar value" = trailing-year actual match paid? the formula's expected value?), how it applies to non-matched employees at matching firms, whether small employers get a glide path, and what enforcement looks like (payroll audit? attestation?). Beyond the one-time conversion, pass-through relies on wage visibility and labor-market competition; is that enough, or does the umbrella employer-benefits essay need a stronger mechanism for the later FICA/ESNC transition?
+
+### Interim payroll-tax treatment if USA ships before FICA reform
+Converted match dollars paid as wages bear ~15.3% combined FICA that match dollars escape today (~$490/yr on a typical $3,200 match; roughly $9-10B/yr economy-wide). Current lean (July 2026): accept it and say so in the essay — it's small, honest, and Social Security-solvency-positive, and the match's FICA exemption was a loophole. Rejected for now: a sunsetting FICA exclusion for payroll-routed USA deposits (invites relabeling wages as "contributions" — an 8% ESNC dodge worth ~$2,400/employee/yr at the $30K cap once ESNC exists); making FICA reform a prerequisite (breaks modularity). Revisit if employer-side politics demand a sweetener.
+
 ## Structural
 
 ### Corporate tax scope-out is convenient but unstable

@@ -136,6 +136,8 @@ For assets acquired by gift or deemed realization at death, the basis date reset
 
 ### Rule 5: Roth Reform
 
+> **Update (July 2026):** Rule 5 is superseded by the Universal Savings Account design in the forthcoming "One Account to Rule Them All" proposal, which absorbs the $5M balance cap (one cap, living in the USA) and replaces Roth-specific reform with account consolidation. The text below is retained as the original standalone design; it applies only if the LGF is enacted without the USA proposal.
+
 Four changes to Roth IRAs:
 
 1. **Remove income limits** for direct Roth contributions (currently $161K single / $240K married)
