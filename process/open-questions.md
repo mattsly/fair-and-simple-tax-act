@@ -47,6 +47,11 @@ The published flagship essay states $45-170B/year, midpoint ~$108B. Internal doc
 ### Interaction effects between components
 We've modeled components largely in isolation. When you stack income tax rate table changes with deduction elimination with FICA reform with USA conversion, the interactions are non-trivial. No integrated model yet.
 
+## USA Room Accrual
+
+### Room accrual start: birth or age 18?
+Room banking is decided (see decisions-log, July 2026); the accrual start date is not. From birth is consistent with the $1K seed and gifts-to-kids fundability, but lets well-off parents shelter $540K per child by 18 (partially blunted by the fact that capacity is equal for all kids and unused room banks for the poor kid's later use). Age 18 is Canada's rule and kills the optics problem, but then kid-directed gifts (Dell, Shotwell) need their own room source — a carve-out, which is its own smell. Related: new citizens/residents should accrue from arrival, not birth; define "arrival" (residency? citizenship? visa class?).
+
 ## Employer Transition
 
 ### Match pass-through: how hard can the conversion rule be?
