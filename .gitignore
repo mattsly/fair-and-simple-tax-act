@@ -4,3 +4,6 @@ Thumbs.db
 
 # Jekyll build output
 _site/
+
+# Generated Substack exports (rebuild anytime with `make substack`)
+internal/substack-exports/

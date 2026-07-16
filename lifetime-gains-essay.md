@@ -5,6 +5,8 @@ description: "A software entrepreneur's case for radically simple capital gains 
 image: /assets/lifetime-gains-framework.png
 twitter:
   card: summary_large_image
+substack_slug: the-lifetime-gains-framework
+substack_synced: 2026-07-16
 ---
 
 # America's Most Expensive Technical Debt, Part 1: Capital Gains
@@ -155,7 +157,9 @@ This framework replaces all of it with a mechanism that actually collects: death
 
 Here's the elegant part. Today, a family lowballs the value of a closely-held business or an artwork to shrink the estate, and nothing pushes back — the IRS is the only party who wants a higher number. Under this framework, the date-of-death valuation does double duty: it's the decedent's sale price *and* the heir's new cost basis. Lowball it and you shave the final return today, but you hand the heir a lower basis — so when the heir eventually sells, they realize a bigger gain, owe a bigger tax, and burn more of their own lifetime exemption doing it. The two sides of the family are no longer on the same team. The number polices itself, the way an arm's-length sale does, because someone always has a stake in pushing it up. Dynasty trusts lose their magic for the same reason: trust assets are deemed realized at each generational transfer, so wealth can't skip a generation untaxed.
 
-The liquidity objection (how do heirs pay on an illiquid farm or business without a fire sale?) has a clean answer: a 15-year IRS lien, like existing estate-tax installment plans. The heir pays out of operating cash flow over fifteen years; a business that genuinely can't service that has a valuation problem, not a liquidity crisis. So the trade is simple — abolish a tax that collects [$20-25 billion a year](https://taxpolicycenter.org/briefing-book/how-many-people-pay-estate-tax) badly, replace it with one that collects three to five times more from the estates that matter. Progressives get more revenue and no escape routes. Conservatives get the repeal they've wanted for a generation. (Though I am cognizant that Conservatives will most likely dust off their "Death Tax" propaganda to oppose this approach.) (Though I am cognizant that Conservatives will most likely dust off their “Death Tax” propaganda to oppose this approach.)
+The liquidity objection (how do heirs pay on an illiquid farm or business without a fire sale?) has a clean answer: a 15-year IRS lien, like existing estate-tax installment plans. The heir pays out of operating cash flow over fifteen years; a business that genuinely can't service that has a valuation problem, not a liquidity crisis. So the trade is simple — abolish a tax that collects [$20-25 billion a year](https://taxpolicycenter.org/briefing-book/how-many-people-pay-estate-tax) badly, replace it with one that collects three to five times more from the estates that matter. Progressives get more revenue and no escape routes. Conservatives get the repeal they've wanted for a generation. (Though I am cognizant that Conservatives will most likely dust off their “Death Tax” propaganda to oppose this approach.)
+
+A scope note, because precision matters here. The estate tax's historical job was catching wealth the income tax never touched, and that's the job it failed at and the job this framework takes over: tax the appreciation at realization, no step-up, no discount games. Whether inheriting $50 million should *itself* count as income to the recipient (the way a $50 million salary does) is a different question. NYU's Lily Batchelder has made [the rigorous case](https://www.hamiltonproject.org/publication/policy-proposal/leveling-the-playing-field-between-inherited-income-and-income-from-work-through-an-inheritance-tax/) for taxing inheritances as income above a high threshold. This framework is deliberately silent on that question. Nothing here forecloses it, and nothing here requires it.
 
 ---
 

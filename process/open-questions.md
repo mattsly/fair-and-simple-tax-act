@@ -52,6 +52,11 @@ We've modeled components largely in isolation. When you stack income tax rate ta
 ### Room accrual start: birth or age 18?
 Room banking is decided (see decisions-log, July 2026); the accrual start date is not. From birth is consistent with the $1K seed and gifts-to-kids fundability, but lets well-off parents shelter $540K per child by 18 (partially blunted by the fact that capacity is equal for all kids and unused room banks for the poor kid's later use). Age 18 is Canada's rule and kills the optics problem, but then kid-directed gifts (Dell, Shotwell) need their own room source — a carve-out, which is its own smell. Related: new citizens/residents should accrue from arrival, not birth; define "arrival" (residency? citizenship? visa class?).
 
+## Social Security Interaction (for the FICA/SS essay)
+
+### USA withdrawals are invisible to SS benefit taxation
+Because USA withdrawals are tax-free, they don't enter provisional income, so USA retirees escape the existing income-based taxation of SS benefits that Traditional-401(k) retirees face today (mirrors current Roth treatment, but at much larger scale once the USA is the only account). Is that a feature (consistent post-tax design) or a quiet base erosion the FICA/SS essay must address? Note: means-testing SS against USA *balances* is decided-rejected (see decisions-log July 2026); this item is only about the income-side interaction.
+
 ## Employer Transition
 
 ### Match pass-through: how hard can the conversion rule be?

@@ -70,11 +70,11 @@ Three consequences of this rule:
 
 1. Draft lives in `drafts/`.
 2. When ready, move to repo root and add Jekyll frontmatter (`layout: plain`, `title`, `description`, `image`, `twitter`).
-3. Build locally: `make serve` (renders at `http://localhost:4000/fair-and-simple-tax-act/`).
-4. Update `index.md` "What's Next" → link the new essay.
-5. Update `process/backlog.md` → move entry from "In Progress" to "Done."
-6. Commit, push to `main`. Pages deploys automatically.
-7. Copy markdown into Substack, hand-format the image, schedule the post.
+   1. Build locally: `make serve` (renders at `http://localhost:4000/fair-and-simple-tax-act/`).
+3. Update `index.md` "What's Next" → link the new essay.
+4. Update `process/backlog.md` → move entry from "In Progress" to "Done."
+5. Commit, push to `main`. Pages deploys automatically.
+6. Copy markdown into Substack, hand-format the image, schedule the post.
 
 ## Contributing
 

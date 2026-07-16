@@ -5,6 +5,8 @@ description: "A software entrepreneur's case for scrapping the tax deduction —
 image: /assets/deduction-hack.png
 twitter:
   card: summary_large_image
+substack_slug: the-deduction-hack
+substack_synced: 2026-05-21
 ---
 
 # Retire the Personal Tax Deduction

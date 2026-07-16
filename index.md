@@ -8,6 +8,8 @@ twitter:
 redirect_from:
   - /matt-sly-introducing-the-tax-refactor.html
   - /matt-sly-introducing-the-tax-refactor/
+substack_slug: introducing-the-tax-refactor
+substack_synced: 2026-04-08
 ---
 
 # Introducing "The Tax Refactor"
