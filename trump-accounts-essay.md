@@ -13,18 +13,18 @@ And yet...the product delivery is awful.
 Let's dig into the newly announced 530A (aka "Trump Accounts") and see if we can dissect how such a compelling vision ultimately manifested in such a terrible product launch.
 
 ## What is a Trump Account?
-Starting with the nuts and bolts: what is a Trump 530A?
+Starting with the nuts and bolts: what is a [Trump 530A](https://trumpaccounts.gov)?
 - A new account type for kids - even with its own app
 - If your kid was born after 2025, you get $1,000 seed - *free money!*
 - Parents can contribute *after tax* money, which then grows tax free
 - Accounts can receive up to $5,000 per year, $2,500 of which can come from employers
 - Child gets control at age 18
-- After 18, you can take withdrawals without penalty for "qualified expenses" (education, a home, starting a business) - but (like a traditional IRA) *gains are taxed as income*
+- After 18, you can take withdrawals without penalty for "qualified expenses" (education, a home, starting a business) - but (like a traditional IRA) *gains are taxed as income* (even though, unlike a traditional IRA, contributions are not pre-tax)
 - Funds are invested in a (as yet unnamed) "diversified investment vehicle designed to maximize long-term growth while minimizing risk."
 
 ## What is it good for?
 
-The tl;dr is that unless your kid qualifies for the free money, there is really no reason to open a Trump account. And even if you do qualify for the free money, just open the account as a vehicle to collect it, but don't deposit any of your own money.
+The tl;dr is that unless your kid qualifies for the free money, there is really no reason to open a Trump account. And even if you do qualify for the free money, just open the account as a vehicle to collect it, but don't deposit any of your own money. This is hardly the outcome that Invest America must have envisioned.
 
 Why? Let's examine the potential investment objectives:
 
@@ -37,6 +37,8 @@ Why? Let's examine the potential investment objectives:
 So we have basically just reinvented a (heavily marketing and politicized) new form of a Traditional IRA without the major benefit of tax deductible contributions. 
 
 ## What done right would have looked like
+
+The bigger gripe I have with this is that we did not need yet another account. We are perpetuating this bizarre jigsaw puzzle of overlapping accounts and kicking off the (highly regressive) dynamic where the tax-optimization industrial complex starts outlining the optimal strategy for tax-optimized growth.
 
 And we are adding this new account type with its own new rules to the existing alphabet soup of 529s, Coverdells, IRAs, HSAs, 401(k)s, 403(b)s, UGMAs, etc... that very few people understand and fully utilize to their potential already.
 

@@ -6,7 +6,7 @@ image: /assets/deduction-hack.png
 twitter:
   card: summary_large_image
 substack_slug: the-deduction-hack
-substack_synced: 2026-05-21
+substack_synced: 2026-07-16
 ---
 
 # Retire the Personal Tax Deduction
@@ -43,6 +43,7 @@ Tax = f(
   filing_status,
   above_the_line_adjustments (Schedule 1: student loan interest, HSA, educator expenses, etc.),
   schedule_1A_deductions (new in 2025: tips, overtime, car loan, senior),
+  charitable_giving (above 0.5% AGI floor, below 60% AGI ceiling),
   standard_deduction_amount,
   itemized_total (only if it exceeds standard),
     └─ mortgage_interest (up to $750K of debt),
@@ -77,7 +78,7 @@ Imagine groceries worked this way. You fill a cart, and at checkout, before she 
 - Are your medical expenses more than 7.5% of your annual income?
 - How much did you pay in state and local taxes?
 
-Your answers set your discount. So picture two shoppers with identical $200 carts. The first has a big mortgage, a generous year of giving, and a stack of state tax payments; she walks out paying $137. The second, a renter who gave to his church but didn't clear the threshold, takes the automatic discount and pays $163. Same groceries, different price, the only variable being their answers to a quiz about their personal lives.
+Your answers set your discount. So picture two shoppers with identical $200 carts. The first has a big mortgage, a generous year of giving, and a stack of state tax payments; she walks out paying $137. The second, a renter, takes the automatic discount and pays $163. Same groceries, different price, the only variable being their answers to a quiz about their personal lives.
 
 You'd think the cashier had lost her mind -- none of these questions have anything to do with groceries. But that's exactly what we've done to ourselves on the income side of our family ledgers: our take-home is determined based on a quiz about behaviors that have nothing to do with what we earned. Apples, meet oranges. (I'm just going to dwell on the grocery visual just long enough to get that in 😒)
 
@@ -97,7 +98,7 @@ So we kept the machinery of the old net-income paradigm and stuffed it with subs
 
 The grocery store already made the confusion vivid. But confusion isn't the real damage. This is:
 
-A deduction shrinks your taxable income, so what it's worth depends on your top tax rate. Take the same $1,000 gift to charity. A teacher in the 12% bracket gets nothing back, because she takes the standard deduction, like [about 90% of filers do](https://taxpolicycenter.org/briefing-book/what-are-itemized-deductions-and-who-claims-them). A hedge-fund manager in the 37% bracket gets $370. Same gift, same public good, but the federal government values his generosity at $370 and hers at $0. A deduction quietly says a rich person's charitable impulse is worth more than a teacher's. A flat credit fixes it in one move: every $1,000 gift earns the same match, itemizer or not.
+A deduction shrinks your taxable income, so what it's worth depends on your top tax rate. Take the same $1,000 gift to charity. A teacher in the 12% bracket can now claim the new standard charity deduction, but her tax savings are capped at just $120. A hedge-fund manager in the 37% bracket who itemizes gets $370. Same gift, same public good, but the federal government values his generosity at more than three times hers. Even with the recent fix for non-itemizers, a deduction quietly says a rich person's charitable impulse is worth more than a teacher's. A flat credit fixes it in one move: every $1,000 gift earns the exact same match, regardless of your tax bracket.
 
 Not a quirk. A design failure. And one we can fix.
 
@@ -114,6 +115,8 @@ Not every deduction is the same animal, and the difference is the whole game. So
 - **Tax-deferred saving** (traditional IRAs and the like). This is a subsidy too, but a different kind, it rewards the *timing* of saving rather than rebating a purchase, so a credit doesn't map cleanly onto it. Leave it for now; a future essay argues the whole retirement-savings tangle, IRAs, 401(k)s, HSAs, should collapse into a single Universal Savings Account.
 
 The middle pile is where the design goes wrong. A deduction says: this dollar wasn't income. That's true for the cost of earning income, but it's a fiction for charity, mortgage interest, or state taxes. If you earn $100,000 and give $5,000 to your church, your income is still $100,000, the gift is something you *did* with your money, not a cut in what you made. Treating it as negative income is a category error: we're using the income-definition mechanism to hand out a behavioral subsidy.
+
+Congress recently acknowledged the unfairness of this setup by passing a standard charitable deduction for non-itemizers. But because they insisted on sticking with the legacy deduction architecture instead of moving to a credit, they blundered right into the same category error. They didn't fix the underlying math; they just extended a broken upside-down subsidy to the standard return, ensuring a wealthy donor's gift is still valued at three times a teacher's.
 
 There's a structural problem too. Deductions are tightly coupled: you can't judge any single one on its own, because you have to add them all up just to know whether to itemize at all. Credits are modular, each stands alone, gets claimed on its own, and can be reported by a third party without reference to any other. The tax code already runs clean microservices like this, your 401(k) is one: handled at the paycheck, reported on your W-2, never part of the itemize calculus. Deductions are the tangled legacy module that never got refactored.
 

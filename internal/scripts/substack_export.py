@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
-"""Export a repo essay to a Substack-ready markdown file, and track sync drift.
+"""Export a repo essay to Substack-ready form, and track sync drift.
 
 Usage:
-  python3 internal/scripts/substack_export.py <essay.md>   # export one essay
+  python3 internal/scripts/substack_export.py <essay.md>   # write .substack.md
+  python3 internal/scripts/substack_export.py --copy <essay.md>
+        # render to rich text and put it on the macOS clipboard, ready to
+        # paste straight into the Substack editor (replaces md-to-substack).
+        # Also writes a .substack.html preview you can open in a browser.
+        # Requires the 'markdown' package once: pip3 install markdown
   python3 internal/scripts/substack_export.py --status     # sync drift report
 
-Export rewrites relative links so a single copy-paste into
-md-to-substack -> Substack produces no broken links:
-
-  ./foo.md          -> that essay's Substack post (slug from its frontmatter),
-                       falling back to its mattsly.com URL if it has no slug
-  ./foo.html        -> https://www.mattsly.com/fair-and-simple-tax-act/foo.html
-  ./assets/bar.png  -> https://www.mattsly.com/fair-and-simple-tax-act/assets/bar.png
-  #anchor           -> https://www.mattsly.com/fair-and-simple-tax-act/<essay>.html#anchor
+Link rewriting (both modes):
+  ./foo.md, ./foo.html -> that essay's Substack post (slug from frontmatter),
+                          falling back to its mattsly.com URL if no slug
+  ./assets/bar.png     -> https://www.mattsly.com/fair-and-simple-tax-act/assets/bar.png
+  #anchor              -> https://www.mattsly.com/fair-and-simple-tax-act/<essay>.html#anchor
 
 Slugs live in each essay's YAML frontmatter:
 
@@ -25,7 +27,7 @@ essay's last Git commit date against substack_synced and flags drift.
 FALLBACK_META covers published essays that don't yet have YAML frontmatter
 (adding frontmatter changes which github-pages plugins process them, so
 migrate those only after eyeballing `make serve`). Frontmatter wins when both
-exist.
+exist. ADD NEW POSTS' SLUGS TO FRONTMATTER ON PUBLICATION DAY.
 """
 
 import re
@@ -38,13 +40,14 @@ SUBSTACK = "https://taxrefactor.substack.com/p/"
 
 # stem -> (slug, last-synced date). Only for essays WITHOUT frontmatter.
 FALLBACK_META = {
-    "warren-wealth-tax-oped-v7": ("senator-warren-is-right-about-the", "2026-04-09"),
-    "gemstone-essay": ("the-magic-gemstone", "2026-03-28"),
-    "dear-tech-bros": ("dear-tech-bros-stop-whining-about", "2026-05-07"),
-    "trump-accounts-essay": ("trump-accounts-great-idea-bad-product", "2026-06-01"),
+    "warren-wealth-tax-oped-v7": ("senator-warren-is-right-about-the", "2026-07-16"),
+    "gemstone-essay": ("the-magic-gemstone", "2026-07-16"),
+    "dear-tech-bros": ("dear-tech-bros-stop-whining-about", "2026-07-16"),
+    "trump-accounts-essay": ("trump-accounts-great-idea-bad-product", "2026-07-16"),
 }
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
+OUT_DIR = REPO_ROOT / "internal" / "substack-exports"
 
 
 def frontmatter(path: Path) -> dict:
@@ -75,12 +78,8 @@ def essay_meta(stem: str) -> tuple[str | None, str | None]:
     return slug, synced
 
 
-def export(essay_arg: str) -> int:
-    essay_path = (REPO_ROOT / essay_arg).resolve()
-    if not essay_path.exists():
-        print(f"error: {essay_path} not found")
-        return 1
-
+def transform(essay_path: Path) -> tuple[str, list[tuple[str, str]]]:
+    """Strip frontmatter and absolutize every relative link."""
     text = essay_path.read_text(encoding="utf-8")
     text = re.sub(r"\A---\n.*?\n---\n", "", text, count=1, flags=re.DOTALL)
 
@@ -103,34 +102,88 @@ def export(essay_arg: str) -> int:
             return BASE
         return f"{BASE}{stem}.html"
 
-    # ](./foo.md) -> Substack post URL (fallback: mattsly.com)
     text = sub(
-        r"\]\(\.?/?([A-Za-z0-9_-]+)\.md\)",
+        r"\]\(\.?/?([A-Za-z0-9_-]+)\.(?:md|html)\)",
         lambda m: f"]({md_target(m.group(1))})",
         text,
     )
-    # ](./foo.html), ](./assets/...), any other relative path -> mattsly.com
     text = sub(r"\]\(\./([^)#\s]+)\)", lambda m: f"]({BASE}{m.group(1)})", text)
-    # ](#anchor) -> absolute self URL + anchor (never leaks a tool domain)
     text = sub(r"\]\(#([^)\s]+)\)", lambda m: f"]({self_url}#{m.group(1)})", text)
+    return text, rewrites
 
-    out_dir = REPO_ROOT / "internal" / "substack-exports"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / f"{essay_path.stem}.substack.md"
-    out_path.write_text(text, encoding="utf-8")
 
-    print(f"wrote {out_path.relative_to(REPO_ROOT)}")
+def report(rewrites: list[tuple[str, str]], text: str) -> None:
     print(f"{len(rewrites)} link(s) rewritten:")
     for old, new in rewrites:
         print(f"  {old}  ->  {new}")
-
     leftovers = re.findall(r"\]\((?:\./|#)[^)]*\)", text)
     if leftovers:
         print("\nWARNING: unrewritten relative links remain:")
         for link in leftovers:
             print(f"  {link}")
+
+
+def resolve(essay_arg: str) -> Path | None:
+    p = (REPO_ROOT / essay_arg).resolve()
+    if not p.exists():
+        print(f"error: {p} not found")
+        return None
+    return p
+
+
+def export(essay_arg: str) -> int:
+    essay_path = resolve(essay_arg)
+    if not essay_path:
+        return 1
+    text, rewrites = transform(essay_path)
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = OUT_DIR / f"{essay_path.stem}.substack.md"
+    out_path.write_text(text, encoding="utf-8")
+    print(f"wrote {out_path.relative_to(REPO_ROOT)}")
+    report(rewrites, text)
     print("\nReminder: after pasting to Substack, update substack_synced "
           f"in {essay_path.name} to today's date.")
+    return 0
+
+
+def copy(essay_arg: str) -> int:
+    essay_path = resolve(essay_arg)
+    if not essay_path:
+        return 1
+    try:
+        import markdown  # type: ignore
+    except ImportError:
+        print("The --copy mode needs the 'markdown' package (one-time setup):")
+        print("  pip3 install markdown")
+        return 1
+
+    text, rewrites = transform(essay_path)
+    html = markdown.markdown(
+        text,
+        extensions=["extra", "smarty", "sane_lists"],  # smarty = curly quotes
+    )
+
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    html_path = OUT_DIR / f"{essay_path.stem}.substack.html"
+    html_path.write_text(html, encoding="utf-8")
+    report(rewrites, text)
+    print(f"\nwrote {html_path.relative_to(REPO_ROOT)} (browser-openable preview)")
+
+    if sys.platform == "darwin":
+        hexed = html.encode("utf-8").hex()
+        result = subprocess.run(
+            ["osascript", "-e", f"set the clipboard to «data HTML{hexed}»"],
+            capture_output=True, text=True,
+        )
+        if result.returncode == 0:
+            print("Rich text is on your clipboard. Paste directly into the "
+                  "Substack editor, then update substack_synced.")
+        else:
+            print(f"clipboard failed ({result.stderr.strip()}); open the "
+                  ".html preview, select all, and copy from the browser.")
+    else:
+        print("(Not macOS: open the .html preview in a browser, select all, "
+              "copy, and paste into Substack.)")
     return 0
 
 
@@ -161,12 +214,15 @@ def status() -> int:
 
 
 def main() -> int:
-    if len(sys.argv) != 2:
-        print(__doc__)
-        return 1
-    if sys.argv[1] == "--status":
+    args = sys.argv[1:]
+    if args == ["--status"]:
         return status()
-    return export(sys.argv[1])
+    if len(args) == 2 and args[0] == "--copy":
+        return copy(args[1])
+    if len(args) == 1 and not args[0].startswith("-"):
+        return export(args[0])
+    print(__doc__)
+    return 1
 
 
 if __name__ == "__main__":

@@ -38,6 +38,10 @@ Targets not yet actioned, roughly by vector.
 
 ** Gina Raimondo
 
+Think Tanks:
+https://www.abundancenetwork.com/who-we-are/
+Brookings / Hamilton Project
+
 
 ### Other channels worth a slot
 - **Podcasts** — pitch tax/econ shows (e.g. *Plain English* w/ Derek Thompson, *Capitalisn't*, *Marginal Revolution*-adjacent). One booked podcast = one big week.
