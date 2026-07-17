@@ -112,6 +112,42 @@ def transform(essay_path: Path) -> tuple[str, list[tuple[str, str]]]:
     return text, rewrites
 
 
+def tables_to_pre(text: str) -> tuple[str, int]:
+    """Replace markdown tables with aligned monospace code blocks.
+
+    Substack's editor has no table element; pasted HTML tables collapse into
+    run-on text. An aligned <pre> block survives the paste intact.
+    """
+    lines = text.splitlines()
+    out: list[str] = []
+    i, n_tables = 0, 0
+    while i < len(lines):
+        if lines[i].lstrip().startswith("|"):
+            block = []
+            while i < len(lines) and lines[i].lstrip().startswith("|"):
+                block.append(lines[i])
+                i += 1
+            rows = []
+            for line in block:
+                cells = [c.strip() for c in line.strip().strip("|").split("|")]
+                if all(re.fullmatch(r":?-{2,}:?", c) for c in cells):
+                    continue  # separator row
+                rows.append([re.sub(r"\*\*(.*?)\*\*", r"\1", c) for c in cells])
+            widths = [max(len(r[k]) if k < len(r) else 0 for r in rows)
+                      for k in range(max(len(r) for r in rows))]
+            out.append("```")
+            for r in rows:
+                out.append("  ".join(
+                    (r[k] if k < len(r) else "").ljust(widths[k])
+                    for k in range(len(widths))).rstrip())
+            out.append("```")
+            n_tables += 1
+        else:
+            out.append(lines[i])
+            i += 1
+    return "\n".join(out), n_tables
+
+
 def report(rewrites: list[tuple[str, str]], text: str) -> None:
     print(f"{len(rewrites)} link(s) rewritten:")
     for old, new in rewrites:
@@ -158,6 +194,11 @@ def copy(essay_arg: str) -> int:
         return 1
 
     text, rewrites = transform(essay_path)
+    text, n_tables = tables_to_pre(text)
+    if n_tables:
+        print(f"note: {n_tables} markdown table(s) converted to monospace "
+              "blocks (Substack has no table support); swap in an image "
+              "from assets/ if you want it prettier.")
     html = markdown.markdown(
         text,
         extensions=["extra", "smarty", "sane_lists"],  # smarty = curly quotes

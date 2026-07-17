@@ -6,7 +6,7 @@ image: /assets/lifetime-gains-framework.png
 twitter:
   card: summary_large_image
 substack_slug: the-lifetime-gains-framework
-substack_synced: 2026-07-16
+substack_synced: 2026-07-17
 ---
 
 # America's Most Expensive Technical Debt, Part 1: Capital Gains
@@ -17,7 +17,9 @@ substack_synced: 2026-07-16
 
 ---
 
-Capital gains taxation is one of the most tangled corners of the tax code as well as one of the most consequential. A century of “patches” has produced a web of preferential rates, holding-period rules, exclusions, deferrals, and estate-planning workarounds. Capital gains tax policy enables the machinery behind "buy, borrow, die" (the reason billionaires can pay a lower effective rate than teachers) and creates a quiet distortion of where capital actually flows: investors hold aging assets for decades not because they're the best use of money, but because selling triggers a tax bill that dying doesn't.
+Capital gains taxation is one of the most tangled corners of the tax code as well as one of the most consequential. A century of “patches” has produced a web of preferential rates, holding-period rules, exclusions, deferrals, and estate-planning workarounds. Capital gains tax policy enables the machinery behind "buy, borrow, die" (the reason billionaires can pay a lower effective rate than teachers) and creates a quiet distortion of where capital actually flows: investors hold aging assets for decades not because they’re the best use of money, but because selling triggers a tax bill that dying doesn’t.
+
+This is the first and most fully developed proposal of [The Tax Refactor](./index.md), a component-by-component overhaul of federal taxation built on four tenets: radical simplicity, fiscal durability, fueling the climb, and rewarding innovation. Capital gains is where we start because no corner of the code fails all four so completely.
 
 So let’s refactor it. Five rules can replace a century of accretion. These rules cut capital gains taxes for 95%+ of Americans, close buy-borrow-die, eliminate roughly 10-15% of the Internal Revenue Code (including the AMT, the NIIT, and the estate tax), and generate an estimated $108 billion per year in net new revenue.
 
@@ -195,7 +197,15 @@ To be clear: above $6 million in cumulative lifetime gains, gains *are* taxed as
 
 ## Won't Higher Rates Kill Innovation?
 
-Critics may argue that raising the top capital gains rate to the top income tax rate (currently 37%) and eliminating the QSBS exclusion ([Section 1202](https://www.law.cornell.edu/uscode/text/26/1202)) will stifle startups and scare away angel investors. History says otherwise: Google (IPO [2004](https://www.britannica.com/money/Google-Inc)), the iPhone (launched 2007), and NVIDIA (founded [1993](https://www.britannica.com/money/NVIDIA-Corporation)) were all launched before the [100% QSBS exclusion even existed](https://home.treasury.gov/system/files/131/WP-127.pdf). The tax rate has never been the binding constraint on transformative innovation. Access to talent, infrastructure, and markets has.
+Critics may argue that raising the top capital gains rate to the top income tax rate (currently 37%) and eliminating the QSBS exclusion ([Section 1202](https://www.law.cornell.edu/uscode/text/26/1202)) will stifle startups and scare away angel investors. The strong version of this claim is that under this framework, Elon Musk doesn't start SpaceX and the next transformative company never gets founded. Let's take that seriously instead of trading gut feelings.
+
+Start with history. Google (IPO [2004](https://www.britannica.com/money/Google-Inc)), the iPhone (launched 2007), and NVIDIA (founded [1993](https://www.britannica.com/money/NVIDIA-Corporation)) all predate the [100% QSBS exclusion](https://home.treasury.gov/system/files/131/WP-127.pdf). Go back further and it gets starker: Apple, Microsoft, Oracle, and Genentech were all founded in 1975-77, when the top capital gains rate was **39.9%**, higher than anything this framework proposes. The tax rate has never been the binding constraint on transformative innovation. Access to talent, infrastructure, and markets has.
+
+The people with the most skin in the game say the same thing. Warren Buffett, [in 2011](https://www.nbcnews.com/id/wbna44143776): "I have worked with investors for 60 years and I have yet to see anyone — not even when capital gains rates were 39.9 percent in 1976-77 — shy away from a sensible investment because of the tax rate on the potential gain."
+
+The academic evidence deserves an honest look rather than a cherry-pick, because it isn't all one way. The most comprehensive study of taxes and innovation ([Akcigit, Grigsby, Nicholas, and Stantcheva, QJE 2022](https://academic.oup.com/qje/article-abstract/137/1/329/6292271)), built on every U.S. inventor since 1920, finds that higher personal taxes *do* reduce the quantity and location of innovation: inventors move, and marginal activity thins. But it finds no effect on average innovation *quality*: the breakthroughs still happen. Read that finding against this framework and it cuts the other way from how critics want to use it. The sensitive margin (the marginal inventor, the first-time founder deciding whether) is precisely where this framework is a *tax cut*: the first $2M of gains tax-free, no QSBS gymnastics, no five-year clocks. The margin where it raises taxes (nine-figure outcomes) is where the study finds no quality effect and where Buffett's sixty years of observation applies.
+
+And run the numbers on the scariest anecdote directly. Musk cleared roughly $180 million from the PayPal sale in 2002 and famously put about $100 million of it into SpaceX. Under this framework he'd have paid roughly $29 million more in tax, netting about $115 million instead of $144 million. The $100 million bet still fits, with margin. To believe this framework kills the next SpaceX, you have to believe its founder walks away from rockets over the difference between rich and very slightly less rich, a claim about founder psychology that no founder I've ever met would recognize.
 
 The deeper point is that the current system's flat preferential rate is poorly targeted. If you have $50,000 to your name and you bet $25,000 on a startup, you are taking a life-altering risk. If you have $50 million and you bet $500,000, you are "playing with house money." The tax structure should reflect the [inverse relationship of risk to wealth](https://en.wikipedia.org/wiki/Risk_aversion#Absolute_risk_aversion).
 
@@ -252,6 +262,23 @@ The tax intermediary industry that exists to facilitate these deferrals (a multi
 
 Under the framework's comprehensive exit closure (Rule 3), actual collections may outperform standard elasticity models. Standard scoring assumes taxpayers will find new ways to avoid taxes when old ones are closed. The framework's architecture removes most of those pathways, suggesting the actual revenue outcome may sit closer to the upper end of this range than to the midpoint.
 
+### How the Anchors Move the Numbers
+
+The $2M/$6M anchors are a stake in the ground, not a dogma. Here is the same framework at three calibrations (married figures are double the single figures):
+
+| | Lower exemption | **Published** | Higher exemption |
+|---|---|---|---|
+| Exemption (single) | $1M | **$2M** | $3M |
+| Full-rate ceiling (single) | $4M | **$6M** | $8M |
+| Breakeven vs. current law | ~$7M | **~$11.2M** | ~$15.4M |
+| Households ever affected | ~3-5% | **~1-2%** | under 1% |
+| The $2.8M founder pays | $200K | **$30K** | $0 |
+| The $19M founder pays | $6.1M | **$5.6M** | $5.0M |
+| The $95M founder pays | $34.2M | **$33.7M** | $33.1M |
+| Est. net annual revenue | $70-195B (mid ~$135B) | **$45-170B (mid ~$108B)** | $35-160B (mid ~$98B) |
+
+Notice what moves and what doesn't. The $95 million exit pays within 3% of the same tax under all three calibrations, because at that scale the exemption is a rounding error. What the dial actually controls is the experience of the $2M-$20M band (the successful-but-not-legendary exits) and roughly $35 billion a year of revenue between the endpoints. The big money ($75-100B from death-as-realization, $25-50B from closing buy-borrow-die) barely notices the calibration at all, because it comes from closing the exits, not from where the exemption sits. That's worth internalizing before arguing about the anchors: **the revenue lives in the exits.**
+
 This gets roughly 10-15% of the way to a sustainable federal budget from a single reform. The federal deficit exceeds $2 trillion annually; closing that gap requires a combination of tax reform, entitlement reform, and spending discipline. Most economists agree that [stabilizing the debt-to-GDP ratio requires deficit reduction on the order of $800 billion to $1 trillion per year](https://www.americanprogress.org/article/what-would-it-take-to-stabilize-the-debt-to-gdp-ratio/). This framework gets roughly 10-15% of the way there.
 
 One important implementation detail: on the day of enactment, everyone's lifetime counter starts at $0. Pre-enactment gains are not retroactively counted. This means investors who anticipate the change will harvest gains before enactment to lock in current rates, which is fine. That pre-enactment selling generates immediate tax revenue on gains that might otherwise have been deferred via stepped-up basis indefinitely. The Treasury benefits either way: from the rush of pre-enactment realizations, or from the new framework's broader base going forward.
@@ -306,7 +333,7 @@ These obstacles are real. They are also smaller than they look, because the fram
 
 ## What Now
 
-This is a working proposal, not a finished bill. The architecture is a structural claim. The calibration (should the exemption be $2 million or $2.5 million? the ceiling $6 million or $8 million?) is deliberately open, and I am asking for input. These are consequential choices that deserve public debate and rigorous scoring, not unilateral declaration.
+This is a working proposal, not a finished bill. The architecture is a structural claim. The calibration is deliberately open, and I am asking for input (the "How the Anchors Move the Numbers" table above shows exactly what's at stake in that debate). These are consequential choices that deserve public debate and rigorous scoring, not unilateral declaration.
 
 What I am confident about is the structural claim: that a system built on five rules can replace a system built on four thousand pages, can collect more revenue with fewer escape routes, and can do so in a way that makes the overwhelming majority of American households unambiguously better off.
 
