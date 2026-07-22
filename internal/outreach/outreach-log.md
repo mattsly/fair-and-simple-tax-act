@@ -20,6 +20,10 @@ Response to Warren / Moreno
 
 Targets not yet actioned, roughly by vector.
 
+**Lily Batchelder (NYU Law)** — READY TO SEND. Draft in `batchelder-outreach.md`.
+Academic-credibility vector, complements Madoff. Prerequisite (flagship citing her,
+synced to Substack) completed 2026-07-17. Fallback if silent by ~7/31: Madoff intro.
+
 ** Jordan's Guy
 
 **Oren Cass** — Founder, American Compass; editor of *Commonplace*. Conservative-but-heterodox economic voice focused on workers and the climb to the middle class — directly aligned with the "fueling the climb" tenet. Pitch angle: the Tax Refactor is a market-friendly way to make billionaires pay without a wealth tax, plus pro-family elements (Child Payment, Trump Accounts rework). Possible asks: a *Commonplace* guest piece, or a podcast mention. Bonus: his audience is exactly the center-right Matt needs to reach to claim "centrist."

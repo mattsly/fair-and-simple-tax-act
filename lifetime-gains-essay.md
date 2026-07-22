@@ -6,7 +6,7 @@ image: /assets/lifetime-gains-framework.png
 twitter:
   card: summary_large_image
 substack_slug: the-lifetime-gains-framework
-substack_synced: 2026-07-17
+substack_synced: 2026-07-20
 ---
 
 # America's Most Expensive Technical Debt, Part 1: Capital Gains
@@ -17,11 +17,11 @@ substack_synced: 2026-07-17
 
 ---
 
-Capital gains taxation is one of the most tangled corners of the tax code as well as one of the most consequential. A century of “patches” has produced a web of preferential rates, holding-period rules, exclusions, deferrals, and estate-planning workarounds. Capital gains tax policy enables the machinery behind "buy, borrow, die" (the reason billionaires can pay a lower effective rate than teachers) and creates a quiet distortion of where capital actually flows: investors hold aging assets for decades not because they’re the best use of money, but because selling triggers a tax bill that dying doesn’t.
+Capital gains taxation is one of the most tangled corners of the tax code. A century of “patches” has produced a web of preferential rates, holding-period rules, exclusions, deferrals, and estate-planning workarounds. Capital gains tax policy enables the machinery behind "buy, borrow, die" (the reason billionaires can pay a lower effective rate than teachers) and creates a quiet distortion in capital flows, as investors hold assets not because they’re the best use of money, but because selling triggers a tax bill that dying doesn’t.
 
-This is the first and most fully developed proposal of [The Tax Refactor](./index.md), a component-by-component overhaul of federal taxation built on four tenets: radical simplicity, fiscal durability, fueling the climb, and rewarding innovation. Capital gains is where we start because no corner of the code fails all four so completely.
+This is the first and most fully developed proposal of [The Tax Refactor](./index.md), a project to rethink the U.S. tax code based on four tenets: radical simplicity, fiscal durability, fueling the climb, and rewarding innovation.
 
-So let’s refactor it. Five rules can replace a century of accretion. These rules cut capital gains taxes for 95%+ of Americans, close buy-borrow-die, eliminate roughly 10-15% of the Internal Revenue Code (including the AMT, the NIIT, and the estate tax), and generate an estimated $108 billion per year in net new revenue.
+Capital gains is where we start because no corner of the code fails all four so completely. So let’s refactor it. Five rules can replace a century of accretion. These rules cut capital gains taxes for 95%+ of Americans, close buy-borrow-die, eliminate roughly 10-15% of the Internal Revenue Code (including the AMT, the NIIT, and the estate tax), and generate an estimated $108 billion per year in net new revenue.
 
 Here we go:
 
@@ -35,10 +35,10 @@ Here we go:
 
 **Rule 2: Above the exemption, the rate slides from 0% up to the top income tax rate.** From $2 million to $6 million in cumulative lifetime gains, the rate phases linearly from 0% to the current top marginal rate (currently 37%). Above $6 million, all gains are taxed at that top rate. Two details matter here. First, the top rate is *pegged* to whatever the top marginal income tax rate happens to be. It's not a separate number Congress has to update. Second, the rate applies regardless of the taxpayer's other income. A retiree with $0 W-2 income and $15M in lifetime gains pays the same top rate as a wage earner at $500K. This is what eliminates the preferential rate that lets hedge fund managers pay less than teachers.
 
-**Rule 3: You can't defer gains forever.** Realization happens whenever appreciated wealth changes hands in a way that preserves or transfers its availability for private consumption. Four events trigger realization under this principle: sale, death, gift, and borrowing.
+**Rule 3: You can't defer gains forever.** Realization happens whenever appreciated wealth changes hands in a way that alters its availability for private consumption. Four events trigger realization under this principle: sale, death, gift, and borrowing.
 
 - **Sale.** Unchanged from current law.
-- **Death.** Unrealized gains are realized on the decedent's final return. Heirs receive basis at fair market value. This is how [Canada has handled it since 1972](https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/capital-gains.html). This single change ends stepped-up basis, the provision that currently lets heirs inherit appreciated assets with a clean tax slate and erases a lifetime of untaxed gains.
+- **Death.** Unrealized gains are realized on the decedent's final return. This single change ends stepped-up basis, the provision that currently lets heirs inherit appreciated assets with a clean tax slate and erases a lifetime of untaxed gains.
 - **Gift to another individual.** The donor pays tax on unrealized gains at the time of transfer. The recipient gets basis at gift-date market value. (The annual $19K gift exclusion is retained.)
 - **Borrowing against appreciated assets.** When you pledge appreciated assets as collateral, the unrealized gain is deemed realized. Basis steps up to prevent double taxation on eventual sale. Mechanics informed by [research from the Yale Budget Lab](https://budgetlab.yale.edu/research/buy-borrow-die-options-reforming-tax-treatment-borrowing-against-appreciated-assets). If the collateral has no unrealized gain (a purchase mortgage on a newly-bought home, for example), the deemed realization is $0.
 
@@ -46,12 +46,12 @@ Here we go:
 
 **Rule 4: Basis is indexed to inflation.** Your cost basis is adjusted by CPI, so you're taxed on real economic gains, not phantom ones. A house bought for $200,000 in 1995 has a CPI-adjusted basis of roughly $400,000 in 2026. Indexing applies symmetrically to gains and losses.
 
-**Rule 5: Roth reform.** These changes to simplify Roth accounts and close the [Peter Thiel loophole](https://www.propublica.org/article/lord-of-the-roths-how-tech-mogul-peter-thiel-turned-a-retirement-account-for-the-middle-class-into-a-5-billion-dollar-tax-free-piggy-bank).
+**Rule 5: Roth reform.** Simplify Roth accounts and close the [Peter Thiel loophole](https://www.propublica.org/article/lord-of-the-roths-how-tech-mogul-peter-thiel-turned-a-retirement-account-for-the-middle-class-into-a-5-billion-dollar-tax-free-piggy-bank).
 
 1. (Quid) Remove the income cap for direct Roth contributions (currently higher earners cannot contribute to a Roth) and raise the annual contribution limit to $15,000 (from $7K/$8K)
 2. (Pro Quo) Cap the total Roth balance at $5 million per person (growth above this continues tax-free, but new contributions freeze) and close the "backdoor Roth" conversion entirely.
 
-(Rule 5 is the most complicated and least consequential in terms of impact, but we need to include it; otherwise we leave a loophole for perpetual tax-free growth)
+(Rule 5 is the most complicated yet least consequential in terms of impact, but we need to include it; otherwise we leave a loophole for perpetual tax-free growth)
 
 That's it. Five rules. From these, an extraordinary amount of existing tax infrastructure becomes unnecessary.
 
@@ -71,7 +71,7 @@ The five rules make entire categories of tax law redundant.
 
 **The estate tax.** A tax that looks progressive on paper and fails in practice. The statutory rate is 40%. The effective rate on well-planned estates is typically 10-15% because an entire industry exists to help wealthy families avoid it. Under this framework, death is a realization event and all unrealized gains are taxed on the decedent's final return. The replacement mechanism collects more revenue from large estates with fewer loopholes. (Full argument below in [The Estate Tax Question](#the-estate-tax-question).)
 
-**A wealth tax.** Not currently law, but perennially proposed. This framework delivers the same progressivity a wealth tax aims for (taxing accumulated wealth, not just current income) through a simpler, constitutionally safer mechanism. (Addressed below in [The Wealth Tax Question](#the-wealth-tax-question).)
+**A wealth tax.** Not currently law, but perennially proposed. This framework delivers the same progressivity a wealth tax aims for (taxing accumulated wealth, not just current income) through a simpler, constitutionally safer mechanism by addressing the root cause of wealth disparity — asymmetry of capital gains taxation. (Addressed below in [The Wealth Tax Question](#the-wealth-tax-question).)
 
 **Twelve special exclusions and preferences are replaced by the universal exemption and the five rules.** Some are replaced by the larger universal exemption; others fall away because Rule 3 ends the deferral games. The most significant:
 
@@ -89,7 +89,9 @@ Plus seven more: carried interest (see [What This Settles](#what-this-settles)),
 
 In total, these five rules eliminate roughly 10-15% of the Internal Revenue Code by volume, along with the thousands of pages of Treasury regulations, IRS guidance, and Tax Court precedent that interpret them.
 
-Most software engineers will tell you: deleting code *and* improving the product is the most satisfying kind of work. But simplification isn't just aesthetically pleasing. It matters because every eliminated provision is an eliminated edge case, an eliminated loophole, and an eliminated compliance cost. The current system has roughly two dozen independent configuration parameters (the exemption amount for each special provision, the holding period rules, the phase-out thresholds, the asset-type definitions, and so on). The proposed system has two: the exemption level ($2M / $4M) and the phase-out ceiling ($6M / $12M). Both are indexed to inflation. Both can be adjusted by Congress without reopening the structural framework. Fewer parameters means fewer interactions, fewer exploits, and a system that's easier to administer, audit, and explain.
+Most software engineers will tell you: deleting code *and* improving the product is the most satisfying kind of work. But simplification isn't just aesthetically pleasing. It matters because every eliminated provision is an eliminated edge case, an eliminated loophole, and an eliminated compliance cost. As I will argue throughout this project: complexity is regressive.
+
+The current system has roughly two dozen independent configuration parameters (the exemption amount for each special provision, the holding period rules, the phase-out thresholds, the asset-type definitions, and so on). The proposed system has two: the exemption level ($2M / $4M) and the phase-out ceiling ($6M / $12M). Both are indexed to inflation. Both can be adjusted by Congress without reopening the structural framework. Fewer parameters means fewer interactions, fewer exploits, and a system that's easier to administer, audit, and explain.
 
 That's what radical simplification actually looks like.
 
@@ -153,7 +155,7 @@ The pattern is clear. The framework is designed to fuel the climb: homeowners, r
 
 Abolishing the estate tax sounds like a conservative fever dream. But it's a tax that looks progressive on paper and fails in practice: a statutory 40% rate that well-advised estates routinely whittle to an effective 10-15% or less, with the wealthiest paying the least.
 
-The failure is mechanical, not accidental. The exemption is enormous ($15 million per person, $30 million per couple in 2026, now permanent under OBBB), so the tax never reaches all but the largest estates. Stepped-up basis then resets whatever *is* inherited to market value at death, erasing a lifetime of unrealized gains so the income tax that should have applied to that appreciation never does. And an industry of valuation discounts, GRATs, and dynasty trusts shrinks the taxable value of the rest. As Professor Ray Madoff documents in [*The Second Estate*](https://press.uchicago.edu/ucp/books/book/chicago/S/bo256019296.html), the result is political cover: it *looks* like a tax on dynastic wealth while ensuring the dynasties pay least.
+The failure is mechanical, not accidental. The exemption is enormous ($15 million per person, $30 million per couple in 2026, now permanent under OBBB), so the tax never reaches all but the largest estates. Stepped-up basis then resets whatever *is* inherited to market value at death, erasing a lifetime of unrealized gains so the income tax that should have applied to that appreciation never does. And an industry of valuation discounts, GRATs, and dynasty trusts shrinks the taxable value of the rest. As Professor Ray Madoff documents in [*The Second Estate*](https://press.uchicago.edu/ucp/books/book/chicago/S/bo256019296.html), the result is political cover: it *looks* like a tax on dynastic wealth while allowing dynastic wealth to leak into the future generations.
 
 This framework replaces all of it with a mechanism that actually collects: death is a realization event, all unrealized gains are taxed on the decedent's final return, and there's no stepped-up basis, no GRAT, no discount game. Not a radical experiment — it's been the [functional model in Canada since 1972](https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/capital-gains.html). A $100 million estate with $80 million in unrealized gains pays about $28 million (37% top rate, no tricks available); a $500 million dynasty estate pays roughly $147 million, against the $30-50 million the current tax collects after planning.
 
@@ -187,11 +189,11 @@ Investments, with both time and money, also involve **failure risk**. Many found
 
 But the most salient reason to protect the "climb" is that entrepreneurial risk is a public good. When someone bets their career or their savings on a new idea, the successful outcome benefits everyone, not just the investor. A tax code that punishes that risk from dollar one is a tax code that inadvertently subsidizes stagnation.
 
-The natural follow-up: "OK, founders take risks, but what about someone just buying Apple stock? Why does that deserve preferential treatment?" Two reasons. First, even passive investors provide liquidity and price discovery that make capital markets function. When a dentist in Omaha buys shares on Robinhood, she is providing the capital that lets the next founder go public. Second, and more practically: every attempt to distinguish "deserving" investment from "undeserving" investment creates exactly the kind of complexity this framework eliminates. The QSBS rules, the material participation tests, the qualified real estate professional carve-outs are all attempts to draw that line. Each one spawned an industry of lawyers structuring around it. The juice is not worth the squeeze. A universal exemption sidesteps this complexity entirely and in so doing vastly simplifies the tax code.
+The natural follow-up: "OK, founders take risks, but what about someone just buying Apple stock? Why does that deserve preferential treatment?" Two reasons. First, even passive investors provide liquidity and price discovery that make capital markets function. When a dentist in Omaha buys shares on Schwab, she is providing the capital that lets the next founder go public. Second, and more practically: every attempt to distinguish "deserving" investment from "undeserving" investment creates exactly the kind of complexity this framework eliminates. The QSBS rules, the material participation tests, the qualified real estate professional carve-outs are all attempts to draw that line. Each one spawned an industry of lawyers structuring around it. The juice is not worth the squeeze. A universal exemption sidesteps this complexity entirely and in so doing vastly simplifies the tax code.
 
 We want every American to build wealth, but the current system only provides meaningful tax breaks to those who are already wealthy and can navigate complex entity structures like QSBS or own homes. By creating a $2 million universal exemption, we provide a powerful, simple incentive for *every* citizen to invest and save.
 
-To be clear: above $6 million in cumulative lifetime gains, gains *are* taxed as ordinary income under this framework. The disagreement isn't about whether gains should be treated as income. It's about where the exemption sits and how fast the rate phases in. Those are exactly the two parameters ($2M / $4M exemption, $6M / $12M ceiling) that this framework makes easy to debate and adjust. An additional implication of this framework is that if a new top bracket were added (say 45% on income over $2M), the phase-up would converge there instead. The ceiling rate is always pegged to the top marginal rate.
+To be clear: above $6 million in cumulative lifetime gains, gains *are* taxed as ordinary income under this framework. The disagreement isn't about whether gains should be treated as income. It's about where the exemption sits and how fast the rate phases in. Those are exactly the two parameters ($2M / $4M exemption, $6M / $12M ceiling) that this framework makes easy to debate and adjust. An additional implication of this framework is that if a new top bracket were added (say 45% on income over $2M), the phase-up would converge there instead. The ceiling rate on capital gains tax is always pegged to the top marginal rate of income tax.
 
 ---
 
@@ -199,7 +201,7 @@ To be clear: above $6 million in cumulative lifetime gains, gains *are* taxed as
 
 Critics may argue that raising the top capital gains rate to the top income tax rate (currently 37%) and eliminating the QSBS exclusion ([Section 1202](https://www.law.cornell.edu/uscode/text/26/1202)) will stifle startups and scare away angel investors. The strong version of this claim is that under this framework, Elon Musk doesn't start SpaceX and the next transformative company never gets founded. Let's take that seriously instead of trading gut feelings.
 
-Start with history. Google (IPO [2004](https://www.britannica.com/money/Google-Inc)), the iPhone (launched 2007), and NVIDIA (founded [1993](https://www.britannica.com/money/NVIDIA-Corporation)) all predate the [100% QSBS exclusion](https://home.treasury.gov/system/files/131/WP-127.pdf). Go back further and it gets starker: Apple, Microsoft, Oracle, and Genentech were all founded in 1975-77, when the top capital gains rate was **39.9%**, higher than anything this framework proposes. The tax rate has never been the binding constraint on transformative innovation. Access to talent, infrastructure, and markets has.
+Start with history. Apple, Microsoft, Oracle, and Genentech were all founded in 1975-77, when the top capital gains rate was **39.9%**, higher than anything this framework proposes. The tax rate has never been the binding constraint on transformative innovation. Access to talent, infrastructure, and markets has.
 
 The people with the most skin in the game say the same thing. Warren Buffett, [in 2011](https://www.nbcnews.com/id/wbna44143776): "I have worked with investors for 60 years and I have yet to see anyone — not even when capital gains rates were 39.9 percent in 1976-77 — shy away from a sensible investment because of the tax rate on the potential gain."
 
@@ -207,7 +209,7 @@ The academic evidence deserves an honest look rather than a cherry-pick, because
 
 And run the numbers on the scariest anecdote directly. Musk cleared roughly $180 million from the PayPal sale in 2002 and famously put about $100 million of it into SpaceX. Under this framework he'd have paid roughly $29 million more in tax, netting about $115 million instead of $144 million. The $100 million bet still fits, with margin. To believe this framework kills the next SpaceX, you have to believe its founder walks away from rockets over the difference between rich and very slightly less rich, a claim about founder psychology that no founder I've ever met would recognize.
 
-The deeper point is that the current system's flat preferential rate is poorly targeted. If you have $50,000 to your name and you bet $25,000 on a startup, you are taking a life-altering risk. If you have $50 million and you bet $500,000, you are "playing with house money." The tax structure should reflect the [inverse relationship of risk to wealth](https://en.wikipedia.org/wiki/Risk_aversion#Absolute_risk_aversion).
+The deeper point is that the current system's flat preferential rate is poorly targeted. If you have $50,000 to your name and you bet $25,000 on a startup, you are taking a life-altering risk. If you have $50 million and you bet $500,000, you are "playing with house money." The tax structure should reflect this [inverse relationship of risk to wealth](https://en.wikipedia.org/wiki/Risk_aversion#Absolute_risk_aversion).
 
 For the rising entrepreneur, this framework is *more* encouraging than the current system. The first $2M in gains is tax-free for everyone, with no C-corp requirements or five-year hold rules or active business tests that disqualify most founders from QSBS today. A dentist in Omaha writing a $50K angel check into a friend's startup faces 15–23.8% from dollar one under current law; under this framework, that gain is fully exempt. The current system of specialized carve-outs excludes exactly the investor class that should be encouraged: diverse, geographically distributed, willing to take small risks on people they know.
 
@@ -293,7 +295,7 @@ Buy-borrow-die is closed. The most egregious example of perfectly legal tax avoi
 
 The billionaire tax debate (whether to tax unrealized gains annually) is resolved by expanding realization events to death, gifts, and borrowing. You don't need mark-to-market accounting. You need to close the exits.
 
-Carried interest (the provision that lets hedge fund managers pay capital gains rates on what is essentially labor income) is rendered moot without a targeted ban. When gains above the exemption are ordinary income anyway, there is no preferential rate to exploit.
+Carried interest (the provision that lets hedge fund managers pay capital gains rates on what is essentially labor income) is rendered mostly moot without a targeted ban. When gains above the exemption are ordinary income anyway, there is no preferential rate to exploit.
 
 The wealth tax debate is settled by offering the same outcome through constitutionally sound and more politically palatable means.
 
@@ -321,7 +323,7 @@ The case for this framework is unusual. It gives both progressives and conservat
 
 The realistic obstacles are equally bipartisan, which is its own kind of evidence the framework cuts across the usual lines.
 
-The biggest is the complexity-industrial complex. The current system supports an ecosystem of estate planners, 1031 exchange intermediaries, QSBS specialists, Opportunity Zone fund managers, and tax attorneys. Collectively a multi-billion-dollar industry. Every simplification is an existential threat to someone's livelihood. These constituencies are small but organized and well-funded. The people who benefit from simplification (essentially all taxpayers) are diffuse and unorganized.
+The biggest is the tax complexity-industrial complex. The current system supports an ecosystem of estate planners, 1031 exchange intermediaries, QSBS specialists, Opportunity Zone fund managers, and tax attorneys. Collectively a multi-billion-dollar industry. Every simplification is an existential threat to someone's livelihood. These constituencies are small but organized and well-funded. The people who benefit from simplification (essentially all taxpayers) are diffuse and unorganized.
 
 The second is partisan framing. Tax reform has been captured by a false binary: raise rates (left) or cut rates (right). This framework does neither. It broadens the base, eliminates preferences, and lets the rate structure do its job. That makes it harder to explain in a sound bite.
 
