@@ -1,3 +1,109 @@
+## ROBINHOOD Act — loan-as-realization in Congress (added 2026-07-23)
+
+Two bills, same brand, different architecture. Together they show Congress converging on LGF Rule 3's borrowing trigger. Nowhere in the repo until now; this is the strongest external validation of the loan-as-realization design to date.
+
+### Goldman version (House, Dec 2025)
+[Press release](https://goldman.house.gov/media/press-releases/rep-dan-goldman-introduces-new-tax-wealthiest-americans-generating-estimated). A 20% **excise tax on the loan itself** — not a realization rule.
+
+- Applies to individuals with income over $400K ($450K joint).
+- No basis adjustment → double taxation: 20% on the loan now, full capital gains on the same appreciation at eventual sale.
+- Carve-outs gut it: home mortgages, HELOCs, **margin loans** (the closest substitute for the SBLOCs it targets), farmland credit.
+- Revenue claim: $276B/10yr, from $138B outstanding securities-backed loans ([Fed estimate, Q1 2024](https://www.federalreserve.gov/econres/notes/feds-notes/estimating-securities-based-loans-outstanding-20240802.html)). Math is mushy — $138B × 20% = $27.6B once.
+- Attacked from the right as a wealth tax (S-Corp Assn, "Wealth Tax Mania Spreads East," Dec 2025) despite the $400K threshold and excise design.
+
+### Gallego version (Senate, May 2026)
+[Full text (PDF)](https://www.gallego.senate.gov/wp-content/uploads/2026/05/260528-ROBINHOOD-Act_Final-Text.pdf) · [press release](https://www.gallego.senate.gov/news/press-releases/gallego-introduces-legislation-to-crack-down-on-billionaire-tax-loophole/). Fixed the architecture and narrowed the target:
+
+- **Deemed realization, gain-equal-to-loan:** taxpayer *identifies* long-term lots whose combined gain ≥ loan amount; those lots deemed sold at FMV (§1299(a)). Basis steps up to FMV on identified lots (§1299(b)). Elective lot-ID = no collateral disputes, no LTV fights.
+- Note it's gain = loan amount, not proceeds = loan — slightly harsher than a real sale ($1M loan on 90%-gain stock recognizes $1M, vs $900K on an actual $1M sale).
+- **Applicable taxpayer:** income >$100M OR assets >$1B, met **each of 3 preceding years**; sticky status (exit requires 3 years below *half* thresholds + election). Trusts at $10M/$100M. Entity look-through with §318 constructive ownership. Expat 10-year tail.
+- **Existing loans swept in:** outstanding balances deemed a single new loan on Jan 1, 2027 — retroactive teeth for existing buy-borrow-die stacks.
+- Leases >5 years treated as loans (anti-avoidance).
+- Nontradable valuation floor includes "value used to secure indebtedness" (§1299B(d)(2)(E)) — the same LTV-floor logic as our technical_spec, independently arrived at.
+- Warts: no capital-loss offset against deemed gains (punitive, asymmetric); no basis step-up for depreciable property (double-tax landmine for real estate); "any loan issued" appears to re-tax refinancings (no netting / high-water-mark rule).
+
+### Analysis vs. LGF
+
+- **The complexity lives in the cliff:** ~22 of the bill's 29 pages (Secs. 1299A/1299B — lookbacks, sticky status, divorce/expat/trust rules, six-way "greatest of" valuation) exist solely to define *who's covered*. The mechanism fits in ~7. An exemption parameter deletes the 22.
+- **Lifetime-counter gate has a circularity problem:** a gate keyed to past *realized* gains never triggers for the disciplined never-seller — the gated activity (borrowing) is what would fill the counter. Fix = count loan-deemed gains for everyone, tax only above the exemption… which is no longer a coverage test, it's the LGF. One-sentence pitch to Gallego/Goldman staff: *don't define who's covered, define what's exempt.*
+- **Evolution arc (essay frame):** excise on debt → realization of gain → (next) exemption instead of class test. "This bill is two revisions away from the Lifetime Gains Framework." Generous framing matters if the audience includes their staff.
+- **Measurement rule — candidate LGF spec change (needs open-questions.md entry):** gain-equal-to-loan with taxpayer lot-ID may beat our collateral-gain rule. At 30% LTV, $30M loan / $10M-basis $100M pledge: collateral rule taxes $22.5M (75% of proceeds); loan rule taxes $7.5M (25%). Loan rule invariant: tax ≤ rate × proceeds, always payable from the loan. Also kills blanket-lien/margin/substitution ambiguity. Needs: default ordering rule + high-water-mark rule for serial borrowing. Since death is closed under LGF, the collateral rule's extra harshness buys nothing.
+- **Second open question (needs open-questions.md entry):** under a universal rule, ordinary transactions burn exemption room (a $200K cash-out refi on an appreciated home = $200K of deemed gain at 0% but −10% of lifetime room). Demagoguable ("government tracks your mortgage"). Need a §121-style answer for primary residences or a principled defense of room-burning.
+- **Counter transition:** counter starts at zero at enactment (reconstructing lifetime history is a nonstarter) → everyone's first $2M post-enactment is free, including billionaires'. Say it before critics do.
+
+### Ackman convergence (added 2026-07-23)
+
+Bill Ackman proposed the identical mechanism in [Aug 2024](https://x.com/BillAckman/status/1826361874654658880): loans in excess of basis "taxable as if you sold a like amount of stock" — proceeds-based loan-as-realization, same design as Gallego's bill. He simultaneously [opposes wealth taxes as expropriation](https://x.com/BillAckman/status/2005710812359622840) (Dec 2025, re California Prop 40). Nobody has connected Ackman's proposal to the ROBINHOOD Act. **Essay hook: "the billionaire and the senator agree on how to tax billionaires — they just don't know it yet."** Strongest available proof of the centrist lane: loan-as-realization is the fix both sides reach when they reject the other's frame.
+
+### Why ROBINHOOD got no press (attention-economics note)
+
+0%-odds minority bill = no stakes, no coverage. Too moderate to rally the left (concedes no wealth tax), auto-filed as "wealth tax mania" by the right. Name is SEO-poisoned by the brokerage. Sponsor distracted (DOJ campaign-spending probe, July 2026 NY Post scandal coverage, competitive midterm). Implication: the explainer/reference-piece lane for loan-as-realization is empty — being early beats being loud.
+
+### Pundit/editorial response — the premise fight (added 2026-07-23)
+
+The serious response to ROBINHOOD attacked the *premise*, not the bill:
+
+- **[WaPo opinion, 2026-06-05](https://www.washingtonpost.com/opinions/2026/06/05/ruben-gallego-tax-plan-is-premised-myth-buy-borrow-die/):** "Gallego's tax plan is premised on the myth of 'buy, borrow, die'."
+- **[Fox & Liscow at TPC, 2026-06-15](https://taxpolicycenter.org/taxvox/richs-real-tax-trick-isnt-buy-borrow-die):** top-1% borrowing ≈ **1-2% of economic income**; unrealized gains **20-40x larger**. Coinage: **"buy, save, die"** — the dominant shelter is untaxed compounding + step-up, not loans. Only ~60% of top-1% economic income (incl. unrealized gains) is in the current tax base (~71% inflation-adjusted). They say the Gallego/Goldman bill was "informed by our analysis." Their prescription: raise rates on the existing base + reform step-up.
+- **[AAF, Dec 2025](https://www.americanactionforum.org/daily-dish/robin-hood-delivers-xmas-coal/):** regulatory boondoggle, behavioral adaptation. Plus S-Corp Assn "wealth tax mania." Punchbowl covered the introduction.
+
+**LGF implication — the counter-punch essay:** the "myth" critique kills a standalone loan bill but argues *for* the systemic framework. If the big money is buy-SAVE-die (compounding + step-up), the fix is death-as-realization — LGF Rule 3, exactly what ROBINHOOD omits. Frame: "The Post is right that buy-borrow-die is a sideshow. The main event is buy-save-die, and only closing the death exit touches it." Agree with critics, out-flank the bill.
+
+**[Yale Budget Lab modeling, Mar 2025](https://budgetlab.yale.edu/research/buy-borrow-die-options-reforming-tax-treatment-borrowing-against-appreciated-assets):** three loan-side options — deemed realization ($102B/10yr), 10% withholding ($147B), 0.5% excise on balances ($130B). Key details: their deemed-realization variant is *universal* (no wealth test) with a $250K/person/yr exemption and **FIFO lot ordering** (vs. Gallego's taxpayer-elective ID — FIFO is the respectable anti-electivity argument for the measurement-rule open question). Their annual-vs-lifetime exemption discussion names the tradeoff: lifetime kills debt-smoothing avoidance but requires cumulative tracking (= the LGF counter). Critically: **all three options leave step-up intact**, so borrowing stays tax-advantaged when returns exceed borrowing costs — loan-side patches can't reach the main shelter. Current-law tax advantage of borrowing vs. selling: ~12pp.
+
+**Outreach implications:**
+- **Fox (Michigan) & Liscow (Yale Law)** are the intellectual center of the debate; technical_spec already cites their 2024 paper; backlog already has a comparison piece. High-value academic outreach: LGF is the systemic answer to the limitation they keep flagging.
+- **Ray Madoff's book "The Second Estate"** is the cultural engine of buy-borrow-die discourse ([Ezra Klein interview, 2026-04-17](https://www.nytimes.com/2026/04/17/opinion/ezra-klein-podcast-ray-madoff.html)). Existing contact; backlog's "read Madoff book" item now urgent.
+
+### WaPo "myth" piece — full read (added 2026-07-23)
+
+[WaPo Opinions, 2026-06-05](https://www.washingtonpost.com/opinions/2026/06/05/ruben-gallego-tax-plan-is-premised-myth-buy-borrow-die/) (Matt has gift link; byline/board status unverified). Claims and data:
+
+- Cites [Fox & Liscow (Michigan/Yale)](https://repository.law.umich.edu/cgi/viewcontent.cgi?article=1397&context=law_econ_current): top-1% new borrowing ≈ 2% of economic income (incl. unrealized gains); their liquid income exceeds consumption; median top-1% household has 56% of economic income subject to income tax and **median debt/wealth = 0%**.
+- Argument: strategy is rare → bill is "policy untethered from reality"; US income tax already very progressive; top-1% revenue share rising.
+- Uses home-equity analogy (borrowing doesn't avoid tax for wage earners).
+
+Observed omissions/weaknesses (facts, not framing):
+
+- Never addresses stepped-up basis, though its own ¶2 describes it; Fox & Liscow's [TPC piece (6/15)](https://taxpolicycenter.org/taxvox/richs-real-tax-trick-isnt-buy-borrow-die) calls step-up "indefensible" and recommends reforming it — the op-ed cites the debunking half of its source and omits the prescription half.
+- Median statistics can't detect a top-400 tail behavior; aggregate top-1% borrowing >$1T (Yale) and Musk's $94B pledge coexist with median debt/wealth = 0%.
+- "56% subject to tax" ⇒ 44% of median top-1% economic income outside the tax base (worse at the tail: ProPublica 3.4% top-25 effective rate).
+- Home-equity analogy assumes already-taxed wages — inapplicable to zero-salary low-basis founders.
+- Context: post-2025 WaPo opinion-section mandate shift; keep provenance separate from substance in any response.
+
+### Fox & Liscow key fact sheet (added 2026-07-23)
+
+[Yale fact sheet, Jan 2025](https://economics.yale.edu/sites/default/files/publication-documents/2025-01/UnrealizedGainsandTaxesKeyFactSheet.pdf), summarizing ["The Role of Unrealized Gains and Borrowing in the Taxation of the Rich"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5104644):
+
+- **Share of economic income (incl. unrealized gains) captured by current tax base, by wealth percentile: 90-99th = 75%; 99.0-99.9th = 67%; top 0.1% = 50.2%.** Top 1% overall ≈ 60% (70% inflation-adjusted). The leak worsens as wealth rises — the gradient, not the average, is the LGF-relevant fact.
+- **Tail outlier stat (their own):** Musk + Bezos + Buffett, 2014-2018: $137B asset growth vs. $5.7B tax-recognized income = **4%**.
+- Top-1% borrowing = 1-2% of economic income; 50-90th percentiles borrowed a *higher share* of their unrealized gains (~2x) than the top 1% — borrowing against gains is more middle-class than billionaire behavior.
+- Methodology note: they estimate *actual* unrealized gains per group (not assumed standard returns) — the credibility edge over prior economic-income studies.
+- Their policy conclusion: raise ordinary + cap-gains rates on the existing base. (Tension to note: higher realization-based rates raise the value of deferral + step-up, strengthening buy-save-die unless the death exit is closed — rates and realization rules are complements.)
+
+Reading path for reactions: Heath, [NYU L. Rev. note](https://www.nyulawreview.org/wp-content/uploads/2024/05/99-NYU-L-Rev-717.pdf) (taxing the borrow leg); Chamberlain, ["Borrowing as Realization,"](https://digitalcommons.law.buffalo.edu/buffalolawreview/vol73/iss2/6/) Buffalo L. Rev. (academic case for the mechanism); plus WaPo 6/5 and TPC 6/15 entries above.
+
+### Fox & Liscow full paper — key stats (added 2026-07-23)
+
+Read from `internal/fox-liscow.pdf` (Michigan Law & Econ WP 286, Jan 2025). Data: SCF 2004-2022 (oversamples rich; 256 households >$62M in 2022 wave) + Forbes 400 bolted on separately. Wealth cutoffs 2022: top 1% = $14M; top 0.1% = $62M.
+
+- **Tax-base capture gradient (share of economic income in AGI, 2004-22 avg):** bottom 50% = 98%; 50-90th = 87%; 90-99th = 75%; 99-99.9th = 67%; top 0.1% ex-Forbes = 50.2%; **Forbes 400 = 48.1%**.
+- **Average tax rate on economic income INVERTS at the top:** rises to 15.8% (99-99.9th), then falls — 12.1% (top 0.1%), **9.6% (Forbes 400) vs. 8.6% (50-90th percentiles)**. The 400 richest pay ≈ upper-middle-class average rates. Matches Yagan (2023) independently. [Chart candidate for Two Kinds of Rich / Buy Save Die.]
+- **Composition, top 0.1%:** realized + unrealized gains = 73% of economic income; salary only 6%. Only ~27% of top-0.1% income is rate-hike-inelastic AGI types.
+- **Borrowing detail:** top-1% debt stock $1.02T (66% is mortgages; 12% margin); new borrowing $62B/yr ≈ 2% of economic income (0.1%: 1.0%; 99-99.9: 2.4%). Forcing all borrowing into sales would raise top average rates only ~0.2pp. Forbes 400 borrowing not in SCF; F&L 2024 estimate ~$100B existing stock, new borrowing <2% of economic income.
+- **Bimodal distribution rescues BBD from "myth":** 55% of top 1% borrow <0.1% of wealth, but **~15% borrow >5% of wealth, and that subgroup's borrowing ≈ 68% of its unrealized gains** (Appendix Fig 6 — verify against table before citing). Honest framing: not the dominant class strategy; a meaningful minority runs it hard. LGF loan rule = integrity valve, not revenue engine.
+- **Unrealized-gain reservoirs (2022):** 90-99.9th ≈ $35T; top 1% ≈ $23T; top 0.1% ≈ $13.7T. Death exit reaches these; borrowing taxes reach ~$62B/yr of flow.
+- Alternative capture measures: inflation-adjusted 71%; step-up/deferral-adjusted 59%; both 70%.
+
+### Stats worth citing
+
+- Next-richest 1% (beyond top 400) borrowed **>$1T in 2022 alone** ([Yale, role of unrealized gains and borrowing](https://economics.yale.edu/research/role-unrealized-gains-and-borrowing-taxation-rich)) — best single number for sizing buy-borrow-die.
+- Musk had pledged **$94B** of Tesla shares as loan collateral as of 2022 (Forbes).
+- ProPublica 2021: top-25 average effective rate **3.4%** (Musk 3.3%, Bezos 1%, Buffett 0.1%).
+- $138B outstanding securities-backed loans (Fed, Q1 2024).
+
+---
+
 A few strong data points to consider adding:
 
 **Tax Compliance Confidence:**
@@ -53,6 +159,13 @@ I'd recommend adding a sentence or two around **line 3-4** of the press release 
 
 
 Phases:
+
+> **⚠️ SUPERSEDED (noted 2026-07-23).** The numbers in this phases sketch predate
+> the published spec and are wrong on several points: exemption is **$2M/$4M MFJ**
+> (not $1.5M); the rate **slides 0% → top ordinary rate (pegged, currently 37%),
+> fully phased at $6M/$12M MFJ** (not a 0/15/20/27/32 ladder). Published
+> `lifetime-gains-essay.md` + `technical_spec.md` are the source of truth.
+> Kept for historical reference only.
 
 PHASE 1: "The Billionaire Loophole Closure Act" (2025-2026)
 What's in it:

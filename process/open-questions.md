@@ -4,7 +4,7 @@ Unresolved questions surfaced during development but not yet settled. These are 
 
 ## Credit Mechanics
 
-### Charitable credit calibration (50% credit, 5% liability cap)
+### Charitable credit calibration (25% credit, 3% liability cap)
 Numbers are decided as the stake in the ground (per `decisions-log.md`). Calibration validation still open: no donor-behavior modeling has been done to test whether the 50%/5% pair optimally balances incentive strength against the zero-out-your-taxes abuse pattern. The numbers may need to move once empirical modeling exists.
 
 ### Charitable credit base for appreciated assets: FMV or basis? (deferred from LGF flagship, June 2026)
@@ -98,3 +98,9 @@ The likely pushback from VCs and serial founders is: "why should my prior succes
 
 ### Payment flexibility for illiquid assets — section placement
 Should the "payment flexibility for illiquid assets" FAQ move into the Practical Concerns section, next to the related FAQ? Currently separated.
+
+### Rule 3 borrowing: measurement rule — collateral-gain vs. gain-equal-to-loan (added 2026-07-23)
+The published spec deems the full unrealized gain on *pledged collateral* realized at borrowing. The Gallego ROBINHOOD Act (S.4662) and Ackman's 2024 proposal instead recognize gain equal to the *loan amount*, with taxpayer-elective lot identification and basis step-up. **The tension:** the collateral rule can tax more than the borrower received (at 30% LTV, a $30M loan against a $10M-basis/$100M pledge triggers ~$22.5M tax — 75% of proceeds), and the "pledged collateral" set is lender-driven and contested (blanket liens, margin accounts, substitutions, revolver draws). The loan-amount rule has a clean invariant (tax ≤ rate × proceeds, always payable from the loan) and replaces collateral disputes with existing specific-lot-ID machinery — but needs a default ordering rule (Yale Budget Lab used FIFO; the respectable anti-electivity argument) and a high-water-mark rule so refinancings aren't re-taxed (a flaw in ROBINHOOD's text). **What's at stake:** simplicity, liquidity-fairness, and consistency with the anti-deferral purpose (with death closed, the collateral rule's extra harshness buys little). Candidate answers: keep collateral rule; switch to gain-equal-to-loan + lot-ID + HWM + FIFO default; hybrid. Changes published technical_spec + LGF essay if switched. Needs modeling before deciding. Context: `process/research.md` ROBINHOOD sections.
+
+### Rule 3 borrowing: primary residences and exemption-burning (added 2026-07-23)
+Under a universal borrowing rule, ordinary transactions consume lifetime exemption room: a $200K cash-out refi on an appreciated home = $200K of deemed gain at 0% tax but −10% of a $2M lifetime exemption. Politically demagoguable ("the government tracks your mortgage") and distributionally real for long-tenure homeowners in appreciated markets. Note the published spec already zeroes purchase-money mortgages (no gain in collateral), so this bites only equity extraction from appreciated homes. **Candidate answers:** a §121-style primary-residence carve-out for borrowing only (sales/death still count); a de minimis annual borrowing floor; or a principled defense that room-burning is correct (equity extraction *is* consumption of unrealized gains) paired with the observation that the $2M exemption absorbs typical homeowner extraction many times over. Interacts with the measurement-rule question above (loan-amount measurement shrinks the burn). Needs distributional back-of-envelope before deciding.

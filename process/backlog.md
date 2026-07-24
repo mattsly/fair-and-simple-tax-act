@@ -9,7 +9,7 @@ Essays at the repo root, served from mattsly.com and re-posted to [taxrefactor.s
 - **index.md** — Intro essay ("Introducing The Tax Refactor"). Lives at the site root. Establishes the project, names the four tenets (canonical prose copied from `process/tenets.md`), and frames the components.
 - **lifetime-gains-essay.md** — Flagship. Lifetime capital gains framework with $2M exemption ($4M MFJ), phase-up, four realization events (sale, loan, gift, death).
 - **technical_spec.md** — Implementation details for Lifetime Gains, including zero-gain collateral edge case.
-- **warren-wealth-tax-oped-v7.md** — Op-ed positioning the framework against Warren's wealth tax. Submitted to Boston Globe (pending as of March 2026).
+- **warren-wealth-tax-oped-v7.md** — Op-ed positioning the framework against Warren's wealth tax. Submitted to Boston Globe - March 2026
 - **gemstone-essay.md** — "If you designed it from scratch" framing piece.
 - **dear-tech-bros.md** — Direct address to Silicon Valley on QSBS, carried interest, and the framework's actual impact on founders.
 - **the-deduction-hack.md** — "Retire the Personal Tax Deduction." Personal W-4 hook → complexity-is-the-point thesis → deduction architecture as one major case → two fixes (0% bracket + credits) → easy button close.
@@ -19,13 +19,14 @@ Essays at the repo root, served from mattsly.com and re-posted to [taxrefactor.s
 
 Active drafts in `drafts/` that are close to publishable.
 
-- **drafts/income-tax-essay.md** — "The Index Card Tax Return." Rate table, deduction elimination, charitable + medical credits, filing status simplification. Substantively complete; not yet announced/distributed.
+- **drafts/income-tax-essay.md** — "The Index Card Tax Return." Rate table, deduction elimination, charitable + medical credits, filing status simplification. Substantively complete; not yet announced/distributed. **Parked per 2026-07-23 scope decision** (the top-bracket piece it contained is fenced into "The Pin" instead).
+- **drafts/universal-savings-account-essay.md** — see stub entry below. **Ship-vs-park is Matt's call on return from vacation (~7/29):** ship if the polish pass is under a week, otherwise park cleanly.
 
 ## Stubs awaiting expansion
 
 Files exist in `drafts/`, content is sketched but not finished.
 
-- **drafts/charitable-giving-essay.md** — Repurposed as a deeper-dive companion to the income-tax essay. Needs: DAF (Donor-Advised Fund) tension analysis, appreciated-asset realization treatment on charitable transfers, discussion of "change of tax owner" principle, Ray Madoff's critiques of DAF abuse (she's a contact).
+- **drafts/charitable-giving-essay.md** — **Re-scoped 2026-07-23: "The Charity Exit," a capital-stack essay** (was: income-tax companion). The published LGF essay promises this companion and names charity "the last large door left open." Scope: DAF payout rules (no requirement today), foundation 5% payout, FMV-vs-basis credit base (see open-questions), warehousing/control-vs-consumption problem, appreciated-asset realization treatment, Madoff's DAF critiques (contact; collaboration candidate). Takes the logged 25%/3% charitable credit as a given parameter. Sequence after Madoff book review + engagement (Q4).
 - **drafts/child-payment-essay.md** — Consolidates CTC, ACTC, EITC, AOTC, LLC, and education credits into a single monthly payment. Needs: payment amounts, phase-out thresholds, age cutoffs, interaction with other benefits, 2021 expanded CTC precedent (~30% child-poverty reduction).
 - **drafts/fica-reform-essay.md** — Promote from reference-heavy stub to a full standalone essay: case for eliminating employee-side FICA, why employer side is retained and uncapped at 8% as ESNC, revenue neutrality, Social Security solvency implications.
 - **drafts/universal-savings-account-essay.md** — Full treatment of the $1K birth seed, $30K annual cap, $5M balance cap, contribution/withdrawal rules, the 15+ accounts it replaces, qualified medical withdrawals, account transition (deprecation-first + optional PV-neutral conversion; old flat-12%/$1.2-1.3T framing retired June 2026), death/inheritance rules, indexing debate. Substantially built out June 2026 (open questions resolved, FAQ cluster, Politics + What Now sections); needs a voice/polish pass and Trump Accounts handoff.
@@ -33,7 +34,30 @@ Files exist in `drafts/`, content is sketched but not finished.
 
 ## Planned essays (not yet drafted)
 
-Ranked roughly by likely impact / readiness.
+> **Scope note (2026-07-23, see decisions-log):** active development is the
+> **capital stack**. The ranked slate below is the active pipeline; planned
+> essays further down that aren't capital-stack are parked as roadmap items —
+> kept, not killed.
+
+### ACTIVE SLATE (ranked)
+
+**1. Buy, Save, Die (August flagship).** Counter-punch to the WaPo "myth" piece and the Fox & Liscow discourse: concede the borrowing point (top-0.1% new borrowing ≈ 1% of economic income), expose that the critique amputates its own source (F&L call step-up "indefensible"), name the death exit as the main event ($13.7T top-0.1% unrealized reservoir vs. $62B/yr borrowing flow), present LGF as the framework that answers the critics. Key stats + sources in `research.md` (2026-07-23 sections). Bonus argument: closing death is what makes rate-raising (their own prescription) collectible — deferral elasticity is an artifact of the escape hatch.
+
+**2. The Two Kinds of Rich (September flagship).** W2 rich vs. capital rich — the starkest codified disconnect isn't rich vs. working class. Personal frame: doctor wife's marginal wage dollar (35% + 2.35% Medicare) vs. Matt's marginal qualified-dividend dollar (15% + 3.8% NIIT); ~27-30% vs. ~14% effective on the same $500K, ~6.5% if selling at 50% basis. Use per-stream marginal rates on the joint return (survives the CPA pedant). Chart: Fox & Liscow's rate curve — average rates climb to 15.8% (99-99.9th) then fall to 9.6% for the Forbes 400 ≈ the 8.6% paid by the 50-90th percentiles. **Prerequisite: wife's genuine sign-off.** Recruits the $400K-$1M professional class. Title candidate: "The Two Kinds of Rich."
+
+**3. Field Guide to Taxing Billionaires (Sep/Oct).** The comparison piece (promoted from "Deeper dives" below): LGF vs. ROBINHOOD (Gallego + Goldman versions) vs. Wyden mark-to-market vs. Warren wealth tax vs. Batchelder inheritance tax — scored on revenue, complexity, liquidity, constitutional risk, admin burden. Pre-publication hole-poking ask to Riedl. ROBINHOOD analysis done in `research.md`.
+
+**4. Prop 40 piece (October, calendar-locked).** "Right villain, wrong weapon" timed to California's November billionaire-tax vote — guaranteed national news cycle. Warren op-ed argument transfers directly.
+
+**5. Madoff "The Second Estate" review (October swing).** Low-lift; rides the Ezra Klein moment; warmest re-engagement with the key contact before The Charity Exit.
+
+**6. The Pin (Q4).** The one income-tax change the capital stack needs: new top bracket (45-47% at $750K or $1.5M MFJ), LGF peg convergence mechanics, package math toward a ~$250B/yr headline. Explicitly fences off all other income-tax reform. Feeds on the calibration task: run `internal/analysis/calibration_comparison.xlsx` on (a) 2/6 + 45%@$750K, (b) 2/6 + 45%@$1.5M MFJ, (c) 1/4 anchors as negotiation fallback (+~$27B but taxes into the 90-99th pctile, avg ~$1.8M unrealized/household). Current lean: keep 2/6, fight the bracket fight. Expands the LGF essay's published "if a new top bracket were added" line.
+
+**7. The Charity Exit (Q4, after Madoff engagement).** Re-scoped `drafts/charitable-giving-essay.md` — see stub entry above. The published LGF essay's IOU ("the last large door left open" + promised companion).
+
+**8. The Billionaire and the Senator Agree (conditional).** Short Ackman/Gallego convergence piece — Ackman's Aug 2024 borrow-above-basis proposal vs. S.4662. Trigger: a news moment (e.g., Ackman on Prop 40). Note his version is borrow-above-basis, not gain-equal-to-loan.
+
+### Roadmap (parked unless capital-stack)
 
 ### Fiscal Infrastructure First
 **Thesis:** Progressives keep proposing ambitious new programs on a foundation that can't support them. Before Medicare for All, before a Green New Deal, we need a tax system that's simple enough to actually work. That's not austerity. That's infrastructure. **Connection to Abundance** thinking. Could serve as the broader frame that makes the Warren op-ed a case study rather than a one-off.
@@ -98,7 +122,7 @@ Referenced but not yet engaged with in depth.
 
 - **Madoff book engagement.** Read Ray Madoff's book, then discuss. Likely relevant to charitable-giving deeper dive (DAFs) and possibly estate tax sunset.
 - **Fox & Liscow (2024) "No More Tax-Free Lunch for Billionaires."** Already cited in `technical_spec.md`. Their borrowing-loophole proposal overlaps with our loan-as-realization design. A comparison piece would strengthen both.
-- **Field-guide comparison piece.** Lifetime Gains vs. Wyden's mark-to-market, Biden-era minimum billionaire tax, Warren's wealth tax. Compare on revenue, complexity, constitutional risk, compliance burden.
+- **Field-guide comparison piece.** *Promoted to Active Slate #3 (2026-07-23).* Lifetime Gains vs. Wyden's mark-to-market, Biden-era minimum billionaire tax, Warren's wealth tax, plus the ROBINHOOD Acts. Compare on revenue, complexity, constitutional risk, compliance burden.
 
 ## Architectural open questions (summaries — full notes in `open-questions.md`)
 
@@ -106,26 +130,12 @@ Referenced but not yet engaged with in depth.
 - **Post-tax vs. pre-tax retirement contributions.** ~~All-post-tax is consistent with the broader principle, but optionality has real value for declining-bracket workers.~~ **Resolved June 2026: post-tax only.** Written into the USA essay with the declining-bracket tradeoff addressed head-on. See `decisions-log.md`.
 - **Phase 2 scope:** Single comprehensive essay (5-6K words) or three separate pieces (complexity → deductions → Phase 2 proposal)? Currently planning the three-essay approach.
 
-## Pitch list
-
-People worth pitching when the right essay drops. See also `auto-memory/outreach_contacts.md` for current state on individual contacts.
-
-- Gina Raimondo
-- Patriotic Millionaires
-- Ray Madoff (Boston College Law) — already met in person
-- Jess Tarlov
-- Scott Galloway
-- Mark Cuban
-- Sam Harris
-- Bill Maher
-- Jake Auchincloss (MA-4) — email exchanges in progress
-- David Scharfenberg (Globe Ideas) — neighbor, not yet pitched
-- T.S. Reid — outreach notes in `internal/outreach/ts-reid-reachout.md`
-
 ## Meta / infrastructure
 
 - **~~Substack sync pass for the LGF flagship~~ DONE 2026-07-16.** Full-body repaste via `make substack` + md-to-substack. Fixed: superseded charitable section (now status-quo FMV), incorrect Canada citation, July 7 estate-tax restructure, Batchelder scope note, $108B figure, leaked md-to-substack.netlify.app anchor links. Remaining known drift: the other six published essays (see `make substack-status`) — verify each and bump its synced date as they're re-pasted.
 - **Standing rule: after any Substack sync, bump that essay's `substack_synced` frontmatter date; run `make substack-status` to see what's drifted.** Slugs/sync dates live in essay frontmatter (fallback map in internal/scripts/substack_export.py covers the four essays that predate frontmatter — migrate them after verifying `make serve` renders them unchanged). The three surfaces drift silently otherwise — the charitable-section divergence went unnoticed for a month.
 - **USA publication-day checklist:** add Rule 5 supersession note to the LGF essay (both surfaces), matching the note already in technical_spec.md; swap the Trump Accounts postscript's "coming soon in this series" line for a real link; re-add USA links where the Relationship section was cut if the linked essays are published by then; add the USA post's slug to `SUBSTACK_SLUGS` in internal/scripts/substack_export.py.
 - **"What's Next" refresh on index.md.** Update as stubs get promoted to full essays.
+- **index.md bundled edit pass (when Matt returns, ~7/29):** one pass, one Substack re-sync — (a) dated "note on scope" block per 2026-07-23 decision (draft language in that session), (b) June SALT-credit drift fix, (c) What's-Next refresh pointing at Buy Save Die. Bump `substack_synced` after.
+- **Regenerate `assets/lifetime-gains-framework.png`.** The image live in the published LGF essay still shows the old $2.5M/$10M calibration; spec at `internal/image-specs/lifetime-gains-infographic-spec.md` is current ($2M/$6M, $4M/$12M MFJ). Published-surface error — regenerate from the spec prompt, replace on both surfaces.
 - **Project rename.** Public brand is "The Tax Refactor" everywhere. As of June 2026, all human-readable "Fair and Simple Tax Act"/"Fair and Simple Tax Project" references in essays and process docs were replaced with "The Tax Refactor." Repo name, site slug, and URLs remain `fair-and-simple-tax-act` for SEO continuity (URL migration still deferred). Archive files under `internal/archive/` left as historical record.

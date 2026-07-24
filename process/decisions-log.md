@@ -180,3 +180,8 @@ Frontmatter on lifetime-gains-essay.md specifies the large image card for better
 
 ### Outgoing links stay same-tab
 User preference: ctrl-click is fine, don't force new tabs.
+
+## Scope & Sequencing
+
+### Active scope narrowed to the capital stack (decided 2026-07-23)
+All active development focuses on the capital stack: LGF core, estate tax sunset, inheritance-as-income, the charity exit, Buy Save Die, and the field-guide comparison — plus one fenced income-tax piece ("The Pin," the top-bracket change the LGF peg depends on. **Why:** (1) Credibility match — Matt's founder/VC experience is unanswerable in this lane and generic elsewhere; (2) the discourse is live here (ROBINHOOD bills, WaPo "myth" fight, Madoff's *The Second Estate*, CA Prop 40) and absent for FICA/USA/child-payment topics; (3) the contact graph (Madoff, Batchelder, Fox & Liscow, Riedl, Gallego staff) is unanimous in this lane; (4) two-posts-per-month capacity forces sequencing anyway — this is release sequencing, not scope reduction. The grand map stays public (it differentiates the project from single-issue advocacy); USA/FICA/child-payment drafts stay parked as roadmap assets. Execution: backlog re-ranked (Aug: Buy Save Die; Sep: Two Kinds of Rich / Field Guide; Oct: Prop 40 piece + Madoff review; Q4: The Pin, The Charity Exit); index.md gets a dated "note on scope" block in a bundled edit pass (with the June SALT drift fix and What's-Next refresh) when Matt returns from vacation (~2026-07-29). USA essay ship-vs-park is Matt's call on return.

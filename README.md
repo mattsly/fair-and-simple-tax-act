@@ -4,6 +4,16 @@ A modular proposal to refactor U.S. federal tax policy. Published essays at [mat
 
 This git repo and `mattsly.com` are the source of truth. Substack is a republishing destination; if anything diverges, this repo wins.
 
+## Workstreams
+
+Three ongoing workstreams, each with exactly one anchor file:
+
+- **Build** (write the content) → `process/backlog.md` — the content pipeline: done, in progress, planned.
+- **Sell** (promote the ideas) → `internal/outreach/outreach-log.md` — marketing activity log plus the outreach ideas pipeline.
+- **Research** (understand the landscape) → `process/research.md` — topics, sources, news watch. Items graduate to the backlog (essay idea) or the outreach log (pitch target), or get deleted.
+
+A weekly scheduled Claude task reviews all three every Monday morning; its instructions live in `process/weekly-planning.md`.
+
 ## Directory layout
 
 The repo has four working areas, plus the usual Jekyll plumbing.
@@ -24,8 +34,8 @@ The repo has four working areas, plus the usual Jekyll plumbing.
 │   ├── open-questions.md             #   Unsettled architectural questions
 │   ├── proposal-tldr.md              #   Cross-phase integrative reference (state-of-play)
 │   ├── style-guide.md                #   Voice and writing rules (Matt's voice)
-│   ├── research.md                   #   Compliance stats, sources, raw data
-│   └── vibe-journalism-outline.md    #   Working outline for a meta essay
+│   ├── research.md                   #   Research anchor: topics, sources, news watch
+│   └── weekly-planning.md            #   Instructions for the Monday scheduled task
 │
 └── internal/                         # NOT FOR PUBLISHING. Not in the Jekyll build.
     ├── outreach/                     #   One-pagers, pitch docs, contact-specific drafts
