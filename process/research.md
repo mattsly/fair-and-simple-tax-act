@@ -323,3 +323,27 @@ Example (10‑year, 4%): avoiding $6T of cumulative borrowing implies roughly **
 - **Fueling the climb rather than protecting the summit**, rewarding work, saving, and entrepreneurship instead of complexity or dynastic advantage.  
 - **Fiscal durability**, so today’s policies do not quietly shift costs onto future generations.
 
+
+---
+
+## 2026-08-17 — Prop 40 status check (weekly briefing scan)
+
+- Prop 40 confirmed for the Nov 3, 2026 ballot: one-time 5% tax on net worth ≥ $1B (individuals and trusts), revenue mostly to state healthcare, some to food assistance and education. Sponsor: SEIU-UHW. [CalMatters voter guide](https://calmatters.org/california-voter-guide-2026/proposition-40-billionaire-tax/), [Wikipedia](https://en.wikipedia.org/wiki/2026_California_Proposition_40)
+- Opposition committee "Building a Better California" raised $80M+ in Q1 2026, primarily from in-state billionaires. Competing measures Props 41 and 42 are on the same ballot, designed to curtail or invalidate Prop 40 if it passes.
+- Academic ammunition: Galle/Gamage/Saez/Shanske expert report on Prop 40 (revenue estimates, avoidance analysis), July 2026 — [PDF at Berkeley](https://eml.berkeley.edu/~saez/galle-gamage-saez-shanskeCAbillionairetaxJuly26.pdf). Useful citation for both the Prop 40 piece and the Field Guide comparison table.
+- Buy-borrow-die still in the popular press (Yahoo Finance / 24-7 Wall St. explainers, late July), Newsom's "tax-free lifestyle loan" framing still circulating. The news hook for Buy Save Die has not gone stale.
+
+---
+
+## 2026-09-07 — Weekly briefing news scan
+
+- **STEP Act** (Sensible Taxation and Equity Promotion Act) — Booker, Van Hollen, Sanders, Whitehouse, Warren. Eliminates stepped-up basis at death; $1M per-person exclusion on unrealized gains; 15-year installment payment for illiquid assets. JCT estimate: stepped-up basis costs $72.5B in forgone revenue in 2026 alone. [Booker press release](https://www.booker.senate.gov/news/press/booker-van-hollen-and-colleagues-announce-new-legislation-to-close-the-stepped-up-basis-tax-loophole), [STEP Act one-pager](https://www.vanhollen.senate.gov/imo/media/doc/One%20pager%20-%20STEP%20Act.pdf). This is a blunter version of LGF's death-as-realization rule (no phase-in, no borrowing/gift legs) — same "Congress keeps arriving at pieces of LGF independently" hook already used for ROBINHOOD Act.
+- **Prop 40 (CA billionaire tax):** LA Times editorial (Sept 2026) came out against — "poorly drafted," "insufficient guardrails," narrowly channels revenue to healthcare interests (risk of subsidizing insurers/drugmakers/hospitals) while ignoring education, housing, homelessness, wildfire, public safety. [Editorial summary](https://www.biasly.com/news/editorial-vote-no-on-prop-40-it-ignores-education-housing-and-safety/), [Wikipedia](https://en.wikipedia.org/wiki/2026_California_Proposition_40). Notable: opposition now includes a mainstream/left-leaning editorial board on process grounds, not just billionaire self-interest — reinforces the "right villain, wrong weapon" framing (bad tax design undercuts a good diagnosis) rather than "billionaires bought the No campaign."
+- Federal estate tax exemption confirmed at $15M / $30M (indexed) under OBBBA, permanent (no 2026 sunset) — matches the figures already used in the pending.md estate-tax-floor analysis.
+
+---
+
+## 2026-09-14 — Weekly briefing news scan
+
+- **Prop 40 is now genuinely competitive, not a lock.** UC Berkeley IGS poll: 48% support / 41% oppose / 11% undecided. [Berkeley IGS release](https://vcresearch.berkeley.edu/news/california-prop-40-billionaire-tax-holds-lead-new-uc-berkeley-igs-poll), [The Hill](https://thehill.com/homenews/campaign/6033661-prop-40-billionair-tax-poll/).
+- **New this week: the left is visibly splitting on Prop 40.** Fortune (Sept 2) — San Francisco Democrats breaking with the state party over the measure, on design/administrability grounds, not billionaire-funded opposition. [Fortune](https://fortune.com/2026/09/02/san-francisco-democrats-bilionaire-tax-prop-40/). Sergey Brin has personally put $100M+ into the No campaign — useful as the "even the opposition doesn't want to be seen defending billionaires, they're arguing the mechanism instead" detail. Stacks with the LA Times editorial logged last week — two independent left-of-center objections now, both about design (illiquidity, earmarking), not who it targets. Strengthens the October "right villain, wrong weapon" piece's central claim and gives it a live news peg through the Nov 3 vote.

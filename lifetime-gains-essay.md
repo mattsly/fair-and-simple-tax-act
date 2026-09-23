@@ -17,11 +17,13 @@ substack_synced: 2026-07-20
 
 ---
 
-Capital gains taxation is one of the most tangled corners of the tax code. A century of “patches” has produced a web of preferential rates, holding-period rules, exclusions, deferrals, and estate-planning workarounds. Capital gains tax policy enables the machinery behind "buy, borrow, die" (the reason billionaires can pay a lower effective rate than teachers) and creates a quiet distortion in capital flows, as investors hold assets not because they’re the best use of money, but because selling triggers a tax bill that dying doesn’t.
+This post is the first and most fully developed proposal of [The Tax Refactor](./index.md), a project to apply “systems thinking” towards improving the U.S. tax code based on four tenets: radical simplicity, fiscal durability, fueling the climb, and rewarding innovation.
 
-This is the first and most fully developed proposal of [The Tax Refactor](./index.md), a project to rethink the U.S. tax code based on four tenets: radical simplicity, fiscal durability, fueling the climb, and rewarding innovation.
+The current state of capital gains taxation falls well short of adhering to these four tenets. A century of “patches” has produced a mess of preferential rates, holding-period rules, exclusions, deferrals, and estate-planning workarounds.
 
-Capital gains is where we start because no corner of the code fails all four so completely. So let’s refactor it. Five rules can replace a century of accretion. These rules cut capital gains taxes for 95%+ of Americans, close buy-borrow-die, eliminate roughly 10-15% of the Internal Revenue Code (including the AMT, the NIIT, and the estate tax), and generate an estimated $108 billion per year in net new revenue.
+So let’s refactor it!
+
+Five rules can replace a century of accretion. These rules cut capital gains taxes for 95%+ of Americans, close buy-borrow-die, carried interest loopholes, eliminate roughly 10-15% of the Internal Revenue Code (including the AMT, the NIIT, and the estate tax), and generate more than a hundred billion per year in net new revenue.
 
 Here we go:
 
@@ -31,18 +33,17 @@ Here we go:
 
 > Note: the specific numbers below are "stakes in the ground." They're open for debate and much less important than the general framework.
 
-**Rule 1: Every American gets a lifetime capital gains exemption.** $2 million per person; $4 million for a married couple. One bucket replaces a dozen narrow exclusions. Any source, any asset type, no qualification tests, no holding-period games. Losses offset gains within the year, same as current law.
+**Rule 1: Every American gets a lifetime capital gains exemption.** $2 million per person; $4 million for a married couple (see note above - stakes in the ground!). One bucket replaces a dozen narrow exclusions. Any source, any asset type, no qualification tests, no holding-period games. Losses offset gains within the year, same as current law.
 
-**Rule 2: Above the exemption, the rate slides from 0% up to the top income tax rate.** From $2 million to $6 million in cumulative lifetime gains, the rate phases linearly from 0% to the current top marginal rate (currently 37%). Above $6 million, all gains are taxed at that top rate. Two details matter here. First, the top rate is *pegged* to whatever the top marginal income tax rate happens to be. It's not a separate number Congress has to update. Second, the rate applies regardless of the taxpayer's other income. A retiree with $0 W-2 income and $15M in lifetime gains pays the same top rate as a wage earner at $500K. This is what eliminates the preferential rate that lets hedge fund managers pay less than teachers.
+**Rule 2: Above the exemption, the rate slides from 0% up to the top income tax rate.** From $2 million to $6 million in cumulative lifetime gains, the rate phases linearly from 0% to the current top marginal rate (currently 37%). Above $6 million, all gains are taxed at the top income tax rate. So capital gains tax rates are no longer a separate table that Congress has to update. The capital gains rate applies regardless of the taxpayer’s other income. A retiree with $0 W-2 income and $15M in lifetime gains pays the same top rate as a wage earner at $500K.
 
-**Rule 3: You can't defer gains forever.** Realization happens whenever appreciated wealth changes hands in a way that alters its availability for private consumption. Four events trigger realization under this principle: sale, death, gift, and borrowing.
+**Rule 3: You can't defer gains forever.** Gains are realized when the asset ownership changes:
 
 - **Sale.** Unchanged from current law.
-- **Death.** Unrealized gains are realized on the decedent's final return. This single change ends stepped-up basis, the provision that currently lets heirs inherit appreciated assets with a clean tax slate and erases a lifetime of untaxed gains.
-- **Gift to another individual.** The donor pays tax on unrealized gains at the time of transfer. The recipient gets basis at gift-date market value. (The annual $19K gift exclusion is retained.)
-- **Borrowing against appreciated assets.** When you pledge appreciated assets as collateral, the unrealized gain is deemed realized. Basis steps up to prevent double taxation on eventual sale. Mechanics informed by [research from the Yale Budget Lab](https://budgetlab.yale.edu/research/buy-borrow-die-options-reforming-tax-treatment-borrowing-against-appreciated-assets). If the collateral has no unrealized gain (a purchase mortgage on a newly-bought home, for example), the deemed realization is $0.
+- **Gifts.** Gains are realized at the time of transfer. The recipient gets basis at gift-date market value. (The annual $19K gift exclusion is retained.)
+- **Death.** Unrealized gains are realized on the decedent’s final return. This single change ends stepped-up basis, the provision that currently lets heirs inherit appreciated assets and avoid ever paying taxes on lifetime gains.
 
-*Transfers to qualified charities are not realization events. The appreciation exits the private economy. See "What About Charitable Giving?" below for mechanics.*
+In addition, leveraging an appreciated asset as collateral also triggers realization. The owner is choosing to defer liquidation while still enjoying the benefit of appreciation. Basis steps up to prevent double taxation on eventual sale. Mechanics informed by [research from the Yale Budget Lab](https://budgetlab.yale.edu/research/buy-borrow-die-options-reforming-tax-treatment-borrowing-against-appreciated-assets). If the collateral has no unrealized gain (a purchase mortgage on a newly-bought home, for example), the deemed realization is $0.
 
 **Rule 4: Basis is indexed to inflation.** Your cost basis is adjusted by CPI, so you're taxed on real economic gains, not phantom ones. A house bought for $200,000 in 1995 has a CPI-adjusted basis of roughly $400,000 in 2026. Indexing applies symmetrically to gains and losses.
 
@@ -51,7 +52,7 @@ Here we go:
 1. (Quid) Remove the income cap for direct Roth contributions (currently higher earners cannot contribute to a Roth) and raise the annual contribution limit to $15,000 (from $7K/$8K)
 2. (Pro Quo) Cap the total Roth balance at $5 million per person (growth above this continues tax-free, but new contributions freeze) and close the "backdoor Roth" conversion entirely.
 
-(Rule 5 is the most complicated yet least consequential in terms of impact, but we need to include it; otherwise we leave a loophole for perpetual tax-free growth)
+(Rule 5 is the least consequential in terms of impact, but we need to include it; otherwise we leave a loophole for perpetual tax-free growth)
 
 That's it. Five rules. From these, an extraordinary amount of existing tax infrastructure becomes unnecessary.
 
@@ -63,7 +64,9 @@ That's it. Five rules. From these, an extraordinary amount of existing tax infra
 
 ## What Falls Away
 
-The five rules make entire categories of tax law redundant.
+Most software engineers will tell you: deleting code *and* improving the product is the most satisfying kind of work. But simplification isn't just aesthetically pleasing. It matters because it makes a product more secure and testable. In the case of the tax code, every eliminated provision is an eliminated edge case, an eliminated loophole, and an eliminated compliance cost.
+
+The five rules outlined above make entire categories of tax law redundant and allow for the elimination of roughly 10-15% of the Internal Revenue Code by volume, along with the thousands of pages of Treasury regulations, IRS guidance, and Tax Court precedent that interpret them.
 
 **The Alternative Minimum Tax.** Created in 1969 because [155 wealthy Americans paid zero income tax that year](https://taxfoundation.org/taxedu/glossary/alternative-minimum-tax-amt/). When there are no exclusions to exploit, the AMT's purpose evaporates. It's been functionally gutted for high earners anyway since the 2017 tax cuts, but it still ensnares upper-middle-class families in high-tax states. No more "shadow" tax code.
 
@@ -71,9 +74,11 @@ The five rules make entire categories of tax law redundant.
 
 **The estate tax.** A tax that looks progressive on paper and fails in practice. The statutory rate is 40%. The effective rate on well-planned estates is typically 10-15% because an entire industry exists to help wealthy families avoid it. Under this framework, death is a realization event and all unrealized gains are taxed on the decedent's final return. The replacement mechanism collects more revenue from large estates with fewer loopholes. (Full argument below in [The Estate Tax Question](#the-estate-tax-question).)
 
-**A wealth tax.** Not currently law, but perennially proposed. This framework delivers the same progressivity a wealth tax aims for (taxing accumulated wealth, not just current income) through a simpler, constitutionally safer mechanism by addressing the root cause of wealth disparity — asymmetry of capital gains taxation. (Addressed below in [The Wealth Tax Question](#the-wealth-tax-question).)
-
 **Twelve special exclusions and preferences are replaced by the universal exemption and the five rules.** Some are replaced by the larger universal exemption; others fall away because Rule 3 ends the deferral games. The most significant:
+
+- **Stepped-up basis at death** — the most “valuable” provision in the entire tax code. Heirs inherit appreciated assets with the basis reset to current market value, erasing a lifetime of unrealized gains. Eliminated by Rule 3 (death is a realization event).
+
+- **Carried interest loophole** (the provision that lets hedge fund managers pay capital gains rates on what is essentially labor income) is rendered mostly moot without a targeted ban. When gains above the exemption are ordinary income anyway, there is no preferential rate to exploit.
 
 - **[QSBS / Section 1202](https://www.law.cornell.edu/uscode/text/26/1202)** — the "qualified small business stock" exclusion, which gives founders a break of up to $15M in gains ([raised from $10M by OBBB in 2025](https://www.thetaxadviser.com/issues/2025/nov/qsbs-gets-a-makeover-what-tax-pros-need-to-know-about-sec-1202s-new-look/)). It requires a C-corp structure, a 3-5 year hold, an active business test, and a $75M gross assets test. Most founders don't qualify. Under this framework, every founder gets the $2M / $4M universal exemption with none of the qualification tests.
 
@@ -81,33 +86,13 @@ The five rules make entire categories of tax law redundant.
 
 - **[Section 1031](https://www.law.cornell.edu/uscode/text/26/1031) like-kind exchanges** — the real estate deferral mechanism that lets investors roll gains into new properties tax-free, with help from an industry of "qualified intermediaries" who hold money in escrow during the 45-day rollover window. Eliminated by Rule 3 (no more deferral). The money will still flow; investors will just pay tax on real gains when they realize them.
 
-- **Stepped-up basis at death** — the most valuable provision in the entire tax code. Heirs inherit appreciated assets with the basis reset to current market value, erasing a lifetime of unrealized gains. Eliminated by Rule 3 (death is a realization event).
-
 - **GRATs, dynasty trusts, and valuation discounts** — the estate planning toolkit that lets ultra-wealthy families transfer hundreds of millions to heirs with little or no tax. [The Walton family used GRATs to transfer billions with zero gift tax liability.](https://www.bloomberg.com/graphics/infographics/how-to-preserve-a-family-fortune-through-tax-tricks.html) These structures work by exploiting the gap between estate tax and income tax, and by deferring realization indefinitely. Eliminated by Rule 3 (gifts and trust transfers are realization events; no more indefinite deferral).
 
-Plus seven more: carried interest (see [What This Settles](#what-this-settles)), Opportunity Zone deferrals, Section 453 installment sales, the Section 1256 60/40 rule for derivatives, the 28% collectibles rate, the lifetime gift tax exemption, and Section 1244 small business loss treatment. Full list in the [technical specification](https://www.mattsly.com/fair-and-simple-tax-act/technical_spec.html).
+Plus seven more: Opportunity Zone deferrals, Section 453 installment sales, the Section 1256 60/40 rule for derivatives, the 28% collectibles rate, the lifetime gift tax exemption, and Section 1244 small business loss treatment. Full list in the [technical specification](https://www.mattsly.com/fair-and-simple-tax-act/technical_spec.html).
 
-In total, these five rules eliminate roughly 10-15% of the Internal Revenue Code by volume, along with the thousands of pages of Treasury regulations, IRS guidance, and Tax Court precedent that interpret them.
+The current system has roughly two dozen independent configuration parameters (the exemption amount for each special provision, the holding period rules, the phase-out thresholds, the asset-type definitions, and so on). This proposed system has two: the exemption level ($2M / $4M) and the phase-out ceiling ($6M / $12M). Both are indexed to inflation. Both can be adjusted by Congress without reopening the structural framework. Fewer parameters means fewer interactions, fewer exploits, and a system that's easier to administer, audit, and explain.
 
-Most software engineers will tell you: deleting code *and* improving the product is the most satisfying kind of work. But simplification isn't just aesthetically pleasing. It matters because every eliminated provision is an eliminated edge case, an eliminated loophole, and an eliminated compliance cost. As I will argue throughout this project: complexity is regressive.
-
-The current system has roughly two dozen independent configuration parameters (the exemption amount for each special provision, the holding period rules, the phase-out thresholds, the asset-type definitions, and so on). The proposed system has two: the exemption level ($2M / $4M) and the phase-out ceiling ($6M / $12M). Both are indexed to inflation. Both can be adjusted by Congress without reopening the structural framework. Fewer parameters means fewer interactions, fewer exploits, and a system that's easier to administer, audit, and explain.
-
-That's what radical simplification actually looks like.
-
----
-
-## What About Charitable Giving?
-
-This framework deliberately leaves one thing alone: the tax treatment of donating appreciated assets to qualified charities. For now, the status quo stands.
-
-Under current law, donating appreciated stock to a qualified charity earns the donor a deduction at the stock's full market value and triggers no capital gains tax on the appreciation. Under this framework, that's unchanged: a charitable gift is not a realization event (Rule 3), the appreciation exits the private economy untaxed, none of it counts against your lifetime cap, and you deduct fair market value, exactly as today.
-
-Why leave it untouched when the whole point is to close exits? Two reasons. First, scope. The five rules govern *realization* (when appreciated wealth becomes taxable). How the charitable *deduction* should work (full market value or basis, deduction or credit, access for the non-itemizers who are most of the country) is an income-tax question, and bolting it onto a capital gains refactor would be its own four-thousand-page mistake. Second, coalitions. Reforming the charitable deduction means a fight with the entire nonprofit sector, and that fight deserves its own ring.
-
-But leaving it alone means inheriting its problems, and one of them gets worse here. By closing death, gift, and borrowing, this framework makes charitable giving the last large door left open, so expect money to walk toward it. And the room behind that door leaks. Donor-advised funds carry no payout requirement at all: appreciated wealth can earn an immediate full deduction and then sit for decades without a dollar reaching a working charity. Private foundations face only a 5% annual payout and can stay under family control across generations. A donor gives up *spending* that wealth on themselves, but not necessarily *controlling* it, or the influence and prestige that come with it. Whether that counts as wealth truly leaving the private economy is a real question, and this framework punts on it.
-
-So treat this as a placeholder, not an endorsement. The payout rules, the deduction-versus-credit question, non-itemizer access, and the warehousing problem are the subject of a forthcoming companion proposal. We'll revisit it then.
+In addition, I believe this proposal obviates the need for a wealth tax. This framework delivers the progressivity a wealth tax aims for through a simpler, constitutionally safer mechanism by addressing the root cause of wealth disparity: asymmetry of capital gains taxation. (Addressed in more detail below in [The Wealth Tax Question](#the-wealth-tax-question).)
 
 ---
 
@@ -159,11 +144,11 @@ The failure is mechanical, not accidental. The exemption is enormous ($15 millio
 
 This framework replaces all of it with a mechanism that actually collects: death is a realization event, all unrealized gains are taxed on the decedent's final return, and there's no stepped-up basis, no GRAT, no discount game. Not a radical experiment — it's been the [functional model in Canada since 1972](https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/capital-gains.html). A $100 million estate with $80 million in unrealized gains pays about $28 million (37% top rate, no tricks available); a $500 million dynasty estate pays roughly $147 million, against the $30-50 million the current tax collects after planning.
 
-Here's the elegant part. Today, a family lowballs the value of a closely-held business or an artwork to shrink the estate, and nothing pushes back — the IRS is the only party who wants a higher number. Under this framework, the date-of-death valuation does double duty: it's the decedent's sale price *and* the heir's new cost basis. Lowball it and you shave the final return today, but you hand the heir a lower basis — so when the heir eventually sells, they realize a bigger gain, owe a bigger tax, and burn more of their own lifetime exemption doing it. The two sides of the family are no longer on the same team. The number polices itself, the way an arm's-length sale does, because someone always has a stake in pushing it up. Dynasty trusts lose their magic for the same reason: trust assets are deemed realized at each generational transfer, so wealth can't skip a generation untaxed.
+Here's the elegant part. Today, a family lowballs the value of a closely-held business or an artwork to shrink the estate, and nothing pushes back — the IRS is the only party who wants a higher number. Under this framework, the date-of-death valuation does double duty: it's the decedent's sale price *and* the heir's new cost basis. Lowball it and you shave the final return today, but you hand the heir a lower basis — so the heir will now realize a bigger gain, owe a bigger tax, and burn more of their own lifetime exemption doing it. The two sides of the family are no longer on the same team, which is a feature. The number polices itself, the way an arm's-length sale does, because someone always has a stake in pushing it up. Dynasty trusts lose their magic for the same reason: trust assets are deemed realized at each generational transfer, so wealth can't skip a generation untaxed.
 
 The liquidity objection (how do heirs pay on an illiquid farm or business without a fire sale?) has a clean answer: a 15-year IRS lien, like existing estate-tax installment plans. The heir pays out of operating cash flow over fifteen years; a business that genuinely can't service that has a valuation problem, not a liquidity crisis. So the trade is simple — abolish a tax that collects [$20-25 billion a year](https://taxpolicycenter.org/briefing-book/how-many-people-pay-estate-tax) badly, replace it with one that collects three to five times more from the estates that matter. Progressives get more revenue and no escape routes. Conservatives get the repeal they've wanted for a generation. (Though I am cognizant that Conservatives will most likely dust off their “Death Tax” propaganda to oppose this approach.)
 
-A scope note, because precision matters here. The estate tax's historical job was catching wealth the income tax never touched, and that's the job it failed at and the job this framework takes over: tax the appreciation at realization, no step-up, no discount games. Whether inheriting $50 million should *itself* count as income to the recipient (the way a $50 million salary does) is a different question. NYU's Lily Batchelder has made [the rigorous case](https://www.hamiltonproject.org/publication/policy-proposal/leveling-the-playing-field-between-inherited-income-and-income-from-work-through-an-inheritance-tax/) for taxing inheritances as income above a high threshold. This framework is deliberately silent on that question. Nothing here forecloses it, and nothing here requires it.
+A scope note: the estate tax's historical job was catching wealth the income tax never touched, and that's the job it failed at and the job this framework takes over: tax the appreciation at realization, no step-up, no discount games. Whether inheriting $50 million should *itself* count as income to the recipient (the way a $50 million salary does) is a different question. NYU's Lily Batchelder has made [the rigorous case](https://www.hamiltonproject.org/publication/policy-proposal/leveling-the-playing-field-between-inherited-income-and-income-from-work-through-an-inheritance-tax/) for taxing inheritances as income above a high threshold. This framework is deliberately silent on that question. Nothing here forecloses it, and nothing here requires it.
 
 ---
 
@@ -171,9 +156,9 @@ A scope note, because precision matters here. The estate tax's historical job wa
 
 A wealth tax taxes the existence of wealth. This framework taxes the use of wealth. Both worldviews aim at the same target (concentrated economic power), but they diverge on a fundamental question: should the tax system engage with wealth when it sits, or when it acts?
 
-**The mechanism has a poor track record where it's been tried.** Twelve OECD countries levied net wealth taxes in 1990. Today, three remain: Switzerland, Norway, and Spain, and in all three, revenues are low and declining. Most major economies that tried it abandoned it: Austria, Germany, Denmark, the Netherlands, Finland, Iceland, Luxembourg, and Sweden, plus France in 2018. The OECD has documented that wealth taxes "often failed to achieve their redistributive objectives." The surviving European wealth taxes are also structurally different from what's been proposed in the US: Switzerland's cantonal model runs at 0.1-1%, Norway's threshold is roughly $195K and functions more like a broad property-plus-savings tax, and Spain's has been suspended and restored multiple times. None of them is a 2-3% annual tax on concentrated wealth above $50M. There's also a US-specific issue: [Article I's prohibition on direct taxation](https://constitution.congress.gov/browse/article-1/section-9/clause-4/) creates serious constitutional risk that would be litigated for years before a single dollar was collected.
-
 **This framework achieves what a wealth tax aims for, and does it better. It's cheaper to administer, more accurate at valuation, harder to evade, and constitutionally safe.** By making death, gifts, and borrowing realization events, the framework captures wealth at the moments when assets are easiest to value (transaction prices, not annual appraisals) and hardest to hide (documented transactions with third-party reporting). It uses existing IRS infrastructure rather than requiring a new valuation bureaucracy. It's prospective rather than retroactive. It doesn't require Congress to amend the Constitution.
+
+**The wealth tax mechanism has a poor track record where it's been tried.** Twelve OECD countries levied net wealth taxes in 1990. Today, three remain: Switzerland, Norway, and Spain, and in all three, revenues are low and declining. Most major economies that tried it abandoned it: Austria, Germany, Denmark, the Netherlands, Finland, Iceland, Luxembourg, and Sweden, plus France in 2018. The OECD has documented that wealth taxes "often failed to achieve their redistributive objectives." The surviving European wealth taxes are also structurally different from what's been proposed in the US: Switzerland's cantonal model runs at 0.1-1%, Norway's threshold is roughly $195K and functions more like a broad property-plus-savings tax, and Spain's has been suspended and restored multiple times. None of them is a 2-3% annual tax on concentrated wealth above $50M. There's also a US-specific issue: [Article I's prohibition on direct taxation](https://constitution.congress.gov/browse/article-1/section-9/clause-4/) creates serious constitutional risk that would be litigated for years before a single dollar was collected.
 
 **The "perpetual hoarder" objection.** Wealth tax advocates will note that a billionaire who simply holds appreciated assets indefinitely (never selling, never borrowing, never gifting) pays nothing under this framework. That's true. It's also less consequential than it first appears, because untransacted wealth produces no benefit to its holder. Wealth is only economically meaningful when it converts into something. Consumption, transfer to heirs, leverage for new ventures, charitable impact, political influence: these are the *uses* of wealth. None of them are possible without a transaction. And every transaction, by definition, has a market-determined price and a paper trail. The valuation problem that sinks every wealth tax (what is a Picasso, a private company, a piece of farmland actually worth on December 31?) doesn't exist here, because the framework only engages when an asset is actually changing hands. The price is whatever someone paid for it. The audit trail is whatever the bank, the broker, or the title company already has on file. A billion dollars locked in a vault and never touched is functionally indistinguishable from a billion dollars that doesn't exist. The hoarder who genuinely never transacts is a hoarder who got essentially nothing in exchange for being wealthy.
 
@@ -284,30 +269,6 @@ Notice what moves and what doesn't. The $95 million exit pays within 3% of the s
 This gets roughly 10-15% of the way to a sustainable federal budget from a single reform. The federal deficit exceeds $2 trillion annually; closing that gap requires a combination of tax reform, entitlement reform, and spending discipline. Most economists agree that [stabilizing the debt-to-GDP ratio requires deficit reduction on the order of $800 billion to $1 trillion per year](https://www.americanprogress.org/article/what-would-it-take-to-stabilize-the-debt-to-gdp-ratio/). This framework gets roughly 10-15% of the way there.
 
 One important implementation detail: on the day of enactment, everyone's lifetime counter starts at $0. Pre-enactment gains are not retroactively counted. This means investors who anticipate the change will harvest gains before enactment to lock in current rates, which is fine. That pre-enactment selling generates immediate tax revenue on gains that might otherwise have been deferred via stepped-up basis indefinitely. The Treasury benefits either way: from the rush of pre-enactment realizations, or from the new framework's broader base going forward.
-
----
-
-## What This Settles
-
-One way to test whether a reform is structural or cosmetic is to ask: how many ongoing political fights does it settle?
-
-Buy-borrow-die is closed. The most egregious example of perfectly legal tax avoidance.
-
-The billionaire tax debate (whether to tax unrealized gains annually) is resolved by expanding realization events to death, gifts, and borrowing. You don't need mark-to-market accounting. You need to close the exits.
-
-Carried interest (the provision that lets hedge fund managers pay capital gains rates on what is essentially labor income) is rendered mostly moot without a targeted ban. When gains above the exemption are ordinary income anyway, there is no preferential rate to exploit.
-
-The wealth tax debate is settled by offering the same outcome through constitutionally sound and more politically palatable means.
-
-Stepped-up basis, the most valuable provision in the tax code, is eliminated without a separate fight. It falls naturally as a consequence of Rule 3.
-
-The estate tax (which collects a fraction of what it claims to) is replaced with a mechanism that actually collects.
-
-The AMT (which now ensnares millions of upper-middle-class families it was never designed to catch) is repealed.
-
-The NIIT (a 3.8% surtax bolted on to fund the ACA) becomes redundant.
-
-Every one of these is its own ongoing political fight. Every one of them appears regularly in the headlines. They are not separate reforms requiring separate coalitions. They are natural consequences of five rules.
 
 ---
 

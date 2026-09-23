@@ -67,9 +67,11 @@ This endpoint averaging is exact for a linear scale (equivalent to integrating t
 
 ### Rule 3: Expanded Realization Events
 
-Realization happens whenever appreciated wealth changes hands in a way that preserves or transfers its availability for private consumption. Under this principle, four events trigger realization: sale, death, gift to another individual, and borrowing against appreciated assets.
+Gains are realized when the tax ownership of an appreciated asset changes. Three events trigger realization under this principle: **sale**, **gift** (including gifts to qualified charities), and **death**.
 
-**Exception: transfers to qualified charities are not realization events.** The appreciation exits the private economy. See the Charitable Donation Treatment subsection below for mechanics.
+In addition, **leveraging an appreciated asset as collateral** triggers realization. This is not an ownership change; it is a separate anti-deferral rule. The owner is choosing to defer liquidation while still enjoying the benefit of the appreciation, and without this leg the ownership-change principle could be deferred indefinitely while the gain is consumed.
+
+**No charitable exception.** Earlier versions of this spec carved out transfers to qualified 501(c)(3) organizations. That carve-out is removed as of v0.4: a charity is a different tax owner, so a donation of appreciated property is a realization event like any other transfer. See the Charitable Donation Treatment subsection below.
 
 1. **Sale.** (Unchanged from current law.) Sale includes any disposition of appreciated property in exchange for *other property* — a barter sale is a sale. Buying a house with appreciated private stock, or acquiring a company in an all-stock deal, realizes the gain on the property given up, valued at the transaction's agreed price. This is already the rule under existing law (§1001); the only deferral carve-out was §1031 like-kind exchanges, which this framework eliminates (see Interactions table). No new machinery is required, and no appraisal is needed: the counterparty's acceptance sets the price, exactly as the borrowing LTV floor does.
 
@@ -100,17 +102,26 @@ In all cases, gains within remaining exemption headroom are tax-free; gains abov
 
 #### Charitable Donation Treatment
 
-Donations of appreciated assets to qualified 501(c)(3) charities are not realization events. Three mechanical consequences follow:
+**Changed in v0.4.** Donations of appreciated assets to qualified 501(c)(3) charities **are** realization events. A charity is a different tax owner; the transfer is a gift under Rule 3 and is treated as one. Three mechanical consequences follow:
 
-1. **No capital gains tax is owed** on the appreciation at the time of donation.
-2. **The donor's lifetime capital gains counter is not affected.** The donated amount does not consume exemption headroom.
-3. **The income tax deduction is limited to the donor's CPI-adjusted basis**, not the asset's fair market value.
+1. **Capital gains tax is owed** on the appreciation at the time of donation, at the donor's position on the sliding scale.
+2. **The donor's lifetime capital gains counter is increased** by the realized gain, consuming exemption headroom exactly as any other gift would.
+3. **The income tax deduction is the asset's fair market value**, unchanged from current law. Because the gain has now been taxed, the FMV deduction is no longer a double benefit.
 
-**Worked example:** Donor contributes $1,000,000 of appreciated stock with a CPI-adjusted basis of $100,000. Capital gains tax owed: $0. Lifetime counter impact: $0. Charitable income tax deduction: $100,000.
+**Worked example.** Donor contributes $1,000,000 of appreciated stock with a CPI-adjusted basis of $100,000 (gain $900,000).
 
-This differs sharply from current law, under which the donor would receive a $1,000,000 FMV deduction and owe no capital gains tax on the $900,000 of appreciation — a double benefit that the framework eliminates. The asset leaves the private economy; the subsidy the donor receives is tied to the real dollars they originally committed, not the unrealized appreciation.
+| Donor position | Gains tax | FMV deduction value | Net cost of the gift |
+|---|---|---|---|
+| Below the lifetime exemption | $0 | $370,000 (at 37%) | Unchanged from current law |
+| Above the ceiling C (37%) | $333,000 | $370,000 | $37,000 net benefit |
 
-**Scope.** This treatment applies to direct contributions to public charities. Private foundations and donor-advised funds receive the same treatment at the donation stage (no gain recognized, basis-only deduction). Governance issues specific to those vehicles (DAF minimum payout requirements, foundation self-dealing rules, etc.) are addressed in a separate proposal on charitable giving reform and are out of scope for this specification.
+The general result: the net federal subsidy on a charitable gift equals **t × (basis)** — the donor is subsidized on the after-tax dollars actually committed, not on appreciation that was never taxed. Because the gains leg runs on the sliding scale, this basis-alignment **phases in progressively**: a donor still inside the lifetime exemption keeps current-law treatment in full, while a donor above the ceiling receives a subsidy proportional to basis. A zero-basis gift at the top receives no net subsidy at the moment of donation, but still moves roughly $1.59 to charity per $1 of foregone after-tax wealth (versus $3.85 under current law).
+
+This makes appreciated-property giving exactly as subsidized as cash giving by the same donor — 37% of the gift at the top bracket, rather than the current 74%. The framework ends the *double* deduction, not the deduction.
+
+**Scope.** Contributions to private foundations and donor-advised funds are realization events on the same terms — the sponsoring organization is a different tax owner. Governance issues specific to those vehicles (DAF minimum payout requirements, foundation self-dealing rules) remain out of scope for this specification and are addressed in the charitable giving companion proposal.
+
+**Open — deduction vs. credit.** The FMV *deduction* above assumes current income-tax architecture. Under the project's income tax proposal, all deductions are eliminated and charitable giving becomes a 25% credit capped at 3% of tax liability. Pairing realization with a capped credit is a materially different (and far less generous) policy than pairing it with an FMV deduction, and that interaction is unresolved. See `process/open-questions.md`.
 
 ### Rule 4: CPI-Indexed Basis
 
@@ -360,7 +371,7 @@ These are acknowledged areas where the spec is incomplete or where reasonable pe
 6. **MFJ counter architecture.** Two-counter (current spec) vs. single-combined approaches each have edge cases at marriage, divorce, and death. See discussion in Section 3.
 
 *Resolved in v0.3:*
-- ~~Charitable contributions of appreciated assets.~~ Resolved as a Rule 3 exception with basis-only deduction. See Rule 3 → Charitable Donation Treatment.
+- ~~Charitable contributions of appreciated assets.~~ **Superseded in v0.4.** Previously resolved as a Rule 3 *exception* with basis-only deduction; charitable transfers are now ordinary Rule 3 realization events with an FMV deduction. See Rule 3 → Charitable Donation Treatment. The deduction-vs-credit interaction with the income tax proposal remains open.
 
 ---
 

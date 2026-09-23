@@ -30,7 +30,7 @@ Audience: deliberately cross-partisan. The published essays use a "From the righ
 - CPI-indexed basis (Rule 4) — eliminates phantom inflation gains
 - Roth Rule 5 in published essay is **superseded** by Phase 5 USA design
 - Implementation: lifetime counter starts at $0 on enactment; no retroactive counting
-- Charitable transfers: appreciation not realized; deduction (now: credit under Phase 2) aligned with cost basis (UK Gift Aid model)
+- Charitable transfers: **realization events as of Aug 2026** (a charity is a different tax owner). Gain taxed on the sliding scale, counter consumed, FMV deduction retained — net subsidy = rate x basis, phasing in progressively. Deduction-vs-Phase-2-credit interaction open.
 
 **Eliminates.** AMT, NIIT, estate tax, QSBS / Section 1202, Section 121 (home sale exclusion), Section 1031 (like-kind exchanges), stepped-up basis, lifetime gift tax exemption (~$13.6M), carried-interest preference, GRATs and dynasty trusts, Opportunity Zone deferrals, Section 453 installment sales, Section 1256 60/40, the 28% collectibles rate, Section 1244 small business loss treatment.
 
