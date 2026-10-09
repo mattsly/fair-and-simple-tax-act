@@ -347,3 +347,11 @@ Example (10‑year, 4%): avoiding $6T of cumulative borrowing implies roughly **
 
 - **Prop 40 is now genuinely competitive, not a lock.** UC Berkeley IGS poll: 48% support / 41% oppose / 11% undecided. [Berkeley IGS release](https://vcresearch.berkeley.edu/news/california-prop-40-billionaire-tax-holds-lead-new-uc-berkeley-igs-poll), [The Hill](https://thehill.com/homenews/campaign/6033661-prop-40-billionair-tax-poll/).
 - **New this week: the left is visibly splitting on Prop 40.** Fortune (Sept 2) — San Francisco Democrats breaking with the state party over the measure, on design/administrability grounds, not billionaire-funded opposition. [Fortune](https://fortune.com/2026/09/02/san-francisco-democrats-bilionaire-tax-prop-40/). Sergey Brin has personally put $100M+ into the No campaign — useful as the "even the opposition doesn't want to be seen defending billionaires, they're arguing the mechanism instead" detail. Stacks with the LA Times editorial logged last week — two independent left-of-center objections now, both about design (illiquidity, earmarking), not who it targets. Strengthens the October "right villain, wrong weapon" piece's central claim and gives it a live news peg through the Nov 3 vote.
+
+---
+
+## 2026-10-05 — Weekly briefing news scan
+
+- Bloomberg Tax opinion, "The Real Capital Gains Tax Loophole Isn't Borrowing—It's Dying" — same thesis as Buy Save Die (death exit is the main event). Link/cite or respond; confirms hook is live. [Bloomberg Tax](https://news.bloombergtax.com/daily-tax-report/the-real-capital-gains-tax-loophole-isnt-borrowing-its-dying)
+- Prop 40 (CA billionaire tax) vote is Nov 3, ~4 weeks out; NBC poll: voters back it but it falls short of majority; Berkeley IGS earlier 48/41. [NBC](https://www.nbcnews.com/politics/2026-election/california-poll-voters-back-billionaire-tax-proposal-falls-short-major-rcna600354)
+- 24/7 Wall St (Oct 4): $600K home sale taxed as pure profit w/o receipts — minor hook for basis/recordkeeping complexity argument (LGF exemption covers it). 

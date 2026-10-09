@@ -1,0 +1,149 @@
+# Nobody Came to the Table (working title)
+
+**Status:** Draft v1, not ready to publish. See Notes for Matt at bottom.
+**Hook:** California Prop 40 vote, Nov 3, 2026. Calendar-locked; publish by ~Oct 20.
+**Source:** Nicholas Lemann, ["The Battle to Pass a Billionaire Tax,"](https://www.newyorker.com/magazine/2026/10/12/the-battle-to-pass-a-billionaire-tax) *The New Yorker*, Oct 12, 2026 issue.
+**Tenets:** 2 (Fiscal Durability), 3 (Fuel the Climb), 4 (Reward Innovation)
+**Alt titles:** "The Billionaires Had a Seat at the Table. They Ordered a Burrito." / "Right Villain, Wrong Weapon, No Counteroffer" / "Pull Up a Chair"
+**Related:** `dear-tech-bros.md`, `warren-wealth-tax-oped-v7.md`, `lifetime-gains-essay.md` (all published); backlog item #4
+
+---
+
+## California's Prop 40 is the wrong weapon. The billionaires fighting it had every chance to offer a better one, and passed.
+
+Last fall, Tom Steyer made an offer that his billionaire peers apparently didn't want to hear.
+
+A union in California had just started gathering signatures for a ballot initiative: a one-time 5% tax on the net worth of every Californian worth more than a billion dollars. Steyer (hedge fund founder, former presidential candidate, very much a billionaire) went to several of the other super-rich Californians who would owe it and made what sounds like the most reasonable pitch in the world:
+
+> "Look, if you don't like this, why don't we sit down and come up with something that works from your standpoint and actually addresses the issues?"
+
+Their answer, per Steyer in [this week's *New Yorker*](https://www.newyorker.com/magazine/2026/10/12/the-battle-to-pass-a-billionaire-tax): "They had no interest in doing it."
+
+That initiative is now Proposition 40, and Californians vote on it in three weeks. I think it's a bad bill. I also think the way the billionaires have fought it is a bigger mistake than the bill.
+
+## What's on the ballot
+
+The basics, from the *New Yorker* piece:
+
+| | Prop 40 |
+|---|---|
+| Who pays | Californians worth $1B+ (roughly 200 people) |
+| Rate | 5% of net worth, one time, payable over five years |
+| Residency test | Retroactive to January 1, 2026 (so you can't dodge it by moving after it passes) |
+| Projected revenue | ~$100B (the authors' estimate) |
+| Where it goes | 90% to health care, backfilling the ~$1T in federal Medicaid cuts from the One Big Beautiful Bill Act. 14 million Californians are on Medicaid. |
+| Odds | Polls show a slight majority of decided voters in favor. Prediction markets give it ~30%. |
+
+The author is Dave Regan, president of SEIU-UHW, a 120,000-member healthcare union. The drafters are Emmanuel Saez, Gabriel Zucman, and the same crew of law professors who built Elizabeth Warren's wealth tax.
+
+## Right villain, wrong weapon
+
+I've [made this argument before](https://taxrefactor.substack.com/p/senator-warren-is-right-about-the), so I'll keep it short. The diagnosis is correct. The 25 richest Americans paid a [true tax rate of 3.4%](https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax) on their wealth growth over five years. Sergey Brin and Larry Page draw salaries of a dollar a year. Their Alphabet stock is never taxed unless they sell it, and they don't have to sell it, because they can borrow against it. When they die, stepped-up basis erases the gain forever.
+
+But Prop 40 is a patch bolted onto the side of a broken system, and it has all the bugs you'd expect:
+
+- **Valuation.** The California Franchise Tax Board would have to value private companies, partnership stakes, and offshore holding entities for 200 people with the best lawyers on the planet. It has no established way to do this.
+- **Retroactivity.** The January 1, 2026 residency date is what keeps it from being trivially dodged. It's also the most obvious court challenge.
+- **Single state.** Six billionaires have already left (Thiel, Brin, Page, Kalanick and two others). Nevada and Texas are a short flight away.
+- **Weird carve-outs.** Real estate is exempt (so it doesn't collide with Prop 13). And as Katie Porter, who opposes it, put it: someone with $800 million owes nothing. Someone with $1.01 billion owes about $50 million.
+
+If I lived in California, I'd probably vote no. Plenty of Democrats agree with me: Governor Newsom, his likely successor Xavier Becerra, both U.S. senators (who declined to endorse), Katie Porter, and the California Teachers Association. Only 3 of California's 52 House members have endorsed it.
+
+So I'm not here to tell you the billionaires are wrong about Prop 40. I'm here to tell you what they did instead of being right about something else.
+
+## What they did instead
+
+Here's the scorecard, again from the *New Yorker*:
+
+| What they could have done | What they actually did |
+|---|---|
+| Take Steyer's meeting | "No interest" |
+| Negotiate with Regan before the June withdrawal deadline | A Signal chat (Brin, Andreessen, Moritz, Ripple's Chris Larsen) that floated **buying Regan's signature-gathering firm** |
+| Fund a better-designed alternative | **$102 million** from Brin alone to Building a Better California, plus millions from Schmidt, Doerr, and Moritz |
+| Put a counter-proposal on the ballot | Props 41 and 42: an audit measure and a "protect your retirement savings" measure, each carrying a poison pill to void Prop 40. One of Prop 40's authors called them "an anti-billionaire-tax burrito." |
+| Make the case on the merits | Ads built on a Hoover Institution study projecting that Prop 40 *loses* $25B. And when Ro Khanna backed the tax, tech money (Garry Tan, Ron Conway) backed a challenger against him. (Khanna won easily.) |
+
+Here's what makes this so maddening: **the deal was available.** Regan has sponsored 38 successful initiatives in ten years, and one of his critics' standard complaints is that he uses them as bargaining chips. *This year* he withdrew a measure capping hospital executive pay in exchange for a concession from the California Hospital Association. He took out full-page ads offering to cut Prop 40 from 5% to 2%. Newsom says he favors a *national* billionaire tax instead.
+
+The guy across the table is literally known for taking deals. The only compromise offers on record came from the union. The billionaires' counteroffer was a burrito.
+
+## The billionaire who had a solution in his pocket
+
+Bill Ackman has been one of Prop 40's louder opponents, calling wealth taxes [expropriation](https://x.com/BillAckman/status/2005710812359622840).
+
+Fair enough. But in August 2024, Ackman [proposed something genuinely good](https://x.com/BillAckman/status/1826361874654658880): if you borrow against stock in excess of your basis, that loan should be taxed as if you'd sold a like amount of stock. That's the core of closing buy-borrow-die. It's almost exactly the mechanism in Senator Gallego's bill, and in [Rule 3 of the Lifetime Gains Framework](https://taxrefactor.substack.com/p/the-lifetime-gains-framework).
+
+So one of the most prominent anti-Prop 40 billionaires has *already written down a version of the answer*. And during the one political fight where it would have mattered most, it stayed in his pocket.
+
+## "Yeah, but..."
+
+Let me give the billionaires their best case, because it's better than "they're greedy."
+
+**It's a collective action problem.** There are ~200 of them. The first one who sits down with Steyer concedes, on behalf of all of them, that billionaires should pay more. Nobody wants to be that guy.
+
+**They're winning.** Prediction markets say 30%. When you can kill a bill with $102 million (about 0.1% of the $100B it would raise), why negotiate?
+
+**There's no table at the state level.** The real fix (taxing gains at death) is federal. California can't legislate it alone.
+
+All true. And all short-sighted.
+
+The counteroffer never had to be a California bill. It could have been a public commitment: *we oppose Prop 40, and we're putting $102 million behind ending stepped-up basis in Washington instead.* Newsom has already said he'd prefer a national approach. That's a press conference, not a constitutional amendment.
+
+And "we're winning" is how you lose. Prop 40 is the first billionaire wealth tax to reach voters anywhere in the world, and it's polling roughly even *in its first attempt*. Saez told the *New Yorker* that for a national tax, "five per cent a year is what I would call a small, reasonable package." Sanders and Khanna already have a bill for exactly that. Anthropic and OpenAI will go public before 2028, minting a new class of very visible billionaires right as the public turns on AI. A Democratic consultant working *against* Prop 40 predicts a "raise-your-hand moment" at the 2028 primary debates.
+
+David Sacks [said it best](https://x.com/DavidSacks/status/2004992516303839258), though he meant it as a warning: "It's not a one time, it's a first time."
+
+He's right. So let's do the math on the next time.
+
+## The math on the deal they should want
+
+Take a founder with $10 billion in stock and a basis of roughly zero (very typical for a founder).
+
+| Policy | What the founder pays | When |
+|---|---|---|
+| Current law | $0 income tax, ever. Estate tax is 40% on paper, but well-planned estates pay closer to 10–15%. | At death, maybe |
+| Prop 40 | ~$500M (5% of $10B) | Over 5 years, whether or not anything was sold |
+| Sanders-Khanna national wealth tax (5%/yr) | ~$500M **per year** | Every year, forever, on an appraised value |
+| Lifetime Gains Framework | ~$3.7B (first $2M exempt, $740K across the phase-in, 37% on the rest) | When they sell, gift, borrow against it, or die |
+
+I want to be honest about this: **the Lifetime Gains Framework is not a discount.** Over a lifetime, it collects about 7x more from this founder than Prop 40 does. If you're a billionaire reading this and hoping I'm on your side, I'm not.
+
+But look at what you get in return:
+
+- **No appraisals.** You pay on real transactions, at prices you agreed to. No state agency guessing what your Series F preferred is worth.
+- **No liquidity crunch.** You never have to sell stock to pay a tax on stock you didn't sell (the exact "destroy tech" scenario Garry Tan is worried about).
+- **No moving trucks.** It's federal. Nevada doesn't help you.
+- **No retroactivity.** Everyone's lifetime counter starts at $0 on enactment.
+- **No estate tax, no AMT, no NIIT.** Gone.
+
+And compare it to the next time: a 5% annual wealth tax takes about 7.4 years to cost you as much as the LGF would over your whole life, and it never stops. ($3.7B ÷ $500M/yr.) The LGF is the deal a rational billionaire should be *begging* for before 2028. Instead, they're spending nine figures to make sure nobody ever has to talk about it.
+
+## Not one solution
+
+Mark Cuban (not a Californian, but a fierce Prop 40 critic) gave the *New Yorker* the best quote in the piece:
+
+> "Our politicians have stopped trying to solve problems... Not one fucking solution is offered from either side. They just stick to their ideology and do their best to demonize someone."
+
+Mark, I agree with you! And to his credit, Cuban is one of the few rich guys who's actually [gotten in the arena](./dear-tech-bros.md) on capital gains policy.
+
+But read that quote again and picture the other side of the Prop 40 fight. A union president put a specific proposal on the ballot, then publicly offered to cut it by 60%. A billionaire asked his peers to sit down and design something better. On the other side: a Signal chat about buying a signature-gathering firm, $102 million in ads, and two poison-pill burritos.
+
+Only one side came to the table with nothing.
+
+The table is still there. Steyer is presumably still sitting at it. Every month it stays empty, the seat at the head gets taken by someone who thinks, in the words of a Patriotic Millionaires member quoted in the piece, that "the most important reason to tax the ultra-rich is to make them less rich."
+
+Pull up a chair, guys. It won't stay open forever.
+
+---
+
+## Notes for Matt
+
+1. **Your Prop 40 vote stance.** I wrote "If I lived in California, I'd probably vote no." That follows from the Warren op-ed, but it's your call. The alternative ("I'd hold my nose and vote yes, because the alternative is nothing") is a real option and a more surprising piece. Pick one; readers will ask.
+2. **Prop 40 rate base.** The article says "5% wealth tax on billionaires." I've written "5% of net worth" (full value, not just the amount above $1B), which is how Porter's critique reads. Verify against the measure text before publishing. If it's above-$1B only, Porter's cliff example and the $50M figure change.
+3. **LGF $3.7B math.** 37% × ($10B − $6M) + $740K ≈ $3.698B. Uses the published 37% peg. At a 43–47% Pin rate it's ~$4.3–4.7B. The "7x Prop 40" and "7.4 years" figures move with it.
+4. **Sanders-Khanna bill.** The article says they "co-sponsored a bill" for a national 5% billionaire tax (Khanna: $400B/yr). I don't have the bill number. Add a link.
+5. **Ackman links** are from `research.md` (Aug 2024 proposal; Dec 2025 expropriation post re Prop 40). Confirm the Dec 2025 post is specifically about Prop 40.
+6. **Sacks quote** ("not a one time, it's a first time") is reused from `dear-tech-bros.md`. Fine as a callback, but confirm it was about the CA measure.
+7. **Possible conflict in a published essay:** `dear-tech-bros.md` describes California as "moving toward a 5% wealth tax on net worth over $50M" (2024 CNBC link). Prop 40's threshold is $1B. Not changing the published essay; flagging in case you want an erratum.
+8. **Jensen Huang** reportedly said he's "perfectly fine with" Prop 40 (Wikipedia, unverified). The *New Yorker* calls Steyer "the only known billionaire supporter." Left Huang out. If verified, he strengthens the "it was possible to engage" point.
+9. **Length:** ~1,750 words. The "What's on the ballot" table and the "Right villain" section could be cut further if you want this to land as a tight op-ed (Globe/WSJ). That also argues for pitching a ~900-word version before Nov 3.
