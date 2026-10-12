@@ -55,6 +55,8 @@ These rules are constant regardless of register. They define the voice.
 - Don't use "utilize," "leverage" (as a verb), "impactful," "holistic," or any corporate/consulting language
 - Don't over-summarize or repeat points. Trust the reader
 - Don't hedge every sentence — pick your moments of uncertainty and own them
+- Don't use sweeping, grandiose generalizations or cliches.
+- Don't try to be too clever or gimmicky.
 
 -----
 
