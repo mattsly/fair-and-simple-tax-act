@@ -26,7 +26,7 @@ heuristics we've learned for *how* to design toward them, and how we work.
 
 ## Ways of working
 
-- **Source of truth is this repo.** Published essays win on numbers and design choices; `decisions-log.md` / `open-questions.md` / `backlog.md` / `pending.md` govern everything else (rules in `../README.md` and the Claude Project instructions, whose canonical copy is `claude-project-instructions.md`). Claude Project knowledge and memory are views, never a second copy.
+- **Source of truth is this repo.** Published essays win on numbers and design choices; `decisions-log.md` / `open-questions.md` / `backlog.md` / `pending.md` govern everything else (rules in `../README.md` and the Claude Project instructions, which live only in the claude.ai Project settings). Claude Project knowledge and memory are views, never a second copy.
 - **Show the math.** Every number in an essay should be reproducible from stated inputs. Matt has caught real errors this way (buy-borrow-die estate tax caveat, the AMT-to-estate-tax causal chain, a CPI adjustment, the "deduction worth nothing" accounting artifact).
 - **Verify citations before publishing.** Flag unverified cites inline ("*verify before publishing*").
 - **Flag scope creep.** Recurring pattern: new essay ideas outpace execution. Park new ideas in `backlog.md` (Idea backlog) rather than starting them; the capital-stack scope decision (2026-07-23) governs what's active.

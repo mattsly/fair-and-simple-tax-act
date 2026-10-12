@@ -7,3 +7,6 @@ _site/
 
 # Generated Substack exports (rebuild anytime with `make substack`)
 internal/substack-exports/
+# Claude staging folder for files awaiting deletion, and editor backups
+_to_delete/
+*.bak
