@@ -10,3 +10,4 @@ Old material kept in git for reference. Nothing here is the current proposal. If
 - **future-essays-superseded.md** — Old essay backlog. Replaced by `process/backlog.md`.
 - **TODO-superseded.md** — Older essay backlog from the repo root. Same content as `future-essays-superseded.md` with some drift; both folded into `process/backlog.md`.
 - **shared-tenets-superseded.md** — A "Shared Design Tenets" document that never got referenced anywhere. The canonical tenets now live in `process/tenets.md`.
+- **claude-project-handoff-2026-10.md** — Handoff compiled Oct 12, 2026 when the separate "Chat" and "CoWork" Claude projects were merged. Compiled from chat memory, so several facts were already stale ($1.5M exemption, "ARA/AOA" accounts, "Just Launch USAs" listed as published). Durable content folded into `process/design-principles.md`, `process/open-questions.md`, and `process/backlog.md`.

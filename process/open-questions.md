@@ -109,3 +109,22 @@ The published spec deems the full unrealized gain on *pledged collateral* realiz
 
 ### Rule 3 borrowing: primary residences and exemption-burning (added 2026-07-23)
 Under a universal borrowing rule, ordinary transactions consume lifetime exemption room: a $200K cash-out refi on an appreciated home = $200K of deemed gain at 0% tax but −10% of a $2M lifetime exemption. Politically demagoguable ("the government tracks your mortgage") and distributionally real for long-tenure homeowners in appreciated markets. Note the published spec already zeroes purchase-money mortgages (no gain in collateral), so this bites only equity extraction from appreciated homes. **Candidate answers:** a §121-style primary-residence carve-out for borrowing only (sales/death still count); a de minimis annual borrowing floor; or a principled defense that room-burning is correct (equity extraction *is* consumption of unrealized gains) paired with the observation that the $2M exemption absorbs typical homeowner extraction many times over. Interacts with the measurement-rule question above (loan-amount measurement shrinks the burn). Needs distributional back-of-envelope before deciding.
+
+## Folded in from the Oct 2026 Claude project merge
+
+*Policy questions that lived only in the old chat project. Added 2026-10-12.*
+
+### Small-business lifetime capital gains exemption (shops, restaurants)
+Matt has considered a dedicated lifetime exemption for small shop/restaurant owners alongside killing §1031 and stepped-up basis. **Tension:** LGF already gives everyone a $2M ($4M MFJ) lifetime exemption, and the "redundant windfall" argument used against QSBS cuts equally against a second carve-out here. Lean (Claude's, not decided): out, unless a worked example shows a typical owner's exit gain materially exceeds the $2M/$4M exemption.
+
+### Pair savings reform with Social Security restructuring?
+Should the USA be paired with unbundling disability (SSDI) from retirement in Social Security? Research stage. Related: the USA-withdrawals-vs-SS-benefit-taxation item above.
+
+### Health care: ESI exclusion / HSA consolidation
+Healthcare is formally out of scope (decisions-log), but the USA already absorbs HSAs and §213(d) medical withdrawals. Research in progress on the ~$300B/yr ESI exclusion; no position written. Connects to the "deconstruct employer benefits" idea.
+
+### VAT as a corporate tax replacement
+Explored, not decided. Corporate tax is out of scope (decisions-log); this is the natural content of the "corporate tax from the left" / corporate scope-out companion essays.
+
+### Storefront vacancy pricing
+An externality-based local vacancy charge (tested against Jamaica Plain Centre/South St vacancies). Complementary local measure or out of scope? Scope discipline says out: it's municipal, not federal.
